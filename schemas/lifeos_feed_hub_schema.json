@@ -1,0 +1,184 @@
+{
+  "system": "LifeOS_v3.0",
+  "hub_workbook": {
+    "name": "LifeOS_feed_hub",
+    "glyph": "\ud83e\udde0",
+    "spreadsheet_id": "{{HUB_SHEET_ID}}",
+    "control_folder_id": "{{CONTROL_FOLDER_ID}}",
+    "tabs": {
+      "SIGNAL_BUS": {
+        "columns": [
+          "Signal_Key",
+          "Source_Brick",
+          "Glyph",
+          "Cadence_Tier",
+          "Raw_Value",
+          "Normalized_Score",
+          "State_Flag",
+          "Last_Updated",
+          "TTL_Hours",
+          "Age_Hours",
+          "Freshness_Status",
+          "Active_Value",
+          "Active_Flag"
+        ],
+        "ttl_policy": "Signals exceeding TTL_Hours transition to STALE and output blank Active_Value.",
+        "registered_signals": [
+          {
+            "signal_key": "SYS.HEARTBEAT",
+            "source_brick": "LifeOS_feed_hub",
+            "glyph": "\ud83e\udde0",
+            "cadence_tier": "System",
+            "ttl_hours": 8760
+          },
+          {
+            "signal_key": "DAILY.ENERGY_LEVEL",
+            "source_brick": "Daily_State_Pulse",
+            "glyph": "\u26a1",
+            "cadence_tier": "Daily",
+            "ttl_hours": 24
+          },
+          {
+            "signal_key": "DAILY.STRESS_LOAD",
+            "source_brick": "Daily_State_Pulse",
+            "glyph": "\u26a1",
+            "cadence_tier": "Daily",
+            "ttl_hours": 24
+          },
+          {
+            "signal_key": "DAILY.COGNITIVE_CLARITY",
+            "source_brick": "Daily_State_Pulse",
+            "glyph": "\u26a1",
+            "cadence_tier": "Daily",
+            "ttl_hours": 24
+          },
+          {
+            "signal_key": "DAILY.MOOD_VALENCE",
+            "source_brick": "Daily_State_Pulse",
+            "glyph": "\u26a1",
+            "cadence_tier": "Daily",
+            "ttl_hours": 24
+          },
+          {
+            "signal_key": "DAILY.ACUTE_TRIGGER",
+            "source_brick": "Daily_State_Pulse",
+            "glyph": "\u26a1",
+            "cadence_tier": "Daily",
+            "ttl_hours": 24
+          },
+          {
+            "signal_key": "WEEKLY.MASLOW_STABILITY",
+            "source_brick": "Weekly_Maslow_Pulse",
+            "glyph": "\ud83d\uddfb",
+            "cadence_tier": "Weekly",
+            "ttl_hours": 168
+          },
+          {
+            "signal_key": "WEEKLY.MASLOW_BOTTLENECK",
+            "source_brick": "Weekly_Maslow_Pulse",
+            "glyph": "\ud83d\uddfb",
+            "cadence_tier": "Weekly",
+            "ttl_hours": 168
+          },
+          {
+            "signal_key": "NATAL.ZODIAC_VECTOR",
+            "source_brick": "Zodiac_Brick",
+            "glyph": "\u2648",
+            "cadence_tier": "Immutable",
+            "ttl_hours": 8760
+          },
+          {
+            "signal_key": "NATAL.HD_STRATEGY_STATE",
+            "source_brick": "Human_Design_Brick",
+            "glyph": "\ud83d\uddec",
+            "cadence_tier": "Immutable",
+            "ttl_hours": 8760
+          },
+          {
+            "signal_key": "PSYCH.TEMPERAMENT_DOMINANT",
+            "source_brick": "Four_Temperaments_Brick",
+            "glyph": "\ud83c\udfad",
+            "cadence_tier": "Monthly/Ad-Hoc",
+            "ttl_hours": 720
+          },
+          {
+            "signal_key": "PSYCH.STRESS_INDEX",
+            "source_brick": "Dynamic_Stress_Brick",
+            "glyph": "\u201d",
+            "cadence_tier": "Monthly/Ad-Hoc",
+            "ttl_hours": 720
+          }
+        ]
+      },
+      "MODULE_REGISTRY": {
+        "columns": [
+          "Brick_ID",
+          "Brick_Name",
+          "Glyph",
+          "Domain_Pillar",
+          "Cadence_Tier",
+          "Status",
+          "Storage_Location",
+          "Signals_Published",
+          "Context_Subscribed",
+          "Last_Sync"
+        ]
+      },
+      "RULES_ENGINE": {
+        "columns": [
+          "Rule_ID",
+          "Rule_Name",
+          "Target_Signal_Key",
+          "Operator",
+          "Threshold",
+          "Live_Signal_Value",
+          "Live_Freshness",
+          "Rule_Status",
+          "System_Directive_Modifier"
+        ],
+        "rules": [
+          {
+            "rule_id": "RULE_01",
+            "rule_name": "Projector Energy Conservation Guard",
+            "target_signal_key": "DAILY.ENERGY_LEVEL",
+            "operator": "<",
+            "threshold": 40,
+            "directive": "SHIFT_TO_PROJECTOR_REST_AND_LOW_FRICTION_TASKS"
+          },
+          {
+            "rule_id": "RULE_02",
+            "rule_name": "Acute Allostatic Stress Override",
+            "target_signal_key": "DAILY.STRESS_LOAD",
+            "operator": ">",
+            "threshold": 75,
+            "directive": "ENGAGE_DEESCALATION_AND_SCOPE_REDUCTION"
+          },
+          {
+            "rule_id": "RULE_03",
+            "rule_name": "Maslow Base Stability Floor",
+            "target_signal_key": "WEEKLY.MASLOW_STABILITY",
+            "operator": "<",
+            "threshold": 50,
+            "directive": "PRIORITIZE_BASE_STABILITY_BEFORE_EXPANSION"
+          },
+          {
+            "rule_id": "RULE_04",
+            "rule_name": "High-Clarity Deep Work Window",
+            "target_signal_key": "DAILY.COGNITIVE_CLARITY",
+            "operator": ">",
+            "threshold": 75,
+            "directive": "UNLOCK_HIGH_LEVERAGE_ARCHITECTURAL_EXECUTION"
+          },
+          {
+            "rule_id": "RULE_05",
+            "rule_name": "Chronic Stress Calibration Alert",
+            "target_signal_key": "PSYCH.STRESS_INDEX",
+            "operator": ">",
+            "threshold": 70,
+            "directive": "ENFORCE_RECOVERY_PROTOCOL_ACROSS_ALL_BRICKS"
+          }
+        ]
+      }
+    }
+  }
+}
