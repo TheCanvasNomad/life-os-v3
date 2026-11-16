@@ -1,0 +1,26 @@
+{
+  "system": "LifeOS v3.0",
+  "brick_name": "Four_Temperaments_Brick",
+  "glyph": "\ud83c\udfad",
+  "workbook_placeholder": "{{FOUR_TEMPERAMENTS_BRICK_ID}}",
+  "hub_placeholder": "{{LIFEOS_FEED_HUB_ID}}",
+  "cadence": "Monthly / Ad-Hoc Recalibration (TTL: 720 Hours)",
+  "tabs": [
+    "TEMPERAMENT_ASSESSMENT",
+    "ADVISORY_MATRIX",
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT"
+  ],
+  "signals_published": [
+    "TEMPERAMENT_EQUILIBRIUM",
+    "CHOLERIC_DRIVE_INDEX",
+    "MELANCHOLIC_PRECISION_INDEX"
+  ],
+  "tier_2_stat_modifiers": {
+    "HP_Vitality": "Choleric Drive Factor",
+    "Mana_Focus": "Melancholic Precision Factor",
+    "Stamina_Recovery": "Phlegmatic Calm Factor",
+    "Coherence_Alignment": "Sanguine Adaptability Factor"
+  }
+}
