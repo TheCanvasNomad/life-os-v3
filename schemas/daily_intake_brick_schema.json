@@ -1,0 +1,26 @@
+{
+  "system": "LifeOS v3.0",
+  "brick_name": "Daily_Intake_Brick",
+  "glyph": "\ud83e\udded",
+  "workbook_placeholder": "{{DAILY_INTAKE_BRICK_ID}}",
+  "hub_placeholder": "{{LIFEOS_FEED_HUB_ID}}",
+  "cadence": "Daily (Multi-Branch: AM Primer, PM Autopsy, Activity/Flow, Vice)",
+  "connector_tabs": [
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT"
+  ],
+  "signals_published": [
+    "DAILY_ENERGY",
+    "DAILY_MOOD",
+    "ACUTE_STRESS",
+    "FLOW_COHERENCE",
+    "KABBALAH_BALANCE"
+  ],
+  "xp_routing": {
+    "check_in": "10 XP -> Yesod & Malkuth",
+    "am_primer": "30 XP -> Keter & Tiferet",
+    "grit_finished": "30 XP -> Gevurah & Netzach",
+    "flow_activity": "50 XP -> Chokhmah, Binah & Chesed"
+  }
+}
