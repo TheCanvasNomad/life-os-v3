@@ -1,0 +1,25 @@
+{
+  "system": "LifeOS v3.0",
+  "brick_name": "Dynamic_Stress_Brick",
+  "glyph": "\ud83c\udf21\ufe0f",
+  "workbook_placeholder": "{{DYNAMIC_STRESS_BRICK_ID}}",
+  "hub_placeholder": "{{LIFEOS_FEED_HUB_ID}}",
+  "cadence": "Monthly / Ad-Hoc Diagnostic + Real-Time Pass-2 Strain Synthesis",
+  "tabs": [
+    "STRESS_ASSESSMENT",
+    "ADVISORY_MATRIX",
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT"
+  ],
+  "signals_published": [
+    "STRESS_ALLOSTATIC_LOAD",
+    "SOMATIC_RECOVERY_CAPACITY",
+    "CONTEXT_ADJUSTED_STRAIN"
+  ],
+  "two_pass_architecture": {
+    "pass_1": "14-item closed-loop diagnostic (Cognitive Overload, Operational Pressure, Somatic Tension, Reverse-Scored Autonomy & Recovery)",
+    "pass_2": "CONTEXT_ADJUSTED_STRAIN synthesizes Pass-1 raw load with upstream SIGNAL_BUS DAILY_ENERGY, ACUTE_STRESS, and MASLOW_SURVIVAL"
+  },
+  "tier_3_stat_modifiers": "RULES_ENGINE!E33:E36 (HP_Vitality, Mana_Focus, Stamina_Recovery, Coherence_Alignment)"
+}
