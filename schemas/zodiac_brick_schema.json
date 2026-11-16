@@ -1,0 +1,28 @@
+{
+  "system": "LifeOS v3.0",
+  "brick_name": "Zodiac_Brick",
+  "glyph": "\u2648",
+  "workbook_placeholder": "{{ZODIAC_BRICK_ID}}",
+  "hub_placeholder": "{{LIFEOS_FEED_HUB_ID}}",
+  "cadence": "Immutable Natal Blueprint + Live Daily Transit Telemetry (TTL: 24h)",
+  "tabs": [
+    "MODULE_META",
+    "CONTEXT_IN",
+    "NATAL_BLUEPRINT",
+    "TRANSIT_RADAR",
+    "ADVISORY_MATRIX",
+    "SIGNALS_OUT"
+  ],
+  "signals_published": [
+    "ZODIAC_ALIGNMENT",
+    "SOLAR_MOMENTUM",
+    "LUNAR_REGULATION"
+  ],
+  "context_subscribed": [
+    "DAILY_ENERGY",
+    "DAILY_MOOD",
+    "ACUTE_STRESS",
+    "MASLOW_SURVIVAL"
+  ],
+  "dynamic_advisory_rule": "INDEX/MATCH(Planetary_Dimension x Live_SIGNAL_BUS_State)"
+}
