@@ -1,0 +1,25 @@
+{
+  "brick_name": "Enneagram_Tritype_Engine",
+  "glyph": "\ud83d\udd2f",
+  "spreadsheet_id": "{{ENNEAGRAM_BRICK_ID}}",
+  "hub_id": "{{LIFEOS_FEED_HUB_ID}}",
+  "live_engine_source": "Enneagram_Scoring_Engine!B6:I17",
+  "connector_tabs": [
+    "\ud83e\udded DYNAMIC_ADVISORY",
+    "\ud83d\udccb MODULE_META",
+    "\ud83d\udce5 CONTEXT_IN",
+    "\ud83d\udce4 SIGNALS_OUT"
+  ],
+  "signals_published": [
+    "ENN_CORE_SIGNATURE",
+    "ENN_INTEGRATION_INDEX",
+    "ENN_DISINTEGRATION_RISK"
+  ],
+  "context_subscribed": [
+    "VITAL_HP",
+    "VITAL_MANA",
+    "VITAL_STAMINA",
+    "VITAL_COHERENCE",
+    "MBTI_SHADOW_RISK"
+  ]
+}
