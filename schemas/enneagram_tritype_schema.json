@@ -4,27 +4,8 @@
   "spreadsheet_id": "{{ENNEAGRAM_BRICK_ID}}",
   "hub_id": "{{LIFEOS_FEED_HUB_ID}}",
   "live_engine_source": "Enneagram_Scoring_Engine!B6:I17",
-  "unified_tabs": [
-    "\ud83e\udded DYNAMIC_ADVISORY",
-    "Enneagram_Dashboard",
-    "Enneagram_Scoring_Engine",
-    "Instinct_Subtypes_Telemetry",
-    "Longitudinal_Timeline",
-    "LifeOS_Psychometric_Bridge",
-    "MBTI_Bridge",
-    "Pillar1_Unconscious_Triad",
-    "Pillar2_Cognitive_Levels",
-    "Pillar3_Psychometric_Auditor",
-    "Pillar4_Social_Dynamics",
-    "Pillar5_DeFixation_Engine",
-    "\ud83d\udccb MODULE_META",
-    "\ud83d\udce5 CONTEXT_IN",
-    "\ud83d\udce4 SIGNALS_OUT",
-    "Form Responses 1",
-    "Enneagram Personalities",
-    "MBTI_Raw_Ingest",
-    "Subject"
-  ],
+  "reference_vault_tab": "Enneagram Personalities!A1:I10",
+  "hub_bridge_tab": "MBTI_Raw_Ingest!A1:F4",
   "signals_published": [
     "ENN_CORE_SIGNATURE",
     "ENN_INTEGRATION_INDEX",
@@ -35,7 +16,8 @@
     "VITAL_MANA",
     "VITAL_STAMINA",
     "VITAL_COHERENCE",
-    "MBTI_SHADOW_RISK",
-    "MBTI_COHERENCE_INDEX"
+    "MBTI_TYPE_CODE",
+    "MBTI_COHERENCE_INDEX",
+    "MBTI_SHADOW_RISK"
   ]
 }
