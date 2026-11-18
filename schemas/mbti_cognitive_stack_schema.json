@@ -1,0 +1,25 @@
+{
+  "brick_name": "MBTI_Cognitive_Stack",
+  "glyph": "\ud83e\udde9",
+  "spreadsheet_id": "{{MBTI_BRICK_ID}}",
+  "hub_id": "{{LIFEOS_FEED_HUB_ID}}",
+  "live_engine_sources": [
+    "Timeline_Snapshots!I4",
+    "Individuation_Roadmap!E4",
+    "Shadow_Grip_Audit!E4",
+    "Midline_Proximity_Gauge!E4"
+  ],
+  "reference_vault_tab": "Myers-Briggs Type Indicator Overview!A1:H17",
+  "signals_published": [
+    "MBTI_TYPE_CODE",
+    "MBTI_COHERENCE_INDEX",
+    "MBTI_SHADOW_RISK"
+  ],
+  "context_subscribed": [
+    "VITAL_HP",
+    "VITAL_MANA",
+    "VITAL_STAMINA",
+    "VITAL_COHERENCE",
+    "ENN_DISINTEGRATION_RISK"
+  ]
+}
