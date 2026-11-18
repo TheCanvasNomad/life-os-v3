@@ -3,6 +3,8 @@
   "glyph": "\ud83e\udde9",
   "spreadsheet_id": "{{MBTI_BRICK_ID}}",
   "hub_id": "{{LIFEOS_FEED_HUB_ID}}",
+  "executive_hud_tab": "\ud83d\udcca MBTI_Dashboard",
+  "dynamic_advisory_tab": "\ud83e\udded DYNAMIC_ADVISORY",
   "live_engine_sources": [
     "Scoring_Engine!A2:N",
     "Legacy_Archive!A4:I10",
