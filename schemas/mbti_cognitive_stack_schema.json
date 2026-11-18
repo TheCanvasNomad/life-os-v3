@@ -4,11 +4,14 @@
   "spreadsheet_id": "{{MBTI_BRICK_ID}}",
   "hub_id": "{{LIFEOS_FEED_HUB_ID}}",
   "live_engine_sources": [
+    "Scoring_Engine!A2:N",
+    "Legacy_Archive!A4:I10",
+    "Overall_Averages!A4:H12",
     "Timeline_Snapshots!I4",
     "Individuation_Roadmap!E4",
-    "Shadow_Grip_Audit!E4",
-    "Midline_Proximity_Gauge!E4"
+    "Shadow_Grip_Audit!E4"
   ],
+  "hardware_software_bridge": "OCEAN_Bridge!A2:J12",
   "reference_vault_tab": "Myers-Briggs Type Indicator Overview!A1:H17",
   "signals_published": [
     "MBTI_TYPE_CODE",
