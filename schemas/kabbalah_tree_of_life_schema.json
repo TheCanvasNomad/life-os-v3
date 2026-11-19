@@ -6,12 +6,9 @@
   "executive_hud_tab": "\ud83c\udf33 KABBALAH_DASHBOARD",
   "glyph_tab": "Tree_of_Life_Glyph",
   "dynamic_advisory_tab": "\ud83e\udded DYNAMIC_ADVISORY",
-  "unified_engines": [
-    "Sefirot_10_&_Daat!A3:J14",
-    "Pillars_Triads_&_Worlds!A4:G13",
-    "22_Connecting_Paths!A4:J26",
-    "Kabbalah_Gamification_Bus!A1:G8",
-    "Longitudinal_Analytics!A3:J14"
+  "hub_mirror_tabs": [
+    "LifeOS_Feed_Hub",
+    "Master_Bus_Mirror"
   ],
   "signals_published": [
     "KAB_EFFECTIVE_QUALITY",
@@ -25,6 +22,7 @@
     "VITAL_MANA",
     "VITAL_STAMINA",
     "VITAL_COHERENCE",
+    "STRESS_LOAD_INDEX",
     "MBTI_SHADOW_RISK",
     "ENN_DISINTEGRATION_RISK"
   ]
