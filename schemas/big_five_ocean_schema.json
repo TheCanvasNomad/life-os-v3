@@ -1,0 +1,33 @@
+{
+  "brick_name": "Big_Five_OCEAN",
+  "glyph": "\ud83e\uddec",
+  "spreadsheet_id": "{{BIG_FIVE_OCEAN_BRICK_ID}}",
+  "hub_id": "{{LIFEOS_FEED_HUB_ID}}",
+  "executive_hud_tab": "Executive_Dashboard",
+  "dynamic_advisory_tab": "\ud83e\udded DYNAMIC_ADVISORY",
+  "live_engine_sources": [
+    "Executive_Dashboard!A5:J10",
+    "Biological_Meta_Traits!A1:H4",
+    "Dynamic_Scaffolding!A1:J6",
+    "Rolling_Baselines!A1:H10",
+    "Longitudinal_Milestones!A1:K13",
+    "Lifespan_Maturation!A1:H6"
+  ],
+  "signals_published": [
+    "OCEAN_OPENNESS",
+    "OCEAN_CONSCIENTIOUSNESS",
+    "OCEAN_EXTRAVERSION",
+    "OCEAN_AGREEABLENESS",
+    "OCEAN_NEUROTICISM",
+    "OCEAN_PLASTICITY_BETA",
+    "OCEAN_STABILITY_ALPHA"
+  ],
+  "context_subscribed": [
+    "VITAL_HP",
+    "VITAL_MANA",
+    "VITAL_STAMINA",
+    "VITAL_COHERENCE",
+    "MBTI_TYPE_CODE",
+    "MBTI_SHADOW_RISK"
+  ]
+}
