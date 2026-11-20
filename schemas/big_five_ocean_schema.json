@@ -5,14 +5,7 @@
   "hub_id": "{{LIFEOS_FEED_HUB_ID}}",
   "executive_hud_tab": "Executive_Dashboard",
   "dynamic_advisory_tab": "\ud83e\udded DYNAMIC_ADVISORY",
-  "live_engine_sources": [
-    "Executive_Dashboard!A5:J10",
-    "Biological_Meta_Traits!A1:H4",
-    "Dynamic_Scaffolding!A1:J6",
-    "Rolling_Baselines!A1:H10",
-    "Longitudinal_Milestones!A1:K13",
-    "Lifespan_Maturation!A1:H6"
-  ],
+  "design_standard": "100% Universal & Stat-Driven (zero user-specific hardcoding; KPI cards & scaffolding resolve dynamically from MAX/MIN percentiles and Taxonomy_Matrix)",
   "signals_published": [
     "OCEAN_OPENNESS",
     "OCEAN_CONSCIENTIOUSNESS",
