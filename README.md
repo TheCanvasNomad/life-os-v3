@@ -1,6 +1,6 @@
 # 🧠 LifeOS v3.0 — Sovereign Personal Telemetry & RPG Engine
 
-> Automated Hub-and-Spoke Personal Operating System built on Google Sheets, Google Forms, Apps Script, and Google Colab.
+> Universal, stat-driven Hub-and-Spoke Personal Operating System built on Google Sheets, Google Forms, Apps Script, and Google Colab.
 
 ## 🧩 Active Lego Brick Registry
 
@@ -11,7 +11,7 @@
 | `MBTI_Cognitive_Stack` | 🧩 | I - Subjective (Cognitive Stack & Shadow) | 6-Month + Live State | 🟢 ONLINE |
 | `Enneagram_Tritype_Engine` | 🔯 | I - Subjective (Core Motivation & 5 Pillars) | 6-Month + Live State | 🟢 ONLINE |
 | `Kabbalah_Tree_of_Life` | 🌳 | Holistic 10-Sephirot + Da'at & 22 Paths | Monthly + Live Bus | 🟢 ONLINE |
-| `Big_Five_OCEAN` | 🧬 | I / IT - Biological Hardware & Meta-Traits | 6-Month IPIP-50 | 🟢 ONLINE |
+| `Big_Five_OCEAN` | 🧬 | I / IT - Universal Biological Hardware Engine | 6-Month IPIP-50 | 🟢 ONLINE |
 
 ## 📡 Active `SIGNAL_BUS` Telemetry Keys
 
@@ -22,4 +22,4 @@
 - `KAB_EFFECTIVE_QUALITY` / `KAB_PILLAR_EQUILIBRIUM` / `KAB_GROUNDING_INDEX` / `KAB_HOD_SPREAD` / `KAB_NET_XP_MULT`
 - `OCEAN_OPENNESS` / `OCEAN_CONSCIENTIOUSNESS` / `OCEAN_EXTRAVERSION` / `OCEAN_AGREEABLENESS` / `OCEAN_NEUROTICISM` / `OCEAN_PLASTICITY_BETA` / `OCEAN_STABILITY_ALPHA`
 
-*Last Automated Sync: 2026-11-20 16:31:52 UTC*
+*Last Automated Sync: 2026-11-20 16:39:15 UTC*
