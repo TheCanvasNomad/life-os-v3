@@ -12,6 +12,7 @@
 | `Enneagram_Tritype_Engine` | 🔯 | I - Subjective (Universal Core Motivation & 5 Pillars) | 6-Month + Live State | 🟢 ONLINE |
 | `Kabbalah_Tree_of_Life` | 🌳 | Holistic 10-Sephirot + Da'at & 22 Paths | Monthly + Live Bus | 🟢 ONLINE |
 | `Big_Five_OCEAN` | 🧬 | I / IT - Universal Biological Hardware Engine | 6-Month IPIP-50 | 🟢 ONLINE |
+| `Human_Design_OS` | 💠 | Tier 1 Natal - Universal BodyGraph & Strategy Engine | Immutable Natal + Transits | 🟢 ONLINE |
 
 ## 📡 Active `SIGNAL_BUS` Telemetry Keys
 
@@ -21,5 +22,6 @@
 - `ENN_INTEGRATION_INDEX` / `ENN_DISINTEGRATION_RISK`
 - `KAB_EFFECTIVE_QUALITY` / `KAB_PILLAR_EQUILIBRIUM` / `KAB_GROUNDING_INDEX` / `KAB_HOD_SPREAD` / `KAB_NET_XP_MULT`
 - `OCEAN_OPENNESS` / `OCEAN_CONSCIENTIOUSNESS` / `OCEAN_EXTRAVERSION` / `OCEAN_AGREEABLENESS` / `OCEAN_NEUROTICISM` / `OCEAN_PLASTICITY_BETA` / `OCEAN_STABILITY_ALPHA`
+- `HD_STRATEGY_COHERENCE` / `HD_AUTHORITY_CLARITY` / `HD_CONDITIONING_LOAD` / `HD_BIO_READINESS`
 
-*Last Automated Sync: 2026-11-20 17:02:01 UTC*
+*Last Automated Sync: 2026-11-20 17:15:59 UTC*
