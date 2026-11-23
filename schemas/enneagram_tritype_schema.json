@@ -1,0 +1,23 @@
+{
+  "brick_name": "Enneagram_Tritype_Engine",
+  "glyph": "\ud83d\udd2f",
+  "spreadsheet_id": "{{ENNEAGRAM_BRICK_ID}}",
+  "hub_id": "{{LIFEOS_FEED_HUB_ID}}",
+  "live_engine_source": "Enneagram_Scoring_Engine!B6:I17",
+  "reference_vault_tab": "Enneagram Personalities!A1:I10",
+  "hub_bridge_tab": "MBTI_Raw_Ingest!A1:F4",
+  "signals_published": [
+    "ENN_CORE_SIGNATURE",
+    "ENN_INTEGRATION_INDEX",
+    "ENN_DISINTEGRATION_RISK"
+  ],
+  "context_subscribed": [
+    "VITAL_HP",
+    "VITAL_MANA",
+    "VITAL_STAMINA",
+    "VITAL_COHERENCE",
+    "MBTI_TYPE_CODE",
+    "MBTI_COHERENCE_INDEX",
+    "MBTI_SHADOW_RISK"
+  ]
+}

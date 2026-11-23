@@ -1,0 +1,26 @@
+{
+  "brick_name": "Big_Five_OCEAN",
+  "glyph": "\ud83e\uddec",
+  "spreadsheet_id": "{{BIG_FIVE_OCEAN_BRICK_ID}}",
+  "hub_id": "{{LIFEOS_FEED_HUB_ID}}",
+  "executive_hud_tab": "Executive_Dashboard",
+  "dynamic_advisory_tab": "\ud83e\udded DYNAMIC_ADVISORY",
+  "design_standard": "100% Universal & Stat-Driven (zero user-specific hardcoding; KPI cards & scaffolding resolve dynamically from MAX/MIN percentiles and Taxonomy_Matrix)",
+  "signals_published": [
+    "OCEAN_OPENNESS",
+    "OCEAN_CONSCIENTIOUSNESS",
+    "OCEAN_EXTRAVERSION",
+    "OCEAN_AGREEABLENESS",
+    "OCEAN_NEUROTICISM",
+    "OCEAN_PLASTICITY_BETA",
+    "OCEAN_STABILITY_ALPHA"
+  ],
+  "context_subscribed": [
+    "VITAL_HP",
+    "VITAL_MANA",
+    "VITAL_STAMINA",
+    "VITAL_COHERENCE",
+    "MBTI_TYPE_CODE",
+    "MBTI_SHADOW_RISK"
+  ]
+}

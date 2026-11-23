@@ -1,0 +1,23 @@
+{
+  "brick_name": "Human_Design_OS",
+  "glyph": "\ud83d\udca0",
+  "spreadsheet_id": "{{HUMAN_DESIGN_OS_BRICK_ID}}",
+  "hub_id": "{{LIFEOS_FEED_HUB_ID}}",
+  "executive_hud_tab": "\ud83d\udca0 HD_DASHBOARD",
+  "dynamic_advisory_tab": "ADVISORY_MATRIX",
+  "design_standard": "100% Universal & Stat-Driven (all 5 Aura Types \u00d7 5 Live Telemetry States resolved dynamically from BodyGraph mechanics)",
+  "signals_published": [
+    "HD_STRATEGY_COHERENCE",
+    "HD_AUTHORITY_CLARITY",
+    "HD_CONDITIONING_LOAD",
+    "HD_BIO_READINESS"
+  ],
+  "context_subscribed": [
+    "VITAL_HP",
+    "VITAL_MANA",
+    "VITAL_STAMINA",
+    "VITAL_COHERENCE",
+    "STRESS_LOAD_INDEX",
+    "ZODIAC_ALIGNMENT"
+  ]
+}

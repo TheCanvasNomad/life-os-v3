@@ -1,0 +1,21 @@
+{
+  "system": "LifeOS v3.0",
+  "brick_name": "Weekly_Maslow_Pulse",
+  "glyph": "\ud83c\udfdb\ufe0f",
+  "workbook_placeholder": "{{WEEKLY_MASLOW_PULSE_ID}}",
+  "hub_placeholder": "{{LIFEOS_FEED_HUB_ID}}",
+  "cadence": "Weekly (TTL: 168 Hours)",
+  "input_tab": "WEEKLY_PULSE_LOG (Native 1-10 Dropdowns + Date Picker)",
+  "connector_tabs": [
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT"
+  ],
+  "signals_published": [
+    "MASLOW_SURVIVAL",
+    "MASLOW_SAFETY",
+    "MASLOW_BELONGING",
+    "MASLOW_ESTEEM",
+    "MASLOW_ACTUALIZATION"
+  ]
+}

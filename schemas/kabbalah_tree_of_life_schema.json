@@ -1,0 +1,29 @@
+{
+  "brick_name": "Kabbalah_Tree_of_Life",
+  "glyph": "\ud83c\udf33",
+  "spreadsheet_id": "{{KABBALAH_MASTER_ENGINE_ID}}",
+  "hub_id": "{{LIFEOS_FEED_HUB_ID}}",
+  "executive_hud_tab": "\ud83c\udf33 KABBALAH_DASHBOARD",
+  "glyph_tab": "Tree_of_Life_Glyph",
+  "dynamic_advisory_tab": "\ud83e\udded DYNAMIC_ADVISORY",
+  "hub_mirror_tabs": [
+    "LifeOS_Feed_Hub",
+    "Master_Bus_Mirror"
+  ],
+  "signals_published": [
+    "KAB_EFFECTIVE_QUALITY",
+    "KAB_PILLAR_EQUILIBRIUM",
+    "KAB_GROUNDING_INDEX",
+    "KAB_HOD_SPREAD",
+    "KAB_NET_XP_MULT"
+  ],
+  "context_subscribed": [
+    "VITAL_HP",
+    "VITAL_MANA",
+    "VITAL_STAMINA",
+    "VITAL_COHERENCE",
+    "STRESS_LOAD_INDEX",
+    "MBTI_SHADOW_RISK",
+    "ENN_DISINTEGRATION_RISK"
+  ]
+}

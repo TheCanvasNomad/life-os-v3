@@ -1,0 +1,28 @@
+{
+  "system": "LifeOS v3.0",
+  "brick_name": "Human_Design_Brick",
+  "glyph": "\ud83e\uddec",
+  "workbook_placeholder": "{{HUMAN_DESIGN_BRICK_ID}}",
+  "hub_placeholder": "{{LIFEOS_FEED_HUB_ID}}",
+  "cadence": "Immutable Natal Blueprint + Real-Time Strategy Calibration (TTL: 24h)",
+  "tabs": [
+    "MODULE_META",
+    "CONTEXT_IN",
+    "HD_BLUEPRINT",
+    "ADVISORY_MATRIX",
+    "SIGNALS_OUT"
+  ],
+  "signals_published": [
+    "HD_STRATEGY_COHERENCE",
+    "AUTHORITY_CLARITY",
+    "CENTER_CONDITIONING_LOAD"
+  ],
+  "context_subscribed": [
+    "DAILY_ENERGY",
+    "DAILY_MOOD",
+    "ACUTE_STRESS",
+    "MASLOW_SURVIVAL",
+    "ZODIAC_ALIGNMENT"
+  ],
+  "dynamic_advisory_rule": "INDEX/MATCH(HD_Dimension x Live_SIGNAL_BUS_State)"
+}

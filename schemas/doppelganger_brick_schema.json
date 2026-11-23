@@ -1,0 +1,34 @@
+{
+  "system": "LifeOS v3.0",
+  "brick_name": "Doppelganger_Brick",
+  "glyph": "\ud83d\udc64",
+  "workbook_placeholder": "{{DOPPELGANGER_BRICK_ID}}",
+  "hub_placeholder": "{{LIFEOS_FEED_HUB_ID}}",
+  "cadence": "Real-Time Continuous Tug-of-War + Daily Streak Verification",
+  "tabs": [
+    "SHADOW_ARENA",
+    "ADVISORY_MATRIX",
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT"
+  ],
+  "signals_published": [
+    "SHADOW_TAX_RATE",
+    "DOPPELGANGER_DOMINATION_INDEX",
+    "REDEMPTION_STREAK_DAYS"
+  ],
+  "context_subscribed": [
+    "INTAKE_DISCIPLINE_DELTA",
+    "INTAKE_VICE_DELTA",
+    "DAILY_ENERGY",
+    "ACUTE_STRESS",
+    "STRESS_ALLOSTATIC_LOAD",
+    "HD_STRATEGY_COHERENCE"
+  ],
+  "mechanics": {
+    "shadow_tax_formula": "Doppelganger_Score / (Discipline_Score + Doppelganger_Score)",
+    "domination_trigger": "Doppelganger_Score > Discipline_Score",
+    "domination_debuff": "[Dominated]: -10% All XP & -5 Stress Resilience",
+    "redemption_quest": "7 consecutive Perfect_Day + Clean_Day logs"
+  }
+}
