@@ -1,20 +1,21 @@
 ---
 name: lifeos-architect
 description: >-
-  Enforces the seven immutable LifeOS-v3 architectural, workbook-registry, and
-  sync laws on all generated Apps Script code, spreadsheet formulas, form
-  schemas, Brick contracts, Android HUD integrations, Colab notebooks, and
-  documentation in the LifeOS workspace. Use whenever creating, modifying,
-  reviewing, or auditing any Google Sheet, code, schema, formula, notebook, or
-  architectural document in LifeOS-v3.
+  Enforces the eight immutable LifeOS-v3 architectural, workbook-registry,
+  dynamic-formula/executive-UI, and sync laws on all generated Apps Script
+  code, spreadsheet formulas, form schemas, Brick contracts, Android HUD
+  integrations, Colab notebooks, and documentation in the LifeOS workspace.
+  Use whenever creating, modifying, reviewing, or auditing any Google Sheet,
+  code, schema, formula, notebook, or architectural document in LifeOS-v3.
 ---
 
 # LifeOS-v3 Architect Skill
 
 This skill governs all engineering, Google Sheets operations, schema design,
-formula authoring, notebook synchronization, and documentation inside the
-LifeOS-v3 workspace. Every artifact produced and every task executed must
-strictly satisfy all **seven immutable LifeOS laws** below without exception.
+formula authoring, executive spreadsheet styling, notebook synchronization,
+and documentation inside the LifeOS-v3 workspace. Every artifact produced and
+every task executed must strictly satisfy all **eight immutable LifeOS laws**
+below without exception.
 
 ---
 
@@ -220,6 +221,48 @@ read [`schemas/workbook_registry.json`](../../../schemas/workbook_registry.json)
 
 ---
 
+### Law 8: Dynamic Formula-First & Executive Sheet UI Law
+
+#### Zero Static Cells Unless Necessary
+- Never hard-code static scores, manual multipliers, static archetype advice
+  paragraphs, or repetitive single-cell formulas when dynamic Google Sheets
+  formulas (`ARRAYFORMULA`, `XLOOKUP`, `QUERY`, `FILTER`, `LET`, `LAMBDA`,
+  `SPARKLINE`) referencing `RULES_ENGINE` lookup tables or `SIGNAL_BUS` can
+  compute them live.
+- Static values are permitted **ONLY** for:
+  1. Immutable Day 0 natal/biographical constants.
+  2. Raw user inputs captured via structured Forms (write-only silos).
+  3. Canonical configuration keys, enum labels, and `RULES_ENGINE` lookup tables.
+- All Brick advisories MUST evaluate dynamically as `Archetype × Live Telemetry State`
+  via structured `ADVISORY_MATRIX` lookup tables (`INDEX/MATCH` or `XLOOKUP`),
+  never bloated nested `IF()` prose or static paragraphs.
+
+#### Beautified Spreadsheet UI Standard
+Whenever creating or upgrading **any** Google Sheet tab, automatically apply
+executive visual formatting via `gsheets` / Sheets API `batchUpdate`:
+- **Banner Headers**: Dark-slate / obsidian header fills (`#0F172A` or `#1E293B`)
+  with crisp white bold typography and clear section hierarchy.
+- **Semantic Conditional Formatting Badges**:
+  - `0% – 49%` → **Crimson** (critical / foundational drain)
+  - `50% – 89%` → **Amber** (progressing / sub-mastery)
+  - `90% – 100%` → **Emerald** (mastery unlocked)
+  - Plus status pill badges (`LIVE`, `FRESH`, `STALE`, `BUFF`, `DEBUFF`, `LOCKED`).
+- **Grid & Table Polish**:
+  - Frozen header rows (and key identifier columns where appropriate).
+  - Auto-fitted column widths with generous breathing padding.
+  - Subtle alternating row banding on data tables.
+  - Hidden gridlines (`hideGridlines: true`) on executive dashboard / HUD tabs.
+  - Native `=SPARKLINE(...)` vital gauges and embedded charts alongside summary blocks.
+
+#### Antigravity-First Execution
+- Replace legacy Google Colab R&D/ETL scripts with **Antigravity Python/MCP
+  workflows** (`gdrive` / `gsheets` CLIs and modular `src/` scripts) synced
+  continuously to GitHub (`TheCanvasNomad/life-os-v3`).
+- Use `schemas/workbook_registry.json` and `schemas/live_snapshots/` as the
+  living control plane rather than ad-hoc Colab state cells.
+
+---
+
 ## Workspace Directory Map
 
 Place all new files strictly in their designated workspace directory:
@@ -232,17 +275,17 @@ Place all new files strictly in their designated workspace directory:
 | `src/utilities/crm_core/` | Standalone `CRM_CORE` relationship/contact intelligence modules. |
 | `src/bricks_sync/` | `LifeOS_Master_Bus` connectors, Brick sync adapters (`CONTEXT_IN` / `SIGNALS_OUT`), and Google Sheets discovery/snapshot tooling (`discover_sheets.py`). |
 | `src/android_hud/` | Android HUD client code and telemetry widgets consuming Core OS Hub / Governor state. |
-| `colab_notebooks/` | Browser-edited Google Colab `.ipynb` notebooks and Colab GitHub auto-sync teardown utilities. |
-| `blueprints/` | Phase blueprints and system integration design specifications. |
+| `colab_notebooks/` | Legacy / optional browser-edited Google Colab `.ipynb` notebooks and GitHub teardown utilities. |
+| `blueprints/` | Master technical specification (`LIFEOS_V3_MASTER_SPEC.md`) and phase design blueprints. |
 | `schemas/` | Canonical schemas (`workbook_registry.json`, Brick/Hub JSON schemas, and `live_snapshots/` tab-header exports). |
-| `docs/` | Architecture Decision Records (ADRs), data-flow diagrams, runbooks, and synthesis templates. |
+| `docs/` | Architecture index (`ARCHITECTURE_INDEX.md`), migration plans (`LEGACY_MIGRATION_PLAN.md`), ADRs, and runbooks. |
 
 ---
 
 ## Pre-Delivery Compliance Checklist
 
 Before finalizing or committing any code, schema, formula, notebook, or
-documentation in LifeOS-v3, verify all seven gates:
+documentation in LifeOS-v3, verify all eight gates:
 
 1. **Unidirectional Flow Gate**: Does data move strictly `Forms -> Raw Silos (write-only) -> Pillars/Utilities -> Core OS Hub` with zero mutations to Raw Data Silos?
 2. **Modularity Gate**: Are all `.gs` files single-purpose and compartmentalized (zero monolithic scripts)?
@@ -251,3 +294,4 @@ documentation in LifeOS-v3, verify all seven gates:
 5. **Governor & Telemetry Gate**: Is the `OPS_GOVERNOR` max-2 active initiatives WIP ceiling enforced, and are synthesis outputs clean Markdown/Doc ready for NotebookLM and Gemini?
 6. **Git & Colab Sync Gate**: Was `git pull --rebase origin main` run before starting, does `.gitignore` exclude all secrets/tokens/credentials, and were changes staged (`git add -A`), committed with a Conventional Commit message, and pushed (`git push origin main`)?
 7. **Workbook Registry Gate**: Was `schemas/workbook_registry.json` read before touching any Google Sheet or Apps Script project, guaranteeing zero duplicate workbooks and verified Spreadsheet IDs / tab names?
+8. **Dynamic Formula, Executive UI & Antigravity Gate**: Are all computed cells dynamic (`ARRAYFORMULA`/`XLOOKUP`/`QUERY`/`FILTER`/`LET`/`LAMBDA`/`SPARKLINE`) referencing `RULES_ENGINE`/`SIGNAL_BUS` with zero unnecessary static values, are created/upgraded sheets styled to the dark-obsidian executive UI standard (crimson/amber/emerald badges, frozen headers, padded widths, hidden gridlines on HUDs), and are workflows implemented Antigravity-first rather than legacy Colab-only?
