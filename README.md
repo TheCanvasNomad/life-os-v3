@@ -37,6 +37,7 @@ All code, schemas, formulas, and documentation in this repository are governed b
 3. **Closed-Loop Input & Blank-Cell Preservation**: Forms prioritize structured inputs (dropdowns, linear scales, checkboxes) over free-text, and spreadsheet formulas preserve blank cells (`IF(ISBLANK(...), "", ...)`) without emitting false `0`s or `"N/A"`.
 4. **Brick Exchange Contract**: All standalone Bricks expose standardized `CONTEXT_IN` and `SIGNALS_OUT` / `PRIMARY SPOKE MIRROR` blocks for `IMPORTRANGE` or Apps Script ingestion into `LifeOS_Master_Bus`.
 5. **Governor & Telemetry Alignment**: Enforce the `OPS_GOVERNOR` WIP ceiling (max 2 active initiatives) and emit clean Markdown/Doc synthesis outputs for NotebookLM and Gemini.
+6. **Automated Git & Colab Sync**: Always `git pull --rebase origin main` before starting any task, audit `.gitignore` for secrets/credentials, then `git add -A`, commit with a Conventional Commit message, and `git push origin main` upon completion.
 
 ## 📂 Workspace Directory Structure
 
@@ -45,8 +46,12 @@ All code, schemas, formulas, and documentation in this repository are governed b
 ├── .agents/
 │   └── skills/
 │       └── lifeos-architect/
-│           └── SKILL.md
+│           ├── SKILL.md
+│           └── scripts/
+│               └── git_autosync.sh
 ├── blueprints/
+├── colab_notebooks/
+│   └── README.md
 ├── schemas/
 ├── docs/
 └── src/

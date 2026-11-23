@@ -1,18 +1,20 @@
 ---
 name: lifeos-architect
 description: >-
-  Enforces the five immutable LifeOS-v3 architectural laws on all generated
-  Apps Script code, spreadsheet formulas, form schemas, Brick contracts,
-  Android HUD integrations, and documentation in the LifeOS workspace. Use
-  whenever creating, modifying, reviewing, or auditing any code, schema,
-  formula, or architectural document in LifeOS-v3.
+  Enforces the six immutable LifeOS-v3 architectural and sync laws on all
+  generated Apps Script code, spreadsheet formulas, form schemas, Brick
+  contracts, Android HUD integrations, Colab notebooks, and documentation in
+  the LifeOS workspace. Use whenever creating, modifying, reviewing, or
+  auditing any code, schema, formula, notebook, or architectural document in
+  LifeOS-v3.
 ---
 
 # LifeOS-v3 Architect Skill
 
-This skill governs all engineering, schema design, formula authoring, and
-documentation inside the LifeOS-v3 workspace. Every artifact produced must
-strictly satisfy all **five immutable LifeOS laws** below without exception.
+This skill governs all engineering, schema design, formula authoring, notebook
+synchronization, and documentation inside the LifeOS-v3 workspace. Every
+artifact produced and every task executed must strictly satisfy all **six
+immutable LifeOS laws** below without exception.
 
 ---
 
@@ -163,6 +165,35 @@ Each Brick MUST expose two canonical interface blocks:
 
 ---
 
+### Law 6: Automated Git & Colab Sync Law
+
+Local Antigravity workspace changes and browser-edited Google Colab notebooks
+MUST remain continuously synchronized with `origin/main`
+(`https://github.com/TheCanvasNomad/life-os-v3.git`).
+
+#### Pre-Task Sync (Mandatory Before Starting Any Task)
+- Before modifying files, running generators, or authoring schemas/code, ALWAYS
+  pull the latest remote state (including notebooks saved from Google Colab):
+  ```bash
+  git pull --rebase origin main
+  ```
+- If local uncommitted changes exist prior to pulling, stash or review them
+  cleanly before rebasing so remote Colab commits are never overwritten.
+
+#### Post-Task Sync (Mandatory Upon Finishing Any Task)
+1. **Secret & Credential Audit**: Verify `.gitignore` excludes all secrets,
+   tokens, and credentials (`.env*`, `credentials.json`, `token.json`,
+   `*client_secret*.json`, `service_account*.json`, `.clasprc.json`, `*.pem`,
+   `*.key`, `*.keystore`, `*.jks`), and confirm `git status` shows zero
+   sensitive files staged for commit.
+2. **Stage & Commit**: Run `git add -A` and commit with a clear Conventional
+   Commit message (e.g., `feat(pillars): ...`, `fix(bricks): ...`,
+   `chore(colab): ...`, `docs(architecture): ...`).
+3. **Push to Remote**: Run `git push origin main` and verify a clean working
+   tree (`git status`).
+
+---
+
 ## Workspace Directory Map
 
 Place all new files strictly in their designated workspace directory:
@@ -175,6 +206,8 @@ Place all new files strictly in their designated workspace directory:
 | `src/utilities/crm_core/` | Standalone `CRM_CORE` relationship/contact intelligence modules. |
 | `src/bricks_sync/` | `LifeOS_Master_Bus` connectors and Brick sync adapters implementing `CONTEXT_IN` and `SIGNALS_OUT` / `PRIMARY SPOKE MIRROR`. |
 | `src/android_hud/` | Android HUD client code and telemetry widgets consuming Core OS Hub / Governor state. |
+| `colab_notebooks/` | Browser-edited Google Colab `.ipynb` notebooks and Colab GitHub auto-sync teardown utilities. |
+| `blueprints/` | Phase blueprints and system integration design specifications. |
 | `schemas/` | Canonical JSON/YAML/Markdown schemas for Forms, Raw Data Silos, Pillars, Bricks, `LifeOS_Master_Bus`, and `OPS_GOVERNOR`. |
 | `docs/` | Architecture Decision Records (ADRs), data-flow diagrams, runbooks, and synthesis templates. |
 
@@ -182,11 +215,12 @@ Place all new files strictly in their designated workspace directory:
 
 ## Pre-Delivery Compliance Checklist
 
-Before finalizing or committing any code, schema, formula, or documentation in
-LifeOS-v3, verify all five gates:
+Before finalizing or committing any code, schema, formula, notebook, or
+documentation in LifeOS-v3, verify all six gates:
 
 1. **Unidirectional Flow Gate**: Does data move strictly `Forms -> Raw Silos (write-only) -> Pillars/Utilities -> Core OS Hub` with zero mutations to Raw Data Silos?
 2. **Modularity Gate**: Are all `.gs` files single-purpose and compartmentalized (zero monolithic scripts)?
 3. **Closed-Loop & Blank-Safety Gate**: Do Forms favor structured inputs, and do all formulas guard unlogged cells with `IF(ISBLANK(...), "", ...)` (zero false `0`s or `"N/A"`s)?
 4. **Brick Contract Gate**: Do all Brick schemas and sync scripts define both `CONTEXT_IN` and `SIGNALS_OUT` / `PRIMARY SPOKE MIRROR` blocks targeting `LifeOS_Master_Bus`?
 5. **Governor & Telemetry Gate**: Is the `OPS_GOVERNOR` max-2 active initiatives WIP ceiling enforced, and are synthesis outputs clean Markdown/Doc ready for NotebookLM and Gemini?
+6. **Git & Colab Sync Gate**: Was `git pull --rebase origin main` run before starting, does `.gitignore` exclude all secrets/tokens/credentials, and were changes staged (`git add -A`), committed with a Conventional Commit message, and pushed (`git push origin main`)?

@@ -13,8 +13,17 @@ Thumbs.db
 .clasprc.json
 credentials.json
 token.json
+*client_secret*.json
+service_account*.json
+*.pem
+*.key
+*.p12
 *.keystore
 *.jks
+.secrets/
+
+# Notebooks & Local Checkpoints
+.ipynb_checkpoints/
 
 # Build & Runtime Artifacts
 node_modules/
