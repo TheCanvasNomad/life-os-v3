@@ -1,0 +1,26 @@
+# OS & Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Secrets & Local Credentials
+.env
+.env.*
+!.env.example
+.clasprc.json
+credentials.json
+token.json
+*.keystore
+*.jks
+
+# Build & Runtime Artifacts
+node_modules/
+dist/
+build/
+.gradle/
+__pycache__/
+*.pyc
+*.log
