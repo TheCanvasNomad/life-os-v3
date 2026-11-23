@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.0.0",
+  "system": "LifeOS-v3",
+  "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
+  "last_updated_utc": "2026-11-23T07:26:00Z",
+  "snapshots_dir": "schemas/live_snapshots",
+  "workbooks": {
+    "ID_MBTI": {
+      "title": "Myers-Briggs Test",
+      "spreadsheet_id": "1uiQX7oyPcMAqovTBUkJBtbq7NSjWv45Lf0GQZza3TEw",
+      "status": "bound",
+      "layer": "brick",
+      "domain": "Psychometrics / MBTI Cognitive Stack",
+      "live_tabs": [
+        "Scoring_Engine",
+        "Overall_Averages"
+      ],
+      "search_aliases": [
+        "Myers-Briggs Test",
+        "MBTI_Cognitive_Stack",
+        "MBTI"
+      ],
+      "schema_ref": "schemas/mbti_cognitive_stack_schema.json",
+      "last_snapshot_utc": null
+    },
+    "ID_PQ": {
+      "title": "Saboteur Assessment (PQ)",
+      "spreadsheet_id": "1NhqPJDFOp91qOp5Y9hPe0rIuqECKU_b08cZYXZAqxeE",
+      "status": "bound",
+      "layer": "brick",
+      "domain": "Psychometrics / Positive Intelligence Saboteurs",
+      "live_tabs": [
+        "PQ_Dashboard"
+      ],
+      "search_aliases": [
+        "Saboteur Assessment (PQ)",
+        "PQ Assessment",
+        "Saboteur"
+      ],
+      "schema_ref": null,
+      "last_snapshot_utc": null
+    },
+    "ID_HD": {
+      "title": "Human Design OS",
+      "spreadsheet_id": "1yTiVyqmpz5FeZJSuN6_fmMfQZWq4HMcNCIKELBz8wp0",
+      "status": "bound",
+      "layer": "brick",
+      "domain": "Esoteric / Tier 1 Natal Human Design",
+      "live_tabs": [
+        "HD_DECISION_ENGINE",
+        "ADVISORY_MATRIX",
+        "HD_CONFIG_BUS"
+      ],
+      "search_aliases": [
+        "Human Design OS",
+        "Human_Design_OS",
+        "Human Design"
+      ],
+      "schema_ref": "schemas/human_design_os_schema.json",
+      "last_snapshot_utc": null
+    },
+    "ID_ZODIAC": {
+      "title": "Zodiac OS",
+      "spreadsheet_id": "1wQcAdR6ZxETOA1_nUmq1XYvPb9WvgSzmwcA4M0StH9M",
+      "status": "bound",
+      "layer": "brick",
+      "domain": "Esoteric / Zodiac & OPS_GOVERNOR",
+      "live_tabs": [
+        "OPS_GOVERNOR"
+      ],
+      "search_aliases": [
+        "Zodiac OS",
+        "Zodiac_Brick",
+        "Zodiac"
+      ],
+      "schema_ref": "schemas/zodiac_brick_schema.json",
+      "last_snapshot_utc": null
+    },
+    "ID_GRIT": {
+      "title": "Grit Score Assessment",
+      "spreadsheet_id": "1kCwx6wtYksmt92M3Izwe6oEIVS5uDv3kCLIzCBOJG-s",
+      "status": "bound",
+      "layer": "brick",
+      "domain": "Psychometrics / Grit Scale",
+      "live_tabs": [
+        "Executive_Dashboard"
+      ],
+      "search_aliases": [
+        "Grit Score Assessment",
+        "Grit Assessment",
+        "Grit"
+      ],
+      "schema_ref": null,
+      "last_snapshot_utc": null
+    },
+    "ID_RIASEC": {
+      "title": "RAISEC Intake",
+      "spreadsheet_id": "1RmJ9bDzm6Vs59EC1BV99lqHnYxgp-bchV589rQc6ybM",
+      "status": "bound",
+      "layer": "brick",
+      "domain": "Psychometrics / RIASEC Vocational Interests",
+      "live_tabs": [
+        "RIASEC_Dashboard"
+      ],
+      "search_aliases": [
+        "RAISEC Intake",
+        "RIASEC Intake",
+        "RIASEC"
+      ],
+      "schema_ref": null,
+      "last_snapshot_utc": null
+    },
+    "LifeOS_Master_Bus": {
+      "title": "LifeOS_Master_Bus",
+      "spreadsheet_id": null,
+      "status": "awaiting_id_binding",
+      "layer": "core_os_hub",
+      "domain": "Core OS Hub / SIGNAL_BUS & Brick Ingestion",
+      "live_tabs": [],
+      "search_aliases": [
+        "LifeOS_Master_Bus",
+        "LifeOS_feed_hub",
+        "LifeOS Feed Hub",
+        "LifeOS Master Bus",
+        "LifeOS Core OS Hub"
+      ],
+      "schema_ref": "schemas/lifeos_feed_hub_schema.json",
+      "last_snapshot_utc": null
+    },
+    "ID_OCEAN": {
+      "title": "Big Five (OCEAN)",
+      "spreadsheet_id": null,
+      "status": "awaiting_id_binding",
+      "layer": "brick",
+      "domain": "Psychometrics / Big Five OCEAN (IPIP-50)",
+      "live_tabs": [],
+      "search_aliases": [
+        "Big Five",
+        "Big-Five Personality Assessment",
+        "Big_Five_OCEAN",
+        "OCEAN"
+      ],
+      "schema_ref": "schemas/big_five_ocean_schema.json",
+      "last_snapshot_utc": null
+    },
+    "ID_ENNEAGRAM": {
+      "title": "Enneagram Personalities",
+      "spreadsheet_id": null,
+      "status": "awaiting_id_binding",
+      "layer": "brick",
+      "domain": "Psychometrics / Enneagram Tritype Engine",
+      "live_tabs": [],
+      "search_aliases": [
+        "Enneagram Personalities",
+        "Enneagram_Tritype_Engine",
+        "Enneagram"
+      ],
+      "schema_ref": "schemas/enneagram_tritype_schema.json",
+      "last_snapshot_utc": null
+    },
+    "ID_XP_HUB": {
+      "title": "LifeOS XP Hub",
+      "spreadsheet_id": null,
+      "status": "awaiting_id_binding",
+      "layer": "core_os_hub",
+      "domain": "Core OS Hub / RPG Progression & XP Engine",
+      "live_tabs": [],
+      "search_aliases": [
+        "XP Hub",
+        "LifeOS XP Hub",
+        "LifeOS_XP_Hub",
+        "Character Sheet"
+      ],
+      "schema_ref": null,
+      "last_snapshot_utc": null
+    },
+    "ID_KABBALAH": {
+      "title": "Kabbalah Tree of Life",
+      "spreadsheet_id": null,
+      "status": "awaiting_id_binding",
+      "layer": "brick",
+      "domain": "Esoteric / 10 Sephirot + Da'at & 22 Paths",
+      "live_tabs": [],
+      "search_aliases": [
+        "Kabbalah Tree of Life",
+        "Kaballah Tree of Life",
+        "Kabbalah_Tree_of_Life",
+        "Kabbalah"
+      ],
+      "schema_ref": "schemas/kabbalah_tree_of_life_schema.json",
+      "last_snapshot_utc": null
+    },
+    "ID_16PF": {
+      "title": "16PF Assessment",
+      "spreadsheet_id": null,
+      "status": "awaiting_id_binding",
+      "layer": "brick",
+      "domain": "Psychometrics / 16 Personality Factors",
+      "live_tabs": [],
+      "search_aliases": [
+        "16PF",
+        "16PF Assessment",
+        "16 Personality Factors"
+      ],
+      "schema_ref": null,
+      "last_snapshot_utc": null
+    },
+    "ID_BELIEF_TRACKER": {
+      "title": "Belief & Stance Tracker (Life OS)",
+      "spreadsheet_id": null,
+      "status": "awaiting_id_binding",
+      "layer": "brick",
+      "domain": "Epistemics / Belief & Stance Tracker",
+      "live_tabs": [],
+      "search_aliases": [
+        "Belief & Stance Tracker (Life OS)",
+        "Belief & Stance Tracker",
+        "Belief Tracker"
+      ],
+      "schema_ref": null,
+      "last_snapshot_utc": null
+    },
+    "ID_CAREER_INTAKE": {
+      "title": "LifeOS Career and Experience Intake",
+      "spreadsheet_id": null,
+      "status": "awaiting_id_binding",
+      "layer": "raw_silo",
+      "domain": "Career & Experience Intake",
+      "live_tabs": [],
+      "search_aliases": [
+        "LifeOS Career and Experience Intake",
+        "Career and Experience Intake",
+        "Career Intake"
+      ],
+      "schema_ref": null,
+      "last_snapshot_utc": null
+    }
+  },
+  "unmapped_discovered": []
+}

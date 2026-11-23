@@ -1,20 +1,20 @@
 ---
 name: lifeos-architect
 description: >-
-  Enforces the six immutable LifeOS-v3 architectural and sync laws on all
-  generated Apps Script code, spreadsheet formulas, form schemas, Brick
-  contracts, Android HUD integrations, Colab notebooks, and documentation in
-  the LifeOS workspace. Use whenever creating, modifying, reviewing, or
-  auditing any code, schema, formula, notebook, or architectural document in
-  LifeOS-v3.
+  Enforces the seven immutable LifeOS-v3 architectural, workbook-registry, and
+  sync laws on all generated Apps Script code, spreadsheet formulas, form
+  schemas, Brick contracts, Android HUD integrations, Colab notebooks, and
+  documentation in the LifeOS workspace. Use whenever creating, modifying,
+  reviewing, or auditing any Google Sheet, code, schema, formula, notebook, or
+  architectural document in LifeOS-v3.
 ---
 
 # LifeOS-v3 Architect Skill
 
-This skill governs all engineering, schema design, formula authoring, notebook
-synchronization, and documentation inside the LifeOS-v3 workspace. Every
-artifact produced and every task executed must strictly satisfy all **six
-immutable LifeOS laws** below without exception.
+This skill governs all engineering, Google Sheets operations, schema design,
+formula authoring, notebook synchronization, and documentation inside the
+LifeOS-v3 workspace. Every artifact produced and every task executed must
+strictly satisfy all **seven immutable LifeOS laws** below without exception.
 
 ---
 
@@ -194,6 +194,32 @@ MUST remain continuously synchronized with `origin/main`
 
 ---
 
+### Law 7: Master Workbook Registry & Zero-Duplicate Sheet Law
+
+Before creating or modifying **any** Google Sheet, spreadsheet formula,
+`IMPORTRANGE` reference, or Google Apps Script project, agents **MUST** first
+read [`schemas/workbook_registry.json`](../../../schemas/workbook_registry.json)
+(and any corresponding tab snapshot in `schemas/live_snapshots/`).
+
+**Enforcement rules:**
+- **Zero duplicate workbooks**: Never create a new Google Spreadsheet if a
+  matching workbook already exists in `schemas/workbook_registry.json` (either
+  already `"status": "bound"` with a confirmed `spreadsheet_id` or listed as
+  `"status": "awaiting_id_binding"`).
+- **Bind before building**: If a target workbook is marked
+  `"awaiting_id_binding"`, run `src/bricks_sync/discover_sheets.py` (or ask the
+  user to bind its existing Spreadsheet ID) instead of generating a duplicate
+  workbook.
+- **Canonical IDs & live tabs**: Always reference the confirmed
+  `spreadsheet_id` and verified `live_tabs` from
+  `schemas/workbook_registry.json` and `schemas/live_snapshots/<KEY>.json` when
+  wiring `IMPORTRANGE` formulas or Apps Script `openById(...)` calls.
+- **Keep registry current**: Whenever a new approved workbook is created or a
+  tab structure changes, immediately update `schemas/workbook_registry.json`
+  and refresh `schemas/live_snapshots/`.
+
+---
+
 ## Workspace Directory Map
 
 Place all new files strictly in their designated workspace directory:
@@ -204,11 +230,11 @@ Place all new files strictly in their designated workspace directory:
 | `src/pillars/` | Modular Apps Script engines for Pillar 0 (Shadow Self) through Pillar 6 (Esoteric Self). |
 | `src/utilities/biometric_core/` | Standalone `BIO_CORE` biometric ingestion, normalization, and metric modules. |
 | `src/utilities/crm_core/` | Standalone `CRM_CORE` relationship/contact intelligence modules. |
-| `src/bricks_sync/` | `LifeOS_Master_Bus` connectors and Brick sync adapters implementing `CONTEXT_IN` and `SIGNALS_OUT` / `PRIMARY SPOKE MIRROR`. |
+| `src/bricks_sync/` | `LifeOS_Master_Bus` connectors, Brick sync adapters (`CONTEXT_IN` / `SIGNALS_OUT`), and Google Sheets discovery/snapshot tooling (`discover_sheets.py`). |
 | `src/android_hud/` | Android HUD client code and telemetry widgets consuming Core OS Hub / Governor state. |
 | `colab_notebooks/` | Browser-edited Google Colab `.ipynb` notebooks and Colab GitHub auto-sync teardown utilities. |
 | `blueprints/` | Phase blueprints and system integration design specifications. |
-| `schemas/` | Canonical JSON/YAML/Markdown schemas for Forms, Raw Data Silos, Pillars, Bricks, `LifeOS_Master_Bus`, and `OPS_GOVERNOR`. |
+| `schemas/` | Canonical schemas (`workbook_registry.json`, Brick/Hub JSON schemas, and `live_snapshots/` tab-header exports). |
 | `docs/` | Architecture Decision Records (ADRs), data-flow diagrams, runbooks, and synthesis templates. |
 
 ---
@@ -216,7 +242,7 @@ Place all new files strictly in their designated workspace directory:
 ## Pre-Delivery Compliance Checklist
 
 Before finalizing or committing any code, schema, formula, notebook, or
-documentation in LifeOS-v3, verify all six gates:
+documentation in LifeOS-v3, verify all seven gates:
 
 1. **Unidirectional Flow Gate**: Does data move strictly `Forms -> Raw Silos (write-only) -> Pillars/Utilities -> Core OS Hub` with zero mutations to Raw Data Silos?
 2. **Modularity Gate**: Are all `.gs` files single-purpose and compartmentalized (zero monolithic scripts)?
@@ -224,3 +250,4 @@ documentation in LifeOS-v3, verify all six gates:
 4. **Brick Contract Gate**: Do all Brick schemas and sync scripts define both `CONTEXT_IN` and `SIGNALS_OUT` / `PRIMARY SPOKE MIRROR` blocks targeting `LifeOS_Master_Bus`?
 5. **Governor & Telemetry Gate**: Is the `OPS_GOVERNOR` max-2 active initiatives WIP ceiling enforced, and are synthesis outputs clean Markdown/Doc ready for NotebookLM and Gemini?
 6. **Git & Colab Sync Gate**: Was `git pull --rebase origin main` run before starting, does `.gitignore` exclude all secrets/tokens/credentials, and were changes staged (`git add -A`), committed with a Conventional Commit message, and pushed (`git push origin main`)?
+7. **Workbook Registry Gate**: Was `schemas/workbook_registry.json` read before touching any Google Sheet or Apps Script project, guaranteeing zero duplicate workbooks and verified Spreadsheet IDs / tab names?
