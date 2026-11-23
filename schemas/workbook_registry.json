@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-23T08:42:48Z",
+  "last_updated_utc": "2026-11-23T08:54:15Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -250,7 +250,7 @@
         "LifeOS Master Bus"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T07:42:29Z",
+      "last_snapshot_utc": "2026-11-23T08:54:15Z",
       "all_tabs": [
         "SYMBIOSIS_HUD",
         "Workbook_Directory",
@@ -636,22 +636,30 @@
         "MODULE_REGISTRY",
         "RULES_ENGINE",
         "CHARACTER_SHEET",
-        "AQAL_VIEW"
+        "AQAL_VIEW",
+        "SWORD_VIEW",
+        "MASLOW_ENGINE",
+        "DOPPELGANGER",
+        "AI_Synthesis_Report"
       ],
       "search_aliases": [
         "LifeOS_feed_hub",
         "LifeOS Feed Hub"
       ],
       "schema_ref": "schemas/lifeos_feed_hub_schema.json",
-      "last_snapshot_utc": "2026-11-23T08:42:48Z",
+      "last_snapshot_utc": "2026-11-23T08:54:10Z",
       "all_tabs": [
         "SIGNAL_BUS",
         "MODULE_REGISTRY",
         "RULES_ENGINE",
         "CHARACTER_SHEET",
-        "AQAL_VIEW"
+        "AQAL_VIEW",
+        "SWORD_VIEW",
+        "MASLOW_ENGINE",
+        "DOPPELGANGER",
+        "AI_Synthesis_Report"
       ],
-      "tab_count": 5
+      "tab_count": 9
     },
     "ID_MASTER_LOG": {
       "title": "LifeOS - Master Log",
