@@ -1,0 +1,143 @@
+{
+  "registry_key": "ID_FEED_HUB",
+  "title": "LifeOS_feed_hub",
+  "spreadsheet_id": "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
+  "url": "https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U/edit",
+  "time_zone": "Etc/GMT",
+  "snapshot_utc": "2026-11-23T08:42:48Z",
+  "tab_count": 5,
+  "tabs": [
+    {
+      "title": "SIGNAL_BUS",
+      "sheet_id": 387897381,
+      "index": 0,
+      "hidden": false,
+      "row_count": 100,
+      "col_count": 14,
+      "populated_row_count": 59,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Source_Brick",
+        "Glyph",
+        "Domain_Pillar",
+        "Raw_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated",
+        "TTL_Hours",
+        "Freshness_Status"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Source_Brick",
+        "Glyph",
+        "Domain_Pillar",
+        "Raw_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated",
+        "TTL_Hours",
+        "Freshness_Status"
+      ]
+    },
+    {
+      "title": "MODULE_REGISTRY",
+      "sheet_id": 259593998,
+      "index": 1,
+      "hidden": false,
+      "row_count": 50,
+      "col_count": 14,
+      "populated_row_count": 13,
+      "header_row_index": 1,
+      "headers": [
+        "Brick_Name",
+        "Glyph",
+        "Domain_Pillar",
+        "Cadence_Tier",
+        "Status",
+        "Spreadsheet_ID",
+        "Signals_Published",
+        "Context_Subscribed",
+        "Last_Synced"
+      ],
+      "row_1": [
+        "Brick_Name",
+        "Glyph",
+        "Domain_Pillar",
+        "Cadence_Tier",
+        "Status",
+        "Spreadsheet_ID",
+        "Signals_Published",
+        "Context_Subscribed",
+        "Last_Synced"
+      ]
+    },
+    {
+      "title": "RULES_ENGINE",
+      "sheet_id": 684617544,
+      "index": 2,
+      "hidden": false,
+      "row_count": 91,
+      "col_count": 14,
+      "populated_row_count": 91,
+      "header_row_index": 4,
+      "headers": [
+        "Maslow_Tier",
+        "Base_XP",
+        "Action_Classification_Rule"
+      ],
+      "row_1": [
+        "LIFEOS v3.0 — RULES ENGINE, 3-TIER STAT STACKING & HARDCODED RPG MATHEMATICS"
+      ]
+    },
+    {
+      "title": "CHARACTER_SHEET",
+      "sheet_id": 1284265171,
+      "index": 3,
+      "hidden": false,
+      "row_count": 100,
+      "col_count": 15,
+      "populated_row_count": 50,
+      "header_row_index": 4,
+      "headers": [
+        "Character_Name",
+        "Total_XP",
+        "Global_Level",
+        "Rank_Title",
+        "Current_Streak_Days",
+        "Active_3_6_9_Multiplier",
+        "Shadow_Tax_Rate",
+        "XP_Siphoned_To_Shadow",
+        "Net_Sovereign_XP"
+      ],
+      "row_1": [
+        "CHARACTER SHEET — LIFEOS v3.0 RPG HUD"
+      ]
+    },
+    {
+      "title": "AQAL_VIEW",
+      "sheet_id": 168404271,
+      "index": 4,
+      "hidden": false,
+      "row_count": 40,
+      "col_count": 10,
+      "populated_row_count": 33,
+      "header_row_index": 4,
+      "headers": [
+        "QUADRANT BALANCE SCORE",
+        "",
+        "ACTIVE AQAL MODIFIER",
+        "",
+        "ACUTE DRIFT DELTA (MAX − MIN)",
+        "",
+        "DOMINANT QUADRANT (MAX)",
+        "",
+        "NEGLECTED QUADRANT (MIN)"
+      ],
+      "row_1": [
+        "🧭 LIFEOS v3.0 — AQAL 2×2 META-BALANCING ENGINE (AQAL_VIEW)"
+      ]
+    }
+  ]
+}
