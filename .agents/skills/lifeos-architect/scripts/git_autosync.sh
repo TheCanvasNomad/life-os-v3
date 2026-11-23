@@ -27,7 +27,7 @@ fi
 cd "$REPO_DIR"
 log "START: LifeOS-v3 autosync check"
 
-# Commit any uncommitted local changes before rebasing so local work is preserved.
+# Commit any uncommitted local changes before syncing so local work is preserved.
 if [ -n "$(git status --porcelain)" ]; then
   git add -A >> "$LOG_FILE" 2>&1
   if ! git diff --cached --quiet; then
@@ -41,20 +41,29 @@ if [ -n "$(git status --porcelain)" ]; then
   fi
 fi
 
-# Pull remote changes (e.g. Colab notebook updates) cleanly via rebase.
-if ! git pull --rebase origin "$BRANCH" >> "$LOG_FILE" 2>&1; then
-  log "ERROR: git pull --rebase origin $BRANCH failed; aborting rebase if in progress"
-  git rebase --abort >> "$LOG_FILE" 2>&1 || true
+# Fetch remote state first so we only rebase when origin/main has new commits.
+if ! git fetch origin "$BRANCH" >> "$LOG_FILE" 2>&1; then
+  log "ERROR: git fetch origin $BRANCH failed"
   exit 1
+fi
+
+BEHIND_COUNT="$(git rev-list --count "HEAD..origin/${BRANCH}" 2>/dev/null || echo 0)"
+if [ "$BEHIND_COUNT" -gt 0 ]; then
+  log "REBASE: $BEHIND_COUNT new commit(s) on origin/$BRANCH; rebasing"
+  if ! git rebase --rebase-merges "origin/${BRANCH}" >> "$LOG_FILE" 2>&1; then
+    log "ERROR: git rebase origin/$BRANCH failed; aborting rebase"
+    git rebase --abort >> "$LOG_FILE" 2>&1 || true
+    exit 1
+  fi
 fi
 
 # Push if local branch is ahead of origin/main.
 AHEAD_COUNT="$(git rev-list --count "origin/${BRANCH}..HEAD" 2>/dev/null || echo 0)"
 if [ "$AHEAD_COUNT" -gt 0 ]; then
-  if git push origin "$BRANCH" >> "$LOG_FILE" 2>&1; then
+  if git -c credential.interactive=never push origin "$BRANCH" >> "$LOG_FILE" 2>&1; then
     log "PUSH: pushed $AHEAD_COUNT commit(s) to origin/$BRANCH"
   else
-    log "ERROR: git push origin $BRANCH failed (check gh auth / credentials)"
+    log "ERROR: git push origin $BRANCH failed (check gh auth / git credentials)"
     exit 1
   fi
 else
