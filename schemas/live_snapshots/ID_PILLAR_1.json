@@ -4,7 +4,7 @@
   "spreadsheet_id": "1dzuXlVWO5VRtla0p0ZuziZAvpm2ZySslPLZOhWDQGSI",
   "url": "https://docs.google.com/spreadsheets/d/1dzuXlVWO5VRtla0p0ZuziZAvpm2ZySslPLZOhWDQGSI/edit",
   "time_zone": "America/New_York",
-  "snapshot_utc": "2026-11-23T18:53:50Z",
+  "snapshot_utc": "2026-11-23T23:49:37Z",
   "tab_count": 9,
   "tabs": [
     {
@@ -73,7 +73,7 @@
       "title": "HABIT_MANAGER",
       "sheet_id": 849904603,
       "index": 2,
-      "hidden": false,
+      "hidden": true,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
@@ -117,7 +117,7 @@
       "title": "P1_CONFIG",
       "sheet_id": 1910824463,
       "index": 4,
-      "hidden": false,
+      "hidden": true,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
@@ -136,7 +136,7 @@
       "hidden": true,
       "sheet_type": "GRID",
       "row_count": 1000,
-      "col_count": 30,
+      "col_count": 38,
       "header_row_index": 1,
       "headers": [
         "Timestamp",
@@ -168,7 +168,12 @@
         "State_Tag",
         "Last_Updated",
         "TTL_Hours",
-        "Notes"
+        "Notes",
+        "",
+        "BIO_Metric_Key",
+        "BIO_7D_Avg",
+        "BIO_30D_Avg",
+        "BIO_Status_Unit"
       ],
       "row_1": [
         "Timestamp",
@@ -200,14 +205,19 @@
         "State_Tag",
         "Last_Updated",
         "TTL_Hours",
-        "Notes"
+        "Notes",
+        "",
+        "BIO_Metric_Key",
+        "BIO_7D_Avg",
+        "BIO_30D_Avg",
+        "BIO_Status_Unit"
       ]
     },
     {
       "title": "MODULE_META",
       "sheet_id": 683119252,
       "index": 6,
-      "hidden": false,
+      "hidden": true,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
@@ -227,7 +237,7 @@
       "title": "CONTEXT_IN",
       "sheet_id": 744371407,
       "index": 7,
-      "hidden": false,
+      "hidden": true,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
@@ -259,7 +269,7 @@
       "col_count": 26,
       "header_row_index": 1,
       "headers": [
-        "Signal_Key",
+        "",
         "Source_Brick",
         "Glyph",
         "Domain_Pillar",
@@ -271,7 +281,7 @@
         "Notes"
       ],
       "row_1": [
-        "Signal_Key",
+        "",
         "Source_Brick",
         "Glyph",
         "Domain_Pillar",

@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-23T18:53:48Z",
+  "last_updated_utc": "2026-11-23T23:49:35Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -694,7 +694,7 @@
         "LifeOS Feed Hub"
       ],
       "schema_ref": "schemas/lifeos_feed_hub_schema.json",
-      "last_snapshot_utc": "2026-11-23T18:53:48Z",
+      "last_snapshot_utc": "2026-11-23T23:49:35Z",
       "all_tabs": [
         "SIGNAL_BUS",
         "MODULE_REGISTRY",
@@ -1968,7 +1968,7 @@
         "SIGNALS_OUT"
       ],
       "tab_count": 6,
-      "last_snapshot_utc": "2026-11-23T18:53:48Z",
+      "last_snapshot_utc": "2026-11-23T23:49:35Z",
       "snapshot_file": "schemas/live_snapshots/ID_BIO_CORE.json"
     },
     "ID_PILLAR_1": {
@@ -2003,7 +2003,7 @@
         "SIGNALS_OUT"
       ],
       "tab_count": 9,
-      "last_snapshot_utc": "2026-11-23T18:53:48Z",
+      "last_snapshot_utc": "2026-11-23T23:49:35Z",
       "snapshot_file": "schemas/live_snapshots/ID_PILLAR_1.json"
     },
     "ID_RAW_DAILY_CHECKIN": {
@@ -2026,8 +2026,11 @@
         "Daily_CheckIn_Log"
       ],
       "tab_count": 3,
-      "last_snapshot_utc": "2026-11-23T18:53:48Z",
-      "snapshot_file": "schemas/live_snapshots/ID_RAW_DAILY_CHECKIN.json"
+      "last_snapshot_utc": "2026-11-23T23:49:35Z",
+      "snapshot_file": "schemas/live_snapshots/ID_RAW_DAILY_CHECKIN.json",
+      "linked_form_id": "1wJV0-OBFUHnCQVK9M3-nKh1EX_eLh842HAkMcU9b77U",
+      "linked_form_url": "https://docs.google.com/forms/d/1wJV0-OBFUHnCQVK9M3-nKh1EX_eLh842HAkMcU9b77U/viewform",
+      "linked_form_edit_url": "https://docs.google.com/forms/d/1wJV0-OBFUHnCQVK9M3-nKh1EX_eLh842HAkMcU9b77U/edit"
     }
   },
   "unmapped_discovered": [

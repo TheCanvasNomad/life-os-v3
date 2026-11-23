@@ -4,7 +4,7 @@
   "spreadsheet_id": "1EecdB1CnjvaR6C7zx9mTVMx7M-vSIMOUgd3lMlEPmEA",
   "url": "https://docs.google.com/spreadsheets/d/1EecdB1CnjvaR6C7zx9mTVMx7M-vSIMOUgd3lMlEPmEA/edit",
   "time_zone": "Etc/GMT",
-  "snapshot_utc": "2026-11-23T18:53:48Z",
+  "snapshot_utc": "2026-11-23T23:49:35Z",
   "tab_count": 6,
   "tabs": [
     {
@@ -81,7 +81,7 @@
       "title": "MODULE_META",
       "sheet_id": 250247917,
       "index": 3,
-      "hidden": false,
+      "hidden": true,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,

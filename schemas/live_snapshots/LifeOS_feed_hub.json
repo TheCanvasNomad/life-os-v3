@@ -4,7 +4,7 @@
   "spreadsheet_id": "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
   "url": "https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U/edit",
   "time_zone": "America/New_York",
-  "snapshot_utc": "2026-11-23T18:53:54Z",
+  "snapshot_utc": "2026-11-23T23:49:43Z",
   "tab_count": 9,
   "tabs": [
     {
@@ -14,7 +14,7 @@
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 200,
-      "col_count": 14,
+      "col_count": 15,
       "header_row_index": 1,
       "headers": [
         "Signal_Key",
