@@ -35,6 +35,7 @@ Usage:
 
 import argparse
 import datetime as dt
+import http.server
 import json
 import os
 import subprocess
@@ -103,9 +104,56 @@ def load_client_config(creds_path: Path) -> Dict[str, Any]:
         "client_id": cfg["client_id"],
         "client_secret": cfg["client_secret"],
         "redirect_uri": redirects[0],
-        "auth_uri": cfg.get("auth_uri", OAUTH_AUTH_URL),
+        "auth_uri": OAUTH_AUTH_URL,
         "token_uri": cfg.get("token_uri", OAUTH_TOKEN_URL),
     }
+
+
+def wait_for_local_oauth_code(cfg: Dict[str, Any], port: int, timeout_secs: int = 300) -> str:
+    """Starts a one-shot loopback HTTP server on 0.0.0.0:<port> to capture the OAuth2 code."""
+    cfg["redirect_uri"] = f"http://localhost:{port}"
+    captured: Dict[str, Optional[str]] = {"code": None, "error": None}
+
+    class CallbackHandler(http.server.BaseHTTPRequestHandler):
+        def do_GET(self):
+            qs = urllib.parse.parse_qs(urllib.parse.urlparse(self.path).query)
+            if "code" in qs and qs["code"]:
+                captured["code"] = qs["code"][0]
+                body = (
+                    "<html><body style='font-family:sans-serif;background:#0F172A;color:#F8FAFC;padding:40px'>"
+                    "<h2 style='color:#10B981'>Google Health API v4 Authorized</h2>"
+                    "<p>Authorization code captured by LifeOS BIO_CORE. You can close this tab and return to Antigravity.</p>"
+                    "</body></html>"
+                )
+            else:
+                captured["error"] = qs.get("error", ["missing_code"])[0]
+                body = (
+                    "<html><body style='font-family:sans-serif;background:#0F172A;color:#F8FAFC;padding:40px'>"
+                    f"<h2 style='color:#EF4444'>OAuth Error: {captured['error']}</h2>"
+                    "<p>Return to Antigravity to inspect the error details.</p>"
+                    "</body></html>"
+                )
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.end_headers()
+            self.wfile.write(body.encode("utf-8"))
+
+        def log_message(self, fmt, *args):
+            return
+
+    server = http.server.HTTPServer(("0.0.0.0", port), CallbackHandler)
+    server.timeout = timeout_secs
+    print("\nLOOPBACK_READY", flush=True)
+    print("AUTH_URL:", build_authorization_url(cfg), flush=True)
+    try:
+        while captured["code"] is None and captured["error"] is None:
+            server.handle_request()
+    finally:
+        server.server_close()
+
+    if captured["error"]:
+        raise RuntimeError(f"OAuth authorization failed: {captured['error']}")
+    return str(captured["code"])
 
 
 def build_authorization_url(cfg: Dict[str, Any]) -> str:
@@ -375,8 +423,8 @@ def backfill_google_health(access_token: str, days: int) -> Dict[str, Dict[str, 
         if d and rmssd is not None and float(rmssd) > 0:
             daily[d]["HRV_ms"] = round(float(rmssd), 1)
 
-    # 5. Sleep (reconcile)
-    sleep_filter = f'sleep.interval.start_time >= "{start_iso}"'
+    # 5. Sleep (reconcile via civil_end_time per https://developers.google.com/health/filters)
+    sleep_filter = f'sleep.interval.civil_end_time >= "{start_date.isoformat()}"'
     for dp in fetch_list_or_reconcile(access_token, "sleep", sleep_filter, use_reconcile=True):
         slp = dp.get("sleep") or {}
         interval = slp.get("interval") or {}
@@ -388,7 +436,7 @@ def backfill_google_health(access_token: str, days: int) -> Dict[str, Dict[str, 
         if asleep_mins is None:
             dur_s = _parse_duration_seconds(summary.get("asleepDuration"))
             asleep_mins = dur_s / 60.0 if dur_s > 0 else None
-        if asleep_mins and float(asleep_mins) > 0:
+        if asleep_mins is not None and float(asleep_mins) > 0:
             daily[d]["Sleep_Hours"] = round((daily[d]["Sleep_Hours"] or 0.0) + float(asleep_mins) / 60.0, 2)
         stages = summary.get("stagesSummary") or []
         deep_rem = 0.0
@@ -409,12 +457,12 @@ def backfill_google_health(access_token: str, days: int) -> Dict[str, Dict[str, 
         if d and grams is not None and float(grams) > 0:
             daily[d]["Weight_lbs"] = round(float(grams) / 453.59237, 1)
 
-    # 7. Exercise / Workouts (reconcile)
-    ex_filter = f'exercise.interval.start_time >= "{start_iso}"'
+    # 7. Exercise / Workouts (reconcile via civil_start_time per https://developers.google.com/health/filters)
+    ex_filter = f'exercise.interval.civil_start_time >= "{start_date.isoformat()}"'
     for dp in fetch_list_or_reconcile(access_token, "exercise", ex_filter, use_reconcile=True):
         ex = dp.get("exercise") or {}
         interval = ex.get("interval") or {}
-        d = _iso_date_prefix(interval.get("startTime"))
+        d = _iso_date_prefix(interval.get("startTime") or interval.get("endTime"))
         dur_s = _parse_duration_seconds(ex.get("activeDuration") or ex.get("duration"))
         if d and dur_s > 0:
             daily[d]["Workout_Mins"] = int(round((daily[d]["Workout_Mins"] or 0) + dur_s / 60.0))
@@ -451,24 +499,36 @@ def main() -> int:
     parser.add_argument("--token", type=Path, default=DEFAULT_TOKEN_PATH, help="Cached OAuth2 token JSON path")
     parser.add_argument("--auth-url", action="store_true", help="Print the Google OAuth2 consent URL and exit")
     parser.add_argument("--auth-code", help="Exchange an authorization code (or full redirect URL) for tokens")
+    parser.add_argument("--local-server", action="store_true", help="Run loopback HTTP callback listener and auto-capture OAuth code")
+    parser.add_argument("--port", type=int, default=8765, help="Loopback callback port (default: 8765)")
+    parser.add_argument("--redirect-uri", help="Override redirect_uri when exchanging --auth-code")
     parser.add_argument("--days", type=int, default=90, help="Number of historical days to backfill (default: 90)")
     parser.add_argument("--source-tag", default="Health_Connect", help="Source column tag (default: Health_Connect)")
     parser.add_argument("--spreadsheet-id", default=BIO_CORE_SPREADSHEET_ID, help="Target BIO_CORE spreadsheet ID")
+    parser.add_argument("--export-json", type=Path, help="Write parsed 12-col rows to JSON file instead of calling gsheets CLI")
     parser.add_argument("--dry-run", action="store_true", help="Fetch & preview rows without writing to Google Sheets")
     args = parser.parse_args()
 
     cfg = load_client_config(args.creds)
+    if args.redirect_uri:
+        cfg["redirect_uri"] = args.redirect_uri
 
     if args.auth_url:
+        if args.port and not args.redirect_uri and cfg["redirect_uri"] == "http://localhost":
+            cfg["redirect_uri"] = f"http://localhost:{args.port}"
         print("\nOpen this URL in your browser to authorize Google Health API v4:\n")
         print(build_authorization_url(cfg))
         print(
             "\nAfter approving, copy the full redirected URL (or the `code=...` parameter) and run:\n"
-            f'  python3 {sys.argv[0]} --auth-code "<PASTE_CODE_OR_URL>" --days {args.days}\n'
+            f'  python3 {sys.argv[0]} --redirect-uri "{cfg["redirect_uri"]}" --auth-code "<PASTE_CODE_OR_URL>" --days {args.days}\n'
         )
         return 0
 
-    if args.auth_code:
+    if args.local_server:
+        code = wait_for_local_oauth_code(cfg, args.port)
+        tok = exchange_auth_code(cfg, code, args.token)
+        print(f"Saved OAuth2 tokens securely to {args.token}", flush=True)
+    elif args.auth_code:
         tok = exchange_auth_code(cfg, args.auth_code, args.token)
         print(f"Saved OAuth2 tokens securely to {args.token}")
     else:
@@ -479,7 +539,7 @@ def main() -> int:
     print(f"Verified Google Health Identity: healthUserId={identity.get('healthUserId')}")
 
     daily = backfill_google_health(access_token, args.days)
-    existing = set() if args.dry_run else load_existing_keys(args.spreadsheet_id)
+    existing = set() if (args.dry_run or args.export_json) else load_existing_keys(args.spreadsheet_id)
     now_iso = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
     rows = []
     for d_str, metrics in sorted(daily.items()):
@@ -491,6 +551,10 @@ def main() -> int:
         rows.append([now_iso, d_str, args.source_tag] + vals)
 
     print(f"Retrieved {len(daily)} day(s) from Google Health API v4; {len(rows)} new row(s) ready.")
+    if args.export_json:
+        args.export_json.write_text(json.dumps(rows, indent=2), encoding="utf-8")
+        print(f"Exported {len(rows)} row(s) to {args.export_json}")
+        return 0
     if args.dry_run:
         for r in rows[:10]:
             print("  PREVIEW:", r)
