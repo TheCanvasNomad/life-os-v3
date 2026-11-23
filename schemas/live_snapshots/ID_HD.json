@@ -1,0 +1,305 @@
+{
+  "registry_key": "ID_HD",
+  "title": "Human Design OS",
+  "spreadsheet_id": "1yTiVyqmpz5FeZJSuN6_fmMfQZWq4HMcNCIKELBz8wp0",
+  "url": "https://docs.google.com/spreadsheets/d/1yTiVyqmpz5FeZJSuN6_fmMfQZWq4HMcNCIKELBz8wp0/edit",
+  "time_zone": "Etc/GMT",
+  "snapshot_utc": "2026-11-23T07:42:05Z",
+  "tab_count": 15,
+  "tabs": [
+    {
+      "title": "💠 HD_DASHBOARD",
+      "sheet_id": 385880521,
+      "index": 0,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 14,
+      "header_row_index": 4,
+      "headers": [
+        "9 BODYGRAPH CENTERS",
+        "Center Class",
+        "Active Gates",
+        "Boolean State",
+        "Operational Directive",
+        "LIVE TELEMETRY & ENERGY ECONOMY",
+        "Score",
+        "Visual Bar"
+      ],
+      "row_1": [
+        "💠 HUMAN DESIGN OS — UNIVERSAL BODYGRAPH & TELEMETRY HUD"
+      ]
+    },
+    {
+      "title": "ADVISORY_MATRIX",
+      "sheet_id": 1869928917,
+      "index": 1,
+      "hidden": false,
+      "row_count": 80,
+      "col_count": 14,
+      "populated_row_count": 16,
+      "header_row_index": 2,
+      "headers": [
+        "Resolved Aura Type:",
+        "Projector",
+        "Inner Authority:",
+        "Splenic Authority",
+        "Profile & Definition:",
+        "",
+        "Live Hub State:",
+        "#REF!"
+      ],
+      "row_1": [
+        "🧭 HUMAN DESIGN ENGINE — UNIVERSAL DYNAMIC ADVISORY MATRIX"
+      ]
+    },
+    {
+      "title": "HD_CENTERS_9",
+      "sheet_id": 1716374683,
+      "index": 2,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 24,
+      "header_row_index": 1,
+      "headers": [
+        "",
+        "LIFE OS // NINE-CENTERED BOOLEAN STATE MACHINE & TYPE RESOLVER"
+      ],
+      "row_1": [
+        "",
+        "LIFE OS // NINE-CENTERED BOOLEAN STATE MACHINE & TYPE RESOLVER"
+      ]
+    },
+    {
+      "title": "HD_CHANNELS_36",
+      "sheet_id": 1467414975,
+      "index": 3,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 43,
+      "header_row_index": 1,
+      "headers": [
+        "",
+        "LIFE OS // 36-CHANNEL BOOLEAN CIRCUIT & DEFINITION MATRIX"
+      ],
+      "row_1": [
+        "",
+        "LIFE OS // 36-CHANNEL BOOLEAN CIRCUIT & DEFINITION MATRIX"
+      ]
+    },
+    {
+      "title": "HD_PHS_VARIABLES",
+      "sheet_id": 718959226,
+      "index": 4,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 28,
+      "header_row_index": 1,
+      "headers": [
+        "",
+        "LIFE OS // PRIMARY HEALTH SYSTEM (PHS) & COGNITIVE VARIABLES ENGINE"
+      ],
+      "row_1": [
+        "",
+        "LIFE OS // PRIMARY HEALTH SYSTEM (PHS) & COGNITIVE VARIABLES ENGINE"
+      ]
+    },
+    {
+      "title": "HD_ENERGY_TRANSIT_HUD",
+      "sheet_id": 798810675,
+      "index": 5,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 33,
+      "header_row_index": 1,
+      "headers": [
+        "",
+        "LIFE OS // PROJECTOR BATTERY GOVERNOR & TRANSIT CONDITIONING HUD"
+      ],
+      "row_1": [
+        "",
+        "LIFE OS // PROJECTOR BATTERY GOVERNOR & TRANSIT CONDITIONING HUD"
+      ]
+    },
+    {
+      "title": "HD_DECISION_ENGINE",
+      "sheet_id": 1474450060,
+      "index": 6,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 34,
+      "header_row_index": 1,
+      "headers": [
+        "",
+        "LIFE OS // INVITATION GATEKEEPER & SPLENIC AUTHORITY ENGINE"
+      ],
+      "row_1": [
+        "",
+        "LIFE OS // INVITATION GATEKEEPER & SPLENIC AUTHORITY ENGINE"
+      ]
+    },
+    {
+      "title": "HD_WHEEL_64",
+      "sheet_id": 1324840502,
+      "index": 7,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 87,
+      "header_row_index": 1,
+      "headers": [
+        "",
+        "LIFE OS // RAVE MANDALA 64-GATE MATHEMATICAL ENGINE"
+      ],
+      "row_1": [
+        "",
+        "LIFE OS // RAVE MANDALA 64-GATE MATHEMATICAL ENGINE"
+      ]
+    },
+    {
+      "title": "HD_CONFIG_BUS",
+      "sheet_id": 1028706344,
+      "index": 8,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 29,
+      "header_row_index": 1,
+      "headers": [
+        "",
+        "LIFE OS // HUMAN DESIGN ENGINE & BIOENERGETIC TELEMETRY"
+      ],
+      "row_1": [
+        "",
+        "LIFE OS // HUMAN DESIGN ENGINE & BIOENERGETIC TELEMETRY"
+      ]
+    },
+    {
+      "title": "MODULE_META",
+      "sheet_id": 2111009158,
+      "index": 9,
+      "hidden": false,
+      "row_count": 80,
+      "col_count": 14,
+      "populated_row_count": 9,
+      "header_row_index": 1,
+      "headers": [
+        "Field",
+        "Value",
+        "Architecture Rule"
+      ],
+      "row_1": [
+        "Field",
+        "Value",
+        "Architecture Rule"
+      ]
+    },
+    {
+      "title": "CONTEXT_IN",
+      "sheet_id": 199726863,
+      "index": 10,
+      "hidden": false,
+      "row_count": 80,
+      "col_count": 14,
+      "populated_row_count": 8,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Upstream_Score_0_100",
+        "State_Tag",
+        "Active_State_Trigger",
+        "Hub_Auth_Trigger (Click E2 -> Allow Access)"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Upstream_Score_0_100",
+        "State_Tag",
+        "Active_State_Trigger",
+        "Hub_Auth_Trigger (Click E2 -> Allow Access)"
+      ]
+    },
+    {
+      "title": "SIGNALS_OUT",
+      "sheet_id": 1549984024,
+      "index": 11,
+      "hidden": false,
+      "row_count": 80,
+      "col_count": 14,
+      "populated_row_count": 12,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Raw_Summary",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Raw_Summary",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated"
+      ]
+    },
+    {
+      "title": "Core Components",
+      "sheet_id": 1812124080,
+      "index": 12,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 692,
+      "header_row_index": 1,
+      "headers": [
+        "Human Design Element or Analysis",
+        "Category",
+        "Description & Purpose"
+      ],
+      "row_1": [
+        "Human Design Element or Analysis",
+        "Category",
+        "Description & Purpose"
+      ]
+    },
+    {
+      "title": "The Projector",
+      "sheet_id": 496935366,
+      "index": 13,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 25,
+      "populated_row_count": 69,
+      "header_row_index": 1,
+      "headers": [
+        "Human Design Element",
+        "Category",
+        "Description & Key Characteristics",
+        "Role in Personal Growth or Relationships"
+      ],
+      "row_1": [
+        "Human Design Element",
+        "Category",
+        "Description & Key Characteristics",
+        "Role in Personal Growth or Relationships"
+      ]
+    },
+    {
+      "title": "HD_BLUEPRINT",
+      "sheet_id": 1877240787,
+      "index": 14,
+      "hidden": false,
+      "row_count": 80,
+      "col_count": 14,
+      "populated_row_count": 0,
+      "header_row_index": null,
+      "headers": [],
+      "row_1": []
+    }
+  ]
+}

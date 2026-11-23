@@ -1,0 +1,531 @@
+{
+  "registry_key": "LifeOS_Master_Bus",
+  "title": "LifeOS_Master_Bus",
+  "spreadsheet_id": "1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ",
+  "url": "https://docs.google.com/spreadsheets/d/1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ/edit",
+  "time_zone": "America/New_York",
+  "snapshot_utc": "2026-11-23T07:42:29Z",
+  "tab_count": 19,
+  "tabs": [
+    {
+      "title": "SYMBIOSIS_HUD",
+      "sheet_id": 212814514,
+      "index": 0,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 12,
+      "header_row_index": 1,
+      "headers": [
+        "⚡ LIFE OS SYMBIOSIS COCKPIT (100% FORMULA-DRIVEN)",
+        "MODE: NATIVE FORMULAS + FORM RELAY",
+        "BLUE = DYNAMIC FORMULA",
+        "IVORY = STATIC THRESHOLD"
+      ],
+      "row_1": [
+        "⚡ LIFE OS SYMBIOSIS COCKPIT (100% FORMULA-DRIVEN)",
+        "MODE: NATIVE FORMULAS + FORM RELAY",
+        "BLUE = DYNAMIC FORMULA",
+        "IVORY = STATIC THRESHOLD"
+      ]
+    },
+    {
+      "title": "Workbook_Directory",
+      "sheet_id": 0,
+      "index": 1,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 14,
+      "header_row_index": 1,
+      "headers": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Staging_Tab",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Domain_Pillar",
+        "Spreadsheet_ID",
+        "Link",
+        "Direct_URL"
+      ],
+      "row_1": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Staging_Tab",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Domain_Pillar",
+        "Spreadsheet_ID",
+        "Link",
+        "Direct_URL"
+      ]
+    },
+    {
+      "title": "SCHEMA_MANIFEST",
+      "sheet_id": 152130067,
+      "index": 2,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 21,
+      "header_row_index": 1,
+      "headers": [
+        "Domain_Key",
+        "Workbook_Key",
+        "Tab_Name",
+        "Header_Anchor",
+        "Key_Col",
+        "Val_Col",
+        "Data_Type",
+        "Notes"
+      ],
+      "row_1": [
+        "Domain_Key",
+        "Workbook_Key",
+        "Tab_Name",
+        "Header_Anchor",
+        "Key_Col",
+        "Val_Col",
+        "Data_Type",
+        "Notes"
+      ]
+    },
+    {
+      "title": "SYMBIOSIS_BUS",
+      "sheet_id": 55592173,
+      "index": 3,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Rule_ID",
+        "Source_Key",
+        "Operator",
+        "Threshold",
+        "Target_Workbook_Key",
+        "Target_Tab",
+        "Target_Anchor",
+        "Payload_True",
+        "Payload_False",
+        "Live_Signal_Value (Formula)",
+        "Rule_State (Formula)",
+        "Resolved_Directive (Formula)"
+      ],
+      "row_1": [
+        "Rule_ID",
+        "Source_Key",
+        "Operator",
+        "Threshold",
+        "Target_Workbook_Key",
+        "Target_Tab",
+        "Target_Anchor",
+        "Payload_True",
+        "Payload_False",
+        "Live_Signal_Value (Formula)",
+        "Rule_State (Formula)",
+        "Resolved_Directive (Formula)"
+      ]
+    },
+    {
+      "title": "Signal_Bus",
+      "sheet_id": 1673643981,
+      "index": 4,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 34,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Workbook_Key",
+        "Staging_Tab",
+        "Lookup_Mode",
+        "Target_Cell_or_Key",
+        "Col_Index",
+        "Fallback",
+        "Live_Value",
+        "Source_Status"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Workbook_Key",
+        "Staging_Tab",
+        "Lookup_Mode",
+        "Target_Cell_or_Key",
+        "Col_Index",
+        "Fallback",
+        "Live_Value",
+        "Source_Status"
+      ]
+    },
+    {
+      "title": "Engine_Outputs",
+      "sheet_id": 1509572656,
+      "index": 5,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 7,
+      "header_row_index": 1,
+      "headers": [
+        "Output_Key",
+        "Workbook_Key",
+        "Staging_Tab",
+        "Metric_Key",
+        "Fallback",
+        "Live_Value",
+        "Source_Status"
+      ],
+      "row_1": [
+        "Output_Key",
+        "Workbook_Key",
+        "Staging_Tab",
+        "Metric_Key",
+        "Fallback",
+        "Live_Value",
+        "Source_Status"
+      ]
+    },
+    {
+      "title": "SRC_OCEAN",
+      "sheet_id": 164080207,
+      "index": 6,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 21,
+      "header_row_index": 1,
+      "headers": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ],
+      "row_1": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ]
+    },
+    {
+      "title": "SRC_MBTI",
+      "sheet_id": 273680863,
+      "index": 7,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 13,
+      "header_row_index": 1,
+      "headers": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ],
+      "row_1": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ]
+    },
+    {
+      "title": "SRC_ENNEAGRAM",
+      "sheet_id": 182269779,
+      "index": 8,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 37,
+      "header_row_index": 1,
+      "headers": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ],
+      "row_1": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ]
+    },
+    {
+      "title": "SRC_PQ",
+      "sheet_id": 1248345206,
+      "index": 9,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 46,
+      "header_row_index": 1,
+      "headers": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ],
+      "row_1": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ]
+    },
+    {
+      "title": "SRC_HD",
+      "sheet_id": 418591550,
+      "index": 10,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 45,
+      "header_row_index": 1,
+      "headers": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ],
+      "row_1": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ]
+    },
+    {
+      "title": "SRC_ZODIAC",
+      "sheet_id": 1902988881,
+      "index": 11,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 50,
+      "header_row_index": 1,
+      "headers": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ],
+      "row_1": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ]
+    },
+    {
+      "title": "SRC_CAREER",
+      "sheet_id": 49878615,
+      "index": 12,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 38,
+      "header_row_index": 1,
+      "headers": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ],
+      "row_1": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ]
+    },
+    {
+      "title": "SRC_MASLOW",
+      "sheet_id": 1552127598,
+      "index": 13,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 23,
+      "header_row_index": 1,
+      "headers": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ],
+      "row_1": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ]
+    },
+    {
+      "title": "SRC_GRIT",
+      "sheet_id": 135604351,
+      "index": 14,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 39,
+      "header_row_index": 1,
+      "headers": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ],
+      "row_1": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ]
+    },
+    {
+      "title": "SRC_RIASEC",
+      "sheet_id": 751730578,
+      "index": 15,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 32,
+      "header_row_index": 1,
+      "headers": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ],
+      "row_1": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ]
+    },
+    {
+      "title": "SRC_XP_HUB",
+      "sheet_id": 778024592,
+      "index": 16,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 12,
+      "header_row_index": 1,
+      "headers": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ],
+      "row_1": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ]
+    },
+    {
+      "title": "SRC_KABBALAH",
+      "sheet_id": 482453950,
+      "index": 17,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 19,
+      "header_row_index": 1,
+      "headers": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ],
+      "row_1": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ]
+    },
+    {
+      "title": "SRC_16PF",
+      "sheet_id": 653666860,
+      "index": 18,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 12,
+      "header_row_index": 1,
+      "headers": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ],
+      "row_1": [
+        "Workbook_Key",
+        "Workbook_Name",
+        "Spreadsheet_ID",
+        "Primary_Remote_Tab",
+        "Secondary_Remote_Tab",
+        "Sync_Status"
+      ]
+    }
+  ]
+}

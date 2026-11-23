@@ -1,0 +1,8501 @@
+{
+  "registry_key": "ID_MASTER_LOG",
+  "title": "LifeOS - Master Log",
+  "spreadsheet_id": "1eaUGcN8AJEOr6Dl2zA4fipQNhif6cDBlKitTNveg8aA",
+  "url": "https://docs.google.com/spreadsheets/d/1eaUGcN8AJEOr6Dl2zA4fipQNhif6cDBlKitTNveg8aA/edit",
+  "time_zone": "America/New_York",
+  "snapshot_utc": "2026-11-23T07:47:15Z",
+  "tab_count": 424,
+  "tabs": [
+    {
+      "title": "Master Log",
+      "sheet_id": 1954269286,
+      "index": 0,
+      "hidden": false,
+      "row_count": 3772,
+      "col_count": 26,
+      "populated_row_count": 3772,
+      "header_row_index": 1,
+      "headers": [
+        "Date",
+        "Archetype",
+        "Completed"
+      ],
+      "row_1": [
+        "Date",
+        "Archetype",
+        "Completed"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-23",
+      "sheet_id": 883358765,
+      "index": 1,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-22",
+      "sheet_id": 1470641870,
+      "index": 2,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-21",
+      "sheet_id": 809750960,
+      "index": 3,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-20",
+      "sheet_id": 1623349214,
+      "index": 4,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-19",
+      "sheet_id": 1026873996,
+      "index": 5,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-18",
+      "sheet_id": 971475366,
+      "index": 6,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-17",
+      "sheet_id": 158174282,
+      "index": 7,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-16",
+      "sheet_id": 1925375298,
+      "index": 8,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-15",
+      "sheet_id": 994350871,
+      "index": 9,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-14",
+      "sheet_id": 900036582,
+      "index": 10,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-13",
+      "sheet_id": 151938306,
+      "index": 11,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-12",
+      "sheet_id": 271594698,
+      "index": 12,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-11",
+      "sheet_id": 830830056,
+      "index": 13,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-10",
+      "sheet_id": 1602195372,
+      "index": 14,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-09",
+      "sheet_id": 195181347,
+      "index": 15,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-08",
+      "sheet_id": 1635981161,
+      "index": 16,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-07",
+      "sheet_id": 64429191,
+      "index": 17,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-06",
+      "sheet_id": 1654486720,
+      "index": 18,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-05",
+      "sheet_id": 237876569,
+      "index": 19,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-04",
+      "sheet_id": 2116848090,
+      "index": 20,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-03",
+      "sheet_id": 850917125,
+      "index": 21,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-02",
+      "sheet_id": 360685194,
+      "index": 22,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Council Heatmap",
+      "sheet_id": 1245262282,
+      "index": 23,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 257,
+      "header_row_index": 1,
+      "headers": [
+        "Date",
+        "% Completed"
+      ],
+      "row_1": [
+        "Date",
+        "% Completed"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-11-01",
+      "sheet_id": 451644462,
+      "index": 24,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-31",
+      "sheet_id": 607708514,
+      "index": 25,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-30",
+      "sheet_id": 811821625,
+      "index": 26,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-29",
+      "sheet_id": 1462663224,
+      "index": 27,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-28",
+      "sheet_id": 1645415300,
+      "index": 28,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-27",
+      "sheet_id": 1664878502,
+      "index": 29,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-26",
+      "sheet_id": 1326250991,
+      "index": 30,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-25",
+      "sheet_id": 653102958,
+      "index": 31,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-24",
+      "sheet_id": 188263327,
+      "index": 32,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-23",
+      "sheet_id": 951967892,
+      "index": 33,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-22",
+      "sheet_id": 1029892865,
+      "index": 34,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-21",
+      "sheet_id": 447965225,
+      "index": 35,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-20",
+      "sheet_id": 756896446,
+      "index": 36,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-19",
+      "sheet_id": 196464333,
+      "index": 37,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-18",
+      "sheet_id": 825969849,
+      "index": 38,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-17",
+      "sheet_id": 814447790,
+      "index": 39,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-16",
+      "sheet_id": 1489688547,
+      "index": 40,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-15",
+      "sheet_id": 465391366,
+      "index": 41,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-14",
+      "sheet_id": 686560369,
+      "index": 42,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-13",
+      "sheet_id": 1885731719,
+      "index": 43,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-12",
+      "sheet_id": 1491004893,
+      "index": 44,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-11",
+      "sheet_id": 363712991,
+      "index": 45,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-10",
+      "sheet_id": 1594698212,
+      "index": 46,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-09",
+      "sheet_id": 1102498730,
+      "index": 47,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-08",
+      "sheet_id": 36188380,
+      "index": 48,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-07",
+      "sheet_id": 40860071,
+      "index": 49,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-06",
+      "sheet_id": 658258389,
+      "index": 50,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-05",
+      "sheet_id": 808563161,
+      "index": 51,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-04",
+      "sheet_id": 679367076,
+      "index": 52,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-03",
+      "sheet_id": 967957700,
+      "index": 53,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-02",
+      "sheet_id": 254148399,
+      "index": 54,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-10-01",
+      "sheet_id": 1087788582,
+      "index": 55,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-30",
+      "sheet_id": 456801568,
+      "index": 56,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-29",
+      "sheet_id": 1331193287,
+      "index": 57,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-28",
+      "sheet_id": 1111221236,
+      "index": 58,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-27",
+      "sheet_id": 760890546,
+      "index": 59,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-26",
+      "sheet_id": 1143777349,
+      "index": 60,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-25",
+      "sheet_id": 1433339669,
+      "index": 61,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-24",
+      "sheet_id": 1826316024,
+      "index": 62,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-23",
+      "sheet_id": 389153475,
+      "index": 63,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-22",
+      "sheet_id": 2029536839,
+      "index": 64,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-21",
+      "sheet_id": 618328409,
+      "index": 65,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-20",
+      "sheet_id": 624030714,
+      "index": 66,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-19",
+      "sheet_id": 1845575118,
+      "index": 67,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-18",
+      "sheet_id": 712210839,
+      "index": 68,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-17",
+      "sheet_id": 1285909768,
+      "index": 69,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-16",
+      "sheet_id": 835108414,
+      "index": 70,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-15",
+      "sheet_id": 254088652,
+      "index": 71,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-14",
+      "sheet_id": 2128340677,
+      "index": 72,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-13",
+      "sheet_id": 1169741018,
+      "index": 73,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-12",
+      "sheet_id": 1929663888,
+      "index": 74,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-11",
+      "sheet_id": 294011767,
+      "index": 75,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-10",
+      "sheet_id": 820971436,
+      "index": 76,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-09",
+      "sheet_id": 1361079105,
+      "index": 77,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-08",
+      "sheet_id": 422985300,
+      "index": 78,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-07",
+      "sheet_id": 796731766,
+      "index": 79,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-06",
+      "sheet_id": 1160793457,
+      "index": 80,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-05",
+      "sheet_id": 434828419,
+      "index": 81,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-04",
+      "sheet_id": 1956298300,
+      "index": 82,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-03",
+      "sheet_id": 1251831117,
+      "index": 83,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-02",
+      "sheet_id": 263969971,
+      "index": 84,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-09-01",
+      "sheet_id": 259173071,
+      "index": 85,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-31",
+      "sheet_id": 615985245,
+      "index": 86,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-30",
+      "sheet_id": 1126543499,
+      "index": 87,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-29",
+      "sheet_id": 200897628,
+      "index": 88,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-28",
+      "sheet_id": 1773686015,
+      "index": 89,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-27",
+      "sheet_id": 1369216168,
+      "index": 90,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-26",
+      "sheet_id": 149456939,
+      "index": 91,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-25",
+      "sheet_id": 1860024480,
+      "index": 92,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-24",
+      "sheet_id": 2063264990,
+      "index": 93,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-23",
+      "sheet_id": 1116266686,
+      "index": 94,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-22",
+      "sheet_id": 1216258375,
+      "index": 95,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-21",
+      "sheet_id": 805135314,
+      "index": 96,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-20",
+      "sheet_id": 339004017,
+      "index": 97,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-19",
+      "sheet_id": 952498217,
+      "index": 98,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-18",
+      "sheet_id": 856767453,
+      "index": 99,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-17",
+      "sheet_id": 109383764,
+      "index": 100,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-16",
+      "sheet_id": 1819218617,
+      "index": 101,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-15",
+      "sheet_id": 268542739,
+      "index": 102,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-14",
+      "sheet_id": 380005850,
+      "index": 103,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-13",
+      "sheet_id": 459462401,
+      "index": 104,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-12",
+      "sheet_id": 357136050,
+      "index": 105,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-11",
+      "sheet_id": 277217796,
+      "index": 106,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-10",
+      "sheet_id": 1647807436,
+      "index": 107,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-09",
+      "sheet_id": 1752850336,
+      "index": 108,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-08",
+      "sheet_id": 534203668,
+      "index": 109,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-07",
+      "sheet_id": 313628572,
+      "index": 110,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-06",
+      "sheet_id": 1702679684,
+      "index": 111,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-05",
+      "sheet_id": 1651232961,
+      "index": 112,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-04",
+      "sheet_id": 707783026,
+      "index": 113,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-03",
+      "sheet_id": 1910323975,
+      "index": 114,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-02",
+      "sheet_id": 56223688,
+      "index": 115,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-08-01",
+      "sheet_id": 1126019530,
+      "index": 116,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-31",
+      "sheet_id": 1414756408,
+      "index": 117,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-30",
+      "sheet_id": 389256220,
+      "index": 118,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-29",
+      "sheet_id": 395596596,
+      "index": 119,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-28",
+      "sheet_id": 950887519,
+      "index": 120,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-27",
+      "sheet_id": 1161060207,
+      "index": 121,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-26",
+      "sheet_id": 1810386384,
+      "index": 122,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-25",
+      "sheet_id": 525360222,
+      "index": 123,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-24",
+      "sheet_id": 2071647108,
+      "index": 124,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-23",
+      "sheet_id": 1828423590,
+      "index": 125,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-22",
+      "sheet_id": 134613801,
+      "index": 126,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-21",
+      "sheet_id": 1769789470,
+      "index": 127,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-20",
+      "sheet_id": 842206366,
+      "index": 128,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-19",
+      "sheet_id": 1167322484,
+      "index": 129,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-18",
+      "sheet_id": 393458908,
+      "index": 130,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-17",
+      "sheet_id": 1642189510,
+      "index": 131,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-16",
+      "sheet_id": 35073114,
+      "index": 132,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-15",
+      "sheet_id": 1129028936,
+      "index": 133,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-14",
+      "sheet_id": 1078686177,
+      "index": 134,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-13",
+      "sheet_id": 76243357,
+      "index": 135,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-12",
+      "sheet_id": 1358875862,
+      "index": 136,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-11",
+      "sheet_id": 360590432,
+      "index": 137,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-10",
+      "sheet_id": 1555108287,
+      "index": 138,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-09",
+      "sheet_id": 1016715947,
+      "index": 139,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-08",
+      "sheet_id": 22391205,
+      "index": 140,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-07",
+      "sheet_id": 1707270104,
+      "index": 141,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-06",
+      "sheet_id": 591430436,
+      "index": 142,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-05",
+      "sheet_id": 915247470,
+      "index": 143,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-04",
+      "sheet_id": 26654694,
+      "index": 144,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-03",
+      "sheet_id": 1207209792,
+      "index": 145,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-02",
+      "sheet_id": 1142031369,
+      "index": 146,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-07-01",
+      "sheet_id": 3994886,
+      "index": 147,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-30",
+      "sheet_id": 1694059827,
+      "index": 148,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-29",
+      "sheet_id": 1265724581,
+      "index": 149,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-28",
+      "sheet_id": 1063991380,
+      "index": 150,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-27",
+      "sheet_id": 1917161225,
+      "index": 151,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-26",
+      "sheet_id": 1056904141,
+      "index": 152,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-25",
+      "sheet_id": 506820812,
+      "index": 153,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-24",
+      "sheet_id": 751670765,
+      "index": 154,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-23",
+      "sheet_id": 952837296,
+      "index": 155,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-22",
+      "sheet_id": 1369282781,
+      "index": 156,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-21",
+      "sheet_id": 2132026196,
+      "index": 157,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-20",
+      "sheet_id": 1514175237,
+      "index": 158,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-19",
+      "sheet_id": 713952258,
+      "index": 159,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-18",
+      "sheet_id": 645123214,
+      "index": 160,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-17",
+      "sheet_id": 899594655,
+      "index": 161,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-16",
+      "sheet_id": 1418590888,
+      "index": 162,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-15",
+      "sheet_id": 141565884,
+      "index": 163,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-14",
+      "sheet_id": 77720759,
+      "index": 164,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-13",
+      "sheet_id": 1315785716,
+      "index": 165,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-12",
+      "sheet_id": 792569602,
+      "index": 166,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-11",
+      "sheet_id": 340684263,
+      "index": 167,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-10",
+      "sheet_id": 1220022772,
+      "index": 168,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-09",
+      "sheet_id": 301896255,
+      "index": 169,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-08",
+      "sheet_id": 1934827383,
+      "index": 170,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-07",
+      "sheet_id": 1254429859,
+      "index": 171,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-06",
+      "sheet_id": 258677567,
+      "index": 172,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-05",
+      "sheet_id": 806872627,
+      "index": 173,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-04",
+      "sheet_id": 1138632809,
+      "index": 174,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-03",
+      "sheet_id": 562808768,
+      "index": 175,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-02",
+      "sheet_id": 1552789304,
+      "index": 176,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-06-01",
+      "sheet_id": 694323273,
+      "index": 177,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-31",
+      "sheet_id": 321943473,
+      "index": 178,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-30",
+      "sheet_id": 557457500,
+      "index": 179,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-29",
+      "sheet_id": 251605597,
+      "index": 180,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-28",
+      "sheet_id": 775633305,
+      "index": 181,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-27",
+      "sheet_id": 1298233451,
+      "index": 182,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-26",
+      "sheet_id": 987802961,
+      "index": 183,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-25",
+      "sheet_id": 590921363,
+      "index": 184,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-24",
+      "sheet_id": 298384222,
+      "index": 185,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-23",
+      "sheet_id": 1901563521,
+      "index": 186,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-22",
+      "sheet_id": 1249181035,
+      "index": 187,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-21",
+      "sheet_id": 1302510359,
+      "index": 188,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-20",
+      "sheet_id": 1560498659,
+      "index": 189,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-19",
+      "sheet_id": 2086647094,
+      "index": 190,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-18",
+      "sheet_id": 1110133196,
+      "index": 191,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-17",
+      "sheet_id": 83846000,
+      "index": 192,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-16",
+      "sheet_id": 929753905,
+      "index": 193,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-15",
+      "sheet_id": 959550857,
+      "index": 194,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-14",
+      "sheet_id": 510295779,
+      "index": 195,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-13",
+      "sheet_id": 2076229249,
+      "index": 196,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-12",
+      "sheet_id": 1503316014,
+      "index": 197,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-11",
+      "sheet_id": 1171413811,
+      "index": 198,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-10",
+      "sheet_id": 929671352,
+      "index": 199,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-09",
+      "sheet_id": 354499416,
+      "index": 200,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-08",
+      "sheet_id": 1327676710,
+      "index": 201,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-07",
+      "sheet_id": 975719244,
+      "index": 202,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-06",
+      "sheet_id": 478062662,
+      "index": 203,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-05",
+      "sheet_id": 940051607,
+      "index": 204,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-04",
+      "sheet_id": 5013381,
+      "index": 205,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-03",
+      "sheet_id": 873298022,
+      "index": 206,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-02",
+      "sheet_id": 604012471,
+      "index": 207,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-05-01",
+      "sheet_id": 205453581,
+      "index": 208,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-30",
+      "sheet_id": 1965393891,
+      "index": 209,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-29",
+      "sheet_id": 908848974,
+      "index": 210,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-28",
+      "sheet_id": 2133280151,
+      "index": 211,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-27",
+      "sheet_id": 1250064006,
+      "index": 212,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-26",
+      "sheet_id": 1452268996,
+      "index": 213,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-25",
+      "sheet_id": 788184733,
+      "index": 214,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-24",
+      "sheet_id": 1909618348,
+      "index": 215,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-23",
+      "sheet_id": 905916730,
+      "index": 216,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-22",
+      "sheet_id": 795008557,
+      "index": 217,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-21",
+      "sheet_id": 1128548552,
+      "index": 218,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-20",
+      "sheet_id": 635224355,
+      "index": 219,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-19",
+      "sheet_id": 1810450507,
+      "index": 220,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-18",
+      "sheet_id": 1093262896,
+      "index": 221,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-17",
+      "sheet_id": 1197231939,
+      "index": 222,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-16",
+      "sheet_id": 245306319,
+      "index": 223,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-15",
+      "sheet_id": 534999594,
+      "index": 224,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-14",
+      "sheet_id": 1601722193,
+      "index": 225,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-13",
+      "sheet_id": 949427505,
+      "index": 226,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-12",
+      "sheet_id": 29128053,
+      "index": 227,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-11",
+      "sheet_id": 1633212100,
+      "index": 228,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-10",
+      "sheet_id": 1849005355,
+      "index": 229,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-09",
+      "sheet_id": 336423078,
+      "index": 230,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-08",
+      "sheet_id": 783605410,
+      "index": 231,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-07",
+      "sheet_id": 2116901970,
+      "index": 232,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-06",
+      "sheet_id": 201180870,
+      "index": 233,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-05",
+      "sheet_id": 653015960,
+      "index": 234,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-04",
+      "sheet_id": 128780411,
+      "index": 235,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-03",
+      "sheet_id": 718880430,
+      "index": 236,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-02",
+      "sheet_id": 948413270,
+      "index": 237,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-04-01",
+      "sheet_id": 71486061,
+      "index": 238,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-31",
+      "sheet_id": 698118610,
+      "index": 239,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-30",
+      "sheet_id": 1452487617,
+      "index": 240,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-29",
+      "sheet_id": 227581207,
+      "index": 241,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-28",
+      "sheet_id": 818048536,
+      "index": 242,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-27",
+      "sheet_id": 1061406334,
+      "index": 243,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-26",
+      "sheet_id": 807043577,
+      "index": 244,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-25",
+      "sheet_id": 300971019,
+      "index": 245,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-24",
+      "sheet_id": 1389303779,
+      "index": 246,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-23",
+      "sheet_id": 1561923393,
+      "index": 247,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-22",
+      "sheet_id": 1945343517,
+      "index": 248,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-21",
+      "sheet_id": 708131022,
+      "index": 249,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-20",
+      "sheet_id": 266900467,
+      "index": 250,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-19",
+      "sheet_id": 483060819,
+      "index": 251,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-18",
+      "sheet_id": 566310604,
+      "index": 252,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-17",
+      "sheet_id": 257685068,
+      "index": 253,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-16",
+      "sheet_id": 902006686,
+      "index": 254,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-15",
+      "sheet_id": 1407367969,
+      "index": 255,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-14",
+      "sheet_id": 904410206,
+      "index": 256,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-13",
+      "sheet_id": 953242952,
+      "index": 257,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-12",
+      "sheet_id": 328288313,
+      "index": 258,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-11",
+      "sheet_id": 1953934298,
+      "index": 259,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-10",
+      "sheet_id": 1511747633,
+      "index": 260,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-09",
+      "sheet_id": 281744477,
+      "index": 261,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-08",
+      "sheet_id": 92064299,
+      "index": 262,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-07",
+      "sheet_id": 219315901,
+      "index": 263,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-06",
+      "sheet_id": 1880225467,
+      "index": 264,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-05",
+      "sheet_id": 1119863014,
+      "index": 265,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-04",
+      "sheet_id": 1060593003,
+      "index": 266,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-03",
+      "sheet_id": 511350062,
+      "index": 267,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-02",
+      "sheet_id": 1149583043,
+      "index": 268,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-03-01",
+      "sheet_id": 1768796891,
+      "index": 269,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-28",
+      "sheet_id": 1729906354,
+      "index": 270,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-27",
+      "sheet_id": 736444880,
+      "index": 271,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-26",
+      "sheet_id": 55693667,
+      "index": 272,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-25",
+      "sheet_id": 959088976,
+      "index": 273,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-24",
+      "sheet_id": 479576137,
+      "index": 274,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-23",
+      "sheet_id": 929548498,
+      "index": 275,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-22",
+      "sheet_id": 337067012,
+      "index": 276,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-21",
+      "sheet_id": 541795642,
+      "index": 277,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-20",
+      "sheet_id": 1232035635,
+      "index": 278,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-19",
+      "sheet_id": 1880562794,
+      "index": 279,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-18",
+      "sheet_id": 354403870,
+      "index": 280,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-17",
+      "sheet_id": 1512345033,
+      "index": 281,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-16",
+      "sheet_id": 1948946373,
+      "index": 282,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-15",
+      "sheet_id": 462712896,
+      "index": 283,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-14",
+      "sheet_id": 527700712,
+      "index": 284,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-13",
+      "sheet_id": 1324027747,
+      "index": 285,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-12",
+      "sheet_id": 1016445341,
+      "index": 286,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-11",
+      "sheet_id": 1218055980,
+      "index": 287,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-10",
+      "sheet_id": 1310807466,
+      "index": 288,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-09",
+      "sheet_id": 1585723394,
+      "index": 289,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-08",
+      "sheet_id": 585765962,
+      "index": 290,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-07",
+      "sheet_id": 1035615724,
+      "index": 291,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-06",
+      "sheet_id": 1447949679,
+      "index": 292,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-05",
+      "sheet_id": 214191648,
+      "index": 293,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-04",
+      "sheet_id": 1019971989,
+      "index": 294,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-03",
+      "sheet_id": 252355854,
+      "index": 295,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-02",
+      "sheet_id": 2079781945,
+      "index": 296,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-02-01",
+      "sheet_id": 416358868,
+      "index": 297,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-31",
+      "sheet_id": 1990962994,
+      "index": 298,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-30",
+      "sheet_id": 1325265362,
+      "index": 299,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-29",
+      "sheet_id": 501560817,
+      "index": 300,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-28",
+      "sheet_id": 2090552430,
+      "index": 301,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-27",
+      "sheet_id": 1825252782,
+      "index": 302,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-26",
+      "sheet_id": 1378800147,
+      "index": 303,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-25",
+      "sheet_id": 322128686,
+      "index": 304,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-24",
+      "sheet_id": 2085020122,
+      "index": 305,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-23",
+      "sheet_id": 210750772,
+      "index": 306,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-22",
+      "sheet_id": 752298499,
+      "index": 307,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-21",
+      "sheet_id": 1395135584,
+      "index": 308,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-20",
+      "sheet_id": 31383954,
+      "index": 309,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-19",
+      "sheet_id": 1355840126,
+      "index": 310,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-18",
+      "sheet_id": 316035455,
+      "index": 311,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-17",
+      "sheet_id": 1294024045,
+      "index": 312,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-16",
+      "sheet_id": 1622034531,
+      "index": 313,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-15",
+      "sheet_id": 1983762942,
+      "index": 314,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-14",
+      "sheet_id": 986810325,
+      "index": 315,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-13",
+      "sheet_id": 235267760,
+      "index": 316,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-12",
+      "sheet_id": 957319611,
+      "index": 317,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-11",
+      "sheet_id": 1112266157,
+      "index": 318,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-10",
+      "sheet_id": 1398829087,
+      "index": 319,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-09",
+      "sheet_id": 662766234,
+      "index": 320,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-08",
+      "sheet_id": 1299051065,
+      "index": 321,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-07",
+      "sheet_id": 1708281144,
+      "index": 322,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-06",
+      "sheet_id": 1108534971,
+      "index": 323,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-05",
+      "sheet_id": 1748941867,
+      "index": 324,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-04",
+      "sheet_id": 1794363540,
+      "index": 325,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-03",
+      "sheet_id": 666463011,
+      "index": 326,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-02",
+      "sheet_id": 1989461386,
+      "index": 327,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2026-01-01",
+      "sheet_id": 125221927,
+      "index": 328,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-31",
+      "sheet_id": 1683212594,
+      "index": 329,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-30",
+      "sheet_id": 1194388570,
+      "index": 330,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-29",
+      "sheet_id": 748718092,
+      "index": 331,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-28",
+      "sheet_id": 1917738105,
+      "index": 332,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-27",
+      "sheet_id": 1015469173,
+      "index": 333,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-26",
+      "sheet_id": 1112912549,
+      "index": 334,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-25",
+      "sheet_id": 2139959077,
+      "index": 335,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-24",
+      "sheet_id": 68632384,
+      "index": 336,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-23",
+      "sheet_id": 224415522,
+      "index": 337,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-22",
+      "sheet_id": 1219278321,
+      "index": 338,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-21",
+      "sheet_id": 669220611,
+      "index": 339,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-20",
+      "sheet_id": 2135930462,
+      "index": 340,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-19",
+      "sheet_id": 1660813313,
+      "index": 341,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-18",
+      "sheet_id": 1854792326,
+      "index": 342,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-17",
+      "sheet_id": 1180014634,
+      "index": 343,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-16",
+      "sheet_id": 697620292,
+      "index": 344,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-15",
+      "sheet_id": 1304882658,
+      "index": 345,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-14",
+      "sheet_id": 1389728697,
+      "index": 346,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-13",
+      "sheet_id": 700263125,
+      "index": 347,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-12",
+      "sheet_id": 45020660,
+      "index": 348,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-11",
+      "sheet_id": 2061057249,
+      "index": 349,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-10",
+      "sheet_id": 484189846,
+      "index": 350,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-09",
+      "sheet_id": 1858142957,
+      "index": 351,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-08",
+      "sheet_id": 483503646,
+      "index": 352,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-07",
+      "sheet_id": 1707569781,
+      "index": 353,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-06",
+      "sheet_id": 1596046523,
+      "index": 354,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-05",
+      "sheet_id": 229212739,
+      "index": 355,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-04",
+      "sheet_id": 1221840593,
+      "index": 356,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-03",
+      "sheet_id": 1631887582,
+      "index": 357,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-02",
+      "sheet_id": 889896625,
+      "index": 358,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-12-01",
+      "sheet_id": 105485764,
+      "index": 359,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-30",
+      "sheet_id": 702334393,
+      "index": 360,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-29",
+      "sheet_id": 1180763711,
+      "index": 361,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-28",
+      "sheet_id": 1727080123,
+      "index": 362,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-27",
+      "sheet_id": 1268977070,
+      "index": 363,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-26",
+      "sheet_id": 1442199038,
+      "index": 364,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-25",
+      "sheet_id": 165105581,
+      "index": 365,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-24",
+      "sheet_id": 196334909,
+      "index": 366,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-23",
+      "sheet_id": 470878967,
+      "index": 367,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-22",
+      "sheet_id": 2124488632,
+      "index": 368,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-21",
+      "sheet_id": 1148892219,
+      "index": 369,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-20",
+      "sheet_id": 1270500495,
+      "index": 370,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-19",
+      "sheet_id": 808851987,
+      "index": 371,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-18",
+      "sheet_id": 2014424769,
+      "index": 372,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-17",
+      "sheet_id": 662716201,
+      "index": 373,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-16",
+      "sheet_id": 897025039,
+      "index": 374,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-15",
+      "sheet_id": 229067680,
+      "index": 375,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-14",
+      "sheet_id": 60645533,
+      "index": 376,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-13",
+      "sheet_id": 969143127,
+      "index": 377,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-12",
+      "sheet_id": 1811698468,
+      "index": 378,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-11",
+      "sheet_id": 1733411310,
+      "index": 379,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-10",
+      "sheet_id": 1825007146,
+      "index": 380,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-09",
+      "sheet_id": 347935413,
+      "index": 381,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-08",
+      "sheet_id": 854868633,
+      "index": 382,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-07",
+      "sheet_id": 747495648,
+      "index": 383,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-06",
+      "sheet_id": 1867618715,
+      "index": 384,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-05",
+      "sheet_id": 1299754910,
+      "index": 385,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-04",
+      "sheet_id": 229742523,
+      "index": 386,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-03",
+      "sheet_id": 1130972670,
+      "index": 387,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-02",
+      "sheet_id": 1941241384,
+      "index": 388,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-11-01",
+      "sheet_id": 418135298,
+      "index": 389,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-31",
+      "sheet_id": 1748450283,
+      "index": 390,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-30",
+      "sheet_id": 1686722989,
+      "index": 391,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-29",
+      "sheet_id": 562868228,
+      "index": 392,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-28",
+      "sheet_id": 1389138795,
+      "index": 393,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-27",
+      "sheet_id": 419239113,
+      "index": 394,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-26",
+      "sheet_id": 1630878172,
+      "index": 395,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-25",
+      "sheet_id": 300283705,
+      "index": 396,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-24",
+      "sheet_id": 1049748248,
+      "index": 397,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-23",
+      "sheet_id": 608323100,
+      "index": 398,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-22",
+      "sheet_id": 1977808309,
+      "index": 399,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-21",
+      "sheet_id": 53878107,
+      "index": 400,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-20",
+      "sheet_id": 1857100669,
+      "index": 401,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-19",
+      "sheet_id": 186148707,
+      "index": 402,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-18",
+      "sheet_id": 1177502186,
+      "index": 403,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-17",
+      "sheet_id": 595193094,
+      "index": 404,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-16",
+      "sheet_id": 281478779,
+      "index": 405,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-15",
+      "sheet_id": 1246976040,
+      "index": 406,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-14",
+      "sheet_id": 1773855201,
+      "index": 407,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-13",
+      "sheet_id": 1528927284,
+      "index": 408,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-12",
+      "sheet_id": 1964441355,
+      "index": 409,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-11",
+      "sheet_id": 2016473785,
+      "index": 410,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-10",
+      "sheet_id": 329443350,
+      "index": 411,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-09",
+      "sheet_id": 1952862110,
+      "index": 412,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-08",
+      "sheet_id": 437605910,
+      "index": 413,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-07",
+      "sheet_id": 1000805564,
+      "index": 414,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-06",
+      "sheet_id": 1541985031,
+      "index": 415,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-05",
+      "sheet_id": 1153839974,
+      "index": 416,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-04",
+      "sheet_id": 1578644210,
+      "index": 417,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-03",
+      "sheet_id": 350991314,
+      "index": 418,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-02",
+      "sheet_id": 279300691,
+      "index": 419,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-10-01",
+      "sheet_id": 1371213104,
+      "index": 420,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    },
+    {
+      "title": "Tasks Map",
+      "sheet_id": 1830721309,
+      "index": 421,
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "TaskID"
+      ],
+      "row_1": [
+        "Archetype",
+        "TaskID"
+      ]
+    },
+    {
+      "title": "Council Weekly Digest",
+      "sheet_id": 2138759617,
+      "index": 422,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 21,
+      "header_row_index": 1,
+      "headers": [
+        "Date",
+        "The Warrior King",
+        "The Visionary in the Mist",
+        "The Iron General",
+        "The Trickster Child",
+        "The Builder General",
+        "The Poet-Lover",
+        "The Stern Teacher",
+        "The Mad Scientist (Weekly)",
+        "The Mystic Architect (Weekly)"
+      ],
+      "row_1": [
+        "Date",
+        "The Warrior King",
+        "The Visionary in the Mist",
+        "The Iron General",
+        "The Trickster Child",
+        "The Builder General",
+        "The Poet-Lover",
+        "The Stern Teacher",
+        "The Mad Scientist (Weekly)",
+        "The Mystic Architect (Weekly)"
+      ]
+    },
+    {
+      "title": "Captain's Log - 2025-09-30",
+      "sheet_id": 816906415,
+      "index": 423,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ],
+      "row_1": [
+        "Archetype",
+        "Daily/Weekly Ritual",
+        "Check"
+      ]
+    }
+  ]
+}

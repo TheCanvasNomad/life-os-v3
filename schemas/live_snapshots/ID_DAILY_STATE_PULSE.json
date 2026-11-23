@@ -1,0 +1,23 @@
+{
+  "registry_key": "ID_DAILY_STATE_PULSE",
+  "title": "Daily_State_Pulse",
+  "spreadsheet_id": "1fchASnJwIMEVavAB-EXRJnmHlUlRkHki42LVbd3g-1g",
+  "url": "https://docs.google.com/spreadsheets/d/1fchASnJwIMEVavAB-EXRJnmHlUlRkHki42LVbd3g-1g/edit",
+  "time_zone": "Etc/GMT",
+  "snapshot_utc": "2026-11-23T07:47:47Z",
+  "tab_count": 1,
+  "tabs": [
+    {
+      "title": "Sheet1",
+      "sheet_id": 0,
+      "index": 0,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 0,
+      "header_row_index": null,
+      "headers": [],
+      "row_1": []
+    }
+  ]
+}

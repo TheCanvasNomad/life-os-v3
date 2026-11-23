@@ -1,0 +1,289 @@
+{
+  "registry_key": "ID_ZODIAC",
+  "title": "Zodiac OS",
+  "spreadsheet_id": "1wQcAdR6ZxETOA1_nUmq1XYvPb9WvgSzmwcA4M0StH9M",
+  "url": "https://docs.google.com/spreadsheets/d/1wQcAdR6ZxETOA1_nUmq1XYvPb9WvgSzmwcA4M0StH9M/edit",
+  "time_zone": "Etc/GMT",
+  "snapshot_utc": "2026-11-23T07:42:12Z",
+  "tab_count": 14,
+  "tabs": [
+    {
+      "title": "CONFIG_HUB",
+      "sheet_id": 1246581775,
+      "index": 0,
+      "hidden": false,
+      "row_count": 32,
+      "col_count": 14,
+      "populated_row_count": 32,
+      "header_row_index": 1,
+      "headers": [
+        "",
+        "LIFE OS // NATAL TELEMETRY & CELESTIAL MECHANICS"
+      ],
+      "row_1": [
+        "",
+        "LIFE OS // NATAL TELEMETRY & CELESTIAL MECHANICS"
+      ]
+    },
+    {
+      "title": "LUMINARIES_PLANETS",
+      "sheet_id": 1129043959,
+      "index": 1,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 16,
+      "header_row_index": 1,
+      "headers": [
+        "",
+        "LIFE OS // CELESTIAL MECHANICS & PLANETARY TELEMETRY"
+      ],
+      "row_1": [
+        "",
+        "LIFE OS // CELESTIAL MECHANICS & PLANETARY TELEMETRY"
+      ]
+    },
+    {
+      "title": "HOUSES_ARENAS",
+      "sheet_id": 1323609214,
+      "index": 2,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 19,
+      "header_row_index": 1,
+      "headers": [
+        "",
+        "LIFE OS // PLACIDUS HOUSE ARENAS & ENVIRONMENTAL TELEMETRY"
+      ],
+      "row_1": [
+        "",
+        "LIFE OS // PLACIDUS HOUSE ARENAS & ENVIRONMENTAL TELEMETRY"
+      ]
+    },
+    {
+      "title": "ASPECTS_GEOMETRY",
+      "sheet_id": 1635762778,
+      "index": 3,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 23,
+      "header_row_index": 1,
+      "headers": [
+        "",
+        "LIFE OS // ANGULAR GEOMETRY & SYSTEMIC TENSION LINES"
+      ],
+      "row_1": [
+        "",
+        "LIFE OS // ANGULAR GEOMETRY & SYSTEMIC TENSION LINES"
+      ]
+    },
+    {
+      "title": "ELEMENT_MODALITY_ENGINE",
+      "sheet_id": 1546378264,
+      "index": 4,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 28,
+      "header_row_index": 1,
+      "headers": [
+        "",
+        "LIFE OS // THERMODYNAMIC ELEMENT & MODALITY ENGINE"
+      ],
+      "row_1": [
+        "",
+        "LIFE OS // THERMODYNAMIC ELEMENT & MODALITY ENGINE"
+      ]
+    },
+    {
+      "title": "CROSS_PSYCHOMETRIC_BRIDGE",
+      "sheet_id": 1300822180,
+      "index": 5,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 20,
+      "header_row_index": 4,
+      "headers": [
+        "",
+        "",
+        "1nnu0Hw67g2OoAZiu0xmOALu3eFCgkKNL2M7gkv6-K3w",
+        "Dominant: Type 7 (92%) | Wing: 7w6 / 9",
+        "Integration: Type 5 (76%) | Disintegration: Type 1 (60%)",
+        "",
+        "",
+        "",
+        "2026-11-13 19:41"
+      ],
+      "row_1": [
+        "",
+        "LIFE OS // CROSS-FRAMEWORK PSYCHOMETRIC ROSETTA STONE"
+      ]
+    },
+    {
+      "title": "OPS_GOVERNOR",
+      "sheet_id": 1946128945,
+      "index": 6,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 39,
+      "header_row_index": 1,
+      "headers": [
+        "",
+        "LIFE OS // OPERATIONAL TELEMETRY & SYSTEMIC GOVERNOR"
+      ],
+      "row_1": [
+        "",
+        "LIFE OS // OPERATIONAL TELEMETRY & SYSTEMIC GOVERNOR"
+      ]
+    },
+    {
+      "title": "Aries Overview",
+      "sheet_id": 681955363,
+      "index": 7,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 2,
+      "header_row_index": 1,
+      "headers": [
+        "Sign Name",
+        "Element",
+        "Modality",
+        "Rulership / Exaltation",
+        "Body Part / Anatomical Connection",
+        "Astrological Symbolism and Esoteric Meaning",
+        "Deacons and Associated Constellations"
+      ],
+      "row_1": [
+        "Sign Name",
+        "Element",
+        "Modality",
+        "Rulership / Exaltation",
+        "Body Part / Anatomical Connection",
+        "Astrological Symbolism and Esoteric Meaning",
+        "Deacons and Associated Constellations"
+      ]
+    },
+    {
+      "title": "MODULE_META",
+      "sheet_id": 1550914465,
+      "index": 8,
+      "hidden": false,
+      "row_count": 80,
+      "col_count": 14,
+      "populated_row_count": 9,
+      "header_row_index": 1,
+      "headers": [
+        "Field",
+        "Value"
+      ],
+      "row_1": [
+        "Field",
+        "Value"
+      ]
+    },
+    {
+      "title": "CONTEXT_IN",
+      "sheet_id": 1732793065,
+      "index": 9,
+      "hidden": false,
+      "row_count": 80,
+      "col_count": 14,
+      "populated_row_count": 5,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Upstream_Score_0_100",
+        "State_Tag",
+        "Freshness_Status"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Upstream_Score_0_100",
+        "State_Tag",
+        "Freshness_Status"
+      ]
+    },
+    {
+      "title": "NATAL_BLUEPRINT",
+      "sheet_id": 125864926,
+      "index": 10,
+      "hidden": false,
+      "row_count": 80,
+      "col_count": 14,
+      "populated_row_count": 0,
+      "header_row_index": null,
+      "headers": [],
+      "row_1": []
+    },
+    {
+      "title": "TRANSIT_RADAR",
+      "sheet_id": 2044304207,
+      "index": 11,
+      "hidden": false,
+      "row_count": 80,
+      "col_count": 14,
+      "populated_row_count": 11,
+      "header_row_index": 2,
+      "headers": [
+        "Telemetry_Metric",
+        "Live_Value",
+        "Architectural_Meaning"
+      ],
+      "row_1": [
+        "TRANSIT RADAR — LIVE DAILY CELESTIAL TELEMETRY (AUTO-UPDATES VIA TODAY())"
+      ]
+    },
+    {
+      "title": "ADVISORY_MATRIX",
+      "sheet_id": 359549969,
+      "index": 12,
+      "hidden": false,
+      "row_count": 80,
+      "col_count": 14,
+      "populated_row_count": 9,
+      "header_row_index": 4,
+      "headers": [
+        "Planetary_Dimension",
+        "Natal_Sign",
+        "High_Energy",
+        "Depleted_Recovery",
+        "High_Stress",
+        "Flow_State",
+        "Steady_Baseline",
+        "LIVE_CONTEXTUAL_DIRECTIVE"
+      ],
+      "row_1": [
+        "DYNAMIC ZODIAC ADVISORY MATRIX (ARCHETYPE × LIVE SIGNAL_BUS TELEMETRY)"
+      ]
+    },
+    {
+      "title": "SIGNALS_OUT",
+      "sheet_id": 1428666634,
+      "index": 13,
+      "hidden": false,
+      "row_count": 80,
+      "col_count": 14,
+      "populated_row_count": 11,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Raw_Summary",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Raw_Summary",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated"
+      ]
+    }
+  ]
+}

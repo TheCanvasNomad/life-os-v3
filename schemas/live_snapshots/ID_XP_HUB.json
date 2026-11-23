@@ -1,0 +1,388 @@
+{
+  "registry_key": "ID_XP_HUB",
+  "title": "XP Leveler",
+  "spreadsheet_id": "1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k",
+  "url": "https://docs.google.com/spreadsheets/d/1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k/edit",
+  "time_zone": "Europe/London",
+  "snapshot_utc": "2026-11-23T07:42:53Z",
+  "tab_count": 15,
+  "tabs": [
+    {
+      "title": "Player_HUD",
+      "sheet_id": 1333383914,
+      "index": 0,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 20,
+      "header_row_index": 4,
+      "headers": [
+        "XP BAR TIER",
+        "GRAPHICAL PROGRESS BAR",
+        "NUMERIC & UNICODE GAUGE",
+        "ACTIVE TARGET & LOCK STATE"
+      ],
+      "row_1": [
+        "⚡ LIFE OS // SOVEREIGN PLAYER HUD, 3-TIER XP BAR & MULTIPLIER ENGINE"
+      ]
+    },
+    {
+      "title": "XP_Ledger",
+      "sheet_id": 640549334,
+      "index": 1,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 4,
+      "header_row_index": 1,
+      "headers": [
+        "Timestamp",
+        "Sephirah / Pillar",
+        "Completed Action / Milestone",
+        "Base Quanta (137s)",
+        "Locked Multiplier",
+        "Awarded XP",
+        "Verification / Artifact"
+      ],
+      "row_1": [
+        "Timestamp",
+        "Sephirah / Pillar",
+        "Completed Action / Milestone",
+        "Base Quanta (137s)",
+        "Locked Multiplier",
+        "Awarded XP",
+        "Verification / Artifact"
+      ]
+    },
+    {
+      "title": "Daily_Multiplier_Gate",
+      "sheet_id": 812420680,
+      "index": 2,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Habit / Telemetry Gate",
+        "Polarity",
+        "Today (Yes/Maybe/No)",
+        "Skew Score (1-10)",
+        "Skew Weight",
+        "Psychometric Target"
+      ],
+      "row_1": [
+        "Habit / Telemetry Gate",
+        "Polarity",
+        "Today (Yes/Maybe/No)",
+        "Skew Score (1-10)",
+        "Skew Weight",
+        "Psychometric Target"
+      ]
+    },
+    {
+      "title": "Cross_Sheet_Bus",
+      "sheet_id": 1877622268,
+      "index": 3,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 14,
+      "header_row_index": 1,
+      "headers": [
+        "Bus_ID",
+        "Source_Workbook",
+        "Spreadsheet_ID_or_URL",
+        "Tab_Name",
+        "Lookup_Mode",
+        "Key_or_Cell_Ref",
+        "Val_Col",
+        "Fallback_Val",
+        "Rule_Action",
+        "Pulled_Live_Value",
+        "Sync_Status"
+      ],
+      "row_1": [
+        "Bus_ID",
+        "Source_Workbook",
+        "Spreadsheet_ID_or_URL",
+        "Tab_Name",
+        "Lookup_Mode",
+        "Key_or_Cell_Ref",
+        "Val_Col",
+        "Fallback_Val",
+        "Rule_Action",
+        "Pulled_Live_Value",
+        "Sync_Status"
+      ]
+    },
+    {
+      "title": "Maslow_34_Engine",
+      "sheet_id": 844278987,
+      "index": 4,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 35,
+      "header_row_index": 1,
+      "headers": [
+        "Pyramid Lvl",
+        "Maslow Focus Tier",
+        "Granular Stage",
+        "Current Score (0-10)",
+        "Deficit Gap",
+        "Priority Weight",
+        "Bottleneck Share %"
+      ],
+      "row_1": [
+        "Pyramid Lvl",
+        "Maslow Focus Tier",
+        "Granular Stage",
+        "Current Score (0-10)",
+        "Deficit Gap",
+        "Priority Weight",
+        "Bottleneck Share %"
+      ]
+    },
+    {
+      "title": "Finance_16_Engine",
+      "sheet_id": 446318655,
+      "index": 5,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 17,
+      "header_row_index": 1,
+      "headers": [
+        "Pyramid Lvl",
+        "Financial Tier",
+        "Financial Stage",
+        "Current Score (0-10)",
+        "Deficit Gap",
+        "Priority Weight",
+        "Bottleneck Share %"
+      ],
+      "row_1": [
+        "Pyramid Lvl",
+        "Financial Tier",
+        "Financial Stage",
+        "Current Score (0-10)",
+        "Deficit Gap",
+        "Priority Weight",
+        "Bottleneck Share %"
+      ]
+    },
+    {
+      "title": "The_12_Gates",
+      "sheet_id": 1761160990,
+      "index": 6,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 13,
+      "header_row_index": 1,
+      "headers": [
+        "Gate",
+        "Tree of Life (Sephirah)",
+        "Maslow Tier",
+        "Macro Fractal Phase",
+        "Focus Area",
+        "Start XP",
+        "Ceiling XP",
+        "Progress %",
+        "Gate XP Bar",
+        "Status"
+      ],
+      "row_1": [
+        "Gate",
+        "Tree of Life (Sephirah)",
+        "Maslow Tier",
+        "Macro Fractal Phase",
+        "Focus Area",
+        "Start XP",
+        "Ceiling XP",
+        "Progress %",
+        "Gate XP Bar",
+        "Status"
+      ]
+    },
+    {
+      "title": "Vortex_&_Constants",
+      "sheet_id": 1815344156,
+      "index": 7,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 11,
+      "header_row_index": 1,
+      "headers": [
+        "Sub-Lvl / Node",
+        "Vortex Circuit Role",
+        "Micro Fractal Phase",
+        "Life OS Operational Protocol",
+        "",
+        "Element / Constant",
+        "Atomic / Exact Value",
+        "Target Share",
+        "Life OS Pillar Mapping"
+      ],
+      "row_1": [
+        "Sub-Lvl / Node",
+        "Vortex Circuit Role",
+        "Micro Fractal Phase",
+        "Life OS Operational Protocol",
+        "",
+        "Element / Constant",
+        "Atomic / Exact Value",
+        "Target Share",
+        "Life OS Pillar Mapping"
+      ]
+    },
+    {
+      "title": "Engine",
+      "sheet_id": 554001358,
+      "index": 8,
+      "hidden": false,
+      "row_count": 992,
+      "col_count": 26,
+      "populated_row_count": 145,
+      "header_row_index": 1,
+      "headers": [
+        "Level",
+        "Gate",
+        "Sub-Lvl",
+        "Fib (G)",
+        "Fib (S)",
+        "Step XP",
+        "Cumulative XP",
+        "Crucible Gate",
+        "Vortex Node",
+        "Root",
+        "Macro Phase",
+        "Micro Phase",
+        "Golden Angle",
+        "Phyllotaxis House Focus"
+      ],
+      "row_1": [
+        "Level",
+        "Gate",
+        "Sub-Lvl",
+        "Fib (G)",
+        "Fib (S)",
+        "Step XP",
+        "Cumulative XP",
+        "Crucible Gate",
+        "Vortex Node",
+        "Root",
+        "Macro Phase",
+        "Micro Phase",
+        "Golden Angle",
+        "Phyllotaxis House Focus"
+      ]
+    },
+    {
+      "title": "XP_Config_Hub",
+      "sheet_id": 1919081525,
+      "index": 9,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 28,
+      "header_row_index": 1,
+      "headers": [
+        "Parameter_Key",
+        "Live_Value",
+        "Category",
+        "Dynamic Architectural Role"
+      ],
+      "row_1": [
+        "Parameter_Key",
+        "Live_Value",
+        "Category",
+        "Dynamic Architectural Role"
+      ]
+    },
+    {
+      "title": "Golden Angle",
+      "sheet_id": 1044166333,
+      "index": 10,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 1,
+      "header_row_index": 1,
+      "headers": [
+        "137.5",
+        "Degrees"
+      ],
+      "row_1": [
+        "137.5",
+        "Degrees"
+      ]
+    },
+    {
+      "title": "Fine Structure Constant",
+      "sheet_id": 1617132547,
+      "index": 11,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 1,
+      "header_row_index": 1,
+      "headers": [
+        "1/137"
+      ],
+      "row_1": [
+        "1/137"
+      ]
+    },
+    {
+      "title": "Initiation",
+      "sheet_id": 1138223881,
+      "index": 12,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 1,
+      "header_row_index": 1,
+      "headers": [
+        "Number 3"
+      ],
+      "row_1": [
+        "Number 3"
+      ]
+    },
+    {
+      "title": "Manifestation",
+      "sheet_id": 1802073335,
+      "index": 13,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 1,
+      "header_row_index": 1,
+      "headers": [
+        "Number 6"
+      ],
+      "row_1": [
+        "Number 6"
+      ]
+    },
+    {
+      "title": "Absolute Completion",
+      "sheet_id": 89238840,
+      "index": 14,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 1,
+      "header_row_index": 1,
+      "headers": [
+        "Number 9"
+      ],
+      "row_1": [
+        "Number 9"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "registry_key": "ID_DOPPELGANGER",
+  "title": "Doppelganger_Brick",
+  "spreadsheet_id": "1rF8zWY_-HAUhxilX1SaPE0L_iSPEr_gQO6_ZtoWhyPg",
+  "url": "https://docs.google.com/spreadsheets/d/1rF8zWY_-HAUhxilX1SaPE0L_iSPEr_gQO6_ZtoWhyPg/edit",
+  "time_zone": "Etc/GMT",
+  "snapshot_utc": "2026-11-23T07:47:36Z",
+  "tab_count": 5,
+  "tabs": [
+    {
+      "title": "SHADOW_ARENA",
+      "sheet_id": 1573712836,
+      "index": 0,
+      "hidden": false,
+      "row_count": 120,
+      "col_count": 14,
+      "populated_row_count": 119,
+      "header_row_index": 4,
+      "headers": [
+        "Combatant_A",
+        "Discipline_Score",
+        "Combatant_B",
+        "Doppelganger_Score",
+        "Shadow_Tax_Rate_Pct",
+        "Domination_Control_Index"
+      ],
+      "row_1": [
+        "THE SHADOW ARENA — THE NOMAD VS. THE DOPPELGÄNGER (ZERO-SUM DISCIPLINE HUD)"
+      ]
+    },
+    {
+      "title": "ADVISORY_MATRIX",
+      "sheet_id": 432768888,
+      "index": 1,
+      "hidden": false,
+      "row_count": 120,
+      "col_count": 14,
+      "populated_row_count": 8,
+      "header_row_index": 4,
+      "headers": [
+        "Shadow_Dimension",
+        "Current_Metric",
+        "High_Energy",
+        "Depleted_Recovery",
+        "High_Stress",
+        "Shadow_Dominated",
+        "Steady_Baseline",
+        "LIVE_CONTEXTUAL_DIRECTIVE"
+      ],
+      "row_1": [
+        "DYNAMIC DOPPELGÄNGER ADVISORY MATRIX (SHADOW VECTOR × LIVE SIGNAL_BUS TELEMETRY)"
+      ]
+    },
+    {
+      "title": "MODULE_META",
+      "sheet_id": 900304322,
+      "index": 2,
+      "hidden": false,
+      "row_count": 120,
+      "col_count": 14,
+      "populated_row_count": 9,
+      "header_row_index": 1,
+      "headers": [
+        "Field",
+        "Value"
+      ],
+      "row_1": [
+        "Field",
+        "Value"
+      ]
+    },
+    {
+      "title": "CONTEXT_IN",
+      "sheet_id": 2050758449,
+      "index": 3,
+      "hidden": false,
+      "row_count": 120,
+      "col_count": 14,
+      "populated_row_count": 7,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Upstream_Value",
+        "State_Tag",
+        "Freshness_Status"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Upstream_Value",
+        "State_Tag",
+        "Freshness_Status"
+      ]
+    },
+    {
+      "title": "SIGNALS_OUT",
+      "sheet_id": 224687644,
+      "index": 4,
+      "hidden": false,
+      "row_count": 120,
+      "col_count": 14,
+      "populated_row_count": 4,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Raw_Summary",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Raw_Summary",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated"
+      ]
+    }
+  ]
+}

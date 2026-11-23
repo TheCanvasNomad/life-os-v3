@@ -1,0 +1,151 @@
+{
+  "registry_key": "ID_DAILY_INTAKE",
+  "title": "DAILY INTAKE FORM (Responses)",
+  "spreadsheet_id": "16ohf5mBA9xrRsyv5sOYqY1s7gaOSpSOzK1rE1Gw6BNI",
+  "url": "https://docs.google.com/spreadsheets/d/16ohf5mBA9xrRsyv5sOYqY1s7gaOSpSOzK1rE1Gw6BNI/edit",
+  "time_zone": "America/Detroit",
+  "snapshot_utc": "2026-11-23T07:47:46Z",
+  "tab_count": 4,
+  "tabs": [
+    {
+      "title": "Form Responses 1",
+      "sheet_id": 1890898638,
+      "index": 0,
+      "hidden": false,
+      "row_count": 104,
+      "col_count": 37,
+      "populated_row_count": 4,
+      "header_row_index": 1,
+      "headers": [
+        "Timestamp",
+        "Today's Date",
+        "Phase",
+        "Where are you?",
+        "Mood",
+        "How do you feel?",
+        "3. Log Type",
+        "Daily Afformation",
+        "80/20 Target: What is your goal today? ",
+        "Clarity (Sattva):  \nHow 'HD' is my brain right now? Can I see exactly what I need to do next without getting distracted by 'static'?",
+        "Drive (Rajas):  \nHow fast is my 'internal motor' spinning right now? Is it helping me finish one thing, or is it just making me jump from one thing to another?",
+        "Resistance (Tamas): How much did I feel like I was walking through deep mud today?",
+        "1. Activity Label:",
+        "What dd you do?",
+        "2. Challenge Level: (Flow State Metric.)",
+        "3. Skill Level: (Flow State Metric.)",
+        "4. Environmental Pressure",
+        "5. OODA Loop Velocity",
+        "The Vice",
+        "Quantity:",
+        "The Trigger",
+        "The Vibe Tag",
+        "2. Daily Polarity (The Tao):",
+        "Expansion (Mercy)",
+        "Contraction (Severity)",
+        "Harmony (Balance)",
+        "4. Primary Dukkha",
+        "5. Grit Check",
+        "6. Selfie Upload:",
+        "Sleep Quality  ",
+        "  Estimated Spend ($)  "
+      ],
+      "row_1": [
+        "Timestamp",
+        "Today's Date",
+        "Phase",
+        "Where are you?",
+        "Mood",
+        "How do you feel?",
+        "3. Log Type",
+        "Daily Afformation",
+        "80/20 Target: What is your goal today? ",
+        "Clarity (Sattva):  \nHow 'HD' is my brain right now? Can I see exactly what I need to do next without getting distracted by 'static'?",
+        "Drive (Rajas):  \nHow fast is my 'internal motor' spinning right now? Is it helping me finish one thing, or is it just making me jump from one thing to another?",
+        "Resistance (Tamas): How much did I feel like I was walking through deep mud today?",
+        "1. Activity Label:",
+        "What dd you do?",
+        "2. Challenge Level: (Flow State Metric.)",
+        "3. Skill Level: (Flow State Metric.)",
+        "4. Environmental Pressure",
+        "5. OODA Loop Velocity",
+        "The Vice",
+        "Quantity:",
+        "The Trigger",
+        "The Vibe Tag",
+        "2. Daily Polarity (The Tao):",
+        "Expansion (Mercy)",
+        "Contraction (Severity)",
+        "Harmony (Balance)",
+        "4. Primary Dukkha",
+        "5. Grit Check",
+        "6. Selfie Upload:",
+        "Sleep Quality  ",
+        "  Estimated Spend ($)  "
+      ]
+    },
+    {
+      "title": "MODULE_META",
+      "sheet_id": 1971061343,
+      "index": 1,
+      "hidden": false,
+      "row_count": 60,
+      "col_count": 14,
+      "populated_row_count": 9,
+      "header_row_index": 1,
+      "headers": [
+        "Field",
+        "Value"
+      ],
+      "row_1": [
+        "Field",
+        "Value"
+      ]
+    },
+    {
+      "title": "CONTEXT_IN",
+      "sheet_id": 1812559817,
+      "index": 2,
+      "hidden": false,
+      "row_count": 60,
+      "col_count": 14,
+      "populated_row_count": 5,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Upstream_Score_0_100",
+        "State_Tag",
+        "Freshness_Status"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Upstream_Score_0_100",
+        "State_Tag",
+        "Freshness_Status"
+      ]
+    },
+    {
+      "title": "SIGNALS_OUT",
+      "sheet_id": 441481024,
+      "index": 3,
+      "hidden": false,
+      "row_count": 60,
+      "col_count": 14,
+      "populated_row_count": 20,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Raw_Summary",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Raw_Summary",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated"
+      ]
+    }
+  ]
+}

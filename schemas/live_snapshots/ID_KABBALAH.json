@@ -1,0 +1,384 @@
+{
+  "registry_key": "ID_KABBALAH",
+  "title": "Kaballah Tree of Life OS Engine",
+  "spreadsheet_id": "19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0",
+  "url": "https://docs.google.com/spreadsheets/d/19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0/edit",
+  "time_zone": "America/New_York",
+  "snapshot_utc": "2026-11-23T07:42:58Z",
+  "tab_count": 15,
+  "tabs": [
+    {
+      "title": "🌳 KABBALAH_DASHBOARD",
+      "sheet_id": 1477541344,
+      "index": 0,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 15,
+      "header_row_index": 2,
+      "headers": [
+        "Weighted Quality:",
+        "69.2%",
+        "Pillar Equilibrium:",
+        "88.3%",
+        "Alchemical Grounding:",
+        "58.3%",
+        "Live Hub State:",
+        "Shadow_Trigger"
+      ],
+      "row_1": [
+        "🌳 ETZ CHAIM // UNIFIED KABBALAH TREE OF LIFE — MASTER COMMAND HUD"
+      ]
+    },
+    {
+      "title": "Tree_of_Life_Glyph",
+      "sheet_id": 1884912345,
+      "index": 1,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 36,
+      "header_row_index": 2,
+      "headers": [
+        "",
+        "◀ LEFT PILLAR: BOAZ (SEVERITY / FORM)",
+        "",
+        "",
+        "",
+        "◆ MIDDLE PILLAR: MILDNESS (EQUILIBRIUM)",
+        "",
+        "",
+        "",
+        "RIGHT PILLAR: JACHIN (MERCY / EXPANSION) ▶"
+      ],
+      "row_1": [
+        "🌳 ETZ CHAIM — INTERACTIVE KABBALISTIC TREE OF LIFE GLYPH (100% LIVE TELEMETRY)"
+      ]
+    },
+    {
+      "title": "🧭 DYNAMIC_ADVISORY",
+      "sheet_id": 1995356351,
+      "index": 2,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 19,
+      "header_row_index": 2,
+      "headers": [
+        "Primary Drag Node:",
+        "Tiferet (Heart & Internal Harmony)",
+        "Weakest Conduit:",
+        "Tzaddi (צ)",
+        "Live Hub State:",
+        "Shadow_Trigger",
+        "ACTIVE"
+      ],
+      "row_1": [
+        "🧭 KABBALAH SEPHIROTIC ENGINE — DYNAMIC ALCHEMICAL ADVISORY MATRIX"
+      ]
+    },
+    {
+      "title": "Sefirot_10_&_Daat",
+      "sheet_id": 1948940226,
+      "index": 3,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 14,
+      "header_row_index": 3,
+      "headers": [
+        "Node_ID",
+        "Sefirah_Name",
+        "Pillar",
+        "World",
+        "Planetary_Correlate",
+        "Ray_Center",
+        "Weight",
+        "Live_Score",
+        "Deficit_Drag",
+        "Live_Gauge"
+      ],
+      "row_1": [
+        "THE SEFIROT OF THE TREE OF LIFE & DA'AT — LIVE SKILL TREE ENGINE"
+      ]
+    },
+    {
+      "title": "Pillars_Triads_&_Worlds",
+      "sheet_id": 223534467,
+      "index": 4,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 19,
+      "header_row_index": 4,
+      "headers": [
+        "Vertical Pillar",
+        "Temple & Sefirot",
+        "Cosmic Polarity",
+        "Shadow Drag %",
+        "Live Score (0-10)",
+        "Weight Avg",
+        "Pillar Gauge"
+      ],
+      "row_1": [
+        "🏛️ THREE PILLARS, FOUR WORLDS (SOUL LEVELS) & EQUILIBRIUM ENGINE"
+      ]
+    },
+    {
+      "title": "22_Connecting_Paths",
+      "sheet_id": 1822151703,
+      "index": 5,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 26,
+      "header_row_index": 4,
+      "headers": [
+        "Path #",
+        "Hebrew Letter",
+        "Sefer Yetzirah Group",
+        "Element / Planet / Zodiac",
+        "From Sefirah",
+        "To Sefirah",
+        "Conductivity",
+        "Bottleneck (Min)",
+        "Conduit Gauge",
+        "Channel Status"
+      ],
+      "row_1": [
+        "🛤️ THE 22 CONNECTING PATHS OF WISDOM (SEFER YETZIRAH CONDUIT ENGINE)"
+      ]
+    },
+    {
+      "title": "Kabbalah_Gamification_Bus",
+      "sheet_id": 933012688,
+      "index": 6,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Bus_Key",
+        "Game_Layer",
+        "Live_Target_or_State",
+        "Numeric_Signal",
+        "XP_Multiplier_or_Bounty",
+        "Condition_Status",
+        "Dynamic_Quest_or_Buff_Directive"
+      ],
+      "row_1": [
+        "Bus_Key",
+        "Game_Layer",
+        "Live_Target_or_State",
+        "Numeric_Signal",
+        "XP_Multiplier_or_Bounty",
+        "Condition_Status",
+        "Dynamic_Quest_or_Buff_Directive"
+      ]
+    },
+    {
+      "title": "Kabbalah_Live_Telemetry",
+      "sheet_id": 350263652,
+      "index": 7,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 15,
+      "header_row_index": 4,
+      "headers": [
+        "Metric_Key",
+        "Live_Value",
+        "Visual Gauge / Live Status",
+        "Diagnostic Meaning & XP Bar Impact"
+      ],
+      "row_1": [
+        "🌳 LIFE OS // ETZ CHAIM (TREE OF LIFE) AUTO-SYNTHESIS HUD (11 WORKBOOKS WIRED)"
+      ]
+    },
+    {
+      "title": "Longitudinal_Analytics",
+      "sheet_id": 257937070,
+      "index": 8,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 14,
+      "header_row_index": 3,
+      "headers": [
+        "Node_ID",
+        "Pillar",
+        "World",
+        "Node_Name",
+        "Weight",
+        "Latest",
+        "Previous",
+        "Run_Delta",
+        "Lifetime_Mean",
+        "Median"
+      ],
+      "row_1": [
+        "KABBALISTIC TREE OF LIFE — LONGITUDINAL ANALYTICS & STATISTICAL TELEMETRY"
+      ]
+    },
+    {
+      "title": "📋 MODULE_META",
+      "sheet_id": 713896633,
+      "index": 9,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 8,
+      "header_row_index": 1,
+      "headers": [
+        "Parameter",
+        "Value",
+        "Architecture Rule"
+      ],
+      "row_1": [
+        "Parameter",
+        "Value",
+        "Architecture Rule"
+      ]
+    },
+    {
+      "title": "📥 CONTEXT_IN",
+      "sheet_id": 759983827,
+      "index": 10,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 9,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Live_Normalized_0_100",
+        "Status_Flag",
+        "Active_State_Trigger",
+        "Hub_Auth_Trigger (Click E2 -> Allow Access)"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Live_Normalized_0_100",
+        "Status_Flag",
+        "Active_State_Trigger",
+        "Hub_Auth_Trigger (Click E2 -> Allow Access)"
+      ]
+    },
+    {
+      "title": "📤 SIGNALS_OUT",
+      "sheet_id": 195631960,
+      "index": 11,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 6,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Source_Brick",
+        "Pillar",
+        "Raw_Value",
+        "Normalized_0_100",
+        "Last_Updated",
+        "TTL_Hours",
+        "Status_Flag",
+        "Notes"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Source_Brick",
+        "Pillar",
+        "Raw_Value",
+        "Normalized_0_100",
+        "Last_Updated",
+        "TTL_Hours",
+        "Status_Flag",
+        "Notes"
+      ]
+    },
+    {
+      "title": "Form_Intake_Archive",
+      "sheet_id": 1201253011,
+      "index": 12,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 2,
+      "header_row_index": 1,
+      "headers": [
+        "Timestamp",
+        "Keter (Purpose & Will)",
+        "Chokhmah (Intuitive Insight)",
+        "Binah (Structural Comprehension)",
+        "Da'at (Integrated Synthesis)",
+        "Chesed (Expansive Vision & Generosity)",
+        "Gevurah (Discipline & Pruning)",
+        "Tiferet (Heart & Internal Harmony)",
+        "Netzach (Emotional Endurance & Passion)",
+        "Hod (Analytical Logic & Systems)",
+        "Yesod (Subconscious & Ego Stability)",
+        "Malkuth (Physical Action & Execution)",
+        "Active Bottleneck / Reflection Note"
+      ],
+      "row_1": [
+        "Timestamp",
+        "Keter (Purpose & Will)",
+        "Chokhmah (Intuitive Insight)",
+        "Binah (Structural Comprehension)",
+        "Da'at (Integrated Synthesis)",
+        "Chesed (Expansive Vision & Generosity)",
+        "Gevurah (Discipline & Pruning)",
+        "Tiferet (Heart & Internal Harmony)",
+        "Netzach (Emotional Endurance & Passion)",
+        "Hod (Analytical Logic & Systems)",
+        "Yesod (Subconscious & Ego Stability)",
+        "Malkuth (Physical Action & Execution)",
+        "Active Bottleneck / Reflection Note"
+      ]
+    },
+    {
+      "title": "LifeOS_Feed_Hub",
+      "sheet_id": 528229552,
+      "index": 13,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 53,
+      "header_row_index": 4,
+      "headers": [
+        "Brick_Key",
+        "Glyph",
+        "Lego Brick Module",
+        "Sephirotic / Pillar Alignment",
+        "Hub_Status",
+        "Last_Hub_Sync"
+      ],
+      "row_1": [
+        "🧠 LIFEOS v3.0 CENTRAL HUB DIRECTORY (HUB-AND-SPOKE ROUTER MIRROR)"
+      ]
+    },
+    {
+      "title": "Master_Bus_Mirror",
+      "sheet_id": 914895604,
+      "index": 14,
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 14,
+      "header_row_index": 4,
+      "headers": [
+        "Signal_Key",
+        "Source_Brick",
+        "Raw_Value",
+        "Normalized_0_100",
+        "Visual_Gauge",
+        "Status_Flag",
+        "Sephirotic_Impact"
+      ],
+      "row_1": [
+        "📡 MASTER SIGNAL_BUS TELEMETRY MIRROR (LIVE CROSS-BRICK FEED)"
+      ]
+    }
+  ]
+}
