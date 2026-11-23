@@ -1,0 +1,1052 @@
+{
+  "registry_key": "ID_MOVIES",
+  "title": "Movie Input Form (Responses)",
+  "spreadsheet_id": "1SIRiqfY1r62g8_XOkwe37d4KnZAr_-DBUx-r-wczkMY",
+  "url": "https://docs.google.com/spreadsheets/d/1SIRiqfY1r62g8_XOkwe37d4KnZAr_-DBUx-r-wczkMY/edit",
+  "time_zone": "America/Detroit",
+  "snapshot_utc": "2026-11-23T07:51:37Z",
+  "tab_count": 37,
+  "tabs": [
+    {
+      "title": "Form Responses 5",
+      "sheet_id": 657774349,
+      "index": 0,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1039,
+      "col_count": 28,
+      "populated_row_count": 39,
+      "header_row_index": 1,
+      "headers": [
+        "Timestamp",
+        "Genre",
+        "What's your rating of this Genre?"
+      ],
+      "row_1": [
+        "Timestamp",
+        "Genre",
+        "What's your rating of this Genre?"
+      ]
+    },
+    {
+      "title": "Genre Review",
+      "sheet_id": 1707822486,
+      "index": 1,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 39,
+      "header_row_index": 1,
+      "headers": [
+        "Timestamp",
+        "Genre",
+        "What's your rating of this Genre?"
+      ],
+      "row_1": [
+        "Timestamp",
+        "Genre",
+        "What's your rating of this Genre?"
+      ]
+    },
+    {
+      "title": "Form Responses 4",
+      "sheet_id": 1891828486,
+      "index": 2,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1004,
+      "col_count": 31,
+      "populated_row_count": 4,
+      "header_row_index": 1,
+      "headers": [
+        "Timestamp",
+        "Director",
+        "What is this Directors Rating?",
+        "Which of the following genres do you feel best represent this director's body of work? (Select all that apply)",
+        "On a scale of 1 to 5, how consistent is the quality of this director's films?",
+        "Final Thoughts"
+      ],
+      "row_1": [
+        "Timestamp",
+        "Director",
+        "What is this Directors Rating?",
+        "Which of the following genres do you feel best represent this director's body of work? (Select all that apply)",
+        "On a scale of 1 to 5, how consistent is the quality of this director's films?",
+        "Final Thoughts"
+      ]
+    },
+    {
+      "title": "Form Responses 3",
+      "sheet_id": 1490925672,
+      "index": 3,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1008,
+      "col_count": 35,
+      "populated_row_count": 8,
+      "header_row_index": 1,
+      "headers": [
+        "Timestamp",
+        "Actor",
+        "What's this Actors Rating?",
+        "Which genres is this actor best known for?",
+        "On a scale of 1-10, how would you rate this actor's versatility across different roles?",
+        "What are the actor's notable strengths (e.g., emotional depth, comedic timing, physical performance)?",
+        "Final Thoughts?",
+        "How would you rate the actor's performance quality across their career? [Early Career (First 5 years)]",
+        "How would you rate the actor's performance quality across their career? [Mid-Career (Next 10 years)]",
+        "How would you rate the actor's performance quality across their career? [Recent Work (Last 5 years)]"
+      ],
+      "row_1": [
+        "Timestamp",
+        "Actor",
+        "What's this Actors Rating?",
+        "Which genres is this actor best known for?",
+        "On a scale of 1-10, how would you rate this actor's versatility across different roles?",
+        "What are the actor's notable strengths (e.g., emotional depth, comedic timing, physical performance)?",
+        "Final Thoughts?",
+        "How would you rate the actor's performance quality across their career? [Early Career (First 5 years)]",
+        "How would you rate the actor's performance quality across their career? [Mid-Career (Next 10 years)]",
+        "How would you rate the actor's performance quality across their career? [Recent Work (Last 5 years)]"
+      ]
+    },
+    {
+      "title": "Form Responses 2",
+      "sheet_id": 855155566,
+      "index": 4,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1003,
+      "col_count": 39,
+      "populated_row_count": 3,
+      "header_row_index": 1,
+      "headers": [
+        "Timestamp",
+        "Movie Title",
+        "Rating",
+        "Platform/Format Where You Watched It (Select all that apply)",
+        "Did you watch this movie alone or with others?",
+        "How would you rate the movie's plot?",
+        "How would you rate the movie's pacing/editing?",
+        "How would you rate the movie's acting performances?",
+        "How would you rate the movie's visual effects/cinematography?",
+        "How would you rate the movie's soundtrack/score?",
+        "What was your emotional reaction immediately after the movie ended?",
+        "How would you rate the movie's rewatchability?",
+        "How many times have you watched this movie previously?",
+        "Final Thoughts"
+      ],
+      "row_1": [
+        "Timestamp",
+        "Movie Title",
+        "Rating",
+        "Platform/Format Where You Watched It (Select all that apply)",
+        "Did you watch this movie alone or with others?",
+        "How would you rate the movie's plot?",
+        "How would you rate the movie's pacing/editing?",
+        "How would you rate the movie's acting performances?",
+        "How would you rate the movie's visual effects/cinematography?",
+        "How would you rate the movie's soundtrack/score?",
+        "What was your emotional reaction immediately after the movie ended?",
+        "How would you rate the movie's rewatchability?",
+        "How many times have you watched this movie previously?",
+        "Final Thoughts"
+      ]
+    },
+    {
+      "title": "Form Responses 1",
+      "sheet_id": 6983503,
+      "index": 5,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 143,
+      "col_count": 28,
+      "populated_row_count": 43,
+      "header_row_index": 1,
+      "headers": [
+        "Timestamp",
+        "Movie Title",
+        "Rating",
+        "Date Watched",
+        "Platform/Format Where You Watched It (Select all that apply)",
+        "Which of these aspects was the primary reason you decided to watch this specific movie?",
+        "Which film critic or news source introduced you to this movie?",
+        "Did you watch this movie alone or with others?",
+        "What was your emotional reaction immediately after the movie ended?",
+        "How would you rate the movie's rewatchability?",
+        "How would you rate the originality/uniqueness of the movie's concept?",
+        "How many times have you watched this movie previously?",
+        "Final Thoughts",
+        "How would you rate the movie's plot?",
+        "How would you rate the movie's pacing/editing?",
+        "How would you rate the movie's acting performances?",
+        "How would you rate the movie's visual effects/cinematography?",
+        "How would you rate the movie's soundtrack/score?",
+        "Based on this movie, how import was the director's reputation when you decided to watch the movie?",
+        "How would you rank the importance of the lead actors/actresses when you decide to watch a movie?",
+        "How would you rank the importance of the critical rating when you decide to watch a movie?",
+        "How would you rank the importance of the movie genre when you decide to watch a movie?"
+      ],
+      "row_1": [
+        "Timestamp",
+        "Movie Title",
+        "Rating",
+        "Date Watched",
+        "Platform/Format Where You Watched It (Select all that apply)",
+        "Which of these aspects was the primary reason you decided to watch this specific movie?",
+        "Which film critic or news source introduced you to this movie?",
+        "Did you watch this movie alone or with others?",
+        "What was your emotional reaction immediately after the movie ended?",
+        "How would you rate the movie's rewatchability?",
+        "How would you rate the originality/uniqueness of the movie's concept?",
+        "How many times have you watched this movie previously?",
+        "Final Thoughts",
+        "How would you rate the movie's plot?",
+        "How would you rate the movie's pacing/editing?",
+        "How would you rate the movie's acting performances?",
+        "How would you rate the movie's visual effects/cinematography?",
+        "How would you rate the movie's soundtrack/score?",
+        "Based on this movie, how import was the director's reputation when you decided to watch the movie?",
+        "How would you rank the importance of the lead actors/actresses when you decide to watch a movie?",
+        "How would you rank the importance of the critical rating when you decide to watch a movie?",
+        "How would you rank the importance of the movie genre when you decide to watch a movie?"
+      ]
+    },
+    {
+      "title": "Initial Reviews",
+      "sheet_id": 414505856,
+      "index": 6,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 43,
+      "header_row_index": 1,
+      "headers": [
+        "Timestamp",
+        "Movie Title",
+        "Rating",
+        "Date Watched",
+        "Platform/Format Where You Watched It (Select all that apply)",
+        "Which of these aspects was the primary reason you decided to watch this specific movie?",
+        "Which film critic or news source introduced you to this movie?",
+        "Did you watch this movie alone or with others?",
+        "What was your emotional reaction immediately after the movie ended?",
+        "How would you rate the movie's rewatchability?",
+        "How would you rate the originality/uniqueness of the movie's concept?",
+        "How many times have you watched this movie previously?",
+        "Final Thoughts",
+        "How would you rate the movie's plot?",
+        "How would you rate the movie's pacing/editing?",
+        "How would you rate the movie's acting performances?",
+        "How would you rate the movie's visual effects/cinematography?",
+        "How would you rate the movie's soundtrack/score?",
+        "Based on this movie, how import was the director's reputation when you decided to watch the movie?",
+        "How would you rank the importance of the lead actors/actresses when you decide to watch a movie?",
+        "How would you rank the importance of the critical rating when you decide to watch a movie?",
+        "How would you rank the importance of the movie genre when you decide to watch a movie?"
+      ],
+      "row_1": [
+        "Timestamp",
+        "Movie Title",
+        "Rating",
+        "Date Watched",
+        "Platform/Format Where You Watched It (Select all that apply)",
+        "Which of these aspects was the primary reason you decided to watch this specific movie?",
+        "Which film critic or news source introduced you to this movie?",
+        "Did you watch this movie alone or with others?",
+        "What was your emotional reaction immediately after the movie ended?",
+        "How would you rate the movie's rewatchability?",
+        "How would you rate the originality/uniqueness of the movie's concept?",
+        "How many times have you watched this movie previously?",
+        "Final Thoughts",
+        "How would you rate the movie's plot?",
+        "How would you rate the movie's pacing/editing?",
+        "How would you rate the movie's acting performances?",
+        "How would you rate the movie's visual effects/cinematography?",
+        "How would you rate the movie's soundtrack/score?",
+        "Based on this movie, how import was the director's reputation when you decided to watch the movie?",
+        "How would you rank the importance of the lead actors/actresses when you decide to watch a movie?",
+        "How would you rank the importance of the critical rating when you decide to watch a movie?",
+        "How would you rank the importance of the movie genre when you decide to watch a movie?"
+      ]
+    },
+    {
+      "title": "Subject",
+      "sheet_id": 702465624,
+      "index": 7,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 1,
+      "header_row_index": 1,
+      "headers": [
+        "Rating and Rankings by Chris Jack "
+      ],
+      "row_1": [
+        "Rating and Rankings by Chris Jack "
+      ]
+    },
+    {
+      "title": "ReRanks",
+      "sheet_id": 685417473,
+      "index": 8,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 3,
+      "header_row_index": 1,
+      "headers": [
+        "Timestamp",
+        "Movie Title",
+        "Rating",
+        "Platform/Format Where You Watched It (Select all that apply)",
+        "Did you watch this movie alone or with others?",
+        "How would you rate the movie's plot?",
+        "How would you rate the movie's pacing/editing?",
+        "How would you rate the movie's acting performances?",
+        "How would you rate the movie's visual effects/cinematography?",
+        "How would you rate the movie's soundtrack/score?",
+        "What was your emotional reaction immediately after the movie ended?",
+        "How would you rate the movie's rewatchability?",
+        "How many times have you watched this movie previously?",
+        "Final Thoughts"
+      ],
+      "row_1": [
+        "Timestamp",
+        "Movie Title",
+        "Rating",
+        "Platform/Format Where You Watched It (Select all that apply)",
+        "Did you watch this movie alone or with others?",
+        "How would you rate the movie's plot?",
+        "How would you rate the movie's pacing/editing?",
+        "How would you rate the movie's acting performances?",
+        "How would you rate the movie's visual effects/cinematography?",
+        "How would you rate the movie's soundtrack/score?",
+        "What was your emotional reaction immediately after the movie ended?",
+        "How would you rate the movie's rewatchability?",
+        "How many times have you watched this movie previously?",
+        "Final Thoughts"
+      ]
+    },
+    {
+      "title": "Actors Review",
+      "sheet_id": 1573476643,
+      "index": 9,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 8,
+      "header_row_index": 1,
+      "headers": [
+        "Timestamp",
+        "Actor",
+        "What's this Actors Rating?",
+        "Which genres is this actor best known for?",
+        "On a scale of 1-10, how would you rate this actor's versatility across different roles?",
+        "What are the actor's notable strengths (e.g., emotional depth, comedic timing, physical performance)?",
+        "Final Thoughts?",
+        "How would you rate the actor's performance quality across their career? [Early Career (First 5 years)]",
+        "How would you rate the actor's performance quality across their career? [Mid-Career (Next 10 years)]",
+        "How would you rate the actor's performance quality across their career? [Recent Work (Last 5 years)]"
+      ],
+      "row_1": [
+        "Timestamp",
+        "Actor",
+        "What's this Actors Rating?",
+        "Which genres is this actor best known for?",
+        "On a scale of 1-10, how would you rate this actor's versatility across different roles?",
+        "What are the actor's notable strengths (e.g., emotional depth, comedic timing, physical performance)?",
+        "Final Thoughts?",
+        "How would you rate the actor's performance quality across their career? [Early Career (First 5 years)]",
+        "How would you rate the actor's performance quality across their career? [Mid-Career (Next 10 years)]",
+        "How would you rate the actor's performance quality across their career? [Recent Work (Last 5 years)]"
+      ]
+    },
+    {
+      "title": "Directors Review",
+      "sheet_id": 588633220,
+      "index": 10,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 4,
+      "header_row_index": 1,
+      "headers": [
+        "Timestamp",
+        "Director",
+        "What is this Directors Rating?",
+        "Which of the following genres do you feel best represent this director's body of work? (Select all that apply)",
+        "On a scale of 1 to 5, how consistent is the quality of this director's films?",
+        "Final Thoughts"
+      ],
+      "row_1": [
+        "Timestamp",
+        "Director",
+        "What is this Directors Rating?",
+        "Which of the following genres do you feel best represent this director's body of work? (Select all that apply)",
+        "On a scale of 1 to 5, how consistent is the quality of this director's films?",
+        "Final Thoughts"
+      ]
+    },
+    {
+      "title": "Full Database",
+      "sheet_id": 1492796437,
+      "index": 11,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 32,
+      "populated_row_count": 43,
+      "header_row_index": 1,
+      "headers": [
+        "Movie Title",
+        "My Review",
+        "Review Count",
+        "Summary",
+        "Director",
+        "Actors",
+        "Year",
+        "Genres",
+        "Run Time",
+        "Plot",
+        "Pacing",
+        "Acting",
+        "Visuals",
+        "Soundtrack",
+        "Technical Average",
+        "Personal Hybrid",
+        "Rotten Tomato Score",
+        "Global Signature"
+      ],
+      "row_1": [
+        "Movie Title",
+        "My Review",
+        "Review Count",
+        "Summary",
+        "Director",
+        "Actors",
+        "Year",
+        "Genres",
+        "Run Time",
+        "Plot",
+        "Pacing",
+        "Acting",
+        "Visuals",
+        "Soundtrack",
+        "Technical Average",
+        "Personal Hybrid",
+        "Rotten Tomato Score",
+        "Global Signature"
+      ]
+    },
+    {
+      "title": "Actors",
+      "sheet_id": 1798035110,
+      "index": 12,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 43,
+      "header_row_index": 1,
+      "headers": [
+        "Movie Title",
+        "Actor 1",
+        "Actor 2",
+        "Actor 3",
+        "Actor 4",
+        "Actor 5"
+      ],
+      "row_1": [
+        "Movie Title",
+        "Actor 1",
+        "Actor 2",
+        "Actor 3",
+        "Actor 4",
+        "Actor 5"
+      ]
+    },
+    {
+      "title": "Total Actor List",
+      "sheet_id": 1860141141,
+      "index": 13,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 1,
+      "populated_row_count": 142,
+      "header_row_index": 1,
+      "headers": [
+        "Unique Actor List"
+      ],
+      "row_1": [
+        "Unique Actor List"
+      ]
+    },
+    {
+      "title": "Total Genres List",
+      "sheet_id": 1723941110,
+      "index": 14,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 38,
+      "header_row_index": 1,
+      "headers": [
+        "Unique Genre List"
+      ],
+      "row_1": [
+        "Unique Genre List"
+      ]
+    },
+    {
+      "title": "Genres",
+      "sheet_id": 1356090375,
+      "index": 15,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 43,
+      "header_row_index": 1,
+      "headers": [
+        "Movie Title",
+        "Genres"
+      ],
+      "row_1": [
+        "Movie Title",
+        "Genres"
+      ]
+    },
+    {
+      "title": "Frequency_Analytics_Actors",
+      "sheet_id": 1763507878,
+      "index": 16,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 143,
+      "header_row_index": 1,
+      "headers": [
+        "Actor",
+        "Count"
+      ],
+      "row_1": [
+        "Actor",
+        "Count"
+      ]
+    },
+    {
+      "title": "Actor_Intelligence",
+      "sheet_id": 1821872100,
+      "index": 17,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 27,
+      "populated_row_count": 143,
+      "header_row_index": 1,
+      "headers": [
+        "Actor",
+        "Official Rating",
+        "Database Avg",
+        "How would you rate the actor's performance quality across their career? [Early Career (First 5 years)]",
+        "How would you rate the actor's performance quality across their career? [Mid-Career (Next 10 years)]",
+        "How would you rate the actor's performance quality across their career? [Recent Work (Last 5 years)]",
+        "Versatility Rating",
+        "Technical Rating",
+        "Actors Appearance Count",
+        "Technical Count Rating",
+        "Actors Inteligence Score"
+      ],
+      "row_1": [
+        "Actor",
+        "Official Rating",
+        "Database Avg",
+        "How would you rate the actor's performance quality across their career? [Early Career (First 5 years)]",
+        "How would you rate the actor's performance quality across their career? [Mid-Career (Next 10 years)]",
+        "How would you rate the actor's performance quality across their career? [Recent Work (Last 5 years)]",
+        "Versatility Rating",
+        "Technical Rating",
+        "Actors Appearance Count",
+        "Technical Count Rating",
+        "Actors Inteligence Score"
+      ]
+    },
+    {
+      "title": "Genre_Intelligence",
+      "sheet_id": 1638913226,
+      "index": 18,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 5273,
+      "col_count": 7,
+      "populated_row_count": 38,
+      "header_row_index": 1,
+      "headers": [
+        "Genre",
+        "Rating",
+        "Database Performance",
+        "Database Count",
+        "Database Weight",
+        "Technical Count Rating",
+        "Genre Intelligence Score"
+      ],
+      "row_1": [
+        "Genre",
+        "Rating",
+        "Database Performance",
+        "Database Count",
+        "Database Weight",
+        "Technical Count Rating",
+        "Genre Intelligence Score"
+      ]
+    },
+    {
+      "title": "Director_Intelligence",
+      "sheet_id": 888659036,
+      "index": 19,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 29,
+      "header_row_index": 1,
+      "headers": [
+        "Director",
+        "Official Rating",
+        "Database Performance",
+        "Consistency Rating",
+        "Appearance Count",
+        "Technical Count Rating",
+        "Director Intelligence Score"
+      ],
+      "row_1": [
+        "Director",
+        "Official Rating",
+        "Database Performance",
+        "Consistency Rating",
+        "Appearance Count",
+        "Technical Count Rating",
+        "Director Intelligence Score"
+      ]
+    },
+    {
+      "title": "Frequency_Analytics_Directors",
+      "sheet_id": 1666949411,
+      "index": 20,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 29,
+      "header_row_index": 1,
+      "headers": [
+        "Director",
+        "Count"
+      ],
+      "row_1": [
+        "Director",
+        "Count"
+      ]
+    },
+    {
+      "title": "Total_Directors_List",
+      "sheet_id": 237693822,
+      "index": 21,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 29,
+      "header_row_index": 1,
+      "headers": [
+        "Directors"
+      ],
+      "row_1": [
+        "Directors"
+      ]
+    },
+    {
+      "title": "Directors",
+      "sheet_id": 484348307,
+      "index": 22,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 43,
+      "header_row_index": 1,
+      "headers": [
+        "Movie",
+        "Director"
+      ],
+      "row_1": [
+        "Movie",
+        "Director"
+      ]
+    },
+    {
+      "title": "Frequency_Analytics_Genres",
+      "sheet_id": 2092947690,
+      "index": 23,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 17032,
+      "col_count": 26,
+      "populated_row_count": 38,
+      "header_row_index": 2,
+      "headers": [
+        "ACTION",
+        "37"
+      ],
+      "row_1": []
+    },
+    {
+      "title": "Movie_Metadata",
+      "sheet_id": 1388007593,
+      "index": 24,
+      "sheet_type": "GRID",
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 8,
+      "populated_row_count": 43,
+      "header_row_index": 1,
+      "headers": [
+        "Movie Title",
+        "Summary",
+        "Director",
+        "Lead Actors (Top 5)",
+        "Release Year",
+        "Genres",
+        "Runtime (Minutes)",
+        "Rotten Tomato Score"
+      ],
+      "row_1": [
+        "Movie Title",
+        "Summary",
+        "Director",
+        "Lead Actors (Top 5)",
+        "Release Year",
+        "Genres",
+        "Runtime (Minutes)",
+        "Rotten Tomato Score"
+      ]
+    },
+    {
+      "title": "True_Ratings",
+      "sheet_id": 1614064526,
+      "index": 25,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 43,
+      "header_row_index": 1,
+      "headers": [
+        "Movie Title",
+        "True Average",
+        "Total Reviews"
+      ],
+      "row_1": [
+        "Movie Title",
+        "True Average",
+        "Total Reviews"
+      ]
+    },
+    {
+      "title": "Consolidated Master",
+      "sheet_id": 1289456246,
+      "index": 26,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 45,
+      "header_row_index": 1,
+      "headers": [
+        "Timestamp",
+        "Movie Title",
+        "Rating",
+        "How would you rate the movie's plot?",
+        "How would you rate the movie's pacing/editing?",
+        "How would you rate the movie's acting performances?",
+        "How would you rate the movie's visual effects/cinematography?",
+        "How would you rate the movie's soundtrack/score?"
+      ],
+      "row_1": [
+        "Timestamp",
+        "Movie Title",
+        "Rating",
+        "How would you rate the movie's plot?",
+        "How would you rate the movie's pacing/editing?",
+        "How would you rate the movie's acting performances?",
+        "How would you rate the movie's visual effects/cinematography?",
+        "How would you rate the movie's soundtrack/score?"
+      ]
+    },
+    {
+      "title": "Master_Leaderboard",
+      "sheet_id": 554928377,
+      "index": 27,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 43,
+      "header_row_index": 1,
+      "headers": [
+        "Movie Title",
+        "Overall Avg",
+        "Plot",
+        "Pacing",
+        "Acting",
+        "Visuals",
+        "Soundtrack",
+        "Total Reviews"
+      ],
+      "row_1": [
+        "Movie Title",
+        "Overall Avg",
+        "Plot",
+        "Pacing",
+        "Acting",
+        "Visuals",
+        "Soundtrack",
+        "Total Reviews"
+      ]
+    },
+    {
+      "title": "Total_Rankings",
+      "sheet_id": 878905286,
+      "index": 28,
+      "sheet_type": "GRID",
+      "hidden": false,
+      "row_count": 5509,
+      "col_count": 27,
+      "populated_row_count": 43,
+      "header_row_index": 1,
+      "headers": [
+        "Movie Title",
+        "Overall Avg",
+        "Total Reviews",
+        "Actor Score",
+        "Director Score",
+        "Genre Score",
+        "The Release Date Decay",
+        "The Memory Decay",
+        "Technical Avg",
+        "Personal Hybrid",
+        "Rotten Tomato Score",
+        "Global Signature",
+        "Total Intangible Power",
+        "Master Ranking",
+        "THE FINAL \"ACTIVE\" RANK"
+      ],
+      "row_1": [
+        "Movie Title",
+        "Overall Avg",
+        "Total Reviews",
+        "Actor Score",
+        "Director Score",
+        "Genre Score",
+        "The Release Date Decay",
+        "The Memory Decay",
+        "Technical Avg",
+        "Personal Hybrid",
+        "Rotten Tomato Score",
+        "Global Signature",
+        "Total Intangible Power",
+        "Master Ranking",
+        "THE FINAL \"ACTIVE\" RANK"
+      ]
+    },
+    {
+      "title": "Top_10_Actors_Rankings",
+      "sheet_id": 355806919,
+      "index": 29,
+      "sheet_type": "GRID",
+      "hidden": false,
+      "row_count": 11,
+      "col_count": 3,
+      "populated_row_count": 11,
+      "header_row_index": 1,
+      "headers": [
+        "Actor",
+        "Actors Inteligence Score",
+        "Stars"
+      ],
+      "row_1": [
+        "Actor",
+        "Actors Inteligence Score",
+        "Stars"
+      ]
+    },
+    {
+      "title": "Top_10_Genres_Rankings",
+      "sheet_id": 358113299,
+      "index": 30,
+      "sheet_type": "GRID",
+      "hidden": false,
+      "row_count": 11,
+      "col_count": 3,
+      "populated_row_count": 11,
+      "header_row_index": 1,
+      "headers": [
+        "Genre",
+        "Genre Intelligence Score",
+        "Stars"
+      ],
+      "row_1": [
+        "Genre",
+        "Genre Intelligence Score",
+        "Stars"
+      ]
+    },
+    {
+      "title": "Top_100_Rankings",
+      "sheet_id": 1991568902,
+      "index": 31,
+      "sheet_type": "GRID",
+      "hidden": false,
+      "row_count": 1000,
+      "col_count": 17,
+      "populated_row_count": 43,
+      "header_row_index": 1,
+      "headers": [
+        "Movie Title",
+        "The Memory Decay",
+        "Technical Avg",
+        "Personal Hybrid",
+        "Rotten Tomato Score",
+        "Global Signature",
+        "Total Intangible Power"
+      ],
+      "row_1": [
+        "Movie Title",
+        "The Memory Decay",
+        "Technical Avg",
+        "Personal Hybrid",
+        "Rotten Tomato Score",
+        "Global Signature",
+        "Total Intangible Power"
+      ]
+    },
+    {
+      "title": "Movie Preference Calculations",
+      "sheet_id": 2037688311,
+      "index": 32,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 43,
+      "header_row_index": 2,
+      "headers": [
+        "Bad Boys",
+        "Martin Lawrence",
+        "Will Smith",
+        "Téa Leoni"
+      ],
+      "row_1": [
+        "Movies"
+      ]
+    },
+    {
+      "title": "CALC_Actor_Power",
+      "sheet_id": 119670712,
+      "index": 33,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 43,
+      "header_row_index": 1,
+      "headers": [
+        "Movie Title",
+        "Actors",
+        "The Raw Actor Intelligence",
+        "Final Actor Power"
+      ],
+      "row_1": [
+        "Movie Title",
+        "Actors",
+        "The Raw Actor Intelligence",
+        "Final Actor Power"
+      ]
+    },
+    {
+      "title": "CALC_Director_Power",
+      "sheet_id": 668551802,
+      "index": 34,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 43,
+      "header_row_index": 1,
+      "headers": [
+        "Movie Title",
+        "Director",
+        "Director Intelligence Score",
+        "Weight Director Score"
+      ],
+      "row_1": [
+        "Movie Title",
+        "Director",
+        "Director Intelligence Score",
+        "Weight Director Score"
+      ]
+    },
+    {
+      "title": "CALC_Genre_Power",
+      "sheet_id": 1023100586,
+      "index": 35,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 1000,
+      "col_count": 26,
+      "populated_row_count": 43,
+      "header_row_index": 1,
+      "headers": [
+        "Movie Title",
+        "Genres",
+        "The Raw Genre Intelligence",
+        "The Weighted Genre Power"
+      ],
+      "row_1": [
+        "Movie Title",
+        "Genres",
+        "The Raw Genre Intelligence",
+        "The Weighted Genre Power"
+      ]
+    },
+    {
+      "title": "Preference_Analytics",
+      "sheet_id": 938095628,
+      "index": 36,
+      "sheet_type": "GRID",
+      "hidden": true,
+      "row_count": 5,
+      "col_count": 2,
+      "populated_row_count": 5,
+      "header_row_index": 1,
+      "headers": [
+        "Metric",
+        "Global Average Score"
+      ],
+      "row_1": [
+        "Metric",
+        "Global Average Score"
+      ]
+    }
+  ]
+}

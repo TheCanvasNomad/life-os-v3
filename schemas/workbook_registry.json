@@ -1,8 +1,8 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-23T07:48:18Z",
+  "last_updated_utc": "2026-11-23T07:52:15Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -45,7 +45,13 @@
         "Import Norm Percentages",
         "Subject"
       ],
-      "tab_count": 19
+      "tab_count": 19,
+      "linked_forms": [
+        {
+          "name": "Myers-Briggs Test",
+          "form_id": "1t2CoDf1VqsPHRhZyozPrWBr8K2uCkX8TZGUIKm_t8aY"
+        }
+      ]
     },
     "ID_PQ": {
       "title": "Saboteur Assessment (Responses)",
@@ -72,7 +78,13 @@
         "Historical_Snapshots",
         "PQ_Scoring_Key"
       ],
-      "tab_count": 5
+      "tab_count": 5,
+      "linked_forms": [
+        {
+          "name": "Saboteur Assessment",
+          "form_id": "1OFsoVZQNhQCjGvxw7bBOLnpGt2T-ptUY5JJbX3IuuaI"
+        }
+      ]
     },
     "ID_HD": {
       "title": "Human Design OS",
@@ -172,7 +184,17 @@
         "Item_Drift_Matrix",
         "OCEAN_Bridge"
       ],
-      "tab_count": 6
+      "tab_count": 6,
+      "linked_forms": [
+        {
+          "name": "Life OS // Angela Duckworth Grit Assessment (Grit-O & Grit-S)",
+          "form_id": "1MKMfXAtb-ooZnGHccTyqjjudk3PyMdwSGKTpXSFKFbY"
+        },
+        {
+          "name": "Life OS // Angela Duckworth Grit Telemetry (5-Pillar v2.0)",
+          "form_id": "1fuWJGYkHJ-nBTPV8Hr0jLnioA1sc8pvOefxGR8_0CfA"
+        }
+      ]
     },
     "ID_RIASEC": {
       "title": "RAISEC Intake (Responses)",
@@ -200,7 +222,13 @@
         "RIASEC_Scoring_Engine",
         "LifeOS_Ledger_Sync"
       ],
-      "tab_count": 6
+      "tab_count": 6,
+      "linked_forms": [
+        {
+          "name": "RIASEC 5-Pillar Vocational & Congruence Diagnostic",
+          "form_id": "1oG9UIE5IFPSqnDhb5jzFcW-6_y7YTupB1DbvIRN7I8w"
+        }
+      ]
     },
     "LifeOS_Master_Bus": {
       "title": "LifeOS_Master_Bus",
@@ -286,7 +314,13 @@
         "Form Responses 1",
         "Subject"
       ],
-      "tab_count": 19
+      "tab_count": 19,
+      "linked_forms": [
+        {
+          "name": "Big-Five Personality Assessment",
+          "form_id": "1wn9lM2e5oAvMEtN4AUPszR4_bOI-meh6pnGXrK2WcuI"
+        }
+      ]
     },
     "ID_ENNEAGRAM": {
       "title": "Enneagram Assessment (Responses)",
@@ -328,7 +362,13 @@
         "Form Responses 1",
         "Subject"
       ],
-      "tab_count": 19
+      "tab_count": 19,
+      "linked_forms": [
+        {
+          "name": "Enneagram Assessment",
+          "form_id": "1znJXelISwrc_KzC9kpc_nPYGovFfzJC8JS6mzm3wRZA"
+        }
+      ]
     },
     "ID_XP_HUB": {
       "title": "XP Leveler",
@@ -434,7 +474,17 @@
         "Import_Zodiac",
         "Import_MBTI"
       ],
-      "tab_count": 10
+      "tab_count": 10,
+      "linked_forms": [
+        {
+          "name": "Life OS // Cattell 16PF Psychometric Intake (IPIP-160)",
+          "form_id": "1lI7vR8ILmfSBPJmCCwPC9rMUQS1fMwWNkW2kOCHhY_U"
+        },
+        {
+          "name": "Life OS // Cattell 16PF Adaptive Assessment (40 / 80 / 160Q)",
+          "form_id": "1S6rStG-WmO6BSPZ00rBdJH_7rKfWxPiI25blhwlnHk4"
+        }
+      ]
     },
     "ID_BELIEF_TRACKER": {
       "title": "Belief & Stance Tracker (Life OS)",
@@ -469,7 +519,17 @@
         "Dashboard_Summary",
         "Worldview_Synthesis"
       ],
-      "tab_count": 10
+      "tab_count": 10,
+      "linked_forms": [
+        {
+          "name": "Form A: Initial Prompt & Belief Intake",
+          "form_id": "1vnjN31gigBJp5RFQVtn7ODcnpYOsVvn_b5ckbYkbt2c"
+        },
+        {
+          "name": "Form B: Re-Ranking & Stance Evolution",
+          "form_id": "1lcFB-I_hc2uXv2ONbx5kHs25L16Zmd4luiUzssK7AqQ"
+        }
+      ]
     },
     "ID_CAREER_INTAKE": {
       "title": "LifeOS Career and Experience Intake (Responses)",
@@ -500,7 +560,13 @@
         "HS Exam Summary",
         "Taxonomy_&_Config"
       ],
-      "tab_count": 9
+      "tab_count": 9,
+      "linked_forms": [
+        {
+          "name": "LifeOS Career and Experience Intake",
+          "form_id": "1ONcs8wlxWBzrz8_0Gbj68jkyR-OoH2JG0Ucq4lK0LO4"
+        }
+      ]
     },
     "ID_TRAVEL": {
       "title": "🌍 Travel_Tracker_Brick",
@@ -546,7 +612,17 @@
         "CONTEXT_IN",
         "SIGNALS_OUT"
       ],
-      "tab_count": 13
+      "tab_count": 13,
+      "linked_forms": [
+        {
+          "name": "Travel_Tracker_Form_A_Trips",
+          "form_id": "18g_CLV1ry5gXdzx3iZWO3G95vK1LlA2hVSotqoNPwkU"
+        },
+        {
+          "name": "Travel_Tracker_Form_B_Reviews",
+          "form_id": "1D9IWDydIGrmxNUiY-mJkeQT8LMryaOJpWEjS2dkWb1M"
+        }
+      ]
     },
     "ID_FEED_HUB": {
       "title": "LifeOS_feed_hub",
@@ -1447,7 +1523,7 @@
       "drive_url": "https://docs.google.com/spreadsheets/d/1M-F-p5IqYc0JMtJ-20bOGUvQgP1-63Ta3hryES_jHqg/edit",
       "status": "bound",
       "layer": "brick",
-      "domain": "Development / Maslow's Hierarchy Spoke",
+      "domain": "Development / Foundation Engine",
       "live_tabs": [
         "Pyramid_&_Waves"
       ],
@@ -1469,7 +1545,13 @@
         "Sleep",
         "Last Updated"
       ],
-      "tab_count": 10
+      "tab_count": 10,
+      "linked_forms": [
+        {
+          "name": "Maslow's Hierarchy of Needs",
+          "form_id": "1VgKUR-u5Erx5htlsrU_aqXFUTwQpV3FRKe5lYRdkI_4"
+        }
+      ]
     },
     "ID_DOPPELGANGER": {
       "title": "Doppelganger_Brick",
@@ -1628,6 +1710,159 @@
         "Sheet1"
       ],
       "tab_count": 1
+    },
+    "ID_BODY_COUNT": {
+      "title": "Body Count 2.0",
+      "spreadsheet_id": "1aqYHU_bc-AqgREdvutE3VgG952_gd70yDKt4dMH6L1E",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1aqYHU_bc-AqgREdvutE3VgG952_gd70yDKt4dMH6L1E/edit",
+      "status": "bound",
+      "layer": "brick",
+      "domain": "Pillar 3 Relationships & Connection / Attraction & Encounter Ledger",
+      "live_tabs": [
+        "Subject",
+        "Answers",
+        "Sex Logistics",
+        "Category_Looks_Validation"
+      ],
+      "all_tabs": [
+        "Form Responses 1",
+        "Subject",
+        "Answers",
+        "Compilation",
+        "Sex Logistics",
+        "Sexual Compatibility Rubric",
+        "Sex Rubric",
+        "Interaction_Rubric",
+        "MATH_Logistics_Aggregator",
+        "Abroad Rubric",
+        "MATH_Age_Decay",
+        "Hair Color Rubic",
+        "Hair Texture Rubric",
+        "Hair Length Rubric",
+        "MATH_Hair",
+        "Ethnicity Rubic",
+        "MATH_Ethnicity",
+        "MATH_Height",
+        "Height Rubic",
+        "Math",
+        "Values_Rubric",
+        "MATH_Values_Aggregator",
+        "Logistics_Risk_Rubric",
+        "MATH_Sex_Aggregator",
+        "Sexual Compatibility Rubic",
+        "MATH_Looks_Aggregator",
+        "Overall Score",
+        "Overall Looks Ranking",
+        "Category_Looks_Validation",
+        "MATH_Body_Type",
+        "Complexion Rubric",
+        "MATH_Complexion",
+        "Body Type Rubric",
+        "Body Type Calibration",
+        "List of Names",
+        "Final List",
+        "Body_Count_Legacy_Data",
+        "Love_Life_Revisited_Data",
+        "LEGACY_NORMALIZED"
+      ],
+      "tab_count": 39,
+      "linked_forms": [
+        {
+          "name": "Body Count",
+          "form_id": "1NynmUhN_wHAvAa8LgcR89u9fC025f8YxCrFJsFws2oY"
+        }
+      ],
+      "search_aliases": [
+        "Body Count 2.0",
+        "Body Count"
+      ],
+      "schema_ref": null,
+      "last_snapshot_utc": "2026-11-23T07:51:25Z"
+    },
+    "ID_MOVIES": {
+      "title": "Movie Input Form (Responses)",
+      "spreadsheet_id": "1SIRiqfY1r62g8_XOkwe37d4KnZAr_-DBUx-r-wczkMY",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1SIRiqfY1r62g8_XOkwe37d4KnZAr_-DBUx-r-wczkMY/edit",
+      "status": "bound",
+      "layer": "brick",
+      "domain": "Pillar 4/5 Cultural & Influence Telemetry",
+      "live_tabs": [
+        "Movie_Metadata",
+        "Initial Reviews",
+        "Master_Leaderboard",
+        "Total_Rankings",
+        "Top_10_Actors_Rankings",
+        "Top_10_Genres_Rankings"
+      ],
+      "all_tabs": [
+        "Form Responses 5",
+        "Genre Review",
+        "Form Responses 4",
+        "Form Responses 3",
+        "Form Responses 2",
+        "Form Responses 1",
+        "Initial Reviews",
+        "Subject",
+        "ReRanks",
+        "Actors Review",
+        "Directors Review",
+        "Full Database",
+        "Actors",
+        "Total Actor List",
+        "Total Genres List",
+        "Genres",
+        "Frequency_Analytics_Actors",
+        "Actor_Intelligence",
+        "Genre_Intelligence",
+        "Director_Intelligence",
+        "Frequency_Analytics_Directors",
+        "Total_Directors_List",
+        "Directors",
+        "Frequency_Analytics_Genres",
+        "Movie_Metadata",
+        "True_Ratings",
+        "Consolidated Master",
+        "Master_Leaderboard",
+        "Total_Rankings",
+        "Top_10_Actors_Rankings",
+        "Top_10_Genres_Rankings",
+        "Top_100_Rankings",
+        "Movie Preference Calculations",
+        "CALC_Actor_Power",
+        "CALC_Director_Power",
+        "CALC_Genre_Power",
+        "Preference_Analytics"
+      ],
+      "tab_count": 37,
+      "linked_forms": [
+        {
+          "name": "Movie Input Form",
+          "form_id": "140vqa2yZHBTCEyDRsKXg96ctAc4EwVEjzoeiRb6iWM0"
+        },
+        {
+          "name": "Movie Re-Rank Form",
+          "form_id": "17hYrzrY6nPiGiNNADcyLjiUGEvIiaaUKjCF93o2IomY"
+        },
+        {
+          "name": "Actor Input Form (Responses)",
+          "form_id": "1boYElMlLHpeJzKIEaktInJjfRbsClzgoL6Ej4wDp_qE"
+        },
+        {
+          "name": "Director Input Form (Responses)",
+          "form_id": "1Jkt13uUTkSJFaHGYaDLvfxmpfDyZWg1dAHfHqE48Pps"
+        },
+        {
+          "name": "Genre Input Form (Responses)",
+          "form_id": "1Lyzqdg-5nU-qUkpuYZK-Vkn02vAw_RzK-2PmMdsaunY"
+        }
+      ],
+      "search_aliases": [
+        "Movie Input Form (Responses)",
+        "Movie Input Form",
+        "Movie Ranking Tracker"
+      ],
+      "schema_ref": null,
+      "last_snapshot_utc": "2026-11-23T07:51:37Z"
     }
   },
   "unmapped_discovered": [
@@ -1637,12 +1872,6 @@
       "drive_url": "https://docs.google.com/spreadsheets/d/1qJwuFtFXB69btim6JnhFgk6N_klbkHQb5atS9loBp8A/edit",
       "modified_time": "2026-11-18T04:41:30.645Z",
       "note": "Archived legacy sheet; active engine is ID_KABBALAH (19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0)."
-    },
-    {
-      "title": "Movie Input Form (Responses)",
-      "spreadsheet_id": "1SIRiqfY1r62g8_XOkwe37d4KnZAr_-DBUx-r-wczkMY",
-      "drive_url": "https://docs.google.com/spreadsheets/d/1SIRiqfY1r62g8_XOkwe37d4KnZAr_-DBUx-r-wczkMY/edit",
-      "modified_time": "2026-11-22"
     },
     {
       "title": "Sky Weather OS",
@@ -1673,6 +1902,25 @@
       "spreadsheet_id": "1NLB5Fus8iSCeNKDHFuAAJK0uuPo8XFvNDvpRFJNCM5c",
       "drive_url": "https://docs.google.com/spreadsheets/d/1NLB5Fus8iSCeNKDHFuAAJK0uuPo8XFvNDvpRFJNCM5c/edit",
       "modified_time": "2026-04-02"
+    },
+    {
+      "title": "Body Count (Responses)",
+      "spreadsheet_id": "1YgvP_hRYOkyvatEx8EwjWvUOg-uW5c-B3sI80bk_qBs",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1YgvP_hRYOkyvatEx8EwjWvUOg-uW5c-B3sI80bk_qBs/edit",
+      "modified_time": "2026-07-24",
+      "note": "Legacy responses sheet; active workbook is ID_BODY_COUNT (1aqYHU_bc-AqgREdvutE3VgG952_gd70yDKt4dMH6L1E)."
+    },
+    {
+      "title": "Body Count LM",
+      "spreadsheet_id": "1PtpG6_Ym-s6ZPj6smkBVByFbIBnZWdURjEZSn4NZXxg",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1PtpG6_Ym-s6ZPj6smkBVByFbIBnZWdURjEZSn4NZXxg/edit",
+      "modified_time": "2026-06-18"
+    },
+    {
+      "title": "MCU Movie Ratings (Responses)",
+      "spreadsheet_id": "1fQqLfm2zhSycY1oIK8c7nxYrB8e7WpohnnOjXLBX0Oo",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1fQqLfm2zhSycY1oIK8c7nxYrB8e7WpohnnOjXLBX0Oo/edit",
+      "modified_time": "2025-03-02"
     }
   ]
 }
