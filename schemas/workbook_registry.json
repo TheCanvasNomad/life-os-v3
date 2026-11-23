@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-23T16:16:12Z",
+  "last_updated_utc": "2026-11-23T18:53:48Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -694,7 +694,7 @@
         "LifeOS Feed Hub"
       ],
       "schema_ref": "schemas/lifeos_feed_hub_schema.json",
-      "last_snapshot_utc": "2026-11-23T08:54:10Z",
+      "last_snapshot_utc": "2026-11-23T18:53:48Z",
       "all_tabs": [
         "SIGNAL_BUS",
         "MODULE_REGISTRY",
@@ -1941,6 +1941,93 @@
       "schema_ref": null,
       "last_snapshot_utc": "2026-11-23T16:16:12Z",
       "universal_brick_compliant": true
+    },
+    "ID_BIO_CORE": {
+      "title": "\ud83e\ude7a BIO_CORE",
+      "spreadsheet_id": "1EecdB1CnjvaR6C7zx9mTVMx7M-vSIMOUgd3lMlEPmEA",
+      "url": "https://docs.google.com/spreadsheets/d/1EecdB1CnjvaR6C7zx9mTVMx7M-vSIMOUgd3lMlEPmEA/edit",
+      "drive_folder_id": "1cCrkeThYdMl4BOTI0ww8dhSxlpBPE53J",
+      "domain": "Pillar 1 / Wearable Biometrics Utility (Layer 1+2)",
+      "cadence": "Daily Automated Sync (Fitbit Backfill + Health Connect Webhook)",
+      "status": "ACTIVE",
+      "universal_brick_compliant": true,
+      "live_tabs": [
+        "BIO_DASHBOARD",
+        "BIO_CALCULATIONS",
+        "RAW_DATA_Biometrics",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "all_tabs": [
+        "BIO_DASHBOARD",
+        "BIO_CALCULATIONS",
+        "RAW_DATA_Biometrics",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "tab_count": 6,
+      "last_snapshot_utc": "2026-11-23T18:53:48Z",
+      "snapshot_file": "schemas/live_snapshots/ID_BIO_CORE.json"
+    },
+    "ID_PILLAR_1": {
+      "title": "\ud83d\udc9a Pillar_1_Health",
+      "spreadsheet_id": "1dzuXlVWO5VRtla0p0ZuziZAvpm2ZySslPLZOhWDQGSI",
+      "url": "https://docs.google.com/spreadsheets/d/1dzuXlVWO5VRtla0p0ZuziZAvpm2ZySslPLZOhWDQGSI/edit",
+      "drive_folder_id": "1cCrkeThYdMl4BOTI0ww8dhSxlpBPE53J",
+      "domain": "Pillar 1 / Health & Vitality Spoke Engine (Layer 2)",
+      "cadence": "Daily Check-In + Live BIO_CORE Blend",
+      "status": "ACTIVE",
+      "universal_brick_compliant": true,
+      "live_tabs": [
+        "DASHBOARD",
+        "DATABASE",
+        "HABIT_MANAGER",
+        "CALCULATIONS",
+        "P1_CONFIG",
+        "IMPORTS",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "all_tabs": [
+        "DASHBOARD",
+        "DATABASE",
+        "HABIT_MANAGER",
+        "CALCULATIONS",
+        "P1_CONFIG",
+        "IMPORTS",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "tab_count": 9,
+      "last_snapshot_utc": "2026-11-23T18:53:48Z",
+      "snapshot_file": "schemas/live_snapshots/ID_PILLAR_1.json"
+    },
+    "ID_RAW_DAILY_CHECKIN": {
+      "title": "RAW_DATA_DailyCheckIn",
+      "spreadsheet_id": "1Bz2AH4oJMvzhETSvEhG5H58mlF-RNLMG6IaTTKaODSY",
+      "url": "https://docs.google.com/spreadsheets/d/1Bz2AH4oJMvzhETSvEhG5H58mlF-RNLMG6IaTTKaODSY/edit",
+      "drive_folder_id": "1cCrkeThYdMl4BOTI0ww8dhSxlpBPE53J",
+      "domain": "Pillar 1 / Write-Only Daily Check-In Silo (Layer 1)",
+      "cadence": "Daily Check-In Form Responses",
+      "status": "ACTIVE",
+      "universal_brick_compliant": false,
+      "live_tabs": [
+        "Form Responses 2",
+        "Form Responses 1",
+        "Daily_CheckIn_Log"
+      ],
+      "all_tabs": [
+        "Form Responses 2",
+        "Form Responses 1",
+        "Daily_CheckIn_Log"
+      ],
+      "tab_count": 3,
+      "last_snapshot_utc": "2026-11-23T18:53:48Z",
+      "snapshot_file": "schemas/live_snapshots/ID_RAW_DAILY_CHECKIN.json"
     }
   },
   "unmapped_discovered": [

@@ -37,10 +37,25 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | [x] | `MODULE_REGISTRY!J23` | **Body_Count_2_0** | `1aqYHU_bc-AqgREdvutE3VgG952_gd70yDKt4dMH6L1E` | **LIVE (`FRESH`, Anonymized Aggregates Only)**: All 4 `REL_*` signals |
 | [x] | `MODULE_REGISTRY!J24` | **Movie_Tracker** | `1SIRiqfY1r62g8_XOkwe37d4KnZAr_-DBUx-r-wczkMY` | **LIVE (`FRESH`)**: All 5 `MOVIES_*` signals |
 | [x] | `MODULE_REGISTRY!J25` | **XP_Leveler** | `1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k` | **LIVE (`FRESH`)**: All 4 `XP_*` signals |
+| [ ] | `MODULE_REGISTRY!J26` | **🩺 BIO_CORE** | `1EecdB1CnjvaR6C7zx9mTVMx7M-vSIMOUgd3lMlEPmEA` | All 7 `BIO_*` wearable signals (`BIO_READINESS_SCORE`, `HRV_RECOVERY`, `SLEEP_INDEX`, `SLEEP_CONSISTENCY`, `ACTIVITY_INDEX`, `STEPS_7D`, `RHR_7D`) -> AQAL UR, Maslow L1, Sword Knuckle-Bow |
+| [ ] | `MODULE_REGISTRY!J27` | **💚 Pillar_1_Health** | `1dzuXlVWO5VRtla0p0ZuziZAvpm2ZySslPLZOhWDQGSI` | All 8 `P1_*` signals (`P1_HEALTH_BASE_SCORE`, `SLEEP_7D`, `ENERGY_7D`, `STRESS_7D`, `PRANA`, `HABIT_COMPLIANCE`, `APPEARANCE`, `PEAK_FOCUS_WINDOW`) -> AQAL UR, Maslow L1, Sword Knuckle-Bow & Grip |
 
 ---
 
-## 2. Brick Inbound `CONTEXT_IN!F2` Authorizations (11 Standardized Bricks)
+## 2. Pillar 1 Biological Stack (`BIO_CORE` & `Pillar_1_Health`) Inbound Authorizations
+
+Approve these 4 one-time `#REF!` cells to complete the closed loop between `RAW_DATA_DailyCheckIn`, `🩺 BIO_CORE`, `💚 Pillar_1_Health`, and `LifeOS_feed_hub`:
+
+| Done | Workbook & Cell | Direct Tab Link (Click cell -> Allow access) | Target Workbook | Unlocks |
+| :---: | :--- | :--- | :--- | :--- |
+| [ ] | **`🩺 BIO_CORE` → `CONTEXT_IN!F2`** | https://docs.google.com/spreadsheets/d/1EecdB1CnjvaR6C7zx9mTVMx7M-vSIMOUgd3lMlEPmEA/edit#gid=1475661450 | **LifeOS_feed_hub** | Live Hub context inside `BIO_CORE` (`P1_HEALTH_BASE_SCORE`, `STRESS_ALLOSTATIC_LOAD`, `HD_BIO_READINESS`, `ZODIAC_WIP_COUNT`) |
+| [ ] | **`💚 Pillar_1_Health` → `IMPORTS!R2`** | https://docs.google.com/spreadsheets/d/1dzuXlVWO5VRtla0p0ZuziZAvpm2ZySslPLZOhWDQGSI/edit#gid=0 | **RAW_DATA_DailyCheckIn** (`1Bz2AH4oJMvzhETSvEhG5H58mlF-RNLMG6IaTTKaODSY`) | Live Layer 1 Daily Check-In rows streaming into `DATABASE`, `CALCULATIONS`, and `DASHBOARD` |
+| [ ] | **`💚 Pillar_1_Health` → `IMPORTS!S2`** | https://docs.google.com/spreadsheets/d/1dzuXlVWO5VRtla0p0ZuziZAvpm2ZySslPLZOhWDQGSI/edit#gid=0 | **🩺 BIO_CORE** (`1EecdB1CnjvaR6C7zx9mTVMx7M-vSIMOUgd3lMlEPmEA`) | Live wearable `BIO_SLEEP_INDEX`, `BIO_ACTIVITY_INDEX`, `BIO_HRV_RECOVERY`, and `BIO_READINESS_SCORE` blended into the 5-Level Health Pyramid |
+| [ ] | **`💚 Pillar_1_Health` → `CONTEXT_IN!F2`** | https://docs.google.com/spreadsheets/d/1dzuXlVWO5VRtla0p0ZuziZAvpm2ZySslPLZOhWDQGSI/edit#gid=744371407 | **LifeOS_feed_hub** | Live Hub context inside `Pillar_1_Health` |
+
+---
+
+## 3. Brick Inbound `CONTEXT_IN!F2` Authorizations (11 Standardized Bricks)
 
 Each of the 11 newly standardized Bricks has a dedicated unwrapped **`Hub_Auth_Trigger`** in cell **`CONTEXT_IN!F2`** subscribing to `LifeOS_feed_hub` (`1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U`). Open each direct `#gid=` link below, click **`F2`**, and press **"Allow access"** once to activate closed-loop Pass-2 context subscriptions inside that Brick:
 

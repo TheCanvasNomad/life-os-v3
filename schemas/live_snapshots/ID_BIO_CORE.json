@@ -1,0 +1,161 @@
+{
+  "registry_key": "ID_BIO_CORE",
+  "title": "\ud83e\ude7a BIO_CORE",
+  "spreadsheet_id": "1EecdB1CnjvaR6C7zx9mTVMx7M-vSIMOUgd3lMlEPmEA",
+  "url": "https://docs.google.com/spreadsheets/d/1EecdB1CnjvaR6C7zx9mTVMx7M-vSIMOUgd3lMlEPmEA/edit",
+  "time_zone": "Etc/GMT",
+  "snapshot_utc": "2026-11-23T18:53:48Z",
+  "tab_count": 6,
+  "tabs": [
+    {
+      "title": "BIO_DASHBOARD",
+      "sheet_id": 962318361,
+      "index": null,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "header_row_index": 1,
+      "headers": [
+        "\ud83e\ude7a LIFEOS v3.0 \u2014 BIO_CORE WEARABLE TELEMETRY & RECOVERY HUD"
+      ],
+      "row_1": [
+        "\ud83e\ude7a LIFEOS v3.0 \u2014 BIO_CORE WEARABLE TELEMETRY & RECOVERY HUD"
+      ]
+    },
+    {
+      "title": "BIO_CALCULATIONS",
+      "sheet_id": 471427259,
+      "index": 1,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "header_row_index": 1,
+      "headers": [
+        "\ud83e\ude7a BIO_CORE // DYNAMIC BIOMETRIC CALCULATION ENGINE & TUNABLE CALIBRATION"
+      ],
+      "row_1": [
+        "\ud83e\ude7a BIO_CORE // DYNAMIC BIOMETRIC CALCULATION ENGINE & TUNABLE CALIBRATION"
+      ]
+    },
+    {
+      "title": "RAW_DATA_Biometrics",
+      "sheet_id": 783892015,
+      "index": 2,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "header_row_index": 1,
+      "headers": [
+        "Timestamp",
+        "Date",
+        "Source",
+        "Sleep_Hours",
+        "Sleep_Score",
+        "Deep_REM_Mins",
+        "Steps",
+        "Resting_HR",
+        "HRV_ms",
+        "Active_Calories",
+        "Weight_lbs",
+        "Workout_Mins"
+      ],
+      "row_1": [
+        "Timestamp",
+        "Date",
+        "Source",
+        "Sleep_Hours",
+        "Sleep_Score",
+        "Deep_REM_Mins",
+        "Steps",
+        "Resting_HR",
+        "HRV_ms",
+        "Active_Calories",
+        "Weight_lbs",
+        "Workout_Mins"
+      ]
+    },
+    {
+      "title": "MODULE_META",
+      "sheet_id": 250247917,
+      "index": 3,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "header_row_index": 1,
+      "headers": [
+        "Field",
+        "Value",
+        "Notes"
+      ],
+      "row_1": [
+        "Field",
+        "Value",
+        "Notes"
+      ]
+    },
+    {
+      "title": "CONTEXT_IN",
+      "sheet_id": 1475661450,
+      "index": 4,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Live_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Freshness_Status",
+        "Hub_Auth_Trigger"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Live_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Freshness_Status",
+        "Hub_Auth_Trigger"
+      ]
+    },
+    {
+      "title": "SIGNALS_OUT",
+      "sheet_id": 1252638330,
+      "index": 5,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Source_Brick",
+        "Glyph",
+        "Domain_Pillar",
+        "Raw_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated",
+        "TTL_Hours",
+        "Notes"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Source_Brick",
+        "Glyph",
+        "Domain_Pillar",
+        "Raw_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated",
+        "TTL_Hours",
+        "Notes"
+      ]
+    }
+  ]
+}
