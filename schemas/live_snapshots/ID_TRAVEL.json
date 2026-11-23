@@ -1,20 +1,20 @@
 {
   "registry_key": "ID_TRAVEL",
-  "title": "🌍 Travel_Tracker_Brick",
+  "title": "\ud83c\udf0d Travel_Tracker_Brick",
   "spreadsheet_id": "11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc",
   "url": "https://docs.google.com/spreadsheets/d/11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc/edit",
   "time_zone": "America/New_York",
-  "snapshot_utc": "2026-11-23T07:43:23Z",
+  "snapshot_utc": "2026-11-23T16:16:42Z",
   "tab_count": 13,
   "tabs": [
     {
       "title": "Form Responses 2",
       "sheet_id": 1585522118,
-      "index": 0,
+      "index": null,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 101,
       "col_count": 16,
-      "populated_row_count": 1,
       "header_row_index": 1,
       "headers": [
         "Timestamp",
@@ -23,7 +23,7 @@
         "Category",
         "Visit Date",
         "Google Maps Link",
-        "Personal Rating (1–5)",
+        "Personal Rating (1\u20135)",
         "Review Status",
         "Review Text",
         "Would Return / Recommend?"
@@ -35,7 +35,7 @@
         "Category",
         "Visit Date",
         "Google Maps Link",
-        "Personal Rating (1–5)",
+        "Personal Rating (1\u20135)",
         "Review Status",
         "Review Text",
         "Would Return / Recommend?"
@@ -46,9 +46,9 @@
       "sheet_id": 86807784,
       "index": 1,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 112,
       "col_count": 19,
-      "populated_row_count": 12,
       "header_row_index": 1,
       "headers": [
         "Timestamp",
@@ -86,24 +86,17 @@
       "sheet_id": 1,
       "index": 2,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 45,
       "col_count": 14,
-      "populated_row_count": 33,
-      "header_row_index": 4,
+      "header_row_index": 1,
       "headers": [
         "",
-        "QUICK ACTIONS",
-        "",
-        "LIVE EXPEDITION STATUS",
-        "",
-        "",
-        "",
-        "",
-        "EXPLORER XP & LEVEL"
+        "\ud83c\udf0d UNIVERSAL TRAVEL, TIMELINE & GOOGLE MAPS REVIEW TRACKER"
       ],
       "row_1": [
         "",
-        "🌍 UNIVERSAL TRAVEL, TIMELINE & GOOGLE MAPS REVIEW TRACKER"
+        "\ud83c\udf0d UNIVERSAL TRAVEL, TIMELINE & GOOGLE MAPS REVIEW TRACKER"
       ]
     },
     {
@@ -111,30 +104,15 @@
       "sheet_id": 2,
       "index": 3,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 801,
       "col_count": 28,
-      "populated_row_count": 13,
-      "header_row_index": 2,
+      "header_row_index": 1,
       "headers": [
-        "Trip ID",
-        "Start Date",
-        "End Date",
-        "Days",
-        "Status",
-        "Continent",
-        "Sub-Region",
-        "Country",
-        "State / Province",
-        "City",
-        "Trip Type",
-        "Visit Milestone",
-        "Reviews Logged",
-        "Total Cost",
-        "Daily Burn",
-        "Highlights"
+        "\ud83c\udf0d CHRONOLOGICAL TRAVEL TIMELINE (AUTO-SORTED BY START DATE DESCENDING)"
       ],
       "row_1": [
-        "🌍 CHRONOLOGICAL TRAVEL TIMELINE (AUTO-SORTED BY START DATE DESCENDING)"
+        "\ud83c\udf0d CHRONOLOGICAL TRAVEL TIMELINE (AUTO-SORTED BY START DATE DESCENDING)"
       ]
     },
     {
@@ -142,26 +120,15 @@
       "sheet_id": 3,
       "index": 4,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1101,
       "col_count": 13,
-      "populated_row_count": 3,
-      "header_row_index": 2,
+      "header_row_index": 1,
       "headers": [
-        "Visit Date",
-        "Place Name",
-        "Category",
-        "City",
-        "Country",
-        "Linked Trip",
-        "Rating (1–5)",
-        "Review Status",
-        "Word Count",
-        "Recommend?",
-        "Maps Link",
-        "Full Review Text"
+        "\ud83d\udccd GOOGLE MAPS & PLACE REVIEW ARCHIVE (AUTO-SORTED BY VISIT DATE DESCENDING)"
       ],
       "row_1": [
-        "📍 GOOGLE MAPS & PLACE REVIEW ARCHIVE (AUTO-SORTED BY VISIT DATE DESCENDING)"
+        "\ud83d\udccd GOOGLE MAPS & PLACE REVIEW ARCHIVE (AUTO-SORTED BY VISIT DATE DESCENDING)"
       ]
     },
     {
@@ -169,9 +136,9 @@
       "sheet_id": 4,
       "index": 5,
       "hidden": true,
+      "sheet_type": "GRID",
       "row_count": 300,
       "col_count": 20,
-      "populated_row_count": 12,
       "header_row_index": 1,
       "headers": [
         "Timestamp",
@@ -223,9 +190,9 @@
       "sheet_id": 5,
       "index": 6,
       "hidden": true,
+      "sheet_type": "GRID",
       "row_count": 600,
       "col_count": 15,
-      "populated_row_count": 1,
       "header_row_index": 1,
       "headers": [
         "Timestamp",
@@ -267,9 +234,9 @@
       "sheet_id": 6,
       "index": 7,
       "hidden": true,
+      "sheet_type": "GRID",
       "row_count": 220,
       "col_count": 5,
-      "populated_row_count": 93,
       "header_row_index": 1,
       "headers": [
         "Country",
@@ -291,16 +258,15 @@
       "sheet_id": 7,
       "index": 8,
       "hidden": true,
+      "sheet_type": "GRID",
       "row_count": 25,
       "col_count": 8,
-      "populated_row_count": 4,
-      "header_row_index": 2,
+      "header_row_index": 1,
       "headers": [
-        "Active Travel State",
-        "Home / Stationary"
+        "\ud83e\udded PASS-2 CONTEXTUAL TRAVEL & EXPLORATION GUIDANCE"
       ],
       "row_1": [
-        "🧭 PASS-2 CONTEXTUAL TRAVEL & EXPLORATION GUIDANCE"
+        "\ud83e\udded PASS-2 CONTEXTUAL TRAVEL & EXPLORATION GUIDANCE"
       ]
     },
     {
@@ -308,9 +274,9 @@
       "sheet_id": 8,
       "index": 9,
       "hidden": true,
+      "sheet_type": "GRID",
       "row_count": 15,
       "col_count": 7,
-      "populated_row_count": 4,
       "header_row_index": 1,
       "headers": [
         "Travel_State",
@@ -332,9 +298,9 @@
       "sheet_id": 9,
       "index": 10,
       "hidden": true,
+      "sheet_type": "GRID",
       "row_count": 20,
       "col_count": 4,
-      "populated_row_count": 9,
       "header_row_index": 1,
       "headers": [
         "Field",
@@ -352,25 +318,25 @@
       "sheet_id": 10,
       "index": 11,
       "hidden": true,
+      "sheet_type": "GRID",
       "row_count": 25,
       "col_count": 6,
-      "populated_row_count": 4,
       "header_row_index": 1,
       "headers": [
         "Signal_Key",
         "Live_Value",
-        "Normalized_Score",
+        "Normalized_Score_0_100",
         "State_Tag",
-        "Freshness",
-        "Source_Hub"
+        "Freshness_Status",
+        "Hub_Auth_Trigger"
       ],
       "row_1": [
         "Signal_Key",
         "Live_Value",
-        "Normalized_Score",
+        "Normalized_Score_0_100",
         "State_Tag",
-        "Freshness",
-        "Source_Hub"
+        "Freshness_Status",
+        "Hub_Auth_Trigger"
       ]
     },
     {
@@ -378,9 +344,9 @@
       "sheet_id": 11,
       "index": 12,
       "hidden": true,
+      "sheet_type": "GRID",
       "row_count": 20,
-      "col_count": 9,
-      "populated_row_count": 8,
+      "col_count": 10,
       "header_row_index": 1,
       "headers": [
         "Signal_Key",
@@ -391,7 +357,8 @@
         "Normalized_Score_0_100",
         "State_Tag",
         "Last_Updated",
-        "TTL_Hours"
+        "TTL_Hours",
+        "Notes"
       ],
       "row_1": [
         "Signal_Key",
@@ -402,7 +369,8 @@
         "Normalized_Score_0_100",
         "State_Tag",
         "Last_Updated",
-        "TTL_Hours"
+        "TTL_Hours",
+        "Notes"
       ]
     }
   ]

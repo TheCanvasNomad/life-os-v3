@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-23T08:54:15Z",
+  "last_updated_utc": "2026-11-23T16:16:12Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -25,8 +25,8 @@
       "schema_ref": "schemas/mbti_cognitive_stack_schema.json",
       "last_snapshot_utc": "2026-11-23T07:41:54Z",
       "all_tabs": [
-        "📊 MBTI_Dashboard",
-        "🧭 DYNAMIC_ADVISORY",
+        "\ud83d\udcca MBTI_Dashboard",
+        "\ud83e\udded DYNAMIC_ADVISORY",
         "Timeline_Snapshots",
         "Overall_Averages",
         "Shadow_Grip_Audit",
@@ -35,9 +35,9 @@
         "State_vs_Trait_Volatility",
         "OCEAN_Bridge",
         "Scoring_Engine",
-        "📋 MODULE_META",
-        "📥 CONTEXT_IN",
-        "📤 SIGNALS_OUT",
+        "\ud83d\udccb MODULE_META",
+        "\ud83d\udce5 CONTEXT_IN",
+        "\ud83d\udce4 SIGNALS_OUT",
         "Myers-Briggs Type Indicator Overview",
         "Legacy_Archive",
         "Form Responses 1",
@@ -106,7 +106,7 @@
       "schema_ref": "schemas/human_design_os_schema.json",
       "last_snapshot_utc": "2026-11-23T07:42:05Z",
       "all_tabs": [
-        "💠 HD_DASHBOARD",
+        "\ud83d\udca0 HD_DASHBOARD",
         "ADVISORY_MATRIX",
         "HD_CENTERS_9",
         "HD_CHANNELS_36",
@@ -128,11 +128,14 @@
       "title": "Zodiac OS",
       "spreadsheet_id": "1wQcAdR6ZxETOA1_nUmq1XYvPb9WvgSzmwcA4M0StH9M",
       "drive_url": "https://docs.google.com/spreadsheets/d/1wQcAdR6ZxETOA1_nUmq1XYvPb9WvgSzmwcA4M0StH9M/edit",
-      "status": "bound",
+      "status": "ACTIVE",
       "layer": "brick",
       "domain": "Pillar 6 Esoteric Self / Zodiac & OPS_GOVERNOR",
       "live_tabs": [
-        "OPS_GOVERNOR"
+        "OPS_GOVERNOR",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
       "search_aliases": [
         "Zodiac OS",
@@ -140,7 +143,7 @@
         "Zodiac"
       ],
       "schema_ref": "schemas/zodiac_brick_schema.json",
-      "last_snapshot_utc": "2026-11-23T07:42:12Z",
+      "last_snapshot_utc": "2026-11-23T16:16:12Z",
       "all_tabs": [
         "CONFIG_HUB",
         "LUMINARIES_PLANETS",
@@ -157,17 +160,21 @@
         "ADVISORY_MATRIX",
         "SIGNALS_OUT"
       ],
-      "tab_count": 14
+      "tab_count": 14,
+      "universal_brick_compliant": true
     },
     "ID_GRIT": {
       "title": "Grit Score Assessment",
       "spreadsheet_id": "1kCwx6wtYksmt92M3Izwe6oEIVS5uDv3kCLIzCBOJG-s",
       "drive_url": "https://docs.google.com/spreadsheets/d/1kCwx6wtYksmt92M3Izwe6oEIVS5uDv3kCLIzCBOJG-s/edit",
-      "status": "bound",
+      "status": "ACTIVE",
       "layer": "brick",
       "domain": "Psychometrics / Grit Scale",
       "live_tabs": [
-        "Executive_Dashboard"
+        "Executive_Dashboard",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
       "search_aliases": [
         "Grit Score Assessment",
@@ -175,16 +182,19 @@
         "Grit"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T07:42:15Z",
+      "last_snapshot_utc": "2026-11-23T16:16:12Z",
       "all_tabs": [
         "Executive_Dashboard",
         "Grit_Intake",
         "Scoring_Engine",
         "Timeline_Progression",
         "Item_Drift_Matrix",
-        "OCEAN_Bridge"
+        "OCEAN_Bridge",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
-      "tab_count": 6,
+      "tab_count": 9,
       "linked_forms": [
         {
           "name": "Life OS // Angela Duckworth Grit Assessment (Grit-O & Grit-S)",
@@ -194,17 +204,21 @@
           "name": "Life OS // Angela Duckworth Grit Telemetry (5-Pillar v2.0)",
           "form_id": "1fuWJGYkHJ-nBTPV8Hr0jLnioA1sc8pvOefxGR8_0CfA"
         }
-      ]
+      ],
+      "universal_brick_compliant": true
     },
     "ID_RIASEC": {
       "title": "RAISEC Intake (Responses)",
       "spreadsheet_id": "1RmJ9bDzm6Vs59EC1BV99lqHnYxgp-bchV589rQc6ybM",
       "drive_url": "https://docs.google.com/spreadsheets/d/1RmJ9bDzm6Vs59EC1BV99lqHnYxgp-bchV589rQc6ybM/edit",
-      "status": "bound",
+      "status": "ACTIVE",
       "layer": "brick",
       "domain": "Psychometrics / RIASEC Vocational Interests",
       "live_tabs": [
-        "RIASEC_Dashboard"
+        "RIASEC_Dashboard",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
       "search_aliases": [
         "RAISEC Intake",
@@ -213,22 +227,26 @@
         "RIASEC"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T07:42:20Z",
+      "last_snapshot_utc": "2026-11-23T16:16:12Z",
       "all_tabs": [
         "RIASEC_Intake",
         "RIASEC_Dashboard",
         "Career_Juxtaposition",
         "RIASEC_5Pillar_Codex",
         "RIASEC_Scoring_Engine",
-        "LifeOS_Ledger_Sync"
+        "LifeOS_Ledger_Sync",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
-      "tab_count": 6,
+      "tab_count": 9,
       "linked_forms": [
         {
           "name": "RIASEC 5-Pillar Vocational & Congruence Diagnostic",
           "form_id": "1oG9UIE5IFPSqnDhb5jzFcW-6_y7YTupB1DbvIRN7I8w"
         }
-      ]
+      ],
+      "universal_brick_compliant": true
     },
     "LifeOS_Master_Bus": {
       "title": "LifeOS_Master_Bus",
@@ -295,7 +313,7 @@
       "last_snapshot_utc": "2026-11-23T07:42:38Z",
       "all_tabs": [
         "Executive_Dashboard",
-        "🧭 DYNAMIC_ADVISORY",
+        "\ud83e\udded DYNAMIC_ADVISORY",
         "Biological_Meta_Traits",
         "Dynamic_Scaffolding",
         "Rolling_Baselines",
@@ -304,9 +322,9 @@
         "MBTI_Bridge",
         "Norms_Percentiles",
         "Raw_Trait_Scores",
-        "📋 MODULE_META",
-        "📥 CONTEXT_IN",
-        "📤 SIGNALS_OUT",
+        "\ud83d\udccb MODULE_META",
+        "\ud83d\udce5 CONTEXT_IN",
+        "\ud83d\udce4 SIGNALS_OUT",
         "Taxonomy_Matrix",
         "Big Five Personality Traits Overview",
         "Item_Inversion",
@@ -343,7 +361,7 @@
       "last_snapshot_utc": "2026-11-23T07:42:48Z",
       "all_tabs": [
         "Enneagram_Dashboard",
-        "🧭 DYNAMIC_ADVISORY",
+        "\ud83e\udded DYNAMIC_ADVISORY",
         "Enneagram_Scoring_Engine",
         "Instinct_Subtypes_Telemetry",
         "Longitudinal_Timeline",
@@ -354,9 +372,9 @@
         "Pillar3_Psychometric_Auditor",
         "Pillar4_Social_Dynamics",
         "Pillar5_DeFixation_Engine",
-        "📋 MODULE_META",
-        "📥 CONTEXT_IN",
-        "📤 SIGNALS_OUT",
+        "\ud83d\udccb MODULE_META",
+        "\ud83d\udce5 CONTEXT_IN",
+        "\ud83d\udce4 SIGNALS_OUT",
         "Enneagram Personalities",
         "MBTI_Raw_Ingest",
         "Form Responses 1",
@@ -374,11 +392,14 @@
       "title": "XP Leveler",
       "spreadsheet_id": "1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k",
       "drive_url": "https://docs.google.com/spreadsheets/d/1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k/edit",
-      "status": "bound",
+      "status": "ACTIVE",
       "layer": "core_os_hub",
       "domain": "Core OS Hub / RPG Progression & XP Engine",
       "live_tabs": [
-        "Player_HUD"
+        "Player_HUD",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
       "search_aliases": [
         "XP Leveler",
@@ -387,7 +408,7 @@
         "LifeOS_XP_Hub"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T07:42:53Z",
+      "last_snapshot_utc": "2026-11-23T16:16:12Z",
       "all_tabs": [
         "Player_HUD",
         "XP_Ledger",
@@ -403,9 +424,13 @@
         "Fine Structure Constant",
         "Initiation",
         "Manifestation",
-        "Absolute Completion"
+        "Absolute Completion",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
-      "tab_count": 15
+      "tab_count": 18,
+      "universal_brick_compliant": true
     },
     "ID_KABBALAH": {
       "title": "Kaballah Tree of Life OS Engine",
@@ -426,18 +451,18 @@
       "schema_ref": "schemas/kabbalah_tree_of_life_schema.json",
       "last_snapshot_utc": "2026-11-23T07:42:58Z",
       "all_tabs": [
-        "🌳 KABBALAH_DASHBOARD",
+        "\ud83c\udf33 KABBALAH_DASHBOARD",
         "Tree_of_Life_Glyph",
-        "🧭 DYNAMIC_ADVISORY",
+        "\ud83e\udded DYNAMIC_ADVISORY",
         "Sefirot_10_&_Daat",
         "Pillars_Triads_&_Worlds",
         "22_Connecting_Paths",
         "Kabbalah_Gamification_Bus",
         "Kabbalah_Live_Telemetry",
         "Longitudinal_Analytics",
-        "📋 MODULE_META",
-        "📥 CONTEXT_IN",
-        "📤 SIGNALS_OUT",
+        "\ud83d\udccb MODULE_META",
+        "\ud83d\udce5 CONTEXT_IN",
+        "\ud83d\udce4 SIGNALS_OUT",
         "Form_Intake_Archive",
         "LifeOS_Feed_Hub",
         "Master_Bus_Mirror"
@@ -448,11 +473,14 @@
       "title": "Life OS // Cattell 16PF (Responses)",
       "spreadsheet_id": "1zOZVYFUZsQdRtPQzyK6izLLlxczi8vcDQTOSmh8yFho",
       "drive_url": "https://docs.google.com/spreadsheets/d/1zOZVYFUZsQdRtPQzyK6izLLlxczi8vcDQTOSmh8yFho/edit",
-      "status": "bound",
+      "status": "ACTIVE",
       "layer": "brick",
       "domain": "Psychometrics / 16 Personality Factors",
       "live_tabs": [
-        "16PF_Profile"
+        "16PF_Profile",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
       "search_aliases": [
         "Life OS // Cattell 16PF (Responses)",
@@ -461,7 +489,7 @@
         "16 Personality Factors"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T07:43:04Z",
+      "last_snapshot_utc": "2026-11-23T16:16:12Z",
       "all_tabs": [
         "Form Responses 4",
         "16PF_Intake_Log",
@@ -472,9 +500,12 @@
         "Import_Enneagram",
         "Import_HD",
         "Import_Zodiac",
-        "Import_MBTI"
+        "Import_MBTI",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
-      "tab_count": 10,
+      "tab_count": 13,
       "linked_forms": [
         {
           "name": "Life OS // Cattell 16PF Psychometric Intake (IPIP-160)",
@@ -484,13 +515,14 @@
           "name": "Life OS // Cattell 16PF Adaptive Assessment (40 / 80 / 160Q)",
           "form_id": "1S6rStG-WmO6BSPZ00rBdJH_7rKfWxPiI25blhwlnHk4"
         }
-      ]
+      ],
+      "universal_brick_compliant": true
     },
     "ID_BELIEF_TRACKER": {
       "title": "Belief & Stance Tracker (Life OS)",
       "spreadsheet_id": "1ZlhB5xNyI5I8MssGhsp5wydyDJQu29tHmry4iShc2z0",
       "drive_url": "https://docs.google.com/spreadsheets/d/1ZlhB5xNyI5I8MssGhsp5wydyDJQu29tHmry4iShc2z0/edit",
-      "status": "bound",
+      "status": "ACTIVE",
       "layer": "brick",
       "domain": "Epistemics / Belief & Stance Tracker",
       "live_tabs": [
@@ -498,7 +530,10 @@
         "Stance_Timeline",
         "Ranked_Ideas",
         "Dashboard_Summary",
-        "Worldview_Synthesis"
+        "Worldview_Synthesis",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
       "search_aliases": [
         "Belief & Stance Tracker (Life OS)",
@@ -506,7 +541,7 @@
         "Belief Tracker"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T07:43:10Z",
+      "last_snapshot_utc": "2026-11-23T16:16:12Z",
       "all_tabs": [
         "Form Responses 2",
         "Form Responses 1",
@@ -517,9 +552,12 @@
         "Stance_Timeline",
         "Ranked_Ideas",
         "Dashboard_Summary",
-        "Worldview_Synthesis"
+        "Worldview_Synthesis",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
-      "tab_count": 10,
+      "tab_count": 13,
       "linked_forms": [
         {
           "name": "Form A: Initial Prompt & Belief Intake",
@@ -529,17 +567,21 @@
           "name": "Form B: Re-Ranking & Stance Evolution",
           "form_id": "1lcFB-I_hc2uXv2ONbx5kHs25L16Zmd4luiUzssK7AqQ"
         }
-      ]
+      ],
+      "universal_brick_compliant": true
     },
     "ID_CAREER_INTAKE": {
       "title": "LifeOS Career and Experience Intake (Responses)",
       "spreadsheet_id": "1iXxJVSv04MsRc_41p5bahCNRROXdugZ75iSivVy29GM",
       "drive_url": "https://docs.google.com/spreadsheets/d/1iXxJVSv04MsRc_41p5bahCNRROXdugZ75iSivVy29GM/edit",
-      "status": "bound",
+      "status": "ACTIVE",
       "layer": "brick",
       "domain": "Pillar 5 Experience & Legacy / Career & Experience Intake",
       "live_tabs": [
-        "Career_Dashboard"
+        "Career_Dashboard",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
       "search_aliases": [
         "LifeOS Career and Experience Intake (Responses)",
@@ -548,7 +590,7 @@
         "Career Intake"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T07:43:17Z",
+      "last_snapshot_utc": "2026-11-23T16:16:12Z",
       "all_tabs": [
         "Form Responses 1",
         "Education_Dashboard",
@@ -558,21 +600,25 @@
         "Resume_Compiler",
         "HS Transcript",
         "HS Exam Summary",
-        "Taxonomy_&_Config"
+        "Taxonomy_&_Config",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
-      "tab_count": 9,
+      "tab_count": 12,
       "linked_forms": [
         {
           "name": "LifeOS Career and Experience Intake",
           "form_id": "1ONcs8wlxWBzrz8_0Gbj68jkyR-OoH2JG0Ucq4lK0LO4"
         }
-      ]
+      ],
+      "universal_brick_compliant": true
     },
     "ID_TRAVEL": {
-      "title": "🌍 Travel_Tracker_Brick",
+      "title": "\ud83c\udf0d Travel_Tracker_Brick",
       "spreadsheet_id": "11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc",
       "drive_url": "https://docs.google.com/spreadsheets/d/11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc/edit",
-      "status": "bound",
+      "status": "ACTIVE",
       "layer": "brick",
       "domain": "Pillar 5 Experience & Legacy",
       "live_tabs": [
@@ -591,12 +637,12 @@
         "SIGNALS_OUT"
       ],
       "search_aliases": [
-        "🌍 Travel_Tracker_Brick",
+        "\ud83c\udf0d Travel_Tracker_Brick",
         "Travel_Tracker_Brick",
         "Travel Tracker"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T07:43:23Z",
+      "last_snapshot_utc": "2026-11-23T16:16:12Z",
       "all_tabs": [
         "Form Responses 2",
         "Form Responses 1",
@@ -622,7 +668,8 @@
           "name": "Travel_Tracker_Form_B_Reviews",
           "form_id": "1D9IWDydIGrmxNUiY-mJkeQT8LMryaOJpWEjS2dkWb1M"
         }
-      ]
+      ],
+      "universal_brick_compliant": true
     },
     "ID_FEED_HUB": {
       "title": "LifeOS_feed_hub",
@@ -1531,18 +1578,21 @@
       "title": "Maslow's Hierarchy of Needs (Responses)",
       "spreadsheet_id": "1M-F-p5IqYc0JMtJ-20bOGUvQgP1-63Ta3hryES_jHqg",
       "drive_url": "https://docs.google.com/spreadsheets/d/1M-F-p5IqYc0JMtJ-20bOGUvQgP1-63Ta3hryES_jHqg/edit",
-      "status": "bound",
+      "status": "ACTIVE",
       "layer": "brick",
       "domain": "Development / Foundation Engine",
       "live_tabs": [
-        "Pyramid_&_Waves"
+        "Pyramid_&_Waves",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
       "search_aliases": [
         "Maslow's Hierarchy of Needs (Responses)",
         "Maslow's Hierarchy (Spoke)"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T07:48:18Z",
+      "last_snapshot_utc": "2026-11-23T16:16:12Z",
       "all_tabs": [
         "Maslow_Live_Telemetry",
         "Pyramid_&_Waves",
@@ -1553,15 +1603,19 @@
         "Food",
         "Sexual Intercourse",
         "Sleep",
-        "Last Updated"
+        "Last Updated",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
-      "tab_count": 10,
+      "tab_count": 13,
       "linked_forms": [
         {
           "name": "Maslow's Hierarchy of Needs",
           "form_id": "1VgKUR-u5Erx5htlsrU_aqXFUTwQpV3FRKe5lYRdkI_4"
         }
-      ]
+      ],
+      "universal_brick_compliant": true
     },
     "ID_DOPPELGANGER": {
       "title": "Doppelganger_Brick",
@@ -1579,7 +1633,7 @@
       ],
       "search_aliases": [
         "Doppelganger_Brick",
-        "Doppelgänger_Score"
+        "Doppelg\u00e4nger_Score"
       ],
       "schema_ref": "schemas/doppelganger_brick_schema.json",
       "last_snapshot_utc": "2026-11-23T07:47:36Z",
@@ -1725,14 +1779,17 @@
       "title": "Body Count 2.0",
       "spreadsheet_id": "1aqYHU_bc-AqgREdvutE3VgG952_gd70yDKt4dMH6L1E",
       "drive_url": "https://docs.google.com/spreadsheets/d/1aqYHU_bc-AqgREdvutE3VgG952_gd70yDKt4dMH6L1E/edit",
-      "status": "bound",
+      "status": "ACTIVE",
       "layer": "brick",
       "domain": "Pillar 3 Relationships & Connection / Attraction & Encounter Ledger",
       "live_tabs": [
         "Subject",
         "Answers",
         "Sex Logistics",
-        "Category_Looks_Validation"
+        "Category_Looks_Validation",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
       "all_tabs": [
         "Form Responses 1",
@@ -1773,9 +1830,12 @@
         "Final List",
         "Body_Count_Legacy_Data",
         "Love_Life_Revisited_Data",
-        "LEGACY_NORMALIZED"
+        "LEGACY_NORMALIZED",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
-      "tab_count": 39,
+      "tab_count": 42,
       "linked_forms": [
         {
           "name": "Body Count",
@@ -1787,13 +1847,14 @@
         "Body Count"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T07:51:25Z"
+      "last_snapshot_utc": "2026-11-23T16:16:12Z",
+      "universal_brick_compliant": true
     },
     "ID_MOVIES": {
       "title": "Movie Input Form (Responses)",
       "spreadsheet_id": "1SIRiqfY1r62g8_XOkwe37d4KnZAr_-DBUx-r-wczkMY",
       "drive_url": "https://docs.google.com/spreadsheets/d/1SIRiqfY1r62g8_XOkwe37d4KnZAr_-DBUx-r-wczkMY/edit",
-      "status": "bound",
+      "status": "ACTIVE",
       "layer": "brick",
       "domain": "Pillar 4/5 Cultural & Influence Telemetry",
       "live_tabs": [
@@ -1802,7 +1863,10 @@
         "Master_Leaderboard",
         "Total_Rankings",
         "Top_10_Actors_Rankings",
-        "Top_10_Genres_Rankings"
+        "Top_10_Genres_Rankings",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
       "all_tabs": [
         "Form Responses 5",
@@ -1841,9 +1905,12 @@
         "CALC_Actor_Power",
         "CALC_Director_Power",
         "CALC_Genre_Power",
-        "Preference_Analytics"
+        "Preference_Analytics",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
       ],
-      "tab_count": 37,
+      "tab_count": 40,
       "linked_forms": [
         {
           "name": "Movie Input Form",
@@ -1872,7 +1939,8 @@
         "Movie Ranking Tracker"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T07:51:37Z"
+      "last_snapshot_utc": "2026-11-23T16:16:12Z",
+      "universal_brick_compliant": true
     }
   },
   "unmapped_discovered": [
@@ -1902,7 +1970,7 @@
       "modified_time": "2026-04-03"
     },
     {
-      "title": "🎮 CHARACTER CREATION: THE STATIC DOSSIER (Responses)",
+      "title": "\ud83c\udfae CHARACTER CREATION: THE STATIC DOSSIER (Responses)",
       "spreadsheet_id": "13fowIl8CIw9KgMp8OC4N5L-AwvAqANM8jNaUnujLo1E",
       "drive_url": "https://docs.google.com/spreadsheets/d/13fowIl8CIw9KgMp8OC4N5L-AwvAqANM8jNaUnujLo1E/edit",
       "modified_time": "2026-04-02"

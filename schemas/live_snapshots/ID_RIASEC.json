@@ -4,17 +4,17 @@
   "spreadsheet_id": "1RmJ9bDzm6Vs59EC1BV99lqHnYxgp-bchV589rQc6ybM",
   "url": "https://docs.google.com/spreadsheets/d/1RmJ9bDzm6Vs59EC1BV99lqHnYxgp-bchV589rQc6ybM/edit",
   "time_zone": "America/New_York",
-  "snapshot_utc": "2026-11-23T07:42:20Z",
-  "tab_count": 6,
+  "snapshot_utc": "2026-11-23T16:16:23Z",
+  "tab_count": 9,
   "tabs": [
     {
       "title": "RIASEC_Intake",
       "sheet_id": 1425744753,
-      "index": 0,
+      "index": null,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 102,
       "col_count": 55,
-      "populated_row_count": 2,
       "header_row_index": 1,
       "headers": [
         "Timestamp",
@@ -51,7 +51,7 @@
         "31. Perform physically demanding tasks that produce tangible, visible results",
         "32. Reverse-engineer how frameworks, algorithms, or institutions actually operate",
         "33. Improvise creative solutions when no template or rulebook exists",
-        "34. Read subtle interpersonal cues to support someone’s morale or confidence",
+        "34. Read subtle interpersonal cues to support someone\u2019s morale or confidence",
         "35. Compete in high-leverage environments where performance drives rewards",
         "36. Follow a clear checklist and quality-assurance protocol from start to finish",
         "37. Navigate rugged terrain, waterways, or real-world field operations",
@@ -102,7 +102,7 @@
         "31. Perform physically demanding tasks that produce tangible, visible results",
         "32. Reverse-engineer how frameworks, algorithms, or institutions actually operate",
         "33. Improvise creative solutions when no template or rulebook exists",
-        "34. Read subtle interpersonal cues to support someone’s morale or confidence",
+        "34. Read subtle interpersonal cues to support someone\u2019s morale or confidence",
         "35. Compete in high-leverage environments where performance drives rewards",
         "36. Follow a clear checklist and quality-assurance protocol from start to finish",
         "37. Navigate rugged terrain, waterways, or real-world field operations",
@@ -124,16 +124,15 @@
       "sheet_id": 927029903,
       "index": 1,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 21,
-      "header_row_index": 2,
+      "header_row_index": 1,
       "headers": [
-        "Live Diagnostic Quiz URL:",
-        "https://docs.google.com/forms/d/e/1FAIpQLSfZOi3zqrvHGyqATbC2Ia2DeNeLoCb9ug7CI8E3LGDZ7zxvFg/viewform"
+        "RIASEC 5-PILLAR DIAGNOSTIC \u2014 VOCATIONAL HARDWARE & CONGRUENCE ENGINE"
       ],
       "row_1": [
-        "RIASEC 5-PILLAR DIAGNOSTIC — VOCATIONAL HARDWARE & CONGRUENCE ENGINE"
+        "RIASEC 5-PILLAR DIAGNOSTIC \u2014 VOCATIONAL HARDWARE & CONGRUENCE ENGINE"
       ]
     },
     {
@@ -141,23 +140,15 @@
       "sheet_id": 1410447147,
       "index": 2,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 26,
-      "header_row_index": 2,
+      "header_row_index": 1,
       "headers": [
-        "Linked Master Ledger:",
-        "https://docs.google.com/spreadsheets/d/1iXxJVSv04MsRc_41p5bahCNRROXdugZ75iSivVy29GM/edit",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "Last Synced:",
-        "2026-11-13 00:27"
+        "RIASEC \u00d7 LIFEOS CAREER JUXTAPOSITION \u2014 INNATE HARDWARE VS. EMPIRICAL HISTORY"
       ],
       "row_1": [
-        "RIASEC × LIFEOS CAREER JUXTAPOSITION — INNATE HARDWARE VS. EMPIRICAL HISTORY"
+        "RIASEC \u00d7 LIFEOS CAREER JUXTAPOSITION \u2014 INNATE HARDWARE VS. EMPIRICAL HISTORY"
       ]
     },
     {
@@ -165,9 +156,9 @@
       "sheet_id": 1239380093,
       "index": 3,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 7,
       "header_row_index": 1,
       "headers": [
         "Code",
@@ -195,9 +186,9 @@
       "sheet_id": 774832576,
       "index": 4,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 2,
       "header_row_index": 1,
       "headers": [
         "Timestamp",
@@ -237,9 +228,9 @@
       "sheet_id": 1939440706,
       "index": 5,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 32,
-      "populated_row_count": 150,
       "header_row_index": 1,
       "headers": [
         "",
@@ -308,6 +299,86 @@
         "Empirical_Code",
         "Include_Flag",
         "Total_Wt"
+      ]
+    },
+    {
+      "title": "MODULE_META",
+      "sheet_id": 1028864803,
+      "index": 6,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "header_row_index": 1,
+      "headers": [
+        "Field",
+        "Value",
+        "Notes"
+      ],
+      "row_1": [
+        "Field",
+        "Value",
+        "Notes"
+      ]
+    },
+    {
+      "title": "CONTEXT_IN",
+      "sheet_id": 1993371372,
+      "index": 7,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Live_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Freshness_Status",
+        "Hub_Auth_Trigger"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Live_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Freshness_Status",
+        "Hub_Auth_Trigger"
+      ]
+    },
+    {
+      "title": "SIGNALS_OUT",
+      "sheet_id": 546002403,
+      "index": 8,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Source_Brick",
+        "Glyph",
+        "Domain_Pillar",
+        "Raw_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated",
+        "TTL_Hours",
+        "Notes"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Source_Brick",
+        "Glyph",
+        "Domain_Pillar",
+        "Raw_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated",
+        "TTL_Hours",
+        "Notes"
       ]
     }
   ]

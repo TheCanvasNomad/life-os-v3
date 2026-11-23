@@ -4,26 +4,23 @@
   "spreadsheet_id": "1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k",
   "url": "https://docs.google.com/spreadsheets/d/1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k/edit",
   "time_zone": "Europe/London",
-  "snapshot_utc": "2026-11-23T07:42:53Z",
-  "tab_count": 15,
+  "snapshot_utc": "2026-11-23T16:16:31Z",
+  "tab_count": 18,
   "tabs": [
     {
       "title": "Player_HUD",
       "sheet_id": 1333383914,
-      "index": 0,
+      "index": null,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 20,
-      "header_row_index": 4,
+      "header_row_index": 1,
       "headers": [
-        "XP BAR TIER",
-        "GRAPHICAL PROGRESS BAR",
-        "NUMERIC & UNICODE GAUGE",
-        "ACTIVE TARGET & LOCK STATE"
+        "\u26a1 LIFE OS // SOVEREIGN PLAYER HUD, 3-TIER XP BAR & MULTIPLIER ENGINE"
       ],
       "row_1": [
-        "⚡ LIFE OS // SOVEREIGN PLAYER HUD, 3-TIER XP BAR & MULTIPLIER ENGINE"
+        "\u26a1 LIFE OS // SOVEREIGN PLAYER HUD, 3-TIER XP BAR & MULTIPLIER ENGINE"
       ]
     },
     {
@@ -31,9 +28,9 @@
       "sheet_id": 640549334,
       "index": 1,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 4,
       "header_row_index": 1,
       "headers": [
         "Timestamp",
@@ -59,9 +56,9 @@
       "sheet_id": 812420680,
       "index": 2,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 10,
       "header_row_index": 1,
       "headers": [
         "Habit / Telemetry Gate",
@@ -85,9 +82,9 @@
       "sheet_id": 1877622268,
       "index": 3,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 14,
       "header_row_index": 1,
       "headers": [
         "Bus_ID",
@@ -121,9 +118,9 @@
       "sheet_id": 844278987,
       "index": 4,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 35,
       "header_row_index": 1,
       "headers": [
         "Pyramid Lvl",
@@ -149,9 +146,9 @@
       "sheet_id": 446318655,
       "index": 5,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 17,
       "header_row_index": 1,
       "headers": [
         "Pyramid Lvl",
@@ -177,9 +174,9 @@
       "sheet_id": 1761160990,
       "index": 6,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 13,
       "header_row_index": 1,
       "headers": [
         "Gate",
@@ -211,9 +208,9 @@
       "sheet_id": 1815344156,
       "index": 7,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 11,
       "header_row_index": 1,
       "headers": [
         "Sub-Lvl / Node",
@@ -243,9 +240,9 @@
       "sheet_id": 554001358,
       "index": 8,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 992,
       "col_count": 26,
-      "populated_row_count": 145,
       "header_row_index": 1,
       "headers": [
         "Level",
@@ -285,9 +282,9 @@
       "sheet_id": 1919081525,
       "index": 9,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 28,
       "header_row_index": 1,
       "headers": [
         "Parameter_Key",
@@ -307,9 +304,9 @@
       "sheet_id": 1044166333,
       "index": 10,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 1,
       "header_row_index": 1,
       "headers": [
         "137.5",
@@ -325,9 +322,9 @@
       "sheet_id": 1617132547,
       "index": 11,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 1,
       "header_row_index": 1,
       "headers": [
         "1/137"
@@ -341,9 +338,9 @@
       "sheet_id": 1138223881,
       "index": 12,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 1,
       "header_row_index": 1,
       "headers": [
         "Number 3"
@@ -357,9 +354,9 @@
       "sheet_id": 1802073335,
       "index": 13,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 1,
       "header_row_index": 1,
       "headers": [
         "Number 6"
@@ -373,15 +370,95 @@
       "sheet_id": 89238840,
       "index": 14,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 1,
       "header_row_index": 1,
       "headers": [
         "Number 9"
       ],
       "row_1": [
         "Number 9"
+      ]
+    },
+    {
+      "title": "MODULE_META",
+      "sheet_id": 908649018,
+      "index": 15,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "header_row_index": 1,
+      "headers": [
+        "Field",
+        "Value",
+        "Notes"
+      ],
+      "row_1": [
+        "Field",
+        "Value",
+        "Notes"
+      ]
+    },
+    {
+      "title": "CONTEXT_IN",
+      "sheet_id": 294848872,
+      "index": 16,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Live_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Freshness_Status",
+        "Hub_Auth_Trigger"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Live_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Freshness_Status",
+        "Hub_Auth_Trigger"
+      ]
+    },
+    {
+      "title": "SIGNALS_OUT",
+      "sheet_id": 1515033969,
+      "index": 17,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Source_Brick",
+        "Glyph",
+        "Domain_Pillar",
+        "Raw_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated",
+        "TTL_Hours",
+        "Notes"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Source_Brick",
+        "Glyph",
+        "Domain_Pillar",
+        "Raw_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated",
+        "TTL_Hours",
+        "Notes"
       ]
     }
   ]

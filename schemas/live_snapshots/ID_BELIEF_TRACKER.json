@@ -4,17 +4,17 @@
   "spreadsheet_id": "1ZlhB5xNyI5I8MssGhsp5wydyDJQu29tHmry4iShc2z0",
   "url": "https://docs.google.com/spreadsheets/d/1ZlhB5xNyI5I8MssGhsp5wydyDJQu29tHmry4iShc2z0/edit",
   "time_zone": "America/New_York",
-  "snapshot_utc": "2026-11-23T07:43:10Z",
-  "tab_count": 10,
+  "snapshot_utc": "2026-11-23T16:16:46Z",
+  "tab_count": 13,
   "tabs": [
     {
       "title": "Form Responses 2",
       "sheet_id": 182158431,
-      "index": 0,
+      "index": null,
       "hidden": true,
+      "sheet_type": "GRID",
       "row_count": 101,
       "col_count": 16,
-      "populated_row_count": 1,
       "header_row_index": 1,
       "headers": [
         "Timestamp",
@@ -46,9 +46,9 @@
       "sheet_id": 1427555459,
       "index": 1,
       "hidden": true,
+      "sheet_type": "GRID",
       "row_count": 104,
       "col_count": 20,
-      "populated_row_count": 4,
       "header_row_index": 1,
       "headers": [
         "Timestamp",
@@ -100,9 +100,9 @@
       "sheet_id": 462734056,
       "index": 2,
       "hidden": true,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 1,
       "header_row_index": 1,
       "headers": [
         "Subject",
@@ -115,12 +115,12 @@
     },
     {
       "title": "Form_A_Intake",
-      "sheet_id": 0,
+      "sheet_id": null,
       "index": 3,
       "hidden": true,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 27,
-      "populated_row_count": 4,
       "header_row_index": 1,
       "headers": [
         "Timestamp",
@@ -174,9 +174,9 @@
       "sheet_id": 56048909,
       "index": 4,
       "hidden": true,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 1,
       "header_row_index": 1,
       "headers": [
         "Timestamp",
@@ -208,9 +208,9 @@
       "sheet_id": 1021085623,
       "index": 5,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 27,
-      "populated_row_count": 4,
       "header_row_index": 1,
       "headers": [
         "Prompt_ID",
@@ -242,9 +242,9 @@
       "sheet_id": 1226859433,
       "index": 6,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 4,
       "header_row_index": 1,
       "headers": [
         "Timestamp",
@@ -278,9 +278,9 @@
       "sheet_id": 643408531,
       "index": 7,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 4,
       "header_row_index": 1,
       "headers": [
         "Prompt_ID",
@@ -320,23 +320,13 @@
       "sheet_id": 1411040255,
       "index": 8,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "populated_row_count": 21,
-      "header_row_index": 4,
+      "header_row_index": 1,
       "headers": [
         "",
-        "TOTAL PROMPTS",
-        "",
-        "RE-RANK CHECK-INS",
-        "",
-        "AVG CURRENT BELIEF",
-        "",
-        "AVG CURRENT DISBELIEF",
-        "",
-        "AVG NET BELIEF",
-        "",
-        "AVG CONVICTION PULL"
+        "BELIEF & STANCE TRACKER (LIFE OS) | EXECUTIVE DASHBOARD"
       ],
       "row_1": [
         "",
@@ -348,26 +338,92 @@
       "sheet_id": 777111222,
       "index": 9,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 48,
       "col_count": 16,
-      "populated_row_count": 39,
-      "header_row_index": 4,
-      "headers": [
-        "",
-        "TOTAL PROMPTS",
-        "",
-        "SYSTEM CONVICTION",
-        "",
-        "AVG NET BELIEF",
-        "",
-        "",
-        "EPISTEMIC GROUNDING",
-        "",
-        "HYPOTHESIS FRICTION",
-        "",
-        "TOTAL RE-RANKS"
-      ],
+      "header_row_index": 1,
+      "headers": [],
       "row_1": []
+    },
+    {
+      "title": "MODULE_META",
+      "sheet_id": 359171263,
+      "index": 10,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "header_row_index": 1,
+      "headers": [
+        "Field",
+        "Value",
+        "Notes"
+      ],
+      "row_1": [
+        "Field",
+        "Value",
+        "Notes"
+      ]
+    },
+    {
+      "title": "CONTEXT_IN",
+      "sheet_id": 1021359317,
+      "index": 11,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Live_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Freshness_Status",
+        "Hub_Auth_Trigger"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Live_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Freshness_Status",
+        "Hub_Auth_Trigger"
+      ]
+    },
+    {
+      "title": "SIGNALS_OUT",
+      "sheet_id": 1991777423,
+      "index": 12,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Source_Brick",
+        "Glyph",
+        "Domain_Pillar",
+        "Raw_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated",
+        "TTL_Hours",
+        "Notes"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Source_Brick",
+        "Glyph",
+        "Domain_Pillar",
+        "Raw_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated",
+        "TTL_Hours",
+        "Notes"
+      ]
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
-  "registry_key": "ID_FEED_HUB",
+  "registry_key": "LifeOS_feed_hub",
   "title": "LifeOS_feed_hub",
   "spreadsheet_id": "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
   "url": "https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U/edit",
-  "time_zone": "Etc/GMT",
-  "snapshot_utc": "2026-11-23T08:54:10Z",
+  "time_zone": "America/New_York",
+  "snapshot_utc": "2026-11-23T16:17:19Z",
   "tab_count": 9,
   "tabs": [
     {
       "title": "SIGNAL_BUS",
       "sheet_id": 387897381,
-      "index": 0,
+      "index": null,
       "hidden": false,
-      "row_count": 100,
+      "sheet_type": "GRID",
+      "row_count": 102,
       "col_count": 14,
-      "populated_row_count": 64,
       "header_row_index": 1,
       "headers": [
         "Signal_Key",
@@ -46,9 +46,9 @@
       "sheet_id": 259593998,
       "index": 1,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 50,
       "col_count": 14,
-      "populated_row_count": 25,
       "header_row_index": 1,
       "headers": [
         "Brick_Name",
@@ -80,17 +80,15 @@
       "sheet_id": 684617544,
       "index": 2,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 91,
       "col_count": 14,
-      "populated_row_count": 91,
-      "header_row_index": 4,
+      "header_row_index": 1,
       "headers": [
-        "Maslow_Tier",
-        "Base_XP",
-        "Action_Classification_Rule"
+        "LIFEOS v3.0 \u2014 RULES ENGINE, 3-TIER STAT STACKING & HARDCODED RPG MATHEMATICS"
       ],
       "row_1": [
-        "LIFEOS v3.0 — RULES ENGINE, 3-TIER STAT STACKING & HARDCODED RPG MATHEMATICS"
+        "LIFEOS v3.0 \u2014 RULES ENGINE, 3-TIER STAT STACKING & HARDCODED RPG MATHEMATICS"
       ]
     },
     {
@@ -98,23 +96,15 @@
       "sheet_id": 1284265171,
       "index": 3,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 100,
       "col_count": 15,
-      "populated_row_count": 47,
-      "header_row_index": 4,
+      "header_row_index": 1,
       "headers": [
-        "Character_Name",
-        "Total_XP",
-        "Global_Level",
-        "Rank_Title",
-        "Current_Streak_Days",
-        "Active_3_6_9_Multiplier",
-        "Shadow_Tax_Rate",
-        "XP_Siphoned_To_Shadow",
-        "Net_Sovereign_XP"
+        "CHARACTER SHEET \u2014 LIFEOS v3.0 RPG HUD"
       ],
       "row_1": [
-        "CHARACTER SHEET — LIFEOS v3.0 RPG HUD"
+        "CHARACTER SHEET \u2014 LIFEOS v3.0 RPG HUD"
       ]
     },
     {
@@ -122,23 +112,15 @@
       "sheet_id": 168404271,
       "index": 4,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 40,
       "col_count": 10,
-      "populated_row_count": 33,
-      "header_row_index": 4,
+      "header_row_index": 1,
       "headers": [
-        "QUADRANT BALANCE SCORE",
-        "",
-        "ACTIVE AQAL MODIFIER",
-        "",
-        "ACUTE DRIFT DELTA (MAX − MIN)",
-        "",
-        "DOMINANT QUADRANT (MAX)",
-        "",
-        "NEGLECTED QUADRANT (MIN)"
+        "\ud83e\udded LIFEOS v3.0 \u2014 AQAL 2\u00d72 META-BALANCING ENGINE (AQAL_VIEW)"
       ],
       "row_1": [
-        "🧭 LIFEOS v3.0 — AQAL 2×2 META-BALANCING ENGINE (AQAL_VIEW)"
+        "\ud83e\udded LIFEOS v3.0 \u2014 AQAL 2\u00d72 META-BALANCING ENGINE (AQAL_VIEW)"
       ]
     },
     {
@@ -146,21 +128,15 @@
       "sheet_id": 1965855931,
       "index": 5,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 22,
       "col_count": 7,
-      "populated_row_count": 17,
-      "header_row_index": 4,
+      "header_row_index": 1,
       "headers": [
-        "OVERALL SWORD INTEGRITY",
-        "",
-        "WEAKEST COMPONENT (FORGE FOCUS)",
-        "",
-        "SWORD TEMPER STATUS",
-        "",
-        "ACTIVE PARTS"
+        "\u2694\ufe0f LIFEOS v3.0 \u2014 ARCHETYPAL SWORD VIEW (SWORD_VIEW)"
       ],
       "row_1": [
-        "⚔️ LIFEOS v3.0 — ARCHETYPAL SWORD VIEW (SWORD_VIEW)"
+        "\u2694\ufe0f LIFEOS v3.0 \u2014 ARCHETYPAL SWORD VIEW (SWORD_VIEW)"
       ]
     },
     {
@@ -168,21 +144,15 @@
       "sheet_id": 603329359,
       "index": 6,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 20,
       "col_count": 8,
-      "populated_row_count": 15,
-      "header_row_index": 4,
+      "header_row_index": 1,
       "headers": [
-        "OVERALL SOVEREIGNTY SCORE (0–100)",
-        "",
-        "SOVEREIGNTY TIER",
-        "",
-        "LOWEST UNMASTERED GATE (<90%)",
-        "",
-        "MASTERED TIERS"
+        "\ud83d\udd3a LIFEOS v3.0 \u2014 MASLOW PYRAMID & SOVEREIGNTY ENGINE (MASLOW_ENGINE)"
       ],
       "row_1": [
-        "🔺 LIFEOS v3.0 — MASLOW PYRAMID & SOVEREIGNTY ENGINE (MASLOW_ENGINE)"
+        "\ud83d\udd3a LIFEOS v3.0 \u2014 MASLOW PYRAMID & SOVEREIGNTY ENGINE (MASLOW_ENGINE)"
       ]
     },
     {
@@ -190,19 +160,15 @@
       "sheet_id": 1013742990,
       "index": 7,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 20,
       "col_count": 6,
-      "populated_row_count": 16,
-      "header_row_index": 4,
+      "header_row_index": 1,
       "headers": [
-        "NEMESIS VERDICT",
-        "",
-        "SHADOW TAX SIPHON",
-        "",
-        "7-DAY REDEMPTION STREAK"
+        "\ud83d\udc64 LIFEOS v3.0 \u2014 DOPPELG\u00c4NGER SHADOW ARENA HUD (DOPPELGANGER)"
       ],
       "row_1": [
-        "👤 LIFEOS v3.0 — DOPPELGÄNGER SHADOW ARENA HUD (DOPPELGANGER)"
+        "\ud83d\udc64 LIFEOS v3.0 \u2014 DOPPELG\u00c4NGER SHADOW ARENA HUD (DOPPELGANGER)"
       ]
     },
     {
@@ -210,15 +176,15 @@
       "sheet_id": 1091110123,
       "index": 8,
       "hidden": false,
+      "sheet_type": "GRID",
       "row_count": 20,
       "col_count": 4,
-      "populated_row_count": 14,
       "header_row_index": 1,
       "headers": [
-        "🤖 LIFEOS v3.0 — AI SYNTHESIS REPORT (NOTEBOOKLM & GEMINI BRIEFING)"
+        "\ud83e\udd16 LIFEOS v3.0 \u2014 AI SYNTHESIS REPORT (NOTEBOOKLM & GEMINI BRIEFING)"
       ],
       "row_1": [
-        "🤖 LIFEOS v3.0 — AI SYNTHESIS REPORT (NOTEBOOKLM & GEMINI BRIEFING)"
+        "\ud83e\udd16 LIFEOS v3.0 \u2014 AI SYNTHESIS REPORT (NOTEBOOKLM & GEMINI BRIEFING)"
       ]
     }
   ]
