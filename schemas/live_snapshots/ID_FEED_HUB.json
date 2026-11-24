@@ -2,9 +2,9 @@
   "registry_key": "ID_FEED_HUB",
   "title": "LifeOS_feed_hub",
   "spreadsheet_id": "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
-  "snapshot_utc": "2026-11-24T05:41:11Z",
+  "snapshot_utc": "2026-11-24T05:56:15Z",
   "pii_policy": "ZERO_PII_HEADERS_ONLY",
-  "tab_count": 9,
+  "tab_count": 10,
   "tabs": [
     {
       "title": "SIGNAL_BUS",
@@ -54,7 +54,7 @@
       "index": 2,
       "hidden": false,
       "sheet_type": "GRID",
-      "row_count": 125,
+      "row_count": 135,
       "col_count": 14,
       "headers_row_1": [
         "LIFEOS v3.0 \u2014 RULES ENGINE, 3-TIER STAT STACKING & HARDCODED RPG MATHEMATICS"
@@ -130,6 +130,24 @@
       "col_count": 4,
       "headers_row_1": [
         "\ud83e\udd16 LIFEOS v3.0 \u2014 AI SYNTHESIS REPORT (NOTEBOOKLM & GEMINI BRIEFING)"
+      ]
+    },
+    {
+      "title": "LOGGED_EVENT_IDS",
+      "sheet_id": 1495043943,
+      "index": 9,
+      "hidden": true,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 8,
+      "headers_row_1": [
+        "Event_ID",
+        "Event_Title",
+        "Event_Start_UTC",
+        "Event_End_UTC",
+        "Logged_At_UTC",
+        "Target_Sheet",
+        "Source_Calendar"
       ]
     }
   ]

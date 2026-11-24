@@ -187,6 +187,18 @@ The `#REF!` `A2` spill collisions on `SRC_XP_HUB`, `SRC_KABBALAH`, and `SRC_16PF
 ## 4. Post-Approval Verification
 
 Once you finish clicking **"Allow access"** above:
-1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all 101 signal rows evaluate cleanly with `FRESH` status badges.
+1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all 177 signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges.
 2. Open **`LifeOS_feed_hub` -> `AQAL_VIEW`** (`#gid=168404271`): confirm all 4 Quadrants (`UL`, `UR`, `LL`, `LR`) show live composite scores, `SPARKLINE` gauges, `Quadrant Balance Score`, and a live `Corrective Quest Directive`.
 3. Open any Brick's **`CONTEXT_IN`** tab from Section 2: confirm `F3:F5` switches from `"Click F2 -> Allow access"` to `"AUTHORIZED"` and Columns `B:E` stream live Hub context.
+
+---
+
+## 5. Phase 5 Temporal Bridge — Dedicated `"Life OS"` Secondary Calendar
+
+Google Calendar operates strictly as a downstream display & capture layer (`Life OS` secondary calendar overlay — your primary personal calendar is never touched). All temporal scripts are lock-guarded (`LockService.getScriptLock()`) and stamp `[LifeOS_OUTBOUND_PUSH]` / `LOGGED_EVENT_IDS` (`#gid=1495043943`) to prevent circular loops.
+
+| Target Workbook | Apps Script Module | Stored Config / Index | One-Time Activation Step |
+| :--- | :--- | :--- | :--- |
+| **[`LifeOS_feed_hub`](https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U/edit#gid=684617544)** | `src/hub/calendar_sync.gs` | Calendar ID auto-stored in **`RULES_ENGINE!B121`**; dedup index in hidden **`LOGGED_EVENT_IDS`** (`#gid=1495043943`) | Paste script → reload → click **`🧠 LifeOS Hub → 🛠️ Provision / Verify "Life OS" Calendar`**, then **`⏱️ Install 15-Minute Calendar Sync Trigger`** |
+| **[`🩺 BIO_CORE`](https://docs.google.com/spreadsheets/d/1EecdB1CnjvaR6C7zx9mTVMx7M-vSIMOUgd3lMlEPmEA/edit)** | `src/utilities/bio_core/CalendarIntegration.gs` | Date-deduplicated `[LifeOS_BIO_SUMMARY:YYYY-MM-DD]` | Paste script → reload → click **`🩺 BIO_CORE Temporal → ⏰ Install Daily Biometric Calendar Trigger (08:30)`** |
+| **[`📇 Core_CRM`](https://docs.google.com/spreadsheets/d/1PKYbEie4QUgSqqTVW1Y2UVjBgRStz4Aok2BhCWCvU5M/edit)** | `src/utilities/crm_core/crm_scheduler.gs` | Syncs `CONTACT_DIRECTORY` (`Q:S`) & `INTERACTION_LOG` (`G:H`) -> feeds Pillar 3 90-day Connection Decay | Paste script → reload → click **`📅 CRM Temporal Bridge → ⏰ Install Hourly CRM Temporal Trigger`** |

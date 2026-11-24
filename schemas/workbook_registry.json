@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-24T05:41:11Z",
+  "last_updated_utc": "2026-11-24T05:56:15Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -694,7 +694,7 @@
         "LifeOS Feed Hub"
       ],
       "schema_ref": "schemas/lifeos_feed_hub_schema.json",
-      "last_snapshot_utc": "2026-11-24T05:41:11Z",
+      "last_snapshot_utc": "2026-11-24T05:56:15Z",
       "all_tabs": [
         "SIGNAL_BUS",
         "MODULE_REGISTRY",
@@ -704,9 +704,20 @@
         "SWORD_VIEW",
         "MASLOW_ENGINE",
         "DOPPELGANGER",
-        "AI_Synthesis_Report"
+        "AI_Synthesis_Report",
+        "LOGGED_EVENT_IDS"
       ],
-      "tab_count": 9
+      "tab_count": 10,
+      "temporal_bridge": {
+        "calendar_name": "Life OS",
+        "calendar_id_cell": "RULES_ENGINE!B121",
+        "dedup_index_tab": "LOGGED_EVENT_IDS",
+        "scripts": {
+          "hub_calendar_sync": "src/hub/calendar_sync.gs",
+          "bio_core_calendar": "src/utilities/bio_core/CalendarIntegration.gs",
+          "crm_scheduler": "src/utilities/crm_core/crm_scheduler.gs"
+        }
+      }
     },
     "ID_MASTER_LOG": {
       "title": "LifeOS - Master Log",
