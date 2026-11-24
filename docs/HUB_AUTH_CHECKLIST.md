@@ -45,6 +45,20 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | [ ] | `MODULE_REGISTRY!J31` | **🗄️ Purged_Contacts_Vault** | `1eoLRVMOxdpHx3YkkWnfkOfowhTH8fbam8R2jDzUJB84` | Cold Archive Vault telemetry (`VAULT_TOTAL_PURGED`, `VAULT_PENDING_RESTORES`) |
 | [ ] | `MODULE_REGISTRY!J32` | **📓 NotebookLM_Social_Workbook** | `1gwnGKdfZrtJi6QwEWniPMli6i-Se8Fi2pwjX1ebaaPs` | Curated AI Social Profile count (`NBLM_CURATED_PROFILES`) |
 | [ ] | `MODULE_REGISTRY!J33` | **🏆 Pillar_5_Experience_Legacy** | `1AdMP-VKzTPNbSSTUoLrbqAjtBdYlf4mzLYwyWbaUrQw` | All 6 `P5_*` signals (`P5_EXPERIENCE_BASE_SCORE`, `P5_EPIC_QUEST_COMPLETION_PCT`, `P5_ACTIVE_EPICS_COUNT`, `P5_BLUEPRINT_PROGRESS_PCT`, `P5_TOTAL_QUEST_XP`, `P5_LPD_GLOBAL_MULT`) -> `MASLOW_ENGINE` L5, `SWORD_VIEW` Point & Pommel |
+| [ ] | `MODULE_REGISTRY!J34` | **🛠️ Pillar_4_Skills_Mission** | `1PHTTv1Qpdy5JAyLarOaXYAIsNIuAk8YFBw9GqvIslT0` | All 6 `P4_*` signals (`P4_SKILLS_BASE_SCORE`, `P4_IKIGAI_SCORE`, `P4_AVG_SKILL_LEVEL`, `P4_PERSPECTIVE_TAKING_LVL`, `P4_PSYOP_RECOGNITION_LVL`, `P4_FLOW_SESSION_SCORE`) -> `AQAL_VIEW` UR & LR, `MASLOW_ENGINE` L4 Esteem, `SWORD_VIEW` Point & Edge |
+
+---
+
+## 1A. Pillar 4 Skills & Mission (`🛠️ Pillar_4_Skills_Mission`) Inbound Authorizations
+
+Approve these 4 one-time `#REF!` cells to complete the live closed loop across `RAW_DATA_CareerReview`, `RAW_DATA_Quests`, `LifeOS Career and Experience Intake`, and `LifeOS_feed_hub`:
+
+| Done | Workbook & Cell | Direct Tab Link (Click cell -> Allow access) | Target Workbook | Unlocks |
+| :---: | :--- | :--- | :--- | :--- |
+| [ ] | **`🛠️ Pillar_4_Skills_Mission` → `P4_CONFIG!I4`** | https://docs.google.com/spreadsheets/d/1PHTTv1Qpdy5JAyLarOaXYAIsNIuAk8YFBw9GqvIslT0/edit#gid=107638542 | **RAW_DATA_CareerReview** (`12mCzB0g358-d-m7Fw7Zn1MK1VO1kKKl6z4IsFuTXDOI`) | Live Quarterly Career Review & 4-Vector Ikigai Scorecard into `DATABASE` & `DASHBOARD` |
+| [ ] | **`🛠️ Pillar_4_Skills_Mission` → `P4_CONFIG!I5`** | https://docs.google.com/spreadsheets/d/1PHTTv1Qpdy5JAyLarOaXYAIsNIuAk8YFBw9GqvIslT0/edit#gid=107638542 | **RAW_DATA_Quests** (`1uV7FXlTU--gHFOt7zWYRkDxGk15QXIPGbBcshkk4TVw`) | Live Pillar 4 `[Learning_Quest]` & Blueprint feed into `DATABASE`, `SKILL_TREE` & Procrastination Detector |
+| [ ] | **`🛠️ Pillar_4_Skills_Mission` → `P4_CONFIG!I6`** | https://docs.google.com/spreadsheets/d/1PHTTv1Qpdy5JAyLarOaXYAIsNIuAk8YFBw9GqvIslT0/edit#gid=107638542 | **Career & Experience Intake** (`1iXxJVSv04MsRc_41p5bahCNRROXdugZ75iSivVy29GM`) | Read-only bridge of Credentials, Vessels, Roles & Sea Days in `DATABASE!AK:AO` |
+| [ ] | **`🛠️ Pillar_4_Skills_Mission` → `CONTEXT_IN!F2`** | https://docs.google.com/spreadsheets/d/1PHTTv1Qpdy5JAyLarOaXYAIsNIuAk8YFBw9GqvIslT0/edit#gid=1660512003 | **LifeOS_feed_hub** (`1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U`) | Live Hub context (`P1_ENERGY_7D_AVG` +10% Boost / Fatigue debuff, `P2_FINANCIAL_LEVEL`, `P3_PSYOP_EVENTS`, `P5_EPIC_QUEST_COMPLETION_PCT`) |
 
 ---
 

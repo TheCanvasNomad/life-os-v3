@@ -1,0 +1,61 @@
+{
+  "registry_key": "ID_RAW_CAREER_REVIEW",
+  "title": "RAW_DATA_CareerReview",
+  "spreadsheet_id": "12mCzB0g358-d-m7Fw7Zn1MK1VO1kKKl6z4IsFuTXDOI",
+  "url": "https://docs.google.com/spreadsheets/d/12mCzB0g358-d-m7Fw7Zn1MK1VO1kKKl6z4IsFuTXDOI/edit",
+  "time_zone": "America/Detroit",
+  "snapshot_utc": "2026-11-24T05:00:17Z",
+  "tab_count": 1,
+  "tabs": [
+    {
+      "title": "Form Responses 1",
+      "sheet_id": 1927054498,
+      "index": 0,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 101,
+      "col_count": 18,
+      "header_row_index": 1,
+      "headers": [
+        "Timestamp",
+        "Date of this Quarterly Career Review",
+        "What is your current Career Level or Job Title?",
+        "What is your current annualized income? ($)",
+        "On a scale of 1-5, how aligned is your work with what you are PASSIONATE about?",
+        "On a scale of 1-5, how aligned is your work with what you are GOOD at (Mastery)?",
+        "On a scale of 1-5, how aligned is your work with what the WORLD NEEDS (Impact)?",
+        "On a scale of 1-5, how aligned is your work with what you can be PAID for (Compensation)?",
+        "Organization / Vessel / Venture",
+        "Core Responsibilities",
+        "Next Desired Role / Endorsement",
+        "Target Income Threshold ($)",
+        "Primary Quarterly Milestone",
+        "Required Skills (Gap Analysis)",
+        "Required Experience / Portfolio Milestones",
+        "Active Degree / Certification / Maritime Endorsement",
+        "Capital Invested ($)",
+        "Expected Income Delta ($)"
+      ],
+      "row_1": [
+        "Timestamp",
+        "Date of this Quarterly Career Review",
+        "What is your current Career Level or Job Title?",
+        "What is your current annualized income? ($)",
+        "On a scale of 1-5, how aligned is your work with what you are PASSIONATE about?",
+        "On a scale of 1-5, how aligned is your work with what you are GOOD at (Mastery)?",
+        "On a scale of 1-5, how aligned is your work with what the WORLD NEEDS (Impact)?",
+        "On a scale of 1-5, how aligned is your work with what you can be PAID for (Compensation)?",
+        "Organization / Vessel / Venture",
+        "Core Responsibilities",
+        "Next Desired Role / Endorsement",
+        "Target Income Threshold ($)",
+        "Primary Quarterly Milestone",
+        "Required Skills (Gap Analysis)",
+        "Required Experience / Portfolio Milestones",
+        "Active Degree / Certification / Maritime Endorsement",
+        "Capital Invested ($)",
+        "Expected Income Delta ($)"
+      ]
+    }
+  ]
+}

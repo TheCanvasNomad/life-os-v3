@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-24T04:43:12Z",
+  "last_updated_utc": "2026-11-24T04:59:45Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2316,6 +2316,64 @@
       "tab_count": 1,
       "last_snapshot_utc": "2026-11-24T04:43:12Z",
       "snapshot_file": "schemas/live_snapshots/ID_RAW_ANNUAL_REVIEW.json"
+    },
+    "ID_PILLAR_4": {
+      "title": "\ud83d\udee0\ufe0f Pillar_4_Skills_Mission",
+      "spreadsheet_id": "1PHTTv1Qpdy5JAyLarOaXYAIsNIuAk8YFBw9GqvIslT0",
+      "url": "https://docs.google.com/spreadsheets/d/1PHTTv1Qpdy5JAyLarOaXYAIsNIuAk8YFBw9GqvIslT0/edit",
+      "drive_folder_id": "1cCrkeThYdMl4BOTI0ww8dhSxlpBPE53J",
+      "domain": "Pillar 4 / Skills, Ikigai, Flow & Mission Spoke (Layer 2)",
+      "cadence": "Quarterly Career Review + Flow Log + Skill Tree",
+      "status": "ACTIVE",
+      "universal_brick_compliant": true,
+      "live_tabs": [
+        "DASHBOARD",
+        "SKILL_TREE",
+        "FLOW_LOG",
+        "DATABASE",
+        "CALCULATIONS",
+        "P4_CONFIG",
+        "IMPORTS",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "all_tabs": [
+        "DASHBOARD",
+        "SKILL_TREE",
+        "FLOW_LOG",
+        "DATABASE",
+        "CALCULATIONS",
+        "P4_CONFIG",
+        "IMPORTS",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "tab_count": 10,
+      "last_snapshot_utc": "2026-11-24T04:59:45Z",
+      "snapshot_file": "schemas/live_snapshots/ID_PILLAR_4.json"
+    },
+    "ID_RAW_CAREER_REVIEW": {
+      "title": "RAW_DATA_CareerReview",
+      "spreadsheet_id": "12mCzB0g358-d-m7Fw7Zn1MK1VO1kKKl6z4IsFuTXDOI",
+      "url": "https://docs.google.com/spreadsheets/d/12mCzB0g358-d-m7Fw7Zn1MK1VO1kKKl6z4IsFuTXDOI/edit",
+      "drive_folder_id": "1cCrkeThYdMl4BOTI0ww8dhSxlpBPE53J",
+      "domain": "Pillar 4 / Write-Only Quarterly Career & Ikigai Review Silo (Layer 1)",
+      "cadence": "Quarterly Career Review Form",
+      "status": "ACTIVE",
+      "universal_brick_compliant": false,
+      "linked_form_id": "1V9D2L4pWx4D-gzKpUAA9CdVfXLQbh0r9Rza6npn5Lf4",
+      "linked_form_url": "https://docs.google.com/forms/d/1V9D2L4pWx4D-gzKpUAA9CdVfXLQbh0r9Rza6npn5Lf4/viewform",
+      "live_tabs": [
+        "Form Responses 1"
+      ],
+      "all_tabs": [
+        "Form Responses 1"
+      ],
+      "tab_count": 1,
+      "last_snapshot_utc": "2026-11-24T04:59:45Z",
+      "snapshot_file": "schemas/live_snapshots/ID_RAW_CAREER_REVIEW.json"
     }
   },
   "unmapped_discovered": [
