@@ -2,7 +2,7 @@
   "registry_key": "ID_PILLAR_2",
   "title": "\ud83d\udcb0 Pillar_2_Wealth",
   "spreadsheet_id": "1NcqV_nHIXuyGz6SuwyXNZbh3AtazGOkuZcIZlTBxw5c",
-  "snapshot_utc": "2026-11-24T05:18:11Z",
+  "snapshot_utc": "2026-11-24T05:41:11Z",
   "pii_policy": "ZERO_PII_HEADERS_ONLY",
   "tab_count": 9,
   "tabs": [
@@ -89,7 +89,7 @@
       "row_count": 50,
       "col_count": 8,
       "headers_row_1": [
-        "Wealth_Base_Score (Formula Anchor)",
+        "Base_Score (Formula Anchor)",
         "Wealth_Base_Score (0\u2013100) \u2014 Canonical Pillar 2 Anchor (CALCULATIONS!A1)",
         "Weighted composite across 5-Level Hierarchy of Financial Needs (30/25/20/15/10), auto-normalizing & blank-safe."
       ]
@@ -118,7 +118,7 @@
       "title": "IMPORTS",
       "sheet_id": 0,
       "index": 5,
-      "hidden": true,
+      "hidden": false,
       "sheet_type": "GRID",
       "row_count": 500,
       "col_count": 30,
@@ -157,7 +157,7 @@
       "title": "MODULE_META",
       "sheet_id": 1606300244,
       "index": 6,
-      "hidden": true,
+      "hidden": false,
       "sheet_type": "GRID",
       "row_count": 30,
       "col_count": 6,
@@ -171,7 +171,7 @@
       "title": "CONTEXT_IN",
       "sheet_id": 111598942,
       "index": 7,
-      "hidden": true,
+      "hidden": false,
       "sheet_type": "GRID",
       "row_count": 30,
       "col_count": 8,
@@ -194,13 +194,14 @@
       "col_count": 10,
       "headers_row_1": [
         "Signal_Key",
-        "Module_Name",
+        "Source_Brick",
         "Glyph",
-        "Domain",
+        "Domain_Pillar",
         "Raw_Value",
-        "Normalized_0_100",
-        "Signal_Status",
-        "Last_Updated"
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated",
+        "TTL_Hours"
       ]
     }
   ]

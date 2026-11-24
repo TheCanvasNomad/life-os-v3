@@ -2,8 +2,8 @@
   "registry_key": "ID_PILLAR_6",
   "title": "\ud83d\udd2e Pillar_6_Esoteric_Self",
   "spreadsheet_id": "1vVvU5TfzjGYFMNbMlSNaUjREj8HBkDPMwbzLiBnfxA0",
-  "snapshot_utc": "2026-11-24T05:35:27Z",
-  "pii_policy": "ZERO_PII_ZERO_SIGIL_PROSE_HEADERS_ONLY",
+  "snapshot_utc": "2026-11-24T05:41:11Z",
+  "pii_policy": "ZERO_PII_HEADERS_ONLY",
   "tab_count": 10,
   "tabs": [
     {
@@ -83,7 +83,7 @@
       "row_count": 48,
       "col_count": 8,
       "headers_row_1": [
-        "Esoteric_Base_Score (Formula Anchor)",
+        "Base_Score (Formula Anchor)",
         "Esoteric_Base_Score (0\u2013100) \u2014 Canonical Pillar 6 Anchor (CALCULATIONS!A1)",
         "Weighted composite across 5-Level Path of the Initiate (15/20/20/25/20), auto-normalizing & blank-safe."
       ]
@@ -159,13 +159,14 @@
       "col_count": 10,
       "headers_row_1": [
         "Signal_Key",
-        "Module_Name",
+        "Source_Brick",
         "Glyph",
-        "Domain",
+        "Domain_Pillar",
         "Raw_Value",
-        "Normalized_0_100",
-        "Signal_Status",
-        "Last_Updated"
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated",
+        "TTL_Hours"
       ]
     }
   ]

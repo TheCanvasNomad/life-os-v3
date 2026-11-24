@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-24T05:35:32Z",
+  "last_updated_utc": "2026-11-24T05:41:11Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -268,7 +268,7 @@
         "LifeOS Master Bus"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T08:54:15Z",
+      "last_snapshot_utc": "2026-11-24T05:41:11Z",
       "all_tabs": [
         "SYMBIOSIS_HUD",
         "Workbook_Directory",
@@ -694,7 +694,7 @@
         "LifeOS Feed Hub"
       ],
       "schema_ref": "schemas/lifeos_feed_hub_schema.json",
-      "last_snapshot_utc": "2026-11-24T00:16:30Z",
+      "last_snapshot_utc": "2026-11-24T05:41:11Z",
       "all_tabs": [
         "SIGNAL_BUS",
         "MODULE_REGISTRY",
@@ -2400,7 +2400,7 @@
         "Treasury HUD"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-24T05:18:14Z",
+      "last_snapshot_utc": "2026-11-24T05:41:11Z",
       "all_tabs": [
         "DASHBOARD",
         "ASSETS_LEDGER",
@@ -2476,7 +2476,7 @@
         "Shadow Work Bench"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-24T05:26:57Z",
+      "last_snapshot_utc": "2026-11-24T05:41:11Z",
       "all_tabs": [
         "DASHBOARD",
         "DATABASE",
@@ -2549,7 +2549,7 @@
         "Esoteric Capstone"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-24T05:35:32Z",
+      "last_snapshot_utc": "2026-11-24T05:41:11Z",
       "all_tabs": [
         "DASHBOARD",
         "ALCHEMICAL_FURNACE",
