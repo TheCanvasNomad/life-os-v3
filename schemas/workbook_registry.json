@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-24T05:56:15Z",
+  "last_updated_utc": "2026-11-24T06:07:43Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -694,7 +694,7 @@
         "LifeOS Feed Hub"
       ],
       "schema_ref": "schemas/lifeos_feed_hub_schema.json",
-      "last_snapshot_utc": "2026-11-24T05:56:15Z",
+      "last_snapshot_utc": "2026-11-24T06:07:43Z",
       "all_tabs": [
         "SIGNAL_BUS",
         "MODULE_REGISTRY",
@@ -705,9 +705,12 @@
         "MASLOW_ENGINE",
         "DOPPELGANGER",
         "AI_Synthesis_Report",
-        "LOGGED_EVENT_IDS"
+        "LOGGED_EVENT_IDS",
+        "LOOKER_PILLARS_&_MASLOW",
+        "LOOKER_SYSTEM_TELEMETRY",
+        "PUBLIC_DATA"
       ],
-      "tab_count": 10,
+      "tab_count": 13,
       "temporal_bridge": {
         "calendar_name": "Life OS",
         "calendar_id_cell": "RULES_ENGINE!B121",
@@ -717,7 +720,12 @@
           "bio_core_calendar": "src/utilities/bio_core/CalendarIntegration.gs",
           "crm_scheduler": "src/utilities/crm_core/crm_scheduler.gs"
         }
-      }
+      },
+      "looker_tabs": [
+        "LOOKER_PILLARS_&_MASLOW",
+        "LOOKER_SYSTEM_TELEMETRY",
+        "PUBLIC_DATA"
+      ]
     },
     "ID_MASTER_LOG": {
       "title": "LifeOS - Master Log",
@@ -2012,11 +2020,15 @@
         "IMPORTS",
         "MODULE_META",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "LOOKER_HEALTH_SERIES"
       ],
-      "tab_count": 9,
-      "last_snapshot_utc": "2026-11-23T23:49:35Z",
-      "snapshot_file": "schemas/live_snapshots/ID_PILLAR_1.json"
+      "tab_count": 10,
+      "last_snapshot_utc": "2026-11-24T06:07:43Z",
+      "snapshot_file": "schemas/live_snapshots/ID_PILLAR_1.json",
+      "looker_tabs": [
+        "LOOKER_HEALTH_SERIES"
+      ]
     },
     "ID_RAW_DAILY_CHECKIN": {
       "title": "RAW_DATA_DailyCheckIn",
@@ -2074,11 +2086,15 @@
         "IMPORTS",
         "MODULE_META",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "LOOKER_RELATIONSHIP_AGGREGATES"
       ],
-      "tab_count": 9,
-      "last_snapshot_utc": "2026-11-24T00:16:30Z",
-      "snapshot_file": "schemas/live_snapshots/ID_PILLAR_3.json"
+      "tab_count": 10,
+      "last_snapshot_utc": "2026-11-24T06:07:43Z",
+      "snapshot_file": "schemas/live_snapshots/ID_PILLAR_3.json",
+      "looker_tabs": [
+        "LOOKER_RELATIONSHIP_AGGREGATES"
+      ]
     },
     "ID_RAW_INTAKE": {
       "title": "RAW_DATA_Intake",
@@ -2219,11 +2235,15 @@
         "REF_CROSS_BRICKS",
         "MODULE_META",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "LOOKER_CRM_FUNNELS"
       ],
-      "tab_count": 12,
-      "last_snapshot_utc": "2026-11-24T02:17:04Z",
-      "snapshot_file": "schemas/live_snapshots/ID_CORE_CRM.json"
+      "tab_count": 13,
+      "last_snapshot_utc": "2026-11-24T06:07:43Z",
+      "snapshot_file": "schemas/live_snapshots/ID_CORE_CRM.json",
+      "looker_tabs": [
+        "LOOKER_CRM_FUNNELS"
+      ]
     },
     "ID_NOTEBOOKLM_SOCIAL": {
       "title": "\ud83d\udcd3 NotebookLM_Social_Workbook",
@@ -2284,11 +2304,15 @@
         "IMPORTS",
         "MODULE_META",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "LOOKER_QUESTS_&_EPICS"
       ],
-      "tab_count": 10,
-      "last_snapshot_utc": "2026-11-24T04:43:12Z",
-      "snapshot_file": "schemas/live_snapshots/ID_PILLAR_5.json"
+      "tab_count": 11,
+      "last_snapshot_utc": "2026-11-24T06:07:43Z",
+      "snapshot_file": "schemas/live_snapshots/ID_PILLAR_5.json",
+      "looker_tabs": [
+        "LOOKER_QUESTS_&_EPICS"
+      ]
     },
     "ID_RAW_QUESTS": {
       "title": "RAW_DATA_Quests",
@@ -2359,11 +2383,15 @@
         "IMPORTS",
         "MODULE_META",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "LOOKER_SKILLS_&_FLOW"
       ],
-      "tab_count": 10,
-      "last_snapshot_utc": "2026-11-24T04:59:45Z",
-      "snapshot_file": "schemas/live_snapshots/ID_PILLAR_4.json"
+      "tab_count": 11,
+      "last_snapshot_utc": "2026-11-24T06:07:43Z",
+      "snapshot_file": "schemas/live_snapshots/ID_PILLAR_4.json",
+      "looker_tabs": [
+        "LOOKER_SKILLS_&_FLOW"
+      ]
     },
     "ID_RAW_CAREER_REVIEW": {
       "title": "RAW_DATA_CareerReview",
@@ -2411,7 +2439,7 @@
         "Treasury HUD"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-24T05:41:11Z",
+      "last_snapshot_utc": "2026-11-24T06:07:43Z",
       "all_tabs": [
         "DASHBOARD",
         "ASSETS_LEDGER",
@@ -2421,9 +2449,10 @@
         "IMPORTS",
         "MODULE_META",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "LOOKER_WEALTH_ALLOCATION"
       ],
-      "tab_count": 9,
+      "tab_count": 10,
       "linked_forms": [
         {
           "name": "Life OS - Financial Review Form",
@@ -2434,7 +2463,10 @@
           "form_id": "1M7Oh-UBd0DGrfCz7iDV5XLASOX6yzDS_MwGDu1YQfIw"
         }
       ],
-      "universal_brick_compliant": true
+      "universal_brick_compliant": true,
+      "looker_tabs": [
+        "LOOKER_WEALTH_ALLOCATION"
+      ]
     },
     "ID_RAW_FINANCIAL_REVIEW": {
       "title": "RAW_DATA_FinancialReview",
@@ -2487,7 +2519,7 @@
         "Shadow Work Bench"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-24T05:41:11Z",
+      "last_snapshot_utc": "2026-11-24T06:07:43Z",
       "all_tabs": [
         "DASHBOARD",
         "DATABASE",
@@ -2496,16 +2528,20 @@
         "IMPORTS",
         "MODULE_META",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "LOOKER_SHADOW_METRICS"
       ],
-      "tab_count": 8,
+      "tab_count": 9,
       "linked_forms": [
         {
           "name": "Life OS - Shadow Journal Form",
           "form_id": "1ND9p5_lNx_6KAi2Tts9x96HB-k4epKi_7gaMtr-F_kA"
         }
       ],
-      "universal_brick_compliant": true
+      "universal_brick_compliant": true,
+      "looker_tabs": [
+        "LOOKER_SHADOW_METRICS"
+      ]
     },
     "ID_RAW_SHADOW_JOURNAL": {
       "title": "RAW_DATA_ShadowJournal",
@@ -2560,7 +2596,7 @@
         "Esoteric Capstone"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-24T05:41:11Z",
+      "last_snapshot_utc": "2026-11-24T06:07:43Z",
       "all_tabs": [
         "DASHBOARD",
         "ALCHEMICAL_FURNACE",
@@ -2571,10 +2607,14 @@
         "IMPORTS",
         "MODULE_META",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "LOOKER_ESOTERIC_METRICS"
       ],
-      "tab_count": 10,
-      "universal_brick_compliant": true
+      "tab_count": 11,
+      "universal_brick_compliant": true,
+      "looker_tabs": [
+        "LOOKER_ESOTERIC_METRICS"
+      ]
     }
   },
   "unmapped_discovered": [

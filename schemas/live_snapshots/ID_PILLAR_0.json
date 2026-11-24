@@ -2,9 +2,9 @@
   "registry_key": "ID_PILLAR_0",
   "title": "\ud83c\udf11 Pillar_0_Shadow_Self",
   "spreadsheet_id": "1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU",
-  "snapshot_utc": "2026-11-24T05:41:11Z",
+  "snapshot_utc": "2026-11-24T06:07:43Z",
   "pii_policy": "ZERO_PII_HEADERS_ONLY",
-  "tab_count": 8,
+  "tab_count": 9,
   "tabs": [
     {
       "title": "DASHBOARD",
@@ -155,6 +155,24 @@
         "State_Tag",
         "Last_Updated",
         "TTL_Hours"
+      ]
+    },
+    {
+      "title": "LOOKER_SHADOW_METRICS",
+      "sheet_id": 1240334673,
+      "index": 8,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 25,
+      "col_count": 8,
+      "headers_row_1": [
+        "Metric_Key",
+        "Metric_Label",
+        "Category",
+        "Live_Value",
+        "Normalized_0_100",
+        "Gate_Status",
+        "Last_Updated"
       ]
     }
   ]

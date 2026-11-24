@@ -2,10 +2,9 @@
   "registry_key": "ID_PILLAR_5",
   "title": "\ud83c\udfc6 Pillar_5_Experience_Legacy",
   "spreadsheet_id": "1AdMP-VKzTPNbSSTUoLrbqAjtBdYlf4mzLYwyWbaUrQw",
-  "url": "https://docs.google.com/spreadsheets/d/1AdMP-VKzTPNbSSTUoLrbqAjtBdYlf4mzLYwyWbaUrQw/edit",
-  "time_zone": "America/New_York",
-  "snapshot_utc": "2026-11-24T04:43:41Z",
-  "tab_count": 10,
+  "snapshot_utc": "2026-11-24T06:07:43Z",
+  "pii_policy": "ZERO_PII_HEADERS_ONLY",
+  "tab_count": 11,
   "tabs": [
     {
       "title": "DASHBOARD",
@@ -15,11 +14,7 @@
       "sheet_type": "GRID",
       "row_count": 65,
       "col_count": 12,
-      "header_row_index": 1,
-      "headers": [
-        "\ud83c\udfc6 LIFEOS v3.0 \u2014 PILLAR 5: EXPERIENCE, QUESTS & LEGACY COMMAND HUD"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "\ud83c\udfc6 LIFEOS v3.0 \u2014 PILLAR 5: EXPERIENCE, QUESTS & LEGACY COMMAND HUD"
       ]
     },
@@ -31,34 +26,7 @@
       "sheet_type": "GRID",
       "row_count": 500,
       "col_count": 25,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Quest Name",
-        "Description",
-        "Primary Pillar",
-        "Quest Tier",
-        "Parent Quest",
-        "Target Completion Date",
-        "CORE Values",
-        "Importance (1-10)",
-        "Urgency (1-10)",
-        "Bloom's Cognitive Level",
-        "Time Benchmark (Hours)",
-        "Actual Hours",
-        "Status",
-        "Special Flags",
-        "Calendar_Event_ID",
-        "Tier_Normalized",
-        "Eisenhower_Quadrant",
-        "Tier_Base_XP",
-        "Bloom_Multiplier",
-        "Temporal_Compression_XP",
-        "Paradox_Multiplier",
-        "Total_Quest_XP",
-        "Potential_XP"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Timestamp",
         "Quest Name",
         "Description",
@@ -93,14 +61,8 @@
       "sheet_type": "GRID",
       "row_count": 40,
       "col_count": 10,
-      "header_row_index": 1,
-      "headers": [
-        "19.5",
-        "EXPERIENCE_BASE_SCORE (0-100)",
-        "Formula: (Epic_Avg * 100 * 0.60) + (Volume_Score * 0.40)"
-      ],
-      "row_1": [
-        "19.5",
+      "headers_row_1": [
+        "Base_Score (Formula Anchor)",
         "EXPERIENCE_BASE_SCORE (0-100)",
         "Formula: (Epic_Avg * 100 * 0.60) + (Volume_Score * 0.40)"
       ]
@@ -113,11 +75,7 @@
       "sheet_type": "GRID",
       "row_count": 30,
       "col_count": 8,
-      "header_row_index": 1,
-      "headers": [
-        "\u2694\ufe0f LIFEOS v3.0 \u2014 12-STAGE HERO'S JOURNEY GATE TRACKER"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "\u2694\ufe0f LIFEOS v3.0 \u2014 12-STAGE HERO'S JOURNEY GATE TRACKER"
       ]
     },
@@ -129,19 +87,7 @@
       "sheet_type": "GRID",
       "row_count": 100,
       "col_count": 10,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Review Date",
-        "1-Year Vision",
-        "5-Year Vision",
-        "10-Year Vision",
-        "True Will Declaration",
-        "True Will Alignment (1-10)",
-        "Foundational Life Philosophy",
-        "Dominant AQAL / Spiral Dynamics Altitude"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Timestamp",
         "Review Date",
         "1-Year Vision",
@@ -161,11 +107,7 @@
       "sheet_type": "GRID",
       "row_count": 45,
       "col_count": 10,
-      "header_row_index": 1,
-      "headers": [
-        "\u2699\ufe0f P5_CONFIG // PILLAR 5 TUNABLE PHYSICS, XP MULTIPLIERS, LPD LADDER & 1-CLICK AUTH ANCHORS"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "\u2699\ufe0f P5_CONFIG // PILLAR 5 TUNABLE PHYSICS, XP MULTIPLIERS, LPD LADDER & 1-CLICK AUTH ANCHORS"
       ]
     },
@@ -173,56 +115,11 @@
       "title": "IMPORTS",
       "sheet_id": 670184429,
       "index": 6,
-      "hidden": true,
+      "hidden": false,
       "sheet_type": "GRID",
       "row_count": 520,
       "col_count": 45,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Quest Name",
-        "Description",
-        "Primary Pillar",
-        "Quest Tier",
-        "Parent Quest",
-        "Target Completion Date",
-        "CORE Values",
-        "Importance (1-10)",
-        "Urgency (1-10)",
-        "Bloom's Cognitive Level",
-        "Time Benchmark (Hours)",
-        "Actual Hours",
-        "Status",
-        "Special Flags",
-        "Calendar_Event_ID",
-        "",
-        "",
-        "Timestamp",
-        "Review Date",
-        "1-Year Vision",
-        "5-Year Vision",
-        "10-Year Vision",
-        "True Will Declaration",
-        "True Will Alignment (1-10)",
-        "Foundational Life Philosophy",
-        "Timestamp",
-        "Quest Name",
-        "Description",
-        "Primary Pillar",
-        "Quest Tier",
-        "Parent Quest",
-        "Target Completion Date",
-        "CORE Values",
-        "Importance (1-10)",
-        "Urgency (1-10)",
-        "Bloom's Cognitive Level",
-        "Time Benchmark (Hours)",
-        "Actual Hours",
-        "Status",
-        "Special Flags",
-        "Calendar_Event_ID"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Timestamp",
         "Quest Name",
         "Description",
@@ -275,13 +172,7 @@
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Field",
-        "Value",
-        "Notes"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Field",
         "Value",
         "Notes"
@@ -295,16 +186,7 @@
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Signal_Key",
-        "Live_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Freshness_Status",
-        "Hub_Auth_Trigger"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Signal_Key",
         "Live_Value",
         "Normalized_Score_0_100",
@@ -321,8 +203,7 @@
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
+      "headers_row_1": [
         "Signal_Key",
         "Source_Brick",
         "Glyph",
@@ -333,18 +214,28 @@
         "Last_Updated",
         "TTL_Hours",
         "Notes"
-      ],
-      "row_1": [
-        "Signal_Key",
-        "Source_Brick",
-        "Glyph",
-        "Domain_Pillar",
-        "Raw_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated",
-        "TTL_Hours",
-        "Notes"
+      ]
+    },
+    {
+      "title": "LOOKER_QUESTS_&_EPICS",
+      "sheet_id": 1619343986,
+      "index": 10,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 300,
+      "col_count": 12,
+      "headers_row_1": [
+        "Quest_Date",
+        "Quest_Name",
+        "Primary_Pillar",
+        "Quest_Tier",
+        "Target_Date",
+        "Importance",
+        "Urgency",
+        "Blooms_Level",
+        "Benchmark_Hours",
+        "Actual_Hours",
+        "Status"
       ]
     }
   ]

@@ -2,9 +2,9 @@
   "registry_key": "ID_PILLAR_6",
   "title": "\ud83d\udd2e Pillar_6_Esoteric_Self",
   "spreadsheet_id": "1vVvU5TfzjGYFMNbMlSNaUjREj8HBkDPMwbzLiBnfxA0",
-  "snapshot_utc": "2026-11-24T05:41:11Z",
+  "snapshot_utc": "2026-11-24T06:07:43Z",
   "pii_policy": "ZERO_PII_HEADERS_ONLY",
-  "tab_count": 10,
+  "tab_count": 11,
   "tabs": [
     {
       "title": "DASHBOARD",
@@ -167,6 +167,24 @@
         "State_Tag",
         "Last_Updated",
         "TTL_Hours"
+      ]
+    },
+    {
+      "title": "LOOKER_ESOTERIC_METRICS",
+      "sheet_id": 1926422896,
+      "index": 10,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 25,
+      "col_count": 8,
+      "headers_row_1": [
+        "Metric_Key",
+        "Metric_Label",
+        "Category",
+        "Live_Value",
+        "Normalized_0_100",
+        "State_Or_Gate",
+        "Last_Updated"
       ]
     }
   ]

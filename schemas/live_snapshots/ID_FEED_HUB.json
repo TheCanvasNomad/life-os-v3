@@ -2,9 +2,9 @@
   "registry_key": "ID_FEED_HUB",
   "title": "LifeOS_feed_hub",
   "spreadsheet_id": "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
-  "snapshot_utc": "2026-11-24T05:56:15Z",
+  "snapshot_utc": "2026-11-24T06:07:43Z",
   "pii_policy": "ZERO_PII_HEADERS_ONLY",
-  "tab_count": 10,
+  "tab_count": 13,
   "tabs": [
     {
       "title": "SIGNAL_BUS",
@@ -148,6 +148,67 @@
         "Logged_At_UTC",
         "Target_Sheet",
         "Source_Calendar"
+      ]
+    },
+    {
+      "title": "LOOKER_PILLARS_&_MASLOW",
+      "sheet_id": 353173103,
+      "index": 10,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 30,
+      "col_count": 10,
+      "headers_row_1": [
+        "Domain_Key",
+        "Domain_Label",
+        "Layer_Type",
+        "Score_0_100",
+        "Mastery_Gate_Pct",
+        "Points_To_Gate",
+        "Gate_Status",
+        "Narrative_Season",
+        "Last_Updated"
+      ]
+    },
+    {
+      "title": "LOOKER_SYSTEM_TELEMETRY",
+      "sheet_id": 985635395,
+      "index": 11,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 230,
+      "col_count": 10,
+      "headers_row_1": [
+        "Record_Type",
+        "Entity_Key",
+        "Entity_Label",
+        "Domain_Group",
+        "Raw_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Freshness_Status",
+        "Narrative_Season",
+        "Last_Updated"
+      ]
+    },
+    {
+      "title": "PUBLIC_DATA",
+      "sheet_id": 1346697043,
+      "index": 12,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 30,
+      "col_count": 10,
+      "headers_row_1": [
+        "Metric_Key",
+        "Display_Label",
+        "Category",
+        "Public_Value",
+        "Unit",
+        "Target_Or_Gate",
+        "Progress_Pct",
+        "Narrative_Season",
+        "Last_Updated"
       ]
     }
   ]

@@ -2,10 +2,9 @@
   "registry_key": "ID_CORE_CRM",
   "title": "\ud83d\udcc7 Core_CRM",
   "spreadsheet_id": "1PKYbEie4QUgSqqTVW1Y2UVjBgRStz4Aok2BhCWCvU5M",
-  "url": "https://docs.google.com/spreadsheets/d/1PKYbEie4QUgSqqTVW1Y2UVjBgRStz4Aok2BhCWCvU5M/edit",
-  "time_zone": "Etc/GMT",
-  "snapshot_utc": "2026-11-24T02:17:04Z",
-  "tab_count": 12,
+  "snapshot_utc": "2026-11-24T06:07:43Z",
+  "pii_policy": "ZERO_PII_HEADERS_ONLY",
+  "tab_count": 13,
   "tabs": [
     {
       "title": "CRM_DASHBOARD",
@@ -15,11 +14,7 @@
       "sheet_type": "GRID",
       "row_count": 116,
       "col_count": 10,
-      "header_row_index": 1,
-      "headers": [
-        "\ud83d\udcc7 LIFEOS v3.0 \u2014 CORE_CRM & SYMBIOTIC SOCIAL GRAPH COMMAND HUD"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "\ud83d\udcc7 LIFEOS v3.0 \u2014 CORE_CRM & SYMBIOTIC SOCIAL GRAPH COMMAND HUD"
       ]
     },
@@ -31,11 +26,7 @@
       "sheet_type": "GRID",
       "row_count": 6500,
       "col_count": 18,
-      "header_row_index": 1,
-      "headers": [
-        "\u26a1 LIFEOS v3.2 \u2014 BULK OPERATIONS & LIFECYCLE COHORT COMMAND CONSOLE"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "\u26a1 LIFEOS v3.2 \u2014 BULK OPERATIONS & LIFECYCLE COHORT COMMAND CONSOLE"
       ]
     },
@@ -47,11 +38,7 @@
       "sheet_type": "GRID",
       "row_count": 78,
       "col_count": 9,
-      "header_row_index": 1,
-      "headers": [
-        "\ud83c\udf10 LIFEOS v3.2 \u2014 CIRCLES & COHORTS: FULL HUMAN-LIFECYCLE SOCIAL MAP"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "\ud83c\udf10 LIFEOS v3.2 \u2014 CIRCLES & COHORTS: FULL HUMAN-LIFECYCLE SOCIAL MAP"
       ]
     },
@@ -63,40 +50,7 @@
       "sheet_type": "GRID",
       "row_count": 6500,
       "col_count": 30,
-      "header_row_index": 1,
-      "headers": [
-        "Contact_ID",
-        "Contact_Key",
-        "Full_Name",
-        "Primary_Phone",
-        "Primary_Email",
-        "Country",
-        "Organization",
-        "Master_Birthday",
-        "LifeOS_Sphere",
-        "Tag_1",
-        "Tag_2",
-        "Tag_3",
-        "Relationship_Status",
-        "How_Met",
-        "Gender",
-        "Birthday_Sync",
-        "Last_Contacted_Date",
-        "Next_Follow_Up_Date",
-        "Follow_Up_Status",
-        "Linked_Entities",
-        "Phone_Status",
-        "Cohort_Chapter",
-        "Origin_Arena",
-        "Proximity_Ring",
-        "Kinship_Role",
-        "Shared_Interest_1",
-        "Shared_Interest_2",
-        "Introduced_By",
-        "Current_City_Base",
-        "Human_Context_Notes"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Contact_ID",
         "Contact_Key",
         "Full_Name",
@@ -137,27 +91,7 @@
       "sheet_type": "GRID",
       "row_count": 120,
       "col_count": 18,
-      "header_row_index": 1,
-      "headers": [
-        "LifeOS_Sphere",
-        "Social_Tags",
-        "Relationship_Status",
-        "How_Met",
-        "Gender",
-        "Deal_Stages",
-        "Interaction_Channels",
-        "Cohort_Chapter",
-        "Origin_Arena",
-        "Proximity_Ring",
-        "Kinship_Role",
-        "Shared_Interests",
-        "",
-        "Taxonomy_Category",
-        "Term_Value",
-        "Sync_To_Phone_Label?",
-        "Default_Birthday_Sync"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "LifeOS_Sphere",
         "Social_Tags",
         "Relationship_Status",
@@ -185,20 +119,7 @@
       "sheet_type": "GRID",
       "row_count": 500,
       "col_count": 10,
-      "header_row_index": 1,
-      "headers": [
-        "Link_ID",
-        "Contact_Key",
-        "Contact_ID",
-        "Target_Brick",
-        "Target_Record",
-        "Role_In_Context",
-        "Start_Date",
-        "End_Date",
-        "Notes",
-        "Writeback_Status"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Link_ID",
         "Contact_Key",
         "Contact_ID",
@@ -219,21 +140,7 @@
       "sheet_type": "GRID",
       "row_count": 300,
       "col_count": 11,
-      "header_row_index": 1,
-      "headers": [
-        "Deal_ID",
-        "Contact_Key",
-        "Venture / Context",
-        "Opportunity_Name",
-        "Deal_Stage",
-        "Est_Value_USD",
-        "Win_Probability_Pct",
-        "Weighted_Value",
-        "Next_Action",
-        "Due_Date",
-        "Outcome"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Deal_ID",
         "Contact_Key",
         "Venture / Context",
@@ -255,18 +162,7 @@
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 8,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Date",
-        "Contact_Key",
-        "Channel",
-        "Direction",
-        "Summary",
-        "Next_Follow_Up_Date",
-        "Calendar_Event_ID"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Timestamp",
         "Date",
         "Contact_Key",
@@ -285,32 +181,7 @@
       "sheet_type": "GRID",
       "row_count": 400,
       "col_count": 24,
-      "header_row_index": 1,
-      "headers": [
-        "All_Target_Records",
-        "Career_&_Education_Records",
-        "Travel_Trip_Records",
-        "Body_Count_Records",
-        "",
-        "Vaulted_Contacts_Count",
-        "Body_Count_Total",
-        "",
-        "Target_Workbook",
-        "One_Click_Auth_Anchor",
-        "Filter_Countries",
-        "Filter_Orgs",
-        "Filter_Spheres",
-        "Filter_Tags",
-        "Filter_Statuses",
-        "Filter_How_Mets",
-        "Live_Cohort_Chapters",
-        "Filter_Cohorts",
-        "Filter_Arenas",
-        "Filter_Rings",
-        "Filter_Kinship",
-        "Filter_Interests"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "All_Target_Records",
         "Career_&_Education_Records",
         "Travel_Trip_Records",
@@ -343,13 +214,7 @@
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Field",
-        "Value",
-        "Notes"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Field",
         "Value",
         "Notes"
@@ -363,16 +228,7 @@
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Signal_Key",
-        "Live_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Freshness_Status",
-        "Hub_Auth_Trigger"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Signal_Key",
         "Live_Value",
         "Normalized_Score_0_100",
@@ -389,8 +245,7 @@
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
+      "headers_row_1": [
         "Signal_Key",
         "Source_Brick",
         "Glyph",
@@ -401,18 +256,23 @@
         "Last_Updated",
         "TTL_Hours",
         "Notes"
-      ],
-      "row_1": [
-        "Signal_Key",
-        "Source_Brick",
-        "Glyph",
-        "Domain_Pillar",
-        "Raw_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated",
-        "TTL_Hours",
-        "Notes"
+      ]
+    },
+    {
+      "title": "LOOKER_CRM_FUNNELS",
+      "sheet_id": 1905583037,
+      "index": 12,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 7,
+      "headers_row_1": [
+        "Dimension_Type",
+        "Segment_Label",
+        "Aggregate_Count_Or_Value",
+        "Share_Of_Network_Pct",
+        "Metric_Unit",
+        "Last_Updated"
       ]
     }
   ]

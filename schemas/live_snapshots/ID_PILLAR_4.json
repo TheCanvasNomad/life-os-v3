@@ -2,10 +2,9 @@
   "registry_key": "ID_PILLAR_4",
   "title": "\ud83d\udee0\ufe0f Pillar_4_Skills_Mission",
   "spreadsheet_id": "1PHTTv1Qpdy5JAyLarOaXYAIsNIuAk8YFBw9GqvIslT0",
-  "url": "https://docs.google.com/spreadsheets/d/1PHTTv1Qpdy5JAyLarOaXYAIsNIuAk8YFBw9GqvIslT0/edit",
-  "time_zone": "America/New_York",
-  "snapshot_utc": "2026-11-24T05:00:13Z",
-  "tab_count": 10,
+  "snapshot_utc": "2026-11-24T06:07:43Z",
+  "pii_policy": "ZERO_PII_HEADERS_ONLY",
+  "tab_count": 11,
   "tabs": [
     {
       "title": "DASHBOARD",
@@ -15,11 +14,7 @@
       "sheet_type": "GRID",
       "row_count": 42,
       "col_count": 14,
-      "header_row_index": 1,
-      "headers": [
-        "\ud83d\udee0\ufe0f LIFEOS v3.0 \u2014 PILLAR 4: SKILLS, IKIGAI & MISSION COMMAND HUD"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "\ud83d\udee0\ufe0f LIFEOS v3.0 \u2014 PILLAR 4: SKILLS, IKIGAI & MISSION COMMAND HUD"
       ]
     },
@@ -31,24 +26,7 @@
       "sheet_type": "GRID",
       "row_count": 60,
       "col_count": 15,
-      "header_row_index": 1,
-      "headers": [
-        "Skill_Category",
-        "Skill_Name",
-        "Current_Level",
-        "Current_XP",
-        "XP_For_Next_Level",
-        "Progress_Bar",
-        "Remembering",
-        "Understanding",
-        "Applying",
-        "Analyzing",
-        "Evaluating",
-        "Creating",
-        "Gauntlet_Score",
-        "Mastery_Status"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Skill_Category",
         "Skill_Name",
         "Current_Level",
@@ -73,20 +51,7 @@
       "sheet_type": "GRID",
       "row_count": 500,
       "col_count": 10,
-      "header_row_index": 1,
-      "headers": [
-        "Date",
-        "Skill_Name",
-        "Session_Description",
-        "Duration_Hours",
-        "Challenge_Level (1-10)",
-        "Skill_Level (1-10)",
-        "Focus_Quality (1-10)",
-        "Flow_Channel",
-        "Session_XP",
-        "Flow_Score_0_100"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Date",
         "Skill_Name",
         "Session_Description",
@@ -107,51 +72,7 @@
       "sheet_type": "GRID",
       "row_count": 500,
       "col_count": 42,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Review Date",
-        "Current Job Title / Rating",
-        "Current Annualized Income ($)",
-        "Passion (1-10)",
-        "Mastery (1-10)",
-        "Impact (1-10)",
-        "Compensation (1-10)",
-        "Organization / Vessel / Venture",
-        "Core Responsibilities",
-        "Next Desired Role / Endorsement",
-        "Target Income Threshold ($)",
-        "Primary Quarterly Milestone",
-        "Required Skills (Gap Analysis)",
-        "Required Experience / Portfolio Milestones",
-        "Active Degree / Certification / Maritime Endorsement",
-        "Capital Invested ($)",
-        "Expected Income Delta ($)",
-        "",
-        "Timestamp",
-        "Quest Name",
-        "Description",
-        "Primary Pillar",
-        "Quest Tier",
-        "Parent Quest",
-        "Target Completion Date",
-        "CORE Values",
-        "Importance (1-10)",
-        "Urgency (1-10)",
-        "Bloom's Cognitive Level",
-        "Time Benchmark (Hours)",
-        "Actual Hours",
-        "Status",
-        "Special Flags",
-        "Calendar_Event_ID",
-        "",
-        "Record Type",
-        "Organization / Vessel",
-        "Role / Rating / Credential",
-        "Current Status",
-        "Credited Sea Days"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Timestamp",
         "Review Date",
         "Current Job Title / Rating",
@@ -199,18 +120,12 @@
       "title": "CALCULATIONS",
       "sheet_id": 2036374665,
       "index": 4,
-      "hidden": false,
+      "hidden": true,
       "sheet_type": "GRID",
       "row_count": 35,
       "col_count": 10,
-      "header_row_index": 1,
-      "headers": [
-        "#ERROR!",
+      "headers_row_1": [
         "",
-        "A1 = MASTER SKILLS BASE SCORE (0-100)  |  B1 = IKIGAI_SCORE (0-10)"
-      ],
-      "row_1": [
-        "#ERROR!",
         "",
         "A1 = MASTER SKILLS BASE SCORE (0-100)  |  B1 = IKIGAI_SCORE (0-10)"
       ]
@@ -223,11 +138,7 @@
       "sheet_type": "GRID",
       "row_count": 35,
       "col_count": 10,
-      "header_row_index": 1,
-      "headers": [
-        "\u2699\ufe0f P4_CONFIG // PILLAR 4 TUNABLE PHYSICS, IKIGAI WEIGHTS, XP CURVE & 1-CLICK AUTH ANCHORS"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "\u2699\ufe0f P4_CONFIG // PILLAR 4 TUNABLE PHYSICS, IKIGAI WEIGHTS, XP CURVE & 1-CLICK AUTH ANCHORS"
       ]
     },
@@ -239,68 +150,7 @@
       "sheet_type": "GRID",
       "row_count": 520,
       "col_count": 60,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Review Date",
-        "Current Job Title / Rating",
-        "Current Annualized Income ($)",
-        "Passion (1-10)",
-        "Mastery (1-10)",
-        "Impact (1-10)",
-        "Compensation (1-10)",
-        "Organization / Vessel / Venture",
-        "Core Responsibilities",
-        "Next Desired Role / Endorsement",
-        "Target Income Threshold ($)",
-        "Primary Quarterly Milestone",
-        "Required Skills (Gap Analysis)",
-        "Required Experience / Portfolio Milestones",
-        "Active Degree / Certification / Maritime Endorsement",
-        "Capital Invested ($)",
-        "Expected Income Delta ($)",
-        "",
-        "Timestamp",
-        "Quest Name",
-        "Description",
-        "Primary Pillar",
-        "Quest Tier",
-        "Parent Quest",
-        "Target Completion Date",
-        "CORE Values",
-        "Importance (1-10)",
-        "Urgency (1-10)",
-        "Bloom's Cognitive Level",
-        "Time Benchmark (Hours)",
-        "Actual Hours",
-        "Status",
-        "Special Flags",
-        "Calendar_Event_ID",
-        "",
-        "Record Type",
-        "Organization / Vessel",
-        "Role / Rating / Credential",
-        "Current Status",
-        "Credited Sea Days",
-        "",
-        "Timestamp",
-        "Quest Name",
-        "Quest Description",
-        "Which Life OS Pillar is this quest primarily related to?",
-        "What is the scope/tier of this quest?",
-        "If this is a Sub-Quest or Major Quest, what is the name of its Parent Quest?",
-        "Target Completion Date",
-        "Which of your CORE Values does this quest align with?",
-        "Importance (1-10)",
-        "Urgency (1-10)",
-        "Bloom's Cognitive Level",
-        "Time Benchmark (Hours)",
-        "Actual Hours",
-        "Status",
-        "Special Flags",
-        "Calendar_Event_ID"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Timestamp",
         "Review Date",
         "Current Job Title / Rating",
@@ -369,13 +219,7 @@
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Field",
-        "Value",
-        "Notes"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Field",
         "Value",
         "Notes"
@@ -389,16 +233,7 @@
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Signal_Key",
-        "Live_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Freshness_Status",
-        "Hub_Auth_Trigger"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Signal_Key",
         "Live_Value",
         "Normalized_Score_0_100",
@@ -415,8 +250,7 @@
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
+      "headers_row_1": [
         "Signal_Key",
         "Source_Brick",
         "Glyph",
@@ -427,18 +261,27 @@
         "Last_Updated",
         "TTL_Hours",
         "Notes"
-      ],
-      "row_1": [
-        "Signal_Key",
-        "Source_Brick",
-        "Glyph",
-        "Domain_Pillar",
-        "Raw_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated",
-        "TTL_Hours",
-        "Notes"
+      ]
+    },
+    {
+      "title": "LOOKER_SKILLS_&_FLOW",
+      "sheet_id": 994773513,
+      "index": 10,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 35,
+      "col_count": 11,
+      "headers_row_1": [
+        "Skill_Category",
+        "Skill_Name",
+        "Current_Level",
+        "Current_XP",
+        "XP_For_Next_Level",
+        "Level_Progress_Pct",
+        "Mastery_Status",
+        "P4_Skills_Base_Score",
+        "P4_Ikigai_Score",
+        "Flow_Session_Score"
       ]
     }
   ]

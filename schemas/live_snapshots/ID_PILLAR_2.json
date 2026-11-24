@@ -2,9 +2,9 @@
   "registry_key": "ID_PILLAR_2",
   "title": "\ud83d\udcb0 Pillar_2_Wealth",
   "spreadsheet_id": "1NcqV_nHIXuyGz6SuwyXNZbh3AtazGOkuZcIZlTBxw5c",
-  "snapshot_utc": "2026-11-24T05:41:11Z",
+  "snapshot_utc": "2026-11-24T06:07:43Z",
   "pii_policy": "ZERO_PII_HEADERS_ONLY",
-  "tab_count": 9,
+  "tab_count": 10,
   "tabs": [
     {
       "title": "DASHBOARD",
@@ -202,6 +202,24 @@
         "State_Tag",
         "Last_Updated",
         "TTL_Hours"
+      ]
+    },
+    {
+      "title": "LOOKER_WEALTH_ALLOCATION",
+      "sheet_id": 818453880,
+      "index": 9,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 25,
+      "col_count": 8,
+      "headers_row_1": [
+        "Record_Type",
+        "Metric_Or_Bucket",
+        "Target_Or_Gate",
+        "Live_Score_Or_Pct",
+        "Variance_Or_State",
+        "Mastery_Status",
+        "Last_Updated"
       ]
     }
   ]
