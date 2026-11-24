@@ -28,6 +28,7 @@ Connect each Google Sheet data source below in **Looker Studio** (`https://looke
 | **`🛠️ Pillar_4_Skills_Mission`** (`1PHTTv1Qpdy5JAyLarOaXYAIsNIuAk8YFBw9GqvIslT0`) | `LOOKER_SKILLS_&_FLOW` | `Skill_Category`, `Skill_Name`, `Mastery_Status` | `Current_Level`, `Current_XP`, `XP_For_Next_Level`, `Level_Progress_Pct`, `P4_Skills_Base_Score`, `P4_Ikigai_Score`, `Flow_Session_Score` |
 | **`🏆 Pillar_5_Experience_Legacy`** (`1AdMP-VKzTPNbSSTUoLrbqAjtBdYlf4mzLYwyWbaUrQw`) | `LOOKER_QUESTS_&_EPICS` | `Quest_Date` (Date), `Quest_Name`, `Primary_Pillar`, `Quest_Tier`, `Target_Date` (Date), `Blooms_Level`, `Status` | `Importance`, `Urgency`, `Benchmark_Hours`, `Actual_Hours` |
 | **`🔮 Pillar_6_Esoteric_Self`** (`1vVvU5TfzjGYFMNbMlSNaUjREj8HBkDPMwbzLiBnfxA0`) | `LOOKER_ESOTERIC_METRICS` | `Metric_Key`, `Metric_Label`, `Category`, `State_Or_Gate`, `Last_Updated` | `Live_Value`, `Normalized_0_100` |
+| **`🎯 Travel_Bucket_List_Brick`** (`1bEnJp4tj1qCasykqDOCxg9yvlH3Gf5pl9i1bcigHpUs`) | `LOOKER_BUCKET_LIST` | `Milestone_ID`, `Milestone_Name`, `Category`, `Tier`, `Status`, `First_Completed_Date` (Date) | `Times_Completed`, `Base_XP`, `Earned_XP`, `Completion_Flag` |
 | **`📇 Core_CRM`** (`1PKYbEie4QUgSqqTVW1Y2UVjBgRStz4Aok2BhCWCvU5M`) | `LOOKER_CRM_FUNNELS` | `Dimension_Type`, `Segment_Label`, `Metric_Unit`, `Last_Updated` | `Aggregate_Count_Or_Value`, `Share_Of_Network_Pct` |
 
 ---

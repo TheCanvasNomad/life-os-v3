@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-24T06:07:43Z",
+  "last_updated_utc": "2026-11-24T16:32:19Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -268,7 +268,7 @@
         "LifeOS Master Bus"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-24T05:41:11Z",
+      "last_snapshot_utc": "2026-11-24T16:32:19Z",
       "all_tabs": [
         "SYMBIOSIS_HUD",
         "Workbook_Directory",
@@ -694,7 +694,7 @@
         "LifeOS Feed Hub"
       ],
       "schema_ref": "schemas/lifeos_feed_hub_schema.json",
-      "last_snapshot_utc": "2026-11-24T06:07:43Z",
+      "last_snapshot_utc": "2026-11-24T16:32:19Z",
       "all_tabs": [
         "SIGNAL_BUS",
         "MODULE_REGISTRY",
@@ -2308,7 +2308,7 @@
         "LOOKER_QUESTS_&_EPICS"
       ],
       "tab_count": 11,
-      "last_snapshot_utc": "2026-11-24T06:07:43Z",
+      "last_snapshot_utc": "2026-11-24T16:32:19Z",
       "snapshot_file": "schemas/live_snapshots/ID_PILLAR_5.json",
       "looker_tabs": [
         "LOOKER_QUESTS_&_EPICS"
@@ -2615,6 +2615,48 @@
       "looker_tabs": [
         "LOOKER_ESOTERIC_METRICS"
       ]
+    },
+    "ID_TRAVEL_BUCKET_LIST": {
+      "title": "\ud83c\udfaf Travel_Bucket_List_Brick",
+      "spreadsheet_id": "1bEnJp4tj1qCasykqDOCxg9yvlH3Gf5pl9i1bcigHpUs",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1bEnJp4tj1qCasykqDOCxg9yvlH3Gf5pl9i1bcigHpUs/edit",
+      "status": "ACTIVE",
+      "layer": "brick",
+      "domain": "Pillar 5 Experience & Legacy / 7-by-40 Travel Bucket List Milestones",
+      "live_tabs": [
+        "DASHBOARD",
+        "BUCKET_LIST_MASTER",
+        "LOOKER_BUCKET_LIST",
+        "NORMALIZED_LOG",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "looker_tabs": [
+        "LOOKER_BUCKET_LIST"
+      ],
+      "search_aliases": [
+        "\ud83c\udfaf Travel_Bucket_List_Brick",
+        "Travel Bucket List (Responses)",
+        "Travel Bucket List",
+        "7 by 40 Bucket List"
+      ],
+      "schema_ref": null,
+      "last_snapshot_utc": "2026-11-24T16:32:19Z",
+      "all_tabs": [
+        "DASHBOARD",
+        "BUCKET_LIST_MASTER",
+        "LOOKER_BUCKET_LIST",
+        "NORMALIZED_LOG",
+        "Form Responses 1",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT",
+        "Answers",
+        "Last Updated"
+      ],
+      "tab_count": 10,
+      "universal_brick_compliant": true
     }
   },
   "unmapped_discovered": [

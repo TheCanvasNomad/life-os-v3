@@ -49,6 +49,15 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | [ ] | `MODULE_REGISTRY!J35` | **💰 Pillar_2_Wealth** | `1NcqV_nHIXuyGz6SuwyXNZbh3AtazGOkuZcIZlTBxw5c` | All 6 strictly anonymized `P2_*` signals (`P2_WEALTH_BASE_SCORE`, `P2_FIRE_SCORE`, `P2_SAVINGS_RATE_PCT`, `P2_RUNWAY_MONTHS`, `P2_FINANCIAL_LEVEL`, `P2_SCARCITY_STATUS`) -> `MASLOW_ENGINE` L2 Safety (`80% P2 + 20% Stress Resilience`), `AQAL_VIEW` LR `"ITS"` (`RULES_ENGINE!A67`), `SWORD_VIEW` Quillons, `RULES_ENGINE` `COND_SCARCITY` & `[Freedom]` |
 | [ ] | `MODULE_REGISTRY!J36` | **🌑 Pillar_0_Shadow_Self** | `1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU` | All 6 strictly anonymized numeric/state `P0_*` signals (`P0_WISDOM_SCORE`, `P0_WISDOM_POINTS_TOTAL`, `P0_ANTIFRAGILITY_XP`, `P0_UNINTEGRATED_SHADOWS`, `P0_INTEGRATION_RATE_PCT`, `P0_GRIP_INTEGRITY`; zero journal text) -> `AQAL_VIEW` UL `"I"` (`RULES_ENGINE!A53`), `MASLOW_ENGINE` L5 Self-Actualization (`60% P5 + 40% P0`), `SWORD_VIEW` Grip, `RULES_ENGINE` `COND_SHADOW_DRIFT` & `[Integrated Shadow]` |
 | [ ] | `MODULE_REGISTRY!J37` | **🔮 Pillar_6_Esoteric_Self** | `1vVvU5TfzjGYFMNbMlSNaUjREj8HBkDPMwbzLiBnfxA0` | All 8 strictly anonymized `P6_*` capstone signals (`P6_ESOTERIC_BASE_SCORE`, `P6_PRANA_7D_AVG`, `P6_ALCHEMICAL_FURNACE_PCT`, `P6_RETENTION_STREAK_DAYS`, `P6_TRUE_WILL_ALIGNMENT_PCT`, `P6_SIGIL_MANIFESTATION_RATE_PCT`, `P6_VIBRATORY_BUFF_STATE`, `P6_DESTINY_BUFF_ACTIVE`; zero sigil prose) -> `RULES_ENGINE` (`[High Vibration]`, `[Energy Leak]`, `[Destiny]`, Furnace Spillovers), `SWORD_VIEW` Pommel, `CHARACTER_SHEET`, `AI_Synthesis_Report` |
+| [ ] | `MODULE_REGISTRY!J38` | **🎯 Travel_Bucket_List_Brick** | `1bEnJp4tj1qCasykqDOCxg9yvlH3Gf5pl9i1bcigHpUs` | All 4 `BUCKET_LIST_*` signals (`BUCKET_LIST_COMPLETED_COUNT`, `BUCKET_LIST_COMPLETION_PCT`, `BUCKET_LIST_XP_TOTAL`, `BUCKET_LIST_ACTIVE_TARGET`, TTL 168h) -> `CHARACTER_SHEET` Total XP, `P5` `BUCKET_LIST_XP_ROLLUP`, `PUBLIC_DATA` |
+
+---
+
+## 1F. Travel Bucket List Brick (`🎯 Travel_Bucket_List_Brick`) Inbound Authorization
+
+| Done | Workbook & Cell | Direct Tab Link (Click cell -> Allow access) | Target Workbook | Unlocks |
+| :---: | :--- | :--- | :--- | :--- |
+| [ ] | **`🎯 Travel_Bucket_List_Brick` → `CONTEXT_IN!F2`** | https://docs.google.com/spreadsheets/d/1bEnJp4tj1qCasykqDOCxg9yvlH3Gf5pl9i1bcigHpUs/edit#gid=536461963 | **LifeOS_feed_hub** (`1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U`) | Live `TRAVEL_CONTINENTS_COUNT`, `TRAVEL_COUNTRIES_COUNT`, `P2_FINANCIAL_LEVEL`, and `P5_EXPERIENCE_BASE_SCORE` on Bucket List `DASHBOARD` |
 
 ---
 
