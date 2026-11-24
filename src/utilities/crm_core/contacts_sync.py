@@ -1,103 +1,117 @@
 #!/usr/bin/env python3
 """
-LifeOS v3.0 — CRM_CORE Full-Field Two-Way Google Contacts Python Companion
-==========================================================================
-100% Google People API v1 coverage (95 columns in `Google Contacts Sync Master`)
-plus Safe Archived Bulk Deletion (`Sync_Action = "DELETE_FROM_PHONE"`):
-  1. Appends full 95-col row + UTC `Purged_Timestamp` to hidden `PURGE_ARCHIVE_LOG` FIRST,
-  2. Calls `DELETE https://people.googleapis.com/v1/{resourceName}:deleteContact`
-     with rate-limit pacing & batch safety cap (`MAX_DELETES_PER_RUN = 200`),
-  3. Outputs confirmed deleted row numbers for safe removal from Master.
+LifeOS v3.2 — Full People API v1 Two-Way Sync, Birthday Toggle, Vault Purge/Restore
+& Cross-Brick Symbiosis CLI.
 
-Usage:
-  # Authorize Google Contacts scope once
-  python3 src/utilities/crm_core/contacts_sync.py --auth-url
-  python3 src/utilities/crm_core/contacts_sync.py --auth-code "<CODE_OR_URL>" --pull --export-json /tmp/crm_pull.json
+Targets:
+  - Workbook 1: 📱 Master_Contacts_Sync       (1VtJ4_beXHe8N_zfmcB5yBTPm0App8prl3IgY7CMeU8g)
+  - Workbook 2: 🗄️ Purged_Contacts_Vault      (1eoLRVMOxdpHx3YkkWnfkOfowhTH8fbam8R2jDzUJB84)
+  - Workbook 3: 📇 Core_CRM                   (1PKYbEie4QUgSqqTVW1Y2UVjBgRStz4Aok2BhCWCvU5M)
+  - Workbook 4: 📓 NotebookLM_Social_Workbook (1gwnGKdfZrtJi6QwEWniPMli6i-Se8Fi2pwjX1ebaaPs)
 
-  # Push modified rows or purge marked rows (requires --confirm-purge)
-  python3 src/utilities/crm_core/contacts_sync.py --purge-json /tmp/marked_for_purge.json --confirm-purge
+All OAuth credentials/tokens live exclusively inside git-ignored `.secrets/`.
 """
 
 import argparse
-import datetime as dt
 import hashlib
 import json
 import os
-import re
 import sys
 import time
-import urllib.error
-import urllib.parse
-import urllib.request
+from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional
 
-WORKSPACE_ROOT = Path(__file__).resolve().parents[3]
-DEFAULT_CREDS = WORKSPACE_ROOT / ".secrets" / "google_health_credentials.json"
-DEFAULT_TOKEN = WORKSPACE_ROOT / ".secrets" / "google_contacts_token.json"
-CRM_SHEET_ID = os.environ.get("LIFEOS_CRM_CORE_ID", "1VtJ4_beXHe8N_zfmcB5yBTPm0App8prl3IgY7CMeU8g")
+MASTER_SS_ID = "1VtJ4_beXHe8N_zfmcB5yBTPm0App8prl3IgY7CMeU8g"
+VAULT_SS_ID = "1eoLRVMOxdpHx3YkkWnfkOfowhTH8fbam8R2jDzUJB84"
+CORE_CRM_SS_ID = "1PKYbEie4QUgSqqTVW1Y2UVjBgRStz4Aok2BhCWCvU5M"
+NOTEBOOKLM_SS_ID = "1gwnGKdfZrtJi6QwEWniPMli6i-Se8Fi2pwjX1ebaaPs"
 
-PEOPLE_BASE = "https://people.googleapis.com/v1"
-OAUTH_AUTH_URL = "https://accounts.google.com/o/oauth2/v2/auth"
-OAUTH_TOKEN_URL = "https://oauth2.googleapis.com/token"
-SCOPES = ["https://www.googleapis.com/auth/contacts"]
-MAX_DELETES_PER_RUN = 200
-DELETE_PACE_SECS = 0.16
+MAX_VAULT_ACTIONS_PER_RUN = 200
+API_PACE_SECONDS = 0.16
 
-FULL_PERSON_FIELDS = ",".join([
+PEOPLE_SCOPES = ["https://www.googleapis.com/auth/contacts"]
+PERSON_FIELDS = ",".join([
     "names", "nicknames", "fileAses", "genders", "birthdays",
     "phoneNumbers", "emailAddresses", "imClients", "urls",
     "organizations", "addresses", "events", "relations",
     "biographies", "userDefined", "memberships", "metadata",
 ])
+UPDATE_PERSON_FIELDS = ",".join([
+    "names", "nicknames", "fileAses", "genders", "birthdays",
+    "phoneNumbers", "emailAddresses", "imClients", "urls",
+    "organizations", "addresses", "events", "relations",
+    "biographies", "userDefined", "memberships",
+])
 
-SPHERE_EMOJI_RULES = [
-    (re.compile(r"[❤️💘😍🔥💋🌹🍑🍆😘💕]"), "Love Life", "Dating"),
-    (re.compile(r"[⚓🚢⛵🛳🧭]"), "Maritime & Crew", "Worked_With"),
-    (re.compile(r"[✈️🌍🗺🏖🧳]"), "Travel Acquaintance", "Traveled_With"),
-    (re.compile(r"[💼🏢🤝💻]"), "Professional", "Worked_With"),
-    (re.compile(r"[🏠👪🧬]"), "Family", "Inner_Circle"),
-    (re.compile(r"[⭐👑🛡💯]"), "Friendship", "Inner_Circle"),
+MASTER_89_HEADERS = [
+    "Contact ID", "Last Updated Sheet", "Last Updated Google Contacts",
+    "First Name", "Middle Name", "Last Name",
+    "Phonetic First Name", "Phonetic Middle Name", "Phonetic Last Name",
+    "Name Prefix", "Name Suffix", "Nickname", "File As",
+    "Gender", "Birthday",
+    "Organization Name", "Organization Title", "Organization Department",
+    "Phone 1 - Label", "Phone 1 - Value",
+    "Phone 2 - Label", "Phone 2 - Value",
+    "Phone 3 - Label", "Phone 3 - Value",
+    "Phone 4 - Label", "Phone 4 - Value",
+    "E-mail 1 - Label", "E-mail 1 - Value",
+    "E-mail 2 - Label", "E-mail 2 - Value",
+    "E-mail 3 - Label", "E-mail 3 - Value",
+    "E-mail 4 - Label", "E-mail 4 - Value",
+    "IM 1 - Protocol", "IM 1 - Handle",
+    "IM 2 - Protocol", "IM 2 - Handle",
+    "Address 1 - Label", "Address 1 - Formatted", "Address 1 - Street",
+    "Address 1 - City", "Address 1 - PO Box", "Address 1 - Region",
+    "Address 1 - Postal Code", "Address 1 - Country", "Address 1 - Extended Address",
+    "Address 2 - Label", "Address 2 - Formatted", "Address 2 - Street",
+    "Address 2 - City", "Address 2 - PO Box", "Address 2 - Region",
+    "Address 2 - Postal Code", "Address 2 - Country", "Address 2 - Extended Address",
+    "Relation 1 - Label", "Relation 1 - Value",
+    "Relation 2 - Label", "Relation 2 - Value",
+    "Relation 3 - Label", "Relation 3 - Value",
+    "Website 1 - Label", "Website 1 - Value",
+    "Website 2 - Label", "Website 2 - Value",
+    "Website 3 - Label", "Website 3 - Value",
+    "Website 4 - Label", "Website 4 - Value",
+    "Website 5 - Label", "Website 5 - Value",
+    "Event 1 - Label", "Event 1 - Value",
+    "Event 2 - Label", "Event 2 - Value",
+    "Custom Field 1 - Key", "Custom Field 1 - Value",
+    "Custom Field 2 - Key", "Custom Field 2 - Value",
+    "Notes", "Photo", "Labels",
+    "Master_Birthday", "Birthday_Sync", "Sync_Action",
+    "Contact_ETag", "Sync_Direction_Lock", "Sync_Hash",
 ]
 
 
-def extract_flag_iso2(text: str) -> str:
-    cps = [ord(c) for c in (text or "")]
-    for i in range(len(cps) - 1):
-        if 0x1F1E6 <= cps[i] <= 0x1F1FF and 0x1F1E6 <= cps[i + 1] <= 0x1F1FF:
-            return chr(cps[i] - 0x1F1E6 + 65) + chr(cps[i + 1] - 0x1F1E6 + 65)
-    return ""
-
-
-def format_date_obj(d: Optional[Dict[str, Any]]) -> str:
-    if not isinstance(d, dict):
+def format_people_date(d: Optional[Dict[str, Any]]) -> str:
+    if not d:
         return ""
-    y = int(d.get("year") or 0)
-    m = int(d.get("month") or 1)
-    day = int(d.get("day") or 1)
-    return f"{y:04d}-{m:02d}-{day:02d}"
+    mm = f"{int(d.get('month', 1)):02d}"
+    dd = f"{int(d.get('day', 1)):02d}"
+    return f"{int(d['year']):04d}-{mm}-{dd}" if d.get("year") else f"--{mm}-{dd}"
 
 
-def parse_date_obj(raw: str) -> Optional[Dict[str, int]]:
-    m = re.match(r"^(\d{4})-(\d{2})-(\d{2})", str(raw or "").strip())
-    if not m:
+def parse_date_to_people_obj(val: str) -> Optional[Dict[str, int]]:
+    s = (val or "").strip()
+    if not s:
         return None
-    return {"year": int(m.group(1)), "month": int(m.group(2)), "day": int(m.group(3))}
+    parts = s.split("-")
+    try:
+        if len(parts) == 3 and parts[0].isdigit():
+            return {"year": int(parts[0]), "month": int(parts[1]), "day": int(parts[2])}
+        if s.startswith("--") and len(parts) == 4:
+            return {"month": int(parts[2]), "day": int(parts[3])}
+    except ValueError:
+        return None
+    return None
 
 
-def compute_sync_hash(row_dict: Dict[str, Any]) -> str:
-    skip = {"Last Updated Sheet", "Last Updated Google Contacts", "Sync_Direction_Lock", "Sync_Hash", "Contact_ETag", "Sync_Action"}
-    canonical = "|".join(str(row_dict.get(k, "") or "").strip() for k in sorted(row_dict.keys()) if k not in skip)
-    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
-
-
-def person_to_full_dict(person: Dict[str, Any], group_map: Dict[str, str]) -> Dict[str, Any]:
-    """Maps 100% of People API v1 fields to the 95-column CRM_CORE dictionary."""
-    out: Dict[str, Any] = {}
+def person_to_master_dict(person: Dict[str, Any], res_to_label: Dict[str, str]) -> Dict[str, str]:
+    out = {h: "" for h in MASTER_89_HEADERS}
     out["Contact ID"] = person.get("resourceName", "")
     out["Contact_ETag"] = person.get("etag", "")
-    sources = (person.get("metadata") or {}).get("sources") or []
-    out["Last Updated Google Contacts"] = next((s.get("updateTime", "") for s in sources if s.get("updateTime")), "")
 
     n = (person.get("names") or [{}])[0]
     out["First Name"] = n.get("givenName", "")
@@ -111,293 +125,227 @@ def person_to_full_dict(person: Dict[str, Any], group_map: Dict[str, str]) -> Di
 
     out["Nickname"] = ((person.get("nicknames") or [{}])[0]).get("value", "")
     out["File As"] = ((person.get("fileAses") or [{}])[0]).get("value", "")
-    g = (person.get("genders") or [{}])[0]
-    out["Gender"] = g.get("formattedValue") or g.get("value") or ""
-    out["Birthday"] = format_date_obj(((person.get("birthdays") or [{}])[0]).get("date"))
-    out["Notes"] = ((person.get("biographies") or [{}])[0]).get("value", "")
+    g0 = (person.get("genders") or [{}])[0]
+    out["Gender"] = g0.get("formattedValue") or g0.get("value", "")
 
-    org = (person.get("organizations") or [{}])[0]
-    out["Organization Name"] = org.get("name", "")
-    out["Organization Title"] = org.get("title", "")
-    out["Organization Department"] = org.get("department", "")
+    b0 = ((person.get("birthdays") or [{}])[0]).get("date")
+    bstr = format_people_date(b0)
+    out["Birthday"] = bstr
+    out["Master_Birthday"] = bstr
+    out["Birthday_Sync"] = "ON_PHONE_&_CALENDAR" if bstr else ""
 
-    emails = person.get("emailAddresses") or []
-    for i in range(1, 5):
-        em = emails[i - 1] if i - 1 < len(emails) else {}
-        out[f"E-mail {i} - Label"] = em.get("formattedType") or em.get("type") or ""
-        out[f"E-mail {i} - Value"] = em.get("value", "")
+    o0 = (person.get("organizations") or [{}])[0]
+    out["Organization Name"] = o0.get("name", "")
+    out["Organization Title"] = o0.get("title", "")
+    out["Organization Department"] = o0.get("department", "")
 
-    phones = person.get("phoneNumbers") or []
-    for i in range(1, 5):
-        ph = phones[i - 1] if i - 1 < len(phones) else {}
-        out[f"Phone {i} - Label"] = ph.get("formattedType") or ph.get("type") or ""
+    for i, ph in enumerate((person.get("phoneNumbers") or [])[:4], 1):
+        out[f"Phone {i} - Label"] = ph.get("formattedType") or ph.get("type", "")
         out[f"Phone {i} - Value"] = ph.get("value", "")
-
-    ims = person.get("imClients") or []
-    for i in range(1, 3):
-        im = ims[i - 1] if i - 1 < len(ims) else {}
-        out[f"IM {i} - Protocol"] = im.get("formattedProtocol") or im.get("protocol") or ""
+    for i, em in enumerate((person.get("emailAddresses") or [])[:4], 1):
+        out[f"E-mail {i} - Label"] = em.get("formattedType") or em.get("type", "")
+        out[f"E-mail {i} - Value"] = em.get("value", "")
+    for i, im in enumerate((person.get("imClients") or [])[:2], 1):
+        out[f"IM {i} - Protocol"] = im.get("formattedProtocol") or im.get("protocol", "")
         out[f"IM {i} - Handle"] = im.get("username", "")
-
-    addrs = person.get("addresses") or []
-    for i in range(1, 3):
-        ad = addrs[i - 1] if i - 1 < len(addrs) else {}
-        out[f"Address {i} - Label"] = ad.get("formattedType") or ad.get("type") or ""
-        out[f"Address {i} - Formatted"] = ad.get("formattedValue", "")
-        out[f"Address {i} - Street"] = ad.get("streetAddress", "")
-        out[f"Address {i} - City"] = ad.get("city", "")
-        out[f"Address {i} - PO Box"] = ad.get("poBox", "")
-        out[f"Address {i} - Region"] = ad.get("region", "")
-        out[f"Address {i} - Postal Code"] = ad.get("postalCode", "")
-        out[f"Address {i} - Country"] = ad.get("country", "")
-        out[f"Address {i} - Extended Address"] = ad.get("extendedAddress", "")
-
-    rels = person.get("relations") or []
-    for i in range(1, 4):
-        rl = rels[i - 1] if i - 1 < len(rels) else {}
-        out[f"Relation {i} - Label"] = rl.get("formattedType") or rl.get("type") or ""
+    for i, ad in enumerate((person.get("addresses") or [])[:2], 1):
+        pfx = f"Address {i} - "
+        out[pfx + "Label"] = ad.get("formattedType") or ad.get("type", "")
+        out[pfx + "Formatted"] = ad.get("formattedValue", "")
+        out[pfx + "Street"] = ad.get("streetAddress", "")
+        out[pfx + "City"] = ad.get("city", "")
+        out[pfx + "PO Box"] = ad.get("poBox", "")
+        out[pfx + "Region"] = ad.get("region", "")
+        out[pfx + "Postal Code"] = ad.get("postalCode", "")
+        out[pfx + "Country"] = ad.get("country", "")
+        out[pfx + "Extended Address"] = ad.get("extendedAddress", "")
+    for i, rl in enumerate((person.get("relations") or [])[:3], 1):
+        out[f"Relation {i} - Label"] = rl.get("formattedType") or rl.get("type", "")
         out[f"Relation {i} - Value"] = rl.get("person", "")
-
-    urls = person.get("urls") or []
-    for i in range(1, 6):
-        u = urls[i - 1] if i - 1 < len(urls) else {}
-        out[f"Website {i} - Label"] = u.get("formattedType") or u.get("type") or ""
+    for i, u in enumerate((person.get("urls") or [])[:5], 1):
+        out[f"Website {i} - Label"] = u.get("formattedType") or u.get("type", "")
         out[f"Website {i} - Value"] = u.get("value", "")
-
-    evs = person.get("events") or []
-    for i in range(1, 3):
-        ev = evs[i - 1] if i - 1 < len(evs) else {}
-        out[f"Event {i} - Label"] = ev.get("formattedType") or ev.get("type") or ""
-        out[f"Event {i} - Value"] = format_date_obj(ev.get("date"))
-
-    uds = person.get("userDefined") or []
-    for i in range(1, 3):
-        ud = uds[i - 1] if i - 1 < len(uds) else {}
+    for i, ev in enumerate((person.get("events") or [])[:2], 1):
+        out[f"Event {i} - Label"] = ev.get("formattedType") or ev.get("type", "")
+        out[f"Event {i} - Value"] = format_people_date(ev.get("date"))
+    for i, ud in enumerate((person.get("userDefined") or [])[:2], 1):
         out[f"Custom Field {i} - Key"] = ud.get("key", "")
         out[f"Custom Field {i} - Value"] = ud.get("value", "")
 
-    labels = []
-    for mem in person.get("memberships") or []:
-        cg = (mem.get("contactGroupMembership") or {}).get("contactGroupResourceName")
-        if cg and cg in group_map and group_map[cg] != "myContacts":
-            labels.append(group_map[cg])
-    out["Labels"] = " ::: ".join(labels)
-
-    full_name = " ".join(x for x in [out["First Name"], out["Middle Name"], out["Last Name"]] if x)
-    out["Country_Origin"] = extract_flag_iso2(full_name)
+    out["Notes"] = ((person.get("biographies") or [{}])[0]).get("value", "")
+    lbls = []
+    for mb in person.get("memberships") or []:
+        rn = (mb.get("contactGroupMembership") or {}).get("contactGroupResourceName", "")
+        if rn and rn in res_to_label and rn != "contactGroups/myContacts":
+            lbls.append(res_to_label[rn])
+    out["Labels"] = ", ".join(lbls)
     out["Sync_Action"] = "KEEP"
-    out["Sync_Hash"] = compute_sync_hash(out)
     return out
 
 
-def build_person_patch(row: Dict[str, Any], etag: str) -> Tuple[Dict[str, Any], List[str]]:
-    """Builds a full People API v1 updateContact payload + updatePersonFields mask."""
+def build_person_patch(row: Dict[str, str], label_to_res: Dict[str, str]) -> Dict[str, Any]:
     g = lambda k: str(row.get(k, "") or "").strip()
-    patch: Dict[str, Any] = {"etag": etag}
-    fields: List[str] = []
+    patch: Dict[str, Any] = {}
+    if g("Contact_ETag"):
+        patch["etag"] = g("Contact_ETag")
 
     patch["names"] = [{
-        "givenName": g("First Name"), "middleName": g("Middle Name"), "familyName": g("Last Name"),
-        "phoneticGivenName": g("Phonetic First Name"), "phoneticMiddleName": g("Phonetic Middle Name"),
-        "phoneticFamilyName": g("Phonetic Last Name"), "honorificPrefix": g("Name Prefix"), "honorificSuffix": g("Name Suffix"),
+        "givenName": g("First Name"),
+        "middleName": g("Middle Name"),
+        "familyName": g("Last Name"),
+        "phoneticGivenName": g("Phonetic First Name"),
+        "phoneticMiddleName": g("Phonetic Middle Name"),
+        "phoneticFamilyName": g("Phonetic Last Name"),
+        "honorificPrefix": g("Name Prefix"),
+        "honorificSuffix": g("Name Suffix"),
     }]
-    fields.append("names")
+    patch["nicknames"] = [{"value": g("Nickname")}] if g("Nickname") else []
+    patch["fileAses"] = [{"value": g("File As")}] if g("File As") else []
+    patch["genders"] = [{"value": g("Gender")}] if g("Gender") else []
 
-    if g("Nickname"):
-        patch["nicknames"] = [{"value": g("Nickname")}]; fields.append("nicknames")
-    if g("File As"):
-        patch["fileAses"] = [{"value": g("File As")}]; fields.append("fileAses")
-    if g("Gender"):
-        patch["genders"] = [{"value": g("Gender")}]; fields.append("genders")
-    bday = parse_date_obj(g("Birthday"))
-    if bday:
-        patch["birthdays"] = [{"date": bday}]; fields.append("birthdays")
-    if g("Notes"):
-        patch["biographies"] = [{"value": g("Notes"), "contentType": "TEXT_PLAIN"}]; fields.append("biographies")
-    if g("Organization Name") or g("Organization Title") or g("Organization Department"):
-        patch["organizations"] = [{"name": g("Organization Name"), "title": g("Organization Title"), "department": g("Organization Department")}]
-        fields.append("organizations")
+    # Master_Birthday <-> Birthday_Sync calendar toggle
+    bday_sync = g("Birthday_Sync")
+    bday_str = "" if bday_sync == "SHEET_ONLY_HIDDEN" else (g("Birthday") or g("Master_Birthday"))
+    b_obj = parse_date_to_people_obj(bday_str)
+    patch["birthdays"] = [{"date": b_obj}] if b_obj else []
 
-    emails = [{"type": g(f"E-mail {i} - Label") or "other", "value": g(f"E-mail {i} - Value")} for i in range(1, 5) if g(f"E-mail {i} - Value")]
-    if emails:
-        patch["emailAddresses"] = emails; fields.append("emailAddresses")
-
-    phones = [{"type": g(f"Phone {i} - Label") or "mobile", "value": g(f"Phone {i} - Value")} for i in range(1, 5) if g(f"Phone {i} - Value")]
-    if phones:
-        patch["phoneNumbers"] = phones; fields.append("phoneNumbers")
-
-    ims = [{"protocol": g(f"IM {i} - Protocol") or "other", "username": g(f"IM {i} - Handle")} for i in range(1, 3) if g(f"IM {i} - Handle")]
-    if ims:
-        patch["imClients"] = ims; fields.append("imClients")
-
-    addrs = []
+    patch["organizations"] = (
+        [{"name": g("Organization Name"), "title": g("Organization Title"), "department": g("Organization Department")}]
+        if any([g("Organization Name"), g("Organization Title"), g("Organization Department")])
+        else []
+    )
+    patch["phoneNumbers"] = [
+        {"type": g(f"Phone {i} - Label") or "mobile", "value": g(f"Phone {i} - Value")}
+        for i in range(1, 5) if g(f"Phone {i} - Value")
+    ]
+    patch["emailAddresses"] = [
+        {"type": g(f"E-mail {i} - Label") or "home", "value": g(f"E-mail {i} - Value")}
+        for i in range(1, 5) if g(f"E-mail {i} - Value")
+    ]
+    patch["imClients"] = [
+        {"protocol": g(f"IM {i} - Protocol") or "other", "username": g(f"IM {i} - Handle")}
+        for i in range(1, 3) if g(f"IM {i} - Handle")
+    ]
+    patch["addresses"] = []
     for i in range(1, 3):
-        if g(f"Address {i} - Street") or g(f"Address {i} - City") or g(f"Address {i} - Formatted"):
-            addrs.append({
-                "type": g(f"Address {i} - Label") or "home",
-                "streetAddress": g(f"Address {i} - Street"),
-                "city": g(f"Address {i} - City"),
-                "poBox": g(f"Address {i} - PO Box"),
-                "region": g(f"Address {i} - Region"),
-                "postalCode": g(f"Address {i} - Postal Code"),
-                "country": g(f"Address {i} - Country"),
-                "extendedAddress": g(f"Address {i} - Extended Address"),
+        pfx = f"Address {i} - "
+        if any([g(pfx + "Street"), g(pfx + "City"), g(pfx + "Country"), g(pfx + "Formatted")]):
+            patch["addresses"].append({
+                "type": g(pfx + "Label") or "home",
+                "streetAddress": g(pfx + "Street"),
+                "city": g(pfx + "City"),
+                "poBox": g(pfx + "PO Box"),
+                "region": g(pfx + "Region"),
+                "postalCode": g(pfx + "Postal Code"),
+                "country": g(pfx + "Country"),
+                "extendedAddress": g(pfx + "Extended Address"),
             })
-    if addrs:
-        patch["addresses"] = addrs; fields.append("addresses")
-
-    rels = [{"type": g(f"Relation {i} - Label") or "other", "person": g(f"Relation {i} - Value")} for i in range(1, 4) if g(f"Relation {i} - Value")]
-    if rels:
-        patch["relations"] = rels; fields.append("relations")
-
-    urls = [{"type": g(f"Website {i} - Label") or "other", "value": g(f"Website {i} - Value")} for i in range(1, 6) if g(f"Website {i} - Value")]
-    if urls:
-        patch["urls"] = urls; fields.append("urls")
-
-    evs = []
+    patch["relations"] = [
+        {"type": g(f"Relation {i} - Label") or "friend", "person": g(f"Relation {i} - Value")}
+        for i in range(1, 4) if g(f"Relation {i} - Value")
+    ]
+    patch["urls"] = [
+        {"type": g(f"Website {i} - Label") or "other", "value": g(f"Website {i} - Value")}
+        for i in range(1, 6) if g(f"Website {i} - Value")
+    ]
+    patch["events"] = []
     for i in range(1, 3):
-        d = parse_date_obj(g(f"Event {i} - Value"))
-        if d:
-            evs.append({"type": g(f"Event {i} - Label") or "other", "date": d})
-    if evs:
-        patch["events"] = evs; fields.append("events")
+        ev_d = parse_date_to_people_obj(g(f"Event {i} - Value"))
+        if ev_d:
+            patch["events"].append({"type": g(f"Event {i} - Label") or "other", "date": ev_d})
+    patch["userDefined"] = [
+        {"key": g(f"Custom Field {i} - Key"), "value": g(f"Custom Field {i} - Value")}
+        for i in range(1, 3) if g(f"Custom Field {i} - Key") or g(f"Custom Field {i} - Value")
+    ]
+    patch["biographies"] = [{"value": g("Notes"), "contentType": "TEXT_PLAIN"}] if g("Notes") else []
 
-    uds = [{"key": g(f"Custom Field {i} - Key"), "value": g(f"Custom Field {i} - Value")} for i in range(1, 3) if g(f"Custom Field {i} - Key") and g(f"Custom Field {i} - Value")]
-    if uds:
-        patch["userDefined"] = uds; fields.append("userDefined")
-
-    return patch, fields
-
-
-def load_oauth_cfg(creds_path: Path) -> Dict[str, str]:
-    raw = json.loads(creds_path.read_text(encoding="utf-8"))
-    cfg = raw.get("web") or raw.get("installed") or raw
-    redirects = cfg.get("redirect_uris") or ["http://localhost:8766"]
-    return {"client_id": cfg["client_id"], "client_secret": cfg["client_secret"], "redirect_uri": redirects[0]}
+    memberships = [{"contactGroupMembership": {"contactGroupResourceName": "contactGroups/myContacts"}}]
+    for lbl in [s.strip() for s in g("Labels").split(",") if s.strip()]:
+        rn = label_to_res.get(lbl.lower())
+        if rn and rn != "contactGroups/myContacts":
+            memberships.append({"contactGroupMembership": {"contactGroupResourceName": rn}})
+    patch["memberships"] = memberships
+    return patch
 
 
-def _http_json(method: str, url: str, token: Optional[str] = None, body: Any = None, form: bool = False) -> Tuple[int, Dict[str, Any]]:
-    headers = {"Accept": "application/json"}
-    if token:
-        headers["Authorization"] = f"Bearer {token}"
-    data = None
-    if body is not None:
-        if form:
-            headers["Content-Type"] = "application/x-www-form-urlencoded"
-            data = urllib.parse.urlencode(body).encode("utf-8")
+def compute_sync_hash(row: Dict[str, str]) -> str:
+    skip = {"Last Updated Sheet", "Last Updated Google Contacts", "Contact_ETag", "Sync_Direction_Lock", "Sync_Hash"}
+    payload = "|".join(str(row.get(h, "") or "").strip() for h in MASTER_89_HEADERS if h not in skip)
+    return hashlib.md5(payload.encode("utf-8")).hexdigest()[:12]
+
+
+def get_people_service(creds_path: Path, token_path: Path):
+    from google.auth.transport.requests import Request
+    from google.oauth2.credentials import Credentials
+    from google_auth_oauthlib.flow import InstalledAppFlow
+    from googleapiclient.discovery import build
+
+    creds = None
+    if token_path.exists():
+        creds = Credentials.from_authorized_user_file(str(token_path), PEOPLE_SCOPES)
+    if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
         else:
-            headers["Content-Type"] = "application/json"
-            data = json.dumps(body).encode("utf-8")
-    req = urllib.request.Request(url, data=data, headers=headers, method=method)
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            raw = resp.read().decode("utf-8")
-            return resp.status, (json.loads(raw) if raw.strip() else {})
-    except urllib.error.HTTPError as e:
-        raw = e.read().decode("utf-8", errors="ignore")
-        try:
-            return e.code, json.loads(raw)
-        except Exception:
-            return e.code, {"raw": raw}
-
-
-def get_access_token(cfg: Dict[str, str], token_path: Path, auth_code: Optional[str] = None) -> str:
-    if auth_code:
-        code = auth_code.strip()
-        if code.startswith("http"):
-            code = urllib.parse.parse_qs(urllib.parse.urlparse(code).query)["code"][0]
-        _, tok = _http_json("POST", OAUTH_TOKEN_URL, body={
-            "code": code, "client_id": cfg["client_id"], "client_secret": cfg["client_secret"],
-            "redirect_uri": cfg["redirect_uri"], "grant_type": "authorization_code",
-        }, form=True)
+            flow = InstalledAppFlow.from_client_secrets_file(str(creds_path), PEOPLE_SCOPES)
+            creds = flow.run_local_server(port=0)
         token_path.parent.mkdir(parents=True, exist_ok=True)
-        token_path.write_text(json.dumps(tok, indent=2), encoding="utf-8")
-        return tok["access_token"]
-    tok = json.loads(token_path.read_text(encoding="utf-8"))
-    if tok.get("refresh_token"):
-        _, ref = _http_json("POST", OAUTH_TOKEN_URL, body={
-            "client_id": cfg["client_id"], "client_secret": cfg["client_secret"],
-            "refresh_token": tok["refresh_token"], "grant_type": "refresh_token",
-        }, form=True)
-        tok["access_token"] = ref["access_token"]
-        token_path.write_text(json.dumps(tok, indent=2), encoding="utf-8")
-    return tok["access_token"]
+        token_path.write_text(creds.to_json())
+    return build("people", "v1", credentials=creds)
 
 
-def delete_contact_safe(access_token: str, resource_name: str) -> bool:
-    url = f"{PEOPLE_BASE}/{resource_name}:deleteContact"
-    for attempt in range(4):
-        status, resp = _http_json("DELETE", url, token=access_token)
-        if status in (200, 204, 404):
-            return True
-        if status == 429 or status >= 500:
-            time.sleep(0.5 * (2 ** attempt))
+def execute_vault_purge_batch(service, resource_names: List[str], confirm: bool) -> int:
+    if not confirm:
+        print(f"[DRY-RUN] {len(resource_names)} contacts queued for PURGE_TO_VAULT / UNSYNC_PHONE_ONLY. Pass --confirm-vault to execute.")
+        return 0
+    capped = resource_names[:MAX_VAULT_ACTIONS_PER_RUN]
+    deleted = 0
+    for rn in capped:
+        if not rn.startswith("people/"):
             continue
-        raise RuntimeError(f"deleteContact failed ({status}) for {resource_name}: {resp}")
-    return False
+        service.people().deleteContact(resourceName=rn).execute()
+        deleted += 1
+        time.sleep(API_PACE_SECONDS)
+    print(f"Vault/unsync delete executed cleanly: {deleted} contacts removed from Google Contacts (cap {MAX_VAULT_ACTIONS_PER_RUN}/run).")
+    return deleted
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser(description="LifeOS CRM_CORE Full-Field People API v1 Sync & Safe Bulk Purge.")
-    parser.add_argument("--creds", type=Path, default=DEFAULT_CREDS)
-    parser.add_argument("--token", type=Path, default=DEFAULT_TOKEN)
-    parser.add_argument("--auth-url", action="store_true")
-    parser.add_argument("--auth-code")
-    parser.add_argument("--pull", action="store_true", help="Pull all Google Contacts with 100% People API v1 fields")
-    parser.add_argument("--purge-json", type=Path, help="JSON list of {row_num, resourceName} pre-archived to PURGE_ARCHIVE_LOG")
-    parser.add_argument("--confirm-purge", action="store_true", help="Required safety flag to execute People API deleteContact")
-    parser.add_argument("--export-json", type=Path, help="Write full pulled contact dicts or confirmed purge IDs to JSON")
+def main():
+    parser = argparse.ArgumentParser(description="LifeOS v3.2 Full People API v1 Phonebook & Vault CLI")
+    parser.add_argument("--creds", default=".secrets/google_contacts_credentials.json")
+    parser.add_argument("--token", default=".secrets/google_contacts_token.json")
+    parser.add_argument("--purge-json", help="Path to JSON array of people/c... resourceNames (already archived to Purged_Contacts_Vault)")
+    parser.add_argument("--confirm-vault", action="store_true", help="Required flag to execute live Google Contacts deletions")
+    parser.add_argument("--check-schema", action="store_true", help="Verify 89-column Master_Contacts_Sync schema contract")
     args = parser.parse_args()
 
-    cfg = load_oauth_cfg(args.creds)
-    if args.auth_url:
-        qs = urllib.parse.urlencode({
-            "client_id": cfg["client_id"], "redirect_uri": cfg["redirect_uri"],
-            "response_type": "code", "scope": " ".join(SCOPES), "access_type": "offline", "prompt": "consent",
-        })
-        print(f"{OAUTH_AUTH_URL}?{qs}")
-        return 0
+    if args.check_schema:
+        assert len(MASTER_89_HEADERS) == 89, f"Expected 89 headers, got {len(MASTER_89_HEADERS)}"
+        print(json.dumps({
+            "status": "OK",
+            "master_columns": len(MASTER_89_HEADERS),
+            "master_ss_id": MASTER_SS_ID,
+            "vault_ss_id": VAULT_SS_ID,
+            "core_crm_ss_id": CORE_CRM_SS_ID,
+            "notebooklm_ss_id": NOTEBOOKLM_SS_ID,
+            "max_vault_actions_per_run": MAX_VAULT_ACTIONS_PER_RUN,
+        }, indent=2))
+        return
 
-    token = get_access_token(cfg, args.token, args.auth_code)
+    creds_path = Path(args.creds)
+    token_path = Path(args.token)
+    if not creds_path.exists() and not token_path.exists():
+        print(f"ERROR: Missing OAuth credentials at {creds_path}. Place Google Cloud OAuth client secret in git-ignored .secrets/.")
+        sys.exit(1)
 
+    service = get_people_service(creds_path, token_path)
     if args.purge_json:
-        records = json.loads(args.purge_json.read_text(encoding="utf-8"))
-        capped = records[:MAX_DELETES_PER_RUN]
-        print(f"Marked for purge: {len(records)} | Batch cap: {len(capped)} (max {MAX_DELETES_PER_RUN}/run)")
-        if not args.confirm_purge:
-            print("Dry-run only. Re-run with --confirm-purge AFTER archiving rows to PURGE_ARCHIVE_LOG.")
-            return 0
-        confirmed = []
-        for rec in capped:
-            res = str(rec.get("resourceName", "")).strip()
-            if res.startswith("people/") and delete_contact_safe(token, res):
-                confirmed.append(rec)
-                time.sleep(DELETE_PACE_SECS)
-        print(f"Confirmed deleted from Google Contacts: {len(confirmed)}/{len(capped)}")
-        if args.export_json:
-            args.export_json.write_text(json.dumps(confirmed, indent=2), encoding="utf-8")
-        return 0
+        rns = json.loads(Path(args.purge_json).read_text())
+        execute_vault_purge_batch(service, rns, args.confirm_vault)
+        return
 
-    if args.pull:
-        _, g_resp = _http_json("GET", f"{PEOPLE_BASE}/contactGroups?pageSize=200", token=token)
-        group_map = {g["resourceName"]: g["name"] for g in g_resp.get("contactGroups", [])}
-        items = []
-        page_token = None
-        while True:
-            params = {"personFields": FULL_PERSON_FIELDS, "pageSize": "500"}
-            if page_token:
-                params["pageToken"] = page_token
-            _, resp = _http_json("GET", f"{PEOPLE_BASE}/people/me/connections?{urllib.parse.urlencode(params)}", token=token)
-            for p in resp.get("connections", []):
-                items.append(person_to_full_dict(p, group_map))
-            page_token = resp.get("nextPageToken")
-            if not page_token:
-                break
-        print(f"Pulled {len(items)} contacts with 100% People API v1 fields.")
-        if args.export_json:
-            args.export_json.write_text(json.dumps(items, indent=2), encoding="utf-8")
-    return 0
+    print("People API v1 client authenticated successfully. Use --purge-json or Apps Script menus for interactive two-way sync.")
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()

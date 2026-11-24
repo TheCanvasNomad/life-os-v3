@@ -1,0 +1,143 @@
+{
+  "registry_key": "ID_NOTEBOOKLM_SOCIAL",
+  "title": "\ud83d\udcd3 NotebookLM_Social_Workbook",
+  "spreadsheet_id": "1gwnGKdfZrtJi6QwEWniPMli6i-Se8Fi2pwjX1ebaaPs",
+  "url": "https://docs.google.com/spreadsheets/d/1gwnGKdfZrtJi6QwEWniPMli6i-Se8Fi2pwjX1ebaaPs/edit",
+  "time_zone": "Etc/GMT",
+  "snapshot_utc": "2026-11-24T01:35:37Z",
+  "tab_count": 5,
+  "tabs": [
+    {
+      "title": "ACTIVE_SOCIAL_PROFILES",
+      "sheet_id": 0,
+      "index": 0,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 1500,
+      "col_count": 11,
+      "header_row_index": 1,
+      "headers": [
+        "Contact_Key",
+        "Full_Name",
+        "Sphere",
+        "Tags",
+        "Status",
+        "Country",
+        "Organization",
+        "How_Met",
+        "Cross_Brick_Context_Rollup",
+        "Manual_Bio_&_Story_Notes",
+        "Personal_Context_&_Interests"
+      ],
+      "row_1": [
+        "Contact_Key",
+        "Full_Name",
+        "Sphere",
+        "Tags",
+        "Status",
+        "Country",
+        "Organization",
+        "How_Met",
+        "Cross_Brick_Context_Rollup",
+        "Manual_Bio_&_Story_Notes",
+        "Personal_Context_&_Interests"
+      ]
+    },
+    {
+      "title": "CROSS_BRICK_NETWORK_DIGEST",
+      "sheet_id": 1003068960,
+      "index": 1,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 65,
+      "col_count": 8,
+      "header_row_index": 1,
+      "headers": [
+        "\ud83d\udcd3 LIFEOS v3.0 \u2014 NOTEBOOKLM CROSS-BRICK NETWORK DIGEST"
+      ],
+      "row_1": [
+        "\ud83d\udcd3 LIFEOS v3.0 \u2014 NOTEBOOKLM CROSS-BRICK NETWORK DIGEST"
+      ]
+    },
+    {
+      "title": "MODULE_META",
+      "sheet_id": 1898832061,
+      "index": 2,
+      "hidden": true,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "header_row_index": 1,
+      "headers": [
+        "Field",
+        "Value",
+        "Notes"
+      ],
+      "row_1": [
+        "Field",
+        "Value",
+        "Notes"
+      ]
+    },
+    {
+      "title": "CONTEXT_IN",
+      "sheet_id": 1278146471,
+      "index": 3,
+      "hidden": true,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Live_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Freshness_Status",
+        "Hub_Auth_Trigger"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Live_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Freshness_Status",
+        "Hub_Auth_Trigger"
+      ]
+    },
+    {
+      "title": "SIGNALS_OUT",
+      "sheet_id": 1971585536,
+      "index": 4,
+      "hidden": true,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "header_row_index": 1,
+      "headers": [
+        "Signal_Key",
+        "Source_Brick",
+        "Glyph",
+        "Domain_Pillar",
+        "Raw_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated",
+        "TTL_Hours",
+        "Notes"
+      ],
+      "row_1": [
+        "Signal_Key",
+        "Source_Brick",
+        "Glyph",
+        "Domain_Pillar",
+        "Raw_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated",
+        "TTL_Hours",
+        "Notes"
+      ]
+    }
+  ]
+}

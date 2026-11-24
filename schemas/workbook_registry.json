@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-24T00:38:07Z",
+  "last_updated_utc": "2026-11-24T01:35:20Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2032,36 +2032,6 @@
       "linked_form_url": "https://docs.google.com/forms/d/1wJV0-OBFUHnCQVK9M3-nKh1EX_eLh842HAkMcU9b77U/viewform",
       "linked_form_edit_url": "https://docs.google.com/forms/d/1wJV0-OBFUHnCQVK9M3-nKh1EX_eLh842HAkMcU9b77U/edit"
     },
-    "ID_CRM_CORE": {
-      "title": "\ud83d\udcc7 CRM_CORE",
-      "spreadsheet_id": "1VtJ4_beXHe8N_zfmcB5yBTPm0App8prl3IgY7CMeU8g",
-      "url": "https://docs.google.com/spreadsheets/d/1VtJ4_beXHe8N_zfmcB5yBTPm0App8prl3IgY7CMeU8g/edit",
-      "drive_folder_id": "1cCrkeThYdMl4BOTI0ww8dhSxlpBPE53J",
-      "domain": "Pillar 3 / Two-Way Google Contacts Phonebook (Layer 1+2)",
-      "cadence": "Two-Way People API v1 Sync",
-      "status": "ACTIVE",
-      "universal_brick_compliant": true,
-      "privacy_mode": "STRICT_AGGREGATE_ONLY_NO_PII_EXPORT",
-      "live_tabs": [
-        "CRM_DASHBOARD",
-        "Google Contacts Sync Master",
-        "MODULE_META",
-        "CONTEXT_IN",
-        "SIGNALS_OUT",
-        "PURGE_ARCHIVE_LOG"
-      ],
-      "all_tabs": [
-        "CRM_DASHBOARD",
-        "Google Contacts Sync Master",
-        "MODULE_META",
-        "CONTEXT_IN",
-        "SIGNALS_OUT",
-        "PURGE_ARCHIVE_LOG"
-      ],
-      "tab_count": 6,
-      "last_snapshot_utc": "2026-11-24T00:38:07Z",
-      "snapshot_file": "schemas/live_snapshots/ID_CRM_CORE.json"
-    },
     "ID_PILLAR_3": {
       "title": "\ud83d\udc9e Pillar_3_Relationships",
       "spreadsheet_id": "1hi-hShSgH9X8i5NpCmh_a5HfuxevrxWkFDuJmbB1D0k",
@@ -2137,6 +2107,135 @@
       "tab_count": 1,
       "last_snapshot_utc": "2026-11-24T00:16:30Z",
       "snapshot_file": "schemas/live_snapshots/ID_RAW_EVENTLOG.json"
+    },
+    "ID_MASTER_CONTACTS_SYNC": {
+      "title": "\ud83d\udcf1 Master_Contacts_Sync",
+      "spreadsheet_id": "1VtJ4_beXHe8N_zfmcB5yBTPm0App8prl3IgY7CMeU8g",
+      "url": "https://docs.google.com/spreadsheets/d/1VtJ4_beXHe8N_zfmcB5yBTPm0App8prl3IgY7CMeU8g/edit",
+      "drive_folder_id": "1cCrkeThYdMl4BOTI0ww8dhSxlpBPE53J",
+      "domain": "Utility / Pure Two-Way Google Contacts Phonebook (People API v1, Layer 1+2)",
+      "cadence": "Two-Way People API v1 Sync",
+      "status": "ACTIVE",
+      "universal_brick_compliant": true,
+      "privacy_mode": "STRICT_AGGREGATE_ONLY_NO_PII_EXPORT",
+      "search_aliases": [
+        "Master_Contacts_Sync",
+        "CRM_CORE",
+        "My Main Contact List for CRM"
+      ],
+      "live_tabs": [
+        "Google Contacts Sync Master",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "all_tabs": [
+        "Google Contacts Sync Master",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "tab_count": 4,
+      "last_snapshot_utc": "2026-11-24T01:35:20Z",
+      "snapshot_file": "schemas/live_snapshots/ID_MASTER_CONTACTS_SYNC.json"
+    },
+    "ID_PURGED_CONTACTS_VAULT": {
+      "title": "\ud83d\uddc4\ufe0f Purged_Contacts_Vault",
+      "spreadsheet_id": "1eoLRVMOxdpHx3YkkWnfkOfowhTH8fbam8R2jDzUJB84",
+      "url": "https://docs.google.com/spreadsheets/d/1eoLRVMOxdpHx3YkkWnfkOfowhTH8fbam8R2jDzUJB84/edit",
+      "drive_folder_id": "1cCrkeThYdMl4BOTI0ww8dhSxlpBPE53J",
+      "domain": "Utility / Standalone Cold Historical Contacts Archive Vault (Layer 1+2)",
+      "cadence": "On-Demand Purge & Restore",
+      "status": "ACTIVE",
+      "universal_brick_compliant": true,
+      "privacy_mode": "STRICT_AGGREGATE_ONLY_NO_PII_EXPORT",
+      "live_tabs": [
+        "VAULT_SUMMARY",
+        "PURGED_LEDGER",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "all_tabs": [
+        "VAULT_SUMMARY",
+        "PURGED_LEDGER",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "tab_count": 5,
+      "last_snapshot_utc": "2026-11-24T01:35:20Z",
+      "snapshot_file": "schemas/live_snapshots/ID_PURGED_CONTACTS_VAULT.json"
+    },
+    "ID_CORE_CRM": {
+      "title": "\ud83d\udcc7 Core_CRM",
+      "spreadsheet_id": "1PKYbEie4QUgSqqTVW1Y2UVjBgRStz4Aok2BhCWCvU5M",
+      "url": "https://docs.google.com/spreadsheets/d/1PKYbEie4QUgSqqTVW1Y2UVjBgRStz4Aok2BhCWCvU5M/edit",
+      "drive_folder_id": "1cCrkeThYdMl4BOTI0ww8dhSxlpBPE53J",
+      "domain": "Pillar 3 / Standalone Operational CRM & Symbiotic Cross-Brick Social Graph (Layer 2)",
+      "cadence": "Dynamic Taxonomy, Funnel, Pipeline & Cross-Brick Symbiosis",
+      "status": "ACTIVE",
+      "universal_brick_compliant": true,
+      "privacy_mode": "STRICT_AGGREGATE_ONLY_NO_PII_EXPORT",
+      "search_aliases": [
+        "Core_CRM",
+        "CRM_CORE"
+      ],
+      "live_tabs": [
+        "CRM_DASHBOARD",
+        "CONTACT_DIRECTORY",
+        "TAXONOMY_MATRIX",
+        "ENTITY_LINKS",
+        "PIPELINE_&_DEALS",
+        "INTERACTION_LOG",
+        "REF_CROSS_BRICKS",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "all_tabs": [
+        "CRM_DASHBOARD",
+        "CONTACT_DIRECTORY",
+        "TAXONOMY_MATRIX",
+        "ENTITY_LINKS",
+        "PIPELINE_&_DEALS",
+        "INTERACTION_LOG",
+        "REF_CROSS_BRICKS",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "tab_count": 10,
+      "last_snapshot_utc": "2026-11-24T01:35:20Z",
+      "snapshot_file": "schemas/live_snapshots/ID_CORE_CRM.json"
+    },
+    "ID_NOTEBOOKLM_SOCIAL": {
+      "title": "\ud83d\udcd3 NotebookLM_Social_Workbook",
+      "spreadsheet_id": "1gwnGKdfZrtJi6QwEWniPMli6i-Se8Fi2pwjX1ebaaPs",
+      "url": "https://docs.google.com/spreadsheets/d/1gwnGKdfZrtJi6QwEWniPMli6i-Se8Fi2pwjX1ebaaPs/edit",
+      "drive_folder_id": "1cCrkeThYdMl4BOTI0ww8dhSxlpBPE53J",
+      "domain": "Synthesis / Lean AI & Manual Social Story Editing Workbook",
+      "cadence": "Curated Active Sync from Core_CRM",
+      "status": "ACTIVE",
+      "universal_brick_compliant": true,
+      "privacy_mode": "STRICT_AGGREGATE_ONLY_NO_PII_EXPORT",
+      "live_tabs": [
+        "ACTIVE_SOCIAL_PROFILES",
+        "CROSS_BRICK_NETWORK_DIGEST",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "all_tabs": [
+        "ACTIVE_SOCIAL_PROFILES",
+        "CROSS_BRICK_NETWORK_DIGEST",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "tab_count": 5,
+      "last_snapshot_utc": "2026-11-24T01:35:20Z",
+      "snapshot_file": "schemas/live_snapshots/ID_NOTEBOOKLM_SOCIAL.json"
     }
   },
   "unmapped_discovered": [
