@@ -46,6 +46,18 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | [ ] | `MODULE_REGISTRY!J32` | **📓 NotebookLM_Social_Workbook** | `1gwnGKdfZrtJi6QwEWniPMli6i-Se8Fi2pwjX1ebaaPs` | Curated AI Social Profile count (`NBLM_CURATED_PROFILES`) |
 | [ ] | `MODULE_REGISTRY!J33` | **🏆 Pillar_5_Experience_Legacy** | `1AdMP-VKzTPNbSSTUoLrbqAjtBdYlf4mzLYwyWbaUrQw` | All 6 `P5_*` signals (`P5_EXPERIENCE_BASE_SCORE`, `P5_EPIC_QUEST_COMPLETION_PCT`, `P5_ACTIVE_EPICS_COUNT`, `P5_BLUEPRINT_PROGRESS_PCT`, `P5_TOTAL_QUEST_XP`, `P5_LPD_GLOBAL_MULT`) -> `MASLOW_ENGINE` L5, `SWORD_VIEW` Point & Pommel |
 | [ ] | `MODULE_REGISTRY!J34` | **🛠️ Pillar_4_Skills_Mission** | `1PHTTv1Qpdy5JAyLarOaXYAIsNIuAk8YFBw9GqvIslT0` | All 6 `P4_*` signals (`P4_SKILLS_BASE_SCORE`, `P4_IKIGAI_SCORE`, `P4_AVG_SKILL_LEVEL`, `P4_PERSPECTIVE_TAKING_LVL`, `P4_PSYOP_RECOGNITION_LVL`, `P4_FLOW_SESSION_SCORE`) -> `AQAL_VIEW` UR & LR, `MASLOW_ENGINE` L4 Esteem, `SWORD_VIEW` Point & Edge |
+| [ ] | `MODULE_REGISTRY!J35` | **💰 Pillar_2_Wealth** | `1NcqV_nHIXuyGz6SuwyXNZbh3AtazGOkuZcIZlTBxw5c` | All 6 strictly anonymized `P2_*` signals (`P2_WEALTH_BASE_SCORE`, `P2_FIRE_SCORE`, `P2_SAVINGS_RATE_PCT`, `P2_RUNWAY_MONTHS`, `P2_FINANCIAL_LEVEL`, `P2_SCARCITY_STATUS`) -> `MASLOW_ENGINE` L2 Safety (`80% P2 + 20% Stress Resilience`), `AQAL_VIEW` LR `"ITS"` (`RULES_ENGINE!A67`), `SWORD_VIEW` Quillons, `RULES_ENGINE` `COND_SCARCITY` & `[Freedom]` |
+
+---
+
+## 1C. Pillar 2 Wealth & Treasury (`💰 Pillar_2_Wealth`) Inbound Authorizations
+
+Approve these 2 one-time `#REF!` cells to complete the live closed loop across `RAW_DATA_FinancialReview`, `💰 Pillar_2_Wealth`, and `LifeOS_feed_hub`:
+
+| Done | Workbook & Cell | Direct Tab Link (Click cell -> Allow access) | Target Workbook | Unlocks |
+| :---: | :--- | :--- | :--- | :--- |
+| [ ] | **`💰 Pillar_2_Wealth` → `P2_CONFIG!I4`** | https://docs.google.com/spreadsheets/d/1NcqV_nHIXuyGz6SuwyXNZbh3AtazGOkuZcIZlTBxw5c/edit#gid=1101389747 | **RAW_DATA_FinancialReview** (`1xOFmsFQofqD0twsNOlLWIMe6buyn-du87n4M-fRyLZg`) | Live Financial Review & 40/20/20/20 Allocation submissions streaming into `IMPORTS`, `DATABASE`, `CALCULATIONS`, and `DASHBOARD` |
+| [ ] | **`💰 Pillar_2_Wealth` → `CONTEXT_IN!F2`** | https://docs.google.com/spreadsheets/d/1NcqV_nHIXuyGz6SuwyXNZbh3AtazGOkuZcIZlTBxw5c/edit#gid=111598942 | **LifeOS_feed_hub** (`1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U`) | Live Hub context (`P1_STRESS_7D_AVG`, `P1_HEALTH_BASE_SCORE`, `P4_IKIGAI_SCORE`, `P4_SKILLS_BASE_SCORE`, `P5_EPIC_QUEST_COMPLETION_PCT`) |
 
 ---
 

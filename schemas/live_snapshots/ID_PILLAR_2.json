@@ -1,0 +1,207 @@
+{
+  "registry_key": "ID_PILLAR_2",
+  "title": "\ud83d\udcb0 Pillar_2_Wealth",
+  "spreadsheet_id": "1NcqV_nHIXuyGz6SuwyXNZbh3AtazGOkuZcIZlTBxw5c",
+  "snapshot_utc": "2026-11-24T05:18:11Z",
+  "pii_policy": "ZERO_PII_HEADERS_ONLY",
+  "tab_count": 9,
+  "tabs": [
+    {
+      "title": "DASHBOARD",
+      "sheet_id": 573105234,
+      "index": 0,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 36,
+      "col_count": 14,
+      "headers_row_1": [
+        "\ud83d\udcb0 PILLAR 2: WEALTH & SOVEREIGN TREASURY HUD (LifeOS-v3)"
+      ]
+    },
+    {
+      "title": "ASSETS_LEDGER",
+      "sheet_id": 324749956,
+      "index": 1,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 120,
+      "col_count": 12,
+      "headers_row_1": [
+        "Bucket_40_20_20_20",
+        "Asset_Class",
+        "Asset_Name / Ticker",
+        "Platform / Custody",
+        "Total_Deposited_Capital",
+        "Current_Market_Value",
+        "Unrealized_Gain_Loss",
+        "ROI_Pct",
+        "Portfolio_Share_Pct",
+        "Liquidity_Tier",
+        "Last_Updated"
+      ]
+    },
+    {
+      "title": "DATABASE",
+      "sheet_id": 928020036,
+      "index": 2,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 200,
+      "col_count": 30,
+      "headers_row_1": [
+        "Timestamp",
+        "Date of this Financial Review",
+        "What is your current approximate Net Worth? ($)",
+        "What is your average monthly income? ($)",
+        "What are your average monthly expenses? ($)",
+        "Based on your income vs. expenses, what is your current cash flow status?",
+        "Did a capital event occur (deposit, withdrawal, reallocation)?",
+        "Capital Event Type",
+        "Asset Category Impacted",
+        "Amount (USD) for this event",
+        "Source Category (for Reallocation, if applicable)",
+        "Notes on this capital event (optional)",
+        "Primary Income Source / Vessel",
+        "High-Interest Consumer Debt Balance ($)",
+        "Net Monthly Surplus ($)",
+        "War Chest Allocation ($ \u2014 Target 40%)",
+        "The Canvas Nomad LLC Business Allocation ($ \u2014 Target 20%)",
+        "Global Travel / 7-by-40 Fund ($ \u2014 Target 20%)",
+        "Real Estate & Land Acquisition Fund ($ \u2014 Target 20%)",
+        "Liquid Emergency Runway Balance ($)",
+        "Baseline Monthly Living Cost Abroad ($)",
+        "Equities & Index Funds Value ($)",
+        "Crypto & DeFi Treasury Value ($)",
+        "Real Estate / Physical Land Equity ($)",
+        "Direct Philanthropic / Legacy Deployment ($)",
+        "Financial Stress Level (1-10)",
+        "3-Day Withdrawal Delay / Zero-Card Lock Honored?",
+        "Audit_Event_ID",
+        "Computed_Net_Surplus_USD"
+      ]
+    },
+    {
+      "title": "CALCULATIONS",
+      "sheet_id": 1366513085,
+      "index": 3,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 50,
+      "col_count": 8,
+      "headers_row_1": [
+        "Wealth_Base_Score (Formula Anchor)",
+        "Wealth_Base_Score (0\u2013100) \u2014 Canonical Pillar 2 Anchor (CALCULATIONS!A1)",
+        "Weighted composite across 5-Level Hierarchy of Financial Needs (30/25/20/15/10), auto-normalizing & blank-safe."
+      ]
+    },
+    {
+      "title": "P2_CONFIG",
+      "sheet_id": 1101389747,
+      "index": 4,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 14,
+      "headers_row_1": [
+        "\u2699\ufe0f PILLAR 2 WEALTH & TREASURY CONFIGURATION (P2_CONFIG)",
+        "",
+        "",
+        "",
+        "40/20/20/20 SOVEREIGN ALLOCATION MATRIX",
+        "",
+        "",
+        "",
+        "\ud83d\udd10 1-CLICK IMPORTRANGE AUTH ANCHORS"
+      ]
+    },
+    {
+      "title": "IMPORTS",
+      "sheet_id": 0,
+      "index": 5,
+      "hidden": true,
+      "sheet_type": "GRID",
+      "row_count": 500,
+      "col_count": 30,
+      "headers_row_1": [
+        "Timestamp",
+        "Date of this Financial Review",
+        "What is your current approximate Net Worth? ($)",
+        "What is your average monthly income? ($)",
+        "What are your average monthly expenses? ($)",
+        "Based on your income vs. expenses, what is your current cash flow status?",
+        "Did a capital event occur (deposit, withdrawal, reallocation)?",
+        "Capital Event Type",
+        "Asset Category Impacted",
+        "Amount (USD) for this event",
+        "Source Category (for Reallocation, if applicable)",
+        "Notes on this capital event (optional)",
+        "Primary Income Source / Vessel",
+        "High-Interest Consumer Debt Balance ($)",
+        "Net Monthly Surplus ($)",
+        "War Chest Allocation ($ \u2014 Target 40%)",
+        "The Canvas Nomad LLC Business Allocation ($ \u2014 Target 20%)",
+        "Global Travel / 7-by-40 Fund ($ \u2014 Target 20%)",
+        "Real Estate & Land Acquisition Fund ($ \u2014 Target 20%)",
+        "Liquid Emergency Runway Balance ($)",
+        "Baseline Monthly Living Cost Abroad ($)",
+        "Equities & Index Funds Value ($)",
+        "Crypto & DeFi Treasury Value ($)",
+        "Real Estate / Physical Land Equity ($)",
+        "Direct Philanthropic / Legacy Deployment ($)",
+        "Financial Stress Level (1-10)",
+        "3-Day Withdrawal Delay / Zero-Card Lock Honored?",
+        "Audit_Event_ID"
+      ]
+    },
+    {
+      "title": "MODULE_META",
+      "sheet_id": 1606300244,
+      "index": 6,
+      "hidden": true,
+      "sheet_type": "GRID",
+      "row_count": 30,
+      "col_count": 6,
+      "headers_row_1": [
+        "Meta_Key",
+        "Value",
+        "Notes"
+      ]
+    },
+    {
+      "title": "CONTEXT_IN",
+      "sheet_id": 111598942,
+      "index": 7,
+      "hidden": true,
+      "sheet_type": "GRID",
+      "row_count": 30,
+      "col_count": 8,
+      "headers_row_1": [
+        "Subscribed_Signal_Key",
+        "Source_Hub",
+        "Live_Value",
+        "Normalized_0_100",
+        "Hub_Status",
+        "Hub_Auth_Trigger"
+      ]
+    },
+    {
+      "title": "SIGNALS_OUT",
+      "sheet_id": 930613818,
+      "index": 8,
+      "hidden": true,
+      "sheet_type": "GRID",
+      "row_count": 30,
+      "col_count": 10,
+      "headers_row_1": [
+        "Signal_Key",
+        "Module_Name",
+        "Glyph",
+        "Domain",
+        "Raw_Value",
+        "Normalized_0_100",
+        "Signal_Status",
+        "Last_Updated"
+      ]
+    }
+  ]
+}

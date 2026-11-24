@@ -1,0 +1,49 @@
+{
+  "registry_key": "ID_RAW_FINANCIAL_REVIEW",
+  "title": "RAW_DATA_FinancialReview",
+  "spreadsheet_id": "1xOFmsFQofqD0twsNOlLWIMe6buyn-du87n4M-fRyLZg",
+  "snapshot_utc": "2026-11-24T05:18:14Z",
+  "pii_policy": "ZERO_PII_HEADERS_ONLY",
+  "tab_count": 1,
+  "tabs": [
+    {
+      "title": "Form Responses 1",
+      "sheet_id": 261597224,
+      "index": 0,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 101,
+      "col_count": 30,
+      "headers_row_1": [
+        "Timestamp",
+        "Date of this Financial Review",
+        "What is your current approximate Net Worth? ($)",
+        "What is your average monthly income? ($)",
+        "What are your average monthly expenses? ($)",
+        "Based on your income vs. expenses, what is your current cash flow status?",
+        "Did a capital event occur (deposit, withdrawal, reallocation)?",
+        "Capital Event Type",
+        "Asset Category Impacted",
+        "Amount (USD) for this event",
+        "Source Category (for Reallocation, if applicable)",
+        "Notes on this capital event (optional)",
+        "Primary Income Source / Vessel",
+        "High-Interest Consumer Debt Balance ($)",
+        "Net Monthly Surplus ($)",
+        "War Chest Allocation ($ \u2014 Target 40%)",
+        "The Canvas Nomad LLC Business Allocation ($ \u2014 Target 20%)",
+        "Global Travel / 7-by-40 Fund ($ \u2014 Target 20%)",
+        "Real Estate & Land Acquisition Fund ($ \u2014 Target 20%)",
+        "Liquid Emergency Runway Balance ($)",
+        "Baseline Monthly Living Cost Abroad ($)",
+        "Equities & Index Funds Value ($)",
+        "Crypto & DeFi Treasury Value ($)",
+        "Real Estate / Physical Land Equity ($)",
+        "Direct Philanthropic / Legacy Deployment ($)",
+        "Financial Stress Level (1-10)",
+        "3-Day Withdrawal Delay / Zero-Card Lock Honored?",
+        "Audit_Event_ID"
+      ]
+    }
+  ]
+}
