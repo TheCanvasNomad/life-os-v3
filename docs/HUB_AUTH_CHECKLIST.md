@@ -1,7 +1,7 @@
 # LifeOS-v3 Hub & Brick `IMPORTRANGE` Browser Authorization Checklist
 
 > **Why this checklist exists**: Google Sheets requires a one-time interactive browser click (**"Allow access"** on a `#REF!` cell) for each new cross-spreadsheet `IMPORTRANGE` connection. APIs and scripts cannot grant this permission on your behalf.  
-> **Last Audited**: `2026-11-24` (`🏅 Achievements_Engine_Brick` + Unified Main XP Bar & `PILLAR_XP_ABSORPTION` 9-Stream Delta Engine live — all 7 Pillars `P0`–`P6`, `BIO_CORE`, normalized 4-workbook CRM stack, `LifeOS_Master_Bus`, consolidated Travel/Bucket List silos, `🏅 Achievements_Engine_Brick`, and all Wave-1/Wave-2 Bricks standardized on the 9-column `SIGNALS_OUT` contract & wired live into `LifeOS_feed_hub` -> `SIGNAL_BUS` with **204 signals & 0 formula errors**!)
+> **Last Audited**: `2026-11-24` (209 Legacy Google Maps Reviews imported into `🌍 Travel_Tracker_Brick` + `🏅 Achievements_Engine_Brick` + Unified Main XP Bar & `PILLAR_XP_ABSORPTION` 9-Stream Delta Engine live — all 7 Pillars `P0`–`P6`, `BIO_CORE`, normalized 4-workbook CRM stack, `LifeOS_Master_Bus`, consolidated Travel/Bucket List silos, `🏅 Achievements_Engine_Brick`, and all Wave-1/Wave-2 Bricks standardized on the 9-column `SIGNALS_OUT` contract & wired live into `LifeOS_feed_hub` -> `SIGNAL_BUS` with **205 signals & 0 formula errors**!)
 
 ---
 
@@ -26,7 +26,7 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | [x] | `MODULE_REGISTRY!J12` | **Big_Five_OCEAN** | `12FwlHUeNWISYyiIVrASTDK6TlihFkfhVovIa4J2cObA` | **LIVE**: All 7 `OCEAN_*` signals |
 | [x] | `MODULE_REGISTRY!J13` | **MBTI_Cognitive_Stack** | `1uiQX7oyPcMAqovTBUkJBtbq7NSjWv45Lf0GQZza3TEw` | **LIVE**: `MBTI_TYPE_CODE`, `MBTI_COHERENCE_INDEX`, `MBTI_SHADOW_RISK` |
 | [ ] | `MODULE_REGISTRY!J14` | **Enneagram_Tritype_Engine** | `1nnu0Hw67g2OoAZiu0xmOALu3eFCgkKNL2M7gkv6-K3w` | `ENN_CORE_SIGNATURE`, `ENN_INTEGRATION_INDEX`, `ENN_DISINTEGRATION_RISK` |
-| [x] | `MODULE_REGISTRY!J15` | **Travel_Tracker_Brick** | `11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc` | **LIVE (`FRESH`)**: All 7 `TRAVEL_*` signals |
+| [x] | `MODULE_REGISTRY!J15` | **Travel_Tracker_Brick** | `11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc` | **LIVE (`FRESH`)**: All 12 `TRAVEL_*` & `BUCKET_LIST_*` signals (incl. `TRAVEL_REVIEWS_COUNT = 209`, `TRAVEL_AVG_RATING = 4.94`, `TRAVEL_REVIEWS_PENDING_LINKS = 209`) |
 | [x] | `MODULE_REGISTRY!J16` | **Maslow_Hierarchy_Spoke** | `1M-F-p5IqYc0JMtJ-20bOGUvQgP1-63Ta3hryES_jHqg` | **LIVE (`FRESH`)**: All 5 `MASLOW_*` signals |
 | [x] | `MODULE_REGISTRY!J17` | **Saboteur_PQ** | `1NhqPJDFOp91qOp5Y9hPe0rIuqECKU_b08cZYXZAqxeE` | Pre-authorized (awaiting `SIGNALS_OUT` rollout) |
 | [x] | `MODULE_REGISTRY!J18` | **Grit_Assessment** | `1kCwx6wtYksmt92M3Izwe6oEIVS5uDv3kCLIzCBOJG-s` | **LIVE (`FRESH`)**: All 4 `GRIT_*` signals |
@@ -200,7 +200,7 @@ The `#REF!` `A2` spill collisions on `SRC_XP_HUB`, `SRC_KABBALAH`, and `SRC_16PF
 ## 4. Post-Approval Verification
 
 Once you finish clicking **"Allow access"** above:
-1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **204** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
+1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **205** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
 2. Open **`LifeOS_feed_hub` -> `AQAL_VIEW`** (`#gid=168404271`): confirm all 4 Quadrants (`UL`, `UR`, `LL`, `LR`) show live composite scores, `SPARKLINE` gauges, `Quadrant Balance Score`, `Achievements AQAL Overlay`, and a live `Corrective Quest Directive`.
 3. Open any Brick's **`CONTEXT_IN`** tab from Section 2: confirm `F3:F5` switches from `"Click F2 -> Allow access"` to `"AUTHORIZED"` and Columns `B:E` stream live Hub context.
 4. Open **`XP Leveler` -> `PILLAR_XP_ABSORPTION`** (`#gid=1096501556`): verify all **9** Pillar & Brick XP streams (`P0`–`P6`, `Travel_Tracker`, `Achievements_Engine_Brick`) flow into `Live_Raw_Pillar_XP` and feed the Unified Main XP Bar on `Player_HUD` with zero double-counting.
