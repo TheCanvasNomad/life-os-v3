@@ -39,10 +39,26 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | [x] | `MODULE_REGISTRY!J25` | **XP_Leveler** | `1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k` | **LIVE (`FRESH`)**: All 4 `XP_*` signals |
 | [ ] | `MODULE_REGISTRY!J26` | **🩺 BIO_CORE** | `1EecdB1CnjvaR6C7zx9mTVMx7M-vSIMOUgd3lMlEPmEA` | All 7 `BIO_*` wearable signals (`BIO_READINESS_SCORE`, `HRV_RECOVERY`, `SLEEP_INDEX`, `SLEEP_CONSISTENCY`, `ACTIVITY_INDEX`, `STEPS_7D`, `RHR_7D`) -> AQAL UR, Maslow L1, Sword Knuckle-Bow |
 | [ ] | `MODULE_REGISTRY!J27` | **💚 Pillar_1_Health** | `1dzuXlVWO5VRtla0p0ZuziZAvpm2ZySslPLZOhWDQGSI` | All 8 `P1_*` signals (`P1_HEALTH_BASE_SCORE`, `SLEEP_7D`, `ENERGY_7D`, `STRESS_7D`, `PRANA`, `HABIT_COMPLIANCE`, `APPEARANCE`, `PEAK_FOCUS_WINDOW`) -> AQAL UR, Maslow L1, Sword Knuckle-Bow & Grip |
+| [ ] | `MODULE_REGISTRY!J28` | **📇 CRM_CORE** | `1VtJ4_beXHe8N_zfmcB5yBTPm0App8prl3IgY7CMeU8g` | All 5 anonymized `CRM_*` network signals (`CRM_NETWORK_TOTAL`, `ACTIVE_DATING`, `INNER_CIRCLE`, `DUE_FOLLOWUPS`, `TAGGED_COVERAGE`) |
+| [ ] | `MODULE_REGISTRY!J29` | **💞 Pillar_3_Relationships** | `1hi-hShSgH9X8i5NpCmh_a5HfuxevrxWkFDuJmbB1D0k` | All 5 anonymized `P3_*` relational signals (`P3_RELATIONSHIP_BASE_SCORE`, `P3_NETWORK_TOTAL`, `P3_ACTIVE_DATING_COUNT`, `P3_INNER_CIRCLE_COUNT`, `P3_AVERAGE_LOVE_TANK`) -> AQAL LL ("We"), Maslow L3, Sword Edge & Quillons |
 
 ---
 
-## 2. Pillar 1 Biological Stack (`BIO_CORE` & `Pillar_1_Health`) Inbound Authorizations
+## 2. Pillar 3 Relational Stack (`CRM_CORE` & `Pillar_3_Relationships`) Inbound Authorizations
+
+Approve these 5 one-time `#REF!` cells to complete the closed loop between `📇 CRM_CORE`, `Body Count 2.0`, `RAW_DATA_EventLog`, `💞 Pillar_3_Relationships`, and `LifeOS_feed_hub` *(note: `P3_CONFIG!I6` for `RAW_DATA_Intake` is already authorized!)*:
+
+| Done | Workbook & Cell | Direct Tab Link (Click cell -> Allow access) | Target Workbook | Unlocks |
+| :---: | :--- | :--- | :--- | :--- |
+| [ ] | **`💞 Pillar_3_Relationships` → `P3_CONFIG!I4`** | https://docs.google.com/spreadsheets/d/1hi-hShSgH9X8i5NpCmh_a5HfuxevrxWkFDuJmbB1D0k/edit#gid=853045188 | **📇 CRM_CORE** (`1VtJ4_beXHe8N_zfmcB5yBTPm0App8prl3IgY7CMeU8g`) | Tagged contacts in `MASTER_IDENTIFIER_LIST` + live `P3_NETWORK_TOTAL`, `P3_ACTIVE_DATING_COUNT`, `P3_INNER_CIRCLE_COUNT` |
+| [ ] | **`💞 Pillar_3_Relationships` → `P3_CONFIG!I5`** | https://docs.google.com/spreadsheets/d/1hi-hShSgH9X8i5NpCmh_a5HfuxevrxWkFDuJmbB1D0k/edit#gid=853045188 | **Body Count 2.0** (`1aqYHU_bc-AqgREdvutE3VgG952_gd70yDKt4dMH6L1E`) | Historical Love Life baseline scores (`Sex`, `Value`, `Looks`, `Overall`) into Hybrid Scoring & Two-Meter System |
+| [ ] | **`💞 Pillar_3_Relationships` → `P3_CONFIG!I7`** | https://docs.google.com/spreadsheets/d/1hi-hShSgH9X8i5NpCmh_a5HfuxevrxWkFDuJmbB1D0k/edit#gid=853045188 | **RAW_DATA_EventLog** (`1p9LUEUQl_2N0AvaC15FGqD7ySzfJMObEeZj-KCQUZ-8`) | Empirical interaction logs into `Dynamic_Reality_Score` (50% Hybrid weight) |
+| [ ] | **`📇 CRM_CORE` → `CONTEXT_IN!F2`** | https://docs.google.com/spreadsheets/d/1VtJ4_beXHe8N_zfmcB5yBTPm0App8prl3IgY7CMeU8g/edit#gid=2014614667 | **LifeOS_feed_hub** | Live Hub context inside `CRM_CORE` |
+| [ ] | **`💞 Pillar_3_Relationships` → `CONTEXT_IN!F2`** | https://docs.google.com/spreadsheets/d/1hi-hShSgH9X8i5NpCmh_a5HfuxevrxWkFDuJmbB1D0k/edit#gid=1967751748 | **LifeOS_feed_hub** | Live Hub context inside `Pillar_3_Relationships` |
+
+---
+
+## 3. Pillar 1 Biological Stack (`BIO_CORE` & `Pillar_1_Health`) Inbound Authorizations
 
 Approve these 4 one-time `#REF!` cells to complete the closed loop between `RAW_DATA_DailyCheckIn`, `🩺 BIO_CORE`, `💚 Pillar_1_Health`, and `LifeOS_feed_hub`:
 

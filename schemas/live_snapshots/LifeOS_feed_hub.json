@@ -4,13 +4,13 @@
   "spreadsheet_id": "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
   "url": "https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U/edit",
   "time_zone": "America/New_York",
-  "snapshot_utc": "2026-11-23T23:49:43Z",
+  "snapshot_utc": "2026-11-24T00:16:38Z",
   "tab_count": 9,
   "tabs": [
     {
       "title": "SIGNAL_BUS",
       "sheet_id": 387897381,
-      "index": null,
+      "index": 0,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 200,

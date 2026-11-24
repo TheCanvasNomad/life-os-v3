@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-23T23:49:35Z",
+  "last_updated_utc": "2026-11-24T00:16:30Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -694,7 +694,7 @@
         "LifeOS Feed Hub"
       ],
       "schema_ref": "schemas/lifeos_feed_hub_schema.json",
-      "last_snapshot_utc": "2026-11-23T23:49:35Z",
+      "last_snapshot_utc": "2026-11-24T00:16:30Z",
       "all_tabs": [
         "SIGNAL_BUS",
         "MODULE_REGISTRY",
@@ -2031,6 +2031,110 @@
       "linked_form_id": "1wJV0-OBFUHnCQVK9M3-nKh1EX_eLh842HAkMcU9b77U",
       "linked_form_url": "https://docs.google.com/forms/d/1wJV0-OBFUHnCQVK9M3-nKh1EX_eLh842HAkMcU9b77U/viewform",
       "linked_form_edit_url": "https://docs.google.com/forms/d/1wJV0-OBFUHnCQVK9M3-nKh1EX_eLh842HAkMcU9b77U/edit"
+    },
+    "ID_CRM_CORE": {
+      "title": "\ud83d\udcc7 CRM_CORE",
+      "spreadsheet_id": "1VtJ4_beXHe8N_zfmcB5yBTPm0App8prl3IgY7CMeU8g",
+      "url": "https://docs.google.com/spreadsheets/d/1VtJ4_beXHe8N_zfmcB5yBTPm0App8prl3IgY7CMeU8g/edit",
+      "drive_folder_id": "1cCrkeThYdMl4BOTI0ww8dhSxlpBPE53J",
+      "domain": "Pillar 3 / Two-Way Google Contacts Phonebook (Layer 1+2)",
+      "cadence": "Two-Way People API v1 Sync",
+      "status": "ACTIVE",
+      "universal_brick_compliant": true,
+      "privacy_mode": "STRICT_AGGREGATE_ONLY_NO_PII_EXPORT",
+      "live_tabs": [
+        "CRM_DASHBOARD",
+        "Google Contacts Sync Master",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "all_tabs": [
+        "CRM_DASHBOARD",
+        "Google Contacts Sync Master",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "tab_count": 5,
+      "last_snapshot_utc": "2026-11-24T00:16:30Z",
+      "snapshot_file": "schemas/live_snapshots/ID_CRM_CORE.json"
+    },
+    "ID_PILLAR_3": {
+      "title": "\ud83d\udc9e Pillar_3_Relationships",
+      "spreadsheet_id": "1hi-hShSgH9X8i5NpCmh_a5HfuxevrxWkFDuJmbB1D0k",
+      "url": "https://docs.google.com/spreadsheets/d/1hi-hShSgH9X8i5NpCmh_a5HfuxevrxWkFDuJmbB1D0k/edit",
+      "drive_folder_id": "1cCrkeThYdMl4BOTI0ww8dhSxlpBPE53J",
+      "domain": "Pillar 3 / Relationships & Connection Spoke (Layer 2)",
+      "cadence": "Event-Driven + CRM/BodyCount Bridge",
+      "status": "ACTIVE",
+      "universal_brick_compliant": true,
+      "privacy_mode": "STRICT_AGGREGATE_ONLY_NO_PII_EXPORT",
+      "live_tabs": [
+        "DASHBOARD",
+        "DATABASE",
+        "CALCULATIONS",
+        "DOSSIER_TEMPLATE",
+        "P3_CONFIG",
+        "IMPORTS",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "all_tabs": [
+        "DASHBOARD",
+        "DATABASE",
+        "CALCULATIONS",
+        "DOSSIER_TEMPLATE",
+        "P3_CONFIG",
+        "IMPORTS",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "tab_count": 9,
+      "last_snapshot_utc": "2026-11-24T00:16:30Z",
+      "snapshot_file": "schemas/live_snapshots/ID_PILLAR_3.json"
+    },
+    "ID_RAW_INTAKE": {
+      "title": "RAW_DATA_Intake",
+      "spreadsheet_id": "1qBw-5H8AslAeJPo4XtSCkQdNm3Tgmn4msSccSIlC450",
+      "url": "https://docs.google.com/spreadsheets/d/1qBw-5H8AslAeJPo4XtSCkQdNm3Tgmn4msSccSIlC450/edit",
+      "drive_folder_id": "1cCrkeThYdMl4BOTI0ww8dhSxlpBPE53J",
+      "domain": "Pillar 3 / Write-Only Universal Intake Silo (Layer 1)",
+      "cadence": "Universal Intake Form",
+      "status": "ACTIVE",
+      "universal_brick_compliant": false,
+      "privacy_mode": "STRICT_AGGREGATE_ONLY_NO_PII_EXPORT",
+      "live_tabs": [
+        "Form Responses 1"
+      ],
+      "all_tabs": [
+        "Form Responses 1"
+      ],
+      "tab_count": 1,
+      "last_snapshot_utc": "2026-11-24T00:16:30Z",
+      "snapshot_file": "schemas/live_snapshots/ID_RAW_INTAKE.json"
+    },
+    "ID_RAW_EVENTLOG": {
+      "title": "RAW_DATA_EventLog",
+      "spreadsheet_id": "1p9LUEUQl_2N0AvaC15FGqD7ySzfJMObEeZj-KCQUZ-8",
+      "url": "https://docs.google.com/spreadsheets/d/1p9LUEUQl_2N0AvaC15FGqD7ySzfJMObEeZj-KCQUZ-8/edit",
+      "drive_folder_id": "1cCrkeThYdMl4BOTI0ww8dhSxlpBPE53J",
+      "domain": "Pillar 3 / Write-Only Universal EventLog & Shadow Silo (Layer 1)",
+      "cadence": "Universal Event Log Form",
+      "status": "ACTIVE",
+      "universal_brick_compliant": false,
+      "privacy_mode": "STRICT_AGGREGATE_ONLY_NO_PII_EXPORT",
+      "live_tabs": [
+        "Form Responses 1"
+      ],
+      "all_tabs": [
+        "Form Responses 1"
+      ],
+      "tab_count": 1,
+      "last_snapshot_utc": "2026-11-24T00:16:30Z",
+      "snapshot_file": "schemas/live_snapshots/ID_RAW_EVENTLOG.json"
     }
   },
   "unmapped_discovered": [
