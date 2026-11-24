@@ -2,7 +2,7 @@
   "registry_key": "ID_TRAVEL",
   "title": "\ud83c\udf0d Travel_Tracker_Brick",
   "spreadsheet_id": "11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc",
-  "snapshot_utc": "2026-11-24T16:38:33Z",
+  "snapshot_utc": "2026-11-24T17:29:34Z",
   "pii_policy": "ZERO_PII_HEADERS_ONLY",
   "tab_count": 16,
   "tabs": [
@@ -12,7 +12,7 @@
       "index": 0,
       "hidden": false,
       "sheet_type": "GRID",
-      "row_count": 101,
+      "row_count": 400,
       "col_count": 16,
       "headers_row_1": [
         "Timestamp",
@@ -57,7 +57,7 @@
       "index": 2,
       "hidden": false,
       "sheet_type": "GRID",
-      "row_count": 46,
+      "row_count": 50,
       "col_count": 14,
       "headers_row_1": [
         "",
@@ -82,7 +82,7 @@
       "index": 4,
       "hidden": false,
       "sheet_type": "GRID",
-      "row_count": 1101,
+      "row_count": 400,
       "col_count": 13,
       "headers_row_1": [
         "\ud83d\udccd GOOGLE MAPS & PLACE REVIEW ARCHIVE (AUTO-SORTED BY VISIT DATE DESCENDING)"
@@ -125,7 +125,7 @@
       "index": 6,
       "hidden": true,
       "sheet_type": "GRID",
-      "row_count": 600,
+      "row_count": 400,
       "col_count": 15,
       "headers_row_1": [
         "Timestamp",
@@ -285,7 +285,7 @@
       "index": 15,
       "hidden": false,
       "sheet_type": "GRID",
-      "row_count": 90,
+      "row_count": 60,
       "col_count": 10,
       "headers_row_1": [
         "Record_Type",

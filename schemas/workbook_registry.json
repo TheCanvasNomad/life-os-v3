@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-24T17:18:44Z",
+  "last_updated_utc": "2026-11-24T17:29:34Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -646,7 +646,7 @@
         "Travel Tracker"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-24T16:38:33Z",
+      "last_snapshot_utc": "2026-11-24T17:29:34Z",
       "all_tabs": [
         "Form Responses 2",
         "Form Responses 1",
@@ -679,7 +679,8 @@
       "universal_brick_compliant": true,
       "looker_tabs": [
         "LOOKER_TRAVEL"
-      ]
+      ],
+      "legacy_reviews_source_id": "1Se9co4g0r9y9hdPOW1nnUWIsu-JCYfZyxm6_pMAzWsE"
     },
     "ID_FEED_HUB": {
       "title": "LifeOS_feed_hub",
@@ -704,7 +705,7 @@
         "LifeOS Feed Hub"
       ],
       "schema_ref": "schemas/lifeos_feed_hub_schema.json",
-      "last_snapshot_utc": "2026-11-24T17:18:44Z",
+      "last_snapshot_utc": "2026-11-24T17:29:34Z",
       "all_tabs": [
         "SIGNAL_BUS",
         "MODULE_REGISTRY",
