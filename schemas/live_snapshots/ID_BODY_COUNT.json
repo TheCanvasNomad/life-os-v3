@@ -4,17 +4,17 @@
   "spreadsheet_id": "1aqYHU_bc-AqgREdvutE3VgG952_gd70yDKt4dMH6L1E",
   "url": "https://docs.google.com/spreadsheets/d/1aqYHU_bc-AqgREdvutE3VgG952_gd70yDKt4dMH6L1E/edit",
   "time_zone": "Africa/Nairobi",
-  "snapshot_utc": "2026-11-23T16:16:51Z",
-  "tab_count": 42,
+  "snapshot_utc": "2026-11-24T01:51:53Z",
+  "tab_count": 43,
   "tabs": [
     {
       "title": "Form Responses 1",
       "sheet_id": 1640129858,
-      "index": null,
+      "index": 0,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1063,
-      "col_count": 79,
+      "col_count": 58,
       "header_row_index": 1,
       "headers": [
         "Timestamp",
@@ -70,7 +70,9 @@
         "What was the primary reason it ended?",
         "Were there other contributing factors?",
         "Your Age",
-        "Contextual Notes"
+        "Contextual Notes",
+        "Contact_ID",
+        "CRM_Match_Key"
       ],
       "row_1": [
         "Timestamp",
@@ -126,7 +128,9 @@
         "What was the primary reason it ended?",
         "Were there other contributing factors?",
         "Your Age",
-        "Contextual Notes"
+        "Contextual Notes",
+        "Contact_ID",
+        "CRM_Match_Key"
       ]
     },
     {
@@ -1293,7 +1297,7 @@
     },
     {
       "title": "Body_Count_Legacy_Data",
-      "sheet_id": null,
+      "sheet_id": 0,
       "index": 36,
       "hidden": true,
       "sheet_type": "GRID",
@@ -1613,6 +1617,28 @@
         "Last_Updated",
         "TTL_Hours",
         "Notes"
+      ]
+    },
+    {
+      "title": "CRM_LOVE_LIFE_REF",
+      "sheet_id": 1678097153,
+      "index": 42,
+      "hidden": true,
+      "sheet_type": "GRID",
+      "row_count": 1200,
+      "col_count": 5,
+      "header_row_index": 1,
+      "headers": [
+        "Love_Life_Contact_Key",
+        "Contact_ID",
+        "",
+        "Core_CRM_Auth_Anchor"
+      ],
+      "row_1": [
+        "Love_Life_Contact_Key",
+        "Contact_ID",
+        "",
+        "Core_CRM_Auth_Anchor"
       ]
     }
   ]

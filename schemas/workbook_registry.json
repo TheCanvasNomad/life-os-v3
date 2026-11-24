@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-24T01:35:20Z",
+  "last_updated_utc": "2026-11-24T01:51:53Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -1833,9 +1833,10 @@
         "LEGACY_NORMALIZED",
         "MODULE_META",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "CRM_LOVE_LIFE_REF"
       ],
-      "tab_count": 42,
+      "tab_count": 43,
       "linked_forms": [
         {
           "name": "Body Count",
@@ -1847,7 +1848,7 @@
         "Body Count"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T16:16:12Z",
+      "last_snapshot_utc": "2026-11-24T01:51:53Z",
       "universal_brick_compliant": true
     },
     "ID_MOVIES": {
@@ -2136,7 +2137,7 @@
         "SIGNALS_OUT"
       ],
       "tab_count": 4,
-      "last_snapshot_utc": "2026-11-24T01:35:20Z",
+      "last_snapshot_utc": "2026-11-24T01:51:53Z",
       "snapshot_file": "schemas/live_snapshots/ID_MASTER_CONTACTS_SYNC.json"
     },
     "ID_PURGED_CONTACTS_VAULT": {
@@ -2183,6 +2184,7 @@
       ],
       "live_tabs": [
         "CRM_DASHBOARD",
+        "\u26a1 BULK_OPERATIONS",
         "CONTACT_DIRECTORY",
         "TAXONOMY_MATRIX",
         "ENTITY_LINKS",
@@ -2195,6 +2197,7 @@
       ],
       "all_tabs": [
         "CRM_DASHBOARD",
+        "\u26a1 BULK_OPERATIONS",
         "CONTACT_DIRECTORY",
         "TAXONOMY_MATRIX",
         "ENTITY_LINKS",
@@ -2205,8 +2208,8 @@
         "CONTEXT_IN",
         "SIGNALS_OUT"
       ],
-      "tab_count": 10,
-      "last_snapshot_utc": "2026-11-24T01:35:20Z",
+      "tab_count": 11,
+      "last_snapshot_utc": "2026-11-24T01:51:53Z",
       "snapshot_file": "schemas/live_snapshots/ID_CORE_CRM.json"
     },
     "ID_NOTEBOOKLM_SOCIAL": {
@@ -2234,7 +2237,7 @@
         "SIGNALS_OUT"
       ],
       "tab_count": 5,
-      "last_snapshot_utc": "2026-11-24T01:35:20Z",
+      "last_snapshot_utc": "2026-11-24T01:51:53Z",
       "snapshot_file": "schemas/live_snapshots/ID_NOTEBOOKLM_SOCIAL.json"
     }
   },

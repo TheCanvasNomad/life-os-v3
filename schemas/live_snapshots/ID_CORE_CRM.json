@@ -4,8 +4,8 @@
   "spreadsheet_id": "1PKYbEie4QUgSqqTVW1Y2UVjBgRStz4Aok2BhCWCvU5M",
   "url": "https://docs.google.com/spreadsheets/d/1PKYbEie4QUgSqqTVW1Y2UVjBgRStz4Aok2BhCWCvU5M/edit",
   "time_zone": "Etc/GMT",
-  "snapshot_utc": "2026-11-24T01:35:33Z",
-  "tab_count": 10,
+  "snapshot_utc": "2026-11-24T01:51:53Z",
+  "tab_count": 11,
   "tabs": [
     {
       "title": "CRM_DASHBOARD",
@@ -24,9 +24,25 @@
       ]
     },
     {
+      "title": "\u26a1 BULK_OPERATIONS",
+      "sheet_id": 1782370339,
+      "index": 1,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 6500,
+      "col_count": 14,
+      "header_row_index": 1,
+      "headers": [
+        "\u26a1 LIFEOS v3.2 \u2014 BULK OPERATIONS & COHORT BATCH COMMAND CONSOLE"
+      ],
+      "row_1": [
+        "\u26a1 LIFEOS v3.2 \u2014 BULK OPERATIONS & COHORT BATCH COMMAND CONSOLE"
+      ]
+    },
+    {
       "title": "CONTACT_DIRECTORY",
       "sheet_id": 910328530,
-      "index": 1,
+      "index": 2,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 6500,
@@ -82,7 +98,7 @@
     {
       "title": "TAXONOMY_MATRIX",
       "sheet_id": 1144657771,
-      "index": 2,
+      "index": 3,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 120,
@@ -120,7 +136,7 @@
     {
       "title": "ENTITY_LINKS",
       "sheet_id": 715873440,
-      "index": 3,
+      "index": 4,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 500,
@@ -154,7 +170,7 @@
     {
       "title": "PIPELINE_&_DEALS",
       "sheet_id": 96871793,
-      "index": 4,
+      "index": 5,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 300,
@@ -190,7 +206,7 @@
     {
       "title": "INTERACTION_LOG",
       "sheet_id": 203608218,
-      "index": 5,
+      "index": 6,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1000,
@@ -220,11 +236,11 @@
     {
       "title": "REF_CROSS_BRICKS",
       "sheet_id": 1378443668,
-      "index": 6,
+      "index": 7,
       "hidden": true,
       "sheet_type": "GRID",
       "row_count": 400,
-      "col_count": 10,
+      "col_count": 18,
       "header_row_index": 1,
       "headers": [
         "All_Target_Records",
@@ -236,7 +252,13 @@
         "Body_Count_Total",
         "",
         "Target_Workbook",
-        "One_Click_Auth_Anchor"
+        "One_Click_Auth_Anchor",
+        "Filter_Countries",
+        "Filter_Orgs",
+        "Filter_Spheres",
+        "Filter_Tags",
+        "Filter_Statuses",
+        "Filter_How_Mets"
       ],
       "row_1": [
         "All_Target_Records",
@@ -248,13 +270,19 @@
         "Body_Count_Total",
         "",
         "Target_Workbook",
-        "One_Click_Auth_Anchor"
+        "One_Click_Auth_Anchor",
+        "Filter_Countries",
+        "Filter_Orgs",
+        "Filter_Spheres",
+        "Filter_Tags",
+        "Filter_Statuses",
+        "Filter_How_Mets"
       ]
     },
     {
       "title": "MODULE_META",
       "sheet_id": 1876703071,
-      "index": 7,
+      "index": 8,
       "hidden": true,
       "sheet_type": "GRID",
       "row_count": 1000,
@@ -274,7 +302,7 @@
     {
       "title": "CONTEXT_IN",
       "sheet_id": 1434976974,
-      "index": 8,
+      "index": 9,
       "hidden": true,
       "sheet_type": "GRID",
       "row_count": 1000,
@@ -300,7 +328,7 @@
     {
       "title": "SIGNALS_OUT",
       "sheet_id": 117137470,
-      "index": 9,
+      "index": 10,
       "hidden": true,
       "sheet_type": "GRID",
       "row_count": 1000,

@@ -248,6 +248,14 @@ function pullFromGoogleContacts() {
     pageToken = resp.nextPageToken || null;
   } while (pageToken);
 
+  // Always enforce Plain Text '@' format on Phone 1-4 Value cols (T, V, X, Z) before writing
+  // so leading '+' E.164 international phone numbers never evaluate as '#ERROR!' formulas!
+  ['Phone 1 - Value', 'Phone 2 - Value', 'Phone 3 - Value', 'Phone 4 - Value'].forEach(hdrName => {
+    if (col[hdrName] !== undefined) {
+      sheet.getRange(2, col[hdrName] + 1, Math.max(raw.length + appended.length, 6500), 1).setNumberFormat('@');
+    }
+  });
+
   if (raw.length > 1) {
     sheet.getRange(2, 1, raw.length - 1, headers.length).setValues(raw.slice(1));
   }
