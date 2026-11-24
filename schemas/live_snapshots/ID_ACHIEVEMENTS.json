@@ -2,9 +2,9 @@
   "registry_key": "ID_ACHIEVEMENTS",
   "title": "\ud83c\udfc5 Achievements_Engine_Brick",
   "spreadsheet_id": "1oPwOgvsk49CJ7x9pmYIf0Ex2EBHlrKVpb7SO9Ja4-JQ",
-  "snapshot_utc": "2026-11-24T17:18:44Z",
+  "snapshot_utc": "2026-11-24T20:23:05Z",
   "pii_policy": "ZERO_PII_HEADERS_ONLY",
-  "tab_count": 33,
+  "tab_count": 31,
   "tabs": [
     {
       "title": "DASHBOARD",
@@ -14,7 +14,7 @@
       "sheet_type": "GRID",
       "row_count": 55,
       "col_count": 9,
-      "headers_row_1": [
+      "headers_row": [
         "\ud83c\udfc5 LIFEOS v3.0 \u2014 ACHIEVEMENTS ENGINE & TROPHY ROOM HUD"
       ]
     },
@@ -26,7 +26,7 @@
       "sheet_type": "GRID",
       "row_count": 265,
       "col_count": 11,
-      "headers_row_1": [
+      "headers_row": [
         "Achievement_ID",
         "Achievement_Title",
         "Category",
@@ -40,14 +40,71 @@
       ]
     },
     {
-      "title": "LOOKER_ACHIEVEMENTS",
-      "sheet_id": 510929700,
+      "title": "Categories",
+      "sheet_id": 2053586099,
       "index": 2,
       "hidden": false,
       "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "headers_row": [
+        "Sheet / Category",
+        "List Type",
+        "Primary Quadrant",
+        "Avg Weight",
+        "Weight Range",
+        "Primary_AQAL_Code",
+        "Total_Items",
+        "Unlocked_Count",
+        "Completion_Pct",
+        "Category_XP"
+      ]
+    },
+    {
+      "title": "Stats",
+      "sheet_id": 837414024,
+      "index": 3,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 26,
+      "headers_row": [
+        "Metric",
+        "Live_Value",
+        "Unlocked / Total",
+        "Visual_Gauge",
+        "Notes"
+      ]
+    },
+    {
+      "title": "AQAL",
+      "sheet_id": 1584991893,
+      "index": 4,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 1000,
+      "col_count": 27,
+      "headers_row": [
+        "Quadrant_Name",
+        "Quadrant_Code",
+        "Total_Achievements",
+        "Unlocked_Count",
+        "Completion_Pct",
+        "Avg_Weight_Score",
+        "Unlocked_Weighted_Score",
+        "Quadrant_XP",
+        "Progress_Bar"
+      ]
+    },
+    {
+      "title": "LOOKER_ACHIEVEMENTS",
+      "sheet_id": 510929700,
+      "index": 5,
+      "hidden": true,
+      "sheet_type": "GRID",
       "row_count": 265,
       "col_count": 12,
-      "headers_row_1": [
+      "headers_row": [
         "Achievement_ID",
         "Achievement_Title",
         "Category",
@@ -62,14 +119,392 @@
       ]
     },
     {
+      "title": "Personal Growth & Self-Mastery",
+      "sheet_id": 341397453,
+      "index": 6,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Legacy, Wisdom & Life Closure",
+      "sheet_id": 175365464,
+      "index": 7,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Emotional & Psychological Sovereignty",
+      "sheet_id": 1706878817,
+      "index": 8,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Perceptual & Existential Awareness",
+      "sheet_id": 1317018808,
+      "index": 9,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Survival, Resilience & Adaptation",
+      "sheet_id": 1532264112,
+      "index": 10,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Intellectual & Observational Clarity",
+      "sheet_id": 154700256,
+      "index": 11,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Transcendence & Core Legacy",
+      "sheet_id": 1000157618,
+      "index": 12,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Physical Health & Athleticism",
+      "sheet_id": 1331568120,
+      "index": 13,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Craftsmanship, Creativity & Hobbies",
+      "sheet_id": 559630799,
+      "index": 14,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Life Skills & Practical Self-Reliance",
+      "sheet_id": 1011249021,
+      "index": 15,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Biological & Physical Mastery",
+      "sheet_id": 655229814,
+      "index": 16,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Expressive & Creative Output",
+      "sheet_id": 1123121941,
+      "index": 17,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Relationships, Family & Community",
+      "sheet_id": 796644294,
+      "index": 18,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Relational & Interpersonal Connection",
+      "sheet_id": 293331172,
+      "index": 19,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Character, Integrity & Moral Sovereignty",
+      "sheet_id": 1039059488,
+      "index": 20,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Career & Professional Autonomy",
+      "sheet_id": 1650659484,
+      "index": 21,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Financial Stewardship & Freedom",
+      "sheet_id": 1396617327,
+      "index": 22,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Travel, Exploration & Cultural Immersion",
+      "sheet_id": 1374231472,
+      "index": 23,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Experiential & Unforgettable Moments",
+      "sheet_id": 155975249,
+      "index": 24,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Harmony with the Natural Environment",
+      "sheet_id": 2018063408,
+      "index": 25,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
+      "title": "Epicurean & Hedonistic Pleasures",
+      "sheet_id": 18765934,
+      "index": 26,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 8,
+      "headers_row": [
+        "Achievement_ID",
+        "Achievement_Title",
+        "AQAL_Quadrant",
+        "Weight_Score",
+        "Status",
+        "Unlocked_Date",
+        "Earned_XP"
+      ]
+    },
+    {
       "title": "MODULE_META",
       "sheet_id": 88922076,
-      "index": 3,
-      "hidden": false,
+      "index": 27,
+      "hidden": true,
       "sheet_type": "GRID",
       "row_count": 25,
       "col_count": 6,
-      "headers_row_1": [
+      "headers_row": [
         "Meta_Key",
         "Meta_Value",
         "Description"
@@ -78,12 +513,12 @@
     {
       "title": "CONTEXT_IN",
       "sheet_id": 1880613721,
-      "index": 4,
-      "hidden": false,
+      "index": 28,
+      "hidden": true,
       "sheet_type": "GRID",
       "row_count": 20,
       "col_count": 7,
-      "headers_row_1": [
+      "headers_row": [
         "Signal_Key",
         "Live_Value",
         "Normalized_Score_0_100",
@@ -95,12 +530,12 @@
     {
       "title": "SIGNALS_OUT",
       "sheet_id": 933039322,
-      "index": 5,
-      "hidden": false,
+      "index": 29,
+      "hidden": true,
       "sheet_type": "GRID",
       "row_count": 20,
       "col_count": 10,
-      "headers_row_1": [
+      "headers_row": [
         "Signal_Key",
         "Source_Brick",
         "Glyph",
@@ -115,12 +550,12 @@
     {
       "title": "Form Responses 1",
       "sheet_id": 1633744975,
-      "index": 6,
+      "index": 30,
       "hidden": true,
       "sheet_type": "GRID",
       "row_count": 102,
       "col_count": 38,
-      "headers_row_1": [
+      "headers_row": [
         "Timestamp",
         "What would you like to do?",
         "Select Category for New Item",
@@ -153,360 +588,6 @@
         "Select Achievement",
         "Select Achievement",
         "Select Achievement"
-      ]
-    },
-    {
-      "title": "Answers",
-      "sheet_id": 149172932,
-      "index": 7,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Timestamp",
-        "What would you like to do?",
-        "Select Category for New Item",
-        "Select Achievement",
-        "Select Category",
-        "Achievement Title",
-        "Quadrant",
-        "Internal or External?",
-        "Time Horizon Rating",
-        "Ego & Psychological Resistance",
-        "Skill / Capital Barrier",
-        "Consistency / Duration",
-        "Weight Score"
-      ]
-    },
-    {
-      "title": "Master List",
-      "sheet_id": 1937244650,
-      "index": 8,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Achievement_ID",
-        "Achievement_Title",
-        "Category",
-        "List_Type",
-        "AQAL_Quadrant",
-        "Weight_Score",
-        "Status"
-      ]
-    },
-    {
-      "title": "Categories",
-      "sheet_id": 2053586099,
-      "index": 9,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Sheet / Category",
-        "List Type",
-        "Primary Quadrant",
-        "Avg Weight",
-        "Weight Range",
-        "Primary_AQAL_Code",
-        "Total_Items",
-        "Unlocked_Count",
-        "Completion_Pct",
-        "Category_XP"
-      ]
-    },
-    {
-      "title": "Stats",
-      "sheet_id": 837414024,
-      "index": 10,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Metric",
-        "Live_Value",
-        "Unlocked / Total",
-        "Visual_Gauge",
-        "Notes"
-      ]
-    },
-    {
-      "title": "Epicurean & Hedonistic Pleasures",
-      "sheet_id": 18765934,
-      "index": 11,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Category",
-        "Achievement Title",
-        "Quadrant",
-        "Weight Score"
-      ]
-    },
-    {
-      "title": "Personal Growth & Self-Mastery",
-      "sheet_id": 341397453,
-      "index": 12,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 987,
-      "col_count": 25,
-      "headers_row_1": [
-        "Personal Growth & Self-Mastery"
-      ]
-    },
-    {
-      "title": "AQAL",
-      "sheet_id": 1584991893,
-      "index": 13,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 27,
-      "headers_row_1": [
-        "Quadrant_Name",
-        "Quadrant_Code",
-        "Total_Achievements",
-        "Unlocked_Count",
-        "Completion_Pct",
-        "Avg_Weight_Score",
-        "Unlocked_Weighted_Score",
-        "Quadrant_XP",
-        "Progress_Bar"
-      ]
-    },
-    {
-      "title": "Physical Health & Athleticism",
-      "sheet_id": 1331568120,
-      "index": 14,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Physical Health & Athleticism"
-      ]
-    },
-    {
-      "title": "Career & Professional Autonomy",
-      "sheet_id": 1650659484,
-      "index": 15,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Career & Professional Autonomy"
-      ]
-    },
-    {
-      "title": "Financial Stewardship & Freedom",
-      "sheet_id": 1396617327,
-      "index": 16,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Financial Stewardship & Freedom"
-      ]
-    },
-    {
-      "title": "Relationships, Family & Community",
-      "sheet_id": 796644294,
-      "index": 17,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Relationships, Family & Community"
-      ]
-    },
-    {
-      "title": "Travel, Exploration & Cultural Immersion",
-      "sheet_id": 1374231472,
-      "index": 18,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Travel, Exploration & Cultural Immersion"
-      ]
-    },
-    {
-      "title": "Craftsmanship, Creativity & Hobbies",
-      "sheet_id": 559630799,
-      "index": 19,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Craftsmanship, Creativity & Hobbies"
-      ]
-    },
-    {
-      "title": "Legacy, Wisdom & Life Closure",
-      "sheet_id": 175365464,
-      "index": 20,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Legacy, Wisdom & Life Closure"
-      ]
-    },
-    {
-      "title": "Life Skills & Practical Self-Reliance",
-      "sheet_id": 1011249021,
-      "index": 21,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Life Skills & Practical Self-Reliance"
-      ]
-    },
-    {
-      "title": "Experiential & Unforgettable Moments",
-      "sheet_id": 155975249,
-      "index": 22,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Experiential & Unforgettable Moments"
-      ]
-    },
-    {
-      "title": "Biological & Physical Mastery",
-      "sheet_id": 655229814,
-      "index": 23,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Biological & Physical Mastery"
-      ]
-    },
-    {
-      "title": "Expressive & Creative Output",
-      "sheet_id": 1123121941,
-      "index": 24,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Expressive & Creative Output"
-      ]
-    },
-    {
-      "title": "Emotional & Psychological Sovereignty",
-      "sheet_id": 1706878817,
-      "index": 25,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Emotional & Psychological Sovereignty"
-      ]
-    },
-    {
-      "title": "Survival, Resilience & Adaptation",
-      "sheet_id": 1532264112,
-      "index": 26,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Survival, Resilience & Adaptation"
-      ]
-    },
-    {
-      "title": "Intellectual & Observational Clarity",
-      "sheet_id": 154700256,
-      "index": 27,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Intellectual & Observational Clarity"
-      ]
-    },
-    {
-      "title": "Transcendence & Core Legacy",
-      "sheet_id": 1000157618,
-      "index": 28,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Transcendence & Core Legacy"
-      ]
-    },
-    {
-      "title": "Harmony with the Natural Environment",
-      "sheet_id": 2018063408,
-      "index": 29,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Harmony with the Natural Environment"
-      ]
-    },
-    {
-      "title": "Character, Integrity & Moral Sovereignty",
-      "sheet_id": 1039059488,
-      "index": 30,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Character, Integrity & Moral Sovereignty"
-      ]
-    },
-    {
-      "title": "Relational & Interpersonal Connection",
-      "sheet_id": 293331172,
-      "index": 31,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Relational & Interpersonal Connection"
-      ]
-    },
-    {
-      "title": "Perceptual & Existential Awareness",
-      "sheet_id": 1317018808,
-      "index": 32,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 990,
-      "col_count": 26,
-      "headers_row_1": [
-        "Perceptual & Existential Awareness"
       ]
     }
   ]

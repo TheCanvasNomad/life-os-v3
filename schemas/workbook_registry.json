@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-24T17:29:34Z",
+  "last_updated_utc": "2026-11-24T20:23:05Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2714,43 +2714,41 @@
         "Achievements"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-24T17:18:44Z",
+      "last_snapshot_utc": "2026-11-24T20:23:05Z",
       "all_tabs": [
         "DASHBOARD",
         "MASTER_ACHIEVEMENTS_LEDGER",
-        "LOOKER_ACHIEVEMENTS",
-        "MODULE_META",
-        "CONTEXT_IN",
-        "SIGNALS_OUT",
-        "Form Responses 1",
-        "Answers",
-        "Master List",
         "Categories",
         "Stats",
-        "Epicurean & Hedonistic Pleasures",
-        "Personal Growth & Self-Mastery",
         "AQAL",
-        "Physical Health & Athleticism",
-        "Career & Professional Autonomy",
-        "Financial Stewardship & Freedom",
-        "Relationships, Family & Community",
-        "Travel, Exploration & Cultural Immersion",
-        "Craftsmanship, Creativity & Hobbies",
+        "LOOKER_ACHIEVEMENTS",
+        "Personal Growth & Self-Mastery",
         "Legacy, Wisdom & Life Closure",
-        "Life Skills & Practical Self-Reliance",
-        "Experiential & Unforgettable Moments",
-        "Biological & Physical Mastery",
-        "Expressive & Creative Output",
         "Emotional & Psychological Sovereignty",
+        "Perceptual & Existential Awareness",
         "Survival, Resilience & Adaptation",
         "Intellectual & Observational Clarity",
         "Transcendence & Core Legacy",
-        "Harmony with the Natural Environment",
-        "Character, Integrity & Moral Sovereignty",
+        "Physical Health & Athleticism",
+        "Craftsmanship, Creativity & Hobbies",
+        "Life Skills & Practical Self-Reliance",
+        "Biological & Physical Mastery",
+        "Expressive & Creative Output",
+        "Relationships, Family & Community",
         "Relational & Interpersonal Connection",
-        "Perceptual & Existential Awareness"
+        "Character, Integrity & Moral Sovereignty",
+        "Career & Professional Autonomy",
+        "Financial Stewardship & Freedom",
+        "Travel, Exploration & Cultural Immersion",
+        "Experiential & Unforgettable Moments",
+        "Harmony with the Natural Environment",
+        "Epicurean & Hedonistic Pleasures",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT",
+        "Form Responses 1"
       ],
-      "tab_count": 33,
+      "tab_count": 31,
       "linked_forms": [
         {
           "name": "Achievements",
@@ -2760,7 +2758,10 @@
       "universal_brick_compliant": true,
       "looker_tabs": [
         "LOOKER_ACHIEVEMENTS"
-      ]
+      ],
+      "scripts": {
+        "form_dropdown_sync": "src/bricks_sync/achievements_form_sync.gs"
+      }
     }
   },
   "unmapped_discovered": [
