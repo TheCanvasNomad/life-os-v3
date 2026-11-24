@@ -1,0 +1,155 @@
+{
+  "registry_key": "ID_PILLAR_0",
+  "title": "\ud83c\udf11 Pillar_0_Shadow_Self",
+  "spreadsheet_id": "1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU",
+  "snapshot_utc": "2026-11-24T05:26:54Z",
+  "pii_policy": "ZERO_PII_ZERO_JOURNAL_PROSE_HEADERS_ONLY",
+  "tab_count": 8,
+  "tabs": [
+    {
+      "title": "DASHBOARD",
+      "sheet_id": 2072722388,
+      "index": 0,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 34,
+      "col_count": 14,
+      "headers_row_1": [
+        "\ud83c\udf11 PILLAR 0: THE SHADOW WORK BENCH & RCMC INTEGRATION HUD (LifeOS-v3)"
+      ]
+    },
+    {
+      "title": "DATABASE",
+      "sheet_id": 485492251,
+      "index": 1,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 500,
+      "col_count": 18,
+      "headers_row_1": [
+        "Timestamp",
+        "Triggering Event / Feeling",
+        "Initial Emotion(s)",
+        "The Story I'm Telling Myself",
+        "Primary Saboteur Hijack",
+        "Underlying Fear / Unmet Need",
+        "RCMC Depth Level",
+        "Reframed Narrative / Deeper Truth",
+        "Lesson / Integrated Wisdom & Gravity Action Step",
+        "Entry Status",
+        "Seal in Obsidian Vault",
+        "RCMC_Antifragility_XP",
+        "Wisdom_Points_Awarded",
+        "Integration_Stage",
+        "Obsidian_Vault_Sync_Status",
+        "Vault_Seal_Receipt"
+      ]
+    },
+    {
+      "title": "CALCULATIONS",
+      "sheet_id": 1347227662,
+      "index": 2,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 45,
+      "col_count": 8,
+      "headers_row_1": [
+        "P0_WISDOM_SCORE (Formula Anchor)",
+        "P0_WISDOM_SCORE (0\u2013100) \u2014 Canonical Pillar 0 Anchor (CALCULATIONS!A1)",
+        "Weighted composite across 5-Tier Shadow Integration + Arena Dominance + PQ Quotient (blank-safe)."
+      ]
+    },
+    {
+      "title": "P0_CONFIG",
+      "sheet_id": 1648982482,
+      "index": 3,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 14,
+      "headers_row_1": [
+        "\u2699\ufe0f PILLAR 0 SHADOW EXCAVATION & RCMC CONFIGURATION (P0_CONFIG)",
+        "",
+        "",
+        "",
+        "SAGE COUNTER-PROTOCOL PLAYBOOK",
+        "",
+        "",
+        "",
+        "\ud83d\udd10 1-CLICK IMPORTRANGE AUTH ANCHORS"
+      ]
+    },
+    {
+      "title": "IMPORTS",
+      "sheet_id": 0,
+      "index": 4,
+      "hidden": true,
+      "sheet_type": "GRID",
+      "row_count": 500,
+      "col_count": 20,
+      "headers_row_1": [
+        "Timestamp",
+        "Describe the triggering event or feeling.",
+        "What were the initial emotion(s) you felt?",
+        "What is the immediate story or narrative I'm telling myself about this event/feeling?",
+        "Primary Saboteur Hijack",
+        "Underlying Fear / Unmet Need",
+        "RCMC Depth Level",
+        "Reframed Narrative / Deeper Truth",
+        "Lesson / Integrated Wisdom & Gravity Action Step",
+        "Entry Status",
+        "Seal in Obsidian Vault"
+      ]
+    },
+    {
+      "title": "MODULE_META",
+      "sheet_id": 1349423200,
+      "index": 5,
+      "hidden": true,
+      "sheet_type": "GRID",
+      "row_count": 30,
+      "col_count": 6,
+      "headers_row_1": [
+        "Meta_Key",
+        "Value",
+        "Notes"
+      ]
+    },
+    {
+      "title": "CONTEXT_IN",
+      "sheet_id": 246517698,
+      "index": 6,
+      "hidden": true,
+      "sheet_type": "GRID",
+      "row_count": 30,
+      "col_count": 8,
+      "headers_row_1": [
+        "Subscribed_Signal_Key",
+        "Source_Hub",
+        "Live_Value",
+        "Normalized_0_100",
+        "Hub_Status",
+        "Hub_Auth_Trigger"
+      ]
+    },
+    {
+      "title": "SIGNALS_OUT",
+      "sheet_id": 178587275,
+      "index": 7,
+      "hidden": true,
+      "sheet_type": "GRID",
+      "row_count": 30,
+      "col_count": 10,
+      "headers_row_1": [
+        "Signal_Key",
+        "Module_Name",
+        "Glyph",
+        "Domain",
+        "Raw_Value",
+        "Normalized_0_100",
+        "Signal_Status",
+        "Last_Updated"
+      ]
+    }
+  ]
+}

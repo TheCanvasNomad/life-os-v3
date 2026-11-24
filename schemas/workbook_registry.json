@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-24T05:18:14Z",
+  "last_updated_utc": "2026-11-24T05:26:57Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2449,6 +2449,77 @@
         {
           "name": "Life OS - Financial Review Form",
           "form_id": "1v9vmAsluHo9jr49-BN-4XxLgUU3R6zV5j8sqpPVoTuY"
+        }
+      ],
+      "universal_brick_compliant": false
+    },
+    "ID_PILLAR_0": {
+      "title": "\ud83c\udf11 Pillar_0_Shadow_Self",
+      "spreadsheet_id": "1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU/edit",
+      "status": "ACTIVE",
+      "layer": "pillar_spoke",
+      "domain": "Pillar 0 Shadow Self / RCMC Excavation, Saboteur Defense & Grip Integrity",
+      "live_tabs": [
+        "DASHBOARD",
+        "DATABASE",
+        "CALCULATIONS",
+        "P0_CONFIG",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "search_aliases": [
+        "\ud83c\udf11 Pillar_0_Shadow_Self",
+        "Pillar_0_Shadow_Self",
+        "Pillar 0 Shadow Self",
+        "Shadow Work Bench"
+      ],
+      "schema_ref": null,
+      "last_snapshot_utc": "2026-11-24T05:26:57Z",
+      "all_tabs": [
+        "DASHBOARD",
+        "DATABASE",
+        "CALCULATIONS",
+        "P0_CONFIG",
+        "IMPORTS",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "tab_count": 8,
+      "linked_forms": [
+        {
+          "name": "Life OS - Shadow Journal Form",
+          "form_id": "1ND9p5_lNx_6KAi2Tts9x96HB-k4epKi_7gaMtr-F_kA"
+        }
+      ],
+      "universal_brick_compliant": true
+    },
+    "ID_RAW_SHADOW_JOURNAL": {
+      "title": "RAW_DATA_ShadowJournal",
+      "spreadsheet_id": "1wzXYSOKo7oT_EpYcDtFcYBXypqw-BiwUGpoEjsOw5vU",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1wzXYSOKo7oT_EpYcDtFcYBXypqw-BiwUGpoEjsOw5vU/edit",
+      "status": "ACTIVE",
+      "layer": "layer_1_raw_silo",
+      "domain": "Pillar 0 Shadow Self / Private Write-Only Shadow Journal Ledger",
+      "live_tabs": [
+        "Form Responses 1"
+      ],
+      "search_aliases": [
+        "RAW_DATA_ShadowJournal",
+        "Shadow Journal Raw"
+      ],
+      "schema_ref": null,
+      "last_snapshot_utc": "2026-11-24T05:26:57Z",
+      "all_tabs": [
+        "Form Responses 1"
+      ],
+      "tab_count": 1,
+      "linked_forms": [
+        {
+          "name": "Life OS - Shadow Journal Form",
+          "form_id": "1ND9p5_lNx_6KAi2Tts9x96HB-k4epKi_7gaMtr-F_kA"
         }
       ],
       "universal_brick_compliant": false

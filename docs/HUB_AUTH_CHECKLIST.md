@@ -47,6 +47,19 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | [ ] | `MODULE_REGISTRY!J33` | **🏆 Pillar_5_Experience_Legacy** | `1AdMP-VKzTPNbSSTUoLrbqAjtBdYlf4mzLYwyWbaUrQw` | All 6 `P5_*` signals (`P5_EXPERIENCE_BASE_SCORE`, `P5_EPIC_QUEST_COMPLETION_PCT`, `P5_ACTIVE_EPICS_COUNT`, `P5_BLUEPRINT_PROGRESS_PCT`, `P5_TOTAL_QUEST_XP`, `P5_LPD_GLOBAL_MULT`) -> `MASLOW_ENGINE` L5, `SWORD_VIEW` Point & Pommel |
 | [ ] | `MODULE_REGISTRY!J34` | **🛠️ Pillar_4_Skills_Mission** | `1PHTTv1Qpdy5JAyLarOaXYAIsNIuAk8YFBw9GqvIslT0` | All 6 `P4_*` signals (`P4_SKILLS_BASE_SCORE`, `P4_IKIGAI_SCORE`, `P4_AVG_SKILL_LEVEL`, `P4_PERSPECTIVE_TAKING_LVL`, `P4_PSYOP_RECOGNITION_LVL`, `P4_FLOW_SESSION_SCORE`) -> `AQAL_VIEW` UR & LR, `MASLOW_ENGINE` L4 Esteem, `SWORD_VIEW` Point & Edge |
 | [ ] | `MODULE_REGISTRY!J35` | **💰 Pillar_2_Wealth** | `1NcqV_nHIXuyGz6SuwyXNZbh3AtazGOkuZcIZlTBxw5c` | All 6 strictly anonymized `P2_*` signals (`P2_WEALTH_BASE_SCORE`, `P2_FIRE_SCORE`, `P2_SAVINGS_RATE_PCT`, `P2_RUNWAY_MONTHS`, `P2_FINANCIAL_LEVEL`, `P2_SCARCITY_STATUS`) -> `MASLOW_ENGINE` L2 Safety (`80% P2 + 20% Stress Resilience`), `AQAL_VIEW` LR `"ITS"` (`RULES_ENGINE!A67`), `SWORD_VIEW` Quillons, `RULES_ENGINE` `COND_SCARCITY` & `[Freedom]` |
+| [ ] | `MODULE_REGISTRY!J36` | **🌑 Pillar_0_Shadow_Self** | `1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU` | All 6 strictly anonymized numeric/state `P0_*` signals (`P0_WISDOM_SCORE`, `P0_WISDOM_POINTS_TOTAL`, `P0_ANTIFRAGILITY_XP`, `P0_UNINTEGRATED_SHADOWS`, `P0_INTEGRATION_RATE_PCT`, `P0_GRIP_INTEGRITY`; zero journal text) -> `AQAL_VIEW` UL `"I"` (`RULES_ENGINE!A53`), `MASLOW_ENGINE` L5 Self-Actualization (`60% P5 + 40% P0`), `SWORD_VIEW` Grip, `RULES_ENGINE` `COND_SHADOW_DRIFT` & `[Integrated Shadow]` |
+
+---
+
+## 1D. Pillar 0 Shadow Self (`🌑 Pillar_0_Shadow_Self`) Inbound Authorizations
+
+Approve these one-time `#REF!` cells to complete the live closed loop across `RAW_DATA_ShadowJournal`, `Saboteur Assessment (PQ)`, `🌑 Pillar_0_Shadow_Self`, and `LifeOS_feed_hub`:
+
+| Done | Workbook & Cell | Direct Tab Link (Click cell -> Allow access) | Target Workbook | Unlocks |
+| :---: | :--- | :--- | :--- | :--- |
+| [ ] | **`🌑 Pillar_0_Shadow_Self` → `P0_CONFIG!I4`** | https://docs.google.com/spreadsheets/d/1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU/edit#gid=1648982482 | **RAW_DATA_ShadowJournal** (`1wzXYSOKo7oT_EpYcDtFcYBXypqw-BiwUGpoEjsOw5vU`) | Live private Shadow Journal & RCMC submissions streaming into `IMPORTS`, `DATABASE`, `CALCULATIONS`, and `DASHBOARD` |
+| [ ] | **`🌑 Pillar_0_Shadow_Self` → `P0_CONFIG!I5`** | https://docs.google.com/spreadsheets/d/1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU/edit#gid=1648982482 | **Saboteur Assessment (PQ)** (`1NhqPJDFOp91qOp5Y9hPe0rIuqECKU_b08cZYXZAqxeE`) | Live `Primary Active Saboteur`, `PQ Quotient`, and `Prescribed Sage Counter Drill` directly on The Shadow Work Bench |
+| [ ] | **`🌑 Pillar_0_Shadow_Self` → `CONTEXT_IN!F2`** | https://docs.google.com/spreadsheets/d/1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU/edit#gid=246517698 | **LifeOS_feed_hub** (`1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U`) | Live Hub context (`DOPPELGANGER_DOMINATION_INDEX`, `SHADOW_TAX_RATE`, `PQ_PRIMARY_SABOTEUR`, `P3_SHADOW_FLAGS_30D`, `P4_PROCRASTINATION_FLAG`, `VALUES_ALIGNMENT_SCORE`) |
 
 ---
 

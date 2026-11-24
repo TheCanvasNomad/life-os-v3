@@ -1,0 +1,32 @@
+{
+  "registry_key": "ID_RAW_SHADOW_JOURNAL",
+  "title": "RAW_DATA_ShadowJournal",
+  "spreadsheet_id": "1wzXYSOKo7oT_EpYcDtFcYBXypqw-BiwUGpoEjsOw5vU",
+  "snapshot_utc": "2026-11-24T05:26:57Z",
+  "pii_policy": "ZERO_PII_ZERO_JOURNAL_PROSE_HEADERS_ONLY",
+  "tab_count": 1,
+  "tabs": [
+    {
+      "title": "Form Responses 1",
+      "sheet_id": 804884451,
+      "index": 0,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 101,
+      "col_count": 14,
+      "headers_row_1": [
+        "Timestamp",
+        "Describe the triggering event or feeling.",
+        "What were the initial emotion(s) you felt?",
+        "What is the immediate story or narrative I'm telling myself about this event/feeling?",
+        "Primary Saboteur Hijack",
+        "Underlying Fear / Unmet Need",
+        "RCMC Depth Level",
+        "Reframed Narrative / Deeper Truth",
+        "Lesson / Integrated Wisdom & Gravity Action Step",
+        "Entry Status",
+        "Seal in Obsidian Vault"
+      ]
+    }
+  ]
+}
