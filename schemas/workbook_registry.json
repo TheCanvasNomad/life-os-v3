@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-24T05:26:57Z",
+  "last_updated_utc": "2026-11-24T05:35:32Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2523,6 +2523,47 @@
         }
       ],
       "universal_brick_compliant": false
+    },
+    "ID_PILLAR_6": {
+      "title": "\ud83d\udd2e Pillar_6_Esoteric_Self",
+      "spreadsheet_id": "1vVvU5TfzjGYFMNbMlSNaUjREj8HBkDPMwbzLiBnfxA0",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1vVvU5TfzjGYFMNbMlSNaUjREj8HBkDPMwbzLiBnfxA0/edit",
+      "status": "ACTIVE",
+      "layer": "pillar_spoke",
+      "domain": "Pillar 6 Esoteric Self / Path of the Initiate, Prana, Alchemical Furnace, Sigils & True Will Capstone",
+      "live_tabs": [
+        "DASHBOARD",
+        "ALCHEMICAL_FURNACE",
+        "SIGIL_MANIFESTATION_LOG",
+        "DATABASE",
+        "CALCULATIONS",
+        "P6_CONFIG",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "search_aliases": [
+        "\ud83d\udd2e Pillar_6_Esoteric_Self",
+        "Pillar_6_Esoteric_Self",
+        "Pillar 6 Esoteric Self",
+        "Esoteric Capstone"
+      ],
+      "schema_ref": null,
+      "last_snapshot_utc": "2026-11-24T05:35:32Z",
+      "all_tabs": [
+        "DASHBOARD",
+        "ALCHEMICAL_FURNACE",
+        "SIGIL_MANIFESTATION_LOG",
+        "DATABASE",
+        "CALCULATIONS",
+        "P6_CONFIG",
+        "IMPORTS",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "tab_count": 10,
+      "universal_brick_compliant": true
     }
   },
   "unmapped_discovered": [

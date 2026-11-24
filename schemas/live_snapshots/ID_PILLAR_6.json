@@ -1,0 +1,172 @@
+{
+  "registry_key": "ID_PILLAR_6",
+  "title": "\ud83d\udd2e Pillar_6_Esoteric_Self",
+  "spreadsheet_id": "1vVvU5TfzjGYFMNbMlSNaUjREj8HBkDPMwbzLiBnfxA0",
+  "snapshot_utc": "2026-11-24T05:35:27Z",
+  "pii_policy": "ZERO_PII_ZERO_SIGIL_PROSE_HEADERS_ONLY",
+  "tab_count": 10,
+  "tabs": [
+    {
+      "title": "DASHBOARD",
+      "sheet_id": 1344627458,
+      "index": 0,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 34,
+      "col_count": 14,
+      "headers_row_1": [
+        "\ud83d\udd2e PILLAR 6: ESOTERIC SELF \u2014 METAPHYSICAL CAPSTONE HUD (LifeOS-v3)"
+      ]
+    },
+    {
+      "title": "ALCHEMICAL_FURNACE",
+      "sheet_id": 758612174,
+      "index": 1,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 120,
+      "col_count": 10,
+      "headers_row_1": [
+        "\ud83d\udd25 ALCHEMICAL FURNACE \u2014 SEXUAL ALCHEMY & ENERGY RETENTION STREAK ENGINE"
+      ]
+    },
+    {
+      "title": "SIGIL_MANIFESTATION_LOG",
+      "sheet_id": 1133214529,
+      "index": 2,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 100,
+      "col_count": 12,
+      "headers_row_1": [
+        "\u2728 SIGIL & MENTALISM MANIFESTATION LOG (EMPIRICAL TRACKER \u2014 PRIVATE TO PILLAR 6)"
+      ]
+    },
+    {
+      "title": "DATABASE",
+      "sheet_id": 1112382284,
+      "index": 3,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 300,
+      "col_count": 24,
+      "headers_row_1": [
+        "Timestamp",
+        "Date",
+        "Prana_Level",
+        "Retention_Clean_Day",
+        "Energy_Level",
+        "Stress_Level",
+        "",
+        "Quest_Timestamp",
+        "Ritual_Quest_Name",
+        "Quest_Tier",
+        "Status",
+        "Special_Flags",
+        "Target_Date",
+        "",
+        "Event_Timestamp",
+        "Event_Date",
+        "Practice_Tags",
+        "Moral_Alignment",
+        "Linked_Sigil_ID",
+        "True_Will_Aligned",
+        "Practice_Summary"
+      ]
+    },
+    {
+      "title": "CALCULATIONS",
+      "sheet_id": 304607983,
+      "index": 4,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 48,
+      "col_count": 8,
+      "headers_row_1": [
+        "Esoteric_Base_Score (Formula Anchor)",
+        "Esoteric_Base_Score (0\u2013100) \u2014 Canonical Pillar 6 Anchor (CALCULATIONS!A1)",
+        "Weighted composite across 5-Level Path of the Initiate (15/20/20/25/20), auto-normalizing & blank-safe."
+      ]
+    },
+    {
+      "title": "P6_CONFIG",
+      "sheet_id": 91652435,
+      "index": 5,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 42,
+      "col_count": 14,
+      "headers_row_1": [
+        "\u2699\ufe0f PILLAR 6 ESOTERIC SELF & METAPHYSICAL PHYSICS (P6_CONFIG)",
+        "",
+        "",
+        "",
+        "ALCHEMICAL FURNACE TIER SPILLOVER TABLE",
+        "",
+        "",
+        "",
+        "\ud83d\udd10 1-CLICK IMPORTRANGE AUTH ANCHORS"
+      ]
+    },
+    {
+      "title": "IMPORTS",
+      "sheet_id": 0,
+      "index": 6,
+      "hidden": true,
+      "sheet_type": "GRID",
+      "row_count": 500,
+      "col_count": 65,
+      "headers_row_1": []
+    },
+    {
+      "title": "MODULE_META",
+      "sheet_id": 183825514,
+      "index": 7,
+      "hidden": true,
+      "sheet_type": "GRID",
+      "row_count": 30,
+      "col_count": 6,
+      "headers_row_1": [
+        "Meta_Key",
+        "Value",
+        "Notes"
+      ]
+    },
+    {
+      "title": "CONTEXT_IN",
+      "sheet_id": 1620905011,
+      "index": 8,
+      "hidden": true,
+      "sheet_type": "GRID",
+      "row_count": 30,
+      "col_count": 8,
+      "headers_row_1": [
+        "Subscribed_Signal_Key",
+        "Source_Hub",
+        "Live_Value",
+        "Normalized_0_100",
+        "Hub_Status",
+        "Hub_Auth_Trigger"
+      ]
+    },
+    {
+      "title": "SIGNALS_OUT",
+      "sheet_id": 610027309,
+      "index": 9,
+      "hidden": true,
+      "sheet_type": "GRID",
+      "row_count": 30,
+      "col_count": 10,
+      "headers_row_1": [
+        "Signal_Key",
+        "Module_Name",
+        "Glyph",
+        "Domain",
+        "Raw_Value",
+        "Normalized_0_100",
+        "Signal_Status",
+        "Last_Updated"
+      ]
+    }
+  ]
+}

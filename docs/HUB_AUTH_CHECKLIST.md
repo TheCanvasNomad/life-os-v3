@@ -48,6 +48,21 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | [ ] | `MODULE_REGISTRY!J34` | **🛠️ Pillar_4_Skills_Mission** | `1PHTTv1Qpdy5JAyLarOaXYAIsNIuAk8YFBw9GqvIslT0` | All 6 `P4_*` signals (`P4_SKILLS_BASE_SCORE`, `P4_IKIGAI_SCORE`, `P4_AVG_SKILL_LEVEL`, `P4_PERSPECTIVE_TAKING_LVL`, `P4_PSYOP_RECOGNITION_LVL`, `P4_FLOW_SESSION_SCORE`) -> `AQAL_VIEW` UR & LR, `MASLOW_ENGINE` L4 Esteem, `SWORD_VIEW` Point & Edge |
 | [ ] | `MODULE_REGISTRY!J35` | **💰 Pillar_2_Wealth** | `1NcqV_nHIXuyGz6SuwyXNZbh3AtazGOkuZcIZlTBxw5c` | All 6 strictly anonymized `P2_*` signals (`P2_WEALTH_BASE_SCORE`, `P2_FIRE_SCORE`, `P2_SAVINGS_RATE_PCT`, `P2_RUNWAY_MONTHS`, `P2_FINANCIAL_LEVEL`, `P2_SCARCITY_STATUS`) -> `MASLOW_ENGINE` L2 Safety (`80% P2 + 20% Stress Resilience`), `AQAL_VIEW` LR `"ITS"` (`RULES_ENGINE!A67`), `SWORD_VIEW` Quillons, `RULES_ENGINE` `COND_SCARCITY` & `[Freedom]` |
 | [ ] | `MODULE_REGISTRY!J36` | **🌑 Pillar_0_Shadow_Self** | `1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU` | All 6 strictly anonymized numeric/state `P0_*` signals (`P0_WISDOM_SCORE`, `P0_WISDOM_POINTS_TOTAL`, `P0_ANTIFRAGILITY_XP`, `P0_UNINTEGRATED_SHADOWS`, `P0_INTEGRATION_RATE_PCT`, `P0_GRIP_INTEGRITY`; zero journal text) -> `AQAL_VIEW` UL `"I"` (`RULES_ENGINE!A53`), `MASLOW_ENGINE` L5 Self-Actualization (`60% P5 + 40% P0`), `SWORD_VIEW` Grip, `RULES_ENGINE` `COND_SHADOW_DRIFT` & `[Integrated Shadow]` |
+| [ ] | `MODULE_REGISTRY!J37` | **🔮 Pillar_6_Esoteric_Self** | `1vVvU5TfzjGYFMNbMlSNaUjREj8HBkDPMwbzLiBnfxA0` | All 8 strictly anonymized `P6_*` capstone signals (`P6_ESOTERIC_BASE_SCORE`, `P6_PRANA_7D_AVG`, `P6_ALCHEMICAL_FURNACE_PCT`, `P6_RETENTION_STREAK_DAYS`, `P6_TRUE_WILL_ALIGNMENT_PCT`, `P6_SIGIL_MANIFESTATION_RATE_PCT`, `P6_VIBRATORY_BUFF_STATE`, `P6_DESTINY_BUFF_ACTIVE`; zero sigil prose) -> `RULES_ENGINE` (`[High Vibration]`, `[Energy Leak]`, `[Destiny]`, Furnace Spillovers), `SWORD_VIEW` Pommel, `CHARACTER_SHEET`, `AI_Synthesis_Report` |
+
+---
+
+## 1E. Pillar 6 Esoteric Self (`🔮 Pillar_6_Esoteric_Self`) Inbound Authorizations
+
+Approve these one-time `#REF!` cells to complete the capstone loop across `RAW_DATA_DailyCheckIn`, `RAW_DATA_AnnualReview`, `RAW_DATA_Quests`, `RAW_DATA_EventLog`, `🔮 Pillar_6_Esoteric_Self`, and `LifeOS_feed_hub`:
+
+| Done | Workbook & Cell | Direct Tab Link (Click cell -> Allow access) | Target Workbook | Unlocks |
+| :---: | :--- | :--- | :--- | :--- |
+| [ ] | **`🔮 Pillar_6_Esoteric_Self` → `P6_CONFIG!I4`** | https://docs.google.com/spreadsheets/d/1vVvU5TfzjGYFMNbMlSNaUjREj8HBkDPMwbzLiBnfxA0/edit#gid=91652435 | **RAW_DATA_DailyCheckIn** (`1Bz2AH4oJMvzhETSvEhG5H58mlF-RNLMG6IaTTKaODSY`) | Live Prana (1–10) & Energy Retention Clean Day stream into `DATABASE`, `ALCHEMICAL_FURNACE`, and `DASHBOARD` |
+| [ ] | **`🔮 Pillar_6_Esoteric_Self` → `P6_CONFIG!I5`** | https://docs.google.com/spreadsheets/d/1vVvU5TfzjGYFMNbMlSNaUjREj8HBkDPMwbzLiBnfxA0/edit#gid=91652435 | **RAW_DATA_AnnualReview** (`17YdM8NAansiDZWnQTUL928LlWc9ZypPMFLcco02lZ7Q`) | Live True Will Declaration (private to Pillar 6) & True Will Alignment (1–10) North Star |
+| [ ] | **`🔮 Pillar_6_Esoteric_Self` → `P6_CONFIG!I6`** | https://docs.google.com/spreadsheets/d/1vVvU5TfzjGYFMNbMlSNaUjREj8HBkDPMwbzLiBnfxA0/edit#gid=91652435 | **RAW_DATA_Quests** (`1uV7FXlTU--gHFOt7zWYRkDxGk15QXIPGbBcshkk4TVw`) | Live `[Ritual]` Quests stream into `DATABASE` and L3 Practitioner mastery |
+| [ ] | **`🔮 Pillar_6_Esoteric_Self` → `P6_CONFIG!I7`** | https://docs.google.com/spreadsheets/d/1vVvU5TfzjGYFMNbMlSNaUjREj8HBkDPMwbzLiBnfxA0/edit#gid=91652435 | **RAW_DATA_EventLog** (`1p9LUEUQl_2N0AvaC15FGqD7ySzfJMObEeZj-KCQUZ-8`) | Live metaphysical practice tags (`[Qi_Gong]`, `[Silence]`, `[Breathwork]`, `[Hermeticism]`, `[Metaphysics]`, `[Jungian_Psychology]`), `Linked_Sigil_ID`, and `True_Will_Aligned?` |
+| [ ] | **`🔮 Pillar_6_Esoteric_Self` → `CONTEXT_IN!F2`** | https://docs.google.com/spreadsheets/d/1vVvU5TfzjGYFMNbMlSNaUjREj8HBkDPMwbzLiBnfxA0/edit#gid=1620905011 | **LifeOS_feed_hub** (`1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U`) | Live Hub context (`P0_WISDOM_SCORE`, `P4_ENERGY_CONTROL_LVL`, `P4_ESOTERIC_KNOWLEDGE_LVL`, `KAB_EFFECTIVE_QUALITY`, `HD_STRATEGY_COHERENCE`) |
 
 ---
 

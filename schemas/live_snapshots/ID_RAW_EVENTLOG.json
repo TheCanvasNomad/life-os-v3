@@ -2,9 +2,8 @@
   "registry_key": "ID_RAW_EVENTLOG",
   "title": "RAW_DATA_EventLog",
   "spreadsheet_id": "1p9LUEUQl_2N0AvaC15FGqD7ySzfJMObEeZj-KCQUZ-8",
-  "url": "https://docs.google.com/spreadsheets/d/1p9LUEUQl_2N0AvaC15FGqD7ySzfJMObEeZj-KCQUZ-8/edit",
-  "time_zone": "America/Detroit",
-  "snapshot_utc": "2026-11-24T00:16:37Z",
+  "snapshot_utc": "2026-11-24T05:35:32Z",
+  "pii_policy": "ZERO_PII_ZERO_SIGIL_PROSE_HEADERS_ONLY",
   "tab_count": 1,
   "tabs": [
     {
@@ -14,9 +13,8 @@
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 101,
-      "col_count": 18,
-      "header_row_index": 1,
-      "headers": [
+      "col_count": 16,
+      "headers_row_1": [
         "Timestamp",
         "When did this event/interaction occur?",
         "Describe the event or interaction.",
@@ -28,21 +26,9 @@
         "If this event involves a specific person, who was it? (Optional)",
         "Audio Log Link (e.g., from Google Recorder)",
         "Was there a notable power dynamic at play in this event?",
-        "What was the moral alignment of your actions/response in this event?"
-      ],
-      "row_1": [
-        "Timestamp",
-        "When did this event/interaction occur?",
-        "Describe the event or interaction.",
-        "Apply relevant tags (select all that apply).",
-        "What is the underlying fear or insecurity driving my reaction/the situation?",
-        "What is the reframed narrative or deeper truth I can choose to adopt?",
-        "What is the key lesson learned or integrated wisdom from this event?",
-        "Current Status of this Shadow Work Entry",
-        "If this event involves a specific person, who was it? (Optional)",
-        "Audio Log Link (e.g., from Google Recorder)",
-        "Was there a notable power dynamic at play in this event?",
-        "What was the moral alignment of your actions/response in this event?"
+        "What was the moral alignment of your actions/response in this event?",
+        "Linked_Sigil_ID",
+        "True_Will_Aligned?"
       ]
     }
   ]
