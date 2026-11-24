@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-24T16:45:00Z",
+  "last_updated_utc": "2026-11-24T17:18:44Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -268,7 +268,7 @@
         "LifeOS Master Bus"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-24T16:38:33Z",
+      "last_snapshot_utc": "2026-11-24T17:18:44Z",
       "all_tabs": [
         "SYMBIOSIS_HUD",
         "Workbook_Directory",
@@ -408,7 +408,7 @@
         "LifeOS_XP_Hub"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-24T16:45:00Z",
+      "last_snapshot_utc": "2026-11-24T17:18:44Z",
       "all_tabs": [
         "Player_HUD",
         "XP_Ledger",
@@ -704,7 +704,7 @@
         "LifeOS Feed Hub"
       ],
       "schema_ref": "schemas/lifeos_feed_hub_schema.json",
-      "last_snapshot_utc": "2026-11-24T16:45:00Z",
+      "last_snapshot_utc": "2026-11-24T17:18:44Z",
       "all_tabs": [
         "SIGNAL_BUS",
         "MODULE_REGISTRY",
@@ -2687,6 +2687,79 @@
         }
       ],
       "universal_brick_compliant": false
+    },
+    "ID_ACHIEVEMENTS": {
+      "title": "\ud83c\udfc5 Achievements_Engine_Brick",
+      "spreadsheet_id": "1oPwOgvsk49CJ7x9pmYIf0Ex2EBHlrKVpb7SO9Ja4-JQ",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1oPwOgvsk49CJ7x9pmYIf0Ex2EBHlrKVpb7SO9Ja4-JQ/edit",
+      "status": "ACTIVE",
+      "layer": "brick",
+      "domain": "Pillar 5 Experience & Legacy / 210+ Life Achievements & AQAL Trophy Room",
+      "live_tabs": [
+        "DASHBOARD",
+        "MASTER_ACHIEVEMENTS_LEDGER",
+        "LOOKER_ACHIEVEMENTS",
+        "Categories",
+        "AQAL",
+        "Stats",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "search_aliases": [
+        "\ud83c\udfc5 Achievements_Engine_Brick",
+        "Achievements_Engine_Brick",
+        "Achievements (Responses)",
+        "Achievements"
+      ],
+      "schema_ref": null,
+      "last_snapshot_utc": "2026-11-24T17:18:44Z",
+      "all_tabs": [
+        "DASHBOARD",
+        "MASTER_ACHIEVEMENTS_LEDGER",
+        "LOOKER_ACHIEVEMENTS",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT",
+        "Form Responses 1",
+        "Answers",
+        "Master List",
+        "Categories",
+        "Stats",
+        "Epicurean & Hedonistic Pleasures",
+        "Personal Growth & Self-Mastery",
+        "AQAL",
+        "Physical Health & Athleticism",
+        "Career & Professional Autonomy",
+        "Financial Stewardship & Freedom",
+        "Relationships, Family & Community",
+        "Travel, Exploration & Cultural Immersion",
+        "Craftsmanship, Creativity & Hobbies",
+        "Legacy, Wisdom & Life Closure",
+        "Life Skills & Practical Self-Reliance",
+        "Experiential & Unforgettable Moments",
+        "Biological & Physical Mastery",
+        "Expressive & Creative Output",
+        "Emotional & Psychological Sovereignty",
+        "Survival, Resilience & Adaptation",
+        "Intellectual & Observational Clarity",
+        "Transcendence & Core Legacy",
+        "Harmony with the Natural Environment",
+        "Character, Integrity & Moral Sovereignty",
+        "Relational & Interpersonal Connection",
+        "Perceptual & Existential Awareness"
+      ],
+      "tab_count": 33,
+      "linked_forms": [
+        {
+          "name": "Achievements",
+          "form_id": "1GQxmuG2avfYZXPKOXxgdQwHVoqXp-Pc3hwz4oVeTOa0"
+        }
+      ],
+      "universal_brick_compliant": true,
+      "looker_tabs": [
+        "LOOKER_ACHIEVEMENTS"
+      ]
     }
   },
   "unmapped_discovered": [

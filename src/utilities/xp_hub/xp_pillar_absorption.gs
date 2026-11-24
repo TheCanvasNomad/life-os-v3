@@ -3,9 +3,10 @@
  * LIFEOS-v3 // XP LEVELER — UNIFIED PILLAR XP DELTA ABSORPTION ENGINE
  * File: src/utilities/xp_hub/xp_pillar_absorption.gs (Bound to: XP Leveler)
  * ============================================================================
- * Snapshots newly earned Pillar XP deltas (`P0`–`P6` + `Travel_Tracker`) from
- * `PILLAR_XP_ABSORPTION` into `XP_Ledger` with timestamp, locked multiplier,
- * and deterministic verification tag (`ABSORB:<PILLAR_KEY>|<DATE>`).
+ * Snapshots newly earned Pillar & Brick XP deltas (`P0`–`P6`, `Travel_Tracker`,
+ * and `Achievements_Engine_Brick`) from `PILLAR_XP_ABSORPTION` into `XP_Ledger`
+ * with timestamp, locked multiplier, and deterministic verification tag
+ * (`ABSORB:<PILLAR_KEY>|<DATE>`).
  *
  * Zero Double-Counting Guarantee:
  *  - `PILLAR_XP_ABSORPTION!Col F` (`Previously_Absorbed_Quanta`) dynamically
@@ -40,7 +41,7 @@ function onOpen() {
 }
 
 /**
- * Reads `PILLAR_XP_ABSORPTION!A2:I9` for any Pillar with `Unabsorbed_Delta_Quanta > 0`,
+ * Reads `PILLAR_XP_ABSORPTION!A2:I10` for any Pillar/Brick with `Unabsorbed_Delta_Quanta > 0`,
  * appends a permanent snapshot row into `XP_Ledger` (`A:H`) with the locked daily
  * multiplier and `ABSORB:<PILLAR_KEY>|<DATE>` verification tag.
  */
@@ -61,7 +62,7 @@ function syncPillarXpToLedger() {
     }
 
     const quantumXp = Number(cfgSheet ? cfgSheet.getRange('B2').getValue() : 137) || 137;
-    const rows = absSheet.getRange(2, 1, 8, 9).getValues();
+    const rows = absSheet.getRange(2, 1, 9, 9).getValues();
     const now = new Date();
     const dateTag = Utilities.formatDate(now, Session.getScriptTimeZone(), 'yyyy-MM-dd');
 
