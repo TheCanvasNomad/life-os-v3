@@ -52,7 +52,9 @@ const MASTER_SYNC_CFG = {
 function onOpen() {
   const ui = SpreadsheetApp.getUi();
   ui.createMenu('📱 LifeOS Phonebook')
-    .addItem('🔄 Run Full Two-Way People API Sync', 'runFullTwoWaySync')
+    .addItem('🔄 Run Unified Two-Way Sync + Core_CRM Pass', 'syncGoogleContactsTwoWay')
+    .addItem('⏱️ Install 15-Minute Auto-Sync Trigger', 'installFifteenMinuteSyncTrigger')
+    .addSeparator()
     .addItem('⬇️ Pull Changes from Google Contacts', 'pullFromGoogleContacts')
     .addItem('⬆️ Push Sheet Edits + Birthdays + Labels to Phone', 'pushSheetEditsToGoogleContacts')
     .addSeparator()
@@ -68,6 +70,22 @@ function onOpen() {
   } catch (e) {
     Logger.log('onOpen autoHideEmptyColumns skipped: ' + e.message);
   }
+}
+
+/**
+ * Installs a deduplicated 15-minute time-driven trigger for syncGoogleContactsTwoWay().
+ */
+function installFifteenMinuteSyncTrigger() {
+  ScriptApp.getProjectTriggers().forEach(t => {
+    if (t.getHandlerFunction() === 'syncGoogleContactsTwoWay') {
+      ScriptApp.deleteTrigger(t);
+    }
+  });
+  ScriptApp.newTrigger('syncGoogleContactsTwoWay')
+    .timeBased()
+    .everyMinutes(15)
+    .create();
+  SpreadsheetApp.getUi().alert('⏱️ Installed 15-minute auto-sync trigger for syncGoogleContactsTwoWay().');
 }
 
 /**
@@ -109,14 +127,106 @@ function autoHideEmptyColumns() {
 }
 
 /**
- * Full loop-safe two-way sync orchestrator.
+ * Unified 15-minute two-way pipeline (guarded by LockService.getScriptLock()):
+ *  1. Bidirectional People API v1 sync on 📱 Master_Contacts_Sync
+ *     (pushes sheet tag/label/birthday edits -> pulls phone/contact edits from Google Contacts)
+ *  2. Immediate 📇 Core_CRM sync & cross-brick hydration pass (CONTACT_DIRECTORY,
+ *     ⚡ BULK_OPERATIONS, Body Count 2.0 / Career write-backs, and NotebookLM refresh)
+ */
+function syncGoogleContactsTwoWay() {
+  const lock = LockService.getScriptLock();
+  if (!lock.tryLock(5000)) {
+    Logger.log('syncGoogleContactsTwoWay skipped: overlapping 15-minute run still holds script lock.');
+    return;
+  }
+
+  const startedAt = new Date().toISOString();
+  try {
+    // Phase 1: Bidirectional People API v1 sync on 📱 Master_Contacts_Sync
+    pushSheetEditsToGoogleContacts();
+    pullFromGoogleContacts();
+    autoHideEmptyColumns();
+
+    // Phase 2: Immediate 📇 Core_CRM sync & cross-brick hydration pass
+    if (typeof runFullSymbiosisOrchestrator === 'function') {
+      runFullSymbiosisOrchestrator();
+    } else {
+      syncMasterIdentityToCoreCRMFallback_();
+    }
+
+    Logger.log('syncGoogleContactsTwoWay completed cleanly (started ' + startedAt + ').');
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+/**
+ * Backward-compatible alias delegating to locked syncGoogleContactsTwoWay().
  */
 function runFullTwoWaySync() {
-  pushSheetEditsToGoogleContacts();
-  pullFromGoogleContacts();
-  autoHideEmptyColumns();
-  if (typeof runFullSymbiosisOrchestrator === 'function') {
-    runFullSymbiosisOrchestrator();
+  syncGoogleContactsTwoWay();
+}
+
+/**
+ * Fallback identity mirror (used only if crm_symbiosis_engine.gs is not loaded in the same project)
+ * so newly pulled phone numbers, emails, countries, cities, and orgs still land in Core_CRM immediately.
+ */
+function syncMasterIdentityToCoreCRMFallback_() {
+  const mSs = SpreadsheetApp.openById(MASTER_SYNC_CFG.MASTER_SS_ID);
+  const mSheet = mSs.getSheetByName(MASTER_SYNC_CFG.MASTER_TAB);
+  const cSs = SpreadsheetApp.openById(MASTER_SYNC_CFG.CORE_CRM_SS_ID);
+  const cSheet = cSs.getSheetByName(MASTER_SYNC_CFG.DIRECTORY_TAB);
+  if (!mSheet || !cSheet || mSheet.getLastRow() < 2) return;
+
+  const mData = mSheet.getDataRange().getValues();
+  const mCol = buildHeaderMap_(mData[0].map(h => String(h || '').trim()));
+
+  const cLastRow = cSheet.getLastRow();
+  const cIds = cLastRow >= 2 ? cSheet.getRange(2, 1, cLastRow - 1, 1).getValues().map(r => String(r[0] || '').trim()) : [];
+  const cMirrors = cLastRow >= 2 ? cSheet.getRange(2, 3, cLastRow - 1, 6).getValues() : [];
+  const cCities = cLastRow >= 2 ? cSheet.getRange(2, 29, cLastRow - 1, 1).getValues() : [];
+  const rowIdxByCid = {};
+  cIds.forEach((cid, idx) => { if (cid) rowIdxByCid[cid] = idx; });
+
+  const appendedIds = [];
+  const appendedMirrors = [];
+  const appendedCities = [];
+
+  for (let r = 1; r < mData.length; r++) {
+    const mr = mData[r];
+    const cid = String(mr[mCol['Contact ID']] || '').trim();
+    if (!cid) continue;
+    const fullName = [mr[mCol['First Name']], mr[mCol['Middle Name']], mr[mCol['Last Name']]]
+      .map(s => String(s || '').trim()).filter(Boolean).join(' ') || String(mr[mCol['Nickname']] || mr[mCol['Organization Name']] || cid);
+    const phone = String(mr[mCol['Phone 1 - Value']] || '').trim();
+    const email = String(mr[mCol['E-mail 1 - Value']] || '').trim();
+    const country = String(mr[mCol['Address 1 - Country']] || '').trim();
+    const org = String(mr[mCol['Organization Name']] || '').trim();
+    const bday = String(mr[mCol['Master_Birthday']] || mr[mCol['Birthday']] || '').trim();
+    const city = String(mr[mCol['Address 1 - City']] || '').trim();
+
+    if (rowIdxByCid[cid] !== undefined) {
+      const i = rowIdxByCid[cid];
+      cMirrors[i] = [fullName, phone, email, country, org, bday];
+      if (city && !String(cCities[i][0] || '').trim()) cCities[i][0] = city;
+    } else {
+      appendedIds.push([cid]);
+      appendedMirrors.push([fullName, phone, email, country, org, bday]);
+      appendedCities.push([city]);
+    }
+  }
+
+  if (cMirrors.length > 0) {
+    cSheet.getRange(2, 4, cMirrors.length, 1).setNumberFormat('@');
+    cSheet.getRange(2, 3, cMirrors.length, 6).setValues(cMirrors);
+    cSheet.getRange(2, 29, cCities.length, 1).setValues(cCities);
+  }
+  if (appendedIds.length > 0) {
+    const startR = cSheet.getLastRow() + 1;
+    cSheet.getRange(startR, 4, appendedIds.length, 1).setNumberFormat('@');
+    cSheet.getRange(startR, 1, appendedIds.length, 1).setValues(appendedIds);
+    cSheet.getRange(startR, 3, appendedMirrors.length, 6).setValues(appendedMirrors);
+    cSheet.getRange(startR, 29, appendedCities.length, 1).setValues(appendedCities);
   }
 }
 

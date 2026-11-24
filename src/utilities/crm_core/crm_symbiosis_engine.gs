@@ -104,13 +104,16 @@ function syncMasterAndCoreCRM() {
   }
 
   // Write refreshed read-only identity columns C..H back to CONTACT_DIRECTORY without touching formula cols B, Q, S, T, U!
+  // Always enforce Plain Text '@' on Primary_Phone (Col D) so international '+' phone numbers never become '#ERROR!'
   if (cData.length > 0) {
     const mirrorCH = cData.map(r => [r[2], r[3], r[4], r[5], r[6], r[7]]);
+    cSheet.getRange(2, 4, mirrorCH.length, 1).setNumberFormat('@');
     cSheet.getRange(2, 3, mirrorCH.length, 6).setValues(mirrorCH);
   }
   if (newDirRows.length > 0) {
     // Only write non-formula columns for newly added rows so Row 2 ARRAYFORMULAs spill cleanly
     const startR = cSheet.getLastRow() + 1;
+    cSheet.getRange(startR, 4, newDirRows.length, 1).setNumberFormat('@');
     cSheet.getRange(startR, 1, newDirRows.length, 1).setValues(newDirRows.map(r => [r[0]]));
     cSheet.getRange(startR, 3, newDirRows.length, 14).setValues(newDirRows.map(r => r.slice(2, 16)));
   }
