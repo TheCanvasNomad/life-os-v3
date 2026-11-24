@@ -4,8 +4,8 @@
   "spreadsheet_id": "1PKYbEie4QUgSqqTVW1Y2UVjBgRStz4Aok2BhCWCvU5M",
   "url": "https://docs.google.com/spreadsheets/d/1PKYbEie4QUgSqqTVW1Y2UVjBgRStz4Aok2BhCWCvU5M/edit",
   "time_zone": "Etc/GMT",
-  "snapshot_utc": "2026-11-24T01:51:53Z",
-  "tab_count": 11,
+  "snapshot_utc": "2026-11-24T02:17:04Z",
+  "tab_count": 12,
   "tabs": [
     {
       "title": "CRM_DASHBOARD",
@@ -13,7 +13,7 @@
       "index": 0,
       "hidden": false,
       "sheet_type": "GRID",
-      "row_count": 88,
+      "row_count": 116,
       "col_count": 10,
       "header_row_index": 1,
       "headers": [
@@ -30,23 +30,39 @@
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 6500,
-      "col_count": 14,
+      "col_count": 18,
       "header_row_index": 1,
       "headers": [
-        "\u26a1 LIFEOS v3.2 \u2014 BULK OPERATIONS & COHORT BATCH COMMAND CONSOLE"
+        "\u26a1 LIFEOS v3.2 \u2014 BULK OPERATIONS & LIFECYCLE COHORT COMMAND CONSOLE"
       ],
       "row_1": [
-        "\u26a1 LIFEOS v3.2 \u2014 BULK OPERATIONS & COHORT BATCH COMMAND CONSOLE"
+        "\u26a1 LIFEOS v3.2 \u2014 BULK OPERATIONS & LIFECYCLE COHORT COMMAND CONSOLE"
+      ]
+    },
+    {
+      "title": "CIRCLES_&_COHORTS",
+      "sheet_id": 2071549088,
+      "index": 2,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 78,
+      "col_count": 9,
+      "header_row_index": 1,
+      "headers": [
+        "\ud83c\udf10 LIFEOS v3.2 \u2014 CIRCLES & COHORTS: FULL HUMAN-LIFECYCLE SOCIAL MAP"
+      ],
+      "row_1": [
+        "\ud83c\udf10 LIFEOS v3.2 \u2014 CIRCLES & COHORTS: FULL HUMAN-LIFECYCLE SOCIAL MAP"
       ]
     },
     {
       "title": "CONTACT_DIRECTORY",
       "sheet_id": 910328530,
-      "index": 2,
+      "index": 3,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 6500,
-      "col_count": 21,
+      "col_count": 30,
       "header_row_index": 1,
       "headers": [
         "Contact_ID",
@@ -69,7 +85,16 @@
         "Next_Follow_Up_Date",
         "Follow_Up_Status",
         "Linked_Entities",
-        "Phone_Status"
+        "Phone_Status",
+        "Cohort_Chapter",
+        "Origin_Arena",
+        "Proximity_Ring",
+        "Kinship_Role",
+        "Shared_Interest_1",
+        "Shared_Interest_2",
+        "Introduced_By",
+        "Current_City_Base",
+        "Human_Context_Notes"
       ],
       "row_1": [
         "Contact_ID",
@@ -92,17 +117,26 @@
         "Next_Follow_Up_Date",
         "Follow_Up_Status",
         "Linked_Entities",
-        "Phone_Status"
+        "Phone_Status",
+        "Cohort_Chapter",
+        "Origin_Arena",
+        "Proximity_Ring",
+        "Kinship_Role",
+        "Shared_Interest_1",
+        "Shared_Interest_2",
+        "Introduced_By",
+        "Current_City_Base",
+        "Human_Context_Notes"
       ]
     },
     {
       "title": "TAXONOMY_MATRIX",
       "sheet_id": 1144657771,
-      "index": 3,
+      "index": 4,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 120,
-      "col_count": 13,
+      "col_count": 18,
       "header_row_index": 1,
       "headers": [
         "LifeOS_Sphere",
@@ -112,6 +146,11 @@
         "Gender",
         "Deal_Stages",
         "Interaction_Channels",
+        "Cohort_Chapter",
+        "Origin_Arena",
+        "Proximity_Ring",
+        "Kinship_Role",
+        "Shared_Interests",
         "",
         "Taxonomy_Category",
         "Term_Value",
@@ -126,6 +165,11 @@
         "Gender",
         "Deal_Stages",
         "Interaction_Channels",
+        "Cohort_Chapter",
+        "Origin_Arena",
+        "Proximity_Ring",
+        "Kinship_Role",
+        "Shared_Interests",
         "",
         "Taxonomy_Category",
         "Term_Value",
@@ -136,7 +180,7 @@
     {
       "title": "ENTITY_LINKS",
       "sheet_id": 715873440,
-      "index": 4,
+      "index": 5,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 500,
@@ -170,7 +214,7 @@
     {
       "title": "PIPELINE_&_DEALS",
       "sheet_id": 96871793,
-      "index": 5,
+      "index": 6,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 300,
@@ -206,7 +250,7 @@
     {
       "title": "INTERACTION_LOG",
       "sheet_id": 203608218,
-      "index": 6,
+      "index": 7,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1000,
@@ -236,11 +280,11 @@
     {
       "title": "REF_CROSS_BRICKS",
       "sheet_id": 1378443668,
-      "index": 7,
+      "index": 8,
       "hidden": true,
       "sheet_type": "GRID",
       "row_count": 400,
-      "col_count": 18,
+      "col_count": 24,
       "header_row_index": 1,
       "headers": [
         "All_Target_Records",
@@ -258,7 +302,13 @@
         "Filter_Spheres",
         "Filter_Tags",
         "Filter_Statuses",
-        "Filter_How_Mets"
+        "Filter_How_Mets",
+        "Live_Cohort_Chapters",
+        "Filter_Cohorts",
+        "Filter_Arenas",
+        "Filter_Rings",
+        "Filter_Kinship",
+        "Filter_Interests"
       ],
       "row_1": [
         "All_Target_Records",
@@ -276,13 +326,19 @@
         "Filter_Spheres",
         "Filter_Tags",
         "Filter_Statuses",
-        "Filter_How_Mets"
+        "Filter_How_Mets",
+        "Live_Cohort_Chapters",
+        "Filter_Cohorts",
+        "Filter_Arenas",
+        "Filter_Rings",
+        "Filter_Kinship",
+        "Filter_Interests"
       ]
     },
     {
       "title": "MODULE_META",
       "sheet_id": 1876703071,
-      "index": 8,
+      "index": 9,
       "hidden": true,
       "sheet_type": "GRID",
       "row_count": 1000,
@@ -302,7 +358,7 @@
     {
       "title": "CONTEXT_IN",
       "sheet_id": 1434976974,
-      "index": 9,
+      "index": 10,
       "hidden": true,
       "sheet_type": "GRID",
       "row_count": 1000,
@@ -328,7 +384,7 @@
     {
       "title": "SIGNALS_OUT",
       "sheet_id": 117137470,
-      "index": 10,
+      "index": 11,
       "hidden": true,
       "sheet_type": "GRID",
       "row_count": 1000,

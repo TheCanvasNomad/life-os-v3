@@ -294,6 +294,30 @@ def get_people_service(creds_path: Path, token_path: Path):
     return build("people", "v1", credentials=creds)
 
 
+def provision_taxonomy_labels(service, taxonomy_terms: List[str]) -> Dict[str, str]:
+    """Ensures every TAXONOMY_MATRIX term (Cohort_Chapter, Origin_Arena, Proximity_Ring, Sphere, Tag)
+    with Sync_To_Phone_Label? = YES exists as a native Google Contact Group label."""
+    label_to_res: Dict[str, str] = {}
+    page_token = None
+    while True:
+        resp = service.contactGroups().list(pageSize=1000, pageToken=page_token).execute()
+        for grp in resp.get("contactGroups", []):
+            if grp.get("name") and grp.get("resourceName"):
+                label_to_res[grp["name"].lower()] = grp["resourceName"]
+        page_token = resp.get("nextPageToken")
+        if not page_token:
+            break
+
+    for term in taxonomy_terms:
+        clean = str(term or "").strip()
+        if clean and clean.lower() not in label_to_res:
+            created = service.contactGroups().create(body={"contactGroup": {"name": clean}}).execute()
+            if created.get("resourceName"):
+                label_to_res[clean.lower()] = created["resourceName"]
+            time.sleep(API_PACE_SECONDS)
+    return label_to_res
+
+
 def execute_vault_purge_batch(service, resource_names: List[str], confirm: bool) -> int:
     if not confirm:
         print(f"[DRY-RUN] {len(resource_names)} contacts queued for PURGE_TO_VAULT / UNSYNC_PHONE_ONLY. Pass --confirm-vault to execute.")

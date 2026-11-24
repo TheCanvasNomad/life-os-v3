@@ -59,19 +59,19 @@ function quickPurgeEmailOnlyToVault() {
   const bulk = ss.getSheetByName(BULK_CFG.BULK_TAB);
   if (!bulk) return;
 
-  // Set filters to EMAIL_ONLY across all cohorts
+  // Set all 14 filters to EMAIL_ONLY across all cohorts
   bulk.getRange('A4').setValue('EMAIL_ONLY');
-  bulk.getRange('C4:I4').setValues([['ALL', 'ALL', 'ALL', 'ALL', 'ALL', 'ALL', 'ALL']]);
-  bulk.getRange('J4').setValue('');
+  bulk.getRange('B4:M4').setValues([['ALL', 'ALL', 'ALL', 'ALL', 'ALL', 'ALL', 'ALL', 'ALL', 'ALL', 'ALL', 'ALL', 'ALL']]);
+  bulk.getRange('N4').setValue('');
   bulk.getRange('A9').setValue('PURGE_TO_VAULT');
-  bulk.getRange('D9').setValue('');
+  bulk.getRange('E9').setValue('');
   SpreadsheetApp.flush();
 
   executeBulkCohortAction();
 }
 
 /**
- * Executes the selected Batch_Action_Type (A9) + Batch_Target_Value (D9)
+ * Executes the selected Batch_Action_Type (A9) + Batch_Target_Value (E9)
  * across every Contact ID currently matched in ⚡ BULK_OPERATIONS!A12:A.
  */
 function executeBulkCohortAction() {
@@ -82,7 +82,7 @@ function executeBulkCohortAction() {
   if (!bulk || !dir) return;
 
   const action = String(bulk.getRange('A9').getValue() || '').trim();
-  const targetVal = String(bulk.getRange('D9').getValue() || '').trim();
+  const targetVal = String(bulk.getRange('E9').getValue() || '').trim();
   if (!action) {
     ui.alert('Please select a Batch_Action_Type in cell A9 first.');
     return;
@@ -90,10 +90,12 @@ function executeBulkCohortAction() {
 
   const requiresTarget = [
     'ADD_SOCIAL_TAG', 'REMOVE_SOCIAL_TAG', 'SET_SPHERE', 'SET_STATUS',
-    'SET_HOW_MET', 'SET_COUNTRY', 'SET_ORGANIZATION', 'SET_BIRTHDAY_SYNC'
+    'SET_HOW_MET', 'SET_COUNTRY', 'SET_ORGANIZATION', 'SET_BIRTHDAY_SYNC',
+    'SET_COHORT_CHAPTER', 'SET_ORIGIN_ARENA', 'SET_PROXIMITY_RING',
+    'SET_KINSHIP_ROLE', 'ADD_SHARED_INTEREST', 'SET_CITY_BASE'
   ];
   if (requiresTarget.indexOf(action) !== -1 && !targetVal) {
-    ui.alert('Action [' + action + '] requires a Batch_Target_Value in cell D9.');
+    ui.alert('Action [' + action + '] requires a Batch_Target_Value in cell E9.');
     return;
   }
 
@@ -134,18 +136,21 @@ function executeBulkCohortAction() {
     return;
   }
 
-  // Apply CRM attribute updates in CONTACT_DIRECTORY (Cols C..P, skipping formula Col B!)
+  // Apply CRM & Human-Lifecycle attribute updates in CONTACT_DIRECTORY:
+  // Block 1: Cols C..P (1-idx 3..16) | Block 2: Cols V..AD (1-idx 22..30) — never touching formula cols B, Q, S, T, U!
   const dirLastRow = dir.getLastRow();
   const dirIds = dir.getRange(2, 1, dirLastRow - 1, 1).getValues().map(r => String(r[0] || '').trim());
-  const dirVals = dir.getRange(2, 3, dirLastRow - 1, 14).getValues(); // C(0)..P(13): Name,Ph,Em,Country(3),Org(4),Bday(5),Sphere(6),T1(7),T2(8),T3(9),Status(10),HowMet(11),Gender(12),BdaySync(13)
+  const dirValsCP = dir.getRange(2, 3, dirLastRow - 1, 14).getValues();
+  const dirValsVAD = dir.getRange(2, 22, dirLastRow - 1, 9).getValues(); // V(0)=Cohort, W(1)=Arena, X(2)=Ring, Y(3)=Kinship, Z(4)=Int1, AA(5)=Int2, AB(6)=IntroBy, AC(7)=City, AD(8)=Notes
 
   let updatedCount = 0;
-  const masterWritebacks = {}; // cid -> {country?, org?, bdaySync?}
+  const masterWritebacks = {}; // cid -> {country?, org?, bdaySync?, city?}
 
   for (let i = 0; i < dirIds.length; i++) {
     const cid = dirIds[i];
     if (!targetSet.has(cid)) continue;
-    const row = dirVals[i];
+    const row = dirValsCP[i];
+    const life = dirValsVAD[i];
 
     switch (action) {
       case 'ADD_SOCIAL_TAG': {
@@ -165,15 +170,9 @@ function executeBulkCohortAction() {
         row[7] = kept[0] || ''; row[8] = kept[1] || ''; row[9] = kept[2] || '';
         break;
       }
-      case 'SET_SPHERE':
-        row[6] = targetVal;
-        break;
-      case 'SET_STATUS':
-        row[10] = targetVal;
-        break;
-      case 'SET_HOW_MET':
-        row[11] = targetVal;
-        break;
+      case 'SET_SPHERE': row[6] = targetVal; break;
+      case 'SET_STATUS': row[10] = targetVal; break;
+      case 'SET_HOW_MET': row[11] = targetVal; break;
       case 'SET_COUNTRY':
         row[3] = targetVal;
         masterWritebacks[cid] = Object.assign(masterWritebacks[cid] || {}, { country: targetVal });
@@ -186,18 +185,35 @@ function executeBulkCohortAction() {
         row[13] = targetVal;
         masterWritebacks[cid] = Object.assign(masterWritebacks[cid] || {}, { bdaySync: targetVal });
         break;
+      case 'SET_COHORT_CHAPTER': life[0] = targetVal; break;
+      case 'SET_ORIGIN_ARENA': life[1] = targetVal; break;
+      case 'SET_PROXIMITY_RING': life[2] = targetVal; break;
+      case 'SET_KINSHIP_ROLE': life[3] = targetVal; break;
+      case 'ADD_SHARED_INTEREST': {
+        const curI = [life[4], life[5]].map(s => String(s || '').trim());
+        if (curI.indexOf(targetVal) === -1) {
+          if (!curI[0]) life[4] = targetVal;
+          else life[5] = targetVal;
+        }
+        break;
+      }
+      case 'SET_CITY_BASE':
+        life[7] = targetVal;
+        masterWritebacks[cid] = Object.assign(masterWritebacks[cid] || {}, { city: targetVal });
+        break;
     }
-    dirVals[i] = row;
+    dirValsCP[i] = row;
+    dirValsVAD[i] = life;
     updatedCount++;
   }
 
   if (updatedCount > 0) {
-    // Preserve Plain Text '@' on Primary_Phone (Col D) before writing C..P!
-    dir.getRange(2, 4, dirVals.length, 1).setNumberFormat('@');
-    dir.getRange(2, 3, dirVals.length, 14).setValues(dirVals);
+    dir.getRange(2, 4, dirValsCP.length, 1).setNumberFormat('@');
+    dir.getRange(2, 3, dirValsCP.length, 14).setValues(dirValsCP);
+    dir.getRange(2, 22, dirValsVAD.length, 9).setValues(dirValsVAD);
   }
 
-  // Propagate Country / Organization / Birthday_Sync back to 📱 Master_Contacts_Sync
+  // Propagate Country / City / Organization / Birthday_Sync back to 📱 Master_Contacts_Sync
   const wbCids = Object.keys(masterWritebacks);
   if (wbCids.length > 0) {
     const mSs = SpreadsheetApp.openById(BULK_CFG.MASTER_SS_ID);
@@ -211,6 +227,7 @@ function executeBulkCohortAction() {
       const wb = masterWritebacks[cid];
       if (!wb) continue;
       if (wb.country !== undefined) mSheet.getRange(r + 1, mCol['Address 1 - Country'] + 1).setValue(wb.country);
+      if (wb.city !== undefined) mSheet.getRange(r + 1, mCol['Address 1 - City'] + 1).setValue(wb.city);
       if (wb.org !== undefined) mSheet.getRange(r + 1, mCol['Organization Name'] + 1).setValue(wb.org);
       if (wb.bdaySync !== undefined) {
         mSheet.getRange(r + 1, mCol['Birthday_Sync'] + 1).setValue(wb.bdaySync);
@@ -224,7 +241,7 @@ function executeBulkCohortAction() {
     }
   }
 
-  ui.alert('⚡ Batch Action [' + action + '] applied cleanly to ' + updatedCount + ' contacts.\nRun "Push Sheet Edits to Phone" in Master_Contacts_Sync to sync changes to your Pixel.');
+  ui.alert('⚡ Batch Action [' + action + '] applied cleanly to ' + updatedCount + ' contacts.\nRun "Push Sheet Edits to Phone" in Master_Contacts_Sync to sync changes & Labels to your Pixel.');
 }
 
 /**

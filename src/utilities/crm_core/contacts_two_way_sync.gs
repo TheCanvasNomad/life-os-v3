@@ -140,12 +140,12 @@ function syncTaxonomyLabelsAndGetMaps_() {
     pageToken = resp.nextPageToken || null;
   } while (pageToken);
 
-  // Auto-provision labels from Core_CRM -> TAXONOMY_MATRIX governance table (Cols I:L)
+  // Auto-provision labels from Core_CRM -> TAXONOMY_MATRIX governance table (Cols N:Q -> 1-idx 14..17)
   try {
     const crmSs = SpreadsheetApp.openById(MASTER_SYNC_CFG.CORE_CRM_SS_ID);
     const taxSheet = crmSs.getSheetByName(MASTER_SYNC_CFG.TAXONOMY_TAB);
     if (taxSheet && taxSheet.getLastRow() >= 2) {
-      const gov = taxSheet.getRange(2, 9, taxSheet.getLastRow() - 1, 4).getValues();
+      const gov = taxSheet.getRange(2, 14, taxSheet.getLastRow() - 1, 4).getValues();
       gov.forEach(row => {
         const term = String(row[1] || '').trim();
         const shouldSync = String(row[2] || '').trim().toUpperCase() === 'YES';
@@ -533,18 +533,22 @@ function fetchCoreCrmLabelsByCid_() {
 
     const allowed = new Set();
     if (taxSheet.getLastRow() >= 2) {
-      taxSheet.getRange(2, 9, taxSheet.getLastRow() - 1, 3).getValues().forEach(r => {
+      // Governance Table lives in Cols N:Q (1-idx 14..17): Category, Term_Value, Sync_To_Phone_Label?, Default_Birthday_Sync
+      taxSheet.getRange(2, 14, taxSheet.getLastRow() - 1, 3).getValues().forEach(r => {
         if (String(r[2] || '').trim().toUpperCase() === 'YES' && String(r[1] || '').trim()) {
           allowed.add(String(r[1]).trim());
         }
       });
     }
-    const dir = dirSheet.getRange(2, 1, dirSheet.getLastRow() - 1, 12).getValues();
+    // Read Cols A..X (24 cols): I=Sphere(8), J-L=Tags(9-11), N=How_Met(13), V=Cohort_Chapter(21), W=Origin_Arena(22), X=Proximity_Ring(23)
+    const dir = dirSheet.getRange(2, 1, dirSheet.getLastRow() - 1, 24).getValues();
     dir.forEach(r => {
       const cid = String(r[0] || '').trim();
       if (!cid) return;
-      const cand = [r[8], r[9], r[10], r[11]].map(x => String(x || '').trim()).filter(x => x && allowed.has(x));
-      if (cand.length > 0) out[cid] = cand;
+      const cand = [r[8], r[9], r[10], r[11], r[13], r[21], r[22], r[23]]
+        .map(x => String(x || '').trim())
+        .filter(x => x && allowed.has(x));
+      if (cand.length > 0) out[cid] = Array.from(new Set(cand));
     });
   } catch (e) {
     Logger.log('fetchCoreCrmLabelsByCid_ skipped: ' + e.message);

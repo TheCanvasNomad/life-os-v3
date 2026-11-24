@@ -230,13 +230,13 @@ function syncCoreCRMToNotebookLM() {
   const nSheet = nSs.getSheetByName('ACTIVE_SOCIAL_PROFILES');
   if (!dirSheet || !nSheet || dirSheet.getLastRow() < 2) return;
 
-  // Preserve existing manual bio & story notes keyed by Contact_Key
+  // Preserve existing manual bio & story notes (Cols P & Q -> 0-idx 15 & 16) keyed by Contact_Key
   const manualNotesByKey = {};
   if (nSheet.getLastRow() >= 2) {
-    nSheet.getRange(2, 1, nSheet.getLastRow() - 1, 11).getValues().forEach(r => {
+    nSheet.getRange(2, 1, nSheet.getLastRow() - 1, 17).getValues().forEach(r => {
       const k = String(r[0] || '').trim();
-      if (k && (String(r[9] || '').trim() || String(r[10] || '').trim())) {
-        manualNotesByKey[k] = [r[9], r[10]];
+      if (k && (String(r[15] || '').trim() || String(r[16] || '').trim())) {
+        manualNotesByKey[k] = [r[15], r[16]];
       }
     });
   }
@@ -252,7 +252,7 @@ function syncCoreCRMToNotebookLM() {
     });
   }
 
-  const dir = dirSheet.getRange(2, 1, dirSheet.getLastRow() - 1, 16).getValues();
+  const dir = dirSheet.getRange(2, 1, dirSheet.getLastRow() - 1, 30).getValues();
   const out = [];
   dir.forEach(r => {
     const cid = String(r[0] || '').trim();
@@ -264,27 +264,39 @@ function syncCoreCRMToNotebookLM() {
     const sphere = String(r[8] || '').trim();
     const tags = [r[9], r[10], r[11]].map(s => String(s || '').trim()).filter(Boolean).join(', ');
     const status = String(r[12] || '').trim();
-    const howMet = String(r[13] || '').trim();
+    const cohort = String(r[21] || '').trim();
+    const arena = String(r[22] || '').trim();
+    const ring = String(r[23] || '').trim();
+    const kinship = String(r[24] || '').trim();
+    const interests = [r[25], r[26]].map(s => String(s || '').trim()).filter(Boolean).join(', ');
+    const introBy = String(r[27] || '').trim();
+    const city = String(r[28] || '').trim();
+    const humanCtx = String(r[29] || '').trim();
     const linked = linksByCid[cid] || [];
 
-    if (!sphere && !tags && !linked.length && !org && !bday && !manualNotesByKey[key]) return;
+    if (!sphere && !tags && !linked.length && !org && !bday && !cohort && !arena && !manualNotesByKey[key]) return;
 
     const rollup = [];
+    if (cohort) rollup.push('Chapter: ' + cohort);
+    if (arena) rollup.push('Met: ' + arena);
     if (org) rollup.push('Org: ' + org);
     if (country) rollup.push('Country: ' + country);
     if (linked.length) rollup.push(linked.join(' | '));
-    const saved = manualNotesByKey[key] || ['', ''];
+    const saved = manualNotesByKey[key] || [humanCtx, ''];
 
-    out.push([key, fullName, sphere, tags, status, country, org, howMet, rollup.join(' • '), saved[0], saved[1]]);
+    out.push([
+      key, fullName, sphere, cohort, arena, ring, kinship, interests, introBy,
+      tags, status, country, city, org, rollup.join(' • '), saved[0], saved[1]
+    ]);
   });
 
   if (nSheet.getLastRow() >= 2) {
-    nSheet.getRange(2, 1, nSheet.getLastRow() - 1, 11).clearContent();
+    nSheet.getRange(2, 1, nSheet.getLastRow() - 1, 17).clearContent();
   }
   if (out.length > 0) {
-    nSheet.getRange(2, 1, out.length, 11).setValues(out);
+    nSheet.getRange(2, 1, out.length, 17).setValues(out);
   }
-  Logger.log('syncCoreCRMToNotebookLM refreshed ' + out.length + ' lean AI profiles.');
+  Logger.log('syncCoreCRMToNotebookLM refreshed ' + out.length + ' rich 17-col lifecycle AI profiles.');
 }
 
 /**

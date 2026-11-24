@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-24T01:51:53Z",
+  "last_updated_utc": "2026-11-24T02:17:04Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2185,6 +2185,7 @@
       "live_tabs": [
         "CRM_DASHBOARD",
         "\u26a1 BULK_OPERATIONS",
+        "CIRCLES_&_COHORTS",
         "CONTACT_DIRECTORY",
         "TAXONOMY_MATRIX",
         "ENTITY_LINKS",
@@ -2198,6 +2199,7 @@
       "all_tabs": [
         "CRM_DASHBOARD",
         "\u26a1 BULK_OPERATIONS",
+        "CIRCLES_&_COHORTS",
         "CONTACT_DIRECTORY",
         "TAXONOMY_MATRIX",
         "ENTITY_LINKS",
@@ -2208,8 +2210,8 @@
         "CONTEXT_IN",
         "SIGNALS_OUT"
       ],
-      "tab_count": 11,
-      "last_snapshot_utc": "2026-11-24T01:51:53Z",
+      "tab_count": 12,
+      "last_snapshot_utc": "2026-11-24T02:17:04Z",
       "snapshot_file": "schemas/live_snapshots/ID_CORE_CRM.json"
     },
     "ID_NOTEBOOKLM_SOCIAL": {
@@ -2237,7 +2239,7 @@
         "SIGNALS_OUT"
       ],
       "tab_count": 5,
-      "last_snapshot_utc": "2026-11-24T01:51:53Z",
+      "last_snapshot_utc": "2026-11-24T02:17:04Z",
       "snapshot_file": "schemas/live_snapshots/ID_NOTEBOOKLM_SOCIAL.json"
     }
   },
