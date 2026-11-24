@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-24T20:23:05Z",
+  "last_updated_utc": "2026-11-24T20:42:44Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -268,7 +268,7 @@
         "LifeOS Master Bus"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-24T17:18:44Z",
+      "last_snapshot_utc": "2026-11-24T20:42:44Z",
       "all_tabs": [
         "SYMBIOSIS_HUD",
         "Workbook_Directory",
@@ -705,7 +705,7 @@
         "LifeOS Feed Hub"
       ],
       "schema_ref": "schemas/lifeos_feed_hub_schema.json",
-      "last_snapshot_utc": "2026-11-24T17:29:34Z",
+      "last_snapshot_utc": "2026-11-24T20:42:44Z",
       "all_tabs": [
         "SIGNAL_BUS",
         "MODULE_REGISTRY",
@@ -2101,7 +2101,7 @@
         "LOOKER_RELATIONSHIP_AGGREGATES"
       ],
       "tab_count": 10,
-      "last_snapshot_utc": "2026-11-24T06:07:43Z",
+      "last_snapshot_utc": "2026-11-24T20:42:44Z",
       "snapshot_file": "schemas/live_snapshots/ID_PILLAR_3.json",
       "looker_tabs": [
         "LOOKER_RELATIONSHIP_AGGREGATES"
@@ -2762,6 +2762,85 @@
       "scripts": {
         "form_dropdown_sync": "src/bricks_sync/achievements_form_sync.gs"
       }
+    },
+    "ID_LOVE_STYLES": {
+      "title": "\ud83d\udc9e Love_Styles_&_Languages_Brick",
+      "spreadsheet_id": "1qg60_G6kEB3wNFJ8JcX3UkyL14ohiJO69uGvoTrU2Bw",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1qg60_G6kEB3wNFJ8JcX3UkyL14ohiJO69uGvoTrU2Bw/edit",
+      "status": "ACTIVE",
+      "layer": "brick",
+      "domain": "Pillar 3 Relationships / 7 Love Styles & Classic 5 Love Languages",
+      "live_tabs": [
+        "DASHBOARD",
+        "SCORING_ENGINE",
+        "7_STYLES_TAXONOMY",
+        "LOOKER_LOVE_STYLES",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT",
+        "IMPORTS"
+      ],
+      "search_aliases": [
+        "\ud83d\udc9e Love_Styles_&_Languages_Brick",
+        "Love_Styles_&_Languages_Brick",
+        "7 LOVE STYLES TEST (Responses)",
+        "7 Love Styles"
+      ],
+      "schema_ref": null,
+      "last_snapshot_utc": "2026-11-24T20:42:44Z",
+      "all_tabs": [
+        "DASHBOARD",
+        "SCORING_ENGINE",
+        "7_STYLES_TAXONOMY",
+        "LOOKER_LOVE_STYLES",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT",
+        "IMPORTS",
+        "Form Responses 1"
+      ],
+      "tab_count": 9,
+      "linked_forms": [
+        {
+          "name": "7 LOVE STYLES TEST",
+          "form_id": "1w3u7yZNsQClKfk90xWY7YWBVLJ4p-xMUeEwnHxkCWa0"
+        },
+        {
+          "name": "Love Language",
+          "form_id": "1SGPej8nYQNR9sYL2bSPW-66CfpmqwRZZ2m0JR3kKCcE"
+        }
+      ],
+      "universal_brick_compliant": true,
+      "looker_tabs": [
+        "LOOKER_LOVE_STYLES"
+      ]
+    },
+    "RAW_DATA_LoveLanguage": {
+      "title": "RAW_DATA_LoveLanguage",
+      "spreadsheet_id": "1v8uyDCX1ViIvIw09Z2vTg3K3sx6edxiK5gL1jAVtMgA",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1v8uyDCX1ViIvIw09Z2vTg3K3sx6edxiK5gL1jAVtMgA/edit",
+      "status": "ACTIVE",
+      "layer": "raw_silo",
+      "domain": "Layer 1 Write-Only Silo / Classic 5 Love Languages (Ingested by ID_LOVE_STYLES)",
+      "live_tabs": [
+        "Form Responses 1"
+      ],
+      "search_aliases": [
+        "RAW_DATA_LoveLanguage",
+        "Love Language (Responses)"
+      ],
+      "schema_ref": null,
+      "last_snapshot_utc": "2026-11-24T20:42:44Z",
+      "all_tabs": [
+        "Form Responses 1"
+      ],
+      "tab_count": 1,
+      "linked_forms": [
+        {
+          "name": "Love Language",
+          "form_id": "1SGPej8nYQNR9sYL2bSPW-66CfpmqwRZZ2m0JR3kKCcE"
+        }
+      ]
     }
   },
   "unmapped_discovered": [

@@ -1,0 +1,53 @@
+{
+  "registry_key": "RAW_DATA_LoveLanguage",
+  "title": "RAW_DATA_LoveLanguage",
+  "spreadsheet_id": "1v8uyDCX1ViIvIw09Z2vTg3K3sx6edxiK5gL1jAVtMgA",
+  "snapshot_utc": "2026-11-24T20:42:44Z",
+  "pii_policy": "ZERO_PII_HEADERS_ONLY",
+  "tab_count": 1,
+  "tabs": [
+    {
+      "title": "Form Responses 1",
+      "sheet_id": 937444490,
+      "index": 0,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 101,
+      "col_count": 38,
+      "headers_row_1": [
+        "Timestamp",
+        "How do you describe yourself?",
+        "It\u2019s more meaningful to me when\u2026.",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when....",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when...",
+        "It's more meaningful to me when..."
+      ]
+    }
+  ]
+}
