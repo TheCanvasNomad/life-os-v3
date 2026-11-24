@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-24T16:38:33Z",
+  "last_updated_utc": "2026-11-24T16:45:00Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -408,10 +408,11 @@
         "LifeOS_XP_Hub"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T16:16:12Z",
+      "last_snapshot_utc": "2026-11-24T16:45:00Z",
       "all_tabs": [
         "Player_HUD",
         "XP_Ledger",
+        "PILLAR_XP_ABSORPTION",
         "Daily_Multiplier_Gate",
         "Cross_Sheet_Bus",
         "Maslow_34_Engine",
@@ -429,8 +430,11 @@
         "CONTEXT_IN",
         "SIGNALS_OUT"
       ],
-      "tab_count": 18,
-      "universal_brick_compliant": true
+      "tab_count": 19,
+      "universal_brick_compliant": true,
+      "scripts": {
+        "pillar_xp_absorption": "src/utilities/xp_hub/xp_pillar_absorption.gs"
+      }
     },
     "ID_KABBALAH": {
       "title": "Kaballah Tree of Life OS Engine",
@@ -700,7 +704,7 @@
         "LifeOS Feed Hub"
       ],
       "schema_ref": "schemas/lifeos_feed_hub_schema.json",
-      "last_snapshot_utc": "2026-11-24T16:38:33Z",
+      "last_snapshot_utc": "2026-11-24T16:45:00Z",
       "all_tabs": [
         "SIGNAL_BUS",
         "MODULE_REGISTRY",

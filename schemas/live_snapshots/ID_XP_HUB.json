@@ -2,24 +2,19 @@
   "registry_key": "ID_XP_HUB",
   "title": "XP Leveler",
   "spreadsheet_id": "1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k",
-  "url": "https://docs.google.com/spreadsheets/d/1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k/edit",
-  "time_zone": "Europe/London",
-  "snapshot_utc": "2026-11-23T16:16:31Z",
-  "tab_count": 18,
+  "snapshot_utc": "2026-11-24T16:45:00Z",
+  "pii_policy": "ZERO_PII_HEADERS_ONLY",
+  "tab_count": 19,
   "tabs": [
     {
       "title": "Player_HUD",
       "sheet_id": 1333383914,
-      "index": null,
+      "index": 0,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "\u26a1 LIFE OS // SOVEREIGN PLAYER HUD, 3-TIER XP BAR & MULTIPLIER ENGINE"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "\u26a1 LIFE OS // SOVEREIGN PLAYER HUD, 3-TIER XP BAR & MULTIPLIER ENGINE"
       ]
     },
@@ -31,19 +26,10 @@
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
+      "headers_row_1": [
         "Timestamp",
         "Sephirah / Pillar",
-        "Completed Action / Milestone",
-        "Base Quanta (137s)",
-        "Locked Multiplier",
-        "Awarded XP",
-        "Verification / Artifact"
-      ],
-      "row_1": [
-        "Timestamp",
-        "Sephirah / Pillar",
+        "Element / Domain",
         "Completed Action / Milestone",
         "Base Quanta (137s)",
         "Locked Multiplier",
@@ -52,23 +38,34 @@
       ]
     },
     {
+      "title": "PILLAR_XP_ABSORPTION",
+      "sheet_id": 1096501556,
+      "index": 2,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 40,
+      "col_count": 10,
+      "headers_row_1": [
+        "Pillar_Key",
+        "Source_Signal_Key",
+        "Sephirah_Gate_Map",
+        "Live_Raw_Pillar_XP",
+        "Base_Quanta_Equivalent",
+        "Previously_Absorbed_Quanta",
+        "Unabsorbed_Delta_Quanta",
+        "Locked_Multiplier",
+        "Absorbed_Effective_XP"
+      ]
+    },
+    {
       "title": "Daily_Multiplier_Gate",
       "sheet_id": 812420680,
-      "index": 2,
+      "index": 3,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Habit / Telemetry Gate",
-        "Polarity",
-        "Today (Yes/Maybe/No)",
-        "Skew Score (1-10)",
-        "Skew Weight",
-        "Psychometric Target"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Habit / Telemetry Gate",
         "Polarity",
         "Today (Yes/Maybe/No)",
@@ -80,26 +77,12 @@
     {
       "title": "Cross_Sheet_Bus",
       "sheet_id": 1877622268,
-      "index": 3,
+      "index": 4,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Bus_ID",
-        "Source_Workbook",
-        "Spreadsheet_ID_or_URL",
-        "Tab_Name",
-        "Lookup_Mode",
-        "Key_or_Cell_Ref",
-        "Val_Col",
-        "Fallback_Val",
-        "Rule_Action",
-        "Pulled_Live_Value",
-        "Sync_Status"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Bus_ID",
         "Source_Workbook",
         "Spreadsheet_ID_or_URL",
@@ -116,22 +99,12 @@
     {
       "title": "Maslow_34_Engine",
       "sheet_id": 844278987,
-      "index": 4,
+      "index": 5,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Pyramid Lvl",
-        "Maslow Focus Tier",
-        "Granular Stage",
-        "Current Score (0-10)",
-        "Deficit Gap",
-        "Priority Weight",
-        "Bottleneck Share %"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Pyramid Lvl",
         "Maslow Focus Tier",
         "Granular Stage",
@@ -144,22 +117,12 @@
     {
       "title": "Finance_16_Engine",
       "sheet_id": 446318655,
-      "index": 5,
+      "index": 6,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Pyramid Lvl",
-        "Financial Tier",
-        "Financial Stage",
-        "Current Score (0-10)",
-        "Deficit Gap",
-        "Priority Weight",
-        "Bottleneck Share %"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Pyramid Lvl",
         "Financial Tier",
         "Financial Stage",
@@ -172,25 +135,12 @@
     {
       "title": "The_12_Gates",
       "sheet_id": 1761160990,
-      "index": 6,
+      "index": 7,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Gate",
-        "Tree of Life (Sephirah)",
-        "Maslow Tier",
-        "Macro Fractal Phase",
-        "Focus Area",
-        "Start XP",
-        "Ceiling XP",
-        "Progress %",
-        "Gate XP Bar",
-        "Status"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Gate",
         "Tree of Life (Sephirah)",
         "Maslow Tier",
@@ -206,24 +156,12 @@
     {
       "title": "Vortex_&_Constants",
       "sheet_id": 1815344156,
-      "index": 7,
+      "index": 8,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Sub-Lvl / Node",
-        "Vortex Circuit Role",
-        "Micro Fractal Phase",
-        "Life OS Operational Protocol",
-        "",
-        "Element / Constant",
-        "Atomic / Exact Value",
-        "Target Share",
-        "Life OS Pillar Mapping"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Sub-Lvl / Node",
         "Vortex Circuit Role",
         "Micro Fractal Phase",
@@ -238,29 +176,12 @@
     {
       "title": "Engine",
       "sheet_id": 554001358,
-      "index": 8,
+      "index": 9,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 992,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Level",
-        "Gate",
-        "Sub-Lvl",
-        "Fib (G)",
-        "Fib (S)",
-        "Step XP",
-        "Cumulative XP",
-        "Crucible Gate",
-        "Vortex Node",
-        "Root",
-        "Macro Phase",
-        "Micro Phase",
-        "Golden Angle",
-        "Phyllotaxis House Focus"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Level",
         "Gate",
         "Sub-Lvl",
@@ -280,19 +201,12 @@
     {
       "title": "XP_Config_Hub",
       "sheet_id": 1919081525,
-      "index": 9,
+      "index": 10,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Parameter_Key",
-        "Live_Value",
-        "Category",
-        "Dynamic Architectural Role"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Parameter_Key",
         "Live_Value",
         "Category",
@@ -302,17 +216,12 @@
     {
       "title": "Golden Angle",
       "sheet_id": 1044166333,
-      "index": 10,
+      "index": 11,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "137.5",
-        "Degrees"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "137.5",
         "Degrees"
       ]
@@ -320,82 +229,60 @@
     {
       "title": "Fine Structure Constant",
       "sheet_id": 1617132547,
-      "index": 11,
+      "index": 12,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "1/137"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "1/137"
       ]
     },
     {
       "title": "Initiation",
       "sheet_id": 1138223881,
-      "index": 12,
+      "index": 13,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Number 3"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Number 3"
       ]
     },
     {
       "title": "Manifestation",
       "sheet_id": 1802073335,
-      "index": 13,
+      "index": 14,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Number 6"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Number 6"
       ]
     },
     {
       "title": "Absolute Completion",
       "sheet_id": 89238840,
-      "index": 14,
+      "index": 15,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Number 9"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Number 9"
       ]
     },
     {
       "title": "MODULE_META",
       "sheet_id": 908649018,
-      "index": 15,
+      "index": 16,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Field",
-        "Value",
-        "Notes"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Field",
         "Value",
         "Notes"
@@ -404,21 +291,12 @@
     {
       "title": "CONTEXT_IN",
       "sheet_id": 294848872,
-      "index": 16,
+      "index": 17,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Signal_Key",
-        "Live_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Freshness_Status",
-        "Hub_Auth_Trigger"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Signal_Key",
         "Live_Value",
         "Normalized_Score_0_100",
@@ -430,25 +308,12 @@
     {
       "title": "SIGNALS_OUT",
       "sheet_id": 1515033969,
-      "index": 17,
+      "index": 18,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Signal_Key",
-        "Source_Brick",
-        "Glyph",
-        "Domain_Pillar",
-        "Raw_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated",
-        "TTL_Hours",
-        "Notes"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Signal_Key",
         "Source_Brick",
         "Glyph",

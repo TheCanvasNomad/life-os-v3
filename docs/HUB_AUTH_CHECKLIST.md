@@ -1,7 +1,7 @@
 # LifeOS-v3 Hub & Brick `IMPORTRANGE` Browser Authorization Checklist
 
 > **Why this checklist exists**: Google Sheets requires a one-time interactive browser click (**"Allow access"** on a `#REF!` cell) for each new cross-spreadsheet `IMPORTRANGE` connection. APIs and scripts cannot grant this permission on your behalf.  
-> **Last Audited**: `2026-11-24` (Full System-Wide Unification Pass complete — all 7 Pillars `P0`–`P6`, `BIO_CORE`, normalized 4-workbook CRM stack, `LifeOS_Master_Bus`, and all Wave-1/Wave-2 Bricks standardized on the 9-column `SIGNALS_OUT` contract & wired live into `LifeOS_feed_hub` -> `SIGNAL_BUS` with **177 signals & 0 formula errors**!)
+> **Last Audited**: `2026-11-24` (Unified Main XP Bar & `PILLAR_XP_ABSORPTION` Delta Engine live on **`XP Leveler`** — all 7 Pillars `P0`–`P6`, `BIO_CORE`, normalized 4-workbook CRM stack, `LifeOS_Master_Bus`, consolidated Travel/Bucket List silos, and all Wave-1/Wave-2 Bricks standardized on the 9-column `SIGNALS_OUT` contract & wired live into `LifeOS_feed_hub` -> `SIGNAL_BUS` with **193 signals & 0 formula errors**!)
 
 ---
 
@@ -36,7 +36,7 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | [x] | `MODULE_REGISTRY!J22` | **Belief_Stance_Tracker** | `1ZlhB5xNyI5I8MssGhsp5wydyDJQu29tHmry4iShc2z0` | **LIVE (`FRESH`)**: All 4 `BELIEF_*` signals |
 | [x] | `MODULE_REGISTRY!J23` | **Body_Count_2_0** | `1aqYHU_bc-AqgREdvutE3VgG952_gd70yDKt4dMH6L1E` | **LIVE (`FRESH`, Anonymized Aggregates Only)**: All 4 `REL_*` signals |
 | [x] | `MODULE_REGISTRY!J24` | **Movie_Tracker** | `1SIRiqfY1r62g8_XOkwe37d4KnZAr_-DBUx-r-wczkMY` | **LIVE (`FRESH`)**: All 5 `MOVIES_*` signals |
-| [x] | `MODULE_REGISTRY!J25` | **XP_Leveler** | `1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k` | **LIVE (`FRESH`)**: All 4 `XP_*` signals |
+| [x] | `MODULE_REGISTRY!J25` | **XP_Leveler** | `1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k` | **LIVE (`FRESH`)**: All 6 Unified XP signals (`XP_TOTAL_EFFECTIVE`, `XP_CURRENT_LEVEL`, `XP_DAILY_MULTIPLIER`, `XP_GATE_PROGRESS_PCT`, `CRUCIBLE_GATE_STATUS`, `GOLDEN_ANGLE_FOCUS`) |
 | [ ] | `MODULE_REGISTRY!J26` | **🩺 BIO_CORE** | `1EecdB1CnjvaR6C7zx9mTVMx7M-vSIMOUgd3lMlEPmEA` | All 7 `BIO_*` wearable signals (`BIO_READINESS_SCORE`, `HRV_RECOVERY`, `SLEEP_INDEX`, `SLEEP_CONSISTENCY`, `ACTIVITY_INDEX`, `STEPS_7D`, `RHR_7D`) -> AQAL UR, Maslow L1, Sword Knuckle-Bow |
 | [ ] | `MODULE_REGISTRY!J27` | **💚 Pillar_1_Health** | `1dzuXlVWO5VRtla0p0ZuziZAvpm2ZySslPLZOhWDQGSI` | All 8 `P1_*` signals (`P1_HEALTH_BASE_SCORE`, `SLEEP_7D`, `ENERGY_7D`, `STRESS_7D`, `PRANA`, `HABIT_COMPLIANCE`, `APPEARANCE`, `PEAK_FOCUS_WINDOW`) -> AQAL UR, Maslow L1, Sword Knuckle-Bow & Grip |
 | [ ] | `MODULE_REGISTRY!J28` | **📇 Core_CRM** | `1PKYbEie4QUgSqqTVW1Y2UVjBgRStz4Aok2BhCWCvU5M` | All anonymized `CRM_*` signals (`CRM_ACTIVE_CONTACTS`, `CRM_VAULTED_CONTACTS`, `CRM_BATTING_AVERAGE_PCT`, `CRM_ACTIVE_CALENDAR_BIRTHDAYS`, `CRM_PIPELINE_WEIGHTED_VALUE`, `CRM_DUE_FOLLOWUPS`, `CRM_NETWORK_TOTAL`, `CRM_ACTIVE_DATING_COUNT`, `CRM_INNER_CIRCLE_COUNT`, `CRM_TAGGED_COVERAGE_PCT`) |
@@ -173,7 +173,7 @@ Each of the 11 newly standardized Bricks has a dedicated unwrapped **`Hub_Auth_T
 | [ ] | `ID_GRIT` | **Grit Score Assessment** | https://docs.google.com/spreadsheets/d/1kCwx6wtYksmt92M3Izwe6oEIVS5uDv3kCLIzCBOJG-s/edit#gid=1453866952 | `OCEAN_CONSCIENTIOUSNESS`, `ZODIAC_WIP_COUNT`, `DOPPELGANGER_DOMINATION_INDEX`, `MASLOW_EFFECTIVE_QUALITY` |
 | [ ] | `ID_RIASEC` | **RAISEC Intake** | https://docs.google.com/spreadsheets/d/1RmJ9bDzm6Vs59EC1BV99lqHnYxgp-bchV589rQc6ybM/edit#gid=1993371372 | `OCEAN_OPENNESS`, `GRIT_OVERALL_SCORE`, `ZODIAC_WIP_COUNT`, `CAREER_USCG_SEA_DAYS` |
 | [ ] | `ID_16PF` | **Life OS // Cattell 16PF** | https://docs.google.com/spreadsheets/d/1zOZVYFUZsQdRtPQzyK6izLLlxczi8vcDQTOSmh8yFho/edit#gid=1186341685 | `OCEAN_CONSCIENTIOUSNESS`, `OCEAN_NEUROTICISM`, `HD_BIO_READINESS`, `MBTI_COHERENCE_INDEX` |
-| [ ] | `ID_XP_HUB` | **XP Leveler** | https://docs.google.com/spreadsheets/d/1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k/edit#gid=294848872 | `MASLOW_EFFECTIVE_QUALITY`, `ZODIAC_WIP_COUNT`, `HD_BIO_READINESS`, `AQAL_BALANCE_SCORE` |
+| [ ] | `ID_XP_HUB` | **XP Leveler** | https://docs.google.com/spreadsheets/d/1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k/edit#gid=294848872 | All 20 Unified XP & Multiplier signals: 8 Pillar XP streams (`P0_ANTIFRAGILITY_XP`, `P1_HEALTH_XP`, `P2_WEALTH_XP`, `P3_SOCIAL_XP`, `P4_SKILL_XP`, `P5_TOTAL_QUEST_XP`, `P6_ESOTERIC_XP`, `BUCKET_LIST_XP_TOTAL`) + 12 multiplier/gate signals (`MASLOW_EFFECTIVE_QUALITY`, `ZODIAC_WIP_COUNT`, `HD_STRATEGY_COHERENCE`, `AQAL_BALANCE_SCORE`, `P6_VIBRATORY_BUFF_STATE`, `P6_DESTINY_BUFF_ACTIVE`, `SHADOW_TAX_RATE`, `DOPPELGANGER_DOMINATION_INDEX`, `P1_ACTIVE_EFFECTS`, `P4_FLOW_SESSION_SCORE`, `P4_SHIPPED_DELIVERABLES`, `P5_EPIC_QUEST_COMPLETION_PCT`) |
 | [ ] | `ID_CAREER_INTAKE` | **LifeOS Career & Experience Intake** | https://docs.google.com/spreadsheets/d/1iXxJVSv04MsRc_41p5bahCNRROXdugZ75iSivVy29GM/edit#gid=466643700 | `RIASEC_HOLLAND_CODE`, `GRIT_OVERALL_SCORE`, `ZODIAC_WIP_COUNT`, `XP_CURRENT_LEVEL` |
 | [ ] | `ID_TRAVEL` | **🌍 Travel_Tracker_Brick** | https://docs.google.com/spreadsheets/d/11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc/edit#gid=10 | `DAILY_ENERGY`, `ACUTE_STRESS`, `MASLOW_EFFECTIVE_QUALITY`, `ZODIAC_WIP_COUNT` |
 | [ ] | `ID_BELIEF_TRACKER` | **Belief & Stance Tracker (Life OS)** | https://docs.google.com/spreadsheets/d/1ZlhB5xNyI5I8MssGhsp5wydyDJQu29tHmry4iShc2z0/edit#gid=1021359317 | `OCEAN_OPENNESS`, `MBTI_COHERENCE_INDEX`, `AQAL_UL_SCORE`, `ZODIAC_ALIGNMENT` |
@@ -198,18 +198,20 @@ The `#REF!` `A2` spill collisions on `SRC_XP_HUB`, `SRC_KABBALAH`, and `SRC_16PF
 ## 4. Post-Approval Verification
 
 Once you finish clicking **"Allow access"** above:
-1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all 177 signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges.
+1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **193** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
 2. Open **`LifeOS_feed_hub` -> `AQAL_VIEW`** (`#gid=168404271`): confirm all 4 Quadrants (`UL`, `UR`, `LL`, `LR`) show live composite scores, `SPARKLINE` gauges, `Quadrant Balance Score`, and a live `Corrective Quest Directive`.
 3. Open any Brick's **`CONTEXT_IN`** tab from Section 2: confirm `F3:F5` switches from `"Click F2 -> Allow access"` to `"AUTHORIZED"` and Columns `B:E` stream live Hub context.
+4. Open **`XP Leveler` -> `PILLAR_XP_ABSORPTION`** (`#gid=1096501556`): once `CONTEXT_IN!F2` (`#gid=294848872`) is authorized, verify all 8 Pillar XP streams (`P0`–`P6` + `Travel_Tracker`) flow into `Live_Raw_Pillar_XP` and feed the Unified Main XP Bar on `Player_HUD` with zero double-counting.
 
 ---
 
-## 5. Phase 5 Temporal Bridge — Dedicated `"Life OS"` Secondary Calendar
+## 5. Phase 5 Temporal Bridge & Unified XP Absorption Apps Scripts
 
-Google Calendar operates strictly as a downstream display & capture layer (`Life OS` secondary calendar overlay — your primary personal calendar is never touched). All temporal scripts are lock-guarded (`LockService.getScriptLock()`) and stamp `[LifeOS_OUTBOUND_PUSH]` / `LOGGED_EVENT_IDS` (`#gid=1495043943`) to prevent circular loops.
+Google Calendar operates strictly as a downstream display & capture layer (`Life OS` secondary calendar overlay — your primary personal calendar is never touched). All scripts are lock-guarded (`LockService.getScriptLock()`) with deterministic deduplication keys (`[LifeOS_OUTBOUND_PUSH]`, `LOGGED_EVENT_IDS`, `ABSORB:<PILLAR_KEY>|<DATE>`).
 
 | Target Workbook | Apps Script Module | Stored Config / Index | One-Time Activation Step |
 | :--- | :--- | :--- | :--- |
 | **[`LifeOS_feed_hub`](https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U/edit#gid=684617544)** | `src/hub/calendar_sync.gs` | Calendar ID auto-stored in **`RULES_ENGINE!B121`**; dedup index in hidden **`LOGGED_EVENT_IDS`** (`#gid=1495043943`) | Paste script → reload → click **`🧠 LifeOS Hub → 🛠️ Provision / Verify "Life OS" Calendar`**, then **`⏱️ Install 15-Minute Calendar Sync Trigger`** |
 | **[`🩺 BIO_CORE`](https://docs.google.com/spreadsheets/d/1EecdB1CnjvaR6C7zx9mTVMx7M-vSIMOUgd3lMlEPmEA/edit)** | `src/utilities/bio_core/CalendarIntegration.gs` | Date-deduplicated `[LifeOS_BIO_SUMMARY:YYYY-MM-DD]` | Paste script → reload → click **`🩺 BIO_CORE Temporal → ⏰ Install Daily Biometric Calendar Trigger (08:30)`** |
 | **[`📇 Core_CRM`](https://docs.google.com/spreadsheets/d/1PKYbEie4QUgSqqTVW1Y2UVjBgRStz4Aok2BhCWCvU5M/edit)** | `src/utilities/crm_core/crm_scheduler.gs` | Syncs `CONTACT_DIRECTORY` (`Q:S`) & `INTERACTION_LOG` (`G:H`) -> feeds Pillar 3 90-day Connection Decay | Paste script → reload → click **`📅 CRM Temporal Bridge → ⏰ Install Hourly CRM Temporal Trigger`** |
+| **[`XP Leveler`](https://docs.google.com/spreadsheets/d/1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k/edit#gid=1096501556)** | `src/utilities/xp_hub/xp_pillar_absorption.gs` | Snapshots unabsorbed Pillar XP deltas (`PILLAR_XP_ABSORPTION!A2:I9`) into `XP_Ledger` tagged `ABSORB:<PILLAR_KEY>\|<DATE>` | Paste script → reload → click **`⚡ Life OS XP → ⚡ Absorb Pillar XP Deltas`**, then **`⏰ Install Daily Pillar XP Absorption Trigger (23:50)`** |
