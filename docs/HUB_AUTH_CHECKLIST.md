@@ -44,6 +44,20 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | [ ] | `MODULE_REGISTRY!J30` | **📱 Master_Contacts_Sync** | `1VtJ4_beXHe8N_zfmcB5yBTPm0App8prl3IgY7CMeU8g` | Pure Two-Way Phonebook hygiene telemetry (`PHONEBOOK_ACTIVE_CONTACTS`, `PHONEBOOK_PHONE_CONTACTS`, `PHONEBOOK_EMAIL_ONLY_COUNT`, `PHONEBOOK_CALENDAR_BIRTHDAYS`, `PHONEBOOK_MARKED_FOR_VAULT`) |
 | [ ] | `MODULE_REGISTRY!J31` | **🗄️ Purged_Contacts_Vault** | `1eoLRVMOxdpHx3YkkWnfkOfowhTH8fbam8R2jDzUJB84` | Cold Archive Vault telemetry (`VAULT_TOTAL_PURGED`, `VAULT_PENDING_RESTORES`) |
 | [ ] | `MODULE_REGISTRY!J32` | **📓 NotebookLM_Social_Workbook** | `1gwnGKdfZrtJi6QwEWniPMli6i-Se8Fi2pwjX1ebaaPs` | Curated AI Social Profile count (`NBLM_CURATED_PROFILES`) |
+| [ ] | `MODULE_REGISTRY!J33` | **🏆 Pillar_5_Experience_Legacy** | `1AdMP-VKzTPNbSSTUoLrbqAjtBdYlf4mzLYwyWbaUrQw` | All 6 `P5_*` signals (`P5_EXPERIENCE_BASE_SCORE`, `P5_EPIC_QUEST_COMPLETION_PCT`, `P5_ACTIVE_EPICS_COUNT`, `P5_BLUEPRINT_PROGRESS_PCT`, `P5_TOTAL_QUEST_XP`, `P5_LPD_GLOBAL_MULT`) -> `MASLOW_ENGINE` L5, `SWORD_VIEW` Point & Pommel |
+
+---
+
+## 1B. Pillar 5 Experience & Legacy (`🏆 Pillar_5_Experience_Legacy`) Inbound Authorizations
+
+Approve these 4 one-time `#REF!` cells to complete the live closed loop across `RAW_DATA_Quests`, `RAW_DATA_AnnualReview`, `🌍 Travel_Tracker_Brick`, and `LifeOS_feed_hub`:
+
+| Done | Workbook & Cell | Direct Tab Link (Click cell -> Allow access) | Target Workbook | Unlocks |
+| :---: | :--- | :--- | :--- | :--- |
+| [ ] | **`🏆 Pillar_5_Experience_Legacy` → `P5_CONFIG!I4`** | https://docs.google.com/spreadsheets/d/1AdMP-VKzTPNbSSTUoLrbqAjtBdYlf4mzLYwyWbaUrQw/edit#gid=408873780 | **RAW_DATA_Quests** (`1uV7FXlTU--gHFOt7zWYRkDxGk15QXIPGbBcshkk4TVw`) | Live Layer 1 New Quest Form submissions streaming into `IMPORTS`, `DATABASE`, Eisenhower Matrix & Hero's Journey |
+| [ ] | **`🏆 Pillar_5_Experience_Legacy` → `P5_CONFIG!I5`** | https://docs.google.com/spreadsheets/d/1AdMP-VKzTPNbSSTUoLrbqAjtBdYlf4mzLYwyWbaUrQw/edit#gid=408873780 | **RAW_DATA_AnnualReview** (`17YdM8NAansiDZWnQTUL928LlWc9ZypPMFLcco02lZ7Q`) | Live 1/5/10-Year Vision, True Will & Philosophy snapshots into `ANNUAL_REVIEW_DATA` & `DASHBOARD` |
+| [ ] | **`🏆 Pillar_5_Experience_Legacy` → `P5_CONFIG!I6`** | https://docs.google.com/spreadsheets/d/1AdMP-VKzTPNbSSTUoLrbqAjtBdYlf4mzLYwyWbaUrQw/edit#gid=408873780 | **🌍 Travel_Tracker_Brick** (`11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc`) | Live `TRAVEL_CONTINENTS_COUNT` directly in Pillar 5 Legacy HUD |
+| [ ] | **`🏆 Pillar_5_Experience_Legacy` → `CONTEXT_IN!F2`** | https://docs.google.com/spreadsheets/d/1AdMP-VKzTPNbSSTUoLrbqAjtBdYlf4mzLYwyWbaUrQw/edit#gid=1635602658 | **LifeOS_feed_hub** (`1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U`) | Live Hub context (`P0_WISDOM_POINTS`, `P2_FINANCIAL_LEVEL` Scarcity/Freedom modifier, `P4_IKIGAI_SCORE`, `TRAVEL_CONTINENTS_COUNT`) |
 
 ---
 

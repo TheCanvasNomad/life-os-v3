@@ -1,0 +1,43 @@
+{
+  "registry_key": "ID_RAW_ANNUAL_REVIEW",
+  "title": "RAW_DATA_AnnualReview",
+  "spreadsheet_id": "17YdM8NAansiDZWnQTUL928LlWc9ZypPMFLcco02lZ7Q",
+  "url": "https://docs.google.com/spreadsheets/d/17YdM8NAansiDZWnQTUL928LlWc9ZypPMFLcco02lZ7Q/edit",
+  "time_zone": "America/Detroit",
+  "snapshot_utc": "2026-11-24T04:43:46Z",
+  "tab_count": 1,
+  "tabs": [
+    {
+      "title": "Form Responses 1",
+      "sheet_id": 161676233,
+      "index": 0,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 101,
+      "col_count": 10,
+      "header_row_index": 1,
+      "headers": [
+        "Timestamp",
+        "Date of this Annual Review",
+        "1-Year Vision",
+        "5-Year Vision",
+        "10-Year Vision",
+        "Describe your True Will (your unique, essential purpose in the cosmos).",
+        "Current True Will Alignment (1-10)",
+        "Foundational Life Philosophy",
+        "Dominant AQAL / Spiral Dynamics Altitude"
+      ],
+      "row_1": [
+        "Timestamp",
+        "Date of this Annual Review",
+        "1-Year Vision",
+        "5-Year Vision",
+        "10-Year Vision",
+        "Describe your True Will (your unique, essential purpose in the cosmos).",
+        "Current True Will Alignment (1-10)",
+        "Foundational Life Philosophy",
+        "Dominant AQAL / Spiral Dynamics Altitude"
+      ]
+    }
+  ]
+}

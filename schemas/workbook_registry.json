@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-24T02:17:04Z",
+  "last_updated_utc": "2026-11-24T04:43:12Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2241,6 +2241,81 @@
       "tab_count": 5,
       "last_snapshot_utc": "2026-11-24T02:17:04Z",
       "snapshot_file": "schemas/live_snapshots/ID_NOTEBOOKLM_SOCIAL.json"
+    },
+    "ID_PILLAR_5": {
+      "title": "\ud83c\udfc6 Pillar_5_Experience_Legacy",
+      "spreadsheet_id": "1AdMP-VKzTPNbSSTUoLrbqAjtBdYlf4mzLYwyWbaUrQw",
+      "url": "https://docs.google.com/spreadsheets/d/1AdMP-VKzTPNbSSTUoLrbqAjtBdYlf4mzLYwyWbaUrQw/edit",
+      "drive_folder_id": "1cCrkeThYdMl4BOTI0ww8dhSxlpBPE53J",
+      "domain": "Pillar 5 / Experience, Quests, Hero's Journey & Legacy Spoke (Layer 2)",
+      "cadence": "Quest-Driven + Annual Vision Review",
+      "status": "ACTIVE",
+      "universal_brick_compliant": true,
+      "live_tabs": [
+        "DASHBOARD",
+        "DATABASE",
+        "CALCULATIONS",
+        "HEROS_JOURNEY",
+        "ANNUAL_REVIEW_DATA",
+        "P5_CONFIG",
+        "IMPORTS",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "all_tabs": [
+        "DASHBOARD",
+        "DATABASE",
+        "CALCULATIONS",
+        "HEROS_JOURNEY",
+        "ANNUAL_REVIEW_DATA",
+        "P5_CONFIG",
+        "IMPORTS",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "tab_count": 10,
+      "last_snapshot_utc": "2026-11-24T04:43:12Z",
+      "snapshot_file": "schemas/live_snapshots/ID_PILLAR_5.json"
+    },
+    "ID_RAW_QUESTS": {
+      "title": "RAW_DATA_Quests",
+      "spreadsheet_id": "1uV7FXlTU--gHFOt7zWYRkDxGk15QXIPGbBcshkk4TVw",
+      "url": "https://docs.google.com/spreadsheets/d/1uV7FXlTU--gHFOt7zWYRkDxGk15QXIPGbBcshkk4TVw/edit",
+      "drive_folder_id": "1cCrkeThYdMl4BOTI0ww8dhSxlpBPE53J",
+      "domain": "Pillar 5 / Write-Only New Quest Form Silo (Layer 1)",
+      "cadence": "On Quest Submission",
+      "status": "ACTIVE",
+      "universal_brick_compliant": false,
+      "live_tabs": [
+        "Form Responses 1"
+      ],
+      "all_tabs": [
+        "Form Responses 1"
+      ],
+      "tab_count": 1,
+      "last_snapshot_utc": "2026-11-24T04:43:12Z",
+      "snapshot_file": "schemas/live_snapshots/ID_RAW_QUESTS.json"
+    },
+    "ID_RAW_ANNUAL_REVIEW": {
+      "title": "RAW_DATA_AnnualReview",
+      "spreadsheet_id": "17YdM8NAansiDZWnQTUL928LlWc9ZypPMFLcco02lZ7Q",
+      "url": "https://docs.google.com/spreadsheets/d/17YdM8NAansiDZWnQTUL928LlWc9ZypPMFLcco02lZ7Q/edit",
+      "drive_folder_id": "1cCrkeThYdMl4BOTI0ww8dhSxlpBPE53J",
+      "domain": "Pillar 5 / Write-Only Annual Vision & Philosophy Review Silo (Layer 1)",
+      "cadence": "Annual Vision Review",
+      "status": "ACTIVE",
+      "universal_brick_compliant": false,
+      "live_tabs": [
+        "Form Responses 1"
+      ],
+      "all_tabs": [
+        "Form Responses 1"
+      ],
+      "tab_count": 1,
+      "last_snapshot_utc": "2026-11-24T04:43:12Z",
+      "snapshot_file": "schemas/live_snapshots/ID_RAW_ANNUAL_REVIEW.json"
     }
   },
   "unmapped_discovered": [

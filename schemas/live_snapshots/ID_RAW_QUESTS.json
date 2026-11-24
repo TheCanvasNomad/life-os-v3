@@ -1,0 +1,57 @@
+{
+  "registry_key": "ID_RAW_QUESTS",
+  "title": "RAW_DATA_Quests",
+  "spreadsheet_id": "1uV7FXlTU--gHFOt7zWYRkDxGk15QXIPGbBcshkk4TVw",
+  "url": "https://docs.google.com/spreadsheets/d/1uV7FXlTU--gHFOt7zWYRkDxGk15QXIPGbBcshkk4TVw/edit",
+  "time_zone": "America/Detroit",
+  "snapshot_utc": "2026-11-24T04:43:45Z",
+  "tab_count": 1,
+  "tabs": [
+    {
+      "title": "Form Responses 1",
+      "sheet_id": 1463794544,
+      "index": 0,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 102,
+      "col_count": 16,
+      "header_row_index": 1,
+      "headers": [
+        "Timestamp",
+        "Quest Name",
+        "Quest Description",
+        "Which Life OS Pillar is this quest primarily related to?",
+        "What is the scope/tier of this quest?",
+        "If this is a Sub-Quest or Major Quest, what is the name of its Parent Quest?",
+        "Target Completion Date",
+        "Which of your CORE Values does this quest align with?",
+        "Importance (1-10)",
+        "Urgency (1-10)",
+        "Bloom's Cognitive Level",
+        "Time Benchmark (Hours)",
+        "Actual Hours",
+        "Status",
+        "Special Flags",
+        "Calendar_Event_ID"
+      ],
+      "row_1": [
+        "Timestamp",
+        "Quest Name",
+        "Quest Description",
+        "Which Life OS Pillar is this quest primarily related to?",
+        "What is the scope/tier of this quest?",
+        "If this is a Sub-Quest or Major Quest, what is the name of its Parent Quest?",
+        "Target Completion Date",
+        "Which of your CORE Values does this quest align with?",
+        "Importance (1-10)",
+        "Urgency (1-10)",
+        "Bloom's Cognitive Level",
+        "Time Benchmark (Hours)",
+        "Actual Hours",
+        "Status",
+        "Special Flags",
+        "Calendar_Event_ID"
+      ]
+    }
+  ]
+}
