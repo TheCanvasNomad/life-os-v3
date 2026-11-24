@@ -2,33 +2,19 @@
   "registry_key": "ID_TRAVEL",
   "title": "\ud83c\udf0d Travel_Tracker_Brick",
   "spreadsheet_id": "11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc",
-  "url": "https://docs.google.com/spreadsheets/d/11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc/edit",
-  "time_zone": "America/New_York",
-  "snapshot_utc": "2026-11-23T16:16:42Z",
-  "tab_count": 13,
+  "snapshot_utc": "2026-11-24T16:38:33Z",
+  "pii_policy": "ZERO_PII_HEADERS_ONLY",
+  "tab_count": 16,
   "tabs": [
     {
       "title": "Form Responses 2",
       "sheet_id": 1585522118,
-      "index": null,
+      "index": 0,
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 101,
       "col_count": 16,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Linked Trip",
-        "Place Name",
-        "Category",
-        "Visit Date",
-        "Google Maps Link",
-        "Personal Rating (1\u20135)",
-        "Review Status",
-        "Review Text",
-        "Would Return / Recommend?"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Timestamp",
         "Linked Trip",
         "Place Name",
@@ -49,23 +35,7 @@
       "sheet_type": "GRID",
       "row_count": 112,
       "col_count": 19,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Trip Name / Label",
-        "Continent",
-        "Country",
-        "State / Province / Region",
-        "City / Town",
-        "Start Date",
-        "End Date",
-        "Trip Type",
-        "Primary Transport",
-        "Accommodation",
-        "Total Trip Cost (Optional, USD)",
-        "Trip Highlights & Notes"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Timestamp",
         "Trip Name / Label",
         "Continent",
@@ -87,14 +57,9 @@
       "index": 2,
       "hidden": false,
       "sheet_type": "GRID",
-      "row_count": 45,
+      "row_count": 46,
       "col_count": 14,
-      "header_row_index": 1,
-      "headers": [
-        "",
-        "\ud83c\udf0d UNIVERSAL TRAVEL, TIMELINE & GOOGLE MAPS REVIEW TRACKER"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "",
         "\ud83c\udf0d UNIVERSAL TRAVEL, TIMELINE & GOOGLE MAPS REVIEW TRACKER"
       ]
@@ -107,11 +72,7 @@
       "sheet_type": "GRID",
       "row_count": 801,
       "col_count": 28,
-      "header_row_index": 1,
-      "headers": [
-        "\ud83c\udf0d CHRONOLOGICAL TRAVEL TIMELINE (AUTO-SORTED BY START DATE DESCENDING)"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "\ud83c\udf0d CHRONOLOGICAL TRAVEL TIMELINE (AUTO-SORTED BY START DATE DESCENDING)"
       ]
     },
@@ -123,11 +84,7 @@
       "sheet_type": "GRID",
       "row_count": 1101,
       "col_count": 13,
-      "header_row_index": 1,
-      "headers": [
-        "\ud83d\udccd GOOGLE MAPS & PLACE REVIEW ARCHIVE (AUTO-SORTED BY VISIT DATE DESCENDING)"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "\ud83d\udccd GOOGLE MAPS & PLACE REVIEW ARCHIVE (AUTO-SORTED BY VISIT DATE DESCENDING)"
       ]
     },
@@ -139,30 +96,7 @@
       "sheet_type": "GRID",
       "row_count": 300,
       "col_count": 20,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Trip_Name",
-        "Form_Continent",
-        "Country",
-        "State_Province_Region",
-        "City_Town",
-        "Start_Date",
-        "End_Date",
-        "Trip_Type",
-        "Primary_Transport",
-        "Accommodation",
-        "Total_Cost_USD",
-        "Highlights_Notes",
-        "Trip_ID",
-        "Resolved_Continent",
-        "Sub_Region",
-        "Duration_Days",
-        "Trip_Status",
-        "Visit_Type",
-        "Daily_Burn_USD"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Timestamp",
         "Trip_Name",
         "Form_Continent",
@@ -193,25 +127,7 @@
       "sheet_type": "GRID",
       "row_count": 600,
       "col_count": 15,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Linked_Trip",
-        "Place_Name",
-        "Category",
-        "Visit_Date",
-        "Google_Maps_Link",
-        "Personal_Rating",
-        "Review_Status",
-        "Review_Text",
-        "Would_Recommend",
-        "Resolved_Country",
-        "Resolved_City",
-        "Rating_Clean",
-        "Review_Word_Count",
-        "Maps_Action"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Timestamp",
         "Linked_Trip",
         "Place_Name",
@@ -237,15 +153,7 @@
       "sheet_type": "GRID",
       "row_count": 220,
       "col_count": 5,
-      "header_row_index": 1,
-      "headers": [
-        "Country",
-        "Continent",
-        "Sub_Region",
-        "ISO2",
-        "ISO3"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Country",
         "Continent",
         "Sub_Region",
@@ -261,11 +169,7 @@
       "sheet_type": "GRID",
       "row_count": 25,
       "col_count": 8,
-      "header_row_index": 1,
-      "headers": [
-        "\ud83e\udded PASS-2 CONTEXTUAL TRAVEL & EXPLORATION GUIDANCE"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "\ud83e\udded PASS-2 CONTEXTUAL TRAVEL & EXPLORATION GUIDANCE"
       ]
     },
@@ -277,15 +181,7 @@
       "sheet_type": "GRID",
       "row_count": 15,
       "col_count": 7,
-      "header_row_index": 1,
-      "headers": [
-        "Travel_State",
-        "High_Energy",
-        "Depleted_Recovery",
-        "High_Stress",
-        "Baseline_Steady"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Travel_State",
         "High_Energy",
         "Depleted_Recovery",
@@ -301,13 +197,7 @@
       "sheet_type": "GRID",
       "row_count": 20,
       "col_count": 4,
-      "header_row_index": 1,
-      "headers": [
-        "Field",
-        "Value",
-        "Notes"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Field",
         "Value",
         "Notes"
@@ -321,16 +211,7 @@
       "sheet_type": "GRID",
       "row_count": 25,
       "col_count": 6,
-      "header_row_index": 1,
-      "headers": [
-        "Signal_Key",
-        "Live_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Freshness_Status",
-        "Hub_Auth_Trigger"
-      ],
-      "row_1": [
+      "headers_row_1": [
         "Signal_Key",
         "Live_Value",
         "Normalized_Score_0_100",
@@ -347,8 +228,7 @@
       "sheet_type": "GRID",
       "row_count": 20,
       "col_count": 10,
-      "header_row_index": 1,
-      "headers": [
+      "headers_row_1": [
         "Signal_Key",
         "Source_Brick",
         "Glyph",
@@ -359,18 +239,65 @@
         "Last_Updated",
         "TTL_Hours",
         "Notes"
-      ],
-      "row_1": [
-        "Signal_Key",
-        "Source_Brick",
-        "Glyph",
-        "Domain_Pillar",
-        "Raw_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated",
-        "TTL_Hours",
-        "Notes"
+      ]
+    },
+    {
+      "title": "IMPORTS",
+      "sheet_id": 1150130211,
+      "index": 13,
+      "hidden": true,
+      "sheet_type": "GRID",
+      "row_count": 500,
+      "col_count": 12,
+      "headers_row_1": []
+    },
+    {
+      "title": "BUCKET_LIST_MILESTONES",
+      "sheet_id": 130175684,
+      "index": 14,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 80,
+      "col_count": 18,
+      "headers_row_1": [
+        "Milestone_ID",
+        "Milestone_Name",
+        "Category",
+        "Tier",
+        "Status",
+        "First_Completed_Date",
+        "Latest_Date",
+        "Times_Completed",
+        "Earned_XP",
+        "",
+        "Normalized_Milestone",
+        "First_Completed_Date",
+        "Latest_Date",
+        "Times_Completed",
+        "",
+        "Auth_Trigger_RAW_TravelBucketList",
+        "Auth_Status"
+      ]
+    },
+    {
+      "title": "LOOKER_TRAVEL",
+      "sheet_id": 1881042437,
+      "index": 15,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 90,
+      "col_count": 10,
+      "headers_row_1": [
+        "Record_Type",
+        "Item_Key",
+        "Item_Label",
+        "Category_Or_Domain",
+        "Tier",
+        "Status",
+        "Numeric_Value",
+        "Earned_XP",
+        "First_Completed_Date",
+        "Times_Completed"
       ]
     }
   ]

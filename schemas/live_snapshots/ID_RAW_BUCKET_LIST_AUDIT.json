@@ -1,0 +1,37 @@
+{
+  "registry_key": "ID_RAW_BUCKET_LIST_AUDIT",
+  "title": "RAW_DATA_BucketListAudit",
+  "spreadsheet_id": "1PyIMHlM5edRahBQH1py5B-zU2dQlev2PsUkkEKVd-mQ",
+  "snapshot_utc": "2026-11-24T16:38:33Z",
+  "pii_policy": "ZERO_PII_HEADERS_ONLY",
+  "tab_count": 1,
+  "tabs": [
+    {
+      "title": "Form Responses 1",
+      "sheet_id": 2077948658,
+      "index": 0,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 101,
+      "col_count": 22,
+      "headers_row_1": [
+        "Timestamp",
+        "Do you have your bucket list written down somewhere?",
+        "About how many items are on your bucket list?",
+        "About how often do you add things to your bucket list?",
+        "When is the last time you checked something off of your bucket list?",
+        "How much of your bucket list have you already completed?",
+        "How much of your bucket list do you consider to be \u201clong shots\u201d?",
+        "Do you have multiple bucket lists for different aspects of your life (e.g., work, relationships, travel, etc.)?",
+        "Do you have age goals for completing different items on your bucket list?",
+        "Would your bucket list change significantly if you had unlimited resources?",
+        "Do most of the items on your bucket list require another person to complete?",
+        "Are most of the items on your bucket list clearly defined or vague?",
+        "Are most of the items on your bucket list clearly defined or vague?",
+        "How much of your bucket list do you expect to complete?",
+        "Are you content with the percentage of your bucket list that you have completed so far?",
+        "Are you currently waiting to work on your bucket list?"
+      ]
+    }
+  ]
+}

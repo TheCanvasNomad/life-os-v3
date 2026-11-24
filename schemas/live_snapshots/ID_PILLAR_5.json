@@ -2,9 +2,9 @@
   "registry_key": "ID_PILLAR_5",
   "title": "\ud83c\udfc6 Pillar_5_Experience_Legacy",
   "spreadsheet_id": "1AdMP-VKzTPNbSSTUoLrbqAjtBdYlf4mzLYwyWbaUrQw",
-  "snapshot_utc": "2026-11-24T16:32:19Z",
+  "snapshot_utc": "2026-11-24T16:38:33Z",
   "pii_policy": "ZERO_PII_HEADERS_ONLY",
-  "tab_count": 11,
+  "tab_count": 12,
   "tabs": [
     {
       "title": "DASHBOARD",
@@ -12,7 +12,7 @@
       "index": 0,
       "hidden": false,
       "sheet_type": "GRID",
-      "row_count": 65,
+      "row_count": 66,
       "col_count": 12,
       "headers_row_1": [
         "\ud83c\udfc6 LIFEOS v3.0 \u2014 PILLAR 5: EXPERIENCE, QUESTS & LEGACY COMMAND HUD"
@@ -118,7 +118,7 @@
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 520,
-      "col_count": 45,
+      "col_count": 65,
       "headers_row_1": [
         "Timestamp",
         "Quest Name",
@@ -223,7 +223,7 @@
       "hidden": false,
       "sheet_type": "GRID",
       "row_count": 300,
-      "col_count": 12,
+      "col_count": 15,
       "headers_row_1": [
         "Quest_Date",
         "Quest_Name",
@@ -235,7 +235,40 @@
         "Blooms_Level",
         "Benchmark_Hours",
         "Actual_Hours",
-        "Status"
+        "Status",
+        "P5_Bucket_List_Clarity",
+        "P5_Bucket_List_Longshot_Pct",
+        "P5_Bucket_List_Waiting_Flag"
+      ]
+    },
+    {
+      "title": "CLEAN_BUCKET_LIST_AUDIT",
+      "sheet_id": 1593698913,
+      "index": 11,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 100,
+      "col_count": 20,
+      "headers_row_1": [
+        "Timestamp",
+        "Written_Down?",
+        "Approx_Item_Count",
+        "Addition_Frequency",
+        "Last_Checked_Off",
+        "Completed_Share_Raw",
+        "Longshots_Share_Raw",
+        "Multiple_Domain_Lists?",
+        "Age_Goals_Set?",
+        "Change_If_Unlimited_Resources?",
+        "Requires_Others?",
+        "Clarity_Definition_1",
+        "Clarity_Definition_2",
+        "Expected_Completion_Share",
+        "Content_With_Progress?",
+        "Waiting_To_Work?",
+        "Clarity_Score_0_100",
+        "Longshot_Pct_0_100",
+        "Waiting_Friction_Flag"
       ]
     }
   ]

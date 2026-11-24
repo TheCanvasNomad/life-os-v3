@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-24T16:32:19Z",
+  "last_updated_utc": "2026-11-24T16:38:33Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -268,7 +268,7 @@
         "LifeOS Master Bus"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-24T16:32:19Z",
+      "last_snapshot_utc": "2026-11-24T16:38:33Z",
       "all_tabs": [
         "SYMBIOSIS_HUD",
         "Workbook_Directory",
@@ -642,7 +642,7 @@
         "Travel Tracker"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T16:16:12Z",
+      "last_snapshot_utc": "2026-11-24T16:38:33Z",
       "all_tabs": [
         "Form Responses 2",
         "Form Responses 1",
@@ -656,9 +656,12 @@
         "ADVISORY_MATRIX",
         "MODULE_META",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "IMPORTS",
+        "BUCKET_LIST_MILESTONES",
+        "LOOKER_TRAVEL"
       ],
-      "tab_count": 13,
+      "tab_count": 16,
       "linked_forms": [
         {
           "name": "Travel_Tracker_Form_A_Trips",
@@ -669,7 +672,10 @@
           "form_id": "1D9IWDydIGrmxNUiY-mJkeQT8LMryaOJpWEjS2dkWb1M"
         }
       ],
-      "universal_brick_compliant": true
+      "universal_brick_compliant": true,
+      "looker_tabs": [
+        "LOOKER_TRAVEL"
+      ]
     },
     "ID_FEED_HUB": {
       "title": "LifeOS_feed_hub",
@@ -694,7 +700,7 @@
         "LifeOS Feed Hub"
       ],
       "schema_ref": "schemas/lifeos_feed_hub_schema.json",
-      "last_snapshot_utc": "2026-11-24T16:32:19Z",
+      "last_snapshot_utc": "2026-11-24T16:38:33Z",
       "all_tabs": [
         "SIGNAL_BUS",
         "MODULE_REGISTRY",
@@ -2305,10 +2311,11 @@
         "MODULE_META",
         "CONTEXT_IN",
         "SIGNALS_OUT",
-        "LOOKER_QUESTS_&_EPICS"
+        "LOOKER_QUESTS_&_EPICS",
+        "CLEAN_BUCKET_LIST_AUDIT"
       ],
-      "tab_count": 11,
-      "last_snapshot_utc": "2026-11-24T16:32:19Z",
+      "tab_count": 12,
+      "last_snapshot_utc": "2026-11-24T16:38:33Z",
       "snapshot_file": "schemas/live_snapshots/ID_PILLAR_5.json",
       "looker_tabs": [
         "LOOKER_QUESTS_&_EPICS"
@@ -2519,7 +2526,7 @@
         "Shadow Work Bench"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-24T06:07:43Z",
+      "last_snapshot_utc": "2026-11-24T16:38:33Z",
       "all_tabs": [
         "DASHBOARD",
         "DATABASE",
@@ -2616,39 +2623,29 @@
         "LOOKER_ESOTERIC_METRICS"
       ]
     },
-    "ID_TRAVEL_BUCKET_LIST": {
-      "title": "\ud83c\udfaf Travel_Bucket_List_Brick",
+    "ID_RAW_TRAVEL_BUCKET_LIST": {
+      "title": "RAW_DATA_TravelBucketList",
       "spreadsheet_id": "1bEnJp4tj1qCasykqDOCxg9yvlH3Gf5pl9i1bcigHpUs",
       "drive_url": "https://docs.google.com/spreadsheets/d/1bEnJp4tj1qCasykqDOCxg9yvlH3Gf5pl9i1bcigHpUs/edit",
       "status": "ACTIVE",
-      "layer": "brick",
-      "domain": "Pillar 5 Experience & Legacy / 7-by-40 Travel Bucket List Milestones",
+      "layer": "layer_1_raw_silo",
+      "domain": "Pillar 5 Travel / Raw Travel Bucket List Submissions -> folded into \ud83c\udf0d Travel_Tracker_Brick",
       "live_tabs": [
-        "DASHBOARD",
-        "BUCKET_LIST_MASTER",
-        "LOOKER_BUCKET_LIST",
-        "NORMALIZED_LOG",
-        "MODULE_META",
-        "CONTEXT_IN",
-        "SIGNALS_OUT"
-      ],
-      "looker_tabs": [
-        "LOOKER_BUCKET_LIST"
+        "Form Responses 1"
       ],
       "search_aliases": [
-        "\ud83c\udfaf Travel_Bucket_List_Brick",
+        "RAW_DATA_TravelBucketList",
         "Travel Bucket List (Responses)",
-        "Travel Bucket List",
-        "7 by 40 Bucket List"
+        "Travel Bucket List"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-24T16:32:19Z",
+      "last_snapshot_utc": "2026-11-24T16:38:33Z",
       "all_tabs": [
+        "Form Responses 1",
         "DASHBOARD",
         "BUCKET_LIST_MASTER",
         "LOOKER_BUCKET_LIST",
         "NORMALIZED_LOG",
-        "Form Responses 1",
         "MODULE_META",
         "CONTEXT_IN",
         "SIGNALS_OUT",
@@ -2656,7 +2653,36 @@
         "Last Updated"
       ],
       "tab_count": 10,
-      "universal_brick_compliant": true
+      "universal_brick_compliant": false
+    },
+    "ID_RAW_BUCKET_LIST_AUDIT": {
+      "title": "RAW_DATA_BucketListAudit",
+      "spreadsheet_id": "1PyIMHlM5edRahBQH1py5B-zU2dQlev2PsUkkEKVd-mQ",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1PyIMHlM5edRahBQH1py5B-zU2dQlev2PsUkkEKVd-mQ/edit",
+      "status": "ACTIVE",
+      "layer": "layer_1_raw_silo",
+      "domain": "Pillar 5 Legacy / Bucket List Strategy & Readiness Audit -> folded into \ud83c\udfc6 Pillar_5_Experience_Legacy",
+      "live_tabs": [
+        "Form Responses 1"
+      ],
+      "search_aliases": [
+        "RAW_DATA_BucketListAudit",
+        "Bucket List (Responses)",
+        "Bucket List Audit"
+      ],
+      "schema_ref": null,
+      "last_snapshot_utc": "2026-11-24T16:38:33Z",
+      "all_tabs": [
+        "Form Responses 1"
+      ],
+      "tab_count": 1,
+      "linked_forms": [
+        {
+          "name": "Bucket List",
+          "form_id": "1XbCtKlJ64wWnkEJvv5QaIA0-Sj1bj2Tl19fHneA3PJg"
+        }
+      ],
+      "universal_brick_compliant": false
     }
   },
   "unmapped_discovered": [
