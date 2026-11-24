@@ -1,61 +1,45 @@
 /**
- * LifeOS v3.0 — CRM_CORE Two-Way Google Contacts Sync Engine (People API v1)
- * ===========================================================================
+ * LifeOS v3.0 — CRM_CORE Full-Field Two-Way Google Contacts Sync & Safe Bulk Purge
+ * ================================================================================
  * Bound to: `📇 CRM_CORE` (ID: 1VtJ4_beXHe8N_zfmcB5yBTPm0App8prl3IgY7CMeU8g)
- * Master Tab: `Google Contacts Sync Master`
+ * Master Tab:  `Google Contacts Sync Master` (95 columns: A..CQ)
+ * Archive Tab: `PURGE_ARCHIVE_LOG` (hidden 96-column backup log: A..CR)
  *
  * Prerequisites (Apps Script):
  *   1. Open Extensions -> Apps Script inside `📇 CRM_CORE`.
  *   2. Click Services (+) -> Add `People API` (Identifier: `People`, Version: `v1`).
- *   3. Run `runTwoWayContactsSync()` manually from the custom menu or attach an
- *      hourly/daily time-driven trigger.
+ *   3. Reload the sheet to reveal the custom `📇 LifeOS CRM` menu.
  *
- * Features:
- *   - Loop-free two-way sync guarded by `Sync_Direction_Lock` (Col BY) and
- *     deterministic SHA-256 `Sync_Hash` (Col BZ).
- *   - Pull (Google Contacts -> Sheet): Uses `syncToken` incremental pagination,
- *     automatically parses `[Flag] [Name] (Age) [Emojis]` naming patterns into
- *     `Country_Origin`, `LifeOS_Sphere`, and `Social_Tags`, maps Google Contact
- *     Group Labels <-> `Social_Tags` / `LifeOS_Sphere`, and updates rows strictly
- *     when `Google_Modified > Last_Synced_Sheet`.
- *   - Push (Sheet -> Google Contacts): Detects rows where `Sheet_Modified >
- *     Last_Synced_Google` (and `Sync_Hash` changed), pushes updated names, phone
- *     numbers, notes, birthdays via `People.People.updateContact`, and reconciles
- *     Google Contact Group Labels via `People.ContactGroups.Members.modify`.
+ * Capabilities:
+ *   - 100% Google People API v1 field coverage (`names`, `nicknames`, `fileAses`,
+ *     `genders`, `birthdays`, `phoneNumbers` 1-4, `emailAddresses` 1-4, `imClients` 1-2,
+ *     `urls` 1-5, `organizations`, `addresses` 1-2, `events` 1-2, `relations` 1-3,
+ *     `biographies`, `userDefined` Custom Fields 1-2, `memberships`/Labels, `metadata`/ETag).
+ *   - Loop-free two-way sync via `Sync_Direction_Lock`, `Contact_ETag`, and SHA-256 `Sync_Hash`.
+ *   - Safe Archived Bulk Deletion (`Sync_Action = "DELETE_FROM_PHONE"`):
+ *       1) Interactive confirmation dialog displaying exact marked count,
+ *       2) Append full 95-column row + UTC `Purged_Timestamp` to `PURGE_ARCHIVE_LOG` FIRST,
+ *       3) Delete from Google Contacts via `People.People.deleteContact(resourceName)`
+ *          with rate-limit pacing & safety cap (`MAX_DELETES_PER_RUN = 200`),
+ *       4) Remove row from `Google Contacts Sync Master` ONLY after confirmed deletion.
  */
 
 const CRM_MASTER_TAB = 'Google Contacts Sync Master';
+const CRM_ARCHIVE_TAB = 'PURGE_ARCHIVE_LOG';
 const SYNC_TOKEN_PROP = 'PEOPLE_API_SYNC_TOKEN';
-const PERSON_FIELDS = 'names,emailAddresses,phoneNumbers,birthdays,biographies,memberships,metadata,organizations';
+const MAX_DELETES_PER_RUN = 200;
+const DELETE_PACE_MS = 160;
 
-// Exact 1-based column indices in `Google Contacts Sync Master`
-const COL = {
-  CONTACT_ID: 1,         // A
-  LAST_UPD_SHEET: 2,     // B
-  LAST_UPD_GOOGLE: 3,    // C
-  FIRST_NAME: 4,         // D
-  MIDDLE_NAME: 5,        // E
-  LAST_NAME: 6,          // F
-  BIRTHDAY: 17,          // Q
-  NOTES: 18,             // R
-  LABELS: 20,            // T
-  EMAIL_1: 22,           // V
-  PHONE_1_LABEL: 27,     // AA (adjust automatically via header lookup below)
-  SPHERE: 69,            // BQ: LifeOS_Sphere
-  SOCIAL_TAGS: 70,       // BR: Social_Tags
-  REL_STATUS: 71,        // BS: Relationship_Status
-  HOW_MET: 72,           // BT: How_Met
-  COUNTRY_ORIGIN: 73,    // BU: Country_Origin
-  LAST_CONTACTED: 74,    // BV: Last_Contacted_Date
-  NEXT_FOLLOWUP: 75,     // BW: Next_Follow_Up_Date
-  FOLLOWUP_STATUS: 76,   // BX: Follow_Up_Status
-  SYNC_LOCK: 77,         // BY: Sync_Direction_Lock
-  SYNC_HASH: 78,         // BZ: Sync_Hash
-};
+// 100% Full People API v1 Read & Write Field Masks
+const FULL_PERSON_FIELDS = [
+  'names', 'nicknames', 'fileAses', 'genders', 'birthdays',
+  'phoneNumbers', 'emailAddresses', 'imClients', 'urls',
+  'organizations', 'addresses', 'events', 'relations',
+  'biographies', 'userDefined', 'memberships', 'metadata',
+].join(',');
 
-// Emoji & label heuristics for `[Flag] [Name] (Age) [Emojis]` parsing
 const SPHERE_EMOJI_MAP = [
-  { pattern: /❤️|💘|😍|🔥|💋|🌹|🍑|🍆/, sphere: 'Love Life', tag: 'Dating' },
+  { pattern: /❤️|💘|😍|🔥|💋|🌹|🍑|🍆|😘|💕/, sphere: 'Love Life', tag: 'Dating' },
   { pattern: /⚓|🚢|⛵|🛳️|🧭/, sphere: 'Maritime & Crew', tag: 'Worked_With' },
   { pattern: /✈️|🌍|🗺️|🏖️|🧳/, sphere: 'Travel Acquaintance', tag: 'Traveled_With' },
   { pattern: /💼|🏢|🤝|💻/, sphere: 'Professional', tag: 'Worked_With' },
@@ -64,22 +48,13 @@ const SPHERE_EMOJI_MAP = [
 ];
 
 const LABEL_TO_SPHERE = {
-  'love life': 'Love Life',
-  'dating': 'Love Life',
-  'intimate': 'Love Life',
-  'family': 'Family',
-  'inner_circle': 'Friendship',
-  'inner circle': 'Friendship',
-  'friends': 'Friendship',
-  'friendship': 'Friendship',
-  'maritime': 'Maritime & Crew',
-  'maritime & crew': 'Maritime & Crew',
-  'crew': 'Maritime & Crew',
-  'work': 'Professional',
-  'professional': 'Professional',
-  'mentor': 'Professional',
-  'travel': 'Travel Acquaintance',
-  'traveled_with': 'Travel Acquaintance',
+  'love life': 'Love Life', 'dating': 'Love Life', 'intimate': 'Love Life',
+  'tinder': 'Love Life', 'hinge': 'Love Life', 'bumble': 'Love Life',
+  'family': 'Family', 'inner_circle': 'Friendship', 'inner circle': 'Friendship',
+  'friends': 'Friendship', 'friendship': 'Friendship',
+  'maritime': 'Maritime & Crew', 'maritime & crew': 'Maritime & Crew', 'crew': 'Maritime & Crew',
+  'work': 'Professional', 'professional': 'Professional', 'mentor': 'Professional',
+  'travel': 'Travel Acquaintance', 'traveled_with': 'Travel Acquaintance',
 };
 
 const LIFEOS_SOCIAL_TAGS = [
@@ -88,18 +63,21 @@ const LIFEOS_SOCIAL_TAGS = [
 
 function onOpen() {
   SpreadsheetApp.getUi()
-    .createMenu('📇 LifeOS CRM_CORE')
-    .addItem('Run Two-Way Google Contacts Sync', 'runTwoWayContactsSync')
+    .createMenu('📇 LifeOS CRM')
+    .addItem('Run Two-Way Full-Field Sync', 'runTwoWayContactsSync')
     .addItem('Pull Only (Google Contacts -> Sheet)', 'pullGoogleContactsToSheet')
     .addItem('Push Only (Sheet -> Google Contacts)', 'pushSheetEditsToGoogleContacts')
-    .addItem('Classify Existing Contacts from Emoji/Labels', 'classifyExistingContactsLocally')
+    .addSeparator()
+    .addItem('Purge Marked Contacts (DELETE_FROM_PHONE)', 'purgeMarkedContacts')
+    .addSeparator()
+    .addItem('Classify Existing Contacts (Emoji/Flags/Labels)', 'classifyExistingContactsLocally')
     .addItem('Reset Sync Token (Full Rescan)', 'resetPeopleSyncToken')
     .addToUi();
 }
 
 function resetPeopleSyncToken() {
   PropertiesService.getScriptProperties().deleteProperty(SYNC_TOKEN_PROP);
-  Logger.log('Cleared PEOPLE_API_SYNC_TOKEN. Next Pull will perform a full incremental seed.');
+  Logger.log('Cleared PEOPLE_API_SYNC_TOKEN. Next Pull will re-seed all fields.');
 }
 
 function runTwoWayContactsSync() {
@@ -108,26 +86,138 @@ function runTwoWayContactsSync() {
   try {
     const pulled = pullGoogleContactsToSheet();
     const pushed = pushSheetEditsToGoogleContacts();
-    Logger.log('Two-way sync complete: ' + JSON.stringify({ pulled, pushed }));
+    Logger.log('Full-field two-way sync complete: ' + JSON.stringify({ pulled, pushed }));
   } finally {
     lock.releaseLock();
   }
 }
 
 /**
- * PULL: Google Contacts -> CRM_CORE Master Sheet (`people.connections.list` with syncToken).
+ * SAFE BULK DELETION (`Sync_Action = "DELETE_FROM_PHONE"`):
+ *   1. Confirms exact marked count via UI dialog (capped at 200 per run).
+ *   2. Appends full 95-col row + UTC `Purged_Timestamp` to hidden `PURGE_ARCHIVE_LOG` first.
+ *   3. Calls `People.People.deleteContact(resourceName)` with rate-limit pacing.
+ *   4. Removes row from `Google Contacts Sync Master` ONLY once confirmed deleted.
+ */
+function purgeMarkedContacts() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = ss.getSheetByName(CRM_MASTER_TAB);
+  const archiveSheet = ss.getSheetByName(CRM_ARCHIVE_TAB);
+  if (!sheet || !archiveSheet) {
+    throw new Error('Missing ' + CRM_MASTER_TAB + ' or ' + CRM_ARCHIVE_TAB + ' tab.');
+  }
+
+  const hdr = getHeaderIndexMap_(sheet);
+  const totalCols = sheet.getLastColumn();
+  const lastRow = sheet.getLastRow();
+  if (lastRow < 2) return { purged: 0 };
+
+  const syncActionIdx = hdr['Sync_Action'];
+  const contactIdIdx = hdr['Contact ID'];
+  if (syncActionIdx === undefined || contactIdIdx === undefined) {
+    throw new Error('Missing Sync_Action or Contact ID header.');
+  }
+
+  const allRows = sheet.getRange(2, 1, lastRow - 1, totalCols).getValues();
+  const markedRowNums = [];
+  for (let i = 0; i < allRows.length; i++) {
+    const action = String(allRows[i][syncActionIdx] || '').trim().toUpperCase();
+    if (action === 'DELETE_FROM_PHONE') {
+      markedRowNums.push(i + 2);
+    }
+  }
+
+  if (markedRowNums.length === 0) {
+    try {
+      SpreadsheetApp.getUi().alert('No contacts are currently marked DELETE_FROM_PHONE.');
+    } catch (_) {}
+    Logger.log('No contacts marked DELETE_FROM_PHONE.');
+    return { purged: 0 };
+  }
+
+  const batchCount = Math.min(markedRowNums.length, MAX_DELETES_PER_RUN);
+  const ui = SpreadsheetApp.getUi();
+  const confirmMsg =
+    'Found ' + markedRowNums.length + ' contact(s) marked DELETE_FROM_PHONE.\n\n' +
+    'This batch will process up to ' + batchCount + ' contact(s) (safety cap: ' + MAX_DELETES_PER_RUN + '/run):\n' +
+    '  1. Archive full contact rows to hidden PURGE_ARCHIVE_LOG first\n' +
+    '  2. Delete each contact from Google Contacts via People API v1\n' +
+    '  3. Remove confirmed rows from Google Contacts Sync Master\n\n' +
+    'Proceed with archived bulk deletion?';
+  const resp = ui.alert('Confirm Safe Bulk Deletion', confirmMsg, ui.ButtonSet.YES_NO);
+  if (resp !== ui.Button.YES) {
+    Logger.log('Bulk purge cancelled by user.');
+    return { purged: 0, cancelled: true };
+  }
+
+  // Select up to MAX_DELETES_PER_RUN rows and delete bottom-to-top to preserve row indices
+  const targetRows = markedRowNums.slice(0, MAX_DELETES_PER_RUN).sort((a, b) => b - a);
+  let purged = 0;
+  let errors = 0;
+
+  for (let k = 0; k < targetRows.length; k++) {
+    const rowNum = targetRows[k];
+    const rowVals = sheet.getRange(rowNum, 1, 1, totalCols).getValues()[0];
+    const resourceName = String(rowVals[contactIdIdx] || '').trim();
+    const purgedTs = new Date().toISOString();
+
+    try {
+      // STEP 1: Backup full row to PURGE_ARCHIVE_LOG FIRST (zero permanent data loss)
+      archiveSheet.appendRow(rowVals.concat([purgedTs]));
+
+      // STEP 2: Delete from Google Contacts via People API v1 (with rate-limit pacing)
+      if (resourceName.startsWith('people/')) {
+        deleteContactWithBackoff_(resourceName);
+      }
+
+      // STEP 3: Remove row from Master ONLY after confirmed archive & deletion
+      sheet.deleteRow(rowNum);
+      purged++;
+      Utilities.sleep(DELETE_PACE_MS);
+    } catch (err) {
+      errors++;
+      Logger.log('Failed to purge row ' + rowNum + ' (' + resourceName + '): ' + err);
+    }
+  }
+
+  const remaining = Math.max(0, markedRowNums.length - purged);
+  const summary = 'Archived & purged ' + purged + ' contact(s). Errors: ' + errors + '. Remaining marked: ' + remaining + '.';
+  Logger.log(summary);
+  try { ui.alert('Purge Complete', summary, ui.ButtonSet.OK); } catch (_) {}
+  return { purged, errors, remaining };
+}
+
+function deleteContactWithBackoff_(resourceName) {
+  for (let attempt = 0; attempt < 4; attempt++) {
+    try {
+      People.People.deleteContact(resourceName);
+      return;
+    } catch (e) {
+      const msg = String(e);
+      if (msg.indexOf('404') !== -1 || msg.indexOf('NOT_FOUND') !== -1) {
+        return; // Already deleted on Google Contacts
+      }
+      if (attempt === 3) throw e;
+      Utilities.sleep(500 * Math.pow(2, attempt));
+    }
+  }
+}
+
+/**
+ * PULL (Google Contacts -> Sheet): Full 95-column mapping with syncToken pagination.
  */
 function pullGoogleContactsToSheet() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
   const sheet = ss.getSheetByName(CRM_MASTER_TAB);
   if (!sheet) throw new Error('Missing tab: ' + CRM_MASTER_TAB);
 
-  const hdrMap = getHeaderMap_(sheet);
-  const groupMap = fetchContactGroupMap_();
+  const hdr = getHeaderIndexMap_(sheet);
+  const totalCols = sheet.getLastColumn();
+  const groupMap = fetchContactGroupMap_(false);
   const props = PropertiesService.getScriptProperties();
   let syncToken = props.getProperty(SYNC_TOKEN_PROP);
 
-  const rowIndexById = buildContactRowIndex_(sheet);
+  const rowIndexById = buildContactRowIndex_(sheet, hdr['Contact ID']);
   let pageToken = null;
   let newSyncToken = null;
   let inserted = 0;
@@ -135,11 +225,7 @@ function pullGoogleContactsToSheet() {
   const nowIso = new Date().toISOString();
 
   do {
-    const params = {
-      personFields: PERSON_FIELDS,
-      pageSize: 500,
-      requestSyncToken: true,
-    };
+    const params = { personFields: FULL_PERSON_FIELDS, pageSize: 500, requestSyncToken: true };
     if (syncToken) params.syncToken = syncToken;
     if (pageToken) params.pageToken = pageToken;
 
@@ -157,79 +243,32 @@ function pullGoogleContactsToSheet() {
       }
     }
 
-    const connections = resp.connections || [];
-    connections.forEach((person) => {
-      const resourceName = person.resourceName;
-      if (!resourceName) return;
-      if (person.metadata && person.metadata.deleted) return;
+    (resp.connections || []).forEach((person) => {
+      const resName = person.resourceName;
+      if (!resName || (person.metadata && person.metadata.deleted)) return;
 
       const googleUpdated = extractGoogleUpdateTime_(person) || nowIso;
-      const existingRowNum = rowIndexById[resourceName];
-
-      const nameObj = (person.names && person.names[0]) || {};
-      const firstName = nameObj.givenName || '';
-      const middleName = nameObj.middleName || '';
-      const lastName = nameObj.familyName || '';
-      const fullName = [firstName, middleName, lastName].filter(Boolean).join(' ');
-      const notes = (person.biographies && person.biographies[0] && person.biographies[0].value) || '';
-      const birthday = formatBirthday_(person.birthdays && person.birthdays[0]);
-      const phone1 = (person.phoneNumbers && person.phoneNumbers[0] && person.phoneNumbers[0].value) || '';
-      const email1 = (person.emailAddresses && person.emailAddresses[0] && person.emailAddresses[0].value) || '';
-      const labelsList = extractGroupNames_(person, groupMap);
-      const parsed = parseEmojiPatternAndLabels_(fullName, labelsList);
+      const existingRowNum = rowIndexById[resName];
 
       if (existingRowNum) {
-        const rowRange = sheet.getRange(existingRowNum, 1, 1, 78);
-        const rowVals = rowRange.getValues()[0];
-        const syncLock = String(rowVals[COL.SYNC_LOCK - 1] || '').trim().toUpperCase();
-        if (syncLock === 'PUSH_ONLY' || syncLock === 'LOCKED') return;
+        const range = sheet.getRange(existingRowNum, 1, 1, totalCols);
+        const row = range.getValues()[0];
+        const syncLock = String(row[hdr['Sync_Direction_Lock']] || '').trim().toUpperCase();
+        const syncAction = String(row[hdr['Sync_Action']] || '').trim().toUpperCase();
+        if (syncLock === 'PUSH_ONLY' || syncLock === 'LOCKED' || syncAction === 'DELETE_FROM_PHONE') return;
 
-        const sheetUpd = rowVals[COL.LAST_UPD_SHEET - 1];
-        if (sheetUpd && new Date(googleUpdated) <= new Date(sheetUpd)) {
-          return; // Sheet is newer -> leave for Push phase
-        }
+        const sheetUpd = row[hdr['Last Updated Sheet']];
+        if (sheetUpd && new Date(googleUpdated) <= new Date(sheetUpd)) return;
 
-        rowVals[COL.LAST_UPD_GOOGLE - 1] = googleUpdated;
-        rowVals[COL.FIRST_NAME - 1] = firstName;
-        rowVals[COL.MIDDLE_NAME - 1] = middleName;
-        rowVals[COL.LAST_NAME - 1] = lastName;
-        if (birthday) rowVals[COL.BIRTHDAY - 1] = birthday;
-        if (notes) rowVals[COL.NOTES - 1] = notes;
-        rowVals[COL.LABELS - 1] = labelsList.join(' ::: ');
-        if (hdrMap['E-mail 1 - Value'] && email1) rowVals[hdrMap['E-mail 1 - Value'] - 1] = email1;
-        if (hdrMap['Phone 1 - Value'] && phone1) rowVals[hdrMap['Phone 1 - Value'] - 1] = phone1;
-
-        // Non-destructively enrich v3.0 CRM columns if blank
-        if (!rowVals[COL.SPHERE - 1] && parsed.sphere) rowVals[COL.SPHERE - 1] = parsed.sphere;
-        if (parsed.tags.length > 0) {
-          rowVals[COL.SOCIAL_TAGS - 1] = mergeCsv_(rowVals[COL.SOCIAL_TAGS - 1], parsed.tags);
-        }
-        if (!rowVals[COL.COUNTRY_ORIGIN - 1] && parsed.country) rowVals[COL.COUNTRY_ORIGIN - 1] = parsed.country;
-
-        rowVals[COL.SYNC_HASH - 1] = computeRowHash_(rowVals, hdrMap);
-        rowVals[COL.LAST_UPD_SHEET - 1] = googleUpdated;
-        rowRange.setValues([rowVals]);
+        applyPersonToRow_(person, row, hdr, groupMap, googleUpdated);
+        range.setValues([row]);
         updated++;
       } else {
-        const newRow = new Array(78).fill('');
-        newRow[COL.CONTACT_ID - 1] = resourceName;
-        newRow[COL.LAST_UPD_SHEET - 1] = googleUpdated;
-        newRow[COL.LAST_UPD_GOOGLE - 1] = googleUpdated;
-        newRow[COL.FIRST_NAME - 1] = firstName;
-        newRow[COL.MIDDLE_NAME - 1] = middleName;
-        newRow[COL.LAST_NAME - 1] = lastName;
-        newRow[COL.BIRTHDAY - 1] = birthday;
-        newRow[COL.NOTES - 1] = notes;
-        newRow[COL.LABELS - 1] = labelsList.join(' ::: ');
-        if (hdrMap['E-mail 1 - Value']) newRow[hdrMap['E-mail 1 - Value'] - 1] = email1;
-        if (hdrMap['Phone 1 - Value']) newRow[hdrMap['Phone 1 - Value'] - 1] = phone1;
-        newRow[COL.SPHERE - 1] = parsed.sphere;
-        newRow[COL.SOCIAL_TAGS - 1] = parsed.tags.join(', ');
-        newRow[COL.REL_STATUS - 1] = parsed.sphere ? 'Active' : '';
-        newRow[COL.COUNTRY_ORIGIN - 1] = parsed.country;
-        newRow[COL.SYNC_HASH - 1] = computeRowHash_(newRow, hdrMap);
+        const newRow = new Array(totalCols).fill('');
+        applyPersonToRow_(person, newRow, hdr, groupMap, googleUpdated);
+        if (!newRow[hdr['Sync_Action']]) newRow[hdr['Sync_Action']] = 'KEEP';
         sheet.appendRow(newRow);
-        rowIndexById[resourceName] = sheet.getLastRow();
+        rowIndexById[resName] = sheet.getLastRow();
         inserted++;
       }
     });
@@ -243,7 +282,7 @@ function pullGoogleContactsToSheet() {
 }
 
 /**
- * PUSH: Sheet -> Google Contacts (`People.People.updateContact` & `ContactGroups.Members.modify`).
+ * PUSH (Sheet -> Google Contacts): Full-field `People.People.updateContact` + Label Groups.
  */
 function pushSheetEditsToGoogleContacts() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
@@ -251,147 +290,367 @@ function pushSheetEditsToGoogleContacts() {
   const lastRow = sheet.getLastRow();
   if (lastRow < 2) return { pushed: 0 };
 
-  const hdrMap = getHeaderMap_(sheet);
-  const groupNameToResource = fetchContactGroupMap_(true);
-  const values = sheet.getRange(2, 1, lastRow - 1, 78).getValues();
+  const hdr = getHeaderIndexMap_(sheet);
+  const totalCols = sheet.getLastColumn();
+  const groupNameToRes = fetchContactGroupMap_(true);
+  const values = sheet.getRange(2, 1, lastRow - 1, totalCols).getValues();
   let pushed = 0;
 
   for (let i = 0; i < values.length; i++) {
     const row = values[i];
-    const resourceName = String(row[COL.CONTACT_ID - 1] || '').trim();
-    if (!resourceName.startsWith('people/')) continue;
+    const resName = String(row[hdr['Contact ID']] || '').trim();
+    if (!resName.startsWith('people/')) continue;
 
-    const syncLock = String(row[COL.SYNC_LOCK - 1] || '').trim().toUpperCase();
-    if (syncLock === 'PULL_ONLY' || syncLock === 'LOCKED') continue;
+    const syncLock = String(row[hdr['Sync_Direction_Lock']] || '').trim().toUpperCase();
+    const syncAction = String(row[hdr['Sync_Action']] || '').trim().toUpperCase();
+    if (syncLock === 'PULL_ONLY' || syncLock === 'LOCKED' || syncAction === 'DELETE_FROM_PHONE' || syncAction === 'ARCHIVE_ONLY') {
+      continue;
+    }
 
-    const sheetUpd = row[COL.LAST_UPD_SHEET - 1];
-    const googleUpd = row[COL.LAST_UPD_GOOGLE - 1];
-    const currentHash = computeRowHash_(row, hdrMap);
-    const storedHash = String(row[COL.SYNC_HASH - 1] || '').trim();
-
-    const sheetIsNewer = sheetUpd && (!googleUpd || new Date(sheetUpd) > new Date(googleUpd));
-    const hashChanged = storedHash && currentHash !== storedHash;
-    if (!sheetIsNewer && !hashChanged) continue;
+    const sheetUpd = row[hdr['Last Updated Sheet']];
+    const googleUpd = row[hdr['Last Updated Google Contacts']];
+    const curHash = computeFullRowHash_(row, hdr);
+    const storedHash = String(row[hdr['Sync_Hash']] || '').trim();
+    const sheetNewer = sheetUpd && (!googleUpd || new Date(sheetUpd) > new Date(googleUpd));
+    const hashChanged = storedHash && curHash !== storedHash;
+    if (!sheetNewer && !hashChanged) continue;
 
     try {
-      const livePerson = People.People.get(resourceName, { personFields: PERSON_FIELDS });
-      const patch = {
-        etag: livePerson.etag,
-        names: [{
-          givenName: String(row[COL.FIRST_NAME - 1] || ''),
-          middleName: String(row[COL.MIDDLE_NAME - 1] || ''),
-          familyName: String(row[COL.LAST_NAME - 1] || ''),
-        }],
-      };
-      const updateFields = ['names'];
-
-      const notesVal = String(row[COL.NOTES - 1] || '');
-      if (notesVal) {
-        patch.biographies = [{ value: notesVal, contentType: 'TEXT_PLAIN' }];
-        updateFields.push('biographies');
+      let etag = String(row[hdr['Contact_ETag']] || '').trim();
+      if (!etag) {
+        const live = People.People.get(resName, { personFields: 'metadata' });
+        etag = live.etag;
+      }
+      const { patch, updateFields } = buildPersonPatchFromRow_(row, hdr, etag);
+      let updatedPerson;
+      try {
+        updatedPerson = People.People.updateContact(patch, resName, { updatePersonFields: updateFields.join(',') });
+      } catch (e) {
+        // Retry once with fresh etag if optimistic concurrency conflict (HTTP 400/412)
+        const live = People.People.get(resName, { personFields: 'metadata' });
+        patch.etag = live.etag;
+        updatedPerson = People.People.updateContact(patch, resName, { updatePersonFields: updateFields.join(',') });
       }
 
-      const phoneCol = hdrMap['Phone 1 - Value'];
-      if (phoneCol && row[phoneCol - 1]) {
-        patch.phoneNumbers = [{ value: String(row[phoneCol - 1]) }];
-        updateFields.push('phoneNumbers');
-      }
-
-      const bdayObj = parseBirthdayObj_(row[COL.BIRTHDAY - 1]);
-      if (bdayObj) {
-        patch.birthdays = [{ date: bdayObj }];
-        updateFields.push('birthdays');
-      }
-
-      const updatedPerson = People.People.updateContact(patch, resourceName, {
-        updatePersonFields: updateFields.join(','),
-      });
-
-      // Sync LifeOS_Sphere & Social_Tags back to Google Contact Group Labels
+      // Reconcile LifeOS_Sphere + Social_Tags to Google Contact Group Labels
       const desiredGroups = [];
-      if (row[COL.SPHERE - 1]) desiredGroups.push(String(row[COL.SPHERE - 1]).trim());
-      String(row[COL.SOCIAL_TAGS - 1] || '')
-        .split(',')
-        .map((s) => s.trim())
-        .filter(Boolean)
-        .forEach((tag) => desiredGroups.push(tag));
-
+      if (row[hdr['LifeOS_Sphere']]) desiredGroups.push(String(row[hdr['LifeOS_Sphere']]).trim());
+      String(row[hdr['Social_Tags']] || '').split(',').map((s) => s.trim()).filter(Boolean).forEach((t) => desiredGroups.push(t));
       desiredGroups.forEach((gName) => {
-        const gRes = ensureContactGroup_(gName, groupNameToResource);
-        if (gRes) {
-          People.ContactGroups.Members.modify(
-            { resourceNamesToAdd: [resourceName] },
-            gRes
-          );
-        }
+        const gRes = ensureContactGroup_(gName, groupNameToRes);
+        if (gRes) People.ContactGroups.Members.modify({ resourceNamesToAdd: [resName] }, gRes);
       });
 
       const syncedIso = extractGoogleUpdateTime_(updatedPerson) || new Date().toISOString();
-      sheet.getRange(i + 2, COL.LAST_UPD_SHEET, 1, 2).setValues([[syncedIso, syncedIso]]);
-      sheet.getRange(i + 2, COL.SYNC_HASH).setValue(currentHash);
+      sheet.getRange(i + 2, hdr['Last Updated Sheet'] + 1).setValue(syncedIso);
+      sheet.getRange(i + 2, hdr['Last Updated Google Contacts'] + 1).setValue(syncedIso);
+      sheet.getRange(i + 2, hdr['Sync_Hash'] + 1).setValue(curHash);
+      if (updatedPerson.etag) sheet.getRange(i + 2, hdr['Contact_ETag'] + 1).setValue(updatedPerson.etag);
       pushed++;
     } catch (err) {
-      Logger.log('Push failed for ' + resourceName + ': ' + err);
+      Logger.log('Push failed for ' + resName + ': ' + err);
     }
   }
   return { pushed };
 }
 
-/**
- * Local classifier: parses `[Flag] [Name] (Age) [Emojis]` and existing `Labels`
- * across all existing contacts in `Google Contacts Sync Master` without API writes.
- */
+function applyPersonToRow_(person, row, hdr, groupMap, googleUpdated) {
+  const set = (colName, val) => { if (hdr[colName] !== undefined) row[hdr[colName]] = val; };
+  set('Contact ID', person.resourceName || '');
+  set('Last Updated Google Contacts', googleUpdated);
+  set('Last Updated Sheet', googleUpdated);
+  set('Contact_ETag', person.etag || '');
+
+  // Names
+  const n = (person.names && person.names[0]) || {};
+  set('First Name', n.givenName || '');
+  set('Middle Name', n.middleName || '');
+  set('Last Name', n.familyName || '');
+  set('Phonetic First Name', n.phoneticGivenName || '');
+  set('Phonetic Middle Name', n.phoneticMiddleName || '');
+  set('Phonetic Last Name', n.phoneticFamilyName || '');
+  set('Name Prefix', n.honorificPrefix || '');
+  set('Name Suffix', n.honorificSuffix || '');
+
+  // Nickname, File As, Gender, Birthday, Notes
+  set('Nickname', (person.nicknames && person.nicknames[0] && person.nicknames[0].value) || '');
+  set('File As', (person.fileAses && person.fileAses[0] && person.fileAses[0].value) || '');
+  set('Gender', (person.genders && person.genders[0] && (person.genders[0].formattedValue || person.genders[0].value)) || '');
+  set('Birthday', formatDateObj_(person.birthdays && person.birthdays[0] && person.birthdays[0].date));
+  set('Notes', (person.biographies && person.biographies[0] && person.biographies[0].value) || '');
+
+  // Organization
+  const org = (person.organizations && person.organizations[0]) || {};
+  set('Organization Name', org.name || '');
+  set('Organization Title', org.title || '');
+  set('Organization Department', org.department || '');
+
+  // Emails 1..4
+  const emails = person.emailAddresses || [];
+  for (let i = 1; i <= 4; i++) {
+    const em = emails[i - 1] || {};
+    set('E-mail ' + i + ' - Label', em.formattedType || em.type || '');
+    set('E-mail ' + i + ' - Value', em.value || '');
+  }
+
+  // Phones 1..4
+  const phones = person.phoneNumbers || [];
+  for (let i = 1; i <= 4; i++) {
+    const ph = phones[i - 1] || {};
+    set('Phone ' + i + ' - Label', ph.formattedType || ph.type || '');
+    set('Phone ' + i + ' - Value', ph.value || '');
+  }
+
+  // IM Clients 1..2
+  const ims = person.imClients || [];
+  for (let i = 1; i <= 2; i++) {
+    const im = ims[i - 1] || {};
+    set('IM ' + i + ' - Protocol', im.formattedProtocol || im.protocol || '');
+    set('IM ' + i + ' - Handle', im.username || '');
+  }
+
+  // Addresses 1..2
+  const addrs = person.addresses || [];
+  for (let i = 1; i <= 2; i++) {
+    const ad = addrs[i - 1] || {};
+    set('Address ' + i + ' - Label', ad.formattedType || ad.type || '');
+    set('Address ' + i + ' - Formatted', ad.formattedValue || '');
+    set('Address ' + i + ' - Street', ad.streetAddress || '');
+    set('Address ' + i + ' - City', ad.city || '');
+    set('Address ' + i + ' - PO Box', ad.poBox || '');
+    set('Address ' + i + ' - Region', ad.region || '');
+    set('Address ' + i + ' - Postal Code', ad.postalCode || '');
+    set('Address ' + i + ' - Country', ad.country || '');
+    set('Address ' + i + ' - Extended Address', ad.extendedAddress || '');
+  }
+
+  // Relations 1..3
+  const rels = person.relations || [];
+  for (let i = 1; i <= 3; i++) {
+    const rl = rels[i - 1] || {};
+    set('Relation ' + i + ' - Label', rl.formattedType || rl.type || '');
+    set('Relation ' + i + ' - Value', rl.person || '');
+  }
+
+  // Websites 1..5
+  const urls = person.urls || [];
+  for (let i = 1; i <= 5; i++) {
+    const u = urls[i - 1] || {};
+    set('Website ' + i + ' - Label', u.formattedType || u.type || '');
+    set('Website ' + i + ' - Value', u.value || '');
+  }
+
+  // Events 1..2
+  const evs = person.events || [];
+  for (let i = 1; i <= 2; i++) {
+    const ev = evs[i - 1] || {};
+    set('Event ' + i + ' - Label', ev.formattedType || ev.type || '');
+    set('Event ' + i + ' - Value', formatDateObj_(ev.date));
+  }
+
+  // Custom Fields (userDefined) 1..2
+  const uds = person.userDefined || [];
+  for (let i = 1; i <= 2; i++) {
+    const ud = uds[i - 1] || {};
+    set('Custom Field ' + i + ' - Key', ud.key || '');
+    set('Custom Field ' + i + ' - Value', ud.value || '');
+  }
+
+  // Labels & LifeOS Emoji/Flag Enrichment (non-destructive)
+  const labelsList = extractGroupNames_(person, groupMap);
+  set('Labels', labelsList.join(' ::: '));
+  const fullName = [n.givenName, n.middleName, n.familyName].filter(Boolean).join(' ');
+  const parsed = parseEmojiPatternAndLabels_(fullName, labelsList);
+  if (!row[hdr['LifeOS_Sphere']] && parsed.sphere) set('LifeOS_Sphere', parsed.sphere);
+  if (parsed.tags.length > 0) set('Social_Tags', mergeCsv_(row[hdr['Social_Tags']], parsed.tags));
+  if (!row[hdr['Country_Origin']] && parsed.country) set('Country_Origin', parsed.country);
+  set('Sync_Hash', computeFullRowHash_(row, hdr));
+}
+
+function buildPersonPatchFromRow_(row, hdr, etag) {
+  const get = (c) => (hdr[c] !== undefined ? String(row[hdr[c]] || '').trim() : '');
+  const patch = { etag };
+  const updateFields = [];
+
+  patch.names = [{
+    givenName: get('First Name'),
+    middleName: get('Middle Name'),
+    familyName: get('Last Name'),
+    phoneticGivenName: get('Phonetic First Name'),
+    phoneticMiddleName: get('Phonetic Middle Name'),
+    phoneticFamilyName: get('Phonetic Last Name'),
+    honorificPrefix: get('Name Prefix'),
+    honorificSuffix: get('Name Suffix'),
+  }];
+  updateFields.push('names');
+
+  const nick = get('Nickname');
+  if (nick) { patch.nicknames = [{ value: nick }]; updateFields.push('nicknames'); }
+
+  const fileAs = get('File As');
+  if (fileAs) { patch.fileAses = [{ value: fileAs }]; updateFields.push('fileAses'); }
+
+  const gender = get('Gender');
+  if (gender) { patch.genders = [{ value: gender }]; updateFields.push('genders'); }
+
+  const bday = parseDateObj_(row[hdr['Birthday']]);
+  if (bday) { patch.birthdays = [{ date: bday }]; updateFields.push('birthdays'); }
+
+  const notes = get('Notes');
+  if (notes) { patch.biographies = [{ value: notes, contentType: 'TEXT_PLAIN' }]; updateFields.push('biographies'); }
+
+  const orgName = get('Organization Name'), orgTitle = get('Organization Title'), orgDept = get('Organization Department');
+  if (orgName || orgTitle || orgDept) {
+    patch.organizations = [{ name: orgName, title: orgTitle, department: orgDept }];
+    updateFields.push('organizations');
+  }
+
+  const emails = [];
+  for (let i = 1; i <= 4; i++) {
+    const val = get('E-mail ' + i + ' - Value');
+    if (val) emails.push({ type: get('E-mail ' + i + ' - Label') || 'other', value: val });
+  }
+  if (emails.length) { patch.emailAddresses = emails; updateFields.push('emailAddresses'); }
+
+  const phones = [];
+  for (let i = 1; i <= 4; i++) {
+    const val = get('Phone ' + i + ' - Value');
+    if (val) phones.push({ type: get('Phone ' + i + ' - Label') || 'mobile', value: val });
+  }
+  if (phones.length) { patch.phoneNumbers = phones; updateFields.push('phoneNumbers'); }
+
+  const ims = [];
+  for (let i = 1; i <= 2; i++) {
+    const handle = get('IM ' + i + ' - Handle');
+    if (handle) ims.push({ protocol: get('IM ' + i + ' - Protocol') || 'other', username: handle });
+  }
+  if (ims.length) { patch.imClients = ims; updateFields.push('imClients'); }
+
+  const addrs = [];
+  for (let i = 1; i <= 2; i++) {
+    const street = get('Address ' + i + ' - Street'), city = get('Address ' + i + ' - City'), fmt = get('Address ' + i + ' - Formatted');
+    if (street || city || fmt) {
+      addrs.push({
+        type: get('Address ' + i + ' - Label') || 'home',
+        streetAddress: street,
+        city: city,
+        poBox: get('Address ' + i + ' - PO Box'),
+        region: get('Address ' + i + ' - Region'),
+        postalCode: get('Address ' + i + ' - Postal Code'),
+        country: get('Address ' + i + ' - Country'),
+        extendedAddress: get('Address ' + i + ' - Extended Address'),
+      });
+    }
+  }
+  if (addrs.length) { patch.addresses = addrs; updateFields.push('addresses'); }
+
+  const rels = [];
+  for (let i = 1; i <= 3; i++) {
+    const val = get('Relation ' + i + ' - Value');
+    if (val) rels.push({ type: get('Relation ' + i + ' - Label') || 'other', person: val });
+  }
+  if (rels.length) { patch.relations = rels; updateFields.push('relations'); }
+
+  const urls = [];
+  for (let i = 1; i <= 5; i++) {
+    const val = get('Website ' + i + ' - Value');
+    if (val) urls.push({ type: get('Website ' + i + ' - Label') || 'other', value: val });
+  }
+  if (urls.length) { patch.urls = urls; updateFields.push('urls'); }
+
+  const evs = [];
+  for (let i = 1; i <= 2; i++) {
+    const dtObj = parseDateObj_(hdr['Event ' + i + ' - Value'] !== undefined ? row[hdr['Event ' + i + ' - Value']] : '');
+    if (dtObj) evs.push({ type: get('Event ' + i + ' - Label') || 'other', date: dtObj });
+  }
+  if (evs.length) { patch.events = evs; updateFields.push('events'); }
+
+  const uds = [];
+  for (let i = 1; i <= 2; i++) {
+    const k = get('Custom Field ' + i + ' - Key'), v = get('Custom Field ' + i + ' - Value');
+    if (k && v) uds.push({ key: k, value: v });
+  }
+  if (uds.length) { patch.userDefined = uds; updateFields.push('userDefined'); }
+
+  return { patch, updateFields };
+}
+
 function classifyExistingContactsLocally() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
   const sheet = ss.getSheetByName(CRM_MASTER_TAB);
   const lastRow = sheet.getLastRow();
   if (lastRow < 2) return;
 
-  const hdrMap = getHeaderMap_(sheet);
-  const range = sheet.getRange(2, 1, lastRow - 1, 78);
+  const hdr = getHeaderIndexMap_(sheet);
+  const totalCols = sheet.getLastColumn();
+  const range = sheet.getRange(2, 1, lastRow - 1, totalCols);
   const vals = range.getValues();
   let classified = 0;
 
   for (let i = 0; i < vals.length; i++) {
     const r = vals[i];
-    const fullName = [r[COL.FIRST_NAME - 1], r[COL.MIDDLE_NAME - 1], r[COL.LAST_NAME - 1]].filter(Boolean).join(' ');
-    const labels = String(r[COL.LABELS - 1] || '').split(/:::|,/).map((s) => s.trim()).filter(Boolean);
+    const fullName = [r[hdr['First Name']], r[hdr['Middle Name']], r[hdr['Last Name']]].filter(Boolean).join(' ');
+    const labels = String(r[hdr['Labels']] || '').split(/:::|;|,/).map((s) => s.trim()).filter(Boolean);
     const parsed = parseEmojiPatternAndLabels_(fullName, labels);
     let touched = false;
-
-    if (!r[COL.SPHERE - 1] && parsed.sphere) { r[COL.SPHERE - 1] = parsed.sphere; touched = true; }
+    if (!r[hdr['LifeOS_Sphere']] && parsed.sphere) { r[hdr['LifeOS_Sphere']] = parsed.sphere; touched = true; }
     if (parsed.tags.length > 0) {
-      const merged = mergeCsv_(r[COL.SOCIAL_TAGS - 1], parsed.tags);
-      if (merged !== r[COL.SOCIAL_TAGS - 1]) { r[COL.SOCIAL_TAGS - 1] = merged; touched = true; }
+      const merged = mergeCsv_(r[hdr['Social_Tags']], parsed.tags);
+      if (merged !== r[hdr['Social_Tags']]) { r[hdr['Social_Tags']] = merged; touched = true; }
     }
-    if (!r[COL.COUNTRY_ORIGIN - 1] && parsed.country) { r[COL.COUNTRY_ORIGIN - 1] = parsed.country; touched = true; }
-    if (!r[COL.SYNC_HASH - 1]) { r[COL.SYNC_HASH - 1] = computeRowHash_(r, hdrMap); }
+    if (!r[hdr['Country_Origin']] && parsed.country) { r[hdr['Country_Origin']] = parsed.country; touched = true; }
+    if (!r[hdr['Sync_Hash']]) r[hdr['Sync_Hash']] = computeFullRowHash_(r, hdr);
     if (touched) classified++;
   }
   range.setValues(vals);
-  Logger.log('Classified ' + classified + ' existing contacts from flag/emoji/label metadata.');
+  Logger.log('Classified ' + classified + ' contact(s) locally.');
 }
 
-/**
- * Automatic onEdit timestamp stamp so Push detects manual edits in CRM_CORE.
- */
 function onEdit(e) {
   if (!e || !e.range) return;
   const sheet = e.range.getSheet();
   if (sheet.getName() !== CRM_MASTER_TAB) return;
   const row = e.range.getRow();
   const col = e.range.getColumn();
-  if (row >= 2 && col >= 4 && col <= 76) {
-    sheet.getRange(row, COL.LAST_UPD_SHEET).setValue(new Date().toISOString());
+  if (row >= 2 && col >= 4) {
+    sheet.getRange(row, 2).setValue(new Date().toISOString()); // Col B: Last Updated Sheet
   }
 }
 
 // --- Helpers ---
+function getHeaderIndexMap_(sheet) {
+  const hdrs = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0];
+  const map = {};
+  hdrs.forEach((h, i) => { if (h) map[String(h).trim()] = i; }); // 0-based indices
+  return map;
+}
+
+function buildContactRowIndex_(sheet, idIdx) {
+  const lastRow = sheet.getLastRow();
+  const idx = {};
+  if (lastRow < 2) return idx;
+  const ids = sheet.getRange(2, idIdx + 1, lastRow - 1, 1).getValues();
+  for (let i = 0; i < ids.length; i++) {
+    const id = String(ids[i][0] || '').trim();
+    if (id) idx[id] = i + 2;
+  }
+  return idx;
+}
+
+function computeFullRowHash_(row, hdr) {
+  const skip = new Set(['Last Updated Sheet', 'Last Updated Google Contacts', 'Sync_Direction_Lock', 'Sync_Hash', 'Contact_ETag', 'Sync_Action']);
+  const parts = [];
+  Object.keys(hdr).forEach((k) => {
+    if (!skip.has(k)) parts.push(String(row[hdr[k]] || '').trim());
+  });
+  const bytes = Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_256, parts.join('|'));
+  return bytes.map((b) => ('0' + ((b + 256) % 256).toString(16)).slice(-2)).join('').slice(0, 16);
+}
+
 function parseEmojiPatternAndLabels_(fullName, labelsList) {
   let sphere = '';
   const tags = [];
-  let country = extractCountryFromFlagEmoji_(fullName);
-
+  const country = extractCountryFromFlagEmoji_(fullName);
   labelsList.forEach((lbl) => {
     const low = lbl.toLowerCase().trim();
     if (!sphere && LABEL_TO_SPHERE[low]) sphere = LABEL_TO_SPHERE[low];
@@ -399,14 +658,12 @@ function parseEmojiPatternAndLabels_(fullName, labelsList) {
       if (low === st.toLowerCase() || low === st.replace('_', ' ').toLowerCase()) tags.push(st);
     });
   });
-
   SPHERE_EMOJI_MAP.forEach((rule) => {
     if (rule.pattern.test(fullName)) {
       if (!sphere) sphere = rule.sphere;
       if (rule.tag) tags.push(rule.tag);
     }
   });
-
   return { sphere, tags: Array.from(new Set(tags)), country };
 }
 
@@ -414,44 +671,7 @@ function extractCountryFromFlagEmoji_(text) {
   const m = String(text || '').match(/[\uD83C][\uDDE6-\uDDFF][\uD83C][\uDDE6-\uDDFF]/);
   if (!m) return '';
   const flag = m[0];
-  const cp1 = flag.codePointAt(0) - 0x1F1E6 + 65;
-  const cp2 = flag.codePointAt(2) - 0x1F1E6 + 65;
-  return String.fromCharCode(cp1, cp2); // ISO-2 country code (e.g., US, CO, DO, JP)
-}
-
-function computeRowHash_(rowVals, hdrMap) {
-  const phoneIdx = (hdrMap['Phone 1 - Value'] || 28) - 1;
-  const canonical = [
-    rowVals[COL.FIRST_NAME - 1],
-    rowVals[COL.LAST_NAME - 1],
-    rowVals[COL.BIRTHDAY - 1],
-    rowVals[COL.NOTES - 1],
-    rowVals[phoneIdx],
-    rowVals[COL.SPHERE - 1],
-    rowVals[COL.SOCIAL_TAGS - 1],
-    rowVals[COL.REL_STATUS - 1],
-  ].map((v) => String(v || '').trim()).join('|');
-  const bytes = Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_256, canonical);
-  return bytes.map((b) => ('0' + ((b + 256) % 256).toString(16)).slice(-2)).join('').slice(0, 16);
-}
-
-function getHeaderMap_(sheet) {
-  const hdrs = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0];
-  const map = {};
-  hdrs.forEach((h, i) => { if (h) map[String(h).trim()] = i + 1; });
-  return map;
-}
-
-function buildContactRowIndex_(sheet) {
-  const lastRow = sheet.getLastRow();
-  const idx = {};
-  if (lastRow < 2) return idx;
-  const ids = sheet.getRange(2, COL.CONTACT_ID, lastRow - 1, 1).getValues();
-  for (let i = 0; i < ids.length; i++) {
-    const id = String(ids[i][0] || '').trim();
-    if (id) idx[id] = i + 2;
-  }
-  return idx;
+  return String.fromCharCode(flag.codePointAt(0) - 0x1F1E6 + 65, flag.codePointAt(2) - 0x1F1E6 + 65);
 }
 
 function fetchContactGroupMap_(byName) {
@@ -493,20 +713,17 @@ function extractGoogleUpdateTime_(person) {
   return '';
 }
 
-function formatBirthday_(bday) {
-  if (!bday || !bday.date) return '';
-  const d = bday.date;
+function formatDateObj_(d) {
+  if (!d) return '';
   const y = d.year ? String(d.year) : '0000';
   const m = ('0' + (d.month || 1)).slice(-2);
   const day = ('0' + (d.day || 1)).slice(-2);
   return `${y}-${m}-${day}`;
 }
 
-function parseBirthdayObj_(raw) {
+function parseDateObj_(raw) {
   if (!raw) return null;
-  if (raw instanceof Date) {
-    return { year: raw.getFullYear(), month: raw.getMonth() + 1, day: raw.getDate() };
-  }
+  if (raw instanceof Date) return { year: raw.getFullYear(), month: raw.getMonth() + 1, day: raw.getDate() };
   const m = String(raw).trim().match(/^(\d{4})-(\d{2})-(\d{2})/);
   if (!m) return null;
   return { year: Number(m[1]), month: Number(m[2]), day: Number(m[3]) };

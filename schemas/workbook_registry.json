@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-24T00:16:30Z",
+  "last_updated_utc": "2026-11-24T00:38:07Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2047,17 +2047,19 @@
         "Google Contacts Sync Master",
         "MODULE_META",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "PURGE_ARCHIVE_LOG"
       ],
       "all_tabs": [
         "CRM_DASHBOARD",
         "Google Contacts Sync Master",
         "MODULE_META",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "PURGE_ARCHIVE_LOG"
       ],
-      "tab_count": 5,
-      "last_snapshot_utc": "2026-11-24T00:16:30Z",
+      "tab_count": 6,
+      "last_snapshot_utc": "2026-11-24T00:38:07Z",
       "snapshot_file": "schemas/live_snapshots/ID_CRM_CORE.json"
     },
     "ID_PILLAR_3": {
