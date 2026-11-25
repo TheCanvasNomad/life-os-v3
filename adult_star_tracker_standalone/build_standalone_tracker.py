@@ -286,11 +286,9 @@ def build_studio_intelligence() -> List[List[Any]]:
     for r in range(2, STUDIO_ROWS + 1):
         col_a = (
             '=IFERROR(LET('
-            's1, ARRAYFORMULA(TRIM(Studio_Baseline_Logs!C2:C500)), '
-            's2, ARRAYFORMULA(TRIM(Performer_Logs!H2:H500)), '
-            's3, IFERROR(TRANSPOSE(ARRAYFORMULA(TRIM(SPLIT(TEXTJOIN(";", TRUE, MODEL_ROSTER_INDEX!L2:L500), ";")))), ""), '
-            'all_s, VSTACK(s1, s2, s3), '
-            'SORT(UNIQUE(FILTER(all_s, all_s<>"")))), "")'
+            'joined, TEXTJOIN(";", TRUE, Studio_Baseline_Logs!C2:C500, Performer_Logs!H2:H500, MODEL_ROSTER_INDEX!L2:L500), '
+            'tokens, TOCOL(ARRAYFORMULA(TRIM(SPLIT(joined, ";"))), 1), '
+            'SORT(UNIQUE(FILTER(tokens, tokens<>"")))), "")'
             if r == 2
             else ""
         )
@@ -448,10 +446,10 @@ def build_calc_performer_power() -> List[List[Any]]:
         )
         col_l = (
             f'=IF(ISBLANK(A{r}), "", IF(J{r}=0, "", LET('
-            f'in_m, ((LOWER(TRIM(ReRanks!$C$2:$C$500))=LOWER(TRIM(A{r}))) + (LOWER(TRIM(ReRanks!$D$2:$D$500))=LOWER(TRIM(A{r})))) > 0, '
-            f'won, LOWER(TRIM(ReRanks!$E$2:$E$500))=LOWER(TRIM(A{r})), '
-            f'mg, ReRanks!$F$2:$F$500, '
-            f'ROUND(SUMPRODUCT(in_m * won * mg) - SUMPRODUCT(in_m * (NOT(won)) * mg), 3))))'
+            f'in_m, ARRAYFORMULA(((LOWER(TRIM(ReRanks!$C$2:$C$500))=LOWER(TRIM(A{r}))) + (LOWER(TRIM(ReRanks!$D$2:$D$500))=LOWER(TRIM(A{r})))) > 0), '
+            f'won, ARRAYFORMULA(LOWER(TRIM(ReRanks!$E$2:$E$500))=LOWER(TRIM(A{r}))), '
+            f'mg, ARRAYFORMULA(IF(ISNUMBER(ReRanks!$F$2:$F$500), ReRanks!$F$2:$F$500, 0)), '
+            f'ROUND(SUMPRODUCT(in_m * won * mg) - SUMPRODUCT(in_m * (1 - won) * mg), 3))))'
         )
         col_m = (
             f'=IF(ISBLANK(A{r}), "", IF(J{r}=0, "", LET('
@@ -1227,6 +1225,33 @@ def build_formatting_requests() -> List[Dict[str, Any]]:
     reqs.append(_col_width_req(gl_id, 0, 1, 220))
     reqs.append(_col_width_req(gl_id, 1, 5, 145))
     reqs.append(_col_width_req(gl_id, 5, 7, 290))
+
+    # Date & Percentage number formats for crisp executive rendering
+    num_fmt_targets = [
+        (SHEET_IDS["Performer_Intelligence"], 1, PERFORMER_ROWS, 14, 15, "DATE", "yyyy-mm-dd"),
+        (SHEET_IDS["GROWTH_LEDGER"], 13, 100, 0, 1, "DATE_TIME", "yyyy-mm-dd hh:mm"),
+        (SHEET_IDS["GROWTH_LEDGER"], 2, 10, 3, 4, "PERCENT", "0.0%"),
+        (SHEET_IDS["CALC_Performer_Power"], 1, PERFORMER_ROWS, 10, 11, "PERCENT", "0.0%"),
+        (SHEET_IDS["Master_Leaderboard"], 1, 2, 13, 14, "PERCENT", "0.0%"),
+    ]
+    for sid, r0, r1, c0, c1, ntype, pattern in num_fmt_targets:
+        reqs.append({
+            "repeatCell": {
+                "range": {
+                    "sheetId": sid,
+                    "startRowIndex": r0,
+                    "endRowIndex": r1,
+                    "startColumnIndex": c0,
+                    "endColumnIndex": c1,
+                },
+                "cell": {
+                    "userEnteredFormat": {
+                        "numberFormat": {"type": ntype, "pattern": pattern}
+                    }
+                },
+                "fields": "userEnteredFormat.numberFormat",
+            }
+        })
 
     # Brick Contract Tabs (MODULE_META, CONTEXT_IN, SIGNALS_OUT)
     for tab_name, num_cols in [("MODULE_META", 3), ("CONTEXT_IN", 6), ("SIGNALS_OUT", 10)]:
