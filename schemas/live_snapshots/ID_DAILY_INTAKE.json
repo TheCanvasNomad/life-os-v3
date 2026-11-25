@@ -1,151 +1,358 @@
 {
-  "registry_key": "ID_DAILY_INTAKE",
-  "title": "DAILY INTAKE FORM (Responses)",
   "spreadsheet_id": "16ohf5mBA9xrRsyv5sOYqY1s7gaOSpSOzK1rE1Gw6BNI",
-  "url": "https://docs.google.com/spreadsheets/d/16ohf5mBA9xrRsyv5sOYqY1s7gaOSpSOzK1rE1Gw6BNI/edit",
-  "time_zone": "America/Detroit",
-  "snapshot_utc": "2026-11-23T07:47:46Z",
-  "tab_count": 4,
+  "title": "\ud83e\udded Daily_Intake_Brick",
+  "key": "ID_DAILY_INTAKE",
+  "captured_at_utc": "2026-11-25T06:43:04Z",
+  "pii_scrubbed": true,
+  "privacy_boundary": "STRICT_ZERO_PROSE_ZERO_PII (Primary Dukkha & Selfie Upload excluded)",
+  "tab_count": 7,
   "tabs": [
     {
-      "title": "Form Responses 1",
-      "sheet_id": 1890898638,
       "index": 0,
-      "hidden": false,
-      "row_count": 104,
-      "col_count": 37,
-      "populated_row_count": 4,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Today's Date",
-        "Phase",
-        "Where are you?",
-        "Mood",
-        "How do you feel?",
-        "3. Log Type",
-        "Daily Afformation",
-        "80/20 Target: What is your goal today? ",
-        "Clarity (Sattva):  \nHow 'HD' is my brain right now? Can I see exactly what I need to do next without getting distracted by 'static'?",
-        "Drive (Rajas):  \nHow fast is my 'internal motor' spinning right now? Is it helping me finish one thing, or is it just making me jump from one thing to another?",
-        "Resistance (Tamas): How much did I feel like I was walking through deep mud today?",
-        "1. Activity Label:",
-        "What dd you do?",
-        "2. Challenge Level: (Flow State Metric.)",
-        "3. Skill Level: (Flow State Metric.)",
-        "4. Environmental Pressure",
-        "5. OODA Loop Velocity",
-        "The Vice",
-        "Quantity:",
-        "The Trigger",
-        "The Vibe Tag",
-        "2. Daily Polarity (The Tao):",
-        "Expansion (Mercy)",
-        "Contraction (Severity)",
-        "Harmony (Balance)",
-        "4. Primary Dukkha",
-        "5. Grit Check",
-        "6. Selfie Upload:",
-        "Sleep Quality  ",
-        "  Estimated Spend ($)  "
-      ],
-      "row_1": [
-        "Timestamp",
-        "Today's Date",
-        "Phase",
-        "Where are you?",
-        "Mood",
-        "How do you feel?",
-        "3. Log Type",
-        "Daily Afformation",
-        "80/20 Target: What is your goal today? ",
-        "Clarity (Sattva):  \nHow 'HD' is my brain right now? Can I see exactly what I need to do next without getting distracted by 'static'?",
-        "Drive (Rajas):  \nHow fast is my 'internal motor' spinning right now? Is it helping me finish one thing, or is it just making me jump from one thing to another?",
-        "Resistance (Tamas): How much did I feel like I was walking through deep mud today?",
-        "1. Activity Label:",
-        "What dd you do?",
-        "2. Challenge Level: (Flow State Metric.)",
-        "3. Skill Level: (Flow State Metric.)",
-        "4. Environmental Pressure",
-        "5. OODA Loop Velocity",
-        "The Vice",
-        "Quantity:",
-        "The Trigger",
-        "The Vibe Tag",
-        "2. Daily Polarity (The Tao):",
-        "Expansion (Mercy)",
-        "Contraction (Severity)",
-        "Harmony (Balance)",
-        "4. Primary Dukkha",
-        "5. Grit Check",
-        "6. Selfie Upload:",
-        "Sleep Quality  ",
-        "  Estimated Spend ($)  "
-      ]
+      "title": "\ud83e\udded DAILY_HUD",
+      "sheetId": 661290633,
+      "tabColor": "#F59E0B",
+      "hideGridlines": true
     },
     {
-      "title": "MODULE_META",
-      "sheet_id": 1971061343,
       "index": 1,
-      "hidden": false,
-      "row_count": 60,
-      "col_count": 14,
-      "populated_row_count": 9,
-      "header_row_index": 1,
-      "headers": [
-        "Field",
-        "Value"
-      ],
-      "row_1": [
-        "Field",
-        "Value"
-      ]
+      "title": "SCORING_ENGINE",
+      "sheetId": 331991909,
+      "tabColor": "#8B5CF6",
+      "hideGridlines": true
     },
     {
-      "title": "CONTEXT_IN",
-      "sheet_id": 1812559817,
       "index": 2,
-      "hidden": false,
-      "row_count": 60,
-      "col_count": 14,
-      "populated_row_count": 5,
-      "header_row_index": 1,
-      "headers": [
-        "Signal_Key",
-        "Upstream_Score_0_100",
-        "State_Tag",
-        "Freshness_Status"
-      ],
-      "row_1": [
-        "Signal_Key",
-        "Upstream_Score_0_100",
-        "State_Tag",
-        "Freshness_Status"
-      ]
+      "title": "LOOKER_DAILY_INTAKE",
+      "sheetId": 1979308336,
+      "tabColor": "#06B6D4",
+      "hideGridlines": true
     },
     {
-      "title": "SIGNALS_OUT",
-      "sheet_id": 441481024,
       "index": 3,
-      "hidden": false,
-      "row_count": 60,
-      "col_count": 14,
-      "populated_row_count": 20,
-      "header_row_index": 1,
-      "headers": [
-        "Signal_Key",
-        "Raw_Summary",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated"
-      ],
-      "row_1": [
-        "Signal_Key",
-        "Raw_Summary",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated"
-      ]
+      "title": "MODULE_META",
+      "sheetId": 1971061343,
+      "tabColor": "#3B82F6",
+      "hideGridlines": true
+    },
+    {
+      "index": 4,
+      "title": "CONTEXT_IN",
+      "sheetId": 1812559817,
+      "tabColor": "#3B82F6",
+      "hideGridlines": true
+    },
+    {
+      "index": 5,
+      "title": "SIGNALS_OUT",
+      "sheetId": 441481024,
+      "tabColor": "#3B82F6",
+      "hideGridlines": true
+    },
+    {
+      "index": 6,
+      "title": "Form Responses 1",
+      "sheetId": 1890898638,
+      "tabColor": "#EF4444",
+      "hideGridlines": false
     }
-  ]
+  ],
+  "signals_out": [
+    [
+      "Signal_Key",
+      "Raw_Summary",
+      "Normalized_Score_0_100",
+      "State_Tag",
+      "Last_Updated"
+    ],
+    [
+      "DAILY_ENERGY",
+      "Sleep/Drive Index: 80.0%",
+      "80",
+      "HIGH_ENERGY",
+      "46125.10964"
+    ],
+    [
+      "DAILY_MOOD",
+      "Clarity/Harmony Index: 80.0% (Neutrality)",
+      "80",
+      "FLOW_STATE",
+      "46125.10964"
+    ],
+    [
+      "ACUTE_STRESS",
+      "Resistance/Pressure Load: 80.0%",
+      "80",
+      "HIGH_STRESS",
+      "46125.10964"
+    ],
+    [
+      "FLOW_COHERENCE",
+      "",
+      "",
+      "UNLOGGED"
+    ],
+    [
+      "KABBALAH_BALANCE",
+      "Mercy/Severity/Balance: 76.7%",
+      "76.7",
+      "MIDDLE_PILLAR_LOCK",
+      "46124.72052"
+    ],
+    [],
+    [
+      "RPG TELEMETRY & XP LEDGER (AUTO-ROUTED TO LIFEOS_FEED_HUB & XP LEVELER)"
+    ],
+    [
+      "Metric_Key",
+      "Value",
+      "AQAL_or_Sephirah_Target",
+      "XP_Rule",
+      "Last_Updated"
+    ],
+    [
+      "TOTAL_CHECKINS",
+      "3",
+      "Yesod & Malkuth (10 XP each)",
+      "10 XP Survival/Foundation per log",
+      "46125.10964"
+    ],
+    [
+      "AM_PRIMERS_COUNT",
+      "1",
+      "Keter & Tiferet (15 XP each)",
+      "30 XP Esteem/Alignment per AM Primer",
+      "46125.10964"
+    ],
+    [
+      "GRIT_FINISHED_COUNT",
+      "1",
+      "Gevurah & Netzach (15 XP each)",
+      "30 XP Esteem/Discipline per Finished Grit",
+      "46124.72052"
+    ],
+    [
+      "GRIT_PARTIAL_COUNT",
+      "1",
+      "Hod (15 XP)",
+      "15 XP Partial Execution credit",
+      "46124.72052"
+    ],
+    [
+      "FLOW_ACTIVITIES_COUNT",
+      "0",
+      "Chokhmah, Binah & Chesed (16.7 XP each)",
+      "50 XP Self-Actualization per Flow Activity"
+    ],
+    [
+      "LATEST_CONSCIOUSNESS_MOOD",
+      "Neutrality",
+      "Map of Consciousness Calibration",
+      "Live subjective state",
+      "46125.10964"
+    ],
+    [
+      "ACTIVE_OPERATIONAL_PHASE",
+      "On Ship/At Work",
+      "ITS Environment Context",
+      "Home/Limbo vs. On Ship/At Work",
+      "46125.10964"
+    ],
+    [],
+    [
+      "SHADOW_ARENA & UNIFIED XP FEED (ROUTED TO SIGNAL_BUS)",
+      "Delta_or_XP",
+      "Scoring_Rule",
+      "Source_Columns",
+      "Last_Updated"
+    ],
+    [
+      "INTAKE_DISCIPLINE_DELTA",
+      "45",
+      "5/log, 10/AM Primer, 15/Finished Grit, 5/Partial Grit",
+      "Timestamp, Log Type, Grit Check",
+      "46125.10964"
+    ],
+    [
+      "INTAKE_VICE_DELTA",
+      "0",
+      "25 per Vice logged + 5x Quantity (0 when clean)",
+      "The Vice, Quantity",
+      "46125.10964"
+    ],
+    [
+      "DAILY_INTAKE_RAW_XP",
+      "150",
+      "Check-in/Primer/Grit/Flow XP + Discipline Credits",
+      "All Branches (Zero PII)",
+      "46125.10964"
+    ]
+  ],
+  "looker_daily_intake_headers": [
+    [
+      "Record_Type",
+      "Log_Date",
+      "Branch_Mode",
+      "Phase",
+      "Region",
+      "Consciousness_Mood",
+      "Metric_Or_Tag",
+      "Energy_0_100",
+      "Mood_0_100",
+      "Stress_0_100",
+      "Pillars_Balance_0_100",
+      "Flow_0_100",
+      "Discipline_Pts",
+      "Vice_Pts",
+      "Raw_XP",
+      "Status_Tag"
+    ]
+  ],
+  "looker_daily_intake_kpi_snapshot": [
+    [
+      "KPI_SNAPSHOT",
+      "2026-04-13",
+      "ALL_BRANCHES",
+      "On Ship/At Work",
+      "Europe",
+      "Neutrality",
+      "DAILY_ENERGY",
+      "80",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "HIGH_ENERGY"
+    ],
+    [
+      "KPI_SNAPSHOT",
+      "2026-04-13",
+      "ALL_BRANCHES",
+      "On Ship/At Work",
+      "Europe",
+      "Neutrality",
+      "DAILY_MOOD",
+      "",
+      "80",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "FLOW_STATE"
+    ],
+    [
+      "KPI_SNAPSHOT",
+      "2026-04-13",
+      "ALL_BRANCHES",
+      "On Ship/At Work",
+      "Europe",
+      "Neutrality",
+      "ACUTE_STRESS",
+      "",
+      "",
+      "80",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "HIGH_STRESS"
+    ],
+    [
+      "KPI_SNAPSHOT",
+      "2026-04-13",
+      "ALL_BRANCHES",
+      "On Ship/At Work",
+      "Europe",
+      "Neutrality",
+      "FLOW_COHERENCE",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "UNLOGGED"
+    ],
+    [
+      "KPI_SNAPSHOT",
+      "2026-04-12",
+      "ALL_BRANCHES",
+      "On Ship/At Work",
+      "Europe",
+      "Neutrality",
+      "KABBALAH_BALANCE",
+      "",
+      "",
+      "",
+      "76.7",
+      "",
+      "",
+      "",
+      "",
+      "MIDDLE_PILLAR_LOCK"
+    ],
+    [
+      "KPI_SNAPSHOT",
+      "2026-04-13",
+      "ALL_BRANCHES",
+      "On Ship/At Work",
+      "Europe",
+      "Neutrality",
+      "INTAKE_DISCIPLINE_DELTA",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "45",
+      "",
+      "",
+      "DISCIPLINE_FEED"
+    ],
+    [
+      "KPI_SNAPSHOT",
+      "2026-04-13",
+      "ALL_BRANCHES",
+      "On Ship/At Work",
+      "Europe",
+      "Neutrality",
+      "INTAKE_VICE_DELTA",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "0",
+      "",
+      "VICE_CLEAN"
+    ],
+    [
+      "KPI_SNAPSHOT",
+      "2026-04-13",
+      "ALL_BRANCHES",
+      "On Ship/At Work",
+      "Europe",
+      "Neutrality",
+      "DAILY_INTAKE_RAW_XP",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "150",
+      "XP_ACTIVE"
+    ]
+  ],
+  "audit_errors": 0
 }

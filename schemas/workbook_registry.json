@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-25T06:35:24Z",
+  "last_updated_utc": "2026-11-25T06:43:04Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -436,7 +436,9 @@
       "universal_brick_compliant": true,
       "scripts": {
         "pillar_xp_absorption": "src/utilities/xp_hub/xp_pillar_absorption.gs"
-      }
+      },
+      "xp_streams_absorbed": 10,
+      "last_audited_utc": "2026-11-25T06:43:04Z"
     },
     "ID_KABBALAH": {
       "title": "Kaballah Tree of Life OS Engine",
@@ -780,9 +782,9 @@
         "LOGGED_EVENT_IDS"
       ],
       "module_count": 40,
-      "signal_count": 224,
+      "signal_count": 225,
       "tab_color_coded": true,
-      "last_audited_utc": "2026-11-25T06:35:24Z"
+      "last_audited_utc": "2026-11-25T06:43:04Z"
     },
     "ID_MASTER_LOG": {
       "title": "LifeOS - Master Log",
@@ -1805,10 +1807,10 @@
       "tab_count": 4
     },
     "ID_DAILY_INTAKE": {
-      "title": "DAILY INTAKE FORM (Responses)",
+      "title": "\ud83e\udded Daily_Intake_Brick",
       "spreadsheet_id": "16ohf5mBA9xrRsyv5sOYqY1s7gaOSpSOzK1rE1Gw6BNI",
       "drive_url": "https://docs.google.com/spreadsheets/d/16ohf5mBA9xrRsyv5sOYqY1s7gaOSpSOzK1rE1Gw6BNI/edit",
-      "status": "bound",
+      "status": "ACTIVE",
       "layer": "raw_silo",
       "domain": "Daily State, Gunas, Flow & Kabbalah Pillars Intake",
       "live_tabs": [
@@ -1829,7 +1831,21 @@
         "CONTEXT_IN",
         "SIGNALS_OUT"
       ],
-      "tab_count": 4
+      "tab_count": 7,
+      "tabs": [
+        "\ud83e\udded DAILY_HUD",
+        "SCORING_ENGINE",
+        "LOOKER_DAILY_INTAKE",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT",
+        "Form Responses 1"
+      ],
+      "primary_tab": "\ud83e\udded DAILY_HUD",
+      "looker_tab": "LOOKER_DAILY_INTAKE",
+      "tab_color_coded": true,
+      "privacy_boundary": "STRICT_ZERO_PROSE_ZERO_PII",
+      "last_audited_utc": "2026-11-25T06:43:04Z"
     },
     "ID_DAILY_STATE_PULSE": {
       "title": "Daily_State_Pulse",

@@ -1,7 +1,7 @@
 # LifeOS-v3 Hub & Brick `IMPORTRANGE` Browser Authorization Checklist
 
 > **Why this checklist exists**: Google Sheets requires a one-time interactive browser click (**"Allow access"** on a `#REF!` cell) for each new cross-spreadsheet `IMPORTRANGE` connection. APIs and scripts cannot grant this permission on your behalf.  
-> **Last Audited**: `2026-11-25` (**`RAW_DATA_KnowThySelf`** consolidated directly into **`🌑 Pillar_0_Shadow_Self`** [`SELF_CODEX_PROFILE`, 28 prompts in 4 panels, strict zero-prose boundary, sanitized `P0_SELF_CODEX_STATUS` live in Hub] + **`LifeOS_feed_hub`** 13 color-coded tabs & 1:1 `LifeOS_Master_Bus` parity + **`Kaballah Tree of Life OS Engine`** 12 color-coded tabs — **224 signals, 40 registered modules, 17 flat Looker tabs & 0 formula errors**!)
+> **Last Audited**: `2026-11-25` (**`🧭 Daily_Intake_Brick`** (`ID_DAILY_INTAKE`, 7 color-coded tabs, multi-branch `SCORING_ENGINE`, `🧭 DAILY_HUD`, `LOOKER_DAILY_INTAKE`, `#ERROR!` fixed, `DAILY_INTAKE_RAW_XP = 150` live in Hub + Stream #10 in `XP Leveler`) + **`RAW_DATA_KnowThySelf`** consolidated into **`🌑 Pillar_0_Shadow_Self`** + **`LifeOS_feed_hub`** 13 color-coded tabs & 1:1 `LifeOS_Master_Bus` parity + **`Kaballah Tree of Life OS Engine`** 12 color-coded tabs — **225 signals, 40 registered modules, 18 flat Looker tabs & 0 formula errors**!)
 
 ---
 
@@ -15,7 +15,7 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | Done | Cell | Target Brick / Workbook | Spreadsheet ID | Status / Unlocks in `SIGNAL_BUS` |
 | :---: | :---: | :--- | :--- | :--- |
 | [ ] | `MODULE_REGISTRY!J3` | **LifeOS_Master_Bus** | `1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ` | Hub-to-Bus cross-verification |
-| [ ] | `MODULE_REGISTRY!J4` | **Daily_Intake_Brick** | `16ohf5mBA9xrRsyv5sOYqY1s7gaOSpSOzK1rE1Gw6BNI` | `DAILY_ENERGY`, `DAILY_MOOD`, `ACUTE_STRESS`, `FLOW_COHERENCE`, `KABBALAH_BALANCE`, `INTAKE_DISCIPLINE_DELTA`, `INTAKE_VICE_DELTA` |
+| [x] | `MODULE_REGISTRY!J4` | **🧭 Daily_Intake_Brick** | `16ohf5mBA9xrRsyv5sOYqY1s7gaOSpSOzK1rE1Gw6BNI` | **LIVE (`SIGNALS_OUT!A1`)**: `DAILY_ENERGY` (`80.0`), `DAILY_MOOD` (`80.0`), `ACUTE_STRESS` (`80.0`), `FLOW_COHERENCE`, `KABBALAH_BALANCE` (`76.7`), `INTAKE_DISCIPLINE_DELTA` (`45`), `INTAKE_VICE_DELTA` (`0`), `DAILY_INTAKE_RAW_XP` (`150` → XP Leveler Stream #10) |
 | [ ] | `MODULE_REGISTRY!J5` | **Weekly_Maslow_Pulse** | `1-GnXtI9ren5Bfw6KumDeNq7FUE5HYO0nSAevSzd5f40` | `MASLOW_SURVIVAL`, `MASLOW_SAFETY`, `MASLOW_BELONGING`, `MASLOW_ESTEEM`, `MASLOW_ACTUALIZATION` |
 | [x] | `MODULE_REGISTRY!J6` | **Zodiac_OS** | `1wQcAdR6ZxETOA1_nUmq1XYvPb9WvgSzmwcA4M0StH9M` | **LIVE (`FRESH`)**: `ZODIAC_ALIGNMENT`, `SOLAR_MOMENTUM`, `LUNAR_REGULATION`, `ZODIAC_WIP_COUNT` |
 | [ ] | `MODULE_REGISTRY!J7` | **Human_Design_OS** | `1yTiVyqmpz5FeZJSuN6_fmMfQZWq4HMcNCIKELBz8wp0` | `HD_STRATEGY_COHERENCE`, `HD_AUTHORITY_CLARITY`, `HD_CONDITIONING_LOAD`, `HD_BIO_READINESS` |
@@ -178,7 +178,8 @@ Each of the 11 newly standardized Bricks has a dedicated unwrapped **`Hub_Auth_T
 | [ ] | `ID_GRIT` | **Grit Score Assessment** | https://docs.google.com/spreadsheets/d/1kCwx6wtYksmt92M3Izwe6oEIVS5uDv3kCLIzCBOJG-s/edit#gid=1453866952 | `OCEAN_CONSCIENTIOUSNESS`, `ZODIAC_WIP_COUNT`, `DOPPELGANGER_DOMINATION_INDEX`, `MASLOW_EFFECTIVE_QUALITY` |
 | [ ] | `ID_RIASEC` | **RAISEC Intake** | https://docs.google.com/spreadsheets/d/1RmJ9bDzm6Vs59EC1BV99lqHnYxgp-bchV589rQc6ybM/edit#gid=1993371372 | `OCEAN_OPENNESS`, `GRIT_OVERALL_SCORE`, `ZODIAC_WIP_COUNT`, `CAREER_USCG_SEA_DAYS` |
 | [ ] | `ID_16PF` | **Life OS // Cattell 16PF** | https://docs.google.com/spreadsheets/d/1zOZVYFUZsQdRtPQzyK6izLLlxczi8vcDQTOSmh8yFho/edit#gid=1186341685 | `OCEAN_CONSCIENTIOUSNESS`, `OCEAN_NEUROTICISM`, `HD_BIO_READINESS`, `MBTI_COHERENCE_INDEX` |
-| [x] | `ID_XP_HUB` | **XP Leveler** | https://docs.google.com/spreadsheets/d/1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k/edit#gid=294848872 | **LIVE (`AUTHORIZED`)**: All 22 Unified XP & Multiplier signals: 9 Pillar/Brick XP streams (`P0`–`P6`, `BUCKET_LIST_XP_TOTAL`, `ACH_XP_TOTAL`) + 13 multiplier/gate signals (incl. `ACH_HIGH_WEIGHT_UNLOCKS` Crucible Wt>=7) |
+| [x] | `ID_XP_HUB` | **XP Leveler** | https://docs.google.com/spreadsheets/d/1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k/edit#gid=294848872 | **LIVE (`AUTHORIZED`)**: All 23 Unified XP & Multiplier signals: 10 Pillar/Brick XP streams (`P0`–`P6`, `BUCKET_LIST_XP_TOTAL`, `ACH_XP_TOTAL`, `DAILY_INTAKE_RAW_XP`) + 13 multiplier/gate signals |
+| [ ] | `ID_DAILY_INTAKE` | **🧭 Daily_Intake_Brick** (`CONTEXT_IN!F2`) | https://docs.google.com/spreadsheets/d/16ohf5mBA9xrRsyv5sOYqY1s7gaOSpSOzK1rE1Gw6BNI/edit#gid=1812559817 | `MASLOW_SURVIVAL`, `MASLOW_SAFETY`, `ZODIAC_ALIGNMENT`, `HD_STRATEGY_COHERENCE`, `EQ_EMOTIONAL_CONTROL` -> feeds `SCORING_ENGINE!ADVISORY_MATRIX` |
 | [ ] | `ID_CAREER_INTAKE` | **LifeOS Career & Experience Intake** | https://docs.google.com/spreadsheets/d/1iXxJVSv04MsRc_41p5bahCNRROXdugZ75iSivVy29GM/edit#gid=466643700 | `RIASEC_HOLLAND_CODE`, `GRIT_OVERALL_SCORE`, `ZODIAC_WIP_COUNT`, `XP_CURRENT_LEVEL` |
 | [ ] | `ID_TRAVEL` | **🌍 Travel_Tracker_Brick** | https://docs.google.com/spreadsheets/d/11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc/edit#gid=10 | `DAILY_ENERGY`, `ACUTE_STRESS`, `MASLOW_EFFECTIVE_QUALITY`, `ZODIAC_WIP_COUNT` |
 | [ ] | `ID_BELIEF_TRACKER` | **Belief & Stance Tracker (Life OS)** | https://docs.google.com/spreadsheets/d/1ZlhB5xNyI5I8MssGhsp5wydyDJQu29tHmry4iShc2z0/edit#gid=1021359317 | `OCEAN_OPENNESS`, `MBTI_COHERENCE_INDEX`, `AQAL_UL_SCORE`, `ZODIAC_ALIGNMENT` |
@@ -211,10 +212,10 @@ The `#REF!` `A2` spill collisions on `SRC_XP_HUB`, `SRC_KABBALAH`, and `SRC_16PF
 ## 4. Post-Approval Verification
 
 Once you finish clicking **"Allow access"** above:
-1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **224** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
+1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **225** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
 2. Open **`LifeOS_feed_hub` -> `AQAL_VIEW`** (`#gid=168404271`): confirm all 4 Quadrants (`UL`, `UR`, `LL`, `LR`) show live composite scores, `SPARKLINE` gauges, `Quadrant Balance Score`, `Achievements AQAL Overlay`, and a live `Corrective Quest Directive`.
 3. Open any Brick's **`CONTEXT_IN`** tab from Section 2: confirm `F3:F5` switches from `"Click F2 -> Allow access"` to `"AUTHORIZED"` and Columns `B:E` stream live Hub context.
-4. Open **`XP Leveler` -> `PILLAR_XP_ABSORPTION`** (`#gid=1096501556`): verify all **9** Pillar & Brick XP streams (`P0`–`P6`, `Travel_Tracker`, `Achievements_Engine_Brick`) flow into `Live_Raw_Pillar_XP` and feed the Unified Main XP Bar on `Player_HUD` with zero double-counting.
+4. Open **`XP Leveler` -> `PILLAR_XP_ABSORPTION`** (`#gid=1096501556`): verify all **10** Pillar & Brick XP streams (`P0`–`P6`, `Travel_Tracker`, `Achievements_Engine_Brick`, `Daily_Intake_Brick`) flow into `Live_Raw_Pillar_XP` and feed the Unified Main XP Bar on `Player_HUD` with zero double-counting.
 
 ---
 
