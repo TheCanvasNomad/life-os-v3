@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-25T06:43:04Z",
+  "last_updated_utc": "2026-11-25T06:49:18Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -90,7 +90,7 @@
       "title": "Human Design OS",
       "spreadsheet_id": "1yTiVyqmpz5FeZJSuN6_fmMfQZWq4HMcNCIKELBz8wp0",
       "drive_url": "https://docs.google.com/spreadsheets/d/1yTiVyqmpz5FeZJSuN6_fmMfQZWq4HMcNCIKELBz8wp0/edit",
-      "status": "bound",
+      "status": "ACTIVE",
       "layer": "brick",
       "domain": "Pillar 6 Esoteric Self / Tier 1 Natal Human Design",
       "live_tabs": [
@@ -122,7 +122,31 @@
         "The Projector",
         "HD_BLUEPRINT"
       ],
-      "tab_count": 15
+      "tab_count": 13,
+      "tabs": [
+        "\ud83d\udca0 HD_DASHBOARD",
+        "ADVISORY_MATRIX",
+        "HD_DECISION_ENGINE",
+        "HD_ENERGY_TRANSIT_HUD",
+        "HD_CENTERS_9",
+        "HD_CHANNELS_36",
+        "HD_WHEEL_64",
+        "HD_PHS_VARIABLES",
+        "HD_CONFIG_BUS",
+        "LOOKER_HUMAN_DESIGN",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "primary_tab": "\ud83d\udca0 HD_DASHBOARD",
+      "looker_tab": "LOOKER_HUMAN_DESIGN",
+      "redundant_tabs_deleted": [
+        "Core Components",
+        "The Projector",
+        "HD_BLUEPRINT"
+      ],
+      "tab_color_coded": true,
+      "last_audited_utc": "2026-11-25T06:49:18Z"
     },
     "ID_ZODIAC": {
       "title": "Zodiac OS",
@@ -782,9 +806,9 @@
         "LOGGED_EVENT_IDS"
       ],
       "module_count": 40,
-      "signal_count": 225,
+      "signal_count": 226,
       "tab_color_coded": true,
-      "last_audited_utc": "2026-11-25T06:43:04Z"
+      "last_audited_utc": "2026-11-25T06:49:18Z"
     },
     "ID_MASTER_LOG": {
       "title": "LifeOS - Master Log",

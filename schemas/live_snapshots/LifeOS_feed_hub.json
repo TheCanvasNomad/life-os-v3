@@ -2,11 +2,11 @@
   "spreadsheet_id": "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
   "title": "LifeOS_feed_hub",
   "key": "ID_FEED_HUB",
-  "captured_at_utc": "2026-11-25T06:43:04Z",
+  "captured_at_utc": "2026-11-25T06:49:18Z",
   "pii_scrubbed": true,
   "tab_count": 13,
   "module_count": 40,
-  "signal_count": 225,
+  "signal_count": 226,
   "tabs": [
     {
       "index": 0,
@@ -606,7 +606,7 @@
       "11/25/2026 1:28:10"
     ]
   ],
-  "looker_system_telemetry_row_count": 237,
+  "looker_system_telemetry_row_count": 238,
   "audit_errors": 0,
   "pending_browser_auth_anchors": 12
 }

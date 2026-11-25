@@ -1,7 +1,7 @@
 # LifeOS-v3 Hub & Brick `IMPORTRANGE` Browser Authorization Checklist
 
 > **Why this checklist exists**: Google Sheets requires a one-time interactive browser click (**"Allow access"** on a `#REF!` cell) for each new cross-spreadsheet `IMPORTRANGE` connection. APIs and scripts cannot grant this permission on your behalf.  
-> **Last Audited**: `2026-11-25` (**`🧭 Daily_Intake_Brick`** (`ID_DAILY_INTAKE`, 7 color-coded tabs, multi-branch `SCORING_ENGINE`, `🧭 DAILY_HUD`, `LOOKER_DAILY_INTAKE`, `#ERROR!` fixed, `DAILY_INTAKE_RAW_XP = 150` live in Hub + Stream #10 in `XP Leveler`) + **`RAW_DATA_KnowThySelf`** consolidated into **`🌑 Pillar_0_Shadow_Self`** + **`LifeOS_feed_hub`** 13 color-coded tabs & 1:1 `LifeOS_Master_Bus` parity + **`Kaballah Tree of Life OS Engine`** 12 color-coded tabs — **225 signals, 40 registered modules, 18 flat Looker tabs & 0 formula errors**!)
+> **Last Audited**: `2026-11-25` (**`Human Design OS`** (`ID_HD`, 13 color-coded tabs, 3 redundant tabs deleted, `#REF!`/`#N/A` fixed, `LOOKER_HUMAN_DESIGN` added, `CONTEXT_IN` & all 5 `HD_*` signals LIVE) + **`🧭 Daily_Intake_Brick`** (7 color-coded tabs, `DAILY_INTAKE_RAW_XP` Stream #10 in `XP Leveler`) + **`RAW_DATA_KnowThySelf`** consolidated into **`🌑 Pillar_0_Shadow_Self`** + **`LifeOS_feed_hub`** 13 color-coded tabs + **`Kaballah Tree of Life OS Engine`** 12 color-coded tabs — **226 signals, 40 registered modules, 19 flat Looker tabs & 0 formula errors**!)
 
 ---
 
@@ -18,7 +18,7 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | [x] | `MODULE_REGISTRY!J4` | **🧭 Daily_Intake_Brick** | `16ohf5mBA9xrRsyv5sOYqY1s7gaOSpSOzK1rE1Gw6BNI` | **LIVE (`SIGNALS_OUT!A1`)**: `DAILY_ENERGY` (`80.0`), `DAILY_MOOD` (`80.0`), `ACUTE_STRESS` (`80.0`), `FLOW_COHERENCE`, `KABBALAH_BALANCE` (`76.7`), `INTAKE_DISCIPLINE_DELTA` (`45`), `INTAKE_VICE_DELTA` (`0`), `DAILY_INTAKE_RAW_XP` (`150` → XP Leveler Stream #10) |
 | [ ] | `MODULE_REGISTRY!J5` | **Weekly_Maslow_Pulse** | `1-GnXtI9ren5Bfw6KumDeNq7FUE5HYO0nSAevSzd5f40` | `MASLOW_SURVIVAL`, `MASLOW_SAFETY`, `MASLOW_BELONGING`, `MASLOW_ESTEEM`, `MASLOW_ACTUALIZATION` |
 | [x] | `MODULE_REGISTRY!J6` | **Zodiac_OS** | `1wQcAdR6ZxETOA1_nUmq1XYvPb9WvgSzmwcA4M0StH9M` | **LIVE (`FRESH`)**: `ZODIAC_ALIGNMENT`, `SOLAR_MOMENTUM`, `LUNAR_REGULATION`, `ZODIAC_WIP_COUNT` |
-| [ ] | `MODULE_REGISTRY!J7` | **Human_Design_OS** | `1yTiVyqmpz5FeZJSuN6_fmMfQZWq4HMcNCIKELBz8wp0` | `HD_STRATEGY_COHERENCE`, `HD_AUTHORITY_CLARITY`, `HD_CONDITIONING_LOAD`, `HD_BIO_READINESS` |
+| [x] | `MODULE_REGISTRY!J7` | **Human_Design_OS** | `1yTiVyqmpz5FeZJSuN6_fmMfQZWq4HMcNCIKELBz8wp0` | **LIVE (`FRESH`)**: `HD_STRATEGY_COHERENCE` (`100`), `HD_AUTHORITY_CLARITY` (`100`), `HD_CONDITIONING_LOAD` (`4 Defined / 5 Undefined`, `56`), `HD_BIO_READINESS` (`100`), `HD_PROFILE_CODE` (`1/3`) |
 | [ ] | `MODULE_REGISTRY!J8` | **Four_Temperaments_Brick** | `1VT2lwlz0wp7YDX2RR10HPrZWiCBCZhj1rInFFSXtF_M` | `TEMPERAMENT_EQUILIBRIUM`, `CHOLERIC_DRIVE_INDEX`, `MELANCHOLIC_PRECISION_INDEX` |
 | [ ] | `MODULE_REGISTRY!J9` | **Dynamic_Stress_Brick** | `1RjW-hvUyTs85ThLgZeSfEDsWmKO_OHTF_PmuKl4faFo` | `STRESS_ALLOSTATIC_LOAD`, `SOMATIC_RECOVERY_CAPACITY`, `CONTEXT_ADJUSTED_STRAIN` |
 | [x] | `MODULE_REGISTRY!J10` | **Doppelganger_Brick** | `1rF8zWY_-HAUhxilX1SaPE0L_iSPEr_gQO6_ZtoWhyPg` | **LIVE**: `SHADOW_TAX_RATE`, `DOPPELGANGER_DOMINATION_INDEX`, `REDEMPTION_STREAK_DAYS` |
@@ -193,6 +193,7 @@ Each of the 11 newly standardized Bricks has a dedicated unwrapped **`Hub_Auth_T
 | [ ] | `ID_CHARACTER_HUD` | **🎮 CHARACTER_PROFILE_HUD** (`CONTEXT_IN!F2`) | https://docs.google.com/spreadsheets/d/13fowIl8CIw9KgMp8OC4N5L-AwvAqANM8jNaUnujLo1E/edit#gid=1408077653 | Standard 3-tab connector context verification (auto-authorized once `DOSSIER_ENGINE!C3` is approved) |
 
 | [x] | `ID_KABBALAH` | **Kaballah Tree of Life OS Engine** (`📥 CONTEXT_IN!E2`) | https://docs.google.com/spreadsheets/d/19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0/edit#gid=759983827 | **LIVE (`AUTHORIZED`)**: `VITAL_HP` (`69.0`), `VITAL_MANA` (`73.6`), `VITAL_STAMINA` (`58.0`), `VITAL_COHERENCE` (`78.2`), `MBTI_SHADOW_RISK` (`70.0`), `ENN_DISINTEGRATION_RISK` (`60.0`), `BIO_READINESS_SCORE` (`61.3`), `ACUTE_STRESS`, `P0_WISDOM_SCORE`, `P6_TRUE_WILL_ALIGNMENT_PCT` -> `RESOLVED_LIVE_STATE = Shadow_Trigger` |
+| [x] | `ID_HD` | **Human Design OS** (`CONTEXT_IN!E2`) | https://docs.google.com/spreadsheets/d/1yTiVyqmpz5FeZJSuN6_fmMfQZWq4HMcNCIKELBz8wp0/edit#gid=199726863 | **LIVE (`AUTHORIZED`)**: `VITAL_HP` (`69.0`), `VITAL_MANA` (`73.6`), `VITAL_STAMINA` (`58.0`), `VITAL_COHERENCE` (`78.2`), `ACUTE_STRESS` (`80.0`), `EQ_EMOTIONAL_CONTROL` (`39.0`), `P0_WISDOM_SCORE` (`66.7`), `ZODIAC_ALIGNMENT` (`90.9`) -> `RESOLVED_LIVE_STATE = Shadow_Trigger` |
 
 ---
 
@@ -212,7 +213,7 @@ The `#REF!` `A2` spill collisions on `SRC_XP_HUB`, `SRC_KABBALAH`, and `SRC_16PF
 ## 4. Post-Approval Verification
 
 Once you finish clicking **"Allow access"** above:
-1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **225** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
+1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **226** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
 2. Open **`LifeOS_feed_hub` -> `AQAL_VIEW`** (`#gid=168404271`): confirm all 4 Quadrants (`UL`, `UR`, `LL`, `LR`) show live composite scores, `SPARKLINE` gauges, `Quadrant Balance Score`, `Achievements AQAL Overlay`, and a live `Corrective Quest Directive`.
 3. Open any Brick's **`CONTEXT_IN`** tab from Section 2: confirm `F3:F5` switches from `"Click F2 -> Allow access"` to `"AUTHORIZED"` and Columns `B:E` stream live Hub context.
 4. Open **`XP Leveler` -> `PILLAR_XP_ABSORPTION`** (`#gid=1096501556`): verify all **10** Pillar & Brick XP streams (`P0`–`P6`, `Travel_Tracker`, `Achievements_Engine_Brick`, `Daily_Intake_Brick`) flow into `Live_Raw_Pillar_XP` and feed the Unified Main XP Bar on `Player_HUD` with zero double-counting.
