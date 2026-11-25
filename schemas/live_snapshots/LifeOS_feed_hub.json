@@ -1,191 +1,612 @@
 {
-  "registry_key": "LifeOS_feed_hub",
-  "title": "LifeOS_feed_hub",
   "spreadsheet_id": "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
-  "url": "https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U/edit",
-  "time_zone": "America/New_York",
-  "snapshot_utc": "2026-11-24T00:16:38Z",
-  "tab_count": 9,
+  "title": "LifeOS_feed_hub",
+  "key": "ID_FEED_HUB",
+  "captured_at_utc": "2026-11-25T06:28:06Z",
+  "pii_scrubbed": true,
+  "tab_count": 13,
+  "module_count": 40,
+  "signal_count": 223,
   "tabs": [
     {
-      "title": "SIGNAL_BUS",
-      "sheet_id": 387897381,
       "index": 0,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 200,
-      "col_count": 15,
-      "header_row_index": 1,
-      "headers": [
-        "Signal_Key",
-        "Source_Brick",
-        "Glyph",
-        "Domain_Pillar",
-        "Raw_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated",
-        "TTL_Hours",
-        "Freshness_Status"
-      ],
-      "row_1": [
-        "Signal_Key",
-        "Source_Brick",
-        "Glyph",
-        "Domain_Pillar",
-        "Raw_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated",
-        "TTL_Hours",
-        "Freshness_Status"
-      ]
-    },
-    {
-      "title": "MODULE_REGISTRY",
-      "sheet_id": 259593998,
-      "index": 1,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 50,
-      "col_count": 14,
-      "header_row_index": 1,
-      "headers": [
-        "Brick_Name",
-        "Glyph",
-        "Domain_Pillar",
-        "Cadence_Tier",
-        "Status",
-        "Spreadsheet_ID",
-        "Signals_Published",
-        "Context_Subscribed",
-        "Last_Synced",
-        "One_Click_Auth_Anchor"
-      ],
-      "row_1": [
-        "Brick_Name",
-        "Glyph",
-        "Domain_Pillar",
-        "Cadence_Tier",
-        "Status",
-        "Spreadsheet_ID",
-        "Signals_Published",
-        "Context_Subscribed",
-        "Last_Synced",
-        "One_Click_Auth_Anchor"
-      ]
-    },
-    {
-      "title": "RULES_ENGINE",
-      "sheet_id": 684617544,
-      "index": 2,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 91,
-      "col_count": 14,
-      "header_row_index": 1,
-      "headers": [
-        "LIFEOS v3.0 \u2014 RULES ENGINE, 3-TIER STAT STACKING & HARDCODED RPG MATHEMATICS"
-      ],
-      "row_1": [
-        "LIFEOS v3.0 \u2014 RULES ENGINE, 3-TIER STAT STACKING & HARDCODED RPG MATHEMATICS"
-      ]
-    },
-    {
       "title": "CHARACTER_SHEET",
-      "sheet_id": 1284265171,
-      "index": 3,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 100,
-      "col_count": 15,
-      "header_row_index": 1,
-      "headers": [
-        "CHARACTER SHEET \u2014 LIFEOS v3.0 RPG HUD"
-      ],
-      "row_1": [
-        "CHARACTER SHEET \u2014 LIFEOS v3.0 RPG HUD"
-      ]
+      "sheetId": 1284265171,
+      "tabColor": "#F59E0B",
+      "hideGridlines": true,
+      "hidden": false
     },
     {
+      "index": 1,
       "title": "AQAL_VIEW",
-      "sheet_id": 168404271,
-      "index": 4,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 40,
-      "col_count": 10,
-      "header_row_index": 1,
-      "headers": [
-        "\ud83e\udded LIFEOS v3.0 \u2014 AQAL 2\u00d72 META-BALANCING ENGINE (AQAL_VIEW)"
-      ],
-      "row_1": [
-        "\ud83e\udded LIFEOS v3.0 \u2014 AQAL 2\u00d72 META-BALANCING ENGINE (AQAL_VIEW)"
-      ]
+      "sheetId": 168404271,
+      "tabColor": "#F59E0B",
+      "hideGridlines": true,
+      "hidden": false
     },
     {
+      "index": 2,
       "title": "SWORD_VIEW",
-      "sheet_id": 1965855931,
-      "index": 5,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 22,
-      "col_count": 7,
-      "header_row_index": 1,
-      "headers": [
-        "\u2694\ufe0f LIFEOS v3.0 \u2014 ARCHETYPAL SWORD VIEW (SWORD_VIEW)"
-      ],
-      "row_1": [
-        "\u2694\ufe0f LIFEOS v3.0 \u2014 ARCHETYPAL SWORD VIEW (SWORD_VIEW)"
-      ]
+      "sheetId": 1965855931,
+      "tabColor": "#F59E0B",
+      "hideGridlines": true,
+      "hidden": false
     },
     {
+      "index": 3,
       "title": "MASLOW_ENGINE",
-      "sheet_id": 603329359,
-      "index": 6,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 20,
-      "col_count": 8,
-      "header_row_index": 1,
-      "headers": [
-        "\ud83d\udd3a LIFEOS v3.0 \u2014 MASLOW PYRAMID & SOVEREIGNTY ENGINE (MASLOW_ENGINE)"
-      ],
-      "row_1": [
-        "\ud83d\udd3a LIFEOS v3.0 \u2014 MASLOW PYRAMID & SOVEREIGNTY ENGINE (MASLOW_ENGINE)"
-      ]
+      "sheetId": 603329359,
+      "tabColor": "#F59E0B",
+      "hideGridlines": true,
+      "hidden": false
     },
     {
+      "index": 4,
       "title": "DOPPELGANGER",
-      "sheet_id": 1013742990,
-      "index": 7,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 20,
-      "col_count": 6,
-      "header_row_index": 1,
-      "headers": [
-        "\ud83d\udc64 LIFEOS v3.0 \u2014 DOPPELG\u00c4NGER SHADOW ARENA HUD (DOPPELGANGER)"
-      ],
-      "row_1": [
-        "\ud83d\udc64 LIFEOS v3.0 \u2014 DOPPELG\u00c4NGER SHADOW ARENA HUD (DOPPELGANGER)"
-      ]
+      "sheetId": 1013742990,
+      "tabColor": "#F59E0B",
+      "hideGridlines": true,
+      "hidden": false
     },
     {
-      "title": "AI_Synthesis_Report",
-      "sheet_id": 1091110123,
+      "index": 5,
+      "title": "SIGNAL_BUS",
+      "sheetId": 387897381,
+      "tabColor": "#8B5CF6",
+      "hideGridlines": true,
+      "hidden": false
+    },
+    {
+      "index": 6,
+      "title": "MODULE_REGISTRY",
+      "sheetId": 259593998,
+      "tabColor": "#8B5CF6",
+      "hideGridlines": true,
+      "hidden": false
+    },
+    {
+      "index": 7,
+      "title": "RULES_ENGINE",
+      "sheetId": 684617544,
+      "tabColor": "#8B5CF6",
+      "hideGridlines": true,
+      "hidden": false
+    },
+    {
       "index": 8,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 20,
-      "col_count": 4,
-      "header_row_index": 1,
-      "headers": [
-        "\ud83e\udd16 LIFEOS v3.0 \u2014 AI SYNTHESIS REPORT (NOTEBOOKLM & GEMINI BRIEFING)"
-      ],
-      "row_1": [
-        "\ud83e\udd16 LIFEOS v3.0 \u2014 AI SYNTHESIS REPORT (NOTEBOOKLM & GEMINI BRIEFING)"
-      ]
+      "title": "AI_Synthesis_Report",
+      "sheetId": 1091110123,
+      "tabColor": "#6366F1",
+      "hideGridlines": true,
+      "hidden": false
+    },
+    {
+      "index": 9,
+      "title": "LOOKER_PILLARS_&_MASLOW",
+      "sheetId": 353173103,
+      "tabColor": "#06B6D4",
+      "hideGridlines": true,
+      "hidden": false
+    },
+    {
+      "index": 10,
+      "title": "LOOKER_SYSTEM_TELEMETRY",
+      "sheetId": 985635395,
+      "tabColor": "#06B6D4",
+      "hideGridlines": true,
+      "hidden": false
+    },
+    {
+      "index": 11,
+      "title": "PUBLIC_DATA",
+      "sheetId": 1346697043,
+      "tabColor": "#06B6D4",
+      "hideGridlines": true,
+      "hidden": false
+    },
+    {
+      "index": 12,
+      "title": "LOGGED_EVENT_IDS",
+      "sheetId": 1495043943,
+      "tabColor": "#3B82F6",
+      "hideGridlines": false,
+      "hidden": true
     }
-  ]
+  ],
+  "aqal_summary": {
+    "balance_score": [
+      [
+        "65.7",
+        "",
+        "[Imbalance]",
+        "",
+        "45.0",
+        "",
+        "LL_WE",
+        "",
+        "LR_ITS"
+      ]
+    ],
+    "ul_i": [
+      [
+        "57.7"
+      ]
+    ],
+    "ur_it": [
+      [
+        "54.5"
+      ]
+    ],
+    "ll_we": [
+      [
+        "66.1"
+      ]
+    ],
+    "lr_its": [
+      [
+        "21.1"
+      ]
+    ]
+  },
+  "scaffolded_execution": [
+    [
+      "Component_Key",
+      "Raw_Live_Value",
+      "Target_Cap",
+      "Max_Boost_Pts",
+      "Earned_Boost_Pts",
+      "Status"
+    ],
+    [
+      "RAW_OCEAN_CONSCIENTIOUSNESS",
+      "1.5",
+      "100",
+      "0",
+      "0",
+      "RAW_PRESERVED"
+    ],
+    [
+      "ACTIVE_BRICKS_WIRED",
+      "39",
+      "40",
+      "8",
+      "7.8",
+      "LIVE"
+    ],
+    [
+      "TRAVEL_AND_BUCKET_RECORDS",
+      "218",
+      "250",
+      "4",
+      "3.49",
+      "LIVE"
+    ],
+    [
+      "ACHIEVEMENTS_MEDIA_CRM_AUDITS",
+      "42",
+      "60",
+      "3",
+      "2.1",
+      "LIVE"
+    ],
+    [
+      "LIVE_POPULATED_SIGNAL_COVERAGE",
+      "116",
+      "150",
+      "5",
+      "3.87",
+      "LIVE"
+    ],
+    [
+      "SCAFFOLD_BOOST_DELTA",
+      "17.3",
+      "20",
+      "20",
+      "17.3",
+      "BOUNDED_CAP_20"
+    ],
+    [
+      "SCAFFOLDED_EXECUTION_INDEX",
+      "18.8",
+      "100",
+      "100",
+      "18.8",
+      "ACTIVE_SYSTEM_BUILDER"
+    ],
+    [
+      "XP_SCAFFOLD_MODIFIER_CAP",
+      "0.05",
+      "0.05",
+      "0.05",
+      "0.043",
+      "XP_BRIDGE_CAP"
+    ]
+  ],
+  "public_data": [
+    [
+      "Metric_Key",
+      "Display_Label",
+      "Category",
+      "Public_Value",
+      "Unit",
+      "Target_Or_Gate",
+      "Progress_Pct",
+      "Narrative_Season",
+      "Last_Updated"
+    ],
+    [
+      "ACTIVE_EPICS_COUNT",
+      "Active Epic Quests",
+      "Quests & Legacy",
+      "",
+      "Epics",
+      "3",
+      "",
+      "Foundation Winter"
+    ],
+    [
+      "EPIC_COMPLETION_PCT",
+      "Epic Quest Completion Rate",
+      "Quests & Legacy",
+      "",
+      "%",
+      "100",
+      "",
+      "Foundation Winter"
+    ],
+    [
+      "TOTAL_QUEST_XP",
+      "Total Quest XP Earned",
+      "Quests & Legacy",
+      "",
+      "XP",
+      "10000",
+      "",
+      "Foundation Winter"
+    ],
+    [
+      "AVG_SKILL_LEVEL",
+      "Average Skill Tree Level",
+      "Skills & Mastery",
+      "",
+      "Level (0-10)",
+      "10",
+      "",
+      "Foundation Winter"
+    ],
+    [
+      "FLOW_SESSION_SCORE",
+      "Deep Work Flow Score",
+      "Skills & Mastery",
+      "",
+      "Score (0-100)",
+      "90",
+      "",
+      "Foundation Winter"
+    ],
+    [
+      "HABIT_COMPLIANCE_PCT",
+      "Daily Habit Compliance",
+      "Discipline & Bio",
+      "",
+      "%",
+      "90",
+      "",
+      "Foundation Winter"
+    ],
+    [
+      "RETENTION_STREAK_DAYS",
+      "Alchemical Retention Streak",
+      "Discipline & Bio",
+      "",
+      "Days",
+      "45",
+      "",
+      "Foundation Winter"
+    ],
+    [
+      "ALCHEMICAL_FURNACE_PCT",
+      "Alchemical Furnace Charge",
+      "Discipline & Bio",
+      "",
+      "%",
+      "100",
+      "",
+      "Foundation Winter"
+    ],
+    [
+      "TRAVEL_CONTINENTS_COUNT",
+      "Continents Explored (7 by 40)",
+      "Exploration",
+      "3",
+      "Continents",
+      "7",
+      "42.9",
+      "Foundation Winter",
+      "11/25/2026 1:28:06"
+    ],
+    [
+      "TRAVEL_COUNTRIES_COUNT",
+      "Countries Explored",
+      "Exploration",
+      "9",
+      "Countries",
+      "40",
+      "22.5",
+      "Foundation Winter",
+      "11/25/2026 1:28:06"
+    ],
+    [
+      "XP_CURRENT_LEVEL",
+      "LifeOS RPG Player Level",
+      "Gamification",
+      "23",
+      "Level",
+      "144",
+      "16",
+      "Foundation Winter",
+      "11/25/2026 1:28:06"
+    ],
+    [
+      "AQAL_QUADRANT_BALANCE",
+      "AQAL 2x2 Quadrant Balance",
+      "System Balance",
+      "65.7",
+      "Score (0-100)",
+      "85",
+      "77.3",
+      "Foundation Winter",
+      "11/25/2026 1:28:06"
+    ],
+    [
+      "SWORD_INTEGRITY_SCORE",
+      "Archetypal Sword Integrity",
+      "System Balance",
+      "53.3",
+      "Score (0-100)",
+      "90",
+      "59.2",
+      "Foundation Winter",
+      "11/25/2026 1:28:06"
+    ],
+    [
+      "MASLOW_SOVEREIGNTY_SCORE",
+      "Maslow Sovereignty Index",
+      "System Balance",
+      "41.5",
+      "Score (0-100)",
+      "90",
+      "46.1",
+      "Foundation Winter",
+      "11/25/2026 1:28:06"
+    ],
+    [
+      "BUCKET_LIST_COMPLETION_PCT",
+      "Travel Bucket List Completion",
+      "Exploration",
+      "0",
+      "%",
+      "100",
+      "0",
+      "Foundation Winter",
+      "11/25/2026 1:28:06"
+    ],
+    [
+      "XP_TOTAL_EFFECTIVE",
+      "Unified Main XP Bar Total",
+      "Gamification",
+      "80187",
+      "Effective XP",
+      "103024",
+      "77.8",
+      "Foundation Winter",
+      "11/25/2026 1:28:06"
+    ],
+    [
+      "XP_GATE_PROGRESS_PCT",
+      "Current Sephirotic Gate Progress",
+      "Gamification",
+      "55.7",
+      "%",
+      "100",
+      "55.7",
+      "Foundation Winter",
+      "11/25/2026 1:28:06"
+    ],
+    [
+      "ACH_TOTAL_UNLOCKED",
+      "Unlocked Life Achievements",
+      "Experience & Legacy",
+      "",
+      "Trophies",
+      "210",
+      "",
+      "Foundation Winter"
+    ],
+    [
+      "SCAFFOLDED_EXECUTION_INDEX",
+      "Scaffolded System-Building Index",
+      "System Mastery",
+      "18.8",
+      "Score (0-100)",
+      "100",
+      "18.8",
+      "Foundation Winter",
+      "11/25/2026 1:28:06"
+    ],
+    [
+      "KAB_EFFECTIVE_QUALITY",
+      "Kabbalah Tree of Life Quality",
+      "Esoteric Mastery",
+      "69",
+      "Score (0-100)",
+      "90",
+      "76.7",
+      "Foundation Winter",
+      "11/25/2026 1:28:06"
+    ],
+    [
+      "EQ_COMPOSITE_SCORE",
+      "Emotional Intelligence Composite",
+      "Relational Mastery",
+      "",
+      "Score (0-100)",
+      "90",
+      "",
+      "Foundation Winter"
+    ],
+    [
+      "LOVE_RECIPROCITY_BALANCE",
+      "Love Styles Reciprocity Balance",
+      "Relational Mastery",
+      "",
+      "%",
+      "100",
+      "",
+      "Foundation Winter"
+    ]
+  ],
+  "looker_pillars_maslow": [
+    [
+      "Domain_Key",
+      "Domain_Label",
+      "Layer_Type",
+      "Score_0_100",
+      "Mastery_Gate_Pct",
+      "Points_To_Gate",
+      "Gate_Status",
+      "Narrative_Season",
+      "Last_Updated"
+    ],
+    [
+      "PILLAR_0",
+      "Pillar 0: Shadow Self",
+      "Pillar",
+      "",
+      "90",
+      "",
+      "AWAITING_DATA",
+      "Foundation Winter"
+    ],
+    [
+      "PILLAR_1",
+      "Pillar 1: Health & Vitality",
+      "Pillar",
+      "74.9",
+      "90",
+      "15.1",
+      "PROGRESSING",
+      "Foundation Winter",
+      "11/25/2026 1:28:10"
+    ],
+    [
+      "PILLAR_2",
+      "Pillar 2: Wealth & Treasury",
+      "Pillar",
+      "",
+      "90",
+      "",
+      "AWAITING_DATA",
+      "Foundation Winter"
+    ],
+    [
+      "PILLAR_3",
+      "Pillar 3: Relationships & Frame",
+      "Pillar",
+      "57.8",
+      "90",
+      "32.2",
+      "PROGRESSING",
+      "Foundation Winter",
+      "11/25/2026 1:28:10"
+    ],
+    [
+      "PILLAR_4",
+      "Pillar 4: Skills & Mission",
+      "Pillar",
+      "",
+      "90",
+      "",
+      "AWAITING_DATA",
+      "Foundation Winter"
+    ],
+    [
+      "PILLAR_5",
+      "Pillar 5: Experience & Legacy",
+      "Pillar",
+      "",
+      "90",
+      "",
+      "AWAITING_DATA",
+      "Foundation Winter"
+    ],
+    [
+      "PILLAR_6",
+      "Pillar 6: Esoteric Self",
+      "Pillar",
+      "",
+      "90",
+      "",
+      "AWAITING_DATA",
+      "Foundation Winter"
+    ],
+    [
+      "MASLOW_L1",
+      "Level 1: Physiological",
+      "Maslow",
+      "59.1",
+      "90",
+      "30.9",
+      "PROGRESSING",
+      "Foundation Winter",
+      "11/25/2026 1:28:10"
+    ],
+    [
+      "MASLOW_L2",
+      "Level 2: Safety",
+      "Maslow",
+      "38.7",
+      "90",
+      "51.3",
+      "CRITICAL",
+      "Foundation Winter",
+      "11/25/2026 1:28:10"
+    ],
+    [
+      "MASLOW_L3",
+      "Level 3: Love & Belonging",
+      "Maslow",
+      "44.4",
+      "90",
+      "45.6",
+      "CRITICAL",
+      "Foundation Winter",
+      "11/25/2026 1:28:10"
+    ],
+    [
+      "MASLOW_L4",
+      "Level 4: Esteem",
+      "Maslow",
+      "15.5",
+      "90",
+      "74.5",
+      "CRITICAL",
+      "Foundation Winter",
+      "11/25/2026 1:28:10"
+    ],
+    [
+      "MASLOW_L5",
+      "Level 5: Self-Actualization",
+      "Maslow",
+      "29",
+      "90",
+      "61",
+      "CRITICAL",
+      "Foundation Winter",
+      "11/25/2026 1:28:10"
+    ]
+  ],
+  "looker_system_telemetry_row_count": 235,
+  "audit_errors": 0,
+  "pending_browser_auth_anchors": 12
 }

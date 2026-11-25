@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-25T06:17:01Z",
+  "last_updated_utc": "2026-11-25T06:28:06Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -290,7 +290,9 @@
         "SRC_KABBALAH",
         "SRC_16PF"
       ],
-      "tab_count": 19
+      "tab_count": 19,
+      "directory_entry_count": 39,
+      "last_audited_utc": "2026-11-25T06:28:06Z"
     },
     "ID_OCEAN": {
       "title": "Big-Five Personality Assessment (Responses)",
@@ -711,7 +713,7 @@
       "title": "LifeOS_feed_hub",
       "spreadsheet_id": "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
       "drive_url": "https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U/edit",
-      "status": "bound",
+      "status": "ACTIVE",
       "layer": "core_os_hub",
       "domain": "Core OS Hub / Central Command, SIGNAL_BUS & CHARACTER_SHEET",
       "live_tabs": [
@@ -761,7 +763,26 @@
         "LOOKER_PILLARS_&_MASLOW",
         "LOOKER_SYSTEM_TELEMETRY",
         "PUBLIC_DATA"
-      ]
+      ],
+      "tabs": [
+        "CHARACTER_SHEET",
+        "AQAL_VIEW",
+        "SWORD_VIEW",
+        "MASLOW_ENGINE",
+        "DOPPELGANGER",
+        "SIGNAL_BUS",
+        "MODULE_REGISTRY",
+        "RULES_ENGINE",
+        "AI_Synthesis_Report",
+        "LOOKER_PILLARS_&_MASLOW",
+        "LOOKER_SYSTEM_TELEMETRY",
+        "PUBLIC_DATA",
+        "LOGGED_EVENT_IDS"
+      ],
+      "module_count": 40,
+      "signal_count": 223,
+      "tab_color_coded": true,
+      "last_audited_utc": "2026-11-25T06:28:06Z"
     },
     "ID_MASTER_LOG": {
       "title": "LifeOS - Master Log",

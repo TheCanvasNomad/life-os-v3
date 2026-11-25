@@ -340,7 +340,7 @@
       ]
     }
   ],
-  "captured_at_utc": "2026-11-25T06:17:54Z",
+  "captured_at_utc": "2026-11-25T06:28:06Z",
   "kabbalah_engine_outputs": [
     [
       "Output_Key",
@@ -418,5 +418,48 @@
       "https://docs.google.com/spreadsheets/d/19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0/edit?usp=drivesdk"
     ]
   ],
-  "kabbalah_audit_errors": 0
+  "kabbalah_audit_errors": 0,
+  "directory_entry_count": 39,
+  "workbook_directory_keys": [
+    "ID_OCEAN",
+    "ID_MBTI",
+    "ID_ENNEAGRAM",
+    "ID_PQ",
+    "ID_HD",
+    "ID_ZODIAC",
+    "ID_CAREER",
+    "ID_MASLOW",
+    "ID_GRIT",
+    "ID_RIASEC",
+    "ID_XP_HUB",
+    "ID_KABBALAH",
+    "ID_16PF",
+    "ID_TRAVEL",
+    "ID_BELIEF_TRACKER",
+    "ID_BODY_COUNT",
+    "ID_MOVIES",
+    "ID_FEED_HUB",
+    "ID_PILLAR_0",
+    "ID_PILLAR_1",
+    "ID_BIO_CORE",
+    "ID_PILLAR_2",
+    "ID_PILLAR_3",
+    "ID_PILLAR_4",
+    "ID_PILLAR_5",
+    "ID_PILLAR_6",
+    "ID_MASTER_CONTACTS_SYNC",
+    "ID_CORE_CRM",
+    "ID_PURGED_CONTACTS_VAULT",
+    "ID_NOTEBOOKLM_SOCIAL",
+    "ID_ACHIEVEMENTS",
+    "ID_LOVE_STYLES",
+    "ID_EQ",
+    "ID_CHARACTER_HUD",
+    "ID_DAILY_INTAKE",
+    "ID_WEEKLY_MASLOW",
+    "ID_FOUR_TEMPERAMENTS",
+    "ID_DYNAMIC_STRESS",
+    "ID_DOPPELGANGER"
+  ],
+  "audit_errors": 0
 }

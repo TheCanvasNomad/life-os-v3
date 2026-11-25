@@ -1,7 +1,7 @@
 # LifeOS-v3 Hub & Brick `IMPORTRANGE` Browser Authorization Checklist
 
 > **Why this checklist exists**: Google Sheets requires a one-time interactive browser click (**"Allow access"** on a `#REF!` cell) for each new cross-spreadsheet `IMPORTRANGE` connection. APIs and scripts cannot grant this permission on your behalf.  
-> **Last Audited**: `2026-11-25` (**`Kaballah Tree of Life OS Engine`** (`ID_KABBALAH`) audited, consolidated to 12 color-coded tabs, 4 redundant tabs deleted, `[ARCHIVED]` trashed, `Tree_of_Life_Glyph` / Horizontal Triads / `Longitudinal_Analytics` / `📥 CONTEXT_IN` repaired, `LOOKER_KABBALAH` added — alongside Core Display Pillar III **`🎮 CHARACTER_PROFILE_HUD`**, `SCAFFOLDED_EXECUTION_INDEX`, `🧠 Emotional_Intelligence_Brick`, `💞 Love_Styles_&_Languages_Brick`, 209 Legacy Travel Reviews, `🏅 Achievements_Engine_Brick`, & Unified Main XP Bar — **219 signals, 40 registered modules, 17 flat Looker tabs & 0 formula errors**!)
+> **Last Audited**: `2026-11-25` (**`LifeOS_feed_hub`** audited, updated & beautified across all **13 color-coded tabs** (`CHARACTER_SHEET` quick-nav hyperlinks + EQ/Love Styles/Achievements HUD, `AQAL_VIEW`/`RULES_ENGINE` Sec 16 non-circular `ACH_*` integration, upgraded `AI_Synthesis_Report!A4`, refreshed `PUBLIC_DATA` [23 rows] & `LOOKER_SYSTEM_TELEMETRY` [235 rows], 1:1 parity with `LifeOS_Master_Bus!Workbook_Directory` [39 non-self entries + self = 40]) + **`Kaballah Tree of Life OS Engine`** (`12` color-coded tabs, `LOOKER_KABBALAH`, 4 redundant tabs deleted, `[ARCHIVED]` trashed) — **223 signals, 40 registered modules, 17 flat Looker tabs & 0 formula errors**!)
 
 ---
 
@@ -22,7 +22,7 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | [ ] | `MODULE_REGISTRY!J8` | **Four_Temperaments_Brick** | `1VT2lwlz0wp7YDX2RR10HPrZWiCBCZhj1rInFFSXtF_M` | `TEMPERAMENT_EQUILIBRIUM`, `CHOLERIC_DRIVE_INDEX`, `MELANCHOLIC_PRECISION_INDEX` |
 | [ ] | `MODULE_REGISTRY!J9` | **Dynamic_Stress_Brick** | `1RjW-hvUyTs85ThLgZeSfEDsWmKO_OHTF_PmuKl4faFo` | `STRESS_ALLOSTATIC_LOAD`, `SOMATIC_RECOVERY_CAPACITY`, `CONTEXT_ADJUSTED_STRAIN` |
 | [x] | `MODULE_REGISTRY!J10` | **Doppelganger_Brick** | `1rF8zWY_-HAUhxilX1SaPE0L_iSPEr_gQO6_ZtoWhyPg` | **LIVE**: `SHADOW_TAX_RATE`, `DOPPELGANGER_DOMINATION_INDEX`, `REDEMPTION_STREAK_DAYS` |
-| [x] | `MODULE_REGISTRY!J11` | **Kabbalah_Tree_of_Life** | `19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0` | **LIVE**: `KAB_EFFECTIVE_QUALITY`, `KAB_PILLAR_EQUILIBRIUM`, `KAB_GROUNDING_INDEX`, `KAB_HOD_SPREAD`, `KAB_NET_XP_MULT` |
+| [x] | `MODULE_REGISTRY!J11` | **Kabbalah_Tree_of_Life** | `19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0` | **LIVE (`'📤 SIGNALS_OUT'!A1`)**: `KAB_EFFECTIVE_QUALITY`, `KAB_PILLAR_EQUILIBRIUM`, `KAB_GROUNDING_INDEX`, `KAB_HOD_SPREAD`, `KAB_NET_XP_MULT`, `KAB_32_PATHS_FLOW` |
 | [x] | `MODULE_REGISTRY!J12` | **Big_Five_OCEAN** | `12FwlHUeNWISYyiIVrASTDK6TlihFkfhVovIa4J2cObA` | **LIVE**: All 7 `OCEAN_*` signals |
 | [x] | `MODULE_REGISTRY!J13` | **MBTI_Cognitive_Stack** | `1uiQX7oyPcMAqovTBUkJBtbq7NSjWv45Lf0GQZza3TEw` | **LIVE**: `MBTI_TYPE_CODE`, `MBTI_COHERENCE_INDEX`, `MBTI_SHADOW_RISK` |
 | [ ] | `MODULE_REGISTRY!J14` | **Enneagram_Tritype_Engine** | `1nnu0Hw67g2OoAZiu0xmOALu3eFCgkKNL2M7gkv6-K3w` | `ENN_CORE_SIGNATURE`, `ENN_INTEGRATION_INDEX`, `ENN_DISINTEGRATION_RISK` |
@@ -210,7 +210,7 @@ The `#REF!` `A2` spill collisions on `SRC_XP_HUB`, `SRC_KABBALAH`, and `SRC_16PF
 ## 4. Post-Approval Verification
 
 Once you finish clicking **"Allow access"** above:
-1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **219** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
+1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **223** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
 2. Open **`LifeOS_feed_hub` -> `AQAL_VIEW`** (`#gid=168404271`): confirm all 4 Quadrants (`UL`, `UR`, `LL`, `LR`) show live composite scores, `SPARKLINE` gauges, `Quadrant Balance Score`, `Achievements AQAL Overlay`, and a live `Corrective Quest Directive`.
 3. Open any Brick's **`CONTEXT_IN`** tab from Section 2: confirm `F3:F5` switches from `"Click F2 -> Allow access"` to `"AUTHORIZED"` and Columns `B:E` stream live Hub context.
 4. Open **`XP Leveler` -> `PILLAR_XP_ABSORPTION`** (`#gid=1096501556`): verify all **9** Pillar & Brick XP streams (`P0`–`P6`, `Travel_Tracker`, `Achievements_Engine_Brick`) flow into `Live_Raw_Pillar_XP` and feed the Unified Main XP Bar on `Player_HUD` with zero double-counting.
