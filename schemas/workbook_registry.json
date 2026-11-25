@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-25T07:27:02Z",
+  "last_updated_utc": "2026-11-25T17:05:00Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -370,11 +370,14 @@
       "title": "Enneagram Assessment (Responses)",
       "spreadsheet_id": "1nnu0Hw67g2OoAZiu0xmOALu3eFCgkKNL2M7gkv6-K3w",
       "drive_url": "https://docs.google.com/spreadsheets/d/1nnu0Hw67g2OoAZiu0xmOALu3eFCgkKNL2M7gkv6-K3w/edit",
-      "status": "bound",
+      "status": "ACTIVE",
       "layer": "brick",
       "domain": "Psychometrics / Enneagram Tritype Engine",
       "live_tabs": [
-        "Enneagram_Dashboard"
+        "\ud83d\udd2f ENNEAGRAM_DASHBOARD",
+        "Enneagram_Scoring_Engine",
+        "LOOKER_ENNEAGRAM",
+        "\ud83d\udce4 SIGNALS_OUT"
       ],
       "search_aliases": [
         "Enneagram Assessment",
@@ -384,35 +387,42 @@
         "Enneagram"
       ],
       "schema_ref": "schemas/enneagram_tritype_schema.json",
-      "last_snapshot_utc": "2026-11-23T07:42:48Z",
+      "last_snapshot_utc": "2026-11-25T17:05:00Z",
       "all_tabs": [
-        "Enneagram_Dashboard",
+        "\ud83d\udd2f ENNEAGRAM_DASHBOARD",
         "\ud83e\udded DYNAMIC_ADVISORY",
         "Enneagram_Scoring_Engine",
         "Instinct_Subtypes_Telemetry",
         "Longitudinal_Timeline",
-        "LifeOS_Psychometric_Bridge",
-        "MBTI_Bridge",
-        "Pillar1_Unconscious_Triad",
-        "Pillar2_Cognitive_Levels",
-        "Pillar3_Psychometric_Auditor",
-        "Pillar4_Social_Dynamics",
-        "Pillar5_DeFixation_Engine",
+        "Enneagram_Taxonomy_Vault",
+        "LOOKER_ENNEAGRAM",
         "\ud83d\udccb MODULE_META",
         "\ud83d\udce5 CONTEXT_IN",
         "\ud83d\udce4 SIGNALS_OUT",
-        "Enneagram Personalities",
-        "MBTI_Raw_Ingest",
-        "Form Responses 1",
-        "Subject"
+        "Form Responses 1"
       ],
-      "tab_count": 19,
+      "tab_count": 11,
       "linked_forms": [
         {
           "name": "Enneagram Assessment",
           "form_id": "1znJXelISwrc_KzC9kpc_nPYGovFfzJC8JS6mzm3wRZA"
         }
-      ]
+      ],
+      "primary_tab": "\ud83d\udd2f ENNEAGRAM_DASHBOARD",
+      "looker_tab": "LOOKER_ENNEAGRAM",
+      "redundant_tabs_deleted": [
+        "MBTI_Raw_Ingest",
+        "MBTI_Bridge",
+        "LifeOS_Psychometric_Bridge",
+        "Pillar1_Unconscious_Triad",
+        "Pillar2_Cognitive_Levels",
+        "Pillar3_Psychometric_Auditor",
+        "Pillar4_Social_Dynamics",
+        "Pillar5_DeFixation_Engine",
+        "Subject"
+      ],
+      "tab_color_coded": true,
+      "universal_brick_compliant": true
     },
     "ID_XP_HUB": {
       "title": "XP Leveler",

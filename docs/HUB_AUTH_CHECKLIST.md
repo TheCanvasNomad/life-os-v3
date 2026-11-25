@@ -1,7 +1,7 @@
 # LifeOS-v3 Hub & Brick `IMPORTRANGE` Browser Authorization Checklist
 
 > **Why this checklist exists**: Google Sheets requires a one-time interactive browser click (**"Allow access"** on a `#REF!` cell) for each new cross-spreadsheet `IMPORTRANGE` connection. APIs and scripts cannot grant this permission on your behalf.  
-> **Last Audited**: `2026-11-25` (**`RAW_DATA_FlowState`** consolidated into **`🛠️ Pillar_4_Skills_Mission`** [9 `#DIV/0!` helper tabs deleted, unified 8-Channel Csikszentmihalyi Flow Matrix, `P4_FLOW_STATE_SCORE = 58.6` LIVE & `FRESH`, 11 color-coded tabs] + **`Body Count 2.0`** [43 → 15 tabs, all 8 anonymized `REL_*` signals LIVE] + **`RAW_DATA_Preference`** → **`💞 Pillar_3_Relationships`** + **`Human Design OS`** [13 tabs] + **`🧭 Daily_Intake_Brick`** [7 tabs] — **231 signals, 40 registered modules, 20 flat zero-PII Looker tabs & 0 formula errors**!)
+> **Last Audited**: `2026-11-25` (**`Enneagram Assessment (Responses)`** [`ID_ENNEAGRAM`, 19 → **11** color-coded tabs, 9 redundant/broken tabs deleted, Tritype `794` / Harmonic / De-Fixation migrated, `LOOKER_ENNEAGRAM` 26 rows added, all **8** `ENN_*` signals LIVE] + **`RAW_DATA_FlowState`** → **`🛠️ Pillar_4_Skills_Mission`** [11 tabs, `P4_FLOW_STATE_SCORE = 58.6` LIVE] + **`Body Count 2.0`** [43 → 15 tabs] + **`RAW_DATA_Preference`** → **`💞 Pillar_3_Relationships`** + **`Human Design OS`** [13 tabs] — **236 signals, 40 registered modules, 21 flat zero-PII Looker tabs & 0 formula errors**!)
 
 ---
 
@@ -25,7 +25,7 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | [x] | `MODULE_REGISTRY!J11` | **Kabbalah_Tree_of_Life** | `19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0` | **LIVE (`'📤 SIGNALS_OUT'!A1`)**: `KAB_EFFECTIVE_QUALITY`, `KAB_PILLAR_EQUILIBRIUM`, `KAB_GROUNDING_INDEX`, `KAB_HOD_SPREAD`, `KAB_NET_XP_MULT`, `KAB_32_PATHS_FLOW` |
 | [x] | `MODULE_REGISTRY!J12` | **Big_Five_OCEAN** | `12FwlHUeNWISYyiIVrASTDK6TlihFkfhVovIa4J2cObA` | **LIVE**: All 7 `OCEAN_*` signals |
 | [x] | `MODULE_REGISTRY!J13` | **MBTI_Cognitive_Stack** | `1uiQX7oyPcMAqovTBUkJBtbq7NSjWv45Lf0GQZza3TEw` | **LIVE**: `MBTI_TYPE_CODE`, `MBTI_COHERENCE_INDEX`, `MBTI_SHADOW_RISK` |
-| [ ] | `MODULE_REGISTRY!J14` | **Enneagram_Tritype_Engine** | `1nnu0Hw67g2OoAZiu0xmOALu3eFCgkKNL2M7gkv6-K3w` | `ENN_CORE_SIGNATURE`, `ENN_INTEGRATION_INDEX`, `ENN_DISINTEGRATION_RISK` |
+| [x] | `MODULE_REGISTRY!J14` | **Enneagram_Tritype_Engine** | `1nnu0Hw67g2OoAZiu0xmOALu3eFCgkKNL2M7gkv6-K3w` | **LIVE (`'📤 SIGNALS_OUT'!A1`)**: All **8** `ENN_*` signals (`ENN_CORE_SIGNATURE`, `ENN_INTEGRATION_INDEX`=`76`, `ENN_DISINTEGRATION_RISK`=`60`, `ENN_PRIMARY_TYPE`=`Type 7 (7w6)`, `ENN_TRITYPE`=`794`, `ENN_INSTINCT_STACK`=`SX/SO/SP`, `ENN_GROWTH_ARROW_SCORE`=`76`, `ENN_STRESS_ARROW_LOAD`=`60`) |
 | [x] | `MODULE_REGISTRY!J15` | **Travel_Tracker_Brick** | `11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc` | **LIVE (`FRESH`)**: All 12 `TRAVEL_*` & `BUCKET_LIST_*` signals (incl. `TRAVEL_REVIEWS_COUNT = 209`, `TRAVEL_AVG_RATING = 4.94`, `TRAVEL_REVIEWS_PENDING_LINKS = 209`) |
 | [x] | `MODULE_REGISTRY!J16` | **Maslow_Hierarchy_Spoke** | `1M-F-p5IqYc0JMtJ-20bOGUvQgP1-63Ta3hryES_jHqg` | **LIVE (`FRESH`)**: All 5 `MASLOW_*` signals |
 | [x] | `MODULE_REGISTRY!J17` | **Saboteur_PQ** | `1NhqPJDFOp91qOp5Y9hPe0rIuqECKU_b08cZYXZAqxeE` | Pre-authorized (awaiting `SIGNALS_OUT` rollout) |
@@ -196,6 +196,7 @@ Each of the 11 newly standardized Bricks has a dedicated unwrapped **`Hub_Auth_T
 
 | [x] | `ID_KABBALAH` | **Kaballah Tree of Life OS Engine** (`📥 CONTEXT_IN!E2`) | https://docs.google.com/spreadsheets/d/19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0/edit#gid=759983827 | **LIVE (`AUTHORIZED`)**: `VITAL_HP` (`69.0`), `VITAL_MANA` (`73.6`), `VITAL_STAMINA` (`58.0`), `VITAL_COHERENCE` (`78.2`), `MBTI_SHADOW_RISK` (`70.0`), `ENN_DISINTEGRATION_RISK` (`60.0`), `BIO_READINESS_SCORE` (`61.3`), `ACUTE_STRESS`, `P0_WISDOM_SCORE`, `P6_TRUE_WILL_ALIGNMENT_PCT` -> `RESOLVED_LIVE_STATE = Shadow_Trigger` |
 | [x] | `ID_HD` | **Human Design OS** (`CONTEXT_IN!E2`) | https://docs.google.com/spreadsheets/d/1yTiVyqmpz5FeZJSuN6_fmMfQZWq4HMcNCIKELBz8wp0/edit#gid=199726863 | **LIVE (`AUTHORIZED`)**: `VITAL_HP` (`69.0`), `VITAL_MANA` (`73.6`), `VITAL_STAMINA` (`58.0`), `VITAL_COHERENCE` (`78.2`), `ACUTE_STRESS` (`80.0`), `EQ_EMOTIONAL_CONTROL` (`39.0`), `P0_WISDOM_SCORE` (`66.7`), `ZODIAC_ALIGNMENT` (`90.9`) -> `RESOLVED_LIVE_STATE = Shadow_Trigger` |
+| [ ] | `ID_ENNEAGRAM` | **Enneagram Assessment (Responses)** (`📥 CONTEXT_IN!E2`) | https://docs.google.com/spreadsheets/d/1nnu0Hw67g2OoAZiu0xmOALu3eFCgkKNL2M7gkv6-K3w/edit#gid=1945591436 | `VITAL_HP`, `VITAL_MANA`, `VITAL_COHERENCE`, `MBTI_TYPE_CODE`, `MBTI_SHADOW_RISK`, `ACUTE_STRESS`, `P0_WISDOM_SCORE`, `EQ_EMOTIONAL_CONTROL`, `MBTI_COHERENCE_INDEX` -> `RESOLVED_LIVE_STATE` & `🧭 DYNAMIC_ADVISORY` |
 
 ---
 
@@ -215,7 +216,7 @@ The `#REF!` `A2` spill collisions on `SRC_XP_HUB`, `SRC_KABBALAH`, and `SRC_16PF
 ## 4. Post-Approval Verification
 
 Once you finish clicking **"Allow access"** above:
-1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **231** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
+1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **236** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
 2. Open **`LifeOS_feed_hub` -> `AQAL_VIEW`** (`#gid=168404271`): confirm all 4 Quadrants (`UL`, `UR`, `LL`, `LR`) show live composite scores, `SPARKLINE` gauges, `Quadrant Balance Score`, `Achievements AQAL Overlay`, and a live `Corrective Quest Directive`.
 3. Open any Brick's **`CONTEXT_IN`** tab from Section 2: confirm `F3:F5` switches from `"Click F2 -> Allow access"` to `"AUTHORIZED"` and Columns `B:E` stream live Hub context.
 4. Open **`XP Leveler` -> `PILLAR_XP_ABSORPTION`** (`#gid=1096501556`): verify all **10** Pillar & Brick XP streams (`P0`–`P6`, `Travel_Tracker`, `Achievements_Engine_Brick`, `Daily_Intake_Brick`) flow into `Live_Raw_Pillar_XP` and feed the Unified Main XP Bar on `Player_HUD` with zero double-counting.

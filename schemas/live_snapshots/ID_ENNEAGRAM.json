@@ -1,549 +1,561 @@
 {
-  "registry_key": "ID_ENNEAGRAM",
-  "title": "Enneagram Assessment (Responses)",
   "spreadsheet_id": "1nnu0Hw67g2OoAZiu0xmOALu3eFCgkKNL2M7gkv6-K3w",
-  "url": "https://docs.google.com/spreadsheets/d/1nnu0Hw67g2OoAZiu0xmOALu3eFCgkKNL2M7gkv6-K3w/edit",
-  "time_zone": "America/Detroit",
-  "snapshot_utc": "2026-11-23T07:42:48Z",
-  "tab_count": 19,
+  "title": "Enneagram Assessment (Responses)",
+  "registry_key": "ID_ENNEAGRAM",
+  "snapshot_utc": "2026-11-25T17:05:00Z",
   "tabs": [
-    {
-      "title": "Enneagram_Dashboard",
-      "sheet_id": 325731571,
-      "index": 0,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 26,
-      "header_row_index": 3,
-      "headers": [
-        "",
-        "PROFILE: Type 7 - The Visionary Enthusiast | WING: 7w6",
-        "",
-        "",
-        "",
-        "",
-        "DATE: 2026-11-11 13:13 • ROW: 2"
-      ],
-      "row_1": []
-    },
-    {
-      "title": "🧭 DYNAMIC_ADVISORY",
-      "sheet_id": 1419269478,
-      "index": 1,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 19,
-      "header_row_index": 2,
-      "headers": [
-        "Active Core Type:",
-        "Type 7",
-        "Live Telemetry State:",
-        "Shadow_Trigger",
-        "Growth Arrow Score:",
-        "76",
-        "FLOW"
-      ],
-      "row_1": [
-        "🔯 ENNEAGRAM CORE & TRITYPE ENGINE — UNIFIED LIVE ADVISORY HUD"
-      ]
-    },
-    {
-      "title": "Enneagram_Scoring_Engine",
-      "sheet_id": 1387640989,
-      "index": 2,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 35,
-      "header_row_index": 3,
-      "headers": [
-        "",
-        "Target Intake Row:",
-        "2",
-        "Timestamp:",
-        "11/11/2026"
-      ],
-      "row_1": []
-    },
-    {
-      "title": "Instinct_Subtypes_Telemetry",
-      "sheet_id": 172144442,
-      "index": 3,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 35,
-      "header_row_index": 3,
-      "headers": [
-        "",
-        "ACTIVE: Type 7 - The Visionary Enthusiast | STACK: SP/SX/SO",
-        "",
-        "",
-        "",
-        "",
-        "DATE: 2026-11-11 13:13 • ROW: 2"
-      ],
-      "row_1": []
-    },
-    {
-      "title": "Longitudinal_Timeline",
-      "sheet_id": 805844484,
-      "index": 4,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 11,
-      "header_row_index": 3,
-      "headers": [
-        "",
-        "MONITORED BASELINE: Type 7 - The Visionary Enthusiast (7w6)",
-        "",
-        "",
-        "",
-        "",
-        "TOTAL SESSIONS LOGGED: 0 EVALUATION RECORDS"
-      ],
-      "row_1": []
-    },
-    {
-      "title": "LifeOS_Psychometric_Bridge",
-      "sheet_id": 832716484,
-      "index": 5,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 22,
-      "header_row_index": 3,
-      "headers": [
-        "",
-        "CORE ENNEAGRAM: Type 7 - The Visionary Enthusiast (7w6)",
-        "",
-        "",
-        "",
-        "",
-        "FRAMEWORK SYNCHRONIZATION: ENNEAGRAM x MBTI x BIG FIVE (OCEAN)"
-      ],
-      "row_1": []
-    },
-    {
-      "title": "MBTI_Bridge",
-      "sheet_id": 520960759,
-      "index": 6,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 13,
-      "header_row_index": 2,
-      "headers": [
-        "MBTI Ingest Status:",
-        "✅ Connected via SIGNAL_BUS",
-        "Active MBTI Code:",
-        "Pending",
-        "MBTI Coherence:",
-        "",
-        "Shadow Risk:"
-      ],
-      "row_1": [
-        "COGNITIVE SOFTWARE BRIDGE: MBTI & SHADOW ARCHITECTURE (LIVE FROM MBTI OS)"
-      ]
-    },
-    {
-      "title": "Pillar1_Unconscious_Triad",
-      "sheet_id": 1005941483,
-      "index": 7,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 24,
-      "header_row_index": 3,
-      "headers": [
-        "",
-        "PRIMARY CENTER: Head (Fear) | PROFILE: Type 7 - The Visionary Enthusiast",
-        "",
-        "",
-        "",
-        "",
-        "FRAMEWORK: ESOTERIC LINEAGE x NEUROBIOLOGY x SOMATIC AUDITING"
-      ],
-      "row_1": []
-    },
-    {
-      "title": "Pillar2_Cognitive_Levels",
-      "sheet_id": 49476074,
-      "index": 8,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 30,
-      "header_row_index": 3,
-      "headers": [
-        "",
-        "ACTIVE TYPE: Type 7 - The Visionary Enthusiast | WING: 7w6",
-        "",
-        "",
-        "",
-        "",
-        "FRAMEWORK: SACRED GEOMETRY (3-6-9 / 1-4-2-8-5-7) x RISO-HUDSON 9 LEVELS"
-      ],
-      "row_1": []
-    },
-    {
-      "title": "Pillar3_Psychometric_Auditor",
-      "sheet_id": 1036658415,
-      "index": 9,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 27,
-      "header_row_index": 3,
-      "headers": [
-        "",
-        "MONITORED TYPE: Type 7 - The Visionary Enthusiast | WING: 7w6",
-        "",
-        "",
-        "",
-        "",
-        "EPISTEMIC AUDIT: APA DELPHI POLL x BARNUM EFFECT x TRAIT VS STATE"
-      ],
-      "row_1": []
-    },
-    {
-      "title": "Pillar4_Social_Dynamics",
-      "sheet_id": 1500071534,
-      "index": 10,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 25,
-      "header_row_index": 3,
-      "headers": [
-        "",
-        "MONITORED PROFILE: Type 7 - The Visionary Enthusiast (7w6)",
-        "",
-        "",
-        "",
-        "",
-        "FRAMEWORK: HORNEVIAN STANCES x HARMONIC CONFLICT x ORGANIZATIONAL FRICTION"
-      ],
-      "row_1": []
-    },
-    {
-      "title": "Pillar5_DeFixation_Engine",
-      "sheet_id": 1841386018,
-      "index": 11,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 18,
-      "header_row_index": 3,
-      "headers": [
-        "",
-        "ACTIVE EGO CAGE: Type 7 - The Visionary Enthusiast | WING: 7w6",
-        "",
-        "",
-        "",
-        "",
-        "OPERATIONAL DIRECTIVE: SOMATIC CUE -> PASSION AUDIT -> VIRTUE -> INTEGRATION"
-      ],
-      "row_1": []
-    },
-    {
-      "title": "📋 MODULE_META",
-      "sheet_id": 195095736,
-      "index": 12,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 10,
-      "header_row_index": 1,
-      "headers": [
-        "Parameter",
-        "Value",
-        "Architecture Rule"
-      ],
-      "row_1": [
-        "Parameter",
-        "Value",
-        "Architecture Rule"
-      ]
-    },
-    {
-      "title": "📥 CONTEXT_IN",
-      "sheet_id": 1945591436,
-      "index": 13,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 8,
-      "header_row_index": 1,
-      "headers": [
-        "Signal_Key",
-        "Live_Normalized_0_100",
-        "Status_Flag",
-        "Active_State_Trigger"
-      ],
-      "row_1": [
-        "Signal_Key",
-        "Live_Normalized_0_100",
-        "Status_Flag",
-        "Active_State_Trigger"
-      ]
-    },
-    {
-      "title": "📤 SIGNALS_OUT",
-      "sheet_id": 1103146802,
-      "index": 14,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 4,
-      "header_row_index": 1,
-      "headers": [
-        "Signal_Key",
-        "Source_Brick",
-        "Pillar",
-        "Raw_Value",
-        "Normalized_0_100",
-        "Last_Updated",
-        "TTL_Hours",
-        "Status_Flag",
-        "Notes"
-      ],
-      "row_1": [
-        "Signal_Key",
-        "Source_Brick",
-        "Pillar",
-        "Raw_Value",
-        "Normalized_0_100",
-        "Last_Updated",
-        "TTL_Hours",
-        "Status_Flag",
-        "Notes"
-      ]
-    },
-    {
-      "title": "Enneagram Personalities",
-      "sheet_id": 1180313856,
-      "index": 15,
-      "hidden": false,
-      "row_count": 998,
-      "col_count": 26,
-      "populated_row_count": 127,
-      "header_row_index": 1,
-      "headers": [
-        "Type_Key",
-        "Type_Num",
-        "Archetype_Title",
-        "Core_Desire",
-        "Core_Fear",
-        "Ego_Fixation_&_Vice",
-        "Virtue_&_Holy_Idea",
-        "Growth_Arrow_(+)",
-        "Stress_Arrow_(-)"
-      ],
-      "row_1": [
-        "Type_Key",
-        "Type_Num",
-        "Archetype_Title",
-        "Core_Desire",
-        "Core_Fear",
-        "Ego_Fixation_&_Vice",
-        "Virtue_&_Holy_Idea",
-        "Growth_Arrow_(+)",
-        "Stress_Arrow_(-)"
-      ]
-    },
-    {
-      "title": "MBTI_Raw_Ingest",
-      "sheet_id": 323626353,
-      "index": 16,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 6,
-      "header_row_index": 1,
-      "headers": [
-        "Signal_Key",
-        "Source_Hub",
-        "Raw_Value",
-        "Normalized_0_100",
-        "Status_Flag",
-        "Architecture_Note",
-        "",
-        "",
-        "",
-        "",
-        "#REF!",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "#REF!"
-      ],
-      "row_1": [
-        "Signal_Key",
-        "Source_Hub",
-        "Raw_Value",
-        "Normalized_0_100",
-        "Status_Flag",
-        "Architecture_Note",
-        "",
-        "",
-        "",
-        "",
-        "#REF!",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "#REF!"
-      ]
-    },
-    {
-      "title": "Form Responses 1",
-      "sheet_id": 372708525,
-      "index": 17,
-      "hidden": false,
-      "row_count": 102,
-      "col_count": 57,
-      "populated_row_count": 2,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "I hold myself to an uncompromising internal standard of correctness and feel acute personal guilt when I fall short.",
-        "It is difficult for me to truly relax when I see disorder, inefficiency, or tasks done improperly around me.",
-        "I often experience an underlying resentment when others neglect their duties or cut corners without consequence.",
-        "I have a relentless internal critic that constantly audits my decisions, actions, and character.",
-        "I instinctively believe that if something is worth doing, it must be done thoroughly, ethically, and without compromise.",
-        "I intuitively sense what others need emotionally or practically before they even ask for help.",
-        "It is much easier for me to give support and advice to others than to articulate or ask for what I need myself.",
-        "I feel a quiet, sharp rejection when my efforts to help or support someone are dismissed or unacknowledged.",
-        "I often find my sense of personal worth tied to how essential I am to the well-being of the people in my life.",
-        "I will frequently overextend my time and energy for others, even when it severely drains my own reserves.",
-        "I instinctively calibrate my presentation, tone, and image to match what is respected and successful in any given room.",
-        "I feel restless or empty when I am not actively progressing toward tangible, measurable goals.",
-        "When faced with emotional distress, my default reaction is to channel that energy directly into work and productive output.",
-        "I prioritize speed, efficiency, and practical results over lengthy emotional processing or unnecessary deliberation.",
-        "Deep down, I worry that if I strip away my achievements, status, and competence, there may be nothing of substance left.",
-        "I feel fundamentally different from most people, as though I was born missing an essential component that others easily possess.",
-        "I am drawn to melancholy, creative depth, and intense emotions, finding superficial positivity shallow and alienating.",
-        "I actively resist conforming to conventional norms or mass-market trends because protecting my personal distinctiveness is paramount.",
-        "When I feel misunderstood or rejected, my instinct is to withdraw inward and intensify my emotional uniqueness rather than adapt.",
-        "I spend considerable time longing for an idealized emotional connection, past state, or future reality that feels just out of reach.",
-        "I experience social interaction and external demands as an energetic cost that requires deliberate rationing and solitary recovery.",
-        "I need to thoroughly understand the underlying architecture and theoretical mechanics of a system before I feel safe participating in it.",
-        "I strictly guard my privacy, mental bandwidth, and physical boundaries against intrusions and uninvited obligations.",
-        "In high-stress or emotionally charged situations, my immediate defense is to detach and analyze the facts with objective neutrality.",
-        "I prefer to minimize my personal needs and live self-sufficiently rather than rely on external systems or people I cannot control.",
-        "My mind automatically runs predictive worst-case scenarios and scans the environment for hidden vulnerabilities or hazards.",
-        "When evaluating leaders, authorities, or plans, my default stance is constructive skepticism until credibility and loyalty are proven.",
-        "I place immense value on loyalty, consistency, and duty, and I react strongly to perceived betrayal or unreliability.",
-        "I often experience an internal tug-of-war between doubting my own conclusions and seeking validation from trusted frameworks or allies.",
-        "Even when circumstances appear stable and smooth, I remain on alert for the unforeseen problem or hidden trap.",
-        "When an experience becomes repetitive, restrictive, or emotionally burdensome, my mind immediately jumps to future possibilities and new projects.",
-        "I resist rigid, closed-ended commitments because I need to preserve my options and spontaneous freedom of movement.",
-        "I possess an insatiable appetite for new ideas, stimulating experiences, and creative synthesis across diverse fields.",
-        "I reflexively reframe negative setbacks and emotional discomfort into opportunities, silver linings, or intriguing puzzles.",
-        "Committing to one single narrow path provokes anxiety that I am permanently closing the door on a universe of untapped potential.",
-        "I have zero tolerance for indirectness, passive aggression, or weakness masquerading as virtue; I demand direct truth.",
-        "My immediate, visceral response to anyone attempting to exert illegitimate authority or control over me is fierce resistance.",
-        "I naturally take charge in a crisis, asserting my will and commanding the perimeter before others have finished deliberating.",
-        "I respect opponents who stand their ground and fight back with strength far more than people who appease or back down.",
-        "I actively protect my inner vulnerabilities beneath an armor of toughness, decisive action, and unyielding self-reliance.",
-        "In conflicts, I naturally see the valid points of all sides and instinctively seek to diffuse tension and restore harmony.",
-        "It is often easier for me to go along with someone else's preferences and agenda than to determine and assert what I truly want.",
-        "When internal stress or external conflict escalates, I have a tendency to mentally check out, procrastinate, or seek comforting distractions.",
-        "I go to great lengths to avoid rocking the boat or creating interpersonal friction, sometimes at the expense of my own priorities.",
-        "I find it exhausting when people create unnecessary drama, and I prefer a calm, steady rhythm of life where everyone gets along.",
-        "My primary daily attention naturally focuses on physical comfort, health, financial baseline, and practical logistics.",
-        "I am constantly attuned to group dynamics, social hierarchies, belonging, and how my contributions impact the collective.",
-        "I prioritize intense one-on-one chemistry, magnetic attraction, and deep personal electricity over broad socializing or material comfort.",
-        "When critical systems fail, I automatically suppress emotional reactions to audit the failure objectively and engineer a solution.",
-        "I view my personal agency as an active force designed to carve out my own trajectory rather than fit inside conventional structures."
-      ],
-      "row_1": [
-        "Timestamp",
-        "I hold myself to an uncompromising internal standard of correctness and feel acute personal guilt when I fall short.",
-        "It is difficult for me to truly relax when I see disorder, inefficiency, or tasks done improperly around me.",
-        "I often experience an underlying resentment when others neglect their duties or cut corners without consequence.",
-        "I have a relentless internal critic that constantly audits my decisions, actions, and character.",
-        "I instinctively believe that if something is worth doing, it must be done thoroughly, ethically, and without compromise.",
-        "I intuitively sense what others need emotionally or practically before they even ask for help.",
-        "It is much easier for me to give support and advice to others than to articulate or ask for what I need myself.",
-        "I feel a quiet, sharp rejection when my efforts to help or support someone are dismissed or unacknowledged.",
-        "I often find my sense of personal worth tied to how essential I am to the well-being of the people in my life.",
-        "I will frequently overextend my time and energy for others, even when it severely drains my own reserves.",
-        "I instinctively calibrate my presentation, tone, and image to match what is respected and successful in any given room.",
-        "I feel restless or empty when I am not actively progressing toward tangible, measurable goals.",
-        "When faced with emotional distress, my default reaction is to channel that energy directly into work and productive output.",
-        "I prioritize speed, efficiency, and practical results over lengthy emotional processing or unnecessary deliberation.",
-        "Deep down, I worry that if I strip away my achievements, status, and competence, there may be nothing of substance left.",
-        "I feel fundamentally different from most people, as though I was born missing an essential component that others easily possess.",
-        "I am drawn to melancholy, creative depth, and intense emotions, finding superficial positivity shallow and alienating.",
-        "I actively resist conforming to conventional norms or mass-market trends because protecting my personal distinctiveness is paramount.",
-        "When I feel misunderstood or rejected, my instinct is to withdraw inward and intensify my emotional uniqueness rather than adapt.",
-        "I spend considerable time longing for an idealized emotional connection, past state, or future reality that feels just out of reach.",
-        "I experience social interaction and external demands as an energetic cost that requires deliberate rationing and solitary recovery.",
-        "I need to thoroughly understand the underlying architecture and theoretical mechanics of a system before I feel safe participating in it.",
-        "I strictly guard my privacy, mental bandwidth, and physical boundaries against intrusions and uninvited obligations.",
-        "In high-stress or emotionally charged situations, my immediate defense is to detach and analyze the facts with objective neutrality.",
-        "I prefer to minimize my personal needs and live self-sufficiently rather than rely on external systems or people I cannot control.",
-        "My mind automatically runs predictive worst-case scenarios and scans the environment for hidden vulnerabilities or hazards.",
-        "When evaluating leaders, authorities, or plans, my default stance is constructive skepticism until credibility and loyalty are proven.",
-        "I place immense value on loyalty, consistency, and duty, and I react strongly to perceived betrayal or unreliability.",
-        "I often experience an internal tug-of-war between doubting my own conclusions and seeking validation from trusted frameworks or allies.",
-        "Even when circumstances appear stable and smooth, I remain on alert for the unforeseen problem or hidden trap.",
-        "When an experience becomes repetitive, restrictive, or emotionally burdensome, my mind immediately jumps to future possibilities and new projects.",
-        "I resist rigid, closed-ended commitments because I need to preserve my options and spontaneous freedom of movement.",
-        "I possess an insatiable appetite for new ideas, stimulating experiences, and creative synthesis across diverse fields.",
-        "I reflexively reframe negative setbacks and emotional discomfort into opportunities, silver linings, or intriguing puzzles.",
-        "Committing to one single narrow path provokes anxiety that I am permanently closing the door on a universe of untapped potential.",
-        "I have zero tolerance for indirectness, passive aggression, or weakness masquerading as virtue; I demand direct truth.",
-        "My immediate, visceral response to anyone attempting to exert illegitimate authority or control over me is fierce resistance.",
-        "I naturally take charge in a crisis, asserting my will and commanding the perimeter before others have finished deliberating.",
-        "I respect opponents who stand their ground and fight back with strength far more than people who appease or back down.",
-        "I actively protect my inner vulnerabilities beneath an armor of toughness, decisive action, and unyielding self-reliance.",
-        "In conflicts, I naturally see the valid points of all sides and instinctively seek to diffuse tension and restore harmony.",
-        "It is often easier for me to go along with someone else's preferences and agenda than to determine and assert what I truly want.",
-        "When internal stress or external conflict escalates, I have a tendency to mentally check out, procrastinate, or seek comforting distractions.",
-        "I go to great lengths to avoid rocking the boat or creating interpersonal friction, sometimes at the expense of my own priorities.",
-        "I find it exhausting when people create unnecessary drama, and I prefer a calm, steady rhythm of life where everyone gets along.",
-        "My primary daily attention naturally focuses on physical comfort, health, financial baseline, and practical logistics.",
-        "I am constantly attuned to group dynamics, social hierarchies, belonging, and how my contributions impact the collective.",
-        "I prioritize intense one-on-one chemistry, magnetic attraction, and deep personal electricity over broad socializing or material comfort.",
-        "When critical systems fail, I automatically suppress emotional reactions to audit the failure objectively and engineer a solution.",
-        "I view my personal agency as an active force designed to carve out my own trajectory rather than fit inside conventional structures."
-      ]
-    },
-    {
-      "title": "Subject",
-      "sheet_id": 484980804,
-      "index": 18,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 2,
-      "header_row_index": 2,
-      "headers": [
-        "Subject",
-        "Chris Jack"
-      ],
-      "row_1": [
-        "",
-        "Name"
-      ]
-    }
+    "\ud83d\udd2f ENNEAGRAM_DASHBOARD",
+    "\ud83e\udded DYNAMIC_ADVISORY",
+    "Enneagram_Scoring_Engine",
+    "Instinct_Subtypes_Telemetry",
+    "Longitudinal_Timeline",
+    "Enneagram_Taxonomy_Vault",
+    "LOOKER_ENNEAGRAM",
+    "\ud83d\udccb MODULE_META",
+    "\ud83d\udce5 CONTEXT_IN",
+    "\ud83d\udce4 SIGNALS_OUT",
+    "Form Responses 1"
+  ],
+  "redundant_tabs_deleted": [
+    "MBTI_Raw_Ingest",
+    "MBTI_Bridge",
+    "LifeOS_Psychometric_Bridge",
+    "Pillar1_Unconscious_Triad",
+    "Pillar2_Cognitive_Levels",
+    "Pillar3_Psychometric_Auditor",
+    "Pillar4_Social_Dynamics",
+    "Pillar5_DeFixation_Engine",
+    "Subject"
+  ],
+  "MODULE_META": [
+    [
+      "Parameter",
+      "Value",
+      "Architecture Rule"
+    ],
+    [
+      "Brick_Name",
+      "Enneagram_Tritype_Engine",
+      "Canonical LifeOS-v3 Psychometric Lego Brick (ID_ENNEAGRAM)"
+    ],
+    [
+      "Glyph",
+      "\ud83d\udd2f",
+      "Executive HUD badge"
+    ],
+    [
+      "Pillar_Domain",
+      "I - Subjective (Core Motivation, Tritype & Ego Fixation)",
+      "AQAL UL Quadrant & Kabbalah Tiferet/Hod bridge"
+    ],
+    [
+      "Cadence_Tier",
+      "6-Month Official + Live Hub State Modulation",
+      "50-item Form Responses 1 silo modulated live via CONTEXT_IN"
+    ],
+    [
+      "Signals_Published",
+      "ENN_CORE_SIGNATURE, ENN_INTEGRATION_INDEX, ENN_DISINTEGRATION_RISK, ENN_PRIMARY_TYPE, ENN_TRITYPE, ENN_INSTINCT_STACK, ENN_GROWTH_ARROW_SCORE, ENN_STRESS_ARROW_LOAD",
+      "8 normalized signals published via \ud83d\udce4 SIGNALS_OUT"
+    ],
+    [
+      "Context_Subscribed",
+      "VITAL_HP, VITAL_MANA, VITAL_COHERENCE, MBTI_TYPE_CODE, MBTI_SHADOW_RISK, ACUTE_STRESS, P0_WISDOM_SCORE, EQ_EMOTIONAL_CONTROL, MBTI_COHERENCE_INDEX",
+      "Pulled from LifeOS_feed_hub!SIGNAL_BUS via \ud83d\udce5 CONTEXT_IN"
+    ],
+    [
+      "Live_Engine_Source",
+      "Enneagram_Scoring_Engine!B5:J36",
+      "100% dynamic 9-Type, Wing, Tritype, Harmonic, Instinct & De-Fixation engine"
+    ],
+    [
+      "Consolidated_Tabs",
+      "11 canonical color-coded tabs (9 redundant/broken tabs deleted)",
+      "LOOKER_ENNEAGRAM BI feed added; zero PII"
+    ],
+    [
+      "Last_Synced",
+      "2026-11-25 12:04 UTC",
+      "Dynamic live sync timestamp"
+    ]
+  ],
+  "SIGNALS_OUT": [
+    [
+      "Signal_Key",
+      "Source_Brick",
+      "Pillar",
+      "Raw_Value",
+      "Normalized_0_100",
+      "Last_Updated",
+      "TTL_Hours",
+      "Status_Flag",
+      "Notes"
+    ],
+    [
+      "ENN_CORE_SIGNATURE",
+      "Enneagram_Tritype_Engine",
+      "I - Subjective",
+      "Type 7 - The Visionary Enthusiast (7w6 | 794 | SX/SO/SP)",
+      "92.0",
+      "2026-11-11 13:13",
+      "4320",
+      "ACTIVE",
+      "Live Dominant Type, Wing, Tritype & Instinct Stack"
+    ],
+    [
+      "ENN_INTEGRATION_INDEX",
+      "Enneagram_Tritype_Engine",
+      "I - Subjective",
+      "76",
+      "76.0",
+      "2026-11-11 13:13",
+      "168",
+      "FLOW",
+      "Live Norm % of Growth Arrow type"
+    ],
+    [
+      "ENN_DISINTEGRATION_RISK",
+      "Enneagram_Tritype_Engine",
+      "I - Subjective",
+      "60",
+      "60.0",
+      "2026-11-11 13:13",
+      "24",
+      "ONLINE",
+      "Live Norm % of Stress Arrow type"
+    ],
+    [
+      "ENN_PRIMARY_TYPE",
+      "Enneagram_Tritype_Engine",
+      "I - Subjective",
+      "Type 7 (7w6)",
+      "92.0",
+      "2026-11-25 12:04",
+      "4320",
+      "ACTIVE",
+      "Primary Enneagram Type & Resolved Wing"
+    ],
+    [
+      "ENN_TRITYPE",
+      "Enneagram_Tritype_Engine",
+      "I - Subjective",
+      "794",
+      "84.0",
+      "2026-11-25 12:04",
+      "4320",
+      "TRITYPE_LOCKED",
+      "Dynamic 3-Center Tritype (Head \u00d7 Gut \u00d7 Heart)"
+    ],
+    [
+      "ENN_INSTINCT_STACK",
+      "Enneagram_Tritype_Engine",
+      "I - Subjective",
+      "SX/SO/SP",
+      "80.0",
+      "2026-11-25 12:04",
+      "4320",
+      "BLINDSPOT: SP",
+      "Dynamic Instinctual Variant Stack from Form Q46-Q48"
+    ],
+    [
+      "ENN_GROWTH_ARROW_SCORE",
+      "Enneagram_Tritype_Engine",
+      "I - Subjective",
+      "76",
+      "76.0",
+      "2026-11-25 12:04",
+      "168",
+      "INTEGRATING",
+      "Growth Arrow (+Type 5) Normalized Affinity %"
+    ],
+    [
+      "ENN_STRESS_ARROW_LOAD",
+      "Enneagram_Tritype_Engine",
+      "I - Subjective",
+      "60",
+      "60.0",
+      "2026-11-25 12:04",
+      "24",
+      "REGULATED",
+      "Stress Arrow (-Type 1) Normalized Load %"
+    ]
+  ],
+  "CONTEXT_IN": [
+    [
+      "Signal_Key",
+      "Live_Value_or_Score",
+      "Status_Flag",
+      "Active_State_Trigger",
+      "Hub_Auth_Trigger"
+    ],
+    [
+      "VITAL_HP",
+      "",
+      "AWAITING_AUTH",
+      "",
+      "#REF!"
+    ],
+    [
+      "VITAL_MANA",
+      "",
+      "AWAITING_AUTH",
+      "",
+      "Click E2 -> Allow access"
+    ],
+    [
+      "VITAL_COHERENCE",
+      "",
+      "AWAITING_AUTH",
+      "",
+      "Click E2 -> Allow access"
+    ],
+    [
+      "MBTI_TYPE_CODE",
+      "",
+      "AWAITING_AUTH",
+      "",
+      "Click E2 -> Allow access"
+    ],
+    [
+      "MBTI_SHADOW_RISK",
+      "",
+      "AWAITING_AUTH",
+      "",
+      "Click E2 -> Allow access"
+    ],
+    [
+      "ACUTE_STRESS",
+      "",
+      "AWAITING_AUTH",
+      "",
+      "Click E2 -> Allow access"
+    ],
+    [
+      "P0_WISDOM_SCORE",
+      "",
+      "AWAITING_AUTH",
+      "",
+      "Click E2 -> Allow access"
+    ],
+    [
+      "EQ_EMOTIONAL_CONTROL",
+      "",
+      "AWAITING_AUTH",
+      "",
+      "Click E2 -> Allow access"
+    ],
+    [
+      "MBTI_COHERENCE_INDEX",
+      "",
+      "AWAITING_AUTH",
+      "",
+      "Click E2 -> Allow access"
+    ],
+    [
+      "RESOLVED_LIVE_STATE",
+      "",
+      "COMPOSITE",
+      "Baseline",
+      "Click E2 -> Allow access"
+    ]
+  ],
+  "LOOKER_ENNEAGRAM": [
+    [
+      "Record_Type",
+      "Entity_Key",
+      "Entity_Label",
+      "Group_Or_Center",
+      "Raw_Score",
+      "Normalized_Pct",
+      "Rank",
+      "Status_Tag",
+      "Last_Updated"
+    ],
+    [
+      "PROFILE_KPI",
+      "ENN_PRIMARY_TYPE",
+      "Type 7 (7w6)",
+      "Head (Fear)",
+      "23",
+      "92.0",
+      "1",
+      "ACTIVE",
+      "2026-11-25 12:04"
+    ],
+    [
+      "PROFILE_KPI",
+      "ENN_TRITYPE",
+      "794",
+      "Head \u00d7 Gut \u00d7 Heart",
+      "794",
+      "84.0",
+      "1",
+      "TRITYPE_LOCKED",
+      "2026-11-25 12:04"
+    ],
+    [
+      "PROFILE_KPI",
+      "ENN_INSTINCT_STACK",
+      "SX/SO/SP",
+      "Instinctual Variant",
+      "4",
+      "80.0",
+      "1",
+      "BLINDSPOT: SP",
+      "2026-11-25 12:04"
+    ],
+    [
+      "PROFILE_KPI",
+      "ENN_GROWTH_ARROW",
+      "Type 5",
+      "Integration (+)",
+      "76",
+      "76.0",
+      "",
+      "INTEGRATING",
+      "2026-11-25 12:04"
+    ],
+    [
+      "PROFILE_KPI",
+      "ENN_STRESS_ARROW",
+      "Type 1",
+      "Disintegration (-)",
+      "60",
+      "60.0",
+      "",
+      "REGULATED",
+      "2026-11-25 12:04"
+    ],
+    [
+      "TYPE_9",
+      "Type_1",
+      "Type 1 - The Strict Reformer",
+      "Gut (Anger)",
+      "15",
+      "60",
+      "8",
+      "SECONDARY",
+      "2026-11-11 13:13"
+    ],
+    [
+      "TYPE_9",
+      "Type_2",
+      "Type 2 - The Relational Helper",
+      "Heart (Shame)",
+      "18",
+      "72",
+      "5",
+      "SECONDARY",
+      "2026-11-11 13:13"
+    ],
+    [
+      "TYPE_9",
+      "Type_3",
+      "Type 3 - The Pragmatic Achiever",
+      "Heart (Shame)",
+      "16",
+      "64",
+      "7",
+      "SECONDARY",
+      "2026-11-11 13:13"
+    ],
+    [
+      "TYPE_9",
+      "Type_4",
+      "Type 4 - The Individualist",
+      "Heart (Shame)",
+      "19",
+      "76",
+      "3",
+      "CORE_AFFINITY",
+      "2026-11-11 13:13"
+    ],
+    [
+      "TYPE_9",
+      "Type_5",
+      "Type 5 - The Analytical Observer",
+      "Head (Fear)",
+      "19",
+      "76",
+      "3",
+      "CORE_AFFINITY",
+      "2026-11-11 13:13"
+    ],
+    [
+      "TYPE_9",
+      "Type_6",
+      "Type 6 - The Vigilant Loyalist",
+      "Head (Fear)",
+      "18",
+      "72",
+      "5",
+      "SECONDARY",
+      "2026-11-11 13:13"
+    ],
+    [
+      "TYPE_9",
+      "Type_7",
+      "Type 7 - The Visionary Enthusiast",
+      "Head (Fear)",
+      "23",
+      "92",
+      "1",
+      "DOMINANT_TYPE",
+      "2026-11-11 13:13"
+    ],
+    [
+      "TYPE_9",
+      "Type_8",
+      "Type 8 - The Decisive Challenger",
+      "Gut (Anger)",
+      "15",
+      "60",
+      "8",
+      "SECONDARY",
+      "2026-11-11 13:13"
+    ],
+    [
+      "TYPE_9",
+      "Type_9",
+      "Type 9 - The Receptive Peacemaker",
+      "Gut (Anger)",
+      "21",
+      "84",
+      "2",
+      "CORE_AFFINITY",
+      "2026-11-11 13:13"
+    ],
+    [
+      "TRIAD",
+      "TRIAD_GUT",
+      "Gut / Anger",
+      "8 / 9 / 1",
+      "51",
+      "31.1",
+      "3",
+      "SUPPORT_CENTER",
+      "2026-11-11 13:13"
+    ],
+    [
+      "TRIAD",
+      "TRIAD_HEART",
+      "Heart / Shame",
+      "2 / 3 / 4",
+      "53",
+      "32.3",
+      "2",
+      "SUPPORT_CENTER",
+      "2026-11-11 13:13"
+    ],
+    [
+      "TRIAD",
+      "TRIAD_HEAD",
+      "Head / Fear",
+      "5 / 6 / 7",
+      "60",
+      "36.6",
+      "1",
+      "DOMINANT_CENTER",
+      "2026-11-11 13:13"
+    ],
+    [
+      "HORNEVIAN",
+      "HORN_ASSERTIVE",
+      "Assertive (Against)",
+      "3 / 7 / 8 (+Q50)",
+      "59",
+      "34.9",
+      "1",
+      "DOMINANT_STANCE",
+      "2026-11-11 13:13"
+    ],
+    [
+      "HORNEVIAN",
+      "HORN_COMPLIANT",
+      "Compliant (Toward)",
+      "1 / 2 / 6",
+      "51",
+      "30.2",
+      "3",
+      "SECONDARY_STANCE",
+      "2026-11-11 13:13"
+    ],
+    [
+      "HORNEVIAN",
+      "HORN_WITHDRAWN",
+      "Withdrawn (Away)",
+      "4 / 5 / 9",
+      "59",
+      "34.9",
+      "1",
+      "DOMINANT_STANCE",
+      "2026-11-11 13:13"
+    ],
+    [
+      "INSTINCT",
+      "INST_SP",
+      "Self-Preservation (SP)",
+      "Q46",
+      "2",
+      "40",
+      "3",
+      "BLINDSPOT",
+      "2026-11-11 13:13"
+    ],
+    [
+      "INSTINCT",
+      "INST_SO",
+      "Social (SO)",
+      "Q47",
+      "3",
+      "60",
+      "2",
+      "SECONDARY",
+      "2026-11-11 13:13"
+    ],
+    [
+      "INSTINCT",
+      "INST_SX",
+      "Sexual / 1-to-1 (SX)",
+      "Q48",
+      "4",
+      "80",
+      "1",
+      "DOMINANT",
+      "2026-11-11 13:13"
+    ],
+    [
+      "HARMONIC",
+      "HARM_POSITIVE",
+      "Positive Outlook",
+      "2 / 7 / 9",
+      "62",
+      "37.8",
+      "1",
+      "DOMINANT_HARMONIC",
+      "2026-11-11 13:13"
+    ],
+    [
+      "HARMONIC",
+      "HARM_REACTIVE",
+      "Reactive",
+      "4 / 6 / 8",
+      "52",
+      "31.7",
+      "2",
+      "SECONDARY_HARMONIC",
+      "2026-11-11 13:13"
+    ],
+    [
+      "HARMONIC",
+      "HARM_COMPETENCY",
+      "Competency",
+      "1 / 3 / 5",
+      "50",
+      "30.5",
+      "3",
+      "SECONDARY_HARMONIC",
+      "2026-11-11 13:13"
+    ]
   ]
 }
