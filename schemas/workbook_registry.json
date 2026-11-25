@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-25T06:49:18Z",
+  "last_updated_utc": "2026-11-25T07:12:14Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -806,9 +806,9 @@
         "LOGGED_EVENT_IDS"
       ],
       "module_count": 40,
-      "signal_count": 226,
+      "signal_count": 230,
       "tab_color_coded": true,
-      "last_audited_utc": "2026-11-25T06:49:18Z"
+      "last_audited_utc": "2026-11-25T07:12:14Z"
     },
     "ID_MASTER_LOG": {
       "title": "LifeOS - Master Log",
@@ -1952,7 +1952,7 @@
         "SIGNALS_OUT",
         "CRM_LOVE_LIFE_REF"
       ],
-      "tab_count": 43,
+      "tab_count": 15,
       "linked_forms": [
         {
           "name": "Body Count",
@@ -1965,7 +1965,30 @@
       ],
       "schema_ref": null,
       "last_snapshot_utc": "2026-11-24T01:51:53Z",
-      "universal_brick_compliant": true
+      "universal_brick_compliant": true,
+      "tabs": [
+        "\u2764\ufe0f BODY_COUNT_DASHBOARD",
+        "MASTER_LEADERBOARD_ENGINE",
+        "CATEGORY_&_COHORT_LEADERBOARDS",
+        "ALL_TIME_UNIFIED_ARCHIVE",
+        "AESTHETIC_&_BODY_RUBRICS",
+        "COMPATIBILITY_&_RISK_RUBRICS",
+        "Love_Life_Revisited_Data",
+        "LOOKER_BODY_COUNT",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT",
+        "CRM_LOVE_LIFE_REF",
+        "Form Responses 1",
+        "Body_Count_Legacy_Data",
+        "Sex Logistics"
+      ],
+      "primary_tab": "\u2764\ufe0f BODY_COUNT_DASHBOARD",
+      "looker_tab": "LOOKER_BODY_COUNT",
+      "redundant_tabs_deleted_count": 35,
+      "tab_color_coded": true,
+      "privacy_boundary": "STRICT_AGGREGATE_ONLY_ZERO_PII",
+      "last_audited_utc": "2026-11-25T07:12:14Z"
     },
     "ID_MOVIES": {
       "title": "Movie Input Form (Responses)",
@@ -2186,12 +2209,76 @@
         "SIGNALS_OUT",
         "LOOKER_RELATIONSHIP_AGGREGATES"
       ],
-      "tab_count": 10,
+      "tab_count": 11,
       "last_snapshot_utc": "2026-11-25T00:56:59Z",
       "snapshot_file": "schemas/live_snapshots/ID_PILLAR_3.json",
       "looker_tabs": [
         "LOOKER_RELATIONSHIP_AGGREGATES"
-      ]
+      ],
+      "tabs": [
+        "DASHBOARD",
+        "PREFERENCE_PROFILE",
+        "DATABASE",
+        "CALCULATIONS",
+        "DOSSIER_TEMPLATE",
+        "P3_CONFIG",
+        "LOOKER_RELATIONSHIP_AGGREGATES",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT",
+        "IMPORTS"
+      ],
+      "tab_color_coded": true,
+      "ingested_sources": [
+        {
+          "name": "Core_CRM",
+          "spreadsheet_id": "1PKYbEie4QUgSqqTVW1Y2UVjBgRStz4Aok2BhCWCvU5M"
+        },
+        {
+          "name": "Body_Count_2_0",
+          "spreadsheet_id": "1aqYHU_bc-AqgREdvutE3VgG952_gd70yDKt4dMH6L1E",
+          "tabs": [
+            "\u2764\ufe0f BODY_COUNT_DASHBOARD",
+            "MASTER_LEADERBOARD_ENGINE",
+            "CATEGORY_&_COHORT_LEADERBOARDS",
+            "ALL_TIME_UNIFIED_ARCHIVE",
+            "AESTHETIC_&_BODY_RUBRICS",
+            "COMPATIBILITY_&_RISK_RUBRICS",
+            "Love_Life_Revisited_Data",
+            "LOOKER_BODY_COUNT",
+            "MODULE_META",
+            "CONTEXT_IN",
+            "SIGNALS_OUT",
+            "CRM_LOVE_LIFE_REF",
+            "Form Responses 1",
+            "Body_Count_Legacy_Data",
+            "Sex Logistics"
+          ],
+          "tab_count": 15,
+          "primary_tab": "\u2764\ufe0f BODY_COUNT_DASHBOARD",
+          "looker_tab": "LOOKER_BODY_COUNT",
+          "redundant_tabs_deleted_count": 35,
+          "tab_color_coded": true,
+          "privacy_boundary": "STRICT_AGGREGATE_ONLY_ZERO_PII",
+          "last_audited_utc": "2026-11-25T07:12:14Z",
+          "status": "ACTIVE"
+        },
+        {
+          "name": "RAW_DATA_Intake",
+          "spreadsheet_id": "1qBw-5H8AslAeJPo4XtSCkQdNm3Tgmn4msSccSIlC450"
+        },
+        {
+          "name": "RAW_DATA_EventLog",
+          "spreadsheet_id": "1p9LUEUQl_2N0AvaC15FGqD7ySzfJMObEeZj-KCQUZ-8"
+        },
+        {
+          "name": "RAW_DATA_Preference",
+          "spreadsheet_id": "1TIA5KyRt629BWV5wlL1Maug5ppEqls5zHsugaYv783U",
+          "form_id": "1hj71P4yFQa0PAbo3ML1J2K2V2Z87NSMkQV2xVBD1udY",
+          "role": "Layer 1 Private Preference Silo -> PREFERENCE_PROFILE"
+        }
+      ],
+      "last_audited_utc": "2026-11-25T07:04:33Z"
     },
     "ID_RAW_INTAKE": {
       "title": "RAW_DATA_Intake",
