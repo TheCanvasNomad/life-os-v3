@@ -1,7 +1,7 @@
 # LifeOS-v3 Hub & Brick `IMPORTRANGE` Browser Authorization Checklist
 
 > **Why this checklist exists**: Google Sheets requires a one-time interactive browser click (**"Allow access"** on a `#REF!` cell) for each new cross-spreadsheet `IMPORTRANGE` connection. APIs and scripts cannot grant this permission on your behalf.  
-> **Last Audited**: `2026-11-24` (`SCAFFOLDED_EXECUTION_INDEX` + `🧠 Emotional_Intelligence_Brick` + `💞 Love_Styles_&_Languages_Brick` + 209 Legacy Travel Reviews + `🏅 Achievements_Engine_Brick` + Unified Main XP Bar live — all 7 Pillars `P0`–`P6`, `BIO_CORE`, normalized 4-workbook CRM stack, `LifeOS_Master_Bus`, and all Wave-1/Wave-2/Wave-3 Bricks standardized on the 9-column `SIGNALS_OUT` contract & wired live into `LifeOS_feed_hub` -> `SIGNAL_BUS` with **219 signals & 0 formula errors**!)
+> **Last Audited**: `2026-11-24` (Core Display Pillar III **`🎮 CHARACTER_PROFILE_HUD`** promoted + `SCAFFOLDED_EXECUTION_INDEX` + `🧠 Emotional_Intelligence_Brick` + `💞 Love_Styles_&_Languages_Brick` + 209 Legacy Travel Reviews + `🏅 Achievements_Engine_Brick` + Unified Main XP Bar live — all 7 Pillars `P0`–`P6`, `BIO_CORE`, normalized 4-workbook CRM stack, `LifeOS_Master_Bus`, and all Wave-1/Wave-2/Wave-3 Bricks standardized on the 9-column `SIGNALS_OUT` contract & wired live into `LifeOS_feed_hub` -> `SIGNAL_BUS` with **219 signals, 40 registered modules & 0 formula errors**!)
 
 ---
 
@@ -52,6 +52,7 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | [ ] | `MODULE_REGISTRY!J38` | **🏅 Achievements_Engine_Brick** | `1oPwOgvsk49CJ7x9pmYIf0Ex2EBHlrKVpb7SO9Ja4-JQ` | All 11 zero-PII `ACH_*` trophy signals (`ACH_TOTAL_UNLOCKED`, `ACH_COMPLETION_PCT`, `ACH_WEIGHTED_SCORE`, `ACH_MODERN_PCT`, `ACH_UNIVERSAL_PCT`, `ACH_UL_PCT`, `ACH_UR_PCT`, `ACH_LL_PCT`, `ACH_LR_PCT`, `ACH_XP_TOTAL`, `ACH_HIGH_WEIGHT_UNLOCKS`) -> `AQAL_VIEW` Overlay, `CHARACTER_SHEET` Sec 7, `PUBLIC_DATA`, `LOOKER_SYSTEM_TELEMETRY`, & `XP Leveler` Stream #9 + Crucible Wt>=7 Gate |
 | [ ] | `MODULE_REGISTRY!J39` | **💞 Love_Styles_&_Languages_Brick** | `1qg60_G6kEB3wNFJ8JcX3UkyL14ohiJO69uGvoTrU2Bw` | All 5 zero-PII `LOVE_*` psychometric signals (`LOVE_PRIMARY_RECEIVING`, `LOVE_PRIMARY_EXPRESSING`, `LOVE_RECIPROCITY_BALANCE_PCT`, `LOVE_BLIND_SPOT_COUNT`, `LOVE_CLASSIC_PRIMARY`) -> `SIGNAL_BUS`, `LOOKER_SYSTEM_TELEMETRY`, & `💞 Pillar_3_Relationships!CONTEXT_IN` |
 | [ ] | `MODULE_REGISTRY!J40` | **🧠 Emotional_Intelligence_Brick** | `1SCNYZjryNR7r3VLA_Np6_PaRUoR0tYJMzGkrWdR8_NU` | All 7 zero-PII `EQ_*` longitudinal signals (`EQ_COMPOSITE_SCORE`, `EQ_OTHER_AWARENESS`, `EQ_INTERPERSONAL`, `EQ_SELF_AWARENESS`, `EQ_EMPATHY`, `EQ_EMOTIONAL_CONTROL`, `EQ_WELLBEING`) -> `SIGNAL_BUS`, `LOOKER_SYSTEM_TELEMETRY`, `💞 Pillar_3_Relationships` Regulation Guard, & `💞 Love_Styles_&_Languages_Brick` EQ × Love Style Bridge |
+| [ ] | `MODULE_REGISTRY!J41` | **🎮 CHARACTER_PROFILE_HUD** | `13fowIl8CIw9KgMp8OC4N5L-AwvAqANM8jNaUnujLo1E` | Core Display Pillar III telemetry (`HUD_DOSSIER_HYDRATION_PCT`, `HUD_FORM_SUBMISSIONS_COUNT`, `HUD_LIVE_BRICKS_CONNECTED`) |
 
 ---
 
@@ -186,6 +187,8 @@ Each of the 11 newly standardized Bricks has a dedicated unwrapped **`Hub_Auth_T
 | [ ] | `ID_LOVE_STYLES` | **💞 Love_Styles_&_Languages_Brick** (`CONTEXT_IN!F2`) | https://docs.google.com/spreadsheets/d/1qg60_G6kEB3wNFJ8JcX3UkyL14ohiJO69uGvoTrU2Bw/edit#gid=1292663411 | `P3_RELATIONSHIP_BASE_SCORE`, `P3_AVERAGE_LOVE_TANK`, `ACUTE_STRESS`, `P0_WISDOM_SCORE` |
 | [ ] | `ID_LOVE_STYLES` | **💞 Love_Styles_&_Languages_Brick** (`IMPORTS!F2`) | https://docs.google.com/spreadsheets/d/1qg60_G6kEB3wNFJ8JcX3UkyL14ohiJO69uGvoTrU2Bw/edit#gid=181740800 | Streams Layer 1 `RAW_DATA_LoveLanguage` (`1v8uyDCX1ViIvIw09Z2vTg3K3sx6edxiK5gL1jAVtMgA`) into Classic-5 Love Languages scorer |
 | [ ] | `ID_EQ` | **🧠 Emotional_Intelligence_Brick** (`CONTEXT_IN!F2`) | https://docs.google.com/spreadsheets/d/1SCNYZjryNR7r3VLA_Np6_PaRUoR0tYJMzGkrWdR8_NU/edit#gid=1405083967 | `ACUTE_STRESS`, `P0_WISDOM_SCORE`, `P3_RELATIONSHIP_BASE_SCORE`, `LOVE_RECIPROCITY_BALANCE_PCT` |
+| [ ] | `ID_CHARACTER_HUD` | **🎮 CHARACTER_PROFILE_HUD** (`DOSSIER_ENGINE!C3:C8`) | https://docs.google.com/spreadsheets/d/13fowIl8CIw9KgMp8OC4N5L-AwvAqANM8jNaUnujLo1E/edit#gid=1318864443 | Click `C3` (`LifeOS_feed_hub`) + `C4` (`LifeOS_Master_Bus`) first to light up the Unified XP Bar, 5 Master Gauges & 28 clickable Brick links; then `C5:C8` (`Zodiac`, `HD`, `Enneagram`, `BIO_CORE`) for 100% dynamic cross-brick Dossier auto-hydration |
+| [ ] | `ID_CHARACTER_HUD` | **🎮 CHARACTER_PROFILE_HUD** (`CONTEXT_IN!F2`) | https://docs.google.com/spreadsheets/d/13fowIl8CIw9KgMp8OC4N5L-AwvAqANM8jNaUnujLo1E/edit#gid=1408077653 | Standard 3-tab connector context verification (auto-authorized once `DOSSIER_ENGINE!C3` is approved) |
 
 ---
 

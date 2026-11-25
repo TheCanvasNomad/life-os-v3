@@ -1,0 +1,153 @@
+{
+  "registry_key": "ID_CHARACTER_HUD",
+  "title": "\ud83c\udfae CHARACTER_PROFILE_HUD",
+  "spreadsheet_id": "13fowIl8CIw9KgMp8OC4N5L-AwvAqANM8jNaUnujLo1E",
+  "snapshot_utc": "2026-11-25T01:15:05Z",
+  "pii_policy": "ZERO_PII_HEADERS_ONLY",
+  "tab_count": 7,
+  "tabs": [
+    {
+      "title": "CHARACTER_HUD",
+      "sheet_id": 1601552080,
+      "index": 0,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 68,
+      "col_count": 9,
+      "headers_row_1": [
+        "\ud83c\udfae LIFEOS v3.0 \u2014 CHARACTER PROFILE HUD (CORE DISPLAY PILLAR III)"
+      ]
+    },
+    {
+      "title": "DOSSIER_ENGINE",
+      "sheet_id": 1318864443,
+      "index": 1,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 115,
+      "col_count": 10,
+      "headers_row_1": [
+        "\u2699\ufe0f DOSSIER_ENGINE \u2014 100% DYNAMIC SOURCE ROUTING & CROSS-BRICK AUTO-HYDRATION (ZERO STATIC VALUES)"
+      ]
+    },
+    {
+      "title": "LOOKER_CHARACTER_HUD",
+      "sheet_id": 1152247204,
+      "index": 2,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 85,
+      "col_count": 10,
+      "headers_row_1": [
+        "Section",
+        "Domain_Group",
+        "Entity_Key",
+        "Entity_Label",
+        "Primary_Value",
+        "Numeric_Score_0_100",
+        "Status_Tag",
+        "Brick_URL",
+        "Last_Updated"
+      ]
+    },
+    {
+      "title": "MODULE_META",
+      "sheet_id": 905094621,
+      "index": 3,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 20,
+      "col_count": 4,
+      "headers_row_1": [
+        "Meta_Key",
+        "Meta_Value",
+        "Description"
+      ]
+    },
+    {
+      "title": "CONTEXT_IN",
+      "sheet_id": 1408077653,
+      "index": 4,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 25,
+      "col_count": 7,
+      "headers_row_1": [
+        "Signal_Key",
+        "Live_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Freshness_Status",
+        "Hub_Auth_Trigger"
+      ]
+    },
+    {
+      "title": "SIGNALS_OUT",
+      "sheet_id": 1322635809,
+      "index": 5,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 15,
+      "col_count": 10,
+      "headers_row_1": [
+        "Signal_Key",
+        "Source_Brick",
+        "Glyph",
+        "Domain_Pillar",
+        "Raw_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated",
+        "TTL_Hours"
+      ]
+    },
+    {
+      "title": "Form Responses 1",
+      "sheet_id": 1946616602,
+      "index": 6,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 101,
+      "col_count": 43,
+      "headers_row_1": [
+        "Timestamp",
+        "Date",
+        "Sun Sign",
+        "Moon Sign",
+        "Rising Sign (Ascendant)",
+        "Human Design Type",
+        "Human Design Profile",
+        "Inner Authority",
+        "Life Path Number",
+        "MBTI Personality Type:",
+        "Annex?",
+        "Primary Enneagram Type",
+        "Secondary Enneagram Type:",
+        "Enneagram Wing",
+        "Secondary Enneagram Wing",
+        "CliftonStrengths Top 5",
+        "Primary DISC Quadrant",
+        "Secondary DISC Quadrant",
+        "Attachment Style",
+        "Cognitive Bias Trigger",
+        "Full Legal Name:",
+        "Birth Date:",
+        "Birth Time",
+        "Birth Location",
+        "Blood Type",
+        "Height:",
+        "Somatotype",
+        "Baseline Metabolic Rate (BMR):",
+        "Cultural Heritage:",
+        "Definition of Freedom:",
+        "The \"Big Why\":",
+        "Top 3 Core Values:",
+        "Moral Alignment:",
+        "End-Game Location",
+        "Dream Home Focal Point",
+        "Passive Income Target",
+        "Life Goal Bucket List"
+      ]
+    }
+  ]
+}

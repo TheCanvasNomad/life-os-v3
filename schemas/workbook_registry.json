@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-25T01:05:58Z",
+  "last_updated_utc": "2026-11-25T01:15:05Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -268,7 +268,7 @@
         "LifeOS Master Bus"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-25T00:56:59Z",
+      "last_snapshot_utc": "2026-11-25T01:15:05Z",
       "all_tabs": [
         "SYMBIOSIS_HUD",
         "Workbook_Directory",
@@ -705,7 +705,7 @@
         "LifeOS Feed Hub"
       ],
       "schema_ref": "schemas/lifeos_feed_hub_schema.json",
-      "last_snapshot_utc": "2026-11-25T01:05:58Z",
+      "last_snapshot_utc": "2026-11-25T01:15:05Z",
       "all_tabs": [
         "SIGNAL_BUS",
         "MODULE_REGISTRY",
@@ -2884,6 +2884,50 @@
       "universal_brick_compliant": true,
       "looker_tabs": [
         "LOOKER_EQ_PROFILE"
+      ]
+    },
+    "ID_CHARACTER_HUD": {
+      "title": "\ud83c\udfae CHARACTER_PROFILE_HUD",
+      "spreadsheet_id": "13fowIl8CIw9KgMp8OC4N5L-AwvAqANM8jNaUnujLo1E",
+      "drive_url": "https://docs.google.com/spreadsheets/d/13fowIl8CIw9KgMp8OC4N5L-AwvAqANM8jNaUnujLo1E/edit",
+      "status": "ACTIVE",
+      "layer": "core_os_hub",
+      "domain": "Core Display Pillar III / 100% Dynamic RPG Character Profile HUD & Looker Master",
+      "live_tabs": [
+        "CHARACTER_HUD",
+        "DOSSIER_ENGINE",
+        "LOOKER_CHARACTER_HUD",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "search_aliases": [
+        "\ud83c\udfae CHARACTER_PROFILE_HUD",
+        "CHARACTER_PROFILE_HUD",
+        "\ud83c\udfae CHARACTER CREATION: THE STATIC DOSSIER (Responses)",
+        "Character Profile HUD"
+      ],
+      "schema_ref": null,
+      "last_snapshot_utc": "2026-11-25T01:15:05Z",
+      "all_tabs": [
+        "CHARACTER_HUD",
+        "DOSSIER_ENGINE",
+        "LOOKER_CHARACTER_HUD",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT",
+        "Form Responses 1"
+      ],
+      "tab_count": 7,
+      "linked_forms": [
+        {
+          "name": "\ud83c\udfae CHARACTER CREATION: THE STATIC DOSSIER",
+          "form_id": "1Z2R6a9-Y4U8I6pUoXZtQpDEcrifzSqfFP35-Jpjoqtc"
+        }
+      ],
+      "universal_brick_compliant": true,
+      "looker_tabs": [
+        "LOOKER_CHARACTER_HUD"
       ]
     }
   },
