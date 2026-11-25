@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-25T00:56:59Z",
+  "last_updated_utc": "2026-11-25T01:05:58Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -408,7 +408,7 @@
         "LifeOS_XP_Hub"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-24T17:18:44Z",
+      "last_snapshot_utc": "2026-11-25T01:05:58Z",
       "all_tabs": [
         "Player_HUD",
         "XP_Ledger",
@@ -705,7 +705,7 @@
         "LifeOS Feed Hub"
       ],
       "schema_ref": "schemas/lifeos_feed_hub_schema.json",
-      "last_snapshot_utc": "2026-11-25T00:56:59Z",
+      "last_snapshot_utc": "2026-11-25T01:05:58Z",
       "all_tabs": [
         "SIGNAL_BUS",
         "MODULE_REGISTRY",

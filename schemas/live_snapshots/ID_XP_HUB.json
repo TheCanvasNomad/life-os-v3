@@ -2,7 +2,7 @@
   "registry_key": "ID_XP_HUB",
   "title": "XP Leveler",
   "spreadsheet_id": "1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k",
-  "snapshot_utc": "2026-11-24T17:18:44Z",
+  "snapshot_utc": "2026-11-25T01:05:58Z",
   "pii_policy": "ZERO_PII_HEADERS_ONLY",
   "tab_count": 19,
   "tabs": [
@@ -292,7 +292,7 @@
       "title": "CONTEXT_IN",
       "sheet_id": 294848872,
       "index": 17,
-      "hidden": false,
+      "hidden": true,
       "sheet_type": "GRID",
       "row_count": 1000,
       "col_count": 26,

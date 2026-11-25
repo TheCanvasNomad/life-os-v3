@@ -1,7 +1,7 @@
 # LifeOS-v3 Hub & Brick `IMPORTRANGE` Browser Authorization Checklist
 
 > **Why this checklist exists**: Google Sheets requires a one-time interactive browser click (**"Allow access"** on a `#REF!` cell) for each new cross-spreadsheet `IMPORTRANGE` connection. APIs and scripts cannot grant this permission on your behalf.  
-> **Last Audited**: `2026-11-24` (`🧠 Emotional_Intelligence_Brick` + `💞 Love_Styles_&_Languages_Brick` + 209 Legacy Travel Reviews + `🏅 Achievements_Engine_Brick` + Unified Main XP Bar & `PILLAR_XP_ABSORPTION` 9-Stream Delta Engine live — all 7 Pillars `P0`–`P6`, `BIO_CORE`, normalized 4-workbook CRM stack, `LifeOS_Master_Bus`, and all Wave-1/Wave-2/Wave-3 Bricks standardized on the 9-column `SIGNALS_OUT` contract & wired live into `LifeOS_feed_hub` -> `SIGNAL_BUS` with **217 signals & 0 formula errors**!)
+> **Last Audited**: `2026-11-24` (`SCAFFOLDED_EXECUTION_INDEX` + `🧠 Emotional_Intelligence_Brick` + `💞 Love_Styles_&_Languages_Brick` + 209 Legacy Travel Reviews + `🏅 Achievements_Engine_Brick` + Unified Main XP Bar live — all 7 Pillars `P0`–`P6`, `BIO_CORE`, normalized 4-workbook CRM stack, `LifeOS_Master_Bus`, and all Wave-1/Wave-2/Wave-3 Bricks standardized on the 9-column `SIGNALS_OUT` contract & wired live into `LifeOS_feed_hub` -> `SIGNAL_BUS` with **219 signals & 0 formula errors**!)
 
 ---
 
@@ -205,7 +205,7 @@ The `#REF!` `A2` spill collisions on `SRC_XP_HUB`, `SRC_KABBALAH`, and `SRC_16PF
 ## 4. Post-Approval Verification
 
 Once you finish clicking **"Allow access"** above:
-1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **217** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
+1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **219** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
 2. Open **`LifeOS_feed_hub` -> `AQAL_VIEW`** (`#gid=168404271`): confirm all 4 Quadrants (`UL`, `UR`, `LL`, `LR`) show live composite scores, `SPARKLINE` gauges, `Quadrant Balance Score`, `Achievements AQAL Overlay`, and a live `Corrective Quest Directive`.
 3. Open any Brick's **`CONTEXT_IN`** tab from Section 2: confirm `F3:F5` switches from `"Click F2 -> Allow access"` to `"AUTHORIZED"` and Columns `B:E` stream live Hub context.
 4. Open **`XP Leveler` -> `PILLAR_XP_ABSORPTION`** (`#gid=1096501556`): verify all **9** Pillar & Brick XP streams (`P0`–`P6`, `Travel_Tracker`, `Achievements_Engine_Brick`) flow into `Live_Raw_Pillar_XP` and feed the Unified Main XP Bar on `Player_HUD` with zero double-counting.
