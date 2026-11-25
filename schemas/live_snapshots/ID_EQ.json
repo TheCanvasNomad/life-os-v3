@@ -1,0 +1,168 @@
+{
+  "registry_key": "ID_EQ",
+  "title": "\ud83e\udde0 Emotional_Intelligence_Brick",
+  "spreadsheet_id": "1SCNYZjryNR7r3VLA_Np6_PaRUoR0tYJMzGkrWdR8_NU",
+  "snapshot_utc": "2026-11-25T00:56:59Z",
+  "pii_policy": "ZERO_PII_HEADERS_ONLY",
+  "tab_count": 9,
+  "tabs": [
+    {
+      "title": "DASHBOARD",
+      "sheet_id": 1281031556,
+      "index": 0,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 36,
+      "col_count": 9,
+      "headers_row_1": [
+        "\ud83e\udde0 LIFEOS v3.0 \u2014 EMOTIONAL INTELLIGENCE (EQ) LONGITUDINAL ENGINE HUD"
+      ]
+    },
+    {
+      "title": "EQ_HISTORICAL_LEDGER",
+      "sheet_id": 1545976921,
+      "index": 1,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 60,
+      "col_count": 13,
+      "headers_row_1": [
+        "Run_ID",
+        "Run_Date",
+        "Source_Mode",
+        "EQ_Superpower",
+        "Self_Awareness",
+        "Other_Awareness",
+        "Emotional_Control",
+        "Interpersonal_Intelligence",
+        "Empathy",
+        "Wellbeing",
+        "Composite_EQ",
+        "Primary_Bottleneck"
+      ]
+    },
+    {
+      "title": "SCORING_ENGINE",
+      "sheet_id": 764315470,
+      "index": 2,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 45,
+      "col_count": 8,
+      "headers_row_1": [
+        "\ud83e\udde0 LIFEOS v3.0 \u2014 EQ FORM SCORING ENGINE & 6\u00d75 TELEMETRY ADVISORY MATRIX"
+      ]
+    },
+    {
+      "title": "LONGITUDINAL_DELTAS",
+      "sheet_id": 1546744997,
+      "index": 3,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 20,
+      "col_count": 13,
+      "headers_row_1": [
+        "Dimension",
+        "Ledger_Col",
+        "Baseline_2024",
+        "Latest_Score",
+        "Delta_vs_Baseline",
+        "Delta_6M_180d",
+        "Delta_1Y_365d",
+        "Delta_3Y_1095d",
+        "Delta_5Y_1825d",
+        "Delta_10Y_3650d",
+        "Status_Flag",
+        "Latest_Run_Date"
+      ]
+    },
+    {
+      "title": "LOOKER_EQ_PROFILE",
+      "sheet_id": 333001309,
+      "index": 4,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 80,
+      "col_count": 14,
+      "headers_row_1": [
+        "Record_Type",
+        "Entity_Key",
+        "Dimension_Label",
+        "Run_Date",
+        "Source_Mode",
+        "Baseline_2024",
+        "Score_0_100",
+        "Delta_vs_Baseline",
+        "Delta_6M",
+        "Delta_1Y",
+        "Delta_3Y",
+        "Delta_5Y",
+        "Delta_10Y",
+        "Status_Flag"
+      ]
+    },
+    {
+      "title": "MODULE_META",
+      "sheet_id": 1740744858,
+      "index": 5,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 20,
+      "col_count": 4,
+      "headers_row_1": [
+        "Meta_Key",
+        "Meta_Value",
+        "Description"
+      ]
+    },
+    {
+      "title": "CONTEXT_IN",
+      "sheet_id": 1405083967,
+      "index": 6,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 15,
+      "col_count": 7,
+      "headers_row_1": [
+        "Signal_Key",
+        "Live_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Freshness_Status",
+        "Hub_Auth_Trigger"
+      ]
+    },
+    {
+      "title": "SIGNALS_OUT",
+      "sheet_id": 218883696,
+      "index": 7,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 15,
+      "col_count": 10,
+      "headers_row_1": [
+        "Signal_Key",
+        "Source_Brick",
+        "Glyph",
+        "Domain_Pillar",
+        "Raw_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated",
+        "TTL_Hours"
+      ]
+    },
+    {
+      "title": "Form Responses 1",
+      "sheet_id": 899153072,
+      "index": 8,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 100,
+      "col_count": 26,
+      "headers_row_1": [
+        "Timestamp"
+      ]
+    }
+  ]
+}

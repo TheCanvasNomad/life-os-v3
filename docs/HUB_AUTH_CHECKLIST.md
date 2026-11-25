@@ -1,7 +1,7 @@
 # LifeOS-v3 Hub & Brick `IMPORTRANGE` Browser Authorization Checklist
 
 > **Why this checklist exists**: Google Sheets requires a one-time interactive browser click (**"Allow access"** on a `#REF!` cell) for each new cross-spreadsheet `IMPORTRANGE` connection. APIs and scripts cannot grant this permission on your behalf.  
-> **Last Audited**: `2026-11-24` (`💞 Love_Styles_&_Languages_Brick` + 209 Legacy Travel Reviews + `🏅 Achievements_Engine_Brick` + Unified Main XP Bar & `PILLAR_XP_ABSORPTION` 9-Stream Delta Engine live — all 7 Pillars `P0`–`P6`, `BIO_CORE`, normalized 4-workbook CRM stack, `LifeOS_Master_Bus`, consolidated Travel/Bucket List silos, `🏅 Achievements_Engine_Brick`, `💞 Love_Styles_&_Languages_Brick`, and all Wave-1/Wave-2 Bricks standardized on the 9-column `SIGNALS_OUT` contract & wired live into `LifeOS_feed_hub` -> `SIGNAL_BUS` with **210 signals & 0 formula errors**!)
+> **Last Audited**: `2026-11-24` (`🧠 Emotional_Intelligence_Brick` + `💞 Love_Styles_&_Languages_Brick` + 209 Legacy Travel Reviews + `🏅 Achievements_Engine_Brick` + Unified Main XP Bar & `PILLAR_XP_ABSORPTION` 9-Stream Delta Engine live — all 7 Pillars `P0`–`P6`, `BIO_CORE`, normalized 4-workbook CRM stack, `LifeOS_Master_Bus`, and all Wave-1/Wave-2/Wave-3 Bricks standardized on the 9-column `SIGNALS_OUT` contract & wired live into `LifeOS_feed_hub` -> `SIGNAL_BUS` with **217 signals & 0 formula errors**!)
 
 ---
 
@@ -51,6 +51,7 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | [ ] | `MODULE_REGISTRY!J37` | **🔮 Pillar_6_Esoteric_Self** | `1vVvU5TfzjGYFMNbMlSNaUjREj8HBkDPMwbzLiBnfxA0` | All 8 strictly anonymized `P6_*` capstone signals (`P6_ESOTERIC_BASE_SCORE`, `P6_PRANA_7D_AVG`, `P6_ALCHEMICAL_FURNACE_PCT`, `P6_RETENTION_STREAK_DAYS`, `P6_TRUE_WILL_ALIGNMENT_PCT`, `P6_SIGIL_MANIFESTATION_RATE_PCT`, `P6_VIBRATORY_BUFF_STATE`, `P6_DESTINY_BUFF_ACTIVE`; zero sigil prose) -> `RULES_ENGINE` (`[High Vibration]`, `[Energy Leak]`, `[Destiny]`, Furnace Spillovers), `SWORD_VIEW` Pommel, `CHARACTER_SHEET`, `AI_Synthesis_Report` |
 | [ ] | `MODULE_REGISTRY!J38` | **🏅 Achievements_Engine_Brick** | `1oPwOgvsk49CJ7x9pmYIf0Ex2EBHlrKVpb7SO9Ja4-JQ` | All 11 zero-PII `ACH_*` trophy signals (`ACH_TOTAL_UNLOCKED`, `ACH_COMPLETION_PCT`, `ACH_WEIGHTED_SCORE`, `ACH_MODERN_PCT`, `ACH_UNIVERSAL_PCT`, `ACH_UL_PCT`, `ACH_UR_PCT`, `ACH_LL_PCT`, `ACH_LR_PCT`, `ACH_XP_TOTAL`, `ACH_HIGH_WEIGHT_UNLOCKS`) -> `AQAL_VIEW` Overlay, `CHARACTER_SHEET` Sec 7, `PUBLIC_DATA`, `LOOKER_SYSTEM_TELEMETRY`, & `XP Leveler` Stream #9 + Crucible Wt>=7 Gate |
 | [ ] | `MODULE_REGISTRY!J39` | **💞 Love_Styles_&_Languages_Brick** | `1qg60_G6kEB3wNFJ8JcX3UkyL14ohiJO69uGvoTrU2Bw` | All 5 zero-PII `LOVE_*` psychometric signals (`LOVE_PRIMARY_RECEIVING`, `LOVE_PRIMARY_EXPRESSING`, `LOVE_RECIPROCITY_BALANCE_PCT`, `LOVE_BLIND_SPOT_COUNT`, `LOVE_CLASSIC_PRIMARY`) -> `SIGNAL_BUS`, `LOOKER_SYSTEM_TELEMETRY`, & `💞 Pillar_3_Relationships!CONTEXT_IN` |
+| [ ] | `MODULE_REGISTRY!J40` | **🧠 Emotional_Intelligence_Brick** | `1SCNYZjryNR7r3VLA_Np6_PaRUoR0tYJMzGkrWdR8_NU` | All 7 zero-PII `EQ_*` longitudinal signals (`EQ_COMPOSITE_SCORE`, `EQ_OTHER_AWARENESS`, `EQ_INTERPERSONAL`, `EQ_SELF_AWARENESS`, `EQ_EMPATHY`, `EQ_EMOTIONAL_CONTROL`, `EQ_WELLBEING`) -> `SIGNAL_BUS`, `LOOKER_SYSTEM_TELEMETRY`, `💞 Pillar_3_Relationships` Regulation Guard, & `💞 Love_Styles_&_Languages_Brick` EQ × Love Style Bridge |
 
 ---
 
@@ -184,6 +185,7 @@ Each of the 11 newly standardized Bricks has a dedicated unwrapped **`Hub_Auth_T
 | [ ] | `ID_ACHIEVEMENTS` | **🏅 Achievements_Engine_Brick** | https://docs.google.com/spreadsheets/d/1oPwOgvsk49CJ7x9pmYIf0Ex2EBHlrKVpb7SO9Ja4-JQ/edit#gid=1880613721 | `P5_EXPERIENCE_BASE_SCORE`, `AQAL_BALANCE_SCORE`, `XP_CURRENT_LEVEL`, `TRAVEL_CONTINENTS_COUNT` |
 | [ ] | `ID_LOVE_STYLES` | **💞 Love_Styles_&_Languages_Brick** (`CONTEXT_IN!F2`) | https://docs.google.com/spreadsheets/d/1qg60_G6kEB3wNFJ8JcX3UkyL14ohiJO69uGvoTrU2Bw/edit#gid=1292663411 | `P3_RELATIONSHIP_BASE_SCORE`, `P3_AVERAGE_LOVE_TANK`, `ACUTE_STRESS`, `P0_WISDOM_SCORE` |
 | [ ] | `ID_LOVE_STYLES` | **💞 Love_Styles_&_Languages_Brick** (`IMPORTS!F2`) | https://docs.google.com/spreadsheets/d/1qg60_G6kEB3wNFJ8JcX3UkyL14ohiJO69uGvoTrU2Bw/edit#gid=181740800 | Streams Layer 1 `RAW_DATA_LoveLanguage` (`1v8uyDCX1ViIvIw09Z2vTg3K3sx6edxiK5gL1jAVtMgA`) into Classic-5 Love Languages scorer |
+| [ ] | `ID_EQ` | **🧠 Emotional_Intelligence_Brick** (`CONTEXT_IN!F2`) | https://docs.google.com/spreadsheets/d/1SCNYZjryNR7r3VLA_Np6_PaRUoR0tYJMzGkrWdR8_NU/edit#gid=1405083967 | `ACUTE_STRESS`, `P0_WISDOM_SCORE`, `P3_RELATIONSHIP_BASE_SCORE`, `LOVE_RECIPROCITY_BALANCE_PCT` |
 
 ---
 
@@ -203,7 +205,7 @@ The `#REF!` `A2` spill collisions on `SRC_XP_HUB`, `SRC_KABBALAH`, and `SRC_16PF
 ## 4. Post-Approval Verification
 
 Once you finish clicking **"Allow access"** above:
-1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **210** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
+1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **217** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
 2. Open **`LifeOS_feed_hub` -> `AQAL_VIEW`** (`#gid=168404271`): confirm all 4 Quadrants (`UL`, `UR`, `LL`, `LR`) show live composite scores, `SPARKLINE` gauges, `Quadrant Balance Score`, `Achievements AQAL Overlay`, and a live `Corrective Quest Directive`.
 3. Open any Brick's **`CONTEXT_IN`** tab from Section 2: confirm `F3:F5` switches from `"Click F2 -> Allow access"` to `"AUTHORIZED"` and Columns `B:E` stream live Hub context.
 4. Open **`XP Leveler` -> `PILLAR_XP_ABSORPTION`** (`#gid=1096501556`): verify all **9** Pillar & Brick XP streams (`P0`–`P6`, `Travel_Tracker`, `Achievements_Engine_Brick`) flow into `Live_Raw_Pillar_XP` and feed the Unified Main XP Bar on `Player_HUD` with zero double-counting.
