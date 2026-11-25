@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-25T01:15:05Z",
+  "last_updated_utc": "2026-11-25T06:17:01Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -440,7 +440,7 @@
       "title": "Kaballah Tree of Life OS Engine",
       "spreadsheet_id": "19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0",
       "drive_url": "https://docs.google.com/spreadsheets/d/19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0/edit",
-      "status": "bound",
+      "status": "ACTIVE",
       "layer": "brick",
       "domain": "Pillar 6 Esoteric Self / 10 Sephirot + Da'at & 22 Paths",
       "live_tabs": [
@@ -471,7 +471,32 @@
         "LifeOS_Feed_Hub",
         "Master_Bus_Mirror"
       ],
-      "tab_count": 15
+      "tab_count": 12,
+      "tabs": [
+        "\ud83c\udf33 KABBALAH_DASHBOARD",
+        "Tree_of_Life_Glyph",
+        "\ud83e\udded DYNAMIC_ADVISORY",
+        "Sefirot_10_&_Daat",
+        "Pillars_Triads_&_Worlds",
+        "22_Connecting_Paths",
+        "Longitudinal_Analytics",
+        "LOOKER_KABBALAH",
+        "\ud83d\udccb MODULE_META",
+        "\ud83d\udce5 CONTEXT_IN",
+        "\ud83d\udce4 SIGNALS_OUT",
+        "Form_Intake_Archive"
+      ],
+      "primary_tab": "\ud83d\udce4 SIGNALS_OUT",
+      "secondary_tab": "Sefirot_10_&_Daat",
+      "looker_tab": "LOOKER_KABBALAH",
+      "redundant_tabs_deleted": [
+        "Kabbalah_Live_Telemetry",
+        "Kabbalah_Gamification_Bus",
+        "LifeOS_Feed_Hub",
+        "Master_Bus_Mirror"
+      ],
+      "tab_color_coded": true,
+      "last_audited_utc": "2026-11-25T06:17:01Z"
     },
     "ID_16PF": {
       "title": "Life OS // Cattell 16PF (Responses)",

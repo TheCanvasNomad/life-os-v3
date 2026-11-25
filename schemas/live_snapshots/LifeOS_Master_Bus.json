@@ -339,5 +339,84 @@
         "Sync_Status"
       ]
     }
-  ]
+  ],
+  "captured_at_utc": "2026-11-25T06:17:54Z",
+  "kabbalah_engine_outputs": [
+    [
+      "Output_Key",
+      "Workbook_Key",
+      "Staging_Tab",
+      "Metric_Key",
+      "Fallback",
+      "Live_Value",
+      "Source_Status"
+    ],
+    [
+      "KABBALAH_EFFECTIVE_QUALITY",
+      "ID_KABBALAH",
+      "SRC_KABBALAH",
+      "KAB_EFFECTIVE_QUALITY",
+      "",
+      "0.6916",
+      "LIVE FORMULA"
+    ],
+    [
+      "KABBALAH_LIGHTNING_FLOW",
+      "ID_KABBALAH",
+      "SRC_KABBALAH",
+      "KABBALAH_LIGHTNING_FLOW",
+      "",
+      "70.00%",
+      "LIVE FORMULA"
+    ],
+    [
+      "KABBALAH_PILLAR_BALANCE",
+      "ID_KABBALAH",
+      "SRC_KABBALAH",
+      "KAB_PILLAR_EQUILIBRIUM",
+      "",
+      "0.883",
+      "LIVE FORMULA"
+    ],
+    [
+      "KABBALAH_32_PATHS_FLOW",
+      "ID_KABBALAH",
+      "SRC_KABBALAH",
+      "KAB_32_PATHS_FLOW",
+      "",
+      "0.6832",
+      "LIVE FORMULA"
+    ],
+    [
+      "KABBALAH_ASSIAH_GROUNDING",
+      "ID_KABBALAH",
+      "SRC_KABBALAH",
+      "KAB_GROUNDING_INDEX",
+      "",
+      "0.5833",
+      "LIVE FORMULA"
+    ],
+    [
+      "KAB_XP_NET_MULT",
+      "ID_KABBALAH",
+      "SRC_KABBALAH",
+      "KAB_XP_NET_MULT",
+      "",
+      "114.10%",
+      "LIVE FORMULA"
+    ]
+  ],
+  "kabbalah_directory_row": [
+    [
+      "ID_KABBALAH",
+      "Kaballah Tree of Life OS Engine",
+      "SRC_KABBALAH",
+      "\ud83d\udce4 SIGNALS_OUT",
+      "Sefirot_10_&_Daat",
+      "Esoteric",
+      "19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0",
+      "https://docs.google.com/spreadsheets/d/19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0/edit?usp=drivesdk"
+    ]
+  ],
+  "kabbalah_audit_errors": 0
 }

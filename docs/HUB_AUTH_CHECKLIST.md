@@ -1,7 +1,7 @@
 # LifeOS-v3 Hub & Brick `IMPORTRANGE` Browser Authorization Checklist
 
 > **Why this checklist exists**: Google Sheets requires a one-time interactive browser click (**"Allow access"** on a `#REF!` cell) for each new cross-spreadsheet `IMPORTRANGE` connection. APIs and scripts cannot grant this permission on your behalf.  
-> **Last Audited**: `2026-11-24` (Core Display Pillar III **`🎮 CHARACTER_PROFILE_HUD`** promoted + `SCAFFOLDED_EXECUTION_INDEX` + `🧠 Emotional_Intelligence_Brick` + `💞 Love_Styles_&_Languages_Brick` + 209 Legacy Travel Reviews + `🏅 Achievements_Engine_Brick` + Unified Main XP Bar live — all 7 Pillars `P0`–`P6`, `BIO_CORE`, normalized 4-workbook CRM stack, `LifeOS_Master_Bus`, and all Wave-1/Wave-2/Wave-3 Bricks standardized on the 9-column `SIGNALS_OUT` contract & wired live into `LifeOS_feed_hub` -> `SIGNAL_BUS` with **219 signals, 40 registered modules & 0 formula errors**!)
+> **Last Audited**: `2026-11-25` (**`Kaballah Tree of Life OS Engine`** (`ID_KABBALAH`) audited, consolidated to 12 color-coded tabs, 4 redundant tabs deleted, `[ARCHIVED]` trashed, `Tree_of_Life_Glyph` / Horizontal Triads / `Longitudinal_Analytics` / `📥 CONTEXT_IN` repaired, `LOOKER_KABBALAH` added — alongside Core Display Pillar III **`🎮 CHARACTER_PROFILE_HUD`**, `SCAFFOLDED_EXECUTION_INDEX`, `🧠 Emotional_Intelligence_Brick`, `💞 Love_Styles_&_Languages_Brick`, 209 Legacy Travel Reviews, `🏅 Achievements_Engine_Brick`, & Unified Main XP Bar — **219 signals, 40 registered modules, 17 flat Looker tabs & 0 formula errors**!)
 
 ---
 
@@ -190,16 +190,18 @@ Each of the 11 newly standardized Bricks has a dedicated unwrapped **`Hub_Auth_T
 | [ ] | `ID_CHARACTER_HUD` | **🎮 CHARACTER_PROFILE_HUD** (`DOSSIER_ENGINE!C3:C8`) | https://docs.google.com/spreadsheets/d/13fowIl8CIw9KgMp8OC4N5L-AwvAqANM8jNaUnujLo1E/edit#gid=1318864443 | Click `C3` (`LifeOS_feed_hub`) + `C4` (`LifeOS_Master_Bus`) first to light up the Unified XP Bar, 5 Master Gauges & 28 clickable Brick links; then `C5:C8` (`Zodiac`, `HD`, `Enneagram`, `BIO_CORE`) for 100% dynamic cross-brick Dossier auto-hydration |
 | [ ] | `ID_CHARACTER_HUD` | **🎮 CHARACTER_PROFILE_HUD** (`CONTEXT_IN!F2`) | https://docs.google.com/spreadsheets/d/13fowIl8CIw9KgMp8OC4N5L-AwvAqANM8jNaUnujLo1E/edit#gid=1408077653 | Standard 3-tab connector context verification (auto-authorized once `DOSSIER_ENGINE!C3` is approved) |
 
+| [x] | `ID_KABBALAH` | **Kaballah Tree of Life OS Engine** (`📥 CONTEXT_IN!E2`) | https://docs.google.com/spreadsheets/d/19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0/edit#gid=759983827 | **LIVE (`AUTHORIZED`)**: `VITAL_HP` (`69.0`), `VITAL_MANA` (`73.6`), `VITAL_STAMINA` (`58.0`), `VITAL_COHERENCE` (`78.2`), `MBTI_SHADOW_RISK` (`70.0`), `ENN_DISINTEGRATION_RISK` (`60.0`), `BIO_READINESS_SCORE` (`61.3`), `ACUTE_STRESS`, `P0_WISDOM_SCORE`, `P6_TRUE_WILL_ALIGNMENT_PCT` -> `RESOLVED_LIVE_STATE = Shadow_Trigger` |
+
 ---
 
-## 3. `LifeOS_Master_Bus` — 4 Remaining `IMPORTRANGE` Approvals
+## 3. `LifeOS_Master_Bus` — 3 Remaining `IMPORTRANGE` Approvals
 
-The `#REF!` `A2` spill collisions on `SRC_XP_HUB`, `SRC_KABBALAH`, and `SRC_16PF` have been fixed (`KAB_XP_NET_MULT` is already live at `114.10%`!). Only these 4 cells need a one-time browser **"Allow access"** click:
+The `#REF!` `A2` spill collisions on `SRC_XP_HUB`, `SRC_KABBALAH`, and `SRC_16PF` have been fixed (`SRC_KABBALAH` is now 100% **LIVE** across all 6 `Engine_Outputs` metrics and `SYMBIOSIS_HUD!B11` = `69.16%`!). Only these 3 cells need a one-time browser **"Allow access"** click:
 
 | Done | Tab & Cell | Direct Tab Link | Target Workbook | Unlocks |
 | :---: | :--- | :--- | :--- | :--- |
 | [ ] | `SRC_XP_HUB!A3` | https://docs.google.com/spreadsheets/d/1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ/edit#gid=778024592 | **XP Leveler** (`1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k`) | `SIG_XP_LEVEL` live Player HUD feed |
-| [ ] | `SRC_KABBALAH!A3` | https://docs.google.com/spreadsheets/d/1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ/edit#gid=482453950 | **Kaballah Tree of Life OS Engine** (`19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0`) | All 5 remaining `Engine_Outputs` `KABBALAH_*` metrics |
+| [x] | `SRC_KABBALAH!A3` | https://docs.google.com/spreadsheets/d/1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ/edit#gid=482453950 | **Kaballah Tree of Life OS Engine** (`19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0`) | **LIVE (`ALL 6 METRICS`)**: `KABBALAH_EFFECTIVE_QUALITY` (`0.6916`), `LIGHTNING_FLOW` (`70.00%`), `PILLAR_BALANCE` (`0.883`), `32_PATHS_FLOW` (`0.6832`), `ASSIAH_GROUNDING` (`0.5833`), `KAB_XP_NET_MULT` (`114.10%`) |
 | [ ] | `SRC_16PF!A3` | https://docs.google.com/spreadsheets/d/1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ/edit#gid=653666860 | **Life OS // Cattell 16PF** (`1zOZVYFUZsQdRtPQzyK6izLLlxczi8vcDQTOSmh8yFho`) | `SIG_16PF_BURNOUT` live Projector Burnout Guard |
 | [ ] | `SYMBIOSIS_HUD!B13` | https://docs.google.com/spreadsheets/d/1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ/edit#gid=212814514 | **LifeOS_feed_hub** (`1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U`) | Live `AQAL Quadrant Balance Score` inside `SYMBIOSIS_HUD` |
 

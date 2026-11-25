@@ -1,384 +1,905 @@
 {
-  "registry_key": "ID_KABBALAH",
-  "title": "Kaballah Tree of Life OS Engine",
   "spreadsheet_id": "19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0",
-  "url": "https://docs.google.com/spreadsheets/d/19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0/edit",
-  "time_zone": "America/New_York",
-  "snapshot_utc": "2026-11-23T07:42:58Z",
-  "tab_count": 15,
+  "title": "Kaballah Tree of Life OS Engine",
+  "key": "ID_KABBALAH",
+  "captured_at_utc": "2026-11-25T06:17:01Z",
+  "pii_scrubbed": true,
+  "tab_count": 12,
   "tabs": [
     {
-      "title": "🌳 KABBALAH_DASHBOARD",
-      "sheet_id": 1477541344,
       "index": 0,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 15,
-      "header_row_index": 2,
-      "headers": [
-        "Weighted Quality:",
-        "69.2%",
-        "Pillar Equilibrium:",
-        "88.3%",
-        "Alchemical Grounding:",
-        "58.3%",
-        "Live Hub State:",
-        "Shadow_Trigger"
-      ],
-      "row_1": [
-        "🌳 ETZ CHAIM // UNIFIED KABBALAH TREE OF LIFE — MASTER COMMAND HUD"
-      ]
+      "title": "\ud83c\udf33 KABBALAH_DASHBOARD",
+      "sheetId": 1477541344,
+      "tabColor": "#F59E0B",
+      "hideGridlines": true
     },
     {
-      "title": "Tree_of_Life_Glyph",
-      "sheet_id": 1884912345,
       "index": 1,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 36,
-      "header_row_index": 2,
-      "headers": [
-        "",
-        "◀ LEFT PILLAR: BOAZ (SEVERITY / FORM)",
-        "",
-        "",
-        "",
-        "◆ MIDDLE PILLAR: MILDNESS (EQUILIBRIUM)",
-        "",
-        "",
-        "",
-        "RIGHT PILLAR: JACHIN (MERCY / EXPANSION) ▶"
-      ],
-      "row_1": [
-        "🌳 ETZ CHAIM — INTERACTIVE KABBALISTIC TREE OF LIFE GLYPH (100% LIVE TELEMETRY)"
-      ]
+      "title": "Tree_of_Life_Glyph",
+      "sheetId": 1884912345,
+      "tabColor": "#F59E0B",
+      "hideGridlines": true
     },
     {
-      "title": "🧭 DYNAMIC_ADVISORY",
-      "sheet_id": 1995356351,
       "index": 2,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 19,
-      "header_row_index": 2,
-      "headers": [
-        "Primary Drag Node:",
-        "Tiferet (Heart & Internal Harmony)",
-        "Weakest Conduit:",
-        "Tzaddi (צ)",
-        "Live Hub State:",
-        "Shadow_Trigger",
-        "ACTIVE"
-      ],
-      "row_1": [
-        "🧭 KABBALAH SEPHIROTIC ENGINE — DYNAMIC ALCHEMICAL ADVISORY MATRIX"
-      ]
+      "title": "\ud83e\udded DYNAMIC_ADVISORY",
+      "sheetId": 1995356351,
+      "tabColor": "#8B5CF6",
+      "hideGridlines": true
     },
     {
-      "title": "Sefirot_10_&_Daat",
-      "sheet_id": 1948940226,
       "index": 3,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 14,
-      "header_row_index": 3,
-      "headers": [
-        "Node_ID",
-        "Sefirah_Name",
-        "Pillar",
-        "World",
-        "Planetary_Correlate",
-        "Ray_Center",
-        "Weight",
-        "Live_Score",
-        "Deficit_Drag",
-        "Live_Gauge"
-      ],
-      "row_1": [
-        "THE SEFIROT OF THE TREE OF LIFE & DA'AT — LIVE SKILL TREE ENGINE"
-      ]
+      "title": "Sefirot_10_&_Daat",
+      "sheetId": 1948940226,
+      "tabColor": "#8B5CF6",
+      "hideGridlines": true
     },
     {
-      "title": "Pillars_Triads_&_Worlds",
-      "sheet_id": 223534467,
       "index": 4,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 19,
-      "header_row_index": 4,
-      "headers": [
-        "Vertical Pillar",
-        "Temple & Sefirot",
-        "Cosmic Polarity",
-        "Shadow Drag %",
-        "Live Score (0-10)",
-        "Weight Avg",
-        "Pillar Gauge"
-      ],
-      "row_1": [
-        "🏛️ THREE PILLARS, FOUR WORLDS (SOUL LEVELS) & EQUILIBRIUM ENGINE"
-      ]
+      "title": "Pillars_Triads_&_Worlds",
+      "sheetId": 223534467,
+      "tabColor": "#8B5CF6",
+      "hideGridlines": true
     },
     {
-      "title": "22_Connecting_Paths",
-      "sheet_id": 1822151703,
       "index": 5,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 26,
-      "header_row_index": 4,
-      "headers": [
-        "Path #",
-        "Hebrew Letter",
-        "Sefer Yetzirah Group",
-        "Element / Planet / Zodiac",
-        "From Sefirah",
-        "To Sefirah",
-        "Conductivity",
-        "Bottleneck (Min)",
-        "Conduit Gauge",
-        "Channel Status"
-      ],
-      "row_1": [
-        "🛤️ THE 22 CONNECTING PATHS OF WISDOM (SEFER YETZIRAH CONDUIT ENGINE)"
-      ]
+      "title": "22_Connecting_Paths",
+      "sheetId": 1822151703,
+      "tabColor": "#8B5CF6",
+      "hideGridlines": true
     },
     {
-      "title": "Kabbalah_Gamification_Bus",
-      "sheet_id": 933012688,
       "index": 6,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 10,
-      "header_row_index": 1,
-      "headers": [
-        "Bus_Key",
-        "Game_Layer",
-        "Live_Target_or_State",
-        "Numeric_Signal",
-        "XP_Multiplier_or_Bounty",
-        "Condition_Status",
-        "Dynamic_Quest_or_Buff_Directive"
-      ],
-      "row_1": [
-        "Bus_Key",
-        "Game_Layer",
-        "Live_Target_or_State",
-        "Numeric_Signal",
-        "XP_Multiplier_or_Bounty",
-        "Condition_Status",
-        "Dynamic_Quest_or_Buff_Directive"
-      ]
-    },
-    {
-      "title": "Kabbalah_Live_Telemetry",
-      "sheet_id": 350263652,
-      "index": 7,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 15,
-      "header_row_index": 4,
-      "headers": [
-        "Metric_Key",
-        "Live_Value",
-        "Visual Gauge / Live Status",
-        "Diagnostic Meaning & XP Bar Impact"
-      ],
-      "row_1": [
-        "🌳 LIFE OS // ETZ CHAIM (TREE OF LIFE) AUTO-SYNTHESIS HUD (11 WORKBOOKS WIRED)"
-      ]
-    },
-    {
       "title": "Longitudinal_Analytics",
-      "sheet_id": 257937070,
+      "sheetId": 257937070,
+      "tabColor": "#8B5CF6",
+      "hideGridlines": true
+    },
+    {
+      "index": 7,
+      "title": "LOOKER_KABBALAH",
+      "sheetId": 379885863,
+      "tabColor": "#06B6D4",
+      "hideGridlines": true
+    },
+    {
       "index": 8,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 14,
-      "header_row_index": 3,
-      "headers": [
-        "Node_ID",
-        "Pillar",
-        "World",
-        "Node_Name",
-        "Weight",
-        "Latest",
-        "Previous",
-        "Run_Delta",
-        "Lifetime_Mean",
-        "Median"
-      ],
-      "row_1": [
-        "KABBALISTIC TREE OF LIFE — LONGITUDINAL ANALYTICS & STATISTICAL TELEMETRY"
-      ]
+      "title": "\ud83d\udccb MODULE_META",
+      "sheetId": 713896633,
+      "tabColor": "#3B82F6",
+      "hideGridlines": true
     },
     {
-      "title": "📋 MODULE_META",
-      "sheet_id": 713896633,
       "index": 9,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 8,
-      "header_row_index": 1,
-      "headers": [
-        "Parameter",
-        "Value",
-        "Architecture Rule"
-      ],
-      "row_1": [
-        "Parameter",
-        "Value",
-        "Architecture Rule"
-      ]
+      "title": "\ud83d\udce5 CONTEXT_IN",
+      "sheetId": 759983827,
+      "tabColor": "#3B82F6",
+      "hideGridlines": true
     },
     {
-      "title": "📥 CONTEXT_IN",
-      "sheet_id": 759983827,
       "index": 10,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 9,
-      "header_row_index": 1,
-      "headers": [
-        "Signal_Key",
-        "Live_Normalized_0_100",
-        "Status_Flag",
-        "Active_State_Trigger",
-        "Hub_Auth_Trigger (Click E2 -> Allow Access)"
-      ],
-      "row_1": [
-        "Signal_Key",
-        "Live_Normalized_0_100",
-        "Status_Flag",
-        "Active_State_Trigger",
-        "Hub_Auth_Trigger (Click E2 -> Allow Access)"
-      ]
+      "title": "\ud83d\udce4 SIGNALS_OUT",
+      "sheetId": 195631960,
+      "tabColor": "#3B82F6",
+      "hideGridlines": true
     },
     {
-      "title": "📤 SIGNALS_OUT",
-      "sheet_id": 195631960,
       "index": 11,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 6,
-      "header_row_index": 1,
-      "headers": [
-        "Signal_Key",
-        "Source_Brick",
-        "Pillar",
-        "Raw_Value",
-        "Normalized_0_100",
-        "Last_Updated",
-        "TTL_Hours",
-        "Status_Flag",
-        "Notes"
-      ],
-      "row_1": [
-        "Signal_Key",
-        "Source_Brick",
-        "Pillar",
-        "Raw_Value",
-        "Normalized_0_100",
-        "Last_Updated",
-        "TTL_Hours",
-        "Status_Flag",
-        "Notes"
-      ]
-    },
-    {
       "title": "Form_Intake_Archive",
-      "sheet_id": 1201253011,
-      "index": 12,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 2,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Keter (Purpose & Will)",
-        "Chokhmah (Intuitive Insight)",
-        "Binah (Structural Comprehension)",
-        "Da'at (Integrated Synthesis)",
-        "Chesed (Expansive Vision & Generosity)",
-        "Gevurah (Discipline & Pruning)",
-        "Tiferet (Heart & Internal Harmony)",
-        "Netzach (Emotional Endurance & Passion)",
-        "Hod (Analytical Logic & Systems)",
-        "Yesod (Subconscious & Ego Stability)",
-        "Malkuth (Physical Action & Execution)",
-        "Active Bottleneck / Reflection Note"
-      ],
-      "row_1": [
-        "Timestamp",
-        "Keter (Purpose & Will)",
-        "Chokhmah (Intuitive Insight)",
-        "Binah (Structural Comprehension)",
-        "Da'at (Integrated Synthesis)",
-        "Chesed (Expansive Vision & Generosity)",
-        "Gevurah (Discipline & Pruning)",
-        "Tiferet (Heart & Internal Harmony)",
-        "Netzach (Emotional Endurance & Passion)",
-        "Hod (Analytical Logic & Systems)",
-        "Yesod (Subconscious & Ego Stability)",
-        "Malkuth (Physical Action & Execution)",
-        "Active Bottleneck / Reflection Note"
-      ]
-    },
-    {
-      "title": "LifeOS_Feed_Hub",
-      "sheet_id": 528229552,
-      "index": 13,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 53,
-      "header_row_index": 4,
-      "headers": [
-        "Brick_Key",
-        "Glyph",
-        "Lego Brick Module",
-        "Sephirotic / Pillar Alignment",
-        "Hub_Status",
-        "Last_Hub_Sync"
-      ],
-      "row_1": [
-        "🧠 LIFEOS v3.0 CENTRAL HUB DIRECTORY (HUB-AND-SPOKE ROUTER MIRROR)"
-      ]
-    },
-    {
-      "title": "Master_Bus_Mirror",
-      "sheet_id": 914895604,
-      "index": 14,
-      "hidden": false,
-      "row_count": 1000,
-      "col_count": 26,
-      "populated_row_count": 14,
-      "header_row_index": 4,
-      "headers": [
-        "Signal_Key",
-        "Source_Brick",
-        "Raw_Value",
-        "Normalized_0_100",
-        "Visual_Gauge",
-        "Status_Flag",
-        "Sephirotic_Impact"
-      ],
-      "row_1": [
-        "📡 MASTER SIGNAL_BUS TELEMETRY MIRROR (LIVE CROSS-BRICK FEED)"
-      ]
+      "sheetId": 1201253011,
+      "tabColor": "#EF4444",
+      "hideGridlines": false
     }
-  ]
+  ],
+  "signals_out": [
+    [
+      "Signal_Key",
+      "Source_Brick",
+      "Pillar",
+      "Raw_Value",
+      "Normalized_0_100",
+      "Last_Updated",
+      "TTL_Hours",
+      "Status_Flag",
+      "Notes"
+    ],
+    [
+      "KAB_EFFECTIVE_QUALITY",
+      "Kabbalah_Tree_of_Life",
+      "ITS - Systemic",
+      "0.6916",
+      "69",
+      "2026-11-13 11:37 UTC",
+      "1440",
+      "ACTIVE",
+      "Weighted Tree of Life Quality across 10 Sephirot + Da'at"
+    ],
+    [
+      "KAB_PILLAR_EQUILIBRIUM",
+      "Kabbalah_Tree_of_Life",
+      "I - Subjective",
+      "0.883",
+      "88",
+      "2026-11-13 11:37 UTC",
+      "1440",
+      "BUFF",
+      "Three-Pillar Symmetry (Jachin Mercy vs Boaz Severity)"
+    ],
+    [
+      "KAB_GROUNDING_INDEX",
+      "Kabbalah_Tree_of_Life",
+      "IT - Physical",
+      "0.5833",
+      "58",
+      "2026-11-13 11:37 UTC",
+      "720",
+      "DEBUFF",
+      "Alchemical Grounding (Tiferet -> Yesod -> Malkuth)"
+    ],
+    [
+      "KAB_HOD_SPREAD",
+      "Kabbalah_Tree_of_Life",
+      "I - Subjective",
+      "3",
+      "80",
+      "2026-11-13 11:37 UTC",
+      "720",
+      "DEBUFF",
+      "Tyranny of Hod analytical spread over Tiferet/Malkuth"
+    ],
+    [
+      "KAB_NET_XP_MULT",
+      "Kabbalah_Tree_of_Life",
+      "ITS - Gamification",
+      "1.141",
+      "78",
+      "2026-11-13 11:37 UTC",
+      "720",
+      "FLOW",
+      "Live Kabbalah XP Multiplier exported to LifeOS_feed_hub"
+    ],
+    [
+      "KAB_32_PATHS_FLOW",
+      "Kabbalah_Tree_of_Life",
+      "ITS - Systemic",
+      "0.68",
+      "68",
+      "2026-11-13 11:37 UTC",
+      "1440",
+      "ACTIVE",
+      "Mean conductivity across all 22 Hebrew Letter Connecting Paths"
+    ]
+  ],
+  "context_in_summary": [
+    [
+      "Signal_Key",
+      "Live_Normalized_0_100",
+      "Status_Flag",
+      "Active_State_Trigger"
+    ],
+    [
+      "VITAL_HP",
+      "69.0",
+      "OPERATIONAL",
+      "Baseline"
+    ],
+    [
+      "VITAL_MANA",
+      "73.6",
+      "OPERATIONAL",
+      "Baseline"
+    ],
+    [
+      "VITAL_STAMINA",
+      "58.0",
+      "OPERATIONAL",
+      "Baseline"
+    ],
+    [
+      "VITAL_COHERENCE",
+      "78.2",
+      "OPERATIONAL",
+      "Baseline"
+    ],
+    [
+      "MBTI_SHADOW_RISK",
+      "70.0",
+      "DEBUFF",
+      "Shadow_Trigger"
+    ],
+    [
+      "ENN_DISINTEGRATION_RISK",
+      "60.0",
+      "ONLINE",
+      "Baseline"
+    ],
+    [
+      "ACUTE_STRESS",
+      "",
+      "HIGH_STRESS"
+    ],
+    [
+      "BIO_READINESS_SCORE",
+      "61.3",
+      "OPERATIONAL",
+      "Baseline"
+    ],
+    [
+      "P0_WISDOM_SCORE",
+      "",
+      "AWAITING_AUTH"
+    ],
+    [
+      "P6_TRUE_WILL_ALIGNMENT_PCT",
+      "",
+      "AWAITING_AUTH"
+    ],
+    [
+      "RESOLVED_LIVE_STATE",
+      "",
+      "RESOLVED",
+      "Shadow_Trigger"
+    ]
+  ],
+  "sefirot_scores": [
+    [
+      "Node_ID",
+      "Sefirah_Name",
+      "Pillar",
+      "World",
+      "Planetary_Correlate",
+      "Ray_Center",
+      "Weight",
+      "Live_Score",
+      "Deficit_Drag"
+    ],
+    [
+      "SEF_01",
+      "Keter (Purpose & Will)",
+      "Middle (Equilibrium)",
+      "Atzilut (Emanation / Fire)",
+      "Neptune / Primum Mobile",
+      "7. Violet (Crown)",
+      "1.5",
+      "7.5",
+      "3.75"
+    ],
+    [
+      "SEF_02",
+      "Chokhmah (Intuitive Insight)",
+      "Right (Mercy / Jachin)",
+      "Atzilut (Emanation / Fire)",
+      "Uranus / Zodiac",
+      "6. Indigo (Third Eye)",
+      "1.4",
+      "8.5",
+      "2.1"
+    ],
+    [
+      "SEF_03",
+      "Binah (Structural Comprehension)",
+      "Left (Severity / Boaz)",
+      "Beriah (Creation / Air)",
+      "Saturn",
+      "6. Indigo (Third Eye)",
+      "1.4",
+      "8",
+      "2.8"
+    ],
+    [
+      "SEF_11",
+      "Da'at (Integrated Synthesis)",
+      "Middle (Equilibrium)",
+      "Beriah-Yetzirah Bridge",
+      "Uranus / Pluto",
+      "5. Blue (Throat)",
+      "1.6",
+      "7.5",
+      "4"
+    ],
+    [
+      "SEF_04",
+      "Chesed (Expansive Vision & Generosity)",
+      "Right (Mercy / Jachin)",
+      "Yetzirah (Formation / Water)",
+      "Jupiter",
+      "5. Blue (Throat)",
+      "1.3",
+      "6.5",
+      "4.55"
+    ],
+    [
+      "SEF_05",
+      "Gevurah (Discipline & Pruning)",
+      "Left (Severity / Boaz)",
+      "Yetzirah (Formation / Water)",
+      "Mars",
+      "5. Blue (Throat)",
+      "1.5",
+      "7",
+      "4.5"
+    ],
+    [
+      "SEF_06",
+      "Tiferet (Heart & Internal Harmony)",
+      "Middle (Equilibrium)",
+      "Yetzirah (Formation / Water)",
+      "Sun",
+      "4. Green (Heart)",
+      "2",
+      "6",
+      "8"
+    ],
+    [
+      "SEF_07",
+      "Netzach (Emotional Endurance & Passion)",
+      "Right (Mercy / Jachin)",
+      "Asiyah (Action / Earth)",
+      "Venus",
+      "3. Yellow (Solar Plexus)",
+      "1.4",
+      "5.5",
+      "6.3"
+    ],
+    [
+      "SEF_08",
+      "Hod (Analytical Logic & Systems)",
+      "Left (Severity / Boaz)",
+      "Asiyah (Action / Earth)",
+      "Mercury",
+      "3. Yellow (Solar Plexus)",
+      "1.4",
+      "9",
+      "1.4"
+    ],
+    [
+      "SEF_09",
+      "Yesod (Subconscious & Ego Stability)",
+      "Middle (Equilibrium)",
+      "Asiyah (Action / Earth)",
+      "Moon",
+      "2. Orange (Sacral)",
+      "1.7",
+      "5.5",
+      "7.65"
+    ],
+    [
+      "SEF_10",
+      "Malkuth (Physical Action & Execution)",
+      "Middle (Equilibrium)",
+      "Asiyah (Action / Earth)",
+      "Earth",
+      "1. Red (Root)",
+      "2",
+      "6",
+      "8"
+    ]
+  ],
+  "gamification_bus": [
+    [
+      "Bus_Key",
+      "Game_Layer",
+      "Live_Target_or_State",
+      "Numeric_Signal",
+      "XP_Multiplier_or_Bounty",
+      "Condition_Status",
+      "Dynamic_Quest_or_Buff_Directive"
+    ],
+    [
+      "KAB_XP_BASE_MULT",
+      "XP Multiplier",
+      "Tree of Life Weighted Quality",
+      "69.2%",
+      "1.104",
+      "ACTIVE",
+      "Base XP multiplier scaled from Weighted Tree Quality (69.2%)"
+    ],
+    [
+      "KAB_PILLAR_BUFF",
+      "Symmetry Buff",
+      "Three-Pillar Equilibrium",
+      "0.883",
+      "0.137",
+      "BUFF",
+      "Unlocks +0.137x XP multiplier across all Sephirot quests"
+    ],
+    [
+      "KAB_VESSEL_DEBUFF",
+      "Lurianic Gate",
+      "Alchemical Grounding (Tiferet->Malkuth)",
+      "0.5833",
+      "-0.100",
+      "DEBUFF",
+      "SHEVIRAT RISK: Ground Hod (+3.0) into Malkuth before starting new projects"
+    ],
+    [
+      "KAB_XP_NET_MULT",
+      "Net XP Rate",
+      "Combined Kabbalah Modifier",
+      "1.141",
+      "1.141",
+      "FLOW",
+      "Live Net XP Multiplier: 1.141x"
+    ],
+    [
+      "KAB_BOSS_QUEST_1",
+      "Primary Klipoth Boss",
+      "Tiferet (Heart & Internal Harmony)",
+      "8",
+      "150",
+      "DEBUFF",
+      "Defeat Primary Drag (Tiferet (Heart & Internal Harmony) | Drag: 8.00) -> +150 XP"
+    ],
+    [
+      "KAB_CONDUIT_QUEST_1",
+      "Choked Path Quest",
+      "Tzaddi (\u05e6)",
+      "0.55",
+      "100",
+      "ACTIVE",
+      "Unblock Weakest Conduit: Tzaddi (\u05e6) (Netzach (Endurance) -> Yesod (Foundation))"
+    ],
+    [
+      "KAB_PILLAR_TARGET",
+      "Weakest Pillar Quest",
+      "Middle (Mildness)",
+      "6.50",
+      "200",
+      "CALIBRATION TARGET",
+      "Calibrate Weakest Pillar: Middle (Mildness) (6.50/10) -> +200 XP"
+    ],
+    [
+      "KAB_PILLAR_AFFINITY",
+      "Dominant Pillar Buff",
+      "Left (Severity)",
+      "8.00",
+      "0.05",
+      "PASSIVE BUFF",
+      "Dominant Pillar: Left (Severity) (8.00/10) \u2014 Channel insight into structured execution."
+    ]
+  ],
+  "pillars_triads_worlds": [
+    [
+      "Vertical Pillar",
+      "Temple & Sefirot",
+      "Cosmic Polarity",
+      "Shadow Drag %",
+      "Live Score (0-10)",
+      "Weight Avg"
+    ],
+    [
+      "Right (Mercy)",
+      "Jachin: Chokmah, Chesed, Netzach",
+      "Expansive Force / Giving / Yang",
+      "31.7%",
+      "6.83",
+      "1.37"
+    ],
+    [
+      "Left (Severity)",
+      "Boaz: Binah, Gevurah, Hod",
+      "Judgment / Boundaries / Form / Yin",
+      "20.0%",
+      "8.00",
+      "1.43"
+    ],
+    [
+      "Middle (Mildness)",
+      "Equilibrium: Keter, Da'at, Tiferet, Yesod, Malkuth",
+      "Synthesized Consciousness & Vessel",
+      "35.0%",
+      "6.50",
+      "1.76"
+    ],
+    [],
+    [
+      "Kabbalistic World",
+      "Element & Soul Level",
+      "Operational Plane",
+      "Shadow Drag %",
+      "Live Score (0-10)",
+      "Weight Avg"
+    ],
+    [
+      "1. Atzilut (Emanation)",
+      "Fire \u2022 Chayah (Transcendent Will)",
+      "Divine Causes, Pure Spirit & First Spark",
+      "20.0%",
+      "8.00",
+      "1.45"
+    ],
+    [
+      "2. Beriah (Creation)",
+      "Air \u2022 Neshamah (Intellectual Soul)",
+      "Pure Intellect, Archetypes & Architecture",
+      "22.5%",
+      "7.75",
+      "1.50"
+    ],
+    [
+      "3. Yetzirah (Formation)",
+      "Water \u2022 Ruach (Emotional / Moral Soul)",
+      "Psychological Architecture & Relational Flow",
+      "35.0%",
+      "6.50",
+      "1.60"
+    ],
+    [
+      "4. Asiyah (Action)",
+      "Earth \u2022 Nefesh (Physical / Instinctual Soul)",
+      "Tangible Vessel, Shipped Artifacts & Grounding",
+      "35.0%",
+      "6.50",
+      "1.63"
+    ],
+    [],
+    [
+      "Horizontal Triad",
+      "Occupying Sefirot",
+      "Developmental Focus",
+      "Shadow Drag %",
+      "Live Score",
+      "Prepotency Avg"
+    ],
+    [
+      "1. Supernal",
+      "Keter, Chokmah, Binah",
+      "Transcendent Will, Intuitive Spark & Analytical Form",
+      "16.3%",
+      "8.00",
+      "7.99"
+    ],
+    [
+      "2. Moral/Ethical",
+      "Chesed, Gevurah, Tiferet",
+      "Compassion, Restraint & Solar Heart Equilibrium",
+      "32.1%",
+      "6.50",
+      "6.45"
+    ],
+    [
+      "3. Instinctual",
+      "Netzach, Hod, Yesod",
+      "Passionate Drive, Logical Order & Habit Foundation",
+      "28.9%",
+      "6.67",
+      "6.59"
+    ],
+    [
+      "4. Physical Base",
+      "Malkuth",
+      "Shekhinah / Material Crystallization in Daily Action",
+      "15.1%",
+      "6.00",
+      "6.00"
+    ]
+  ],
+  "looker_kabbalah": [
+    [
+      "Record_Type",
+      "Node_ID",
+      "Entity_Label",
+      "Pillar_Or_Plane",
+      "Ray_Center",
+      "Weight",
+      "Live_Score",
+      "Normalized_0_100",
+      "Deficit_Drag",
+      "Status_Tag",
+      "Last_Updated"
+    ],
+    [
+      "SEFIRAH",
+      "SEF_01",
+      "Keter (Purpose & Will)",
+      "Middle (Equilibrium)",
+      "7. Violet (Crown)",
+      "1.50",
+      "7.50",
+      "75.0",
+      "3.75",
+      "ILLUMINATED",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "SEFIRAH",
+      "SEF_02",
+      "Chokhmah (Intuitive Insight)",
+      "Right (Mercy / Jachin)",
+      "6. Indigo (Third Eye)",
+      "1.40",
+      "8.50",
+      "85.0",
+      "2.10",
+      "ILLUMINATED",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "SEFIRAH",
+      "SEF_03",
+      "Binah (Structural Comprehension)",
+      "Left (Severity / Boaz)",
+      "6. Indigo (Third Eye)",
+      "1.40",
+      "8.00",
+      "80.0",
+      "2.80",
+      "ILLUMINATED",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "SEFIRAH",
+      "SEF_11",
+      "Da'at (Integrated Synthesis)",
+      "Middle (Equilibrium)",
+      "5. Blue (Throat)",
+      "1.60",
+      "7.50",
+      "75.0",
+      "4.00",
+      "ILLUMINATED",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "SEFIRAH",
+      "SEF_04",
+      "Chesed (Expansive Vision & Generosity)",
+      "Right (Mercy / Jachin)",
+      "5. Blue (Throat)",
+      "1.30",
+      "6.50",
+      "65.0",
+      "4.55",
+      "BALANCING",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "SEFIRAH",
+      "SEF_05",
+      "Gevurah (Discipline & Pruning)",
+      "Left (Severity / Boaz)",
+      "5. Blue (Throat)",
+      "1.50",
+      "7.00",
+      "70.0",
+      "4.50",
+      "ILLUMINATED",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "SEFIRAH",
+      "SEF_06",
+      "Tiferet (Heart & Internal Harmony)",
+      "Middle (Equilibrium)",
+      "4. Green (Heart)",
+      "2.00",
+      "6.00",
+      "60.0",
+      "8.00",
+      "BALANCING",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "SEFIRAH",
+      "SEF_07",
+      "Netzach (Emotional Endurance & Passion)",
+      "Right (Mercy / Jachin)",
+      "3. Yellow (Solar Plexus)",
+      "1.40",
+      "5.50",
+      "55.0",
+      "6.30",
+      "BALANCING",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "SEFIRAH",
+      "SEF_08",
+      "Hod (Analytical Logic & Systems)",
+      "Left (Severity / Boaz)",
+      "3. Yellow (Solar Plexus)",
+      "1.40",
+      "9.00",
+      "90.0",
+      "1.40",
+      "ILLUMINATED",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "SEFIRAH",
+      "SEF_09",
+      "Yesod (Subconscious & Ego Stability)",
+      "Middle (Equilibrium)",
+      "2. Orange (Sacral)",
+      "1.70",
+      "5.50",
+      "55.0",
+      "7.65",
+      "BALANCING",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "SEFIRAH",
+      "SEF_10",
+      "Malkuth (Physical Action & Execution)",
+      "Middle (Equilibrium)",
+      "1. Red (Root)",
+      "2.00",
+      "6.00",
+      "60.0",
+      "8.00",
+      "BALANCING",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "PILLAR",
+      "PIL_RIGHT",
+      "Right (Mercy)",
+      "Expansive Force / Giving / Yang",
+      "Vertical Pillar",
+      "1.37",
+      "6.83",
+      "68.3",
+      "3.17",
+      "BALANCED",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "PILLAR",
+      "PIL_LEFT",
+      "Left (Severity)",
+      "Judgment / Boundaries / Form / Yin",
+      "Vertical Pillar",
+      "1.43",
+      "8.00",
+      "80.0",
+      "2.00",
+      "STRONG",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "PILLAR",
+      "PIL_MIDDLE",
+      "Middle (Mildness)",
+      "Synthesized Consciousness & Vessel",
+      "Vertical Pillar",
+      "1.76",
+      "6.50",
+      "65.0",
+      "3.50",
+      "BALANCED",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "WORLD",
+      "WLD_ATZILUT",
+      "1. Atzilut (Emanation)",
+      "Fire \u2022 Chayah (Transcendent Will)",
+      "Four Worlds (AVIYA)",
+      "1.45",
+      "8.00",
+      "80.0",
+      "2.00",
+      "ILLUMINATED",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "WORLD",
+      "WLD_BERIAH",
+      "2. Beriah (Creation)",
+      "Air \u2022 Neshamah (Intellectual Soul)",
+      "Four Worlds (AVIYA)",
+      "1.50",
+      "7.75",
+      "77.5",
+      "2.25",
+      "ILLUMINATED",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "WORLD",
+      "WLD_YETZIRAH",
+      "3. Yetzirah (Formation)",
+      "Water \u2022 Ruach (Emotional / Moral Soul)",
+      "Four Worlds (AVIYA)",
+      "1.60",
+      "6.50",
+      "65.0",
+      "3.50",
+      "OPERATIONAL",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "WORLD",
+      "WLD_ASIYAH",
+      "4. Asiyah (Action)",
+      "Earth \u2022 Nefesh (Physical / Instinctual Soul)",
+      "Four Worlds (AVIYA)",
+      "1.63",
+      "6.50",
+      "65.0",
+      "3.50",
+      "OPERATIONAL",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "TREE_KPI",
+      "KAB_EFFECTIVE_QUALITY",
+      "Weighted Tree of Life Quality across 10 Sephirot + Da'at",
+      "ITS - Systemic",
+      "System Telemetry",
+      "1.00",
+      "0.69",
+      "69.0",
+      "3.10",
+      "ACTIVE",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "TREE_KPI",
+      "KAB_PILLAR_EQUILIBRIUM",
+      "Three-Pillar Symmetry (Jachin Mercy vs Boaz Severity)",
+      "I - Subjective",
+      "System Telemetry",
+      "1.00",
+      "0.88",
+      "88.0",
+      "1.20",
+      "BUFF",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "TREE_KPI",
+      "KAB_GROUNDING_INDEX",
+      "Alchemical Grounding (Tiferet -> Yesod -> Malkuth)",
+      "IT - Physical",
+      "System Telemetry",
+      "1.00",
+      "0.58",
+      "58.0",
+      "4.20",
+      "DEBUFF",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "TREE_KPI",
+      "KAB_HOD_SPREAD",
+      "Tyranny of Hod analytical spread over Tiferet/Malkuth",
+      "I - Subjective",
+      "System Telemetry",
+      "1.00",
+      "3.00",
+      "80.0",
+      "2.00",
+      "DEBUFF",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "TREE_KPI",
+      "KAB_NET_XP_MULT",
+      "Live Kabbalah XP Multiplier exported to LifeOS_feed_hub",
+      "ITS - Gamification",
+      "System Telemetry",
+      "1.00",
+      "1.14",
+      "78.0",
+      "2.20",
+      "FLOW",
+      "2026-11-13 11:37 UTC"
+    ],
+    [
+      "TREE_KPI",
+      "KAB_32_PATHS_FLOW",
+      "Mean conductivity across all 22 Hebrew Letter Connecting Paths",
+      "ITS - Systemic",
+      "System Telemetry",
+      "1.00",
+      "0.68",
+      "68.0",
+      "3.20",
+      "ACTIVE",
+      "2026-11-13 11:37 UTC"
+    ]
+  ],
+  "audit_errors": 0
 }
