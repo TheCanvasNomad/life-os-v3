@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-25T07:12:14Z",
+  "last_updated_utc": "2026-11-25T07:27:02Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2572,10 +2572,34 @@
         "LOOKER_SKILLS_&_FLOW"
       ],
       "tab_count": 11,
-      "last_snapshot_utc": "2026-11-24T06:07:43Z",
+      "last_snapshot_utc": "2026-11-25T07:27:02Z",
       "snapshot_file": "schemas/live_snapshots/ID_PILLAR_4.json",
       "looker_tabs": [
         "LOOKER_SKILLS_&_FLOW"
+      ],
+      "tab_color_coded": true,
+      "ingested_raw_silos": [
+        {
+          "name": "RAW_DATA_FlowState",
+          "spreadsheet_id": "1tlQt3Ft_X4LGzdCu1JBcDmFjNJkNiExpa75bT2Y6_jQ",
+          "linked_form_id": "1IUwss7H7Xtg_clhJxB1TjrbjD4iDoCmC3-woojXOlis",
+          "drive_url": "https://docs.google.com/spreadsheets/d/1tlQt3Ft_X4LGzdCu1JBcDmFjNJkNiExpa75bT2Y6_jQ/edit",
+          "layer": "raw_silo_write_only",
+          "standalone_module": false,
+          "ingested_into_tab": "IMPORTS!BI1:BO500",
+          "auth_anchor": "P4_CONFIG!I8",
+          "legacy_tabs_deleted": [
+            "Answers",
+            "Flow Chart",
+            "Sort",
+            "Array",
+            "Skew",
+            "Master Score Card",
+            "Flow State Pyramid",
+            "Levels",
+            "Multiplier"
+          ]
+        }
       ]
     },
     "ID_RAW_CAREER_REVIEW": {
