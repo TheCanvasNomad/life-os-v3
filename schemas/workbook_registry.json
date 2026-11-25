@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-25T17:05:00Z",
+  "last_updated_utc": "2026-11-25T21:16:00Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -646,6 +646,8 @@
       "domain": "Pillar 5 Experience & Legacy / Career & Experience Intake",
       "live_tabs": [
         "Career_Dashboard",
+        "Education_Dashboard",
+        "LOOKER_CAREER",
         "MODULE_META",
         "CONTEXT_IN",
         "SIGNALS_OUT"
@@ -657,29 +659,50 @@
         "Career Intake"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T16:16:12Z",
+      "last_snapshot_utc": "2026-11-25T21:16:00Z",
       "all_tabs": [
-        "Form Responses 1",
-        "Education_Dashboard",
         "Career_Dashboard",
+        "Education_Dashboard",
         "Master_Ledger",
         "Career_Timeline",
         "Resume_Compiler",
         "HS Transcript",
         "HS Exam Summary",
         "Taxonomy_&_Config",
+        "LOOKER_CAREER",
         "MODULE_META",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "Form Responses 1"
       ],
-      "tab_count": 12,
+      "tab_count": 13,
       "linked_forms": [
         {
           "name": "LifeOS Career and Experience Intake",
           "form_id": "1ONcs8wlxWBzrz8_0Gbj68jkyR-OoH2JG0Ucq4lK0LO4"
         }
       ],
-      "universal_brick_compliant": true
+      "universal_brick_compliant": true,
+      "tabs": [
+        "Career_Dashboard",
+        "Education_Dashboard",
+        "Master_Ledger",
+        "Career_Timeline",
+        "Resume_Compiler",
+        "HS Transcript",
+        "HS Exam Summary",
+        "Taxonomy_&_Config",
+        "LOOKER_CAREER",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT",
+        "Form Responses 1"
+      ],
+      "primary_tab": "Career_Dashboard",
+      "secondary_tab": "Education_Dashboard",
+      "looker_tab": "LOOKER_CAREER",
+      "tab_color_coded": true,
+      "last_audited_utc": "2026-11-25T21:16:00Z"
     },
     "ID_TRAVEL": {
       "title": "\ud83c\udf0d Travel_Tracker_Brick",
