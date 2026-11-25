@@ -1,7 +1,7 @@
 # LifeOS-v3 Hub & Brick `IMPORTRANGE` Browser Authorization Checklist
 
 > **Why this checklist exists**: Google Sheets requires a one-time interactive browser click (**"Allow access"** on a `#REF!` cell) for each new cross-spreadsheet `IMPORTRANGE` connection. APIs and scripts cannot grant this permission on your behalf.  
-> **Last Audited**: `2026-11-25` (**`LifeOS_feed_hub`** audited, updated & beautified across all **13 color-coded tabs** (`CHARACTER_SHEET` quick-nav hyperlinks + EQ/Love Styles/Achievements HUD, `AQAL_VIEW`/`RULES_ENGINE` Sec 16 non-circular `ACH_*` integration, upgraded `AI_Synthesis_Report!A4`, refreshed `PUBLIC_DATA` [23 rows] & `LOOKER_SYSTEM_TELEMETRY` [235 rows], 1:1 parity with `LifeOS_Master_Bus!Workbook_Directory` [39 non-self entries + self = 40]) + **`Kaballah Tree of Life OS Engine`** (`12` color-coded tabs, `LOOKER_KABBALAH`, 4 redundant tabs deleted, `[ARCHIVED]` trashed) — **223 signals, 40 registered modules, 17 flat Looker tabs & 0 formula errors**!)
+> **Last Audited**: `2026-11-25` (**`RAW_DATA_KnowThySelf`** consolidated directly into **`🌑 Pillar_0_Shadow_Self`** [`SELF_CODEX_PROFILE`, 28 prompts in 4 panels, strict zero-prose boundary, sanitized `P0_SELF_CODEX_STATUS` live in Hub] + **`LifeOS_feed_hub`** 13 color-coded tabs & 1:1 `LifeOS_Master_Bus` parity + **`Kaballah Tree of Life OS Engine`** 12 color-coded tabs — **224 signals, 40 registered modules, 17 flat Looker tabs & 0 formula errors**!)
 
 ---
 
@@ -89,6 +89,7 @@ Approve these one-time `#REF!` cells to complete the live closed loop across `RA
 | :---: | :--- | :--- | :--- | :--- |
 | [ ] | **`🌑 Pillar_0_Shadow_Self` → `P0_CONFIG!I4`** | https://docs.google.com/spreadsheets/d/1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU/edit#gid=1648982482 | **RAW_DATA_ShadowJournal** (`1wzXYSOKo7oT_EpYcDtFcYBXypqw-BiwUGpoEjsOw5vU`) | Live private Shadow Journal & RCMC submissions streaming into `IMPORTS`, `DATABASE`, `CALCULATIONS`, and `DASHBOARD` |
 | [ ] | **`🌑 Pillar_0_Shadow_Self` → `P0_CONFIG!I5`** | https://docs.google.com/spreadsheets/d/1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU/edit#gid=1648982482 | **Saboteur Assessment (PQ)** (`1NhqPJDFOp91qOp5Y9hPe0rIuqECKU_b08cZYXZAqxeE`) | Live `Primary Active Saboteur`, `PQ Quotient`, and `Prescribed Sage Counter Drill` directly on The Shadow Work Bench |
+| [ ] | **`🌑 Pillar_0_Shadow_Self` → `P0_CONFIG!I9`** | https://docs.google.com/spreadsheets/d/1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU/edit#gid=1648982482 | **RAW_DATA_KnowThySelf** (`1wIWInPaM_YpWg995MfWdnzHT8_OVG_stwwVuf2AIgTw`) | Live 28-prompt Self-Codex Form responses streaming privately into `IMPORTS!M1:AO500`, `SELF_CODEX_PROFILE`, `DASHBOARD!28:30`, and sanitized `P0_SELF_CODEX_STATUS` (0% prose exported to Hub) |
 | [ ] | **`🌑 Pillar_0_Shadow_Self` → `CONTEXT_IN!F2`** | https://docs.google.com/spreadsheets/d/1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU/edit#gid=246517698 | **LifeOS_feed_hub** (`1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U`) | Live Hub context (`DOPPELGANGER_DOMINATION_INDEX`, `SHADOW_TAX_RATE`, `PQ_PRIMARY_SABOTEUR`, `P3_SHADOW_FLAGS_30D`, `P4_PROCRASTINATION_FLAG`, `VALUES_ALIGNMENT_SCORE`) |
 
 ---
@@ -210,7 +211,7 @@ The `#REF!` `A2` spill collisions on `SRC_XP_HUB`, `SRC_KABBALAH`, and `SRC_16PF
 ## 4. Post-Approval Verification
 
 Once you finish clicking **"Allow access"** above:
-1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **223** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
+1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **224** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
 2. Open **`LifeOS_feed_hub` -> `AQAL_VIEW`** (`#gid=168404271`): confirm all 4 Quadrants (`UL`, `UR`, `LL`, `LR`) show live composite scores, `SPARKLINE` gauges, `Quadrant Balance Score`, `Achievements AQAL Overlay`, and a live `Corrective Quest Directive`.
 3. Open any Brick's **`CONTEXT_IN`** tab from Section 2: confirm `F3:F5` switches from `"Click F2 -> Allow access"` to `"AUTHORIZED"` and Columns `B:E` stream live Hub context.
 4. Open **`XP Leveler` -> `PILLAR_XP_ABSORPTION`** (`#gid=1096501556`): verify all **9** Pillar & Brick XP streams (`P0`–`P6`, `Travel_Tracker`, `Achievements_Engine_Brick`) flow into `Live_Raw_Pillar_XP` and feed the Unified Main XP Bar on `Player_HUD` with zero double-counting.

@@ -1,179 +1,205 @@
 {
-  "registry_key": "ID_PILLAR_0",
-  "title": "\ud83c\udf11 Pillar_0_Shadow_Self",
   "spreadsheet_id": "1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU",
-  "snapshot_utc": "2026-11-24T16:38:33Z",
-  "pii_policy": "ZERO_PII_HEADERS_ONLY",
-  "tab_count": 9,
+  "title": "\ud83c\udf11 Pillar_0_Shadow_Self",
+  "key": "ID_PILLAR_0",
+  "captured_at_utc": "2026-11-25T06:35:24Z",
+  "pii_scrubbed": true,
+  "privacy_boundary": "STRICT_ZERO_PROSE_ZERO_PII",
+  "tab_count": 10,
   "tabs": [
     {
-      "title": "DASHBOARD",
-      "sheet_id": 2072722388,
       "index": 0,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 34,
-      "col_count": 14,
-      "headers_row_1": [
-        "\ud83c\udf11 PILLAR 0: THE SHADOW WORK BENCH & RCMC INTEGRATION HUD (LifeOS-v3)"
-      ]
+      "title": "DASHBOARD",
+      "sheetId": 2072722388,
+      "tabColor": "#F59E0B",
+      "hideGridlines": true
     },
     {
-      "title": "DATABASE",
-      "sheet_id": 485492251,
       "index": 1,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 500,
-      "col_count": 18,
-      "headers_row_1": [
-        "Timestamp",
-        "Triggering Event / Feeling",
-        "Initial Emotion(s)",
-        "The Story I'm Telling Myself",
-        "Primary Saboteur Hijack",
-        "Underlying Fear / Unmet Need",
-        "RCMC Depth Level",
-        "Reframed Narrative / Deeper Truth",
-        "Lesson / Integrated Wisdom & Gravity Action Step",
-        "Entry Status",
-        "Seal in Obsidian Vault",
-        "RCMC_Antifragility_XP",
-        "Wisdom_Points_Awarded",
-        "Integration_Stage",
-        "Obsidian_Vault_Sync_Status",
-        "Vault_Seal_Receipt"
-      ]
+      "title": "SELF_CODEX_PROFILE",
+      "sheetId": 2022554659,
+      "tabColor": "#8B5CF6",
+      "hideGridlines": true
     },
     {
-      "title": "CALCULATIONS",
-      "sheet_id": 1347227662,
       "index": 2,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 45,
-      "col_count": 8,
-      "headers_row_1": [
-        "Base_Score (Formula Anchor)",
-        "P0_WISDOM_SCORE (0\u2013100) \u2014 Canonical Pillar 0 Anchor (CALCULATIONS!A1)",
-        "Weighted composite across 5-Tier Shadow Integration + Arena Dominance + PQ Quotient (blank-safe)."
-      ]
+      "title": "DATABASE",
+      "sheetId": 485492251,
+      "tabColor": "#8B5CF6",
+      "hideGridlines": true
     },
     {
-      "title": "P0_CONFIG",
-      "sheet_id": 1648982482,
       "index": 3,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 40,
-      "col_count": 14,
-      "headers_row_1": [
-        "\u2699\ufe0f PILLAR 0 SHADOW EXCAVATION & RCMC CONFIGURATION (P0_CONFIG)",
-        "",
-        "",
-        "",
-        "SAGE COUNTER-PROTOCOL PLAYBOOK",
-        "",
-        "",
-        "",
-        "\ud83d\udd10 1-CLICK IMPORTRANGE AUTH ANCHORS"
-      ]
+      "title": "CALCULATIONS",
+      "sheetId": 1347227662,
+      "tabColor": "#8B5CF6",
+      "hideGridlines": true
     },
     {
-      "title": "IMPORTS",
-      "sheet_id": 0,
       "index": 4,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 500,
-      "col_count": 20,
-      "headers_row_1": [
-        "Timestamp",
-        "Describe the triggering event or feeling.",
-        "What were the initial emotion(s) you felt?",
-        "What is the immediate story or narrative I'm telling myself about this event/feeling?",
-        "Primary Saboteur Hijack",
-        "Underlying Fear / Unmet Need",
-        "RCMC Depth Level",
-        "Reframed Narrative / Deeper Truth",
-        "Lesson / Integrated Wisdom & Gravity Action Step",
-        "Entry Status",
-        "Seal in Obsidian Vault",
-        "",
-        "",
-        "Latest PQ Quotient (0-100)",
-        "FALSE",
-        "Not logged in latest run (Tipping Point = 75 for 3:1 positivity ratio)"
-      ]
+      "title": "P0_CONFIG",
+      "sheetId": 1648982482,
+      "tabColor": "#8B5CF6",
+      "hideGridlines": true
     },
     {
-      "title": "MODULE_META",
-      "sheet_id": 1349423200,
       "index": 5,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 30,
-      "col_count": 6,
-      "headers_row_1": [
-        "Meta_Key",
-        "Value",
-        "Notes"
-      ]
-    },
-    {
-      "title": "CONTEXT_IN",
-      "sheet_id": 246517698,
-      "index": 6,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 30,
-      "col_count": 8,
-      "headers_row_1": [
-        "Subscribed_Signal_Key",
-        "Source_Hub",
-        "Live_Value",
-        "Normalized_0_100",
-        "Hub_Status",
-        "Hub_Auth_Trigger"
-      ]
-    },
-    {
-      "title": "SIGNALS_OUT",
-      "sheet_id": 178587275,
-      "index": 7,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 30,
-      "col_count": 10,
-      "headers_row_1": [
-        "Signal_Key",
-        "Source_Brick",
-        "Glyph",
-        "Domain_Pillar",
-        "Raw_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated",
-        "TTL_Hours"
-      ]
-    },
-    {
       "title": "LOOKER_SHADOW_METRICS",
-      "sheet_id": 1240334673,
+      "sheetId": 1240334673,
+      "tabColor": "#06B6D4",
+      "hideGridlines": true
+    },
+    {
+      "index": 6,
+      "title": "MODULE_META",
+      "sheetId": 1349423200,
+      "tabColor": "#3B82F6",
+      "hideGridlines": true
+    },
+    {
+      "index": 7,
+      "title": "CONTEXT_IN",
+      "sheetId": 246517698,
+      "tabColor": "#3B82F6",
+      "hideGridlines": true
+    },
+    {
       "index": 8,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 25,
-      "col_count": 8,
-      "headers_row_1": [
-        "Metric_Key",
-        "Metric_Label",
-        "Category",
-        "Live_Value",
-        "Normalized_0_100",
-        "Gate_Status",
-        "Last_Updated"
-      ]
+      "title": "SIGNALS_OUT",
+      "sheetId": 178587275,
+      "tabColor": "#3B82F6",
+      "hideGridlines": true
+    },
+    {
+      "index": 9,
+      "title": "IMPORTS",
+      "sheetId": 0,
+      "tabColor": "#EF4444",
+      "hideGridlines": false
     }
-  ]
+  ],
+  "ingested_layer1_silos": [
+    {
+      "name": "RAW_DATA_ShadowJournal",
+      "spreadsheet_id": "1wzXYSOKo7oT_EpYcDtFcYBXypqw-BiwUGpoEjsOw5vU",
+      "role": "Layer 1 Private Shadow Journal"
+    },
+    {
+      "name": "RAW_DATA_KnowThySelf",
+      "spreadsheet_id": "1wIWInPaM_YpWg995MfWdnzHT8_OVG_stwwVuf2AIgTw",
+      "form_id": "1FQqNSMSgDVG6lPirONfcpwbRZfriHJIjuTByUPdgQOQ",
+      "role": "Layer 1 Private Self-Codex (28 prompts -> SELF_CODEX_PROFILE)"
+    }
+  ],
+  "signals_out": [
+    [
+      "Signal_Key",
+      "Source_Brick",
+      "Glyph",
+      "Domain_Pillar",
+      "Raw_Value",
+      "Normalized_Score_0_100",
+      "State_Tag",
+      "Last_Updated",
+      "TTL_Hours"
+    ],
+    [
+      "P0_WISDOM_SCORE",
+      "Pillar_0_Shadow_Self",
+      "\ud83c\udf11",
+      "Pillar 0 / I",
+      "66.7",
+      "66.7",
+      "LIVE",
+      "11/25/2026 1:35:10",
+      "24"
+    ],
+    [
+      "P0_WISDOM_POINTS_TOTAL",
+      "Pillar_0_Shadow_Self",
+      "\ud83e\udd89",
+      "Pillar 0 / Wisdom",
+      "0",
+      "0",
+      "AWAITING_DATA",
+      "",
+      "24"
+    ],
+    [
+      "P0_ANTIFRAGILITY_XP",
+      "Pillar_0_Shadow_Self",
+      "\u26a1",
+      "Pillar 0 / RCMC",
+      "0",
+      "0",
+      "AWAITING_DATA",
+      "",
+      "24"
+    ],
+    [
+      "P0_UNINTEGRATED_SHADOWS",
+      "Pillar_0_Shadow_Self",
+      "\ud83d\udd0d",
+      "Pillar 0 / Loops",
+      "0",
+      "100",
+      "AWAITING_DATA",
+      "",
+      "24"
+    ],
+    [
+      "P0_INTEGRATION_RATE_PCT",
+      "Pillar_0_Shadow_Self",
+      "\ud83d\udd04",
+      "Pillar 0 / Mastery",
+      "",
+      "",
+      "AWAITING_DATA",
+      "",
+      "24"
+    ],
+    [
+      "P0_GRIP_INTEGRITY",
+      "Pillar_0_Shadow_Self",
+      "\ud83d\udde1\ufe0f",
+      "Pillar 0 / Grip",
+      "66.7",
+      "66.7",
+      "LIVE",
+      "11/25/2026 1:35:10",
+      "24"
+    ],
+    [
+      "P0_SELF_CODEX_STATUS",
+      "Pillar_0_Shadow_Self",
+      "\ud83e\ude9e",
+      "Pillar 0 / Self-Codex",
+      "AWAITING_SUBMISSION",
+      "",
+      "AWAITING_SUBMISSION",
+      "",
+      "720"
+    ]
+  ],
+  "self_codex_kpi_strip_sanitized": {
+    "status": [
+      [
+        "AWAITING_SUBMISSION"
+      ]
+    ],
+    "answered_count": [
+      [
+        "0"
+      ]
+    ],
+    "privacy_boundary": "STRICT_PILLAR_0_ONLY (0% Prose Exported)",
+    "panel_names": [
+      "1. ARCHETYPE, SUPERPOWER & CREATIVE RESONANCE",
+      "2. ENVIRONMENT, FREEDOM & LEGACY VISION",
+      "3. RELATIONAL CODE & CORE VALUES",
+      "4. SHADOW HOOKS, FEARS & CRUCIBLE MEMORY (STRICTLY PRIVATE TO PILLAR 0)"
+    ],
+    "prompt_count": 28
+  },
+  "audit_errors": 0
 }
