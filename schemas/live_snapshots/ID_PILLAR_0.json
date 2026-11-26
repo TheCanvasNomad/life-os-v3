@@ -3,11 +3,12 @@
   "title": "\ud83c\udf11 Pillar_0_Shadow_Self",
   "registry_key": "ID_PILLAR_0",
   "privacy_contract": "STRICT_ZERO_PROSE_ZERO_PII",
-  "snapshot_utc": "2026-11-26T16:07:21Z",
+  "snapshot_utc": "2026-11-26T16:41:21Z",
   "tabs": [
     "DASHBOARD",
     "SELF_CODEX_PROFILE",
     "PERSONAL_GROWTH_AUDIT",
+    "LIFE_AUDIT_SNAPSHOT",
     "DATABASE",
     "CALCULATIONS",
     "P0_CONFIG",
@@ -30,8 +31,13 @@
     {
       "name": "RAW_DATA_PersonalDevelopment",
       "spreadsheet_id": "1hygpK684uimaG-uiV0-kq-MkTAPqmRUJmXoxI5qlHQ0",
-      "form_id": "1HWuW9SrUofKDo8iWko-AltI0wubOkcCqze8NLPQOyxw",
       "auth_anchor": "P0_CONFIG!I10"
+    },
+    {
+      "name": "RAW_DATA_LifeAudit",
+      "spreadsheet_id": "1dy5b0b2nZFdlftuvKCUu6NngvSyyvTDUbfPT1Z9lG8g",
+      "form_id": "1NSgrf12tzhVFTf_p1DdIp48-B1RSAaorXPZk-rnGyrU",
+      "auth_anchor": "P0_CONFIG!I11"
     }
   ],
   "MODULE_META": [
@@ -97,7 +103,7 @@
     ],
     [
       "Consolidated_Private_Silos",
-      "RAW_DATA_KnowThySelf, RAW_DATA_PersonalDevelopment (1hygpK684uimaG-uiV0-kq-MkTAPqmRUJmXoxI5qlHQ0)",
+      "RAW_DATA_KnowThySelf, RAW_DATA_PersonalDevelopment, RAW_DATA_LifeAudit (1dy5b0b2nZFdlftuvKCUu6NngvSyyvTDUbfPT1Z9lG8g)",
       "Ingested privately into Pillar 0 (ZERO prose exported to Hub/GitHub)"
     ],
     [
@@ -126,7 +132,7 @@
       "66.7",
       "66.7",
       "LIVE",
-      "11/26/2026 11:07:09",
+      "11/26/2026 11:43:17",
       "24"
     ],
     [
@@ -181,7 +187,7 @@
       "66.7",
       "66.7",
       "LIVE",
-      "11/26/2026 11:07:09",
+      "11/26/2026 11:43:17",
       "24"
     ],
     [
@@ -189,10 +195,10 @@
       "Pillar_0_Shadow_Self",
       "\ud83e\ude9e",
       "Pillar 0 / Self-Codex",
-      "AWAITING_SUBMISSION",
-      "",
-      "AWAITING_SUBMISSION",
-      "",
+      "ACTIVE (26/28 Answered)",
+      "92.9",
+      "ACTIVE",
+      "11/26/2026 11:43:17",
       "720"
     ],
     [
@@ -200,12 +206,24 @@
       "Pillar_0_Shadow_Self",
       "\ud83c\udf31",
       "Pillar 0 / Growth Audit",
+      "ACTIVE (47/47 Answered)",
+      "70",
+      "ACTIVE",
+      "11/26/2026 11:43:17",
+      "720",
+      "Sanitized Personal Growth Audit status flag & Self-Concept composite only \u2014 ZERO private prose exported"
+    ],
+    [
+      "P0_LIFE_AUDIT_STATUS",
+      "Pillar_0_Shadow_Self",
+      "\ud83e\udded",
+      "Pillar 0 / Life Audit",
       "AWAITING_AUTH",
       "",
       "AWAITING_AUTH",
       "",
       "720",
-      "Sanitized Personal Growth Audit status flag & Self-Concept composite only \u2014 ZERO private prose exported"
+      "Sanitized Life Audit Baseline status flag & quantitative life-rating composite only \u2014 ZERO private prose exported"
     ]
   ],
   "CONTEXT_IN": [
@@ -236,9 +254,25 @@
     [
       "PQ_PRIMARY_SABOTEUR",
       "LifeOS_feed_hub",
-      "",
-      "",
-      "AWAITING_AUTH",
+      "Avoider",
+      "88",
+      "FRESH",
+      "AUTHORIZED"
+    ],
+    [
+      "PQ_JUDGE_SELF_SCORE",
+      "LifeOS_feed_hub",
+      "10",
+      "100",
+      "FRESH",
+      "AUTHORIZED"
+    ],
+    [
+      "PQ_PRESCRIBED_SAGE",
+      "LifeOS_feed_hub",
+      "Activate",
+      "88",
+      "FRESH",
       "AUTHORIZED"
     ],
     [
@@ -264,14 +298,6 @@
       "",
       "AWAITING_AUTH",
       "AUTHORIZED"
-    ],
-    [
-      "P5_BUCKET_LIST_WAITING_FLAG",
-      "LifeOS_feed_hub",
-      "",
-      "",
-      "LIVE",
-      "AUTHORIZED"
     ]
   ],
   "LOOKER_SHADOW_METRICS": [
@@ -291,7 +317,7 @@
       "66.7",
       "66.7",
       "PROGRESSING",
-      "11/26/2026 11:07:09"
+      "11/26/2026 11:41:21"
     ],
     [
       "L1_UNAWARENESS",
@@ -332,7 +358,7 @@
       "66.7",
       "66.7",
       "PROGRESSING",
-      "11/26/2026 11:07:09"
+      "11/26/2026 11:41:21"
     ],
     [
       "TOTAL_WISDOM_POINTS",
@@ -341,7 +367,7 @@
       "0",
       "0",
       "AWAITING_DATA",
-      "11/26/2026 11:07:09"
+      "11/26/2026 11:41:21"
     ],
     [
       "TOTAL_ANTIFRAGILITY_XP",
@@ -350,7 +376,7 @@
       "0",
       "0",
       "AWAITING_DATA",
-      "11/26/2026 11:07:09"
+      "11/26/2026 11:41:21"
     ],
     [
       "INTEGRATION_RATE_PCT",
@@ -367,7 +393,7 @@
       "0",
       "100",
       "AWAITING_DATA",
-      "11/26/2026 11:07:09"
+      "11/26/2026 11:41:21"
     ],
     [
       "ARENA_DOMINANCE_SCORE",
@@ -376,7 +402,7 @@
       "66.7",
       "66.7",
       "CONTESTED",
-      "11/26/2026 11:07:09"
+      "11/26/2026 11:41:21"
     ],
     [
       "P0_GRIP_INTEGRITY",
@@ -385,7 +411,7 @@
       "66.7",
       "66.7",
       "LIVE",
-      "11/26/2026 11:07:09"
+      "11/26/2026 11:41:21"
     ],
     [
       "VAULT_SEALED_COUNT",
@@ -394,18 +420,17 @@
       "0",
       "",
       "STANDBY",
-      "11/26/2026 11:07:09"
+      "11/26/2026 11:41:21"
     ]
   ],
-  "PERSONAL_GROWTH_AUDIT_HEADERS_ONLY": {
-    "banner": "\ud83c\udf31 PILLAR 0 \u2014 PERSONAL GROWTH AUDIT",
-    "prompt_count": 47,
+  "LIFE_AUDIT_SNAPSHOT_HEADERS_ONLY": {
+    "banner": "\ud83e\udded PILLAR 0 \u2014 LIFE AUDIT SNAPSHOT",
+    "field_count": 14,
     "panels": [
-      "1. Self-Concept & Identity Ratings (4)",
-      "2. Age-Bracket Personal Growth Effort Trajectory (6)",
-      "3. Growth Levers, Defining Moments & Age / Memory Reflection (14)",
-      "4. Growth Environments & Inspiration Spaces (7)",
-      "5. Instincts, Social Influence & Motivational Drivers (16)"
+      "1. Quantitative Self-Ratings (2)",
+      "2. Audit Triggers, Friction & Stressors (4)",
+      "3. Purpose, Momentum, Pride & Gaps (6)",
+      "4. Energy Allocation & Inner Monologue (2)"
     ],
     "privacy_boundary": "STRICT_PILLAR_0_ONLY (0% Prose Exported)"
   }

@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-26T16:07:21Z",
+  "last_updated_utc": "2026-11-26T16:41:21Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -54,14 +54,17 @@
       ]
     },
     "ID_PQ": {
-      "title": "Saboteur Assessment (Responses)",
+      "title": "\ud83c\udfad PQ_Saboteur_Brick",
       "spreadsheet_id": "1NhqPJDFOp91qOp5Y9hPe0rIuqECKU_b08cZYXZAqxeE",
       "drive_url": "https://docs.google.com/spreadsheets/d/1NhqPJDFOp91qOp5Y9hPe0rIuqECKU_b08cZYXZAqxeE/edit",
-      "status": "bound",
+      "status": "ACTIVE",
       "layer": "brick",
       "domain": "Pillar 0 Shadow Self / Positive Intelligence Saboteurs",
       "live_tabs": [
-        "PQ_Dashboard"
+        "\ud83c\udfad PQ_DASHBOARD",
+        "Saboteur_Wanted_Poster",
+        "LOOKER_PQ_SABOTEURS",
+        "SIGNALS_OUT"
       ],
       "search_aliases": [
         "Saboteur Assessment (PQ)",
@@ -70,21 +73,30 @@
         "Saboteur"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T07:41:58Z",
+      "last_snapshot_utc": "2026-11-26T16:17:19Z",
       "all_tabs": [
-        "Form Responses 1",
-        "PQ_Dashboard",
+        "\ud83c\udfad PQ_DASHBOARD",
         "Saboteur_Wanted_Poster",
         "Historical_Snapshots",
-        "PQ_Scoring_Key"
+        "PQ_Scoring_Key",
+        "LOOKER_PQ_SABOTEURS",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT",
+        "Form Responses 1"
       ],
-      "tab_count": 5,
+      "tab_count": 9,
       "linked_forms": [
         {
           "name": "Saboteur Assessment",
           "form_id": "1OFsoVZQNhQCjGvxw7bBOLnpGt2T-ptUY5JJbX3IuuaI"
         }
-      ]
+      ],
+      "last_audited_utc": "2026-11-26T16:17:19Z",
+      "primary_tab": "\ud83c\udfad PQ_DASHBOARD",
+      "looker_tab": "LOOKER_PQ_SABOTEURS",
+      "tab_color_coded": true,
+      "universal_brick_compliant": true
     },
     "ID_HD": {
       "title": "Human Design OS",
@@ -2761,11 +2773,12 @@
         "Shadow Work Bench"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-26T16:07:21Z",
+      "last_snapshot_utc": "2026-11-26T16:41:21Z",
       "all_tabs": [
         "DASHBOARD",
         "SELF_CODEX_PROFILE",
         "PERSONAL_GROWTH_AUDIT",
+        "LIFE_AUDIT_SNAPSHOT",
         "DATABASE",
         "CALCULATIONS",
         "P0_CONFIG",
@@ -2775,7 +2788,7 @@
         "SIGNALS_OUT",
         "IMPORTS"
       ],
-      "tab_count": 11,
+      "tab_count": 12,
       "linked_forms": [
         {
           "name": "Life OS - Shadow Journal Form",
@@ -2790,6 +2803,7 @@
         "DASHBOARD",
         "SELF_CODEX_PROFILE",
         "PERSONAL_GROWTH_AUDIT",
+        "LIFE_AUDIT_SNAPSHOT",
         "DATABASE",
         "CALCULATIONS",
         "P0_CONFIG",
@@ -2819,9 +2833,17 @@
           "drive_url": "https://docs.google.com/spreadsheets/d/1hygpK684uimaG-uiV0-kq-MkTAPqmRUJmXoxI5qlHQ0/edit",
           "layer": "Layer 1 Raw Silo (Consolidated into PERSONAL_GROWTH_AUDIT \u2014 Not Standalone)",
           "auth_anchor": "P0_CONFIG!I10"
+        },
+        {
+          "name": "RAW_DATA_LifeAudit",
+          "spreadsheet_id": "1dy5b0b2nZFdlftuvKCUu6NngvSyyvTDUbfPT1Z9lG8g",
+          "form_id": "1NSgrf12tzhVFTf_p1DdIp48-B1RSAaorXPZk-rnGyrU",
+          "drive_url": "https://docs.google.com/spreadsheets/d/1dy5b0b2nZFdlftuvKCUu6NngvSyyvTDUbfPT1Z9lG8g/edit",
+          "layer": "Layer 1 Raw Silo (Consolidated into LIFE_AUDIT_SNAPSHOT \u2014 Not Standalone)",
+          "auth_anchor": "P0_CONFIG!I11"
         }
       ],
-      "last_audited_utc": "2026-11-26T16:07:21Z"
+      "last_audited_utc": "2026-11-26T16:41:21Z"
     },
     "ID_RAW_SHADOW_JOURNAL": {
       "title": "RAW_DATA_ShadowJournal",
