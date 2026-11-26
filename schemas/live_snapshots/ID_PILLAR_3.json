@@ -7,83 +7,18 @@
   "privacy_boundary": "STRICT_ZERO_PII_ZERO_NAMES_PREFERENCE_ENCAPSULATED",
   "tab_count": 11,
   "tabs": [
-    {
-      "index": 0,
-      "title": "DASHBOARD",
-      "sheetId": 473460543,
-      "tabColor": "#F59E0B",
-      "hideGridlines": true
-    },
-    {
-      "index": 1,
-      "title": "PREFERENCE_PROFILE",
-      "sheetId": 1688604541,
-      "tabColor": "#8B5CF6",
-      "hideGridlines": true
-    },
-    {
-      "index": 2,
-      "title": "DATABASE",
-      "sheetId": 502550780,
-      "tabColor": "#8B5CF6",
-      "hideGridlines": true
-    },
-    {
-      "index": 3,
-      "title": "CALCULATIONS",
-      "sheetId": 650848890,
-      "tabColor": "#8B5CF6",
-      "hideGridlines": true
-    },
-    {
-      "index": 4,
-      "title": "DOSSIER_TEMPLATE",
-      "sheetId": 376282605,
-      "tabColor": "#8B5CF6",
-      "hideGridlines": true
-    },
-    {
-      "index": 5,
-      "title": "P3_CONFIG",
-      "sheetId": 853045188,
-      "tabColor": "#8B5CF6",
-      "hideGridlines": true
-    },
-    {
-      "index": 6,
-      "title": "LOOKER_RELATIONSHIP_AGGREGATES",
-      "sheetId": 2105202027,
-      "tabColor": "#06B6D4",
-      "hideGridlines": true
-    },
-    {
-      "index": 7,
-      "title": "MODULE_META",
-      "sheetId": 1885608507,
-      "tabColor": "#3B82F6",
-      "hideGridlines": true
-    },
-    {
-      "index": 8,
-      "title": "CONTEXT_IN",
-      "sheetId": 1967751748,
-      "tabColor": "#3B82F6",
-      "hideGridlines": true
-    },
-    {
-      "index": 9,
-      "title": "SIGNALS_OUT",
-      "sheetId": 615702405,
-      "tabColor": "#3B82F6",
-      "hideGridlines": true
-    },
-    {
-      "index": 10,
-      "title": "IMPORTS",
-      "sheetId": 0,
-      "tabColor": "#EF4444",
-      "hideGridlines": false
-    }
+    "DASHBOARD",
+    "PREFERENCE_PROFILE",
+    "RELATIONSHIP_CHECKUP_LOG",
+    "DATABASE",
+    "CALCULATIONS",
+    "DOSSIER_TEMPLATE",
+    "P3_CONFIG",
+    "LOOKER_RELATIONSHIP_AGGREGATES",
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT",
+    "IMPORTS"
   ],
   "ingested_sources": [
     {
@@ -210,5 +145,120 @@
       "24"
     ]
   ],
-  "audit_errors": 0
+  "audit_errors": 0,
+  "snapshot_utc": "2026-11-26T17:14:41Z",
+  "SIGNALS_OUT": [
+    [
+      "Signal_Key",
+      "Source_Brick",
+      "Glyph",
+      "Domain_Pillar",
+      "Raw_Value",
+      "Normalized_Score_0_100",
+      "State_Tag",
+      "Last_Updated"
+    ],
+    [
+      "P3_RELATIONSHIP_BASE_SCORE",
+      "Pillar_3_Relationships",
+      "\ud83d\udc9e",
+      "Pillar 3 / WE",
+      "60",
+      "60",
+      "BUILDING_BONDS",
+      "11/26/2026 12:14:36"
+    ],
+    [
+      "P3_NETWORK_TOTAL",
+      "Pillar_3_Relationships",
+      "\ud83d\udcc7",
+      "Network / WE",
+      "6395",
+      "100",
+      "6,395 Contacts",
+      "11/26/2026 12:14:36"
+    ],
+    [
+      "P3_ACTIVE_DATING_COUNT",
+      "Pillar_3_Relationships",
+      "\u2764\ufe0f",
+      "Love Life / WE",
+      "577",
+      "100",
+      "577 Active Dating",
+      "11/26/2026 12:14:36"
+    ],
+    [
+      "P3_INNER_CIRCLE_COUNT",
+      "Pillar_3_Relationships",
+      "\ud83d\udee1\ufe0f",
+      "Inner Circle / WE",
+      "10",
+      "100",
+      "STRONG_TRIBE",
+      "11/26/2026 12:14:36"
+    ],
+    [
+      "P3_AVERAGE_LOVE_TANK",
+      "Pillar_3_Relationships",
+      "\u26fd",
+      "Connection / WE",
+      "58.4",
+      "58.4",
+      "STEADY_TANK",
+      "11/26/2026 12:14:36"
+    ],
+    [
+      "P3_SHADOW_FLAGS_30D",
+      "Pillar_3_Relationships",
+      "\ud83c\udf11",
+      "Pillar 3 / Shadow",
+      "0",
+      "100",
+      "CLEAR",
+      "11/26/2026 12:14:36"
+    ],
+    [
+      "P3_CONFLICT_WIN_RATE",
+      "Pillar_3_Relationships",
+      "\u2694\ufe0f",
+      "Pillar 3 / Frame",
+      "66",
+      "66",
+      "STABLE",
+      "11/26/2026 12:14:36"
+    ],
+    [
+      "P3_SOCIAL_XP",
+      "Pillar_3_Relationships",
+      "\ud83d\udc9e",
+      "Pillar 3 / XP",
+      "1800",
+      "36",
+      "XP_ACTIVE",
+      "11/26/2026 12:14:36"
+    ],
+    [
+      "P3_CHECKUP_COUNT",
+      "Pillar_3_Relationships",
+      "\ud83d\udcdd",
+      "Pillar 3 / Check-Ups",
+      "0",
+      "",
+      "AWAITING_AUTH"
+    ]
+  ],
+  "RELATIONSHIP_CHECKUP_LOG_HEADERS_ONLY": {
+    "banner": "\ud83d\udc9e PILLAR 3 \u2014 WEEKLY RELATIONSHIP CHECK-UP LOG",
+    "silo_id": "1jMWrerLnpcbv3QSrkHLdW8x83irEgCecdHrJopQyvQE",
+    "form_id": "18w3pqXxZZ_ZkXYwX6Q9PDLK4CCB9UROWS-CnQ0rASCk",
+    "auth_anchor": "P3_CONFIG!I10",
+    "panels": [
+      "1. Session & Status Overview",
+      "2. Attraction, Connection & Intimacy Telemetry",
+      "3. 20 Relationship Creation Priorities Summary",
+      "4. Alignment, Reflection & Descriptors (Private)"
+    ],
+    "privacy_boundary": "STRICT_PILLAR_3_ONLY (Anonymized Count Only -> Hub; 0% PII/Prose Exported)"
+  }
 }

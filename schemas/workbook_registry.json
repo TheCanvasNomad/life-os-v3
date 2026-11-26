@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-26T17:07:30Z",
+  "last_updated_utc": "2026-11-26T17:14:41Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2244,18 +2244,20 @@
       ],
       "all_tabs": [
         "DASHBOARD",
+        "PREFERENCE_PROFILE",
+        "RELATIONSHIP_CHECKUP_LOG",
         "DATABASE",
         "CALCULATIONS",
         "DOSSIER_TEMPLATE",
         "P3_CONFIG",
-        "IMPORTS",
+        "LOOKER_RELATIONSHIP_AGGREGATES",
         "MODULE_META",
         "CONTEXT_IN",
         "SIGNALS_OUT",
-        "LOOKER_RELATIONSHIP_AGGREGATES"
+        "IMPORTS"
       ],
-      "tab_count": 11,
-      "last_snapshot_utc": "2026-11-25T00:56:59Z",
+      "tab_count": 12,
+      "last_snapshot_utc": "2026-11-26T17:14:41Z",
       "snapshot_file": "schemas/live_snapshots/ID_PILLAR_3.json",
       "looker_tabs": [
         "LOOKER_RELATIONSHIP_AGGREGATES"
@@ -2263,6 +2265,7 @@
       "tabs": [
         "DASHBOARD",
         "PREFERENCE_PROFILE",
+        "RELATIONSHIP_CHECKUP_LOG",
         "DATABASE",
         "CALCULATIONS",
         "DOSSIER_TEMPLATE",
@@ -2321,9 +2324,17 @@
           "spreadsheet_id": "1TIA5KyRt629BWV5wlL1Maug5ppEqls5zHsugaYv783U",
           "form_id": "1hj71P4yFQa0PAbo3ML1J2K2V2Z87NSMkQV2xVBD1udY",
           "role": "Layer 1 Private Preference Silo -> PREFERENCE_PROFILE"
+        },
+        {
+          "name": "RAW_DATA_WeeklyRelationshipCheck",
+          "spreadsheet_id": "1jMWrerLnpcbv3QSrkHLdW8x83irEgCecdHrJopQyvQE",
+          "form_id": "18w3pqXxZZ_ZkXYwX6Q9PDLK4CCB9UROWS-CnQ0rASCk",
+          "drive_url": "https://docs.google.com/spreadsheets/d/1jMWrerLnpcbv3QSrkHLdW8x83irEgCecdHrJopQyvQE/edit",
+          "layer": "Layer 1 Raw Silo (Consolidated into RELATIONSHIP_CHECKUP_LOG \u2014 Not Standalone; Zero-PII Export)",
+          "auth_anchor": "P3_CONFIG!I10"
         }
       ],
-      "last_audited_utc": "2026-11-25T07:04:33Z"
+      "last_audited_utc": "2026-11-26T17:14:41Z"
     },
     "ID_RAW_INTAKE": {
       "title": "RAW_DATA_Intake",
