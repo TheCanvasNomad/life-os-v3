@@ -2,9 +2,9 @@
   "registry_key": "ID_LOVE_STYLES",
   "title": "\ud83d\udc9e Love_Styles_&_Languages_Brick",
   "spreadsheet_id": "1qg60_G6kEB3wNFJ8JcX3UkyL14ohiJO69uGvoTrU2Bw",
-  "snapshot_utc": "2026-11-25T00:56:59Z",
-  "pii_policy": "ZERO_PII_HEADERS_ONLY",
-  "tab_count": 9,
+  "snapshot_utc": "2026-11-26T20:03:00Z",
+  "pii_policy": "ZERO_PII_HEADERS_ONLY_TOUCH_ENCAPSULATED",
+  "tab_count": 10,
   "tabs": [
     {
       "title": "DASHBOARD",
@@ -234,6 +234,121 @@
         "What is your gender?",
         "What gender are you attracted to in romantic relationships?"
       ]
+    },
+    {
+      "title": "PHYSICAL_TOUCH_PROFILE",
+      "sheet_id": 2061378918,
+      "index": 1,
+      "hidden": false,
+      "sheet_type": "GRID",
+      "row_count": 42,
+      "col_count": 8,
+      "privacy_boundary": "STRICT_BRICK_ONLY (Status Flag Only -> Hub; 0% Individual Answers Exported)",
+      "headers_row_1": [
+        "\ud83e\udd32 PHYSICAL TOUCH PROFILE \u2014 SENSE OF TOUCH AUDIT (15 ITEMS \u2022 STRICTLY PRIVATE TO LOVE STYLES BRICK)"
+      ],
+      "panels": [
+        "1. Expressiveness, Boundaries & Massage Comfort (5 Items)",
+        "2. Affection Modes & Touch Sufficiency (4 Items)",
+        "3. Sensitivity & Communication Style (6 Items)"
+      ]
     }
+  ],
+  "audit_errors": 0,
+  "ingested_silos": [
+    {
+      "name": "RAW_DATA_LoveLanguage",
+      "spreadsheet_id": "1v8uyDCX1ViIvIw09Z2vTg3K3sx6edxiK5gL1jAVtMgA",
+      "form_id": "1SGPej8nYQNR9sYL2bSPW-66CfpmqwRZZ2m0JR3kKCcE",
+      "auth_anchor": "IMPORTS!F2",
+      "target_tab": "SCORING_ENGINE"
+    },
+    {
+      "name": "RAW_DATA_SenseOfTouch",
+      "spreadsheet_id": "1V4PTEcFT4FixOsqb5JaEp-oU7hCIJmwZqUpVcJ0R29A",
+      "form_id": "171i52D0NFaWZ2UQZIGdAz91zd3C_xwa5j17_dE6fIAA",
+      "auth_anchor": "IMPORTS!L2",
+      "target_tab": "PHYSICAL_TOUCH_PROFILE",
+      "privacy_boundary": "STRICT_BRICK_ONLY (Status Flag Only -> Hub)"
+    }
+  ],
+  "signals_out": [
+    [
+      "Signal_Key",
+      "Source_Brick",
+      "Glyph",
+      "Domain_Pillar",
+      "Raw_Value",
+      "Normalized_Score_0_100",
+      "State_Tag",
+      "Last_Updated",
+      "TTL_Hours"
+    ],
+    [
+      "LOVE_PRIMARY_RECEIVING",
+      "Love_Styles_&_Languages_Brick",
+      "\ud83d\udc9e",
+      "Pillar 3 / Receiving",
+      "Intellectual",
+      "78",
+      "Intellectual (78/100)",
+      "2026-11-26 15:02",
+      "4320"
+    ],
+    [
+      "LOVE_PRIMARY_EXPRESSING",
+      "Love_Styles_&_Languages_Brick",
+      "\ud83d\udd25",
+      "Pillar 3 / Expressing",
+      "Intellectual / Physical",
+      "87.5",
+      "Intellectual / Physical (87.5/100)",
+      "2026-11-26 15:02",
+      "4320"
+    ],
+    [
+      "LOVE_RECIPROCITY_BALANCE_PCT",
+      "Love_Styles_&_Languages_Brick",
+      "\u2696\ufe0f",
+      "Pillar 3 / Reciprocity",
+      "60",
+      "60",
+      "ASYMMETRIC_GIVER",
+      "2026-11-26 15:02",
+      "4320"
+    ],
+    [
+      "LOVE_BLIND_SPOT_COUNT",
+      "Love_Styles_&_Languages_Brick",
+      "\u26a0\ufe0f",
+      "Pillar 3 / Blind Spots",
+      "5",
+      "25",
+      "5 Gaps >=30 pts",
+      "2026-11-26 15:02",
+      "4320"
+    ],
+    [
+      "LOVE_CLASSIC_PRIMARY",
+      "Love_Styles_&_Languages_Brick",
+      "\ud83d\udc8c",
+      "Pillar 3 / Classic 5",
+      "Physical Touch",
+      "40",
+      "Physical Touch",
+      "2026-11-26 15:02",
+      "4320"
+    ],
+    [
+      "LOVE_TOUCH_PROFILE_STATUS",
+      "Love_Styles_&_Languages_Brick",
+      "\ud83e\udd32",
+      "Pillar 3 / Touch Profile",
+      "AWAITING_AUTH",
+      "",
+      "AWAITING_AUTH",
+      "",
+      "4320"
+    ]
   ]
 }

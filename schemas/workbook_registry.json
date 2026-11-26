@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-26T19:57:31Z",
+  "last_updated_utc": "2026-11-26T20:03:00Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -3117,7 +3117,8 @@
         "MODULE_META",
         "CONTEXT_IN",
         "SIGNALS_OUT",
-        "IMPORTS"
+        "IMPORTS",
+        "PHYSICAL_TOUCH_PROFILE"
       ],
       "search_aliases": [
         "\ud83d\udc9e Love_Styles_&_Languages_Brick",
@@ -3126,9 +3127,10 @@
         "7 Love Styles"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-25T00:56:59Z",
+      "last_snapshot_utc": "2026-11-26T20:03:00Z",
       "all_tabs": [
         "DASHBOARD",
+        "PHYSICAL_TOUCH_PROFILE",
         "SCORING_ENGINE",
         "7_STYLES_TAXONOMY",
         "LOOKER_LOVE_STYLES",
@@ -3138,7 +3140,7 @@
         "IMPORTS",
         "Form Responses 1"
       ],
-      "tab_count": 9,
+      "tab_count": 10,
       "linked_forms": [
         {
           "name": "7 LOVE STYLES TEST",
@@ -3152,6 +3154,17 @@
       "universal_brick_compliant": true,
       "looker_tabs": [
         "LOOKER_LOVE_STYLES"
+      ],
+      "last_audited_utc": "2026-11-26T20:03:00Z",
+      "tab_color_coded": true,
+      "ingested_sources": [
+        {
+          "name": "RAW_DATA_SenseOfTouch",
+          "spreadsheet_id": "1V4PTEcFT4FixOsqb5JaEp-oU7hCIJmwZqUpVcJ0R29A",
+          "form_id": "171i52D0NFaWZ2UQZIGdAz91zd3C_xwa5j17_dE6fIAA",
+          "role": "Layer 1 Private Sense of Touch Silo (15 items -> PHYSICAL_TOUCH_PROFILE; sanitized status flag only -> Hub)",
+          "auth_anchor": "IMPORTS!L2"
+        }
       ]
     },
     "RAW_DATA_LoveLanguage": {
@@ -3310,6 +3323,27 @@
         }
       ],
       "last_audited_utc": "2026-11-26T19:57:31Z"
+    },
+    "ID_RAW_SENSE_OF_TOUCH": {
+      "title": "RAW_DATA_SenseOfTouch",
+      "spreadsheet_id": "1V4PTEcFT4FixOsqb5JaEp-oU7hCIJmwZqUpVcJ0R29A",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1V4PTEcFT4FixOsqb5JaEp-oU7hCIJmwZqUpVcJ0R29A/edit",
+      "status": "ACTIVE",
+      "layer": "raw_data_silo",
+      "domain": "Pillar 3 Relationships \u2014 Sense of Touch Profile (Consolidated into Love_Styles_&_Languages_Brick)",
+      "parent_brick": "ID_LOVE_STYLES",
+      "registered_in_hub": false,
+      "privacy_boundary": "STRICT_BRICK_ONLY (Status Flag Only -> Hub)",
+      "live_tabs": [
+        "Form Responses 1"
+      ],
+      "linked_forms": [
+        {
+          "name": "Sense of Touch",
+          "form_id": "171i52D0NFaWZ2UQZIGdAz91zd3C_xwa5j17_dE6fIAA"
+        }
+      ],
+      "last_audited_utc": "2026-11-26T20:03:00Z"
     }
   },
   "unmapped_discovered": [
