@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-25T21:16:00Z",
+  "last_updated_utc": "2026-11-26T16:07:21Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2761,19 +2761,21 @@
         "Shadow Work Bench"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-24T16:38:33Z",
+      "last_snapshot_utc": "2026-11-26T16:07:21Z",
       "all_tabs": [
         "DASHBOARD",
+        "SELF_CODEX_PROFILE",
+        "PERSONAL_GROWTH_AUDIT",
         "DATABASE",
         "CALCULATIONS",
         "P0_CONFIG",
-        "IMPORTS",
+        "LOOKER_SHADOW_METRICS",
         "MODULE_META",
         "CONTEXT_IN",
         "SIGNALS_OUT",
-        "LOOKER_SHADOW_METRICS"
+        "IMPORTS"
       ],
-      "tab_count": 10,
+      "tab_count": 11,
       "linked_forms": [
         {
           "name": "Life OS - Shadow Journal Form",
@@ -2787,6 +2789,7 @@
       "tabs": [
         "DASHBOARD",
         "SELF_CODEX_PROFILE",
+        "PERSONAL_GROWTH_AUDIT",
         "DATABASE",
         "CALCULATIONS",
         "P0_CONFIG",
@@ -2808,9 +2811,17 @@
           "spreadsheet_id": "1wIWInPaM_YpWg995MfWdnzHT8_OVG_stwwVuf2AIgTw",
           "form_id": "1FQqNSMSgDVG6lPirONfcpwbRZfriHJIjuTByUPdgQOQ",
           "layer": "Layer 1 Raw Silo (Consolidated into SELF_CODEX_PROFILE \u2014 Not Standalone)"
+        },
+        {
+          "name": "RAW_DATA_PersonalDevelopment",
+          "spreadsheet_id": "1hygpK684uimaG-uiV0-kq-MkTAPqmRUJmXoxI5qlHQ0",
+          "form_id": "1HWuW9SrUofKDo8iWko-AltI0wubOkcCqze8NLPQOyxw",
+          "drive_url": "https://docs.google.com/spreadsheets/d/1hygpK684uimaG-uiV0-kq-MkTAPqmRUJmXoxI5qlHQ0/edit",
+          "layer": "Layer 1 Raw Silo (Consolidated into PERSONAL_GROWTH_AUDIT \u2014 Not Standalone)",
+          "auth_anchor": "P0_CONFIG!I10"
         }
       ],
-      "last_audited_utc": "2026-11-25T06:35:24Z"
+      "last_audited_utc": "2026-11-26T16:07:21Z"
     },
     "ID_RAW_SHADOW_JOURNAL": {
       "title": "RAW_DATA_ShadowJournal",

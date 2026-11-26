@@ -1,97 +1,112 @@
 {
   "spreadsheet_id": "1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU",
   "title": "\ud83c\udf11 Pillar_0_Shadow_Self",
-  "key": "ID_PILLAR_0",
-  "captured_at_utc": "2026-11-25T06:35:24Z",
-  "pii_scrubbed": true,
-  "privacy_boundary": "STRICT_ZERO_PROSE_ZERO_PII",
-  "tab_count": 10,
+  "registry_key": "ID_PILLAR_0",
+  "privacy_contract": "STRICT_ZERO_PROSE_ZERO_PII",
+  "snapshot_utc": "2026-11-26T16:07:21Z",
   "tabs": [
-    {
-      "index": 0,
-      "title": "DASHBOARD",
-      "sheetId": 2072722388,
-      "tabColor": "#F59E0B",
-      "hideGridlines": true
-    },
-    {
-      "index": 1,
-      "title": "SELF_CODEX_PROFILE",
-      "sheetId": 2022554659,
-      "tabColor": "#8B5CF6",
-      "hideGridlines": true
-    },
-    {
-      "index": 2,
-      "title": "DATABASE",
-      "sheetId": 485492251,
-      "tabColor": "#8B5CF6",
-      "hideGridlines": true
-    },
-    {
-      "index": 3,
-      "title": "CALCULATIONS",
-      "sheetId": 1347227662,
-      "tabColor": "#8B5CF6",
-      "hideGridlines": true
-    },
-    {
-      "index": 4,
-      "title": "P0_CONFIG",
-      "sheetId": 1648982482,
-      "tabColor": "#8B5CF6",
-      "hideGridlines": true
-    },
-    {
-      "index": 5,
-      "title": "LOOKER_SHADOW_METRICS",
-      "sheetId": 1240334673,
-      "tabColor": "#06B6D4",
-      "hideGridlines": true
-    },
-    {
-      "index": 6,
-      "title": "MODULE_META",
-      "sheetId": 1349423200,
-      "tabColor": "#3B82F6",
-      "hideGridlines": true
-    },
-    {
-      "index": 7,
-      "title": "CONTEXT_IN",
-      "sheetId": 246517698,
-      "tabColor": "#3B82F6",
-      "hideGridlines": true
-    },
-    {
-      "index": 8,
-      "title": "SIGNALS_OUT",
-      "sheetId": 178587275,
-      "tabColor": "#3B82F6",
-      "hideGridlines": true
-    },
-    {
-      "index": 9,
-      "title": "IMPORTS",
-      "sheetId": 0,
-      "tabColor": "#EF4444",
-      "hideGridlines": false
-    }
+    "DASHBOARD",
+    "SELF_CODEX_PROFILE",
+    "PERSONAL_GROWTH_AUDIT",
+    "DATABASE",
+    "CALCULATIONS",
+    "P0_CONFIG",
+    "LOOKER_SHADOW_METRICS",
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT",
+    "IMPORTS"
   ],
-  "ingested_layer1_silos": [
+  "ingested_private_silos": [
     {
       "name": "RAW_DATA_ShadowJournal",
-      "spreadsheet_id": "1wzXYSOKo7oT_EpYcDtFcYBXypqw-BiwUGpoEjsOw5vU",
-      "role": "Layer 1 Private Shadow Journal"
+      "spreadsheet_id": "1wzXYSOKo7oT_EpYcDtFcYBXypqw-BiwUGpoEjsOw5vU"
     },
     {
       "name": "RAW_DATA_KnowThySelf",
       "spreadsheet_id": "1wIWInPaM_YpWg995MfWdnzHT8_OVG_stwwVuf2AIgTw",
-      "form_id": "1FQqNSMSgDVG6lPirONfcpwbRZfriHJIjuTByUPdgQOQ",
-      "role": "Layer 1 Private Self-Codex (28 prompts -> SELF_CODEX_PROFILE)"
+      "auth_anchor": "P0_CONFIG!I9"
+    },
+    {
+      "name": "RAW_DATA_PersonalDevelopment",
+      "spreadsheet_id": "1hygpK684uimaG-uiV0-kq-MkTAPqmRUJmXoxI5qlHQ0",
+      "form_id": "1HWuW9SrUofKDo8iWko-AltI0wubOkcCqze8NLPQOyxw",
+      "auth_anchor": "P0_CONFIG!I10"
     }
   ],
-  "signals_out": [
+  "MODULE_META": [
+    [
+      "Meta_Key",
+      "Value",
+      "Notes"
+    ],
+    [
+      "Module_Name",
+      "Pillar_0_Shadow_Self",
+      "Canonical v3.0 Shadow Work, RCMC & Saboteur Integration Spoke"
+    ],
+    [
+      "Module_Glyph",
+      "\ud83c\udf11",
+      "Pillar 0 Icon"
+    ],
+    [
+      "Schema_Version",
+      "3.0.0",
+      "Laws 1-8 Compliant \u2022 Zero Private Prose Exported to Hub"
+    ],
+    [
+      "Spreadsheet_ID",
+      "1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU",
+      "\ud83c\udf11 Pillar_0_Shadow_Self"
+    ],
+    [
+      "Layer_1_Raw_ID",
+      "1wzXYSOKo7oT_EpYcDtFcYBXypqw-BiwUGpoEjsOw5vU",
+      "RAW_DATA_ShadowJournal (Write-Only Private Silo)"
+    ],
+    [
+      "Primary_Form_ID",
+      "1ND9p5_lNx_6KAi2Tts9x96HB-k4epKi_7gaMtr-F_kA",
+      "Life OS - Shadow Journal Form"
+    ],
+    [
+      "Saboteur_PQ_ID",
+      "1NhqPJDFOp91qOp5Y9hPe0rIuqECKU_b08cZYXZAqxeE",
+      "Saboteur Assessment (Responses)"
+    ],
+    [
+      "Doppelganger_ID",
+      "1rF8zWY_-HAUhxilX1SaPE0L_iSPEr_gQO6_ZtoWhyPg",
+      "Doppelganger_Brick (Shadow Arena)"
+    ],
+    [
+      "Quests_Silo_ID",
+      "1uV7FXlTU--gHFOt7zWYRkDxGk15QXIPGbBcshkk4TVw",
+      "RAW_DATA_Quests (Healing Quest Target)"
+    ],
+    [
+      "Hub_ID",
+      "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
+      "LifeOS_feed_hub"
+    ],
+    [
+      "Privacy_Boundary",
+      "STRICT_ZERO_PROSE_ZERO_PII",
+      "Private journal text NEVER leaves Pillar_0_Shadow_Self; SIGNALS_OUT exports numeric/state aggregates only"
+    ],
+    [
+      "Consolidated_Private_Silos",
+      "RAW_DATA_KnowThySelf, RAW_DATA_PersonalDevelopment (1hygpK684uimaG-uiV0-kq-MkTAPqmRUJmXoxI5qlHQ0)",
+      "Ingested privately into Pillar 0 (ZERO prose exported to Hub/GitHub)"
+    ],
+    [
+      "Last_Upgraded_UTC",
+      "2026-11-25 06:35 UTC",
+      "Consolidated RAW_DATA_KnowThySelf -> SELF_CODEX_PROFILE (strict zero-prose boundary)"
+    ]
+  ],
+  "SIGNALS_OUT": [
     [
       "Signal_Key",
       "Source_Brick",
@@ -111,7 +126,7 @@
       "66.7",
       "66.7",
       "LIVE",
-      "11/25/2026 1:35:10",
+      "11/26/2026 11:07:09",
       "24"
     ],
     [
@@ -166,7 +181,7 @@
       "66.7",
       "66.7",
       "LIVE",
-      "11/25/2026 1:35:10",
+      "11/26/2026 11:07:09",
       "24"
     ],
     [
@@ -179,27 +194,219 @@
       "AWAITING_SUBMISSION",
       "",
       "720"
+    ],
+    [
+      "P0_GROWTH_AUDIT_STATUS",
+      "Pillar_0_Shadow_Self",
+      "\ud83c\udf31",
+      "Pillar 0 / Growth Audit",
+      "AWAITING_AUTH",
+      "",
+      "AWAITING_AUTH",
+      "",
+      "720",
+      "Sanitized Personal Growth Audit status flag & Self-Concept composite only \u2014 ZERO private prose exported"
     ]
   ],
-  "self_codex_kpi_strip_sanitized": {
-    "status": [
-      [
-        "AWAITING_SUBMISSION"
-      ]
+  "CONTEXT_IN": [
+    [
+      "Subscribed_Signal_Key",
+      "Source_Hub",
+      "Live_Value",
+      "Normalized_0_100",
+      "Hub_Status",
+      "Hub_Auth_Trigger"
     ],
-    "answered_count": [
-      [
-        "0"
-      ]
+    [
+      "DOPPELGANGER_DOMINATION_INDEX",
+      "LifeOS_feed_hub",
+      "SOVEREIGN DOMINANCE",
+      "33.3",
+      "FRESH",
+      "Signal_Key"
     ],
-    "privacy_boundary": "STRICT_PILLAR_0_ONLY (0% Prose Exported)",
-    "panel_names": [
-      "1. ARCHETYPE, SUPERPOWER & CREATIVE RESONANCE",
-      "2. ENVIRONMENT, FREEDOM & LEGACY VISION",
-      "3. RELATIONAL CODE & CORE VALUES",
-      "4. SHADOW HOOKS, FEARS & CRUCIBLE MEMORY (STRICTLY PRIVATE TO PILLAR 0)"
+    [
+      "SHADOW_TAX_RATE",
+      "LifeOS_feed_hub",
+      "Nomad 100 vs Shadow 50 (33.3% Tax)",
+      "33.3",
+      "FRESH",
+      "AUTHORIZED"
     ],
-    "prompt_count": 28
-  },
-  "audit_errors": 0
+    [
+      "PQ_PRIMARY_SABOTEUR",
+      "LifeOS_feed_hub",
+      "",
+      "",
+      "AWAITING_AUTH",
+      "AUTHORIZED"
+    ],
+    [
+      "P3_SHADOW_FLAGS_30D",
+      "LifeOS_feed_hub",
+      "0",
+      "100",
+      "FRESH",
+      "AUTHORIZED"
+    ],
+    [
+      "P4_PROCRASTINATION_FLAG",
+      "LifeOS_feed_hub",
+      "CLEAR",
+      "100",
+      "FRESH",
+      "AUTHORIZED"
+    ],
+    [
+      "VALUES_ALIGNMENT_SCORE",
+      "LifeOS_feed_hub",
+      "",
+      "",
+      "AWAITING_AUTH",
+      "AUTHORIZED"
+    ],
+    [
+      "P5_BUCKET_LIST_WAITING_FLAG",
+      "LifeOS_feed_hub",
+      "",
+      "",
+      "LIVE",
+      "AUTHORIZED"
+    ]
+  ],
+  "LOOKER_SHADOW_METRICS": [
+    [
+      "Metric_Key",
+      "Metric_Label",
+      "Category",
+      "Live_Value",
+      "Normalized_0_100",
+      "Gate_Status",
+      "Last_Updated"
+    ],
+    [
+      "P0_WISDOM_SCORE",
+      "P0 Wisdom Score (Master Anchor)",
+      "Composite",
+      "66.7",
+      "66.7",
+      "PROGRESSING",
+      "11/26/2026 11:07:09"
+    ],
+    [
+      "L1_UNAWARENESS",
+      "L1: Unawareness -> Awareness",
+      "Hierarchy",
+      "",
+      "",
+      "AWAITING_DATA"
+    ],
+    [
+      "L2_IDENTIFICATION",
+      "L2: Identification",
+      "Hierarchy",
+      "",
+      "",
+      "AWAITING_DATA"
+    ],
+    [
+      "L3_ANALYSIS_RCMC",
+      "L3: Analysis (RCMC)",
+      "Hierarchy",
+      "",
+      "",
+      "AWAITING_DATA"
+    ],
+    [
+      "L4_INTEGRATION",
+      "L4: Integration",
+      "Hierarchy",
+      "",
+      "",
+      "AWAITING_DATA"
+    ],
+    [
+      "L5_TRANSPARENCY",
+      "L5: Transparency",
+      "Hierarchy",
+      "66.7",
+      "66.7",
+      "PROGRESSING",
+      "11/26/2026 11:07:09"
+    ],
+    [
+      "TOTAL_WISDOM_POINTS",
+      "Total Wisdom Points (L5)",
+      "Telemetry",
+      "0",
+      "0",
+      "AWAITING_DATA",
+      "11/26/2026 11:07:09"
+    ],
+    [
+      "TOTAL_ANTIFRAGILITY_XP",
+      "Antifragility XP Earned",
+      "Telemetry",
+      "0",
+      "0",
+      "AWAITING_DATA",
+      "11/26/2026 11:07:09"
+    ],
+    [
+      "INTEGRATION_RATE_PCT",
+      "Shadow Integration Rate %",
+      "Telemetry",
+      "",
+      "",
+      "AWAITING_DATA"
+    ],
+    [
+      "UNINTEGRATED_COUNT",
+      "Active Unintegrated Shadows",
+      "Telemetry",
+      "0",
+      "100",
+      "AWAITING_DATA",
+      "11/26/2026 11:07:09"
+    ],
+    [
+      "ARENA_DOMINANCE_SCORE",
+      "Shadow Arena Dominance (Doppelganger)",
+      "Arena",
+      "66.7",
+      "66.7",
+      "CONTESTED",
+      "11/26/2026 11:07:09"
+    ],
+    [
+      "P0_GRIP_INTEGRITY",
+      "Sword Grip Integrity (60% Wisdom / 40% Arena)",
+      "Sword",
+      "66.7",
+      "66.7",
+      "LIVE",
+      "11/26/2026 11:07:09"
+    ],
+    [
+      "VAULT_SEALED_COUNT",
+      "Obsidian Vault Sealed Entries",
+      "Vault",
+      "0",
+      "",
+      "STANDBY",
+      "11/26/2026 11:07:09"
+    ]
+  ],
+  "PERSONAL_GROWTH_AUDIT_HEADERS_ONLY": {
+    "banner": "\ud83c\udf31 PILLAR 0 \u2014 PERSONAL GROWTH AUDIT",
+    "prompt_count": 47,
+    "panels": [
+      "1. Self-Concept & Identity Ratings (4)",
+      "2. Age-Bracket Personal Growth Effort Trajectory (6)",
+      "3. Growth Levers, Defining Moments & Age / Memory Reflection (14)",
+      "4. Growth Environments & Inspiration Spaces (7)",
+      "5. Instincts, Social Influence & Motivational Drivers (16)"
+    ],
+    "privacy_boundary": "STRICT_PILLAR_0_ONLY (0% Prose Exported)"
+  }
 }
