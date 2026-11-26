@@ -3,7 +3,7 @@
   "title": "\ud83c\udf11 Pillar_0_Shadow_Self",
   "registry_key": "ID_PILLAR_0",
   "privacy_contract": "STRICT_ZERO_PROSE_ZERO_PII",
-  "snapshot_utc": "2026-11-26T16:41:21Z",
+  "snapshot_utc": "2026-11-26T17:07:30Z",
   "tabs": [
     "DASHBOARD",
     "SELF_CODEX_PROFILE",
@@ -38,6 +38,12 @@
       "spreadsheet_id": "1dy5b0b2nZFdlftuvKCUu6NngvSyyvTDUbfPT1Z9lG8g",
       "form_id": "1NSgrf12tzhVFTf_p1DdIp48-B1RSAaorXPZk-rnGyrU",
       "auth_anchor": "P0_CONFIG!I11"
+    },
+    {
+      "name": "RAW_DATA_5Q_LifeAudit",
+      "spreadsheet_id": "10P9aPRrqmTBe4Q2HVPbf5SwmfSSsT6K_Aer5jbE-VLQ",
+      "form_id": "1gBgxNA0ckH0BK5KeJlRSBaAd4t5RH9ycNHdH6HZFKeg",
+      "auth_anchor": "P0_CONFIG!I12"
     }
   ],
   "MODULE_META": [
@@ -103,7 +109,7 @@
     ],
     [
       "Consolidated_Private_Silos",
-      "RAW_DATA_KnowThySelf, RAW_DATA_PersonalDevelopment, RAW_DATA_LifeAudit (1dy5b0b2nZFdlftuvKCUu6NngvSyyvTDUbfPT1Z9lG8g)",
+      "RAW_DATA_KnowThySelf, RAW_DATA_PersonalDevelopment, RAW_DATA_LifeAudit, RAW_DATA_5Q_LifeAudit (10P9aPRrqmTBe4Q2HVPbf5SwmfSSsT6K_Aer5jbE-VLQ)",
       "Ingested privately into Pillar 0 (ZERO prose exported to Hub/GitHub)"
     ],
     [
@@ -132,7 +138,7 @@
       "66.7",
       "66.7",
       "LIVE",
-      "11/26/2026 11:43:17",
+      "11/26/2026 12:08:28",
       "24"
     ],
     [
@@ -187,7 +193,7 @@
       "66.7",
       "66.7",
       "LIVE",
-      "11/26/2026 11:43:17",
+      "11/26/2026 12:08:28",
       "24"
     ],
     [
@@ -198,7 +204,7 @@
       "ACTIVE (26/28 Answered)",
       "92.9",
       "ACTIVE",
-      "11/26/2026 11:43:17",
+      "11/26/2026 12:08:28",
       "720"
     ],
     [
@@ -209,7 +215,7 @@
       "ACTIVE (47/47 Answered)",
       "70",
       "ACTIVE",
-      "11/26/2026 11:43:17",
+      "11/26/2026 12:08:28",
       "720",
       "Sanitized Personal Growth Audit status flag & Self-Concept composite only \u2014 ZERO private prose exported"
     ],
@@ -218,12 +224,12 @@
       "Pillar_0_Shadow_Self",
       "\ud83e\udded",
       "Pillar 0 / Life Audit",
-      "AWAITING_AUTH",
-      "",
-      "AWAITING_AUTH",
-      "",
+      "ACTIVE (2 Runs | 14/27)",
+      "60",
+      "ACTIVE",
+      "11/26/2026 12:08:28",
       "720",
-      "Sanitized Life Audit Baseline status flag & quantitative life-rating composite only \u2014 ZERO private prose exported"
+      "Sanitized Unified Life Audit status across RAW_DATA_LifeAudit + RAW_DATA_5Q_LifeAudit \u2014 ZERO private prose exported"
     ]
   ],
   "CONTEXT_IN": [
@@ -424,13 +430,15 @@
     ]
   ],
   "LIFE_AUDIT_SNAPSHOT_HEADERS_ONLY": {
-    "banner": "\ud83e\udded PILLAR 0 \u2014 LIFE AUDIT SNAPSHOT",
-    "field_count": 14,
+    "banner": "\ud83e\udded PILLAR 0 \u2014 UNIFIED LIFE AUDIT SNAPSHOT (SIGNS + 5Q LONGITUDINAL)",
+    "total_prompts": 27,
+    "historical_runs": 3,
     "panels": [
       "1. Quantitative Self-Ratings (2)",
       "2. Audit Triggers, Friction & Stressors (4)",
       "3. Purpose, Momentum, Pride & Gaps (6)",
-      "4. Energy Allocation & Inner Monologue (2)"
+      "4. Energy Allocation & Inner Monologue (2)",
+      "5. 5-Question Life Audit Longitudinal Comparison \u2014 Baseline vs. Latest Run (13 prompts: Vitality & Vision, Relational Alignment, Wellness & Somatic, Core Character Pride Pillars)"
     ],
     "privacy_boundary": "STRICT_PILLAR_0_ONLY (0% Prose Exported)"
   }

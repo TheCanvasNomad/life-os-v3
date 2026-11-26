@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-26T16:41:21Z",
+  "last_updated_utc": "2026-11-26T17:07:30Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2773,7 +2773,7 @@
         "Shadow Work Bench"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-26T16:41:21Z",
+      "last_snapshot_utc": "2026-11-26T17:07:30Z",
       "all_tabs": [
         "DASHBOARD",
         "SELF_CODEX_PROFILE",
@@ -2841,9 +2841,17 @@
           "drive_url": "https://docs.google.com/spreadsheets/d/1dy5b0b2nZFdlftuvKCUu6NngvSyyvTDUbfPT1Z9lG8g/edit",
           "layer": "Layer 1 Raw Silo (Consolidated into LIFE_AUDIT_SNAPSHOT \u2014 Not Standalone)",
           "auth_anchor": "P0_CONFIG!I11"
+        },
+        {
+          "name": "RAW_DATA_5Q_LifeAudit",
+          "spreadsheet_id": "10P9aPRrqmTBe4Q2HVPbf5SwmfSSsT6K_Aer5jbE-VLQ",
+          "form_id": "1gBgxNA0ckH0BK5KeJlRSBaAd4t5RH9ycNHdH6HZFKeg",
+          "drive_url": "https://docs.google.com/spreadsheets/d/10P9aPRrqmTBe4Q2HVPbf5SwmfSSsT6K_Aer5jbE-VLQ/edit",
+          "layer": "Layer 1 Raw Silo (Consolidated into LIFE_AUDIT_SNAPSHOT Longitudinal \u2014 Not Standalone)",
+          "auth_anchor": "P0_CONFIG!I12"
         }
       ],
-      "last_audited_utc": "2026-11-26T16:41:21Z"
+      "last_audited_utc": "2026-11-26T17:07:30Z"
     },
     "ID_RAW_SHADOW_JOURNAL": {
       "title": "RAW_DATA_ShadowJournal",
