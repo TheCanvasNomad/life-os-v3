@@ -1,0 +1,170 @@
+{
+  "registry_key": "ID_SOVEREIGNTY_DESIRE",
+  "title": "\u2696\ufe0f Sovereignty_Desire_Brick",
+  "spreadsheet_id": "1eNHenM8QdiE_onsNYkkMJyvXOlo5D7y-n8e7LF5HpTc",
+  "form_id": "1-a-vSCiBrDuKnwTqZI5I-OxTOVsYoCXvtsRVqOzlOpo",
+  "snapshot_utc": "2026-11-26T20:49:32Z",
+  "pii_policy": "ZERO_PII_AGGREGATES_ONLY",
+  "tab_count": 8,
+  "tabs": [
+    "\u2696\ufe0f SOVEREIGNTY_HUD",
+    "SCORING_ENGINE",
+    "TAXONOMY_&_ADVISORY",
+    "LOOKER_SOVEREIGNTY_DESIRE",
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT",
+    "Form Responses 1"
+  ],
+  "primary_tab": "\u2696\ufe0f SOVEREIGNTY_HUD",
+  "looker_tab": "LOOKER_SOVEREIGNTY_DESIRE",
+  "signals_out": [
+    [
+      "Signal_Key",
+      "Source_Brick",
+      "Glyph",
+      "Domain_Pillar",
+      "Raw_Value",
+      "Normalized_Score_0_100",
+      "State_Tag",
+      "Last_Updated",
+      "TTL_Hours"
+    ],
+    [
+      "SOV_COMPOSITE_SCORE",
+      "Sovereignty_Desire_Brick",
+      "\u2696\ufe0f",
+      "Pillar 0 & 3 / Sovereignty",
+      "76.7",
+      "76.7",
+      "92/120 (M-M-H-M-H-H)",
+      "11/26/2026 15:49:05",
+      "2160"
+    ],
+    [
+      "SOV_D1_BIOLOGICAL_PULL",
+      "Sovereignty_Desire_Brick",
+      "\ud83d\udd25",
+      "Pillar 3 / Desire Pull",
+      "62.5",
+      "62.5",
+      "Moderate (14/20)",
+      "11/26/2026 15:49:05",
+      "2160"
+    ],
+    [
+      "SOV_D2_SUBLIMATION",
+      "Sovereignty_Desire_Brick",
+      "\u26a1",
+      "Pillar 4 / Sublimation",
+      "62.5",
+      "62.5",
+      "Moderate (14/20)",
+      "11/26/2026 15:49:05",
+      "2160"
+    ],
+    [
+      "SOV_D3_SOVEREIGNTY",
+      "Sovereignty_Desire_Brick",
+      "\ud83d\udc51",
+      "Pillar 3 / Sovereignty",
+      "75",
+      "75",
+      "High (16/20)",
+      "11/26/2026 15:49:05",
+      "2160"
+    ],
+    [
+      "SOV_D4_CLARITY",
+      "Sovereignty_Desire_Brick",
+      "\ud83d\udd2d",
+      "Pillar 3 / Clarity",
+      "56.3",
+      "56.3",
+      "Moderate (13/20)",
+      "11/26/2026 15:49:05",
+      "2160"
+    ],
+    [
+      "SOV_D5_SOLITUDE",
+      "Sovereignty_Desire_Brick",
+      "\ud83c\udfd4\ufe0f",
+      "Pillar 0 / Solitude",
+      "81.3",
+      "81.3",
+      "High (17/20)",
+      "11/26/2026 15:49:05",
+      "2160"
+    ],
+    [
+      "SOV_D6_REGRET_OWNERSHIP",
+      "Sovereignty_Desire_Brick",
+      "\ud83d\udee1\ufe0f",
+      "Pillar 0 / Regret",
+      "87.5",
+      "87.5",
+      "High (18/20)",
+      "11/26/2026 15:49:05",
+      "2160"
+    ],
+    [
+      "SOV_PRIMARY_ARCHETYPE",
+      "Sovereignty_Desire_Brick",
+      "\ud83c\udfdb\ufe0f",
+      "Identity / Archetype",
+      "The Sovereign Builder",
+      "76.7",
+      "2nd: The High-Voltage Strategist",
+      "11/26/2026 15:49:05",
+      "2160"
+    ],
+    [
+      "SOV_TIER_VECTOR",
+      "Sovereignty_Desire_Brick",
+      "\ud83e\udded",
+      "Identity / Vector",
+      "M-M-H-M-H-H",
+      "76.7",
+      "92/120",
+      "11/26/2026 15:49:05",
+      "2160"
+    ],
+    [
+      "SOV_ACTIVE_TENSION_COUNT",
+      "Sovereignty_Desire_Brick",
+      "\u26a0\ufe0f",
+      "Pillar 0 / Tensions",
+      "0",
+      "100",
+      "CLEAR (Anchor Active)",
+      "11/26/2026 15:49:05",
+      "2160"
+    ],
+    [
+      "SOV_RUN_XP",
+      "Sovereignty_Desire_Brick",
+      "\u2728",
+      "XP / Diagnostic Runs",
+      "100",
+      "100",
+      "1 Run(s) \u00d7 100 XP",
+      "11/26/2026 15:49:05",
+      "2160"
+    ]
+  ],
+  "looker_headers": [
+    [
+      "Record_Type",
+      "Item_Key",
+      "Item_Label",
+      "Dimension_Or_Group",
+      "Raw_Score",
+      "Normalized_0_100",
+      "Tier_Band",
+      "Status_Tag",
+      "Run_Date",
+      "Last_Updated"
+    ]
+  ],
+  "audit_errors": 0
+}
