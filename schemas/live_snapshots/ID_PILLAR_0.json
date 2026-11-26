@@ -3,7 +3,7 @@
   "title": "\ud83c\udf11 Pillar_0_Shadow_Self",
   "registry_key": "ID_PILLAR_0",
   "privacy_contract": "STRICT_ZERO_PROSE_ZERO_PII",
-  "snapshot_utc": "2026-11-26T20:11:21Z",
+  "snapshot_utc": "2026-11-26T23:32:52Z",
   "tabs": [
     "DASHBOARD",
     "SELF_CODEX_PROFILE",
@@ -62,6 +62,14 @@
       "auth_anchor": "P0_CONFIG!I14",
       "target_tab": "FEAR_&_INSECURITY_MATRIX",
       "privacy_boundary": "STRICT_PILLAR_0_ONLY (Sanitized Status Flag Only -> Hub)"
+    },
+    {
+      "name": "RAW_DATA_PastReflections",
+      "spreadsheet_id": "1jKLpR7osfWF_DrIb0N9SQcxy6ZYz6N2CQEqUOGOsDdk",
+      "form_id": "1P2pEm9md8EeOUcBq9YuekZfF473cQec9Sjjq0qd5F2I",
+      "auth_anchor": "P0_CONFIG!I15",
+      "target_tab": "REGRET_AUDIT_LOG",
+      "privacy_boundary": "STRICT_PILLAR_0_ONLY (Zero Names / Zero Private Prose Exported)"
     }
   ],
   "MODULE_META": [
@@ -122,7 +130,7 @@
     ],
     [
       "Privacy_Boundary",
-      "RAW_DATA_KnowThySelf, RAW_DATA_PersonalDevelopment, RAW_DATA_LifeAudit, RAW_DATA_5Q_LifeAudit, RAW_DATA_RegretAudit, RAW_DATA_FearInsecurities (1KfFvvrJh5ys_lSCFKZlrHXxcOiAWgWsvAQeajnS1exo)",
+      "RAW_DATA_KnowThySelf, RAW_DATA_PersonalDevelopment, RAW_DATA_LifeAudit, RAW_DATA_5Q_LifeAudit, RAW_DATA_RegretAudit, RAW_DATA_FearInsecurities, RAW_DATA_PastReflections (1jKLpR7osfWF_DrIb0N9SQcxy6ZYz6N2CQEqUOGOsDdk)",
       "Private journal text NEVER leaves Pillar_0_Shadow_Self; SIGNALS_OUT exports numeric/state aggregates only"
     ],
     [
@@ -156,7 +164,7 @@
       "66.7",
       "66.7",
       "LIVE",
-      "11/26/2026 15:11:14",
+      "11/26/2026 18:32:53",
       "24"
     ],
     [
@@ -211,7 +219,7 @@
       "66.7",
       "66.7",
       "LIVE",
-      "11/26/2026 15:11:14",
+      "11/26/2026 18:32:53",
       "24"
     ],
     [
@@ -222,7 +230,7 @@
       "ACTIVE (26/28 Answered)",
       "92.9",
       "ACTIVE",
-      "11/26/2026 15:11:14",
+      "11/26/2026 18:32:53",
       "720"
     ],
     [
@@ -233,7 +241,7 @@
       "ACTIVE (47/47 Answered)",
       "70",
       "ACTIVE",
-      "11/26/2026 15:11:14",
+      "11/26/2026 18:32:53",
       "720"
     ],
     [
@@ -244,7 +252,7 @@
       "ACTIVE (2 Runs | 14/27)",
       "60",
       "ACTIVE",
-      "11/26/2026 15:11:14",
+      "11/26/2026 18:32:53",
       "720"
     ],
     [
@@ -483,14 +491,15 @@
   "tab_count": 14,
   "audit_errors": 0,
   "REGRET_AUDIT_LOG_HEADERS_ONLY": {
-    "banner": "\ud83d\udd25 PILLAR 0 \u2014 REGRET & SELF-PUNISHMENT AUDIT LOG (STRICTLY PRIVATE)",
+    "banner": "\ud83d\udd25 PILLAR 0 \u2014 REGRET & PAST REFLECTIONS AUDIT LOG (2 PRIVATE SILOS)",
     "sections": [
       "1. Rumination & Self-Punishment Load (5 Items + Composite Rating)",
       "2. Growth Extraction, Boundary Discipline & Somatic Impact (6 Items)",
       "3. Regret Locus & Onset Signature (3 Items)",
-      "4. Pass-2 Shadow Reinforcement Loop Diagnostic (Regret Self-Punishment x PQ Judge of Self)"
+      "4. Pass-2 Shadow Reinforcement Loop Diagnostic (Regret Self-Punishment x PQ Judge of Self)",
+      "5. Past Reflections & Qualitative Regret Anchors (RAW_DATA_PastReflections \u2014 Strictly Private)"
     ],
-    "privacy_boundary": "STRICT_PILLAR_0_ONLY (Zero Granular Regret Metrics or Prose Exported)"
+    "privacy_boundary": "STRICT_PILLAR_0_ONLY (Zero Names, Zero Granular Regret Metrics or Personal Prose Exported)"
   },
   "FEAR_MATRIX_HEADERS_ONLY": {
     "banner": "\ud83d\udc41\ufe0f PILLAR 0 \u2014 FEAR & INSECURITY DIAGNOSTIC MATRIX (STRICTLY PRIVATE)",

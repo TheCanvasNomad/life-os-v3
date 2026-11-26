@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-26T21:32:42Z",
+  "last_updated_utc": "2026-11-26T23:32:52Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2807,7 +2807,7 @@
         "Shadow Work Bench"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-26T20:11:21Z",
+      "last_snapshot_utc": "2026-11-26T23:32:52Z",
       "all_tabs": [
         "DASHBOARD",
         "SELF_CODEX_PROFILE",
@@ -2899,9 +2899,16 @@
           "form_id": "1ElY5lTwmxFpZQ255npOAK6EURevTi20jUOKvHp2Qdrc",
           "role": "Layer 1 Private Fear & Insecurity Silo (110 scaled + 9 freq + 13 narrative -> FEAR_&_INSECURITY_MATRIX; status flag only -> Hub)",
           "auth_anchor": "P0_CONFIG!I14"
+        },
+        {
+          "name": "RAW_DATA_PastReflections",
+          "spreadsheet_id": "1jKLpR7osfWF_DrIb0N9SQcxy6ZYz6N2CQEqUOGOsDdk",
+          "form_id": "1P2pEm9md8EeOUcBq9YuekZfF473cQec9Sjjq0qd5F2I",
+          "role": "Layer 1 Private Past Reflections Silo (3 qualitative prompts -> REGRET_AUDIT_LOG Sec 5; zero names/prose exported)",
+          "auth_anchor": "P0_CONFIG!I15"
         }
       ],
-      "last_audited_utc": "2026-11-26T20:11:21Z"
+      "last_audited_utc": "2026-11-26T23:32:52Z"
     },
     "ID_RAW_SHADOW_JOURNAL": {
       "title": "RAW_DATA_ShadowJournal",
@@ -3450,6 +3457,27 @@
       ],
       "last_snapshot_utc": "2026-11-26T21:32:42Z",
       "last_audited_utc": "2026-11-26T21:32:42Z"
+    },
+    "ID_RAW_PAST_REFLECTIONS": {
+      "title": "RAW_DATA_PastReflections",
+      "spreadsheet_id": "1jKLpR7osfWF_DrIb0N9SQcxy6ZYz6N2CQEqUOGOsDdk",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1jKLpR7osfWF_DrIb0N9SQcxy6ZYz6N2CQEqUOGOsDdk/edit",
+      "status": "ACTIVE",
+      "layer": "raw_data_silo",
+      "domain": "Pillar 0 Shadow Self \u2014 Past Reflections & Qualitative Regret Anchors (Consolidated into Pillar_0_Shadow_Self!REGRET_AUDIT_LOG)",
+      "parent_brick": "ID_PILLAR_0",
+      "registered_in_hub": false,
+      "privacy_boundary": "STRICT_PILLAR_0_ONLY (Zero Names / Zero Private Prose Exported)",
+      "live_tabs": [
+        "Form Responses 1"
+      ],
+      "linked_forms": [
+        {
+          "name": "Your thoughts about your Past",
+          "form_id": "1P2pEm9md8EeOUcBq9YuekZfF473cQec9Sjjq0qd5F2I"
+        }
+      ],
+      "last_audited_utc": "2026-11-26T23:32:52Z"
     }
   },
   "unmapped_discovered": [
