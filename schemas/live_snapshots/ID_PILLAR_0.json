@@ -3,13 +3,14 @@
   "title": "\ud83c\udf11 Pillar_0_Shadow_Self",
   "registry_key": "ID_PILLAR_0",
   "privacy_contract": "STRICT_ZERO_PROSE_ZERO_PII",
-  "snapshot_utc": "2026-11-26T19:57:31Z",
+  "snapshot_utc": "2026-11-26T20:11:21Z",
   "tabs": [
     "DASHBOARD",
     "SELF_CODEX_PROFILE",
     "PERSONAL_GROWTH_AUDIT",
     "LIFE_AUDIT_SNAPSHOT",
     "REGRET_AUDIT_LOG",
+    "FEAR_&_INSECURITY_MATRIX",
     "DATABASE",
     "CALCULATIONS",
     "P0_CONFIG",
@@ -52,6 +53,14 @@
       "form_id": "1OPS9kMbEXBrODSSTsjuWgiurEqXIgzjXCoiwnTiB958",
       "auth_anchor": "P0_CONFIG!I13",
       "target_tab": "REGRET_AUDIT_LOG",
+      "privacy_boundary": "STRICT_PILLAR_0_ONLY (Sanitized Status Flag Only -> Hub)"
+    },
+    {
+      "name": "RAW_DATA_FearInsecurities",
+      "spreadsheet_id": "1KfFvvrJh5ys_lSCFKZlrHXxcOiAWgWsvAQeajnS1exo",
+      "form_id": "1ElY5lTwmxFpZQ255npOAK6EURevTi20jUOKvHp2Qdrc",
+      "auth_anchor": "P0_CONFIG!I14",
+      "target_tab": "FEAR_&_INSECURITY_MATRIX",
       "privacy_boundary": "STRICT_PILLAR_0_ONLY (Sanitized Status Flag Only -> Hub)"
     }
   ],
@@ -113,7 +122,7 @@
     ],
     [
       "Privacy_Boundary",
-      "RAW_DATA_KnowThySelf, RAW_DATA_PersonalDevelopment, RAW_DATA_LifeAudit, RAW_DATA_5Q_LifeAudit, RAW_DATA_RegretAudit (1PrfsW-XpoNyHFnQ68f8IO1Z0ncin7ltWFQw7S3WVbHI)",
+      "RAW_DATA_KnowThySelf, RAW_DATA_PersonalDevelopment, RAW_DATA_LifeAudit, RAW_DATA_5Q_LifeAudit, RAW_DATA_RegretAudit, RAW_DATA_FearInsecurities (1KfFvvrJh5ys_lSCFKZlrHXxcOiAWgWsvAQeajnS1exo)",
       "Private journal text NEVER leaves Pillar_0_Shadow_Self; SIGNALS_OUT exports numeric/state aggregates only"
     ],
     [
@@ -147,7 +156,7 @@
       "66.7",
       "66.7",
       "LIVE",
-      "11/26/2026 14:57:27",
+      "11/26/2026 15:11:14",
       "24"
     ],
     [
@@ -202,7 +211,7 @@
       "66.7",
       "66.7",
       "LIVE",
-      "11/26/2026 14:57:27",
+      "11/26/2026 15:11:14",
       "24"
     ],
     [
@@ -213,7 +222,7 @@
       "ACTIVE (26/28 Answered)",
       "92.9",
       "ACTIVE",
-      "11/26/2026 14:57:27",
+      "11/26/2026 15:11:14",
       "720"
     ],
     [
@@ -224,7 +233,7 @@
       "ACTIVE (47/47 Answered)",
       "70",
       "ACTIVE",
-      "11/26/2026 14:57:27",
+      "11/26/2026 15:11:14",
       "720"
     ],
     [
@@ -235,7 +244,7 @@
       "ACTIVE (2 Runs | 14/27)",
       "60",
       "ACTIVE",
-      "11/26/2026 14:57:27",
+      "11/26/2026 15:11:14",
       "720"
     ],
     [
@@ -243,6 +252,17 @@
       "Pillar_0_Shadow_Self",
       "\ud83d\udd25",
       "Pillar 0 / Regret Audit",
+      "AWAITING_AUTH",
+      "",
+      "AWAITING_AUTH",
+      "",
+      "720"
+    ],
+    [
+      "P0_FEAR_MATRIX_STATUS",
+      "Pillar_0_Shadow_Self",
+      "\ud83d\udc41\ufe0f",
+      "Pillar 0 / Fear Matrix",
       "AWAITING_AUTH",
       "",
       "AWAITING_AUTH",
@@ -460,7 +480,7 @@
     ],
     "privacy_boundary": "STRICT_PILLAR_0_ONLY (0% Prose Exported)"
   },
-  "tab_count": 13,
+  "tab_count": 14,
   "audit_errors": 0,
   "REGRET_AUDIT_LOG_HEADERS_ONLY": {
     "banner": "\ud83d\udd25 PILLAR 0 \u2014 REGRET & SELF-PUNISHMENT AUDIT LOG (STRICTLY PRIVATE)",
@@ -471,5 +491,15 @@
       "4. Pass-2 Shadow Reinforcement Loop Diagnostic (Regret Self-Punishment x PQ Judge of Self)"
     ],
     "privacy_boundary": "STRICT_PILLAR_0_ONLY (Zero Granular Regret Metrics or Prose Exported)"
+  },
+  "FEAR_MATRIX_HEADERS_ONLY": {
+    "banner": "\ud83d\udc41\ufe0f PILLAR 0 \u2014 FEAR & INSECURITY DIAGNOSTIC MATRIX (STRICTLY PRIVATE)",
+    "panels": [
+      "1. Top 10/10 Shadow & Fear Triggers Rollup (11 Domains)",
+      "2. 11-Domain Fear & Insecurity Breakdown (1\u201310 Scale, 110 Items)",
+      "3. Frequency & Intensity Scale (1\u20135 Scale, 9 Active + 1 Opt)",
+      "4. Qualitative & Attic Symbology Anchor Panel (13 Prompts \u2014 Strictly Private)"
+    ],
+    "privacy_boundary": "STRICT_PILLAR_0_ONLY (Zero Granular Fear Ratings or Private Prose Exported)"
   }
 }

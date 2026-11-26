@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-26T20:03:00Z",
+  "last_updated_utc": "2026-11-26T20:11:21Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2797,7 +2797,8 @@
         "MODULE_META",
         "CONTEXT_IN",
         "SIGNALS_OUT",
-        "REGRET_AUDIT_LOG"
+        "REGRET_AUDIT_LOG",
+        "FEAR_&_INSECURITY_MATRIX"
       ],
       "search_aliases": [
         "\ud83c\udf11 Pillar_0_Shadow_Self",
@@ -2806,13 +2807,14 @@
         "Shadow Work Bench"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-26T19:57:31Z",
+      "last_snapshot_utc": "2026-11-26T20:11:21Z",
       "all_tabs": [
         "DASHBOARD",
         "SELF_CODEX_PROFILE",
         "PERSONAL_GROWTH_AUDIT",
         "LIFE_AUDIT_SNAPSHOT",
         "REGRET_AUDIT_LOG",
+        "FEAR_&_INSECURITY_MATRIX",
         "DATABASE",
         "CALCULATIONS",
         "P0_CONFIG",
@@ -2822,7 +2824,7 @@
         "SIGNALS_OUT",
         "IMPORTS"
       ],
-      "tab_count": 13,
+      "tab_count": 14,
       "linked_forms": [
         {
           "name": "Life OS - Shadow Journal Form",
@@ -2890,9 +2892,16 @@
           "form_id": "1OPS9kMbEXBrODSSTsjuWgiurEqXIgzjXCoiwnTiB958",
           "role": "Layer 1 Private Regret & Self-Punishment Audit Silo (14 items -> REGRET_AUDIT_LOG; sanitized status flag only -> Hub)",
           "auth_anchor": "P0_CONFIG!I13"
+        },
+        {
+          "name": "RAW_DATA_FearInsecurities",
+          "spreadsheet_id": "1KfFvvrJh5ys_lSCFKZlrHXxcOiAWgWsvAQeajnS1exo",
+          "form_id": "1ElY5lTwmxFpZQ255npOAK6EURevTi20jUOKvHp2Qdrc",
+          "role": "Layer 1 Private Fear & Insecurity Silo (110 scaled + 9 freq + 13 narrative -> FEAR_&_INSECURITY_MATRIX; status flag only -> Hub)",
+          "auth_anchor": "P0_CONFIG!I14"
         }
       ],
-      "last_audited_utc": "2026-11-26T19:57:31Z"
+      "last_audited_utc": "2026-11-26T20:11:21Z"
     },
     "ID_RAW_SHADOW_JOURNAL": {
       "title": "RAW_DATA_ShadowJournal",
@@ -3344,6 +3353,27 @@
         }
       ],
       "last_audited_utc": "2026-11-26T20:03:00Z"
+    },
+    "ID_RAW_FEAR_INSECURITIES": {
+      "title": "RAW_DATA_FearInsecurities",
+      "spreadsheet_id": "1KfFvvrJh5ys_lSCFKZlrHXxcOiAWgWsvAQeajnS1exo",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1KfFvvrJh5ys_lSCFKZlrHXxcOiAWgWsvAQeajnS1exo/edit",
+      "status": "ACTIVE",
+      "layer": "raw_data_silo",
+      "domain": "Pillar 0 Shadow Self \u2014 Fear & Insecurities 11-Domain Matrix (Consolidated into Pillar_0_Shadow_Self)",
+      "parent_brick": "ID_PILLAR_0",
+      "registered_in_hub": false,
+      "privacy_boundary": "STRICT_PILLAR_0_ONLY (Sanitized Status Flag Only -> Hub)",
+      "live_tabs": [
+        "Form Responses 1"
+      ],
+      "linked_forms": [
+        {
+          "name": "Fear and Insecurities",
+          "form_id": "1ElY5lTwmxFpZQ255npOAK6EURevTi20jUOKvHp2Qdrc"
+        }
+      ],
+      "last_audited_utc": "2026-11-26T20:11:21Z"
     }
   },
   "unmapped_discovered": [
