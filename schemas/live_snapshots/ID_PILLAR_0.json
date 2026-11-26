@@ -3,12 +3,13 @@
   "title": "\ud83c\udf11 Pillar_0_Shadow_Self",
   "registry_key": "ID_PILLAR_0",
   "privacy_contract": "STRICT_ZERO_PROSE_ZERO_PII",
-  "snapshot_utc": "2026-11-26T17:07:30Z",
+  "snapshot_utc": "2026-11-26T19:57:31Z",
   "tabs": [
     "DASHBOARD",
     "SELF_CODEX_PROFILE",
     "PERSONAL_GROWTH_AUDIT",
     "LIFE_AUDIT_SNAPSHOT",
+    "REGRET_AUDIT_LOG",
     "DATABASE",
     "CALCULATIONS",
     "P0_CONFIG",
@@ -44,6 +45,14 @@
       "spreadsheet_id": "10P9aPRrqmTBe4Q2HVPbf5SwmfSSsT6K_Aer5jbE-VLQ",
       "form_id": "1gBgxNA0ckH0BK5KeJlRSBaAd4t5RH9ycNHdH6HZFKeg",
       "auth_anchor": "P0_CONFIG!I12"
+    },
+    {
+      "name": "RAW_DATA_RegretAudit",
+      "spreadsheet_id": "1PrfsW-XpoNyHFnQ68f8IO1Z0ncin7ltWFQw7S3WVbHI",
+      "form_id": "1OPS9kMbEXBrODSSTsjuWgiurEqXIgzjXCoiwnTiB958",
+      "auth_anchor": "P0_CONFIG!I13",
+      "target_tab": "REGRET_AUDIT_LOG",
+      "privacy_boundary": "STRICT_PILLAR_0_ONLY (Sanitized Status Flag Only -> Hub)"
     }
   ],
   "MODULE_META": [
@@ -104,7 +113,7 @@
     ],
     [
       "Privacy_Boundary",
-      "STRICT_ZERO_PROSE_ZERO_PII",
+      "RAW_DATA_KnowThySelf, RAW_DATA_PersonalDevelopment, RAW_DATA_LifeAudit, RAW_DATA_5Q_LifeAudit, RAW_DATA_RegretAudit (1PrfsW-XpoNyHFnQ68f8IO1Z0ncin7ltWFQw7S3WVbHI)",
       "Private journal text NEVER leaves Pillar_0_Shadow_Self; SIGNALS_OUT exports numeric/state aggregates only"
     ],
     [
@@ -138,7 +147,7 @@
       "66.7",
       "66.7",
       "LIVE",
-      "11/26/2026 12:08:28",
+      "11/26/2026 14:57:27",
       "24"
     ],
     [
@@ -193,7 +202,7 @@
       "66.7",
       "66.7",
       "LIVE",
-      "11/26/2026 12:08:28",
+      "11/26/2026 14:57:27",
       "24"
     ],
     [
@@ -204,7 +213,7 @@
       "ACTIVE (26/28 Answered)",
       "92.9",
       "ACTIVE",
-      "11/26/2026 12:08:28",
+      "11/26/2026 14:57:27",
       "720"
     ],
     [
@@ -215,9 +224,8 @@
       "ACTIVE (47/47 Answered)",
       "70",
       "ACTIVE",
-      "11/26/2026 12:08:28",
-      "720",
-      "Sanitized Personal Growth Audit status flag & Self-Concept composite only \u2014 ZERO private prose exported"
+      "11/26/2026 14:57:27",
+      "720"
     ],
     [
       "P0_LIFE_AUDIT_STATUS",
@@ -227,9 +235,19 @@
       "ACTIVE (2 Runs | 14/27)",
       "60",
       "ACTIVE",
-      "11/26/2026 12:08:28",
-      "720",
-      "Sanitized Unified Life Audit status across RAW_DATA_LifeAudit + RAW_DATA_5Q_LifeAudit \u2014 ZERO private prose exported"
+      "11/26/2026 14:57:27",
+      "720"
+    ],
+    [
+      "P0_REGRET_AUDIT_STATUS",
+      "Pillar_0_Shadow_Self",
+      "\ud83d\udd25",
+      "Pillar 0 / Regret Audit",
+      "AWAITING_AUTH",
+      "",
+      "AWAITING_AUTH",
+      "",
+      "720"
     ]
   ],
   "CONTEXT_IN": [
@@ -441,5 +459,17 @@
       "5. 5-Question Life Audit Longitudinal Comparison \u2014 Baseline vs. Latest Run (13 prompts: Vitality & Vision, Relational Alignment, Wellness & Somatic, Core Character Pride Pillars)"
     ],
     "privacy_boundary": "STRICT_PILLAR_0_ONLY (0% Prose Exported)"
+  },
+  "tab_count": 13,
+  "audit_errors": 0,
+  "REGRET_AUDIT_LOG_HEADERS_ONLY": {
+    "banner": "\ud83d\udd25 PILLAR 0 \u2014 REGRET & SELF-PUNISHMENT AUDIT LOG (STRICTLY PRIVATE)",
+    "sections": [
+      "1. Rumination & Self-Punishment Load (5 Items + Composite Rating)",
+      "2. Growth Extraction, Boundary Discipline & Somatic Impact (6 Items)",
+      "3. Regret Locus & Onset Signature (3 Items)",
+      "4. Pass-2 Shadow Reinforcement Loop Diagnostic (Regret Self-Punishment x PQ Judge of Self)"
+    ],
+    "privacy_boundary": "STRICT_PILLAR_0_ONLY (Zero Granular Regret Metrics or Prose Exported)"
   }
 }

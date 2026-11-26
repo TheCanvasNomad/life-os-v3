@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-26T19:15:11Z",
+  "last_updated_utc": "2026-11-26T19:57:31Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2796,7 +2796,8 @@
         "P0_CONFIG",
         "MODULE_META",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "REGRET_AUDIT_LOG"
       ],
       "search_aliases": [
         "\ud83c\udf11 Pillar_0_Shadow_Self",
@@ -2805,12 +2806,13 @@
         "Shadow Work Bench"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-26T17:07:30Z",
+      "last_snapshot_utc": "2026-11-26T19:57:31Z",
       "all_tabs": [
         "DASHBOARD",
         "SELF_CODEX_PROFILE",
         "PERSONAL_GROWTH_AUDIT",
         "LIFE_AUDIT_SNAPSHOT",
+        "REGRET_AUDIT_LOG",
         "DATABASE",
         "CALCULATIONS",
         "P0_CONFIG",
@@ -2820,7 +2822,7 @@
         "SIGNALS_OUT",
         "IMPORTS"
       ],
-      "tab_count": 12,
+      "tab_count": 13,
       "linked_forms": [
         {
           "name": "Life OS - Shadow Journal Form",
@@ -2881,9 +2883,16 @@
           "drive_url": "https://docs.google.com/spreadsheets/d/10P9aPRrqmTBe4Q2HVPbf5SwmfSSsT6K_Aer5jbE-VLQ/edit",
           "layer": "Layer 1 Raw Silo (Consolidated into LIFE_AUDIT_SNAPSHOT Longitudinal \u2014 Not Standalone)",
           "auth_anchor": "P0_CONFIG!I12"
+        },
+        {
+          "name": "RAW_DATA_RegretAudit",
+          "spreadsheet_id": "1PrfsW-XpoNyHFnQ68f8IO1Z0ncin7ltWFQw7S3WVbHI",
+          "form_id": "1OPS9kMbEXBrODSSTsjuWgiurEqXIgzjXCoiwnTiB958",
+          "role": "Layer 1 Private Regret & Self-Punishment Audit Silo (14 items -> REGRET_AUDIT_LOG; sanitized status flag only -> Hub)",
+          "auth_anchor": "P0_CONFIG!I13"
         }
       ],
-      "last_audited_utc": "2026-11-26T17:07:30Z"
+      "last_audited_utc": "2026-11-26T19:57:31Z"
     },
     "ID_RAW_SHADOW_JOURNAL": {
       "title": "RAW_DATA_ShadowJournal",
@@ -3280,6 +3289,27 @@
         }
       ],
       "last_audited_utc": "2026-11-26T19:15:11Z"
+    },
+    "ID_RAW_REGRET_AUDIT": {
+      "title": "RAW_DATA_RegretAudit",
+      "spreadsheet_id": "1PrfsW-XpoNyHFnQ68f8IO1Z0ncin7ltWFQw7S3WVbHI",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1PrfsW-XpoNyHFnQ68f8IO1Z0ncin7ltWFQw7S3WVbHI/edit",
+      "status": "ACTIVE",
+      "layer": "raw_data_silo",
+      "domain": "Pillar 0 Shadow Self \u2014 Do you regret? Longitudinal Audit (Consolidated into Pillar_0_Shadow_Self)",
+      "parent_brick": "ID_PILLAR_0",
+      "registered_in_hub": false,
+      "privacy_boundary": "STRICT_PILLAR_0_ONLY (Sanitized Status Flag Only -> Hub)",
+      "live_tabs": [
+        "Form Responses 1"
+      ],
+      "linked_forms": [
+        {
+          "name": "Do you regret?",
+          "form_id": "1OPS9kMbEXBrODSSTsjuWgiurEqXIgzjXCoiwnTiB958"
+        }
+      ],
+      "last_audited_utc": "2026-11-26T19:57:31Z"
     }
   },
   "unmapped_discovered": [
