@@ -1,7 +1,7 @@
 # LifeOS-v3 Hub & Brick `IMPORTRANGE` Browser Authorization Checklist
 
 > **Why this checklist exists**: Google Sheets requires a one-time interactive browser click (**"Allow access"** on a `#REF!` cell) for each new cross-spreadsheet `IMPORTRANGE` connection. APIs and scripts cannot grant this permission on your behalf.  
-> **Last Audited**: `2026-11-26` (**`⚖️ Sovereignty_Desire_Brick`** [`ID_SOVEREIGNTY_DESIRE`, 8 color-coded tabs, `92/120`=`76.7%`, `M-M-H-M-H-H`, `#1 The Sovereign Builder`, `LOOKER_SOVEREIGNTY_DESIRE`, 11 `SOV_*` signals wired across Hub, Master Bus, P0/P3/P4, XP Leveler & Character HUD] + **`RAW_DATA_FearInsecurities`** & **`RAW_DATA_RegretAudit`** → **`🌑 Pillar_0_Shadow_Self`** [14 tabs] + **`RAW_DATA_SenseOfTouch`** → **`💞 Love_Styles_&_Languages_Brick`** [10 tabs] + **`RAW_DATA_101_Traveler`** → **`🌍 Travel_Tracker_Brick`** [17 tabs] — **263 signals, 41 registered modules, 24 flat zero-PII Looker tabs & 0 formula errors**!)
+> **Last Audited**: `2026-11-26` (**`🏛️ Civic_Sovereignty_Brick`** [`ID_CIVIC_SOVEREIGNTY`, 8 color-coded tabs, `44/120` capture / `76/120`=`79.2%` sovereignty, `The Conscious Navigator`, `LOOKER_CIVIC_SOVEREIGNTY`, 6 `CIVIC_*` signals wired across Hub, Master Bus, XP Leveler & Character HUD] + **`⚖️ Sovereignty_Desire_Brick`** [`ID_SOVEREIGNTY_DESIRE`, 8 tabs, `92/120`=`76.7%`] + **`🌑 Pillar_0_Shadow_Self`** [14 tabs] + **`💞 Love_Styles_&_Languages_Brick`** [10 tabs] + **`🌍 Travel_Tracker_Brick`** [17 tabs] — **269 signals, 42 registered modules, 25 flat zero-PII Looker tabs & 0 formula errors**!)
 
 ---
 
@@ -54,6 +54,7 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | [ ] | `MODULE_REGISTRY!J40` | **🧠 Emotional_Intelligence_Brick** | `1SCNYZjryNR7r3VLA_Np6_PaRUoR0tYJMzGkrWdR8_NU` | All 7 zero-PII `EQ_*` longitudinal signals (`EQ_COMPOSITE_SCORE`, `EQ_OTHER_AWARENESS`, `EQ_INTERPERSONAL`, `EQ_SELF_AWARENESS`, `EQ_EMPATHY`, `EQ_EMOTIONAL_CONTROL`, `EQ_WELLBEING`) -> `SIGNAL_BUS`, `LOOKER_SYSTEM_TELEMETRY`, `💞 Pillar_3_Relationships` Regulation Guard, & `💞 Love_Styles_&_Languages_Brick` EQ × Love Style Bridge |
 | [ ] | `MODULE_REGISTRY!J41` | **🎮 CHARACTER_PROFILE_HUD** | `13fowIl8CIw9KgMp8OC4N5L-AwvAqANM8jNaUnujLo1E` | Core Display Pillar III telemetry (`HUD_DOSSIER_HYDRATION_PCT`, `HUD_FORM_SUBMISSIONS_COUNT`, `HUD_LIVE_BRICKS_CONNECTED`) |
 | [ ] | `MODULE_REGISTRY!J42` | **⚖️ Sovereignty_Desire_Brick** | `1eNHenM8QdiE_onsNYkkMJyvXOlo5D7y-n8e7LF5HpTc` | All 11 zero-PII `SOV_*` signals (`SOV_COMPOSITE_SCORE`=`76.7`, `SOV_D1_BIOLOGICAL_PULL`=`62.5`, `SOV_D2_SUBLIMATION`=`62.5`, `SOV_D3_SOVEREIGNTY`=`75.0`, `SOV_D4_CLARITY`=`56.3`, `SOV_D5_SOLITUDE`=`81.3`, `SOV_D6_REGRET_OWNERSHIP`=`87.5`, `SOV_PRIMARY_ARCHETYPE`=`The Sovereign Builder`, `SOV_TIER_VECTOR`=`M-M-H-M-H-H`, `SOV_ACTIVE_TENSION_COUNT`=`0`, `SOV_RUN_XP`=`100`) -> Hub, Pillar 0/3/4, XP Leveler & Character HUD |
+| [ ] | `MODULE_REGISTRY!J43` | **🏛️ Civic_Sovereignty_Brick** | `13QRTtBXsCOyIcsRI2jeUhuJFCPjhmDbQtiBQTAni8Yo` | All 6 zero-PII `CIVIC_*` signals (`CIVIC_CAPTURE_TOTAL`=`44`, `CIVIC_SOVEREIGNTY_PCT`=`79.2`, `CIVIC_ARCHETYPE`=`The Conscious Navigator`, `CIVIC_DIM4_CAVE_SCORE`=`12`, `CIVIC_DIM6_ENGAGEMENT_SCORE`=`10`, `CIVIC_RUN_XP`=`100`) -> Hub, Master Bus, XP Leveler & Character HUD |
 
 ---
 
@@ -209,6 +210,7 @@ Each of the 11 newly standardized Bricks has a dedicated unwrapped **`Hub_Auth_T
 | [ ] | `ID_ENNEAGRAM` | **Enneagram Assessment (Responses)** (`📥 CONTEXT_IN!E2`) | https://docs.google.com/spreadsheets/d/1nnu0Hw67g2OoAZiu0xmOALu3eFCgkKNL2M7gkv6-K3w/edit#gid=1945591436 | `VITAL_HP`, `VITAL_MANA`, `VITAL_COHERENCE`, `MBTI_TYPE_CODE`, `MBTI_SHADOW_RISK`, `ACUTE_STRESS`, `P0_WISDOM_SCORE`, `EQ_EMOTIONAL_CONTROL`, `MBTI_COHERENCE_INDEX` -> `RESOLVED_LIVE_STATE` & `🧭 DYNAMIC_ADVISORY` |
 | [ ] | `ID_PQ` | **🎭 PQ_Saboteur_Brick** (`CONTEXT_IN!F2`) | https://docs.google.com/spreadsheets/d/1NhqPJDFOp91qOp5Y9hPe0rIuqECKU_b08cZYXZAqxeE/edit | `ACUTE_STRESS`, `EQ_EMOTIONAL_CONTROL`, `SHADOW_TAX_RATE`, `P0_WISDOM_SCORE`, `ZODIAC_WIP_COUNT` -> drives Pass-2 `Saboteur × Live Telemetry State` `ADVISORY_MATRIX` on `🎭 PQ_DASHBOARD` |
 | [ ] | `ID_SOVEREIGNTY_DESIRE` | **⚖️ Sovereignty_Desire_Brick** (`CONTEXT_IN!F2`) | https://docs.google.com/spreadsheets/d/1eNHenM8QdiE_onsNYkkMJyvXOlo5D7y-n8e7LF5HpTc/edit#gid=774530199 | `FLOW_COHERENCE`, `ACUTE_STRESS`, `PQ_PRIMARY_SABOTEUR`, `REL_AVG_OVERALL_SCORE`, `ACTIVE_OPERATIONAL_PHASE` -> drives live Pass-2 `6 Archetypes × 5 Live Telemetry States` `ADVISORY_MATRIX` on `⚖️ SOVEREIGNTY_HUD` |
+| [ ] | `ID_CIVIC_SOVEREIGNTY` | **🏛️ Civic_Sovereignty_Brick** (`CONTEXT_IN!F2`) | https://docs.google.com/spreadsheets/d/13QRTtBXsCOyIcsRI2jeUhuJFCPjhmDbQtiBQTAni8Yo/edit#gid=1426556887 | `ACUTE_STRESS`, `EQ_EMOTIONAL_CONTROL`, `FLOW_COHERENCE`, `P0_WISDOM_SCORE` -> drives live Pass-2 `4 Archetypes × 5 Live Telemetry States` `ADVISORY_MATRIX` on `🏛️ CIVIC_SOVEREIGNTY_HUD` |
 
 ---
 
@@ -228,10 +230,10 @@ The `#REF!` `A2` spill collisions on `SRC_XP_HUB`, `SRC_KABBALAH`, and `SRC_16PF
 ## 4. Post-Approval Verification
 
 Once you finish clicking **"Allow access"** above:
-1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **263** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
+1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **269** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
 2. Open **`LifeOS_feed_hub` -> `AQAL_VIEW`** (`#gid=168404271`): confirm all 4 Quadrants (`UL`, `UR`, `LL`, `LR`) show live composite scores, `SPARKLINE` gauges, `Quadrant Balance Score`, `Achievements AQAL Overlay`, and a live `Corrective Quest Directive`.
 3. Open any Brick's **`CONTEXT_IN`** tab from Section 2: confirm `F3:F5` switches from `"Click F2 -> Allow access"` to `"AUTHORIZED"` and Columns `B:E` stream live Hub context.
-4. Open **`XP Leveler` -> `PILLAR_XP_ABSORPTION`** (`#gid=1096501556`): verify all **11** Pillar & Brick XP streams (`P0`–`P6`, `Travel_Tracker`, `Achievements_Engine_Brick`, `Daily_Intake_Brick`, `Sovereignty_Desire_Brick`) flow into `Live_Raw_Pillar_XP` and feed the Unified Main XP Bar on `Player_HUD` with zero double-counting.
+4. Open **`XP Leveler` -> `PILLAR_XP_ABSORPTION`** (`#gid=1096501556`): verify all **12** Pillar & Brick XP streams (`P0`–`P6`, `Travel_Tracker`, `Achievements_Engine_Brick`, `Daily_Intake_Brick`, `Sovereignty_Desire_Brick`, `Civic_Sovereignty_Brick`) flow into `Live_Raw_Pillar_XP` and feed the Unified Main XP Bar on `Player_HUD` with zero double-counting.
 
 ---
 

@@ -1,0 +1,115 @@
+{
+  "registry_key": "ID_CIVIC_SOVEREIGNTY",
+  "title": "\ud83c\udfdb\ufe0f Civic_Sovereignty_Brick",
+  "spreadsheet_id": "13QRTtBXsCOyIcsRI2jeUhuJFCPjhmDbQtiBQTAni8Yo",
+  "form_id": "1_TzoBT8sMzuG2r0N6dmi5oZkU2U-jzHdIHerLMqMPYA",
+  "snapshot_utc": "2026-11-26T21:32:42Z",
+  "pii_policy": "ZERO_PII_AGGREGATES_ONLY",
+  "tab_count": 8,
+  "tabs": [
+    "\ud83c\udfdb\ufe0f CIVIC_SOVEREIGNTY_HUD",
+    "SCORING_ENGINE",
+    "TAXONOMY_&_RUBRIC",
+    "LOOKER_CIVIC_SOVEREIGNTY",
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT",
+    "Form Responses 1"
+  ],
+  "primary_tab": "\ud83c\udfdb\ufe0f CIVIC_SOVEREIGNTY_HUD",
+  "looker_tab": "LOOKER_CIVIC_SOVEREIGNTY",
+  "signals_out": [
+    [
+      "Signal_Key",
+      "Source_Brick",
+      "Glyph",
+      "Domain_Pillar",
+      "Raw_Value",
+      "Normalized_Score_0_100",
+      "State_Tag",
+      "Last_Updated",
+      "TTL_Hours"
+    ],
+    [
+      "CIVIC_CAPTURE_TOTAL",
+      "Civic_Sovereignty_Brick",
+      "\ud83c\udfdb\ufe0f",
+      "Epistemics / Civic",
+      "44",
+      "79.2",
+      "44/120 Capture (76/120 Sov)",
+      "11/26/2026 16:30:02",
+      "2160"
+    ],
+    [
+      "CIVIC_SOVEREIGNTY_PCT",
+      "Civic_Sovereignty_Brick",
+      "\ud83d\udee1\ufe0f",
+      "Epistemics / Civic",
+      "79.2",
+      "79.2",
+      "76/120 (Blind-Spot Navigator)",
+      "11/26/2026 16:30:02",
+      "2160"
+    ],
+    [
+      "CIVIC_ARCHETYPE",
+      "Civic_Sovereignty_Brick",
+      "\ud83e\udded",
+      "Identity / Epistemics",
+      "The Conscious Navigator",
+      "79.2",
+      "Blind-Spot Navigator",
+      "11/26/2026 16:30:02",
+      "2160"
+    ],
+    [
+      "CIVIC_DIM4_CAVE_SCORE",
+      "Civic_Sovereignty_Brick",
+      "\ud83d\udcfa",
+      "Epistemics / Media",
+      "12",
+      "50",
+      "Contested (12/20)",
+      "11/26/2026 16:30:02",
+      "2160"
+    ],
+    [
+      "CIVIC_DIM6_ENGAGEMENT_SCORE",
+      "Civic_Sovereignty_Brick",
+      "\u26a1",
+      "Epistemics / Agency",
+      "10",
+      "62.5",
+      "Contested (10/20)",
+      "11/26/2026 16:30:02",
+      "2160"
+    ],
+    [
+      "CIVIC_RUN_XP",
+      "Civic_Sovereignty_Brick",
+      "\u2728",
+      "XP / Civic Diagnostic",
+      "100",
+      "100",
+      "1 Run(s) \u00d7 100 XP",
+      "11/26/2026 16:30:02",
+      "2160"
+    ]
+  ],
+  "looker_headers": [
+    [
+      "Record_Type",
+      "Item_Key",
+      "Item_Label",
+      "Dimension_Or_Group",
+      "Raw_Score",
+      "Normalized_0_100",
+      "State_Label",
+      "Status_Tag",
+      "Run_Date",
+      "Last_Updated"
+    ]
+  ],
+  "audit_errors": 0
+}

@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-26T20:49:32Z",
+  "last_updated_utc": "2026-11-26T21:32:42Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -3412,6 +3412,44 @@
       ],
       "last_snapshot_utc": "2026-11-26T20:49:32Z",
       "last_audited_utc": "2026-11-26T20:49:32Z"
+    },
+    "ID_CIVIC_SOVEREIGNTY": {
+      "title": "\ud83c\udfdb\ufe0f Civic_Sovereignty_Brick",
+      "spreadsheet_id": "13QRTtBXsCOyIcsRI2jeUhuJFCPjhmDbQtiBQTAni8Yo",
+      "drive_url": "https://docs.google.com/spreadsheets/d/13QRTtBXsCOyIcsRI2jeUhuJFCPjhmDbQtiBQTAni8Yo/edit",
+      "status": "ACTIVE",
+      "layer": "brick",
+      "domain": "Epistemics & Shadow / 6-Dimension Civic Sovereignty & Algorithmic Cave Diagnostic",
+      "primary_tab": "\ud83c\udfdb\ufe0f CIVIC_SOVEREIGNTY_HUD",
+      "looker_tab": "LOOKER_CIVIC_SOVEREIGNTY",
+      "live_tabs": [
+        "\ud83c\udfdb\ufe0f CIVIC_SOVEREIGNTY_HUD",
+        "SCORING_ENGINE",
+        "TAXONOMY_&_RUBRIC",
+        "LOOKER_CIVIC_SOVEREIGNTY",
+        "SIGNALS_OUT"
+      ],
+      "all_tabs": [
+        "\ud83c\udfdb\ufe0f CIVIC_SOVEREIGNTY_HUD",
+        "SCORING_ENGINE",
+        "TAXONOMY_&_RUBRIC",
+        "LOOKER_CIVIC_SOVEREIGNTY",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT",
+        "Form Responses 1"
+      ],
+      "tab_count": 8,
+      "tab_color_coded": true,
+      "universal_brick_compliant": true,
+      "linked_forms": [
+        {
+          "name": "The Civic Sovereignty & Cave Diagnostic",
+          "form_id": "1_TzoBT8sMzuG2r0N6dmi5oZkU2U-jzHdIHerLMqMPYA"
+        }
+      ],
+      "last_snapshot_utc": "2026-11-26T21:32:42Z",
+      "last_audited_utc": "2026-11-26T21:32:42Z"
     }
   },
   "unmapped_discovered": [

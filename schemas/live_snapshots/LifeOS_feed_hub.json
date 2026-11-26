@@ -5,8 +5,8 @@
   "captured_at_utc": "2026-11-25T07:12:14Z",
   "pii_scrubbed": true,
   "tab_count": 13,
-  "module_count": 41,
-  "signal_count": 263,
+  "module_count": 42,
+  "signal_count": 269,
   "tabs": [
     {
       "index": 0,
@@ -609,7 +609,7 @@
   "looker_system_telemetry_row_count": 242,
   "audit_errors": 0,
   "pending_browser_auth_anchors": 12,
-  "snapshot_utc": "2026-11-26T20:49:32Z",
+  "snapshot_utc": "2026-11-26T21:32:42Z",
   "MODULE_REGISTRY": [
     [
       "Brick_Name",
