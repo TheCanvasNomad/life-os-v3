@@ -1,7 +1,7 @@
 # LifeOS-v3 Hub & Brick `IMPORTRANGE` Browser Authorization Checklist
 
 > **Why this checklist exists**: Google Sheets requires a one-time interactive browser click (**"Allow access"** on a `#REF!` cell) for each new cross-spreadsheet `IMPORTRANGE` connection. APIs and scripts cannot grant this permission on your behalf.  
-> **Last Audited**: `2026-11-26` (**`RAW_DATA_PastReflections`** merged into **`🌑 Pillar_0_Shadow_Self!REGRET_AUDIT_LOG`** [14 tabs, strict zero-PII/prose boundary] + **`🏛️ Civic_Sovereignty_Brick`** [`ID_CIVIC_SOVEREIGNTY`, 8 tabs, `44/120` capture / `79.2%` sov] + **`⚖️ Sovereignty_Desire_Brick`** [`ID_SOVEREIGNTY_DESIRE`, 8 tabs, `92/120`=`76.7%`] + **`💞 Love_Styles_&_Languages_Brick`** [10 tabs] + **`🌍 Travel_Tracker_Brick`** [17 tabs] — **269 signals, 42 registered modules, 25 flat zero-PII Looker tabs & 0 formula errors**!)
+> **Last Audited**: `2026-11-26` (**`LifeOS_Master_Bus`** refactored from **19 → 7** color-coded tabs [`⚡ SYMBIOSIS_HUD`, `SYMBIOSIS_BUS`, `WORKBOOK_DIRECTORY`, `SCHEMA_MANIFEST`, `LOOKER_MASTER_BUS`, `HUB_SIGNAL_RELAY`, `MODULE_META`] — eliminated all 15 legacy `SRC_*`/`Signal_Bus`/`Engine_Outputs` tabs; **`HUB_SIGNAL_RELAY!F2` AUTHORIZED & LIVE** streaming all **269 signals** & **42 registered modules**, **26 flat zero-PII Looker tabs**, **0 formula errors**!)
 
 ---
 
@@ -14,7 +14,7 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 
 | Done | Cell | Target Brick / Workbook | Spreadsheet ID | Status / Unlocks in `SIGNAL_BUS` |
 | :---: | :---: | :--- | :--- | :--- |
-| [ ] | `MODULE_REGISTRY!J3` | **LifeOS_Master_Bus** | `1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ` | Hub-to-Bus cross-verification |
+| [x] | `MODULE_REGISTRY!J3` | **LifeOS_Master_Bus** | `1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ` | **LIVE (`⚡ SYMBIOSIS_HUD!A1`)**: Refactored 7-tab Symbiosis Cockpit, unified `HUB_SIGNAL_RELAY` (269 signals / 42 modules LIVE), `SYMBIOSIS_BUS` (`SYM_01`–`SYM_08`), `WORKBOOK_DIRECTORY` (41 active + 16 silos), `LOOKER_MASTER_BUS` (79 rows, zero PII), 0 errors |
 | [x] | `MODULE_REGISTRY!J4` | **🧭 Daily_Intake_Brick** | `16ohf5mBA9xrRsyv5sOYqY1s7gaOSpSOzK1rE1Gw6BNI` | **LIVE (`SIGNALS_OUT!A1`)**: `DAILY_ENERGY` (`80.0`), `DAILY_MOOD` (`80.0`), `ACUTE_STRESS` (`80.0`), `FLOW_COHERENCE`, `KABBALAH_BALANCE` (`76.7`), `INTAKE_DISCIPLINE_DELTA` (`45`), `INTAKE_VICE_DELTA` (`0`), `DAILY_INTAKE_RAW_XP` (`150` → XP Leveler Stream #10) |
 | [ ] | `MODULE_REGISTRY!J5` | **Weekly_Maslow_Pulse** | `1-GnXtI9ren5Bfw6KumDeNq7FUE5HYO0nSAevSzd5f40` | `MASLOW_SURVIVAL`, `MASLOW_SAFETY`, `MASLOW_BELONGING`, `MASLOW_ESTEEM`, `MASLOW_ACTUALIZATION` |
 | [x] | `MODULE_REGISTRY!J6` | **Zodiac_OS** | `1wQcAdR6ZxETOA1_nUmq1XYvPb9WvgSzmwcA4M0StH9M` | **LIVE (`FRESH`)**: `ZODIAC_ALIGNMENT`, `SOLAR_MOMENTUM`, `LUNAR_REGULATION`, `ZODIAC_WIP_COUNT` |
@@ -215,16 +215,13 @@ Each of the 11 newly standardized Bricks has a dedicated unwrapped **`Hub_Auth_T
 
 ---
 
-## 3. `LifeOS_Master_Bus` — 3 Remaining `IMPORTRANGE` Approvals
+## 3. `LifeOS_Master_Bus` — Unified `HUB_SIGNAL_RELAY` Status (All 15 Legacy `SRC_*` Tabs Retired!)
 
-The `#REF!` `A2` spill collisions on `SRC_XP_HUB`, `SRC_KABBALAH`, and `SRC_16PF` have been fixed (`SRC_KABBALAH` is now 100% **LIVE** across all 6 `Engine_Outputs` metrics and `SYMBIOSIS_HUD!B11` = `69.16%`!). Only these 3 cells need a one-time browser **"Allow access"** click:
+All 15 legacy `SRC_*`, `Signal_Bus`, and `Engine_Outputs` staging tabs have been deleted and consolidated into **one unified `HUB_SIGNAL_RELAY` connection** to `LifeOS_feed_hub` (`1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U`). **Already `AUTHORIZED` and streaming live with 0 formula errors across all 7 tabs!**
 
-| Done | Tab & Cell | Direct Tab Link | Target Workbook | Unlocks |
+| Done | Tab & Cell | Direct Tab Link | Target Workbook | Status / Unlocks |
 | :---: | :--- | :--- | :--- | :--- |
-| [ ] | `SRC_XP_HUB!A3` | https://docs.google.com/spreadsheets/d/1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ/edit#gid=778024592 | **XP Leveler** (`1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k`) | `SIG_XP_LEVEL` live Player HUD feed |
-| [x] | `SRC_KABBALAH!A3` | https://docs.google.com/spreadsheets/d/1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ/edit#gid=482453950 | **Kaballah Tree of Life OS Engine** (`19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0`) | **LIVE (`ALL 6 METRICS`)**: `KABBALAH_EFFECTIVE_QUALITY` (`0.6916`), `LIGHTNING_FLOW` (`70.00%`), `PILLAR_BALANCE` (`0.883`), `32_PATHS_FLOW` (`0.6832`), `ASSIAH_GROUNDING` (`0.5833`), `KAB_XP_NET_MULT` (`114.10%`) |
-| [ ] | `SRC_16PF!A3` | https://docs.google.com/spreadsheets/d/1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ/edit#gid=653666860 | **Life OS // Cattell 16PF** (`1zOZVYFUZsQdRtPQzyK6izLLlxczi8vcDQTOSmh8yFho`) | `SIG_16PF_BURNOUT` live Projector Burnout Guard |
-| [ ] | `SYMBIOSIS_HUD!B13` | https://docs.google.com/spreadsheets/d/1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ/edit#gid=212814514 | **LifeOS_feed_hub** (`1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U`) | Live `AQAL Quadrant Balance Score` inside `SYMBIOSIS_HUD` |
+| [x] | `HUB_SIGNAL_RELAY!F2` | https://docs.google.com/spreadsheets/d/1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ/edit#gid=404821614 | **LifeOS_feed_hub** (`1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U`) | **LIVE (`AUTHORIZED`)**: Streams all **269** `SIGNAL_BUS` signals & **42** `MODULE_REGISTRY` rows into `⚡ SYMBIOSIS_HUD` (13 domains), `SYMBIOSIS_BUS` (`SYM_01`–`SYM_08`), `SCHEMA_MANIFEST` (21 canonical keys), and `LOOKER_MASTER_BUS` (79 zero-PII rows) — 0 errors! |
 
 ---
 

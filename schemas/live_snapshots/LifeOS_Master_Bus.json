@@ -1,465 +1,1577 @@
 {
-  "registry_key": "LifeOS_Master_Bus",
-  "title": "LifeOS_Master_Bus",
+  "workbook_key": "ID_MASTER_BUS",
   "spreadsheet_id": "1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ",
-  "snapshot_utc": "2026-11-25T01:15:05Z",
-  "pii_policy": "ZERO_PII_HEADERS_ONLY",
-  "tab_count": 19,
+  "title": "LifeOS_Master_Bus",
+  "captured_utc": "2026-11-26 23:57 UTC",
+  "privacy_boundary": "STRICT_ZERO_PII_ZERO_PROSE",
+  "tab_count": 7,
   "tabs": [
-    {
-      "title": "SYMBIOSIS_HUD",
-      "sheet_id": 212814514,
-      "index": 0,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "\u26a1 LIFE OS SYMBIOSIS COCKPIT (100% FORMULA-DRIVEN \u2014 LAW 8)"
+    "\u26a1 SYMBIOSIS_HUD",
+    "SYMBIOSIS_BUS",
+    "WORKBOOK_DIRECTORY",
+    "SCHEMA_MANIFEST",
+    "LOOKER_MASTER_BUS",
+    "HUB_SIGNAL_RELAY",
+    "MODULE_META"
+  ],
+  "audit_errors_all_7_tabs": 0,
+  "relay_status": "AUTHORIZED",
+  "samples": {
+    "\u26a1 SYMBIOSIS_HUD": [
+      [
+        "\u26a1 LIFE OS v3.0 \u2014 SYMBIOSIS COCKPIT & MASTER BUS HUD (UNIFIED HUB_SIGNAL_RELAY)"
+      ],
+      [
+        "Status: LIVE  \u2022  269 Hub Signals Relayed  \u2022  42 Registered Modules  \u2022  4 Triggered Guardrails  \u2022  0 SRC_* Bloat"
+      ],
+      [],
+      [
+        "ACTIVE BRICKS",
+        "CONSOLIDATED SILOS",
+        "HUB SIGNALS LIVE",
+        "TRIGGERED RULES",
+        "AQAL BALANCE",
+        "XP GRAND LEVEL",
+        "SOVEREIGNTY IDX",
+        "CIVIC SOVEREIGNTY",
+        "RELAY STATUS",
+        "OPEN HUB"
+      ],
+      [
+        "41",
+        "16",
+        "269",
+        "4 / 8",
+        "69.9 / 100",
+        "Lvl 24 / 144",
+        "\u2014",
+        "\u2014",
+        "AUTHORIZED",
+        "Hub Bus \u2197"
+      ],
+      [],
+      [
+        "\ud83d\udcca UNIFIED SYMBIOSIS TELEMETRY COCKPIT (13 LIVE DOMAINS \u2014 100% DYNAMIC FROM HUB_SIGNAL_RELAY)"
+      ],
+      [
+        "#",
+        "Telemetry Domain",
+        "Live Value",
+        "Norm (0\u2013100)",
+        "Visual Gauge (=SPARKLINE)",
+        "",
+        "Guardrail",
+        "Reactive System Verdict (Dynamic)",
+        "",
+        "Status"
+      ],
+      [
+        "1",
+        "Maslow Physiological / D-Wave Base",
+        "4.74",
+        "47.4",
+        "",
+        "",
+        ">= 6.5 (Floor 4.5)",
+        "\ud83d\udfe1 REBUILDING BASE (4.74/10)",
+        "",
+        "BUILDING"
+      ],
+      [
+        "2",
+        "Zodiac OPS_GOVERNOR WIP Load",
+        "1",
+        "50",
+        "",
+        "",
+        "<= 2 WIP (Law 5)",
+        "\u2705 CAPACITY OPEN (1/2)",
+        "",
+        "NOMINAL"
+      ],
+      [
+        "3",
+        "PQ Primary Saboteur (Avoider / Judge)",
+        "Avoider 8.8 | Judge 10",
+        "88",
+        "",
+        "",
+        "< 7.5 Saboteur",
+        "\u2694\ufe0f ACTIVE HIJACK: RUN SAGE ACTIVATE & EMPATHIZE",
+        "",
+        "ALERT"
+      ],
+      [
+        "4",
+        "OCEAN Conscientiousness Scaffolding",
+        "0.015",
+        "1.5",
+        "",
+        "",
+        ">= 0.10 (10%)",
+        "\u2699\ufe0f ZERO-WILLPOWER EXTERNAL SCAFFOLDING ACTIVE",
+        "",
+        "ALERT"
+      ],
+      [
+        "5",
+        "MBTI Turbulent Stress Load",
+        "70",
+        "70",
+        "",
+        "",
+        "< 65% Grip Risk",
+        "\ud83c\udf19 HIGH GRIP RISK (70%) \u2014 22:00 SUNDOWN LOCKED",
+        "",
+        "ALERT"
+      ],
+      [
+        "6",
+        "XP Leveler Progress (Grand Cycle 144)",
+        "24",
+        "16.7",
+        "",
+        "",
+        "Target: Lvl 144",
+        "Level 24 of 144 (16.7%) \u2022 80,187 XP",
+        "",
+        "PROGRESSING"
+      ],
+      [
+        "7",
+        "HD Strategy & Authority Alignment",
+        "100",
+        "100",
+        "",
+        "",
+        ">= 70% Flow",
+        "\u2705 SPLENIC AUTHORITY ALIGNED (100%)",
+        "",
+        "NOMINAL"
+      ],
+      [
+        "8",
+        "Kabbalah Tree Effective Quality",
+        "69",
+        "69",
+        "",
+        "",
+        ">= 65% Coherent",
+        "\u2728 COHERENT TREE FLOW (69%)",
+        "",
+        "NOMINAL"
+      ],
+      [
+        "9",
+        "AQAL Quadrant Balance Score (Hub Live)",
+        "69.9",
+        "69.9",
+        "",
+        "",
+        ">= 85 Balanced",
+        "\u26a0\ufe0f IMBALANCE (69.9) \u2022 PRIORITY: \ud83d\udd34 CRITICAL LR REPAIR",
+        "",
+        "ALERT"
+      ],
+      [
+        "10",
+        "Sovereignty vs. Desire Index",
+        "",
+        "",
+        "",
+        "",
+        ">= 70% Sovereign",
+        "Click Hub MODULE_REGISTRY!J42 -> Allow access",
+        "",
+        "AWAITING_HUB_AUTH"
+      ],
+      [
+        "11",
+        "Civic Sovereignty Index",
+        "",
+        "",
+        "",
+        "",
+        ">= 75% Navigator",
+        "Click Hub MODULE_REGISTRY!J43 -> Allow access",
+        "",
+        "AWAITING_HUB_AUTH"
+      ],
+      [
+        "12",
+        "USCG Sea Days (AB Special)",
+        "0",
+        "0",
+        "",
+        "",
+        "Target: 180 Days",
+        "Logged 0 / 180 Sea Days (0.0%)",
+        "",
+        "PROGRESSING"
+      ],
+      [
+        "13",
+        "Active Standalone Bricks & Pillars",
+        "41",
+        "91.1",
+        "",
+        "",
+        "1:1 Hub Parity",
+        "41 Active Workbooks + 16 Consolidated Layer-1 Silos (Zero Sprawl)",
+        "",
+        "NOMINAL"
+      ],
+      [],
+      [
+        "\ud83d\udd12 ZERO-PII ARCHITECTURE: LifeOS_Master_Bus routes strictly through HUB_SIGNAL_RELAY (1 Hub IMPORTRANGE). All 15 redundant/broken SRC_* staging tabs eliminated."
       ]
-    },
-    {
-      "title": "Workbook_Directory",
-      "sheet_id": 0,
-      "index": 1,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
+    ],
+    "SYMBIOSIS_BUS": [
+      [
+        "\u26a1 SYMBIOSIS_BUS \u2014 CROSS-BRICK GUARDRAIL & INTERLOCK RULES (SYM_01 \u2013 SYM_08 // HUB_SIGNAL_RELAY DRIVEN)"
+      ],
+      [
+        "All rules evaluate dynamically via XLOOKUP against HUB_SIGNAL_RELAY (zero SRC_* staging tabs, blank-safe IF/ISBLANK)"
+      ],
+      [
+        "Rule_ID",
+        "Guardrail_Name",
+        "Canonical_Signal_Key",
+        "Live_Value",
+        "Threshold_Rule",
+        "Target_Brick",
+        "Target_Action / Protocol",
+        "State_Badge",
+        "Severity",
+        "Domain"
+      ],
+      [
+        "SYM_01",
+        "Zodiac WIP Ceiling Lock",
+        "ZODIAC_WIP_COUNT",
+        "1",
+        ">= 2 Active WIP",
+        "ID_ZODIAC",
+        "Freeze new project intake in OPS_GOVERNOR (Law 5 WIP<=2)",
+        "\ud83d\udfe2 ARMED",
+        "GOVERNANCE",
+        "ITS / Governance"
+      ],
+      [
+        "SYM_02",
+        "HD Not-Self Strategy Lock",
+        "HD_STRATEGY_COHERENCE",
+        "100",
+        "< 70% Alignment",
+        "ID_HD",
+        "Enforce Splenic Authority pause & wait for Invitation",
+        "\ud83d\udfe2 ARMED",
+        "ENERGETIC",
+        "I / Human Design"
+      ],
+      [
+        "SYM_03",
+        "Kabbalah Malkuth Grounding Guard",
+        "KAB_GROUNDING_INDEX",
+        "58",
+        "< 60% Grounding",
+        "ID_KABBALAH",
+        "Activate Somatic Earthing & Assiah completion drill",
+        "\ud83d\udd34 TRIGGERED",
+        "SOMATIC",
+        "IT / Grounding"
+      ],
+      [
+        "SYM_04",
+        "PQ Sage Interception Trigger",
+        "PQ_PRIMARY_SCORE",
+        "8.8",
+        ">= 7.5 Saboteur",
+        "ID_PQ",
+        "Run prescribed Sage Activate + Empathize counter-drill",
+        "\ud83d\udd34 TRIGGERED",
+        "SHADOW",
+        "Pillar 0 / PQ"
+      ],
+      [
+        "SYM_05",
+        "AQAL LR Quadrant Repair",
+        "AQAL_LR_SCORE",
+        "17.8",
+        "< 50 LR Systems",
+        "ID_FEED_HUB",
+        "Prioritize LR ('Its') systemic & career deliverables",
+        "\ud83d\udd34 TRIGGERED",
+        "BALANCE",
+        "LR / AQAL"
+      ],
+      [
+        "SYM_06",
+        "OCEAN / MBTI Scaffolding Guard",
+        "OCEAN_CONSCIENTIOUSNESS",
+        "1.5",
+        "< 10% Consc. (or MBTI>=65)",
+        "ID_ZODIAC",
+        "Enforce zero-willpower external scaffolding + 22:00 sundown",
+        "\ud83d\udd34 TRIGGERED",
+        "SCAFFOLD",
+        "IT / Executive"
+      ],
+      [
+        "SYM_07",
+        "Sovereignty Bandwidth Guard",
+        "SOV_D2_SUBLIMATION",
+        "",
+        "<= 55% Sublimation",
+        "ID_SOVEREIGNTY_DESIRE",
+        "Lock deep-work sprint & pause romantic distraction loops",
+        "UNLOGGED",
+        "FOCUS",
+        "Pillar 4 / Sublimation"
+      ],
+      [
+        "SYM_08",
+        "Civic Cave Immersion Check",
+        "CIVIC_DIM4_CAVE_SCORE",
+        "",
+        ">= 12/20 Cave Score",
+        "ID_CIVIC_SOVEREIGNTY",
+        "Enforce 72h media noise shield & steelman source audit",
+        "UNLOGGED",
+        "EPISTEMIC",
+        "Epistemics / Cave"
+      ]
+    ],
+    "WORKBOOK_DIRECTORY": [
+      [
         "Workbook_Key",
         "Workbook_Name",
-        "Staging_Tab",
-        "Primary_Remote_Tab",
-        "Secondary_Remote_Tab",
+        "Relay_Route",
+        "Primary_Tab",
+        "Secondary_Or_Parent_Tab",
         "Domain_Pillar",
         "Spreadsheet_ID",
-        "Link",
-        "Direct_URL"
+        "Quick_Link",
+        "Direct_URL",
+        "Lifecycle_Status"
+      ],
+      [
+        "ID_OCEAN",
+        "Big-Five Personality Assessment",
+        "HUB_SIGNAL_RELAY",
+        "Executive_Dashboard",
+        "SIGNALS_OUT",
+        "Psychometrics / OCEAN",
+        "12FwlHUeNWISYyiIVrASTDK6TlihFkfhVovIa4J2cObA",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/12FwlHUeNWISYyiIVrASTDK6TlihFkfhVovIa4J2cObA/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_MBTI",
+        "Myers-Briggs Test",
+        "HUB_SIGNAL_RELAY",
+        "\ud83d\udcca MBTI_Dashboard",
+        "\ud83d\udce4 SIGNALS_OUT",
+        "Psychometrics / MBTI",
+        "1uiQX7oyPcMAqovTBUkJBtbq7NSjWv45Lf0GQZza3TEw",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1uiQX7oyPcMAqovTBUkJBtbq7NSjWv45Lf0GQZza3TEw/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_ENNEAGRAM",
+        "Enneagram Assessment",
+        "HUB_SIGNAL_RELAY",
+        "\ud83d\udd2f ENNEAGRAM_DASHBOARD",
+        "\ud83d\udce4 SIGNALS_OUT",
+        "Psychometrics / Enneagram",
+        "1nnu0Hw67g2OoAZiu0xmOALu3eFCgkKNL2M7gkv6-K3w",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1nnu0Hw67g2OoAZiu0xmOALu3eFCgkKNL2M7gkv6-K3w/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_PQ",
+        "\ud83c\udfad PQ_Saboteur_Brick",
+        "HUB_SIGNAL_RELAY",
+        "\ud83c\udfad PQ_DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 0 / Mental Fitness",
+        "1NhqPJDFOp91qOp5Y9hPe0rIuqECKU_b08cZYXZAqxeE",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1NhqPJDFOp91qOp5Y9hPe0rIuqECKU_b08cZYXZAqxeE/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_HD",
+        "Human Design OS",
+        "HUB_SIGNAL_RELAY",
+        "\ud83d\udca0 HD_DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 6 / Human Design",
+        "1yTiVyqmpz5FeZJSuN6_fmMfQZWq4HMcNCIKELBz8wp0",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1yTiVyqmpz5FeZJSuN6_fmMfQZWq4HMcNCIKELBz8wp0/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_ZODIAC",
+        "Zodiac OS",
+        "HUB_SIGNAL_RELAY",
+        "OPS_GOVERNOR",
+        "SIGNALS_OUT",
+        "Pillar 6 / Zodiac & WIP",
+        "1wQcAdR6ZxETOA1_nUmq1XYvPb9WvgSzmwcA4M0StH9M",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1wQcAdR6ZxETOA1_nUmq1XYvPb9WvgSzmwcA4M0StH9M/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_CAREER",
+        "LifeOS Career and Experience Intake",
+        "HUB_SIGNAL_RELAY",
+        "Career_Dashboard",
+        "SIGNALS_OUT",
+        "Pillar 4 / Career & Sea Days",
+        "1iXxJVSv04MsRc_41p5bahCNRROXdugZ75iSivVy29GM",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1iXxJVSv04MsRc_41p5bahCNRROXdugZ75iSivVy29GM/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_MASLOW",
+        "Maslow's Hierarchy (Spoke)",
+        "HUB_SIGNAL_RELAY",
+        "Pyramid_&_Waves",
+        "SIGNALS_OUT",
+        "Development / Maslow D/B",
+        "1M-F-p5IqYc0JMtJ-20bOGUvQgP1-63Ta3hryES_jHqg",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1M-F-p5IqYc0JMtJ-20bOGUvQgP1-63Ta3hryES_jHqg/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_GRIT",
+        "Grit Score Assessment",
+        "HUB_SIGNAL_RELAY",
+        "Executive_Dashboard",
+        "SIGNALS_OUT",
+        "Psychometrics / Grit",
+        "1kCwx6wtYksmt92M3Izwe6oEIVS5uDv3kCLIzCBOJG-s",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1kCwx6wtYksmt92M3Izwe6oEIVS5uDv3kCLIzCBOJG-s/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_RIASEC",
+        "RAISEC Intake",
+        "HUB_SIGNAL_RELAY",
+        "RIASEC_Dashboard",
+        "SIGNALS_OUT",
+        "Pillar 4 / Vocational Fit",
+        "1RmJ9bDzm6Vs59EC1BV99lqHnYxgp-bchV589rQc6ybM",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1RmJ9bDzm6Vs59EC1BV99lqHnYxgp-bchV589rQc6ybM/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_XP_HUB",
+        "XP Leveler",
+        "HUB_SIGNAL_RELAY",
+        "Player_HUD",
+        "SIGNALS_OUT",
+        "Gamification / Unified XP",
+        "1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1_rVUsl98dIt_FO7qqVv1nC3r7jF1_Xg6Xo8QBNm2D4k/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_KABBALAH",
+        "Kaballah Tree of Life OS Engine",
+        "HUB_SIGNAL_RELAY",
+        "\ud83c\udf33 KABBALAH_DASHBOARD",
+        "\ud83d\udce4 SIGNALS_OUT",
+        "Pillar 6 / Kabbalah Tree",
+        "19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_16PF",
+        "Life OS // Cattell 16PF",
+        "HUB_SIGNAL_RELAY",
+        "16PF_Profile",
+        "SIGNALS_OUT",
+        "Psychometrics / 16PF",
+        "1zOZVYFUZsQdRtPQzyK6izLLlxczi8vcDQTOSmh8yFho",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1zOZVYFUZsQdRtPQzyK6izLLlxczi8vcDQTOSmh8yFho/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_TRAVEL",
+        "\ud83c\udf0d Travel_Tracker_Brick",
+        "HUB_SIGNAL_RELAY",
+        "DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 5 / Travel & Codex",
+        "11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_BELIEF_TRACKER",
+        "Belief & Stance Tracker (Life OS)",
+        "HUB_SIGNAL_RELAY",
+        "Dashboard_Summary",
+        "SIGNALS_OUT",
+        "Epistemics / Beliefs",
+        "1ZlhB5xNyI5I8MssGhsp5wydyDJQu29tHmry4iShc2z0",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1ZlhB5xNyI5I8MssGhsp5wydyDJQu29tHmry4iShc2z0/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_BODY_COUNT",
+        "Body Count 2.0",
+        "HUB_SIGNAL_RELAY",
+        "\u2764\ufe0f BODY_COUNT_DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 3 / Intimacy Engine",
+        "1aqYHU_bc-AqgREdvutE3VgG952_gd70yDKt4dMH6L1E",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1aqYHU_bc-AqgREdvutE3VgG952_gd70yDKt4dMH6L1E/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_MOVIES",
+        "Movie Input Form (Movie Tracker)",
+        "HUB_SIGNAL_RELAY",
+        "Preference_Analytics",
+        "SIGNALS_OUT",
+        "Pillar 4/5 / Cinema",
+        "1SIRiqfY1r62g8_XOkwe37d4KnZAr_-DBUx-r-wczkMY",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1SIRiqfY1r62g8_XOkwe37d4KnZAr_-DBUx-r-wczkMY/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_FEED_HUB",
+        "LifeOS_feed_hub",
+        "CORE_OS_HUB",
+        "CHARACTER_SHEET",
+        "SIGNAL_BUS",
+        "Core Display Pillar I / Brain",
+        "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U/edit",
+        "CORE_OS_HUB"
+      ],
+      [
+        "ID_PILLAR_0",
+        "\ud83c\udf11 Pillar_0_Shadow_Self",
+        "HUB_SIGNAL_RELAY",
+        "DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 0 / Shadow Self",
+        "1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_PILLAR_1",
+        "\ud83d\udc9a Pillar_1_Health",
+        "HUB_SIGNAL_RELAY",
+        "DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 1 / Health",
+        "1dzuXlVWO5VRtla0p0ZuziZAvpm2ZySslPLZOhWDQGSI",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1dzuXlVWO5VRtla0p0ZuziZAvpm2ZySslPLZOhWDQGSI/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_BIO_CORE",
+        "\ud83e\ude7a BIO_CORE",
+        "HUB_SIGNAL_RELAY",
+        "BIO_DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 1 / Biometrics",
+        "1EecdB1CnjvaR6C7zx9mTVMx7M-vSIMOUgd3lMlEPmEA",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1EecdB1CnjvaR6C7zx9mTVMx7M-vSIMOUgd3lMlEPmEA/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_PILLAR_2",
+        "\ud83d\udcb0 Pillar_2_Wealth",
+        "HUB_SIGNAL_RELAY",
+        "DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 2 / Wealth",
+        "1NcqV_nHIXuyGz6SuwyXNZbh3AtazGOkuZcIZlTBxw5c",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1NcqV_nHIXuyGz6SuwyXNZbh3AtazGOkuZcIZlTBxw5c/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_PILLAR_3",
+        "\ud83d\udc9e Pillar_3_Relationships",
+        "HUB_SIGNAL_RELAY",
+        "DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 3 / Relationships",
+        "1hi-hShSgH9X8i5NpCmh_a5HfuxevrxWkFDuJmbB1D0k",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1hi-hShSgH9X8i5NpCmh_a5HfuxevrxWkFDuJmbB1D0k/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_PILLAR_4",
+        "\ud83d\udee0\ufe0f Pillar_4_Skills_Mission",
+        "HUB_SIGNAL_RELAY",
+        "DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 4 / Skills & Mission",
+        "1PHTTv1Qpdy5JAyLarOaXYAIsNIuAk8YFBw9GqvIslT0",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1PHTTv1Qpdy5JAyLarOaXYAIsNIuAk8YFBw9GqvIslT0/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_PILLAR_5",
+        "\ud83c\udfc6 Pillar_5_Experience_Legacy",
+        "HUB_SIGNAL_RELAY",
+        "DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 5 / Experience & Legacy",
+        "1AdMP-VKzTPNbSSTUoLrbqAjtBdYlf4mzLYwyWbaUrQw",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1AdMP-VKzTPNbSSTUoLrbqAjtBdYlf4mzLYwyWbaUrQw/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_PILLAR_6",
+        "\ud83d\udd2e Pillar_6_Esoteric_Self",
+        "HUB_SIGNAL_RELAY",
+        "DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 6 / Esoteric Self",
+        "1vVvU5TfzjGYFMNbMlSNaUjREj8HBkDPMwbzLiBnfxA0",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1vVvU5TfzjGYFMNbMlSNaUjREj8HBkDPMwbzLiBnfxA0/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_MASTER_CONTACTS_SYNC",
+        "\ud83d\udcf1 Master_Contacts_Sync",
+        "HUB_SIGNAL_RELAY",
+        "Google Contacts Sync Master",
+        "SIGNALS_OUT",
+        "Utility / Phonebook Sync",
+        "1VtJ4_beXHe8N_zfmcB5yBTPm0App8prl3IgY7CMeU8g",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1VtJ4_beXHe8N_zfmcB5yBTPm0App8prl3IgY7CMeU8g/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_CORE_CRM",
+        "\ud83d\udcc7 Core_CRM",
+        "HUB_SIGNAL_RELAY",
+        "CRM_DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 3 / CRM Graph",
+        "1PKYbEie4QUgSqqTVW1Y2UVjBgRStz4Aok2BhCWCvU5M",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1PKYbEie4QUgSqqTVW1Y2UVjBgRStz4Aok2BhCWCvU5M/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_PURGED_CONTACTS_VAULT",
+        "\ud83d\uddc4\ufe0f Purged_Contacts_Vault",
+        "HUB_SIGNAL_RELAY",
+        "VAULT_ARCHIVE",
+        "SIGNALS_OUT",
+        "Utility / Cold Vault",
+        "1eoLRVMOxdpHx3YkkWnfkOfowhTH8fbam8R2jDzUJB84",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1eoLRVMOxdpHx3YkkWnfkOfowhTH8fbam8R2jDzUJB84/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_NOTEBOOKLM_SOCIAL",
+        "\ud83d\udcd3 NotebookLM_Social_Workbook",
+        "HUB_SIGNAL_RELAY",
+        "SOCIAL_SYNTHESIS",
+        "SIGNALS_OUT",
+        "Synthesis / Social AI",
+        "1gwnGKdfZrtJi6QwEWniPMli6i-Se8Fi2pwjX1ebaaPs",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1gwnGKdfZrtJi6QwEWniPMli6i-Se8Fi2pwjX1ebaaPs/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_ACHIEVEMENTS",
+        "\ud83c\udfc5 Achievements_Engine_Brick",
+        "HUB_SIGNAL_RELAY",
+        "DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 5 / 210+ Achievements",
+        "1oPwOgvsk49CJ7x9pmYIf0Ex2EBHlrKVpb7SO9Ja4-JQ",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1oPwOgvsk49CJ7x9pmYIf0Ex2EBHlrKVpb7SO9Ja4-JQ/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_LOVE_STYLES",
+        "\ud83d\udc9e Love_Styles_&_Languages_Brick",
+        "HUB_SIGNAL_RELAY",
+        "DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 3 / Love Styles & Touch",
+        "1qg60_G6kEB3wNFJ8JcX3UkyL14ohiJO69uGvoTrU2Bw",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1qg60_G6kEB3wNFJ8JcX3UkyL14ohiJO69uGvoTrU2Bw/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_EQ",
+        "\ud83e\udde0 Emotional_Intelligence_Brick",
+        "HUB_SIGNAL_RELAY",
+        "DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 3 & 0 / 6-Dim EQ",
+        "1SCNYZjryNR7r3VLA_Np6_PaRUoR0tYJMzGkrWdR8_NU",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1SCNYZjryNR7r3VLA_Np6_PaRUoR0tYJMzGkrWdR8_NU/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_CHARACTER_HUD",
+        "\ud83c\udfae CHARACTER_PROFILE_HUD",
+        "CORE_DISPLAY",
+        "CHARACTER_HUD",
+        "DOSSIER_ENGINE",
+        "Core Display Pillar III / RPG HUD",
+        "13fowIl8CIw9KgMp8OC4N5L-AwvAqANM8jNaUnujLo1E",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/13fowIl8CIw9KgMp8OC4N5L-AwvAqANM8jNaUnujLo1E/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_DAILY_INTAKE",
+        "\ud83e\udded Daily_Intake_Brick",
+        "HUB_SIGNAL_RELAY",
+        "\ud83e\udded DAILY_HUD",
+        "SIGNALS_OUT",
+        "Pillar 1 / Daily State & Flow",
+        "16ohf5mBA9xrRsyv5sOYqY1s7gaOSpSOzK1rE1Gw6BNI",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/16ohf5mBA9xrRsyv5sOYqY1s7gaOSpSOzK1rE1Gw6BNI/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_WEEKLY_MASLOW",
+        "Weekly_Maslow_Pulse",
+        "HUB_SIGNAL_RELAY",
+        "DASHBOARD",
+        "SIGNALS_OUT",
+        "Development / Weekly Pulse",
+        "1-GnXtI9ren5Bfw6KumDeNq7FUE5HYO0nSAevSzd5f40",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1-GnXtI9ren5Bfw6KumDeNq7FUE5HYO0nSAevSzd5f40/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_FOUR_TEMPERAMENTS",
+        "Four_Temperaments_Brick",
+        "HUB_SIGNAL_RELAY",
+        "DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 1 / Behavioral Arch",
+        "1VT2lwlz0wp7YDX2RR10HPrZWiCBCZhj1rInFFSXtF_M",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1VT2lwlz0wp7YDX2RR10HPrZWiCBCZhj1rInFFSXtF_M/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_DYNAMIC_STRESS",
+        "Dynamic_Stress_Brick",
+        "HUB_SIGNAL_RELAY",
+        "DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 1 / Allostatic Load",
+        "1RjW-hvUyTs85ThLgZeSfEDsWmKO_OHTF_PmuKl4faFo",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1RjW-hvUyTs85ThLgZeSfEDsWmKO_OHTF_PmuKl4faFo/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_DOPPELGANGER",
+        "Doppelganger_Brick",
+        "HUB_SIGNAL_RELAY",
+        "DASHBOARD",
+        "SIGNALS_OUT",
+        "Pillar 0 / Shadow Arena",
+        "1rF8zWY_-HAUhxilX1SaPE0L_iSPEr_gQO6_ZtoWhyPg",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1rF8zWY_-HAUhxilX1SaPE0L_iSPEr_gQO6_ZtoWhyPg/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_SOVEREIGNTY_DESIRE",
+        "\u2696\ufe0f Sovereignty_Desire_Brick",
+        "HUB_SIGNAL_RELAY",
+        "\u2696\ufe0f SOVEREIGNTY_HUD",
+        "SIGNALS_OUT",
+        "Pillar 0, 3 & 4 / Sovereignty vs. Desire",
+        "1eNHenM8QdiE_onsNYkkMJyvXOlo5D7y-n8e7LF5HpTc",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1eNHenM8QdiE_onsNYkkMJyvXOlo5D7y-n8e7LF5HpTc/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "ID_CIVIC_SOVEREIGNTY",
+        "\ud83c\udfdb\ufe0f Civic_Sovereignty_Brick",
+        "HUB_SIGNAL_RELAY",
+        "\ud83c\udfdb\ufe0f CIVIC_SOVEREIGNTY_HUD",
+        "SIGNALS_OUT",
+        "Epistemics / Civic Sovereignty",
+        "13QRTtBXsCOyIcsRI2jeUhuJFCPjhmDbQtiBQTAni8Yo",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/13QRTtBXsCOyIcsRI2jeUhuJFCPjhmDbQtiBQTAni8Yo/edit",
+        "ACTIVE_BRICK"
+      ],
+      [
+        "RAW_FLOW_STATE",
+        "RAW_DATA_FlowState",
+        "CONSOLIDATED_SILO",
+        "Form Responses 1",
+        "Pillar_4!FLOW_STATE_ENGINE",
+        "Pillar 4 / Flow State",
+        "1tlQt3Ft_X4LGzdCu1JBcDmFjNJkNiExpa75bT2Y6_jQ",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1tlQt3Ft_X4LGzdCu1JBcDmFjNJkNiExpa75bT2Y6_jQ/edit",
+        "CONSOLIDATED_INTO_PILLAR"
+      ],
+      [
+        "RAW_PERSONAL_DEV",
+        "RAW_DATA_PersonalDevelopment",
+        "CONSOLIDATED_SILO",
+        "Form Responses 1",
+        "Pillar_0!PERSONAL_GROWTH_AUDIT",
+        "Pillar 0 / Growth Audit",
+        "1hygpK684uimaG-uiV0-kq-MkTAPqmRUJmXoxI5qlHQ0",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1hygpK684uimaG-uiV0-kq-MkTAPqmRUJmXoxI5qlHQ0/edit",
+        "CONSOLIDATED_INTO_PILLAR"
+      ],
+      [
+        "RAW_LIFE_AUDIT",
+        "RAW_DATA_LifeAudit",
+        "CONSOLIDATED_SILO",
+        "Form Responses 1",
+        "Pillar_0!LIFE_AUDIT_SNAPSHOT",
+        "Pillar 0 / Life Audit",
+        "1dy5b0b2nZFdlftuvKCUu6NngvSyyvTDUbfPT1Z9lG8g",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1dy5b0b2nZFdlftuvKCUu6NngvSyyvTDUbfPT1Z9lG8g/edit",
+        "CONSOLIDATED_INTO_PILLAR"
+      ],
+      [
+        "RAW_5Q_LIFE_AUDIT",
+        "RAW_DATA_5Q_LifeAudit",
+        "CONSOLIDATED_SILO",
+        "Form Responses 1",
+        "Pillar_0!LIFE_AUDIT_SNAPSHOT",
+        "Pillar 0 / 5Q Life Audit",
+        "10P9aPRrqmTBe4Q2HVPbf5SwmfSSsT6K_Aer5jbE-VLQ",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/10P9aPRrqmTBe4Q2HVPbf5SwmfSSsT6K_Aer5jbE-VLQ/edit",
+        "CONSOLIDATED_INTO_PILLAR"
+      ],
+      [
+        "RAW_WEEKLY_REL_CHECK",
+        "RAW_DATA_WeeklyRelationshipCheck",
+        "CONSOLIDATED_SILO",
+        "Form Responses 1",
+        "Pillar_3!RELATIONSHIP_CHECKUP_LOG",
+        "Pillar 3 / Relationship Check-Up",
+        "1jMWrerLnpcbv3QSrkHLdW8x83irEgCecdHrJopQyvQE",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1jMWrerLnpcbv3QSrkHLdW8x83irEgCecdHrJopQyvQE/edit",
+        "CONSOLIDATED_INTO_PILLAR"
+      ],
+      [
+        "RAW_ROMANTIC_REL",
+        "RAW_DATA_RomanticRelationships",
+        "CONSOLIDATED_SILO",
+        "Form Responses 1",
+        "Pillar_3!RELATIONSHIP_CHECKUP_LOG",
+        "Pillar 3 / Partner Trait Audit",
+        "136a21zAd6FInQSeyB507ze5scrZX-paurXNWm-0aMMU",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/136a21zAd6FInQSeyB507ze5scrZX-paurXNWm-0aMMU/edit",
+        "CONSOLIDATED_INTO_PILLAR"
+      ],
+      [
+        "RAW_101_TRAVELER",
+        "RAW_DATA_101_Traveler",
+        "CONSOLIDATED_SILO",
+        "Form Responses 1",
+        "Travel!TRAVEL_CODEX_SNAPSHOT",
+        "Pillar 5 / Traveler Codex",
+        "1vLsHH-FyaiRXuyw5iTp_fgZmJ1bli8Bm9Zh-ZmBp7Vc",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1vLsHH-FyaiRXuyw5iTp_fgZmJ1bli8Bm9Zh-ZmBp7Vc/edit",
+        "CONSOLIDATED_INTO_PILLAR"
+      ],
+      [
+        "RAW_REGRET_AUDIT",
+        "RAW_DATA_RegretAudit",
+        "CONSOLIDATED_SILO",
+        "Form Responses 1",
+        "Pillar_0!REGRET_AUDIT_LOG",
+        "Pillar 0 / Regret Audit",
+        "1PrfsW-XpoNyHFnQ68f8IO1Z0ncin7ltWFQw7S3WVbHI",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1PrfsW-XpoNyHFnQ68f8IO1Z0ncin7ltWFQw7S3WVbHI/edit",
+        "CONSOLIDATED_INTO_PILLAR"
+      ],
+      [
+        "RAW_PAST_REFLECTIONS",
+        "RAW_DATA_PastReflections",
+        "CONSOLIDATED_SILO",
+        "Form Responses 1",
+        "Pillar_0!REGRET_AUDIT_LOG",
+        "Pillar 0 / Past Reflections",
+        "1jKLpR7osfWF_DrIb0N9SQcxy6ZYz6N2CQEqUOGOsDdk",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1jKLpR7osfWF_DrIb0N9SQcxy6ZYz6N2CQEqUOGOsDdk/edit",
+        "CONSOLIDATED_INTO_PILLAR"
+      ],
+      [
+        "RAW_SENSE_OF_TOUCH",
+        "RAW_DATA_SenseOfTouch",
+        "CONSOLIDATED_SILO",
+        "Form Responses 1",
+        "Love_Styles!PHYSICAL_TOUCH_PROFILE",
+        "Pillar 3 / Physical Touch",
+        "1V4PTEcFT4FixOsqb5JaEp-oU7hCIJmwZqUpVcJ0R29A",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1V4PTEcFT4FixOsqb5JaEp-oU7hCIJmwZqUpVcJ0R29A/edit",
+        "CONSOLIDATED_INTO_PILLAR"
+      ],
+      [
+        "RAW_FEAR_INSECURITIES",
+        "RAW_DATA_FearInsecurities",
+        "CONSOLIDATED_SILO",
+        "Form Responses 1",
+        "Pillar_0!FEAR_&_INSECURITY_MATRIX",
+        "Pillar 0 / Fear & Insecurities",
+        "1KfFvvrJh5ys_lSCFKZlrHXxcOiAWgWsvAQeajnS1exo",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1KfFvvrJh5ys_lSCFKZlrHXxcOiAWgWsvAQeajnS1exo/edit",
+        "CONSOLIDATED_INTO_PILLAR"
+      ],
+      [
+        "RAW_KNOW_THY_SELF",
+        "RAW_DATA_KnowThySelf",
+        "CONSOLIDATED_SILO",
+        "Form Responses 1",
+        "Pillar_0!SELF_CODEX_PROFILE",
+        "Pillar 0 / Self-Codex",
+        "1wIWInPaM_YpWg995MfWdnzHT8_OVG_stwwVuf2AIgTw",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1wIWInPaM_YpWg995MfWdnzHT8_OVG_stwwVuf2AIgTw/edit",
+        "CONSOLIDATED_INTO_PILLAR"
+      ],
+      [
+        "RAW_PREFERENCE",
+        "RAW_DATA_Preference",
+        "CONSOLIDATED_SILO",
+        "Form Responses 1",
+        "Pillar_3!PREFERENCE_PROFILE",
+        "Pillar 3 / Preference Profile",
+        "1TIA5KyRt629BWV5wlL1Maug5ppEqls5zHsugaYv783U",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1TIA5KyRt629BWV5wlL1Maug5ppEqls5zHsugaYv783U/edit",
+        "CONSOLIDATED_INTO_PILLAR"
+      ],
+      [
+        "RAW_TRAVEL_BUCKET",
+        "RAW_DATA_TravelBucketList",
+        "CONSOLIDATED_SILO",
+        "Form Responses 1",
+        "Travel!BUCKET_LIST_MILESTONES",
+        "Pillar 5 / 7-by-40 Bucket List",
+        "1bEnJp4tj1qCasykqDOCxg9yvlH3Gf5pl9i1bcigHpUs",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1bEnJp4tj1qCasykqDOCxg9yvlH3Gf5pl9i1bcigHpUs/edit",
+        "CONSOLIDATED_INTO_PILLAR"
+      ],
+      [
+        "RAW_BUCKET_AUDIT",
+        "RAW_DATA_BucketListAudit",
+        "CONSOLIDATED_SILO",
+        "Form Responses 1",
+        "Pillar_5!CLEAN_BUCKET_LIST_AUDIT",
+        "Pillar 5 / Bucket List Audit",
+        "1PyIMHlM5edRahBQH1py5B-zU2dQlev2PsUkkEKVd-mQ",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1PyIMHlM5edRahBQH1py5B-zU2dQlev2PsUkkEKVd-mQ/edit",
+        "CONSOLIDATED_INTO_PILLAR"
+      ],
+      [
+        "RAW_LOVE_LANGUAGE",
+        "RAW_DATA_LoveLanguage",
+        "CONSOLIDATED_SILO",
+        "Form Responses 1",
+        "Love_Styles!SCORING_ENGINE",
+        "Pillar 3 / Classic 5 Languages",
+        "1v8uyDCX1ViIvIw09Z2vTg3K3sx6edxiK5gL1jAVtMgA",
+        "Open \u2197",
+        "https://docs.google.com/spreadsheets/d/1v8uyDCX1ViIvIw09Z2vTg3K3sx6edxiK5gL1jAVtMgA/edit",
+        "CONSOLIDATED_INTO_PILLAR"
       ]
-    },
-    {
-      "title": "SCHEMA_MANIFEST",
-      "sheet_id": 152130067,
-      "index": 2,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
+    ],
+    "SCHEMA_MANIFEST": [
+      [
+        "\ud83d\udcd1 SCHEMA_MANIFEST \u2014 CANONICAL UPPER_SNAKE_CASE SIGNAL REGISTRY (HUB_SIGNAL_RELAY)"
+      ],
+      [
+        "1:1 canonical key alignment with LifeOS_feed_hub!SIGNAL_BUS (all legacy SIG_* / SRC_* keys retired)"
+      ],
+      [
         "Domain_Key",
         "Workbook_Key",
-        "Tab_Name",
-        "Header_Anchor",
-        "Key_Col",
-        "Val_Col",
+        "Relay_Tab",
+        "Source_Contract",
         "Data_Type",
+        "Live_Value",
+        "Hub_Status",
+        "Description"
+      ],
+      [
+        "MASLOW_D_WAVE_INDEX",
+        "ID_MASLOW",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "FLOAT",
+        "4.74",
+        "FRESH",
+        "Live Maslow Deficiency Base D-Wave index (0\u201310)"
+      ],
+      [
+        "MASLOW_EFFECTIVE_QUALITY",
+        "ID_MASLOW",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "PERCENT",
+        "35.1%",
+        "FRESH",
+        "Prepotency D/B Wave \u00d7 Freshness quality"
+      ],
+      [
+        "ZODIAC_WIP_COUNT",
+        "ID_ZODIAC",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "INTEGER",
+        "1",
+        "FRESH",
+        "OPS_GOVERNOR active WIP count (Law 5 max = 2)"
+      ],
+      [
+        "ZODIAC_ALIGNMENT",
+        "ID_ZODIAC",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "STRING",
+        "Sagittarius Sun / Waning Gibbous (Integrate & Share)",
+        "FRESH",
+        "Live solar/lunar transit harmony"
+      ],
+      [
+        "PQ_PRIMARY_SABOTEUR",
+        "ID_PQ",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "STRING",
+        "Avoider",
+        "FRESH",
+        "Active primary PQ Saboteur (Avoider)"
+      ],
+      [
+        "PQ_PRIMARY_SCORE",
+        "ID_PQ",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "FLOAT",
+        "8.8",
+        "FRESH",
+        "Primary Saboteur score (0\u201310)"
+      ],
+      [
+        "PQ_JUDGE_SELF_SCORE",
+        "ID_PQ",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "FLOAT",
+        "10",
+        "FRESH",
+        "Master Judge (Self) intensity score (0\u201310)"
+      ],
+      [
+        "OCEAN_CONSCIENTIOUSNESS",
+        "ID_OCEAN",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "FLOAT",
+        "0.015",
+        "ACTIVE",
+        "Big-Five Conscientiousness percentile (scaffolding trigger)"
+      ],
+      [
+        "MBTI_SHADOW_RISK",
+        "ID_MBTI",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "PERCENT",
+        "70",
+        "STALE",
+        "MBTI Turbulent / Shadow Grip stress risk (0\u2013100)"
+      ],
+      [
+        "HD_STRATEGY_COHERENCE",
+        "ID_HD",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "RATIO",
+        "1",
+        "FRESH",
+        "30-day empirical Human Design Strategy alignment"
+      ],
+      [
+        "XP_CURRENT_LEVEL",
+        "ID_XP_HUB",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "INTEGER",
+        "24",
+        "FRESH",
+        "Current Active Level in 144 Grand Cycle"
+      ],
+      [
+        "XP_TOTAL_EFFECTIVE",
+        "ID_XP_HUB",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "INTEGER",
+        "80187",
+        "FRESH",
+        "Unified total effective XP (Ledger + Pillar absorption)"
+      ],
+      [
+        "KAB_EFFECTIVE_QUALITY",
+        "ID_KABBALAH",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "FLOAT",
+        "0.6916",
+        "ACTIVE",
+        "Kabbalah Tree of Life effective flow quality"
+      ],
+      [
+        "KAB_GROUNDING_INDEX",
+        "ID_KABBALAH",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "FLOAT",
+        "0.5833",
+        "ACTIVE",
+        "Assiah / Malkuth somatic grounding index"
+      ],
+      [
+        "CAREER_USCG_SEA_DAYS",
+        "ID_CAREER",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "INTEGER",
+        "0",
+        "FRESH",
+        "Verified USCG sea service days toward 180 AB Special"
+      ],
+      [
+        "AQAL_BALANCE_SCORE",
+        "ID_FEED_HUB",
+        "HUB_SIGNAL_RELAY",
+        "AQAL_VIEW",
+        "FLOAT",
+        "69.9",
+        "FRESH",
+        "4-Quadrant AQAL composite balance score (0\u2013100)"
+      ],
+      [
+        "AQAL_LR_SCORE",
+        "ID_FEED_HUB",
+        "HUB_SIGNAL_RELAY",
+        "AQAL_VIEW",
+        "FLOAT",
+        "17.8",
+        "FRESH",
+        "Lower-Right ('Its') systemic execution score (0\u2013100)"
+      ],
+      [
+        "SOV_COMPOSITE_SCORE",
+        "ID_SOVEREIGNTY_DESIRE",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "FLOAT",
+        "",
+        "UNLOGGED",
+        "Sovereignty vs. Desire 6-dimension composite index (0\u2013100)"
+      ],
+      [
+        "SOV_D2_SUBLIMATION",
+        "ID_SOVEREIGNTY_DESIRE",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "FLOAT",
+        "",
+        "UNLOGGED",
+        "D2 Sublimation & Mission Bandwidth score (0\u2013100)"
+      ],
+      [
+        "CIVIC_SOVEREIGNTY_PCT",
+        "ID_CIVIC_SOVEREIGNTY",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "FLOAT",
+        "",
+        "UNLOGGED",
+        "Inverted Civic Sovereignty normalized score (0\u2013100)"
+      ],
+      [
+        "CIVIC_DIM4_CAVE_SCORE",
+        "ID_CIVIC_SOVEREIGNTY",
+        "HUB_SIGNAL_RELAY",
+        "SIGNALS_OUT",
+        "INTEGER",
+        "",
+        "UNLOGGED",
+        "Dim 4 Algorithmic Cave Immersion capture score (4\u201320)"
+      ]
+    ],
+    "LOOKER_MASTER_BUS": [
+      [
+        "Record_Type",
+        "Entity_Key",
+        "Entity_Label",
+        "Domain_Pillar",
+        "Live_Value",
+        "Guardrail_Threshold",
+        "Status_Tag",
+        "Last_Updated"
+      ],
+      [
+        "SYMBIOSIS_KPI",
+        "KPI_01",
+        "Maslow Physiological / D-Wave Base",
+        "Symbiosis Cockpit",
+        "4.74",
+        ">= 6.5 (Floor 4.5)",
+        "BUILDING",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "SYMBIOSIS_KPI",
+        "KPI_02",
+        "Zodiac OPS_GOVERNOR WIP Load",
+        "Symbiosis Cockpit",
+        "1",
+        "<= 2 WIP (Law 5)",
+        "NOMINAL",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "SYMBIOSIS_KPI",
+        "KPI_03",
+        "PQ Primary Saboteur (Avoider / Judge)",
+        "Symbiosis Cockpit",
+        "Avoider 8.8 | Judge 10",
+        "< 7.5 Saboteur",
+        "ALERT",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "SYMBIOSIS_KPI",
+        "KPI_04",
+        "OCEAN Conscientiousness Scaffolding",
+        "Symbiosis Cockpit",
+        "0.015",
+        ">= 0.10 (10%)",
+        "ALERT",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "SYMBIOSIS_KPI",
+        "KPI_05",
+        "MBTI Turbulent Stress Load",
+        "Symbiosis Cockpit",
+        "70",
+        "< 65% Grip Risk",
+        "ALERT",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "SYMBIOSIS_KPI",
+        "KPI_06",
+        "XP Leveler Progress (Grand Cycle 144)",
+        "Symbiosis Cockpit",
+        "24",
+        "Target: Lvl 144",
+        "PROGRESSING",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "SYMBIOSIS_KPI",
+        "KPI_07",
+        "HD Strategy & Authority Alignment",
+        "Symbiosis Cockpit",
+        "100",
+        ">= 70% Flow",
+        "NOMINAL",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "SYMBIOSIS_KPI",
+        "KPI_08",
+        "Kabbalah Tree Effective Quality",
+        "Symbiosis Cockpit",
+        "69",
+        ">= 65% Coherent",
+        "NOMINAL",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "SYMBIOSIS_KPI",
+        "KPI_09",
+        "AQAL Quadrant Balance Score (Hub Live)",
+        "Symbiosis Cockpit",
+        "69.9",
+        ">= 85 Balanced",
+        "ALERT",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "SYMBIOSIS_KPI",
+        "KPI_10",
+        "Sovereignty vs. Desire Index",
+        "Symbiosis Cockpit",
+        "",
+        ">= 70% Sovereign",
+        "AWAITING_HUB_AUTH"
+      ],
+      [
+        "SYMBIOSIS_KPI",
+        "KPI_11",
+        "Civic Sovereignty Index",
+        "Symbiosis Cockpit",
+        "",
+        ">= 75% Navigator",
+        "AWAITING_HUB_AUTH"
+      ],
+      [
+        "SYMBIOSIS_KPI",
+        "KPI_12",
+        "USCG Sea Days (AB Special)",
+        "Symbiosis Cockpit",
+        "0",
+        "Target: 180 Days",
+        "PROGRESSING",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "SYMBIOSIS_KPI",
+        "KPI_13",
+        "Active Standalone Bricks & Pillars",
+        "Symbiosis Cockpit",
+        "41",
+        "1:1 Hub Parity",
+        "NOMINAL",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "GUARDRAIL_RULE",
+        "SYM_01",
+        "Zodiac WIP Ceiling Lock",
+        "ITS / Governance",
+        "1",
+        ">= 2 Active WIP",
+        "\ud83d\udfe2 ARMED",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "GUARDRAIL_RULE",
+        "SYM_02",
+        "HD Not-Self Strategy Lock",
+        "I / Human Design",
+        "100",
+        "< 70% Alignment",
+        "\ud83d\udfe2 ARMED",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "GUARDRAIL_RULE",
+        "SYM_03",
+        "Kabbalah Malkuth Grounding Guard",
+        "IT / Grounding",
+        "58",
+        "< 60% Grounding",
+        "\ud83d\udd34 TRIGGERED",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "GUARDRAIL_RULE",
+        "SYM_04",
+        "PQ Sage Interception Trigger",
+        "Pillar 0 / PQ",
+        "8.8",
+        ">= 7.5 Saboteur",
+        "\ud83d\udd34 TRIGGERED",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "GUARDRAIL_RULE",
+        "SYM_05",
+        "AQAL LR Quadrant Repair",
+        "LR / AQAL",
+        "17.8",
+        "< 50 LR Systems",
+        "\ud83d\udd34 TRIGGERED",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "GUARDRAIL_RULE",
+        "SYM_06",
+        "OCEAN / MBTI Scaffolding Guard",
+        "IT / Executive",
+        "1.5",
+        "< 10% Consc. (or MBTI>=65)",
+        "\ud83d\udd34 TRIGGERED",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "GUARDRAIL_RULE",
+        "SYM_07",
+        "Sovereignty Bandwidth Guard",
+        "Pillar 4 / Sublimation",
+        "",
+        "<= 55% Sublimation",
+        "UNLOGGED"
+      ],
+      [
+        "GUARDRAIL_RULE",
+        "SYM_08",
+        "Civic Cave Immersion Check",
+        "Epistemics / Cave",
+        "",
+        ">= 12/20 Cave Score",
+        "UNLOGGED"
+      ],
+      [
+        "BRICK_REGISTRY",
+        "ID_OCEAN",
+        "Big-Five Personality Assessment",
+        "Psychometrics / OCEAN",
+        "Executive_Dashboard",
+        "HUB_SIGNAL_RELAY",
+        "ACTIVE_BRICK",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "BRICK_REGISTRY",
+        "ID_MBTI",
+        "Myers-Briggs Test",
+        "Psychometrics / MBTI",
+        "\ud83d\udcca MBTI_Dashboard",
+        "HUB_SIGNAL_RELAY",
+        "ACTIVE_BRICK",
+        "11/26/2026 18:57:08"
+      ],
+      [
+        "BRICK_REGISTRY",
+        "ID_ENNEAGRAM",
+        "Enneagram Assessment",
+        "Psychometrics / Enneagram",
+        "\ud83d\udd2f ENNEAGRAM_DASHBOARD",
+        "HUB_SIGNAL_RELAY",
+        "ACTIVE_BRICK",
+        "11/26/2026 18:57:08"
+      ]
+    ],
+    "MODULE_META": [
+      [
+        "Meta_Key",
+        "Value",
         "Notes"
-      ]
-    },
-    {
-      "title": "SYMBIOSIS_BUS",
-      "sheet_id": 55592173,
-      "index": 3,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Rule_ID",
-        "Source_Key",
-        "Operator",
-        "Threshold",
-        "Target_Workbook_Key",
-        "Target_Tab",
-        "Target_Anchor",
-        "Payload_True",
-        "Payload_False",
-        "Live_Signal_Value (Formula)",
-        "Rule_State (Formula)",
-        "Resolved_Directive (Formula)"
-      ]
-    },
-    {
-      "title": "Signal_Bus",
-      "sheet_id": 1673643981,
-      "index": 4,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Signal_Key",
-        "Workbook_Key",
-        "Staging_Tab",
-        "Lookup_Mode",
-        "Target_Cell_or_Key",
-        "Col_Index",
-        "Fallback",
-        "Live_Value",
-        "Source_Status"
-      ]
-    },
-    {
-      "title": "Engine_Outputs",
-      "sheet_id": 1509572656,
-      "index": 5,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Output_Key",
-        "Workbook_Key",
-        "Staging_Tab",
-        "Metric_Key",
-        "Fallback",
-        "Live_Value",
-        "Source_Status"
-      ]
-    },
-    {
-      "title": "SRC_OCEAN",
-      "sheet_id": 164080207,
-      "index": 6,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Workbook_Key",
-        "Workbook_Name",
+      ],
+      [
+        "Module_ID",
+        "ID_MASTER_BUS",
+        "Canonical LifeOS v3.0 Core Display Pillar II registry key"
+      ],
+      [
+        "Module_Name",
+        "LifeOS_Master_Bus",
+        "Symbiosis Cockpit, Cross-Brick Guardrail Bus & Master Directory"
+      ],
+      [
+        "Schema_Version",
+        "3.1.0",
+        "Consolidated 7-tab HUB_SIGNAL_RELAY architecture (Laws 1\u20138 compliant)"
+      ],
+      [
         "Spreadsheet_ID",
-        "Primary_Remote_Tab",
-        "Secondary_Remote_Tab",
-        "Sync_Status"
+        "1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ",
+        "Preserved canonical Master Bus spreadsheet ID"
+      ],
+      [
+        "Upstream_Relay_Source",
+        "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
+        "LifeOS_feed_hub (Single unified IMPORTRANGE in HUB_SIGNAL_RELAY)"
+      ],
+      [
+        "Landing_Tab",
+        "\u26a1 SYMBIOSIS_HUD",
+        "Gold #F59E0B executive cockpit"
+      ],
+      [
+        "Looker_Tab",
+        "LOOKER_MASTER_BUS",
+        "Flat unmerged zero-PII BI feed (SYMBIOSIS_KPI + GUARDRAIL_RULE + BRICK_REGISTRY)"
+      ],
+      [
+        "Tab_Count",
+        "7",
+        "Eliminated 15 redundant/broken SRC_*, Signal_Bus & Engine_Outputs tabs"
+      ],
+      [
+        "Privacy_Boundary",
+        "STRICT_ZERO_PII_ZERO_PROSE",
+        "Aggregated signals, guardrail statuses & workbook metadata only"
+      ],
+      [
+        "Last_Refactored_UTC",
+        "2026-11-26 23:54 UTC",
+        "Unified HUB_SIGNAL_RELAY + 0 formula errors verified"
       ]
-    },
-    {
-      "title": "SRC_MBTI",
-      "sheet_id": 273680863,
-      "index": 7,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Workbook_Key",
-        "Workbook_Name",
-        "Spreadsheet_ID",
-        "Primary_Remote_Tab",
-        "Secondary_Remote_Tab",
-        "Sync_Status"
-      ]
-    },
-    {
-      "title": "SRC_ENNEAGRAM",
-      "sheet_id": 182269779,
-      "index": 8,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Workbook_Key",
-        "Workbook_Name",
-        "Spreadsheet_ID",
-        "Primary_Remote_Tab",
-        "Secondary_Remote_Tab",
-        "Sync_Status"
-      ]
-    },
-    {
-      "title": "SRC_PQ",
-      "sheet_id": 1248345206,
-      "index": 9,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Workbook_Key",
-        "Workbook_Name",
-        "Spreadsheet_ID",
-        "Primary_Remote_Tab",
-        "Secondary_Remote_Tab",
-        "Sync_Status"
-      ]
-    },
-    {
-      "title": "SRC_HD",
-      "sheet_id": 418591550,
-      "index": 10,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Workbook_Key",
-        "Workbook_Name",
-        "Spreadsheet_ID",
-        "Primary_Remote_Tab",
-        "Secondary_Remote_Tab",
-        "Sync_Status"
-      ]
-    },
-    {
-      "title": "SRC_ZODIAC",
-      "sheet_id": 1902988881,
-      "index": 11,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Workbook_Key",
-        "Workbook_Name",
-        "Spreadsheet_ID",
-        "Primary_Remote_Tab",
-        "Secondary_Remote_Tab",
-        "Sync_Status"
-      ]
-    },
-    {
-      "title": "SRC_CAREER",
-      "sheet_id": 49878615,
-      "index": 12,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Workbook_Key",
-        "Workbook_Name",
-        "Spreadsheet_ID",
-        "Primary_Remote_Tab",
-        "Secondary_Remote_Tab",
-        "Sync_Status"
-      ]
-    },
-    {
-      "title": "SRC_MASLOW",
-      "sheet_id": 1552127598,
-      "index": 13,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Workbook_Key",
-        "Workbook_Name",
-        "Spreadsheet_ID",
-        "Primary_Remote_Tab",
-        "Secondary_Remote_Tab",
-        "Sync_Status"
-      ]
-    },
-    {
-      "title": "SRC_GRIT",
-      "sheet_id": 135604351,
-      "index": 14,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Workbook_Key",
-        "Workbook_Name",
-        "Spreadsheet_ID",
-        "Primary_Remote_Tab",
-        "Secondary_Remote_Tab",
-        "Sync_Status"
-      ]
-    },
-    {
-      "title": "SRC_RIASEC",
-      "sheet_id": 751730578,
-      "index": 15,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Workbook_Key",
-        "Workbook_Name",
-        "Spreadsheet_ID",
-        "Primary_Remote_Tab",
-        "Secondary_Remote_Tab",
-        "Sync_Status"
-      ]
-    },
-    {
-      "title": "SRC_XP_HUB",
-      "sheet_id": 778024592,
-      "index": 16,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Workbook_Key",
-        "Workbook_Name",
-        "Spreadsheet_ID",
-        "Primary_Remote_Tab",
-        "Secondary_Remote_Tab",
-        "Sync_Status"
-      ]
-    },
-    {
-      "title": "SRC_KABBALAH",
-      "sheet_id": 482453950,
-      "index": 17,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Workbook_Key",
-        "Workbook_Name",
-        "Spreadsheet_ID",
-        "Primary_Remote_Tab",
-        "Secondary_Remote_Tab",
-        "Sync_Status"
-      ]
-    },
-    {
-      "title": "SRC_16PF",
-      "sheet_id": 653666860,
-      "index": 18,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Workbook_Key",
-        "Workbook_Name",
-        "Spreadsheet_ID",
-        "Primary_Remote_Tab",
-        "Secondary_Remote_Tab",
-        "Sync_Status"
-      ]
-    }
-  ],
-  "captured_at_utc": "2026-11-25T06:28:06Z",
-  "kabbalah_engine_outputs": [
-    [
-      "Output_Key",
-      "Workbook_Key",
-      "Staging_Tab",
-      "Metric_Key",
-      "Fallback",
-      "Live_Value",
-      "Source_Status"
-    ],
-    [
-      "KABBALAH_EFFECTIVE_QUALITY",
-      "ID_KABBALAH",
-      "SRC_KABBALAH",
-      "KAB_EFFECTIVE_QUALITY",
-      "",
-      "0.6916",
-      "LIVE FORMULA"
-    ],
-    [
-      "KABBALAH_LIGHTNING_FLOW",
-      "ID_KABBALAH",
-      "SRC_KABBALAH",
-      "KABBALAH_LIGHTNING_FLOW",
-      "",
-      "70.00%",
-      "LIVE FORMULA"
-    ],
-    [
-      "KABBALAH_PILLAR_BALANCE",
-      "ID_KABBALAH",
-      "SRC_KABBALAH",
-      "KAB_PILLAR_EQUILIBRIUM",
-      "",
-      "0.883",
-      "LIVE FORMULA"
-    ],
-    [
-      "KABBALAH_32_PATHS_FLOW",
-      "ID_KABBALAH",
-      "SRC_KABBALAH",
-      "KAB_32_PATHS_FLOW",
-      "",
-      "0.6832",
-      "LIVE FORMULA"
-    ],
-    [
-      "KABBALAH_ASSIAH_GROUNDING",
-      "ID_KABBALAH",
-      "SRC_KABBALAH",
-      "KAB_GROUNDING_INDEX",
-      "",
-      "0.5833",
-      "LIVE FORMULA"
-    ],
-    [
-      "KAB_XP_NET_MULT",
-      "ID_KABBALAH",
-      "SRC_KABBALAH",
-      "KAB_XP_NET_MULT",
-      "",
-      "114.10%",
-      "LIVE FORMULA"
     ]
-  ],
-  "kabbalah_directory_row": [
-    [
-      "ID_KABBALAH",
-      "Kaballah Tree of Life OS Engine",
-      "SRC_KABBALAH",
-      "\ud83d\udce4 SIGNALS_OUT",
-      "Sefirot_10_&_Daat",
-      "Esoteric",
-      "19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0",
-      "https://docs.google.com/spreadsheets/d/19yYbAFijH5LH_PnQOQhpBNiYbmBbzqhSxZJEd4-tPw0/edit?usp=drivesdk"
-    ]
-  ],
-  "kabbalah_audit_errors": 0,
-  "directory_entry_count": 39,
-  "workbook_directory_keys": [
-    "ID_OCEAN",
-    "ID_MBTI",
-    "ID_ENNEAGRAM",
-    "ID_PQ",
-    "ID_HD",
-    "ID_ZODIAC",
-    "ID_CAREER",
-    "ID_MASLOW",
-    "ID_GRIT",
-    "ID_RIASEC",
-    "ID_XP_HUB",
-    "ID_KABBALAH",
-    "ID_16PF",
-    "ID_TRAVEL",
-    "ID_BELIEF_TRACKER",
-    "ID_BODY_COUNT",
-    "ID_MOVIES",
-    "ID_FEED_HUB",
-    "ID_PILLAR_0",
-    "ID_PILLAR_1",
-    "ID_BIO_CORE",
-    "ID_PILLAR_2",
-    "ID_PILLAR_3",
-    "ID_PILLAR_4",
-    "ID_PILLAR_5",
-    "ID_PILLAR_6",
-    "ID_MASTER_CONTACTS_SYNC",
-    "ID_CORE_CRM",
-    "ID_PURGED_CONTACTS_VAULT",
-    "ID_NOTEBOOKLM_SOCIAL",
-    "ID_ACHIEVEMENTS",
-    "ID_LOVE_STYLES",
-    "ID_EQ",
-    "ID_CHARACTER_HUD",
-    "ID_DAILY_INTAKE",
-    "ID_WEEKLY_MASLOW",
-    "ID_FOUR_TEMPERAMENTS",
-    "ID_DYNAMIC_STRESS",
-    "ID_DOPPELGANGER"
-  ],
-  "audit_errors": 0
+  }
 }

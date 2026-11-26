@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-26T23:32:52Z",
+  "last_updated_utc": "2026-11-26T23:58:49Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -288,28 +288,40 @@
       "title": "LifeOS_Master_Bus",
       "spreadsheet_id": "1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ",
       "drive_url": "https://docs.google.com/spreadsheets/d/1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ/edit",
-      "status": "bound",
+      "status": "ACTIVE",
       "layer": "core_os_hub",
       "domain": "Core OS Hub / Symbiosis Bus & Master Brick Staging",
       "live_tabs": [
-        "SYMBIOSIS_HUD",
-        "Workbook_Directory",
-        "SCHEMA_MANIFEST",
+        "\u26a1 SYMBIOSIS_HUD",
         "SYMBIOSIS_BUS",
-        "Signal_Bus",
-        "Engine_Outputs"
+        "WORKBOOK_DIRECTORY",
+        "SCHEMA_MANIFEST",
+        "LOOKER_MASTER_BUS",
+        "HUB_SIGNAL_RELAY"
       ],
       "search_aliases": [
         "LifeOS_Master_Bus",
-        "LifeOS Master Bus"
+        "LifeOS Master Bus",
+        "ID_MASTER_BUS"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-25T01:15:05Z",
+      "last_snapshot_utc": "2026-11-26T23:58:49Z",
       "all_tabs": [
-        "SYMBIOSIS_HUD",
-        "Workbook_Directory",
-        "SCHEMA_MANIFEST",
+        "\u26a1 SYMBIOSIS_HUD",
         "SYMBIOSIS_BUS",
+        "WORKBOOK_DIRECTORY",
+        "SCHEMA_MANIFEST",
+        "LOOKER_MASTER_BUS",
+        "HUB_SIGNAL_RELAY",
+        "MODULE_META"
+      ],
+      "tab_count": 7,
+      "directory_entry_count": 57,
+      "last_audited_utc": "2026-11-26T23:58:49Z",
+      "primary_tab": "\u26a1 SYMBIOSIS_HUD",
+      "looker_tab": "LOOKER_MASTER_BUS",
+      "tab_color_coded": true,
+      "deleted_legacy_tabs": [
         "Signal_Bus",
         "Engine_Outputs",
         "SRC_OCEAN",
@@ -326,9 +338,9 @@
         "SRC_KABBALAH",
         "SRC_16PF"
       ],
-      "tab_count": 19,
-      "directory_entry_count": 39,
-      "last_audited_utc": "2026-11-25T06:28:06Z"
+      "active_workbook_count": 41,
+      "consolidated_silo_count": 16,
+      "relay_status": "AUTHORIZED"
     },
     "ID_OCEAN": {
       "title": "Big-Five Personality Assessment (Responses)",
