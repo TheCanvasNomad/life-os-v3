@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-26T17:19:59Z",
+  "last_updated_utc": "2026-11-26T19:15:11Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -736,7 +736,8 @@
         "ADVISORY_MATRIX",
         "MODULE_META",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "TRAVEL_CODEX_SNAPSHOT"
       ],
       "search_aliases": [
         "\ud83c\udf0d Travel_Tracker_Brick",
@@ -744,13 +745,14 @@
         "Travel Tracker"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-24T17:29:34Z",
+      "last_snapshot_utc": "2026-11-26T19:15:11Z",
       "all_tabs": [
         "Form Responses 2",
         "Form Responses 1",
         "DASHBOARD",
         "TIMELINE_VIEW",
         "REVIEWS_ARCHIVE",
+        "TRAVEL_CODEX_SNAPSHOT",
         "TRIPS_RAW",
         "REVIEWS_RAW",
         "GEO_REFERENCE",
@@ -763,7 +765,7 @@
         "BUCKET_LIST_MILESTONES",
         "LOOKER_TRAVEL"
       ],
-      "tab_count": 16,
+      "tab_count": 17,
       "linked_forms": [
         {
           "name": "Travel_Tracker_Form_A_Trips",
@@ -778,7 +780,18 @@
       "looker_tabs": [
         "LOOKER_TRAVEL"
       ],
-      "legacy_reviews_source_id": "1Se9co4g0r9y9hdPOW1nnUWIsu-JCYfZyxm6_pMAzWsE"
+      "legacy_reviews_source_id": "1Se9co4g0r9y9hdPOW1nnUWIsu-JCYfZyxm6_pMAzWsE",
+      "last_audited_utc": "2026-11-26T19:15:11Z",
+      "tab_color_coded": true,
+      "ingested_sources": [
+        {
+          "name": "RAW_DATA_101_Traveler",
+          "spreadsheet_id": "1vLsHH-FyaiRXuyw5iTp_fgZmJ1bli8Bm9Zh-ZmBp7Vc",
+          "form_id": "1MNDpbpymXFnT0XzVziJlicAMoeU4BjqfsfPpi_RGbzo",
+          "role": "Layer 1 Private Traveler Codex Silo (93 Prompts -> TRAVEL_CODEX_SNAPSHOT; zero PII/incident prose exported)",
+          "auth_anchor": "BUCKET_LIST_MILESTONES!P4"
+        }
+      ]
     },
     "ID_FEED_HUB": {
       "title": "LifeOS_feed_hub",
@@ -3246,6 +3259,27 @@
       "looker_tabs": [
         "LOOKER_CHARACTER_HUD"
       ]
+    },
+    "ID_RAW_101_TRAVELER": {
+      "title": "RAW_DATA_101_Traveler",
+      "spreadsheet_id": "1vLsHH-FyaiRXuyw5iTp_fgZmJ1bli8Bm9Zh-ZmBp7Vc",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1vLsHH-FyaiRXuyw5iTp_fgZmJ1bli8Bm9Zh-ZmBp7Vc/edit",
+      "status": "ACTIVE",
+      "layer": "raw_data_silo",
+      "domain": "Pillar 5 / Travel \u2014 101 Things to Ask a Traveler (Consolidated into Travel_Tracker_Brick)",
+      "parent_brick": "ID_TRAVEL",
+      "registered_in_hub": false,
+      "privacy_boundary": "STRICT_TRAVEL_BRICK_ONLY (Zero PII / Zero Incident Prose Exported)",
+      "live_tabs": [
+        "Form Responses 1"
+      ],
+      "linked_forms": [
+        {
+          "name": "101 Things to Ask a Traveler",
+          "form_id": "1MNDpbpymXFnT0XzVziJlicAMoeU4BjqfsfPpi_RGbzo"
+        }
+      ],
+      "last_audited_utc": "2026-11-26T19:15:11Z"
     }
   },
   "unmapped_discovered": [

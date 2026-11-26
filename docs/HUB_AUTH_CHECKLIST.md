@@ -1,7 +1,7 @@
 # LifeOS-v3 Hub & Brick `IMPORTRANGE` Browser Authorization Checklist
 
 > **Why this checklist exists**: Google Sheets requires a one-time interactive browser click (**"Allow access"** on a `#REF!` cell) for each new cross-spreadsheet `IMPORTRANGE` connection. APIs and scripts cannot grant this permission on your behalf.  
-> **Last Audited**: `2026-11-26` (**`RAW_DATA_RomanticRelationships`** & **`RAW_DATA_WeeklyRelationshipCheck`** consolidated into **`💞 Pillar_3_Relationships`** [`RELATIONSHIP_CHECKUP_LOG` Sections 1–5: Weekly Check-Up + 17-field Partner Trait Audit, `DASHBOARD!A33:G35`, unified anonymized `P3_CHECKUP_COUNT` LIVE in Hub, strict zero-PII/prose boundary, 12 color-coded tabs] + **`RAW_DATA_5Q_LifeAudit`** & **`RAW_DATA_LifeAudit`** → **`🌑 Pillar_0_Shadow_Self!LIFE_AUDIT_SNAPSHOT`** [12 tabs] + **`🎭 PQ_Saboteur_Brick`** [`ID_PQ`, 9 tabs, all 6 `PQ_*` signals LIVE] + **`LifeOS Career and Experience Intake`** [13 tabs] + **`Enneagram Assessment`** [11 tabs] + **`Body Count 2.0`** [15 tabs] — **248 signals, 40 registered modules, 23 flat zero-PII Looker tabs & 0 formula errors**!)
+> **Last Audited**: `2026-11-26` (**`RAW_DATA_101_Traveler`** consolidated into **`🌍 Travel_Tracker_Brick`** [`TRAVEL_CODEX_SNAPSHOT` 93 prompts / 3 cards, `DASHBOARD!B43:L45`, sanitized `TRAVEL_CODEX_COUNT` LIVE in Hub, strict zero-PII/zero-incident-prose boundary, 17 color-coded tabs] + **`RAW_DATA_RomanticRelationships`** & **`RAW_DATA_WeeklyRelationshipCheck`** → **`💞 Pillar_3_Relationships!RELATIONSHIP_CHECKUP_LOG`** [12 tabs] + **`RAW_DATA_5Q_LifeAudit`** & **`RAW_DATA_LifeAudit`** → **`🌑 Pillar_0_Shadow_Self!LIFE_AUDIT_SNAPSHOT`** [12 tabs] + **`🎭 PQ_Saboteur_Brick`** [`ID_PQ`, 9 tabs] + **`LifeOS Career and Experience Intake`** [13 tabs] + **`Enneagram Assessment`** [11 tabs] + **`Body Count 2.0`** [15 tabs] — **249 signals, 40 registered modules, 23 flat zero-PII Looker tabs & 0 formula errors**!)
 
 ---
 
@@ -26,7 +26,7 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | [x] | `MODULE_REGISTRY!J12` | **Big_Five_OCEAN** | `12FwlHUeNWISYyiIVrASTDK6TlihFkfhVovIa4J2cObA` | **LIVE**: All 7 `OCEAN_*` signals |
 | [x] | `MODULE_REGISTRY!J13` | **MBTI_Cognitive_Stack** | `1uiQX7oyPcMAqovTBUkJBtbq7NSjWv45Lf0GQZza3TEw` | **LIVE**: `MBTI_TYPE_CODE`, `MBTI_COHERENCE_INDEX`, `MBTI_SHADOW_RISK` |
 | [x] | `MODULE_REGISTRY!J14` | **Enneagram_Tritype_Engine** | `1nnu0Hw67g2OoAZiu0xmOALu3eFCgkKNL2M7gkv6-K3w` | **LIVE (`'📤 SIGNALS_OUT'!A1`)**: All **8** `ENN_*` signals (`ENN_CORE_SIGNATURE`, `ENN_INTEGRATION_INDEX`=`76`, `ENN_DISINTEGRATION_RISK`=`60`, `ENN_PRIMARY_TYPE`=`Type 7 (7w6)`, `ENN_TRITYPE`=`794`, `ENN_INSTINCT_STACK`=`SX/SO/SP`, `ENN_GROWTH_ARROW_SCORE`=`76`, `ENN_STRESS_ARROW_LOAD`=`60`) |
-| [x] | `MODULE_REGISTRY!J15` | **Travel_Tracker_Brick** | `11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc` | **LIVE (`FRESH`)**: All 12 `TRAVEL_*` & `BUCKET_LIST_*` signals (incl. `TRAVEL_REVIEWS_COUNT = 209`, `TRAVEL_AVG_RATING = 4.94`, `TRAVEL_REVIEWS_PENDING_LINKS = 209`) |
+| [x] | `MODULE_REGISTRY!J15` | **Travel_Tracker_Brick** | `11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc` | **LIVE (`FRESH`)**: All 13 `TRAVEL_*` & `BUCKET_LIST_*` signals (incl. `TRAVEL_REVIEWS_COUNT = 209`, `TRAVEL_AVG_RATING = 4.94`, `TRAVEL_REVIEWS_PENDING_LINKS = 209`, **`TRAVEL_CODEX_COUNT`** — zero PII/incident prose) |
 | [x] | `MODULE_REGISTRY!J16` | **Maslow_Hierarchy_Spoke** | `1M-F-p5IqYc0JMtJ-20bOGUvQgP1-63Ta3hryES_jHqg` | **LIVE (`FRESH`)**: All 5 `MASLOW_*` signals |
 | [x] | `MODULE_REGISTRY!J17` | **🎭 PQ_Saboteur_Brick** | `1NhqPJDFOp91qOp5Y9hPe0rIuqECKU_b08cZYXZAqxeE` | **LIVE (`FRESH`, `SIGNALS_OUT!A1`)**: All **6** `PQ_*` signals (`PQ_PRIMARY_SABOTEUR`=`Avoider`, `PQ_PRIMARY_SCORE`=`8.8`, `PQ_PRESCRIBED_SAGE`=`Activate`, `PQ_JUDGE_SELF_SCORE`=`10.0`, `PQ_COPING_AVOID_SCORE`=`7.3`, `PQ_TOTAL_RUNS`=`1`) -> Hub, Pillar 0, XP Leveler & Character HUD |
 | [x] | `MODULE_REGISTRY!J18` | **Grit_Assessment** | `1kCwx6wtYksmt92M3Izwe6oEIVS5uDv3kCLIzCBOJG-s` | **LIVE (`FRESH`)**: All 4 `GRIT_*` signals |
@@ -56,13 +56,14 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 
 ---
 
-## 1F. Consolidated Bucket List Silos (Zero Standalone Brick Sprawl)
+## 1F. Consolidated Travel & Bucket List Silos (Zero Standalone Brick Sprawl)
 
-Approve these 2 one-time `#REF!` cells to stream both Layer 1 Bucket List silos directly into `🌍 Travel_Tracker_Brick` and `🏆 Pillar_5_Experience_Legacy`:
+Approve these one-time `#REF!` cells to stream Layer 1 Travel & Bucket List silos directly into `🌍 Travel_Tracker_Brick` and `🏆 Pillar_5_Experience_Legacy`:
 
 | Done | Workbook & Cell | Direct Tab Link (Click cell -> Allow access) | Target Layer 1 Silo | Unlocks |
 | :---: | :--- | :--- | :--- | :--- |
 | [ ] | **`🌍 Travel_Tracker_Brick` → `BUCKET_LIST_MILESTONES!P2`** | https://docs.google.com/spreadsheets/d/11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc/edit#gid=130175684 | **RAW_DATA_TravelBucketList** (`1bEnJp4tj1qCasykqDOCxg9yvlH3Gf5pl9i1bcigHpUs`) | Deduplicated 6-column travel completions (`FLATTEN`/`UNIQUE`/`FILTER`), 7-by-40 XP, `DASHBOARD`, `SIGNALS_OUT` (`BUCKET_LIST_*` — already authorized in Hub!), and `LOOKER_TRAVEL` |
+| [ ] | **`🌍 Travel_Tracker_Brick` → `BUCKET_LIST_MILESTONES!P4`** | https://docs.google.com/spreadsheets/d/11BgMqFD8djTpkqSLx9gf2YB1Tam_JZIg-CjZ_wvvKhc/edit#gid=130175684 | **RAW_DATA_101_Traveler** (`1vLsHH-FyaiRXuyw5iTp_fgZmJ1bli8Bm9Zh-ZmBp7Vc`) | Live 93-prompt `101 Things to Ask a Traveler` (`2023-02-15` baseline + future runs) streaming privately into `IMPORTS!J1:CY500`, `TRAVEL_CODEX_SNAPSHOT` (3 executive cards), `DASHBOARD!B43:L45`, and sanitized `TRAVEL_CODEX_COUNT` (`SIGNAL_BUS!R250`, zero PII / zero incident prose exported) |
 | [ ] | **`🏆 Pillar_5_Experience_Legacy` → `P5_CONFIG!I8`** | https://docs.google.com/spreadsheets/d/1AdMP-VKzTPNbSSTUoLrbqAjtBdYlf4mzLYwyWbaUrQw/edit#gid=408873780 | **RAW_DATA_BucketListAudit** (`1PyIMHlM5edRahBQH1py5B-zU2dQlev2PsUkkEKVd-mQ`) | Live `CLEAN_BUCKET_LIST_AUDIT`, `P5_BUCKET_LIST_CLARITY_SCORE`, `P5_BUCKET_LIST_LONGSHOT_PCT`, and `P5_BUCKET_LIST_WAITING_FLAG` -> Pillar 0 Shadow alert |
 
 ---
@@ -222,7 +223,7 @@ The `#REF!` `A2` spill collisions on `SRC_XP_HUB`, `SRC_KABBALAH`, and `SRC_16PF
 ## 4. Post-Approval Verification
 
 Once you finish clicking **"Allow access"** above:
-1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **248** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
+1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **249** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
 2. Open **`LifeOS_feed_hub` -> `AQAL_VIEW`** (`#gid=168404271`): confirm all 4 Quadrants (`UL`, `UR`, `LL`, `LR`) show live composite scores, `SPARKLINE` gauges, `Quadrant Balance Score`, `Achievements AQAL Overlay`, and a live `Corrective Quest Directive`.
 3. Open any Brick's **`CONTEXT_IN`** tab from Section 2: confirm `F3:F5` switches from `"Click F2 -> Allow access"` to `"AUTHORIZED"` and Columns `B:E` stream live Hub context.
 4. Open **`XP Leveler` -> `PILLAR_XP_ABSORPTION`** (`#gid=1096501556`): verify all **10** Pillar & Brick XP streams (`P0`–`P6`, `Travel_Tracker`, `Achievements_Engine_Brick`, `Daily_Intake_Brick`) flow into `Live_Raw_Pillar_XP` and feed the Unified Main XP Bar on `Player_HUD` with zero double-counting.
