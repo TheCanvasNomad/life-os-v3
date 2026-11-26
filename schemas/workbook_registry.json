@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-26T17:14:41Z",
+  "last_updated_utc": "2026-11-26T17:19:59Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2257,7 +2257,7 @@
         "IMPORTS"
       ],
       "tab_count": 12,
-      "last_snapshot_utc": "2026-11-26T17:14:41Z",
+      "last_snapshot_utc": "2026-11-26T17:19:59Z",
       "snapshot_file": "schemas/live_snapshots/ID_PILLAR_3.json",
       "looker_tabs": [
         "LOOKER_RELATIONSHIP_AGGREGATES"
@@ -2332,9 +2332,17 @@
           "drive_url": "https://docs.google.com/spreadsheets/d/1jMWrerLnpcbv3QSrkHLdW8x83irEgCecdHrJopQyvQE/edit",
           "layer": "Layer 1 Raw Silo (Consolidated into RELATIONSHIP_CHECKUP_LOG \u2014 Not Standalone; Zero-PII Export)",
           "auth_anchor": "P3_CONFIG!I10"
+        },
+        {
+          "name": "RAW_DATA_RomanticRelationships",
+          "spreadsheet_id": "136a21zAd6FInQSeyB507ze5scrZX-paurXNWm-0aMMU",
+          "form_id": "15FV6LmGRW4zdr0RHpRN1O8Ww_AD9xWXkX_GO1dZaAqE",
+          "drive_url": "https://docs.google.com/spreadsheets/d/136a21zAd6FInQSeyB507ze5scrZX-paurXNWm-0aMMU/edit",
+          "layer": "Layer 1 Raw Silo (Consolidated into RELATIONSHIP_CHECKUP_LOG Sec 5 \u2014 Not Standalone; Zero-PII Export)",
+          "auth_anchor": "P3_CONFIG!I11"
         }
       ],
-      "last_audited_utc": "2026-11-26T17:14:41Z"
+      "last_audited_utc": "2026-11-26T17:19:59Z"
     },
     "ID_RAW_INTAKE": {
       "title": "RAW_DATA_Intake",
