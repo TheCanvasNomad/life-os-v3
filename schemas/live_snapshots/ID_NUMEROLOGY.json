@@ -2,7 +2,7 @@
   "workbook_key": "ID_NUMEROLOGY",
   "spreadsheet_id": "1wpZFBrMwMyOvIfp2K9TQ8UrhOCmlRcE8m4BwgrpiN_8",
   "title": "\ud83d\udd22 Numerology_OS_Brick",
-  "captured_utc": "2026-11-27T03:19:08Z",
+  "captured_utc": "2026-11-27T03:25:00Z",
   "privacy_boundary": "STRICT_ZERO_PII_ZERO_SCRATCH (Baseline name tokens & scratch gematria strings encapsulated strictly inside CHALDEAN_GEMATRIA_REF; never exported)",
   "tab_count": 8,
   "tabs": [
@@ -39,7 +39,7 @@
       ],
       [
         "",
-        "Status: LIVE  \u2022  LP 17/8 Master Architect  \u2022  Exp 16/7 Seeker  \u2022  SU 9 Sage  \u2022  Bday 24/6 Venus  \u2022  Chaldean 73/1 Monad  \u2022  Hub Context: AWAITING HUB AUTH"
+        "Status: LIVE  \u2022  LP 17/8 Master Architect  \u2022  Exp 16/7 Seeker  \u2022  SU 9 Sage  \u2022  Bday 24/6 Venus  \u2022  Chaldean 73/1 Monad  \u2022  Hub Context: AWAITING AUTH"
       ],
       [],
       [
@@ -66,7 +66,7 @@
         "LP 17/8  |  Monad 73/1",
         "Baseline",
         "1",
-        "AWAITING HUB AUTH (CLICK CONTEXT_IN!F2)"
+        "AWAITING AUTH (CLICK CONTEXT_IN!F2)"
       ],
       [
         "",
@@ -101,7 +101,7 @@
         "8",
         "88.9",
         "LP_17_8_MASTER_ARCHITECT",
-        "11/27/2026 3:19:05",
+        "11/27/2026 3:24:56",
         "2160",
         "Immutable Life Path 17/8 core vibration"
       ],
@@ -113,7 +113,7 @@
         "7",
         "77.8",
         "EXP_16_7_SEEKER",
-        "11/27/2026 3:19:05",
+        "11/27/2026 3:24:56",
         "2160",
         "Immutable Expression / Destiny 16/7 inquiry core"
       ],
@@ -125,7 +125,7 @@
         "9",
         "100",
         "SU_9_SAGE_SERVANT",
-        "11/27/2026 3:19:05",
+        "11/27/2026 3:24:56",
         "2160",
         "Immutable Soul Urge / Heart's Desire 9 vibration"
       ],
@@ -137,7 +137,7 @@
         "2",
         "77.8",
         "BRIDGE_2_DIPLOMACY",
-        "11/27/2026 3:19:05",
+        "11/27/2026 3:24:56",
         "2160",
         "Heart's Desire (9) minus Personality (7) = Bridge 2"
       ],
@@ -149,7 +149,7 @@
         "1",
         "100",
         "CHALDEAN_73_1_PIONEER",
-        "11/27/2026 3:19:05",
+        "11/27/2026 3:24:56",
         "2160",
         "Chaldean full nomenclature vibration 73 -> 10 -> 1 (Zero PII)"
       ],
@@ -161,7 +161,7 @@
         "78.6",
         "78.6",
         "HIGH_ALIGNMENT",
-        "11/27/2026 3:19:05",
+        "11/27/2026 3:24:56",
         "168",
         "Latest periodic 7-axis composite alignment score (0-100)"
       ],
@@ -173,7 +173,7 @@
         "1.107",
         "82.8",
         "HARMONY_BUFF",
-        "11/27/2026 3:19:05",
+        "11/27/2026 3:24:56",
         "168",
         "Bounded 0.90x-1.15x XP Harmony Modifier consumed by XP Leveler"
       ],
@@ -185,7 +185,7 @@
         "Integrated",
         "100",
         "INTEGRATED",
-        "11/27/2026 3:19:05",
+        "11/27/2026 3:24:56",
         "168",
         "The Construct state (Integrated / Balanced / Friction Spike)"
       ]
@@ -211,7 +211,7 @@
         "80",
         "1.107",
         "LOCKED_ARCHETYPE",
-        "2026-11-27 03:19"
+        "2026-11-27 03:24"
       ],
       [
         "CORE_ARCHETYPE_7",
@@ -222,7 +222,7 @@
         "90",
         "1.107",
         "LOCKED_ARCHETYPE",
-        "2026-11-27 03:19"
+        "2026-11-27 03:24"
       ],
       [
         "CORE_ARCHETYPE_7",
@@ -233,7 +233,7 @@
         "70",
         "1.107",
         "LOCKED_ARCHETYPE",
-        "2026-11-27 03:19"
+        "2026-11-27 03:24"
       ],
       [
         "CORE_ARCHETYPE_7",
@@ -244,7 +244,7 @@
         "80",
         "1.107",
         "LOCKED_ARCHETYPE",
-        "2026-11-27 03:19"
+        "2026-11-27 03:24"
       ],
       [
         "CORE_ARCHETYPE_7",
@@ -255,7 +255,7 @@
         "60",
         "1.107",
         "LOCKED_ARCHETYPE",
-        "2026-11-27 03:19"
+        "2026-11-27 03:24"
       ],
       [
         "CORE_ARCHETYPE_7",
@@ -266,7 +266,7 @@
         "80",
         "1.107",
         "LOCKED_ARCHETYPE",
-        "2026-11-27 03:19"
+        "2026-11-27 03:24"
       ],
       [
         "CORE_ARCHETYPE_7",
@@ -277,7 +277,7 @@
         "90",
         "1.107",
         "LOCKED_ARCHETYPE",
-        "2026-11-27 03:19"
+        "2026-11-27 03:24"
       ],
       [
         "CONSTRUCT_LAYER",
@@ -288,7 +288,7 @@
         "78.6",
         "1.107",
         "INTEGRATED",
-        "2026-11-27 03:19"
+        "2026-11-27 03:24"
       ]
     ],
     "MODULE_META": [
@@ -354,7 +354,7 @@
       ],
       [
         "Last_Synced",
-        "2026-11-27 03:16 UTC",
+        "2026-11-27 03:25 UTC",
         "Dynamic live formula sync timestamp"
       ]
     ]
