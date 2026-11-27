@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-27T03:51:00Z",
+  "last_updated_utc": "2026-11-27T08:04:00Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -3725,6 +3725,73 @@
       "looker_tab": "LOOKER_TEMPERAMENTS",
       "tab_count": 7,
       "privacy_boundary": "STRICT_ZERO_PII"
+    },
+    "ID_MOC_BEHAVIOR": {
+      "title": "\ud83e\udde0 Consciousness_Behavior_Brick",
+      "spreadsheet_id": "1jqvc8lbbOnHZ786F4dFbPO2193DEj0g5yCeyyUORexs",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1jqvc8lbbOnHZ786F4dFbPO2193DEj0g5yCeyyUORexs/edit",
+      "status": "ACTIVE",
+      "layer": "brick",
+      "domain": "Pillar 0 Shadow & Pillar 6 Consciousness / Map of Consciousness Behavioral Check-In",
+      "primary_tab": "\ud83e\udde0 MOC_BEHAVIOR_HUD",
+      "landing_tab": "\ud83e\udde0 MOC_BEHAVIOR_HUD",
+      "looker_tab": "LOOKER_MOC_BEHAVIOR",
+      "live_tabs": [
+        "\ud83e\udde0 MOC_BEHAVIOR_HUD",
+        "BEHAVIORAL_SCORES_&_CONTEXT",
+        "SCORING_RUBRIC_&_TAXONOMY",
+        "LOOKER_MOC_BEHAVIOR",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "all_tabs": [
+        "\ud83e\udde0 MOC_BEHAVIOR_HUD",
+        "BEHAVIORAL_SCORES_&_CONTEXT",
+        "SCORING_RUBRIC_&_TAXONOMY",
+        "LOOKER_MOC_BEHAVIOR",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT",
+        "Form_Responses_1"
+      ],
+      "tab_count": 8,
+      "search_aliases": [
+        "\ud83e\udde0 Consciousness_Behavior_Brick",
+        "Consciousness_Behavior_Brick",
+        "Map of Consciousness Behavioral Check-In (24 Items) (Responses)",
+        "ID_MOC_BEHAVIOR"
+      ],
+      "linked_forms": [
+        {
+          "name": "Map of Consciousness Behavioral Check-In (24 Items)",
+          "form_id": "1isDAiE4Ruyn8naO15MK0L1RqWig0Gg7zXZCybeSx_uc"
+        }
+      ],
+      "signals_published": [
+        "MOC_COMPOSITE_RANK",
+        "MOC_ARCHETYPE",
+        "MOC_SHADOW_COUNT",
+        "MOC_WEAKEST_DOMAIN"
+      ],
+      "context_subscribed": [
+        "DAILY_ENERGY",
+        "ACUTE_STRESS",
+        "ACTIVE_OPERATIONAL_PHASE"
+      ],
+      "context_in_gid": 1783779387,
+      "hub_module_registry_row": 45,
+      "hub_signal_bus_rows": {
+        "MOC_COMPOSITE_RANK": 303,
+        "MOC_ARCHETYPE": 304,
+        "MOC_SHADOW_COUNT": 305,
+        "MOC_WEAKEST_DOMAIN": 306
+      },
+      "master_bus_directory_row": 70,
+      "tab_color_coded": true,
+      "universal_brick_compliant": true,
+      "privacy_boundary": "STRICT_ZERO_PII",
+      "last_audited_utc": "2026-11-27T08:04:00Z"
     }
   },
   "unmapped_discovered": [

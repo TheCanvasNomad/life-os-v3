@@ -1,0 +1,272 @@
+{
+  "workbook_key": "ID_MOC_BEHAVIOR",
+  "spreadsheet_id": "1jqvc8lbbOnHZ786F4dFbPO2193DEj0g5yCeyyUORexs",
+  "linked_form_id": "1isDAiE4Ruyn8naO15MK0L1RqWig0Gg7zXZCybeSx_uc",
+  "title": "\ud83e\udde0 Consciousness_Behavior_Brick",
+  "captured_utc": "2026-11-27T08:04:00Z",
+  "privacy_boundary": "STRICT_ZERO_PII",
+  "tab_count": 8,
+  "tabs": [
+    "\ud83e\udde0 MOC_BEHAVIOR_HUD",
+    "BEHAVIORAL_SCORES_&_CONTEXT",
+    "SCORING_RUBRIC_&_TAXONOMY",
+    "LOOKER_MOC_BEHAVIOR",
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT",
+    "Form_Responses_1"
+  ],
+  "tab_gids": {
+    "\ud83e\udde0 MOC_BEHAVIOR_HUD": 993530618,
+    "BEHAVIORAL_SCORES_&_CONTEXT": 768115734,
+    "SCORING_RUBRIC_&_TAXONOMY": 898288619,
+    "LOOKER_MOC_BEHAVIOR": 1877263647,
+    "MODULE_META": 108716917,
+    "CONTEXT_IN": 1783779387,
+    "SIGNALS_OUT": 2004489800,
+    "Form_Responses_1": 618144161
+  },
+  "looker_tab": "LOOKER_MOC_BEHAVIOR",
+  "hub_module_registry_row": 45,
+  "hub_signal_bus_rows": {
+    "MOC_COMPOSITE_RANK": 303,
+    "MOC_ARCHETYPE": 304,
+    "MOC_SHADOW_COUNT": 305,
+    "MOC_WEAKEST_DOMAIN": 306
+  },
+  "master_bus_directory_row": 70,
+  "audit_errors_all_tabs": 0,
+  "expected_auth_trigger": [
+    [
+      "CONTEXT_IN",
+      "E2",
+      "#REF!"
+    ]
+  ],
+  "signals_out": [
+    [
+      "Signal_Key",
+      "Raw_Summary",
+      "Normalized_Score_0_100",
+      "State_Tag",
+      "Last_Updated"
+    ],
+    [
+      "MOC_COMPOSITE_RANK",
+      "3.04 / 6.00 (Primary: B3)",
+      "40.8",
+      "PRAGMATIC_STABILIZER",
+      "2026-11-27 02:39"
+    ],
+    [
+      "MOC_ARCHETYPE",
+      "Threshold / Pragmatic Stabilizer",
+      "40.8",
+      "B3_DOMINANT",
+      "2026-11-27 02:39"
+    ],
+    [
+      "MOC_SHADOW_COUNT",
+      "9 / 24 B1+B2 Items",
+      "62.5",
+      "MODERATE_SHADOW_LOAD",
+      "2026-11-27 02:39"
+    ],
+    [
+      "MOC_WEAKEST_DOMAIN",
+      "Resources & Security (2.50 / 6.00)",
+      "30.0",
+      "RESOURCES_SECURITY_PRIORITY",
+      "2026-11-27 02:39"
+    ]
+  ],
+  "looker_moc_behavior_rows": [
+    [
+      "Record_Type",
+      "Metric_Key",
+      "Label",
+      "Value_Numeric",
+      "Value_Text",
+      "Scale_Max",
+      "Pct_Share",
+      "Status_Tag",
+      "Last_Updated"
+    ],
+    [
+      "SUMMARY_KPI",
+      "MOC_COMPOSITE_RANK",
+      "Composite Mean Rank (24 Items)",
+      "3.04",
+      "Threshold / Pragmatic Stabilizer",
+      "6",
+      "40.8",
+      "PRAGMATIC_STABILIZER",
+      "2026-11-27 02:39"
+    ],
+    [
+      "SUMMARY_KPI",
+      "MOC_PART_A_MEAN",
+      "Part A Baseline Reflex Mean (Q1\u2013Q8)",
+      "2.75",
+      "Part A Linear 1\u20135",
+      "6",
+      "35",
+      "PART_A_BASELINE",
+      "2026-11-27 02:39"
+    ],
+    [
+      "SUMMARY_KPI",
+      "MOC_PART_B_MEAN",
+      "Part B Situational Mean (Q9\u2013Q24)",
+      "3.19",
+      "Part B Scenarios",
+      "6",
+      "43.8",
+      "PART_B_SCENARIO",
+      "2026-11-27 02:39"
+    ],
+    [
+      "SUMMARY_KPI",
+      "MOC_PART_A_VS_B_DELTA",
+      "Part B minus Part A Delta",
+      "0.44",
+      "PART_B_HIGHER",
+      "5",
+      "",
+      "GAP_DIAGNOSTIC",
+      "2026-11-27 02:39"
+    ],
+    [
+      "SUMMARY_KPI",
+      "MOC_SHADOW_COUNT",
+      "B1+B2 Shadow Item Count (/24)",
+      "9",
+      "9 / 24 B1+B2 Items",
+      "24",
+      "37.5",
+      "MODERATE_SHADOW_LOAD",
+      "2026-11-27 02:39"
+    ],
+    [
+      "DOMAIN_SCORE_4",
+      "DOM_EGO_STATUS",
+      "Ego & Status",
+      "3.50",
+      "ACTIVE_DOMAIN",
+      "6",
+      "50",
+      "CALIBRATED",
+      "2026-11-27 02:39"
+    ],
+    [
+      "DOMAIN_SCORE_4",
+      "DOM_RESOURCES_SECURITY",
+      "Resources & Security",
+      "2.50",
+      "WEAKEST_DOMAIN",
+      "6",
+      "30",
+      "PRIORITY_WEAKEST",
+      "2026-11-27 02:39"
+    ],
+    [
+      "DOMAIN_SCORE_4",
+      "DOM_CONTROL_AMBIGUITY",
+      "Control & Ambiguity",
+      "3.50",
+      "ACTIVE_DOMAIN",
+      "6",
+      "50",
+      "CALIBRATED",
+      "2026-11-27 02:39"
+    ],
+    [
+      "DOMAIN_SCORE_4",
+      "DOM_INTERPERSONAL_SYSTEMIC",
+      "Interpersonal & Systemic Friction",
+      "3.25",
+      "ACTIVE_DOMAIN",
+      "6",
+      "45",
+      "CALIBRATED",
+      "2026-11-27 02:39"
+    ],
+    [
+      "BAND_COUNT_6",
+      "BAND_B1",
+      "Contraction / Collapse",
+      "5",
+      "B1",
+      "24",
+      "20.8",
+      "SHADOW_BAND",
+      "2026-11-27 02:39"
+    ],
+    [
+      "BAND_COUNT_6",
+      "BAND_B2",
+      "Force / Reactive Pushback",
+      "4",
+      "B2",
+      "24",
+      "16.7",
+      "SHADOW_BAND",
+      "2026-11-27 02:39"
+    ],
+    [
+      "BAND_COUNT_6",
+      "BAND_B3",
+      "Threshold / Pragmatic Agency",
+      "7",
+      "B3",
+      "24",
+      "29.2",
+      "PRIMARY_BAND",
+      "2026-11-27 02:39"
+    ],
+    [
+      "BAND_COUNT_6",
+      "BAND_B4",
+      "Integration / Systemic Reason",
+      "4",
+      "B4",
+      "24",
+      "16.7",
+      "CONSTRUCTIVE_BAND",
+      "2026-11-27 02:39"
+    ],
+    [
+      "BAND_COUNT_6",
+      "BAND_B5",
+      "Harmonic / Goodwill & Flow",
+      "1",
+      "B5",
+      "24",
+      "4.2",
+      "CONSTRUCTIVE_BAND",
+      "2026-11-27 02:39"
+    ],
+    [
+      "BAND_COUNT_6",
+      "BAND_B6",
+      "Non-Reactive Equanimity",
+      "3",
+      "B6",
+      "24",
+      "12.5",
+      "CONSTRUCTIVE_BAND",
+      "2026-11-27 02:39"
+    ],
+    [
+      "RUN_HISTORY",
+      "RUN_01",
+      "Threshold / Pragmatic Stabilizer",
+      "3.04",
+      "B3 | Shadow: 9/24",
+      "6",
+      "40.8",
+      "Resources & Security",
+      "2026-11-27 02:39"
+    ]
+  ]
+}
