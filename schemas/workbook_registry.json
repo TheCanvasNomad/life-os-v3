@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-27T03:25:00Z",
+  "last_updated_utc": "2026-11-27T03:35:12Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -3564,7 +3564,7 @@
       ],
       "primary_tab": "\ud83d\udd22 NUMEROLOGY_HUD",
       "looker_tab": "LOOKER_NUMEROLOGY",
-      "last_audited_utc": "2026-11-27T03:25:00Z"
+      "last_audited_utc": "2026-11-27T03:35:12Z"
     }
   },
   "unmapped_discovered": [
