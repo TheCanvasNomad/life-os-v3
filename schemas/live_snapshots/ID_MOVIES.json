@@ -1,1040 +1,648 @@
 {
-  "registry_key": "ID_MOVIES",
-  "title": "Movie Input Form (Responses)",
+  "workbook_key": "ID_MOVIES",
+  "alias_key": "ID_CINEMA",
   "spreadsheet_id": "1SIRiqfY1r62g8_XOkwe37d4KnZAr_-DBUx-r-wczkMY",
-  "url": "https://docs.google.com/spreadsheets/d/1SIRiqfY1r62g8_XOkwe37d4KnZAr_-DBUx-r-wczkMY/edit",
-  "time_zone": "America/Detroit",
-  "snapshot_utc": "2026-11-23T16:17:07Z",
-  "tab_count": 40,
+  "title": "\ud83c\udfac Cinema_Intelligence_Brick",
+  "captured_utc": "2026-11-27 00:32 UTC",
+  "privacy_boundary": "STRICT_ZERO_PII_ZERO_PROSE",
+  "tab_count": 13,
   "tabs": [
-    {
-      "title": "Form Responses 5",
-      "sheet_id": 657774349,
-      "index": null,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1039,
-      "col_count": 28,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
+    "\ud83c\udfac CINEMA_HUD",
+    "MOVIE_METADATA_&_LEDGER",
+    "RANKINGS_&_LEADERBOARDS",
+    "CAST_CREW_&_GENRE_ENGINE",
+    "LOOKER_CINEMA",
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT",
+    "Form Responses 1",
+    "Form Responses 2",
+    "Form Responses 3",
+    "Form Responses 4",
+    "Form Responses 5"
+  ],
+  "deleted_legacy_tabs_count": 30,
+  "deleted_legacy_tabs": [
+    "Genre Review",
+    "Initial Reviews",
+    "Subject",
+    "ReRanks",
+    "Actors Review",
+    "Directors Review",
+    "Full Database",
+    "Actors",
+    "Total Actor List",
+    "Total Genres List",
+    "Genres",
+    "Frequency_Analytics_Actors",
+    "Actor_Intelligence",
+    "Genre_Intelligence",
+    "Director_Intelligence",
+    "Frequency_Analytics_Directors",
+    "Total_Directors_List",
+    "Directors",
+    "Frequency_Analytics_Genres",
+    "True_Ratings",
+    "Consolidated Master",
+    "Master_Leaderboard",
+    "Top_10_Actors_Rankings",
+    "Top_10_Genres_Rankings",
+    "Top_100_Rankings",
+    "Movie Preference Calculations",
+    "CALC_Actor_Power",
+    "CALC_Director_Power",
+    "CALC_Genre_Power",
+    "Preference_Analytics"
+  ],
+  "audit_errors_all_13_tabs": 0,
+  "samples": {
+    "\ud83c\udfac CINEMA_HUD": [
+      [
+        "\ud83c\udfac LIFE OS v3.0 \u2014 CINEMA INTELLIGENCE ENGINE HUD (40 -> 13 TABS // ZERO-PII)"
+      ],
+      [
+        "Status: LIVE  \u2022  42 Tracked Titles  \u2022  44 Reviews & Re-Ranks  \u2022  Mean Rating: 9.36/10  \u2022  Top Film: THE DARK KNIGHT  \u2022  Hub Context: AUTHORIZED"
+      ],
+      [],
+      [
+        "TRACKED TITLES",
+        "REVIEWS & RE-RANKS",
+        "MEAN RATING",
+        "TOP RANKED MOVIE",
+        "",
+        "TOP GENRE",
+        "TOP DIRECTOR",
+        "TOP ACTOR",
+        "OPENNESS (HUB)",
+        "HUB CONTEXT",
+        "LEADERBOARDS",
+        "ENGINE"
+      ],
+      [
+        "42",
+        "44",
+        "9.36",
+        "THE DARK KNIGHT",
+        "",
+        "SCIENCE FICTION (9.7)",
+        "Christopher Nolan (8.4)",
+        "DENZEL WASHINGTON (8.2)",
+        "95.4%",
+        "AUTHORIZED",
+        "Rankings \u2197",
+        "Cast/Genre \u2197"
+      ],
+      [],
+      [
+        "\ud83c\udfc6 1. TOP 10 RANKED MOVIES (BY TOTAL INTANGIBLE POWER & PERSONAL HYBRID \u2014 =SPARKLINE GAUGES)"
+      ],
+      [
+        "Rank",
+        "Movie Title",
+        "",
+        "Overall",
+        "Tech Avg",
+        "Hybrid",
+        "RT Score",
+        "Intangible",
+        "Active Rank",
+        "Visual Gauge (=SPARKLINE)",
+        "",
+        "Tier"
+      ],
+      [
+        "1",
+        "THE DARK KNIGHT",
+        "",
+        "10.0",
+        "10.0",
+        "10.0",
+        "9.4",
+        "6.7",
+        "5.8",
+        "",
+        "",
+        "S_TIER"
+      ],
+      [
+        "2",
+        "THE LORD OF THE RINGS: RETURN OF THE KING",
+        "",
+        "10.0",
+        "10.0",
+        "10.0",
+        "9.3",
+        "6.7",
+        "5.0",
+        "",
+        "",
+        "S_TIER"
+      ],
+      [
+        "3",
+        "SPIDER-MAN: INTO THE SPIDER-VERSE",
+        "",
+        "10.0",
+        "9.6",
+        "9.8",
+        "9.7",
+        "6.7",
+        "4.7",
+        "",
+        "",
+        "S_TIER"
+      ],
+      [
+        "4",
+        "THE LORD OF THE RINGS: THE TWO TOWERS",
+        "",
+        "10.0",
+        "9.4",
+        "9.7",
+        "9.5",
+        "6.7",
+        "5.0",
+        "",
+        "",
+        "S_TIER"
+      ],
+      [
+        "5",
+        "SPIDER-MAN: ACROSS THE SPIDER-VERSE",
+        "",
+        "10.0",
+        "9.6",
+        "9.8",
+        "9.6",
+        "6.7",
+        "4.7",
+        "",
+        "",
+        "S_TIER"
+      ],
+      [
+        "6",
+        "AVENGERS: ENDGAME",
+        "",
+        "10.0",
+        "9.4",
+        "9.7",
+        "9.4",
+        "6.7",
+        "5.7",
+        "",
+        "",
+        "S_TIER"
+      ],
+      [
+        "7",
+        "CAPTAIN AMERICA: WINTER SOLDIER",
+        "",
+        "10.0",
+        "9.8",
+        "9.9",
+        "9.0",
+        "6.6",
+        "5.7",
+        "",
+        "",
+        "S_TIER"
+      ],
+      [
+        "8",
+        "SPIDER-MAN 2",
+        "",
+        "10.0",
+        "9.2",
+        "9.6",
+        "9.3",
+        "6.6",
+        "4.8",
+        "",
+        "",
+        "S_TIER"
+      ],
+      [
+        "9",
+        "CAPTAIN AMERICA: CIVIL WAR",
+        "",
+        "10.0",
+        "9.6",
+        "9.8",
+        "9.0",
+        "6.6",
+        "5.7",
+        "",
+        "",
+        "S_TIER"
+      ],
+      [
+        "10",
+        "SPIDER-MAN: NO WAY HOME",
+        "",
+        "10.0",
+        "9.0",
+        "9.5",
+        "9.3",
+        "6.6",
+        "4.9",
+        "",
+        "",
+        "S_TIER"
+      ],
+      [],
+      [
+        "\ud83c\udfad 2. TOP 8 GENRES (INTELLIGENCE SCORE + SPARKLINE)",
+        "",
+        "",
+        "",
+        "\ud83c\udf1f 3. TOP 8 ACTORS (INTELLIGENCE)",
+        "",
+        "",
+        "",
+        "\ud83c\udfa5 4. TOP 5 DIRECTORS & PREFERENCE WEIGHTS"
+      ],
+      [
         "Genre",
-        "What's your rating of this Genre?"
-      ],
-      "row_1": [
-        "Timestamp",
-        "Genre",
-        "What's your rating of this Genre?"
-      ]
-    },
-    {
-      "title": "Genre Review",
-      "sheet_id": 1707822486,
-      "index": 1,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Genre",
-        "What's your rating of this Genre?"
-      ],
-      "row_1": [
-        "Timestamp",
-        "Genre",
-        "What's your rating of this Genre?"
-      ]
-    },
-    {
-      "title": "Form Responses 4",
-      "sheet_id": 1891828486,
-      "index": 2,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1004,
-      "col_count": 31,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Director",
-        "What is this Directors Rating?",
-        "Which of the following genres do you feel best represent this director's body of work? (Select all that apply)",
-        "On a scale of 1 to 5, how consistent is the quality of this director's films?",
-        "Final Thoughts"
-      ],
-      "row_1": [
-        "Timestamp",
-        "Director",
-        "What is this Directors Rating?",
-        "Which of the following genres do you feel best represent this director's body of work? (Select all that apply)",
-        "On a scale of 1 to 5, how consistent is the quality of this director's films?",
-        "Final Thoughts"
-      ]
-    },
-    {
-      "title": "Form Responses 3",
-      "sheet_id": 1490925672,
-      "index": 3,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1008,
-      "col_count": 35,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
+        "Score",
+        "Gauge (=SPARKLINE)",
+        "Stars",
         "Actor",
-        "What's this Actors Rating?",
-        "Which genres is this actor best known for?",
-        "On a scale of 1-10, how would you rate this actor's versatility across different roles?",
-        "What are the actor's notable strengths (e.g., emotional depth, comedic timing, physical performance)?",
-        "Final Thoughts?",
-        "How would you rate the actor's performance quality across their career? [Early Career (First 5 years)]",
-        "How would you rate the actor's performance quality across their career? [Mid-Career (Next 10 years)]",
-        "How would you rate the actor's performance quality across their career? [Recent Work (Last 5 years)]"
+        "Score",
+        "Gauge (=SPARKLINE)",
+        "Stars",
+        "Director / Weight",
+        "Score",
+        "Gauge (=SPARKLINE)",
+        "Category"
       ],
-      "row_1": [
-        "Timestamp",
-        "Actor",
-        "What's this Actors Rating?",
-        "Which genres is this actor best known for?",
-        "On a scale of 1-10, how would you rate this actor's versatility across different roles?",
-        "What are the actor's notable strengths (e.g., emotional depth, comedic timing, physical performance)?",
-        "Final Thoughts?",
-        "How would you rate the actor's performance quality across their career? [Early Career (First 5 years)]",
-        "How would you rate the actor's performance quality across their career? [Mid-Career (Next 10 years)]",
-        "How would you rate the actor's performance quality across their career? [Recent Work (Last 5 years)]"
-      ]
-    },
-    {
-      "title": "Form Responses 2",
-      "sheet_id": 855155566,
-      "index": 4,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1003,
-      "col_count": 39,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Movie Title",
-        "Rating",
-        "Platform/Format Where You Watched It (Select all that apply)",
-        "Did you watch this movie alone or with others?",
-        "How would you rate the movie's plot?",
-        "How would you rate the movie's pacing/editing?",
-        "How would you rate the movie's acting performances?",
-        "How would you rate the movie's visual effects/cinematography?",
-        "How would you rate the movie's soundtrack/score?",
-        "What was your emotional reaction immediately after the movie ended?",
-        "How would you rate the movie's rewatchability?",
-        "How many times have you watched this movie previously?",
-        "Final Thoughts"
+      [
+        "SCIENCE FICTION",
+        "9.7",
+        "",
+        "\u2b50\u2b50\u2b50\u2b50",
+        "DENZEL WASHINGTON",
+        "8.2",
+        "",
+        "\u2b50\u2b50\u2b50",
+        "Christopher Nolan",
+        "8.4",
+        "",
+        "TOP_DIRECTOR"
       ],
-      "row_1": [
-        "Timestamp",
-        "Movie Title",
-        "Rating",
-        "Platform/Format Where You Watched It (Select all that apply)",
-        "Did you watch this movie alone or with others?",
-        "How would you rate the movie's plot?",
-        "How would you rate the movie's pacing/editing?",
-        "How would you rate the movie's acting performances?",
-        "How would you rate the movie's visual effects/cinematography?",
-        "How would you rate the movie's soundtrack/score?",
-        "What was your emotional reaction immediately after the movie ended?",
-        "How would you rate the movie's rewatchability?",
-        "How many times have you watched this movie previously?",
-        "Final Thoughts"
-      ]
-    },
-    {
-      "title": "Form Responses 1",
-      "sheet_id": 6983503,
-      "index": 5,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 143,
-      "col_count": 28,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Movie Title",
-        "Rating",
-        "Date Watched",
-        "Platform/Format Where You Watched It (Select all that apply)",
-        "Which of these aspects was the primary reason you decided to watch this specific movie?",
-        "Which film critic or news source introduced you to this movie?",
-        "Did you watch this movie alone or with others?",
-        "What was your emotional reaction immediately after the movie ended?",
-        "How would you rate the movie's rewatchability?",
-        "How would you rate the originality/uniqueness of the movie's concept?",
-        "How many times have you watched this movie previously?",
-        "Final Thoughts",
-        "How would you rate the movie's plot?",
-        "How would you rate the movie's pacing/editing?",
-        "How would you rate the movie's acting performances?",
-        "How would you rate the movie's visual effects/cinematography?",
-        "How would you rate the movie's soundtrack/score?",
-        "Based on this movie, how import was the director's reputation when you decided to watch the movie?",
-        "How would you rank the importance of the lead actors/actresses when you decide to watch a movie?",
-        "How would you rank the importance of the critical rating when you decide to watch a movie?",
-        "How would you rank the importance of the movie genre when you decide to watch a movie?"
+      [
+        "FANTASY",
+        "9.5",
+        "",
+        "\u2b50\u2b50\u2b50\u2b50",
+        "SAMUEL L. JACKSON",
+        "8.0",
+        "",
+        "\u2b50\u2b50\u2b50",
+        "Anthony Russo, Joe Russo",
+        "8.2",
+        "",
+        "TOP_DIRECTOR"
       ],
-      "row_1": [
-        "Timestamp",
-        "Movie Title",
-        "Rating",
-        "Date Watched",
-        "Platform/Format Where You Watched It (Select all that apply)",
-        "Which of these aspects was the primary reason you decided to watch this specific movie?",
-        "Which film critic or news source introduced you to this movie?",
-        "Did you watch this movie alone or with others?",
-        "What was your emotional reaction immediately after the movie ended?",
-        "How would you rate the movie's rewatchability?",
-        "How would you rate the originality/uniqueness of the movie's concept?",
-        "How many times have you watched this movie previously?",
-        "Final Thoughts",
-        "How would you rate the movie's plot?",
-        "How would you rate the movie's pacing/editing?",
-        "How would you rate the movie's acting performances?",
-        "How would you rate the movie's visual effects/cinematography?",
-        "How would you rate the movie's soundtrack/score?",
-        "Based on this movie, how import was the director's reputation when you decided to watch the movie?",
-        "How would you rank the importance of the lead actors/actresses when you decide to watch a movie?",
-        "How would you rank the importance of the critical rating when you decide to watch a movie?",
-        "How would you rank the importance of the movie genre when you decide to watch a movie?"
-      ]
-    },
-    {
-      "title": "Initial Reviews",
-      "sheet_id": 414505856,
-      "index": 6,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Movie Title",
-        "Rating",
-        "Date Watched",
-        "Platform/Format Where You Watched It (Select all that apply)",
-        "Which of these aspects was the primary reason you decided to watch this specific movie?",
-        "Which film critic or news source introduced you to this movie?",
-        "Did you watch this movie alone or with others?",
-        "What was your emotional reaction immediately after the movie ended?",
-        "How would you rate the movie's rewatchability?",
-        "How would you rate the originality/uniqueness of the movie's concept?",
-        "How many times have you watched this movie previously?",
-        "Final Thoughts",
-        "How would you rate the movie's plot?",
-        "How would you rate the movie's pacing/editing?",
-        "How would you rate the movie's acting performances?",
-        "How would you rate the movie's visual effects/cinematography?",
-        "How would you rate the movie's soundtrack/score?",
-        "Based on this movie, how import was the director's reputation when you decided to watch the movie?",
-        "How would you rank the importance of the lead actors/actresses when you decide to watch a movie?",
-        "How would you rank the importance of the critical rating when you decide to watch a movie?",
-        "How would you rank the importance of the movie genre when you decide to watch a movie?"
+      [
+        "ACTION",
+        "9.4",
+        "",
+        "\u2b50\u2b50\u2b50\u2b50",
+        "WILL SMITH",
+        "7.7",
+        "",
+        "\u2b50\u2b50\u2b50",
+        "Peter Jackson",
+        "6.6",
+        "",
+        "TOP_DIRECTOR"
       ],
-      "row_1": [
-        "Timestamp",
-        "Movie Title",
-        "Rating",
-        "Date Watched",
-        "Platform/Format Where You Watched It (Select all that apply)",
-        "Which of these aspects was the primary reason you decided to watch this specific movie?",
-        "Which film critic or news source introduced you to this movie?",
-        "Did you watch this movie alone or with others?",
-        "What was your emotional reaction immediately after the movie ended?",
-        "How would you rate the movie's rewatchability?",
-        "How would you rate the originality/uniqueness of the movie's concept?",
-        "How many times have you watched this movie previously?",
-        "Final Thoughts",
-        "How would you rate the movie's plot?",
-        "How would you rate the movie's pacing/editing?",
-        "How would you rate the movie's acting performances?",
-        "How would you rate the movie's visual effects/cinematography?",
-        "How would you rate the movie's soundtrack/score?",
-        "Based on this movie, how import was the director's reputation when you decided to watch the movie?",
-        "How would you rank the importance of the lead actors/actresses when you decide to watch a movie?",
-        "How would you rank the importance of the critical rating when you decide to watch a movie?",
-        "How would you rank the importance of the movie genre when you decide to watch a movie?"
-      ]
-    },
-    {
-      "title": "Subject",
-      "sheet_id": 702465624,
-      "index": 7,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Rating and Rankings by Chris Jack "
+      [
+        "ADVENTURE",
+        "9.4",
+        "",
+        "\u2b50\u2b50\u2b50\u2b50",
+        "LEONARDO DICAPRIO",
+        "7.5",
+        "",
+        "\u2b50\u2b50\u2b50",
+        "Jon Watts",
+        "6.4",
+        "",
+        "TOP_DIRECTOR"
       ],
-      "row_1": [
-        "Rating and Rankings by Chris Jack "
-      ]
-    },
-    {
-      "title": "ReRanks",
-      "sheet_id": 685417473,
-      "index": 8,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Movie Title",
-        "Rating",
-        "Platform/Format Where You Watched It (Select all that apply)",
-        "Did you watch this movie alone or with others?",
-        "How would you rate the movie's plot?",
-        "How would you rate the movie's pacing/editing?",
-        "How would you rate the movie's acting performances?",
-        "How would you rate the movie's visual effects/cinematography?",
-        "How would you rate the movie's soundtrack/score?",
-        "What was your emotional reaction immediately after the movie ended?",
-        "How would you rate the movie's rewatchability?",
-        "How many times have you watched this movie previously?",
-        "Final Thoughts"
+      [
+        "COMEDY",
+        "9.0",
+        "",
+        "\u2b50\u2b50\u2b50\u2b50",
+        "JAMIE FOXX",
+        "7.0",
+        "",
+        "\u2b50\u2b50\u2b50",
+        "Michael Bay",
+        "6.3",
+        "",
+        "TOP_DIRECTOR"
       ],
-      "row_1": [
-        "Timestamp",
-        "Movie Title",
-        "Rating",
-        "Platform/Format Where You Watched It (Select all that apply)",
-        "Did you watch this movie alone or with others?",
-        "How would you rate the movie's plot?",
-        "How would you rate the movie's pacing/editing?",
-        "How would you rate the movie's acting performances?",
-        "How would you rate the movie's visual effects/cinematography?",
-        "How would you rate the movie's soundtrack/score?",
-        "What was your emotional reaction immediately after the movie ended?",
-        "How would you rate the movie's rewatchability?",
-        "How many times have you watched this movie previously?",
-        "Final Thoughts"
-      ]
-    },
-    {
-      "title": "Actors Review",
-      "sheet_id": 1573476643,
-      "index": 9,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Actor",
-        "What's this Actors Rating?",
-        "Which genres is this actor best known for?",
-        "On a scale of 1-10, how would you rate this actor's versatility across different roles?",
-        "What are the actor's notable strengths (e.g., emotional depth, comedic timing, physical performance)?",
-        "Final Thoughts?",
-        "How would you rate the actor's performance quality across their career? [Early Career (First 5 years)]",
-        "How would you rate the actor's performance quality across their career? [Mid-Career (Next 10 years)]",
-        "How would you rate the actor's performance quality across their career? [Recent Work (Last 5 years)]"
+      [
+        "SUPERHERO",
+        "8.9",
+        "",
+        "\u2b50\u2b50\u2b50\u2b50",
+        "RUSSELL CROWE",
+        "6.6",
+        "",
+        "\u2b50\u2b50\u2b50",
+        "Genre Importance Weight",
+        "9.1",
+        "",
+        "PREF_WEIGHT"
       ],
-      "row_1": [
-        "Timestamp",
-        "Actor",
-        "What's this Actors Rating?",
-        "Which genres is this actor best known for?",
-        "On a scale of 1-10, how would you rate this actor's versatility across different roles?",
-        "What are the actor's notable strengths (e.g., emotional depth, comedic timing, physical performance)?",
-        "Final Thoughts?",
-        "How would you rate the actor's performance quality across their career? [Early Career (First 5 years)]",
-        "How would you rate the actor's performance quality across their career? [Mid-Career (Next 10 years)]",
-        "How would you rate the actor's performance quality across their career? [Recent Work (Last 5 years)]"
-      ]
-    },
-    {
-      "title": "Directors Review",
-      "sheet_id": 588633220,
-      "index": 10,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Director",
-        "What is this Directors Rating?",
-        "Which of the following genres do you feel best represent this director's body of work? (Select all that apply)",
-        "On a scale of 1 to 5, how consistent is the quality of this director's films?",
-        "Final Thoughts"
+      [
+        "DRAMA",
+        "8.7",
+        "",
+        "\u2b50\u2b50\u2b50\u2b50",
+        "TOM HARDY",
+        "5.9",
+        "",
+        "\u2b50\u2b50\u2b50",
+        "Actor Importance Weight",
+        "6.1",
+        "",
+        "PREF_WEIGHT"
       ],
-      "row_1": [
-        "Timestamp",
-        "Director",
-        "What is this Directors Rating?",
-        "Which of the following genres do you feel best represent this director's body of work? (Select all that apply)",
-        "On a scale of 1 to 5, how consistent is the quality of this director's films?",
-        "Final Thoughts"
+      [
+        "THRILLER",
+        "8.4",
+        "",
+        "\u2b50\u2b50\u2b50\u2b50",
+        "ROBERT DOWNEY JR.",
+        "5.2",
+        "",
+        "\u2b50\u2b50\u2b50",
+        "Director Importance Weight",
+        "4.3",
+        "",
+        "PREF_WEIGHT"
       ]
-    },
-    {
-      "title": "Full Database",
-      "sheet_id": 1492796437,
-      "index": 11,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 32,
-      "header_row_index": 1,
-      "headers": [
-        "Movie Title",
-        "My Review",
-        "Review Count",
-        "Summary",
-        "Director",
-        "Actors",
-        "Year",
-        "Genres",
-        "Run Time",
-        "Plot",
-        "Pacing",
-        "Acting",
-        "Visuals",
-        "Soundtrack",
-        "Technical Average",
-        "Personal Hybrid",
-        "Rotten Tomato Score",
-        "Global Signature"
+    ],
+    "LOOKER_CINEMA": [
+      [
+        "Record_Type",
+        "Entity_Name",
+        "Category",
+        "Primary_Score",
+        "Secondary_Score",
+        "Rank",
+        "Status_Tag",
+        "Last_Updated"
       ],
-      "row_1": [
-        "Movie Title",
-        "My Review",
-        "Review Count",
-        "Summary",
-        "Director",
-        "Actors",
-        "Year",
-        "Genres",
-        "Run Time",
-        "Plot",
-        "Pacing",
-        "Acting",
-        "Visuals",
-        "Soundtrack",
-        "Technical Average",
-        "Personal Hybrid",
-        "Rotten Tomato Score",
-        "Global Signature"
-      ]
-    },
-    {
-      "title": "Actors",
-      "sheet_id": 1798035110,
-      "index": 12,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Movie Title",
-        "Actor 1",
-        "Actor 2",
-        "Actor 3",
-        "Actor 4",
-        "Actor 5"
-      ],
-      "row_1": [
-        "Movie Title",
-        "Actor 1",
-        "Actor 2",
-        "Actor 3",
-        "Actor 4",
-        "Actor 5"
-      ]
-    },
-    {
-      "title": "Total Actor List",
-      "sheet_id": 1860141141,
-      "index": 13,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 1,
-      "header_row_index": 1,
-      "headers": [
-        "Unique Actor List"
-      ],
-      "row_1": [
-        "Unique Actor List"
-      ]
-    },
-    {
-      "title": "Total Genres List",
-      "sheet_id": 1723941110,
-      "index": 14,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Unique Genre List"
-      ],
-      "row_1": [
-        "Unique Genre List"
-      ]
-    },
-    {
-      "title": "Genres",
-      "sheet_id": 1356090375,
-      "index": 15,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Movie Title",
-        "Genres"
-      ],
-      "row_1": [
-        "Movie Title",
-        "Genres"
-      ]
-    },
-    {
-      "title": "Frequency_Analytics_Actors",
-      "sheet_id": 1763507878,
-      "index": 16,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Actor",
-        "Count"
-      ],
-      "row_1": [
-        "Actor",
-        "Count"
-      ]
-    },
-    {
-      "title": "Actor_Intelligence",
-      "sheet_id": 1821872100,
-      "index": 17,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 27,
-      "header_row_index": 1,
-      "headers": [
-        "Actor",
-        "Official Rating",
-        "Database Avg",
-        "How would you rate the actor's performance quality across their career? [Early Career (First 5 years)]",
-        "How would you rate the actor's performance quality across their career? [Mid-Career (Next 10 years)]",
-        "How would you rate the actor's performance quality across their career? [Recent Work (Last 5 years)]",
-        "Versatility Rating",
-        "Technical Rating",
-        "Actors Appearance Count",
-        "Technical Count Rating",
-        "Actors Inteligence Score"
-      ],
-      "row_1": [
-        "Actor",
-        "Official Rating",
-        "Database Avg",
-        "How would you rate the actor's performance quality across their career? [Early Career (First 5 years)]",
-        "How would you rate the actor's performance quality across their career? [Mid-Career (Next 10 years)]",
-        "How would you rate the actor's performance quality across their career? [Recent Work (Last 5 years)]",
-        "Versatility Rating",
-        "Technical Rating",
-        "Actors Appearance Count",
-        "Technical Count Rating",
-        "Actors Inteligence Score"
-      ]
-    },
-    {
-      "title": "Genre_Intelligence",
-      "sheet_id": 1638913226,
-      "index": 18,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 5273,
-      "col_count": 7,
-      "header_row_index": 1,
-      "headers": [
-        "Genre",
-        "Rating",
-        "Database Performance",
-        "Database Count",
-        "Database Weight",
-        "Technical Count Rating",
-        "Genre Intelligence Score"
-      ],
-      "row_1": [
-        "Genre",
-        "Rating",
-        "Database Performance",
-        "Database Count",
-        "Database Weight",
-        "Technical Count Rating",
-        "Genre Intelligence Score"
-      ]
-    },
-    {
-      "title": "Director_Intelligence",
-      "sheet_id": 888659036,
-      "index": 19,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Director",
-        "Official Rating",
-        "Database Performance",
-        "Consistency Rating",
-        "Appearance Count",
-        "Technical Count Rating",
-        "Director Intelligence Score"
-      ],
-      "row_1": [
-        "Director",
-        "Official Rating",
-        "Database Performance",
-        "Consistency Rating",
-        "Appearance Count",
-        "Technical Count Rating",
-        "Director Intelligence Score"
-      ]
-    },
-    {
-      "title": "Frequency_Analytics_Directors",
-      "sheet_id": 1666949411,
-      "index": 20,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Director",
-        "Count"
-      ],
-      "row_1": [
-        "Director",
-        "Count"
-      ]
-    },
-    {
-      "title": "Total_Directors_List",
-      "sheet_id": 237693822,
-      "index": 21,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Directors"
-      ],
-      "row_1": [
-        "Directors"
-      ]
-    },
-    {
-      "title": "Directors",
-      "sheet_id": 484348307,
-      "index": 22,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
+      [
+        "MOVIE_RANKING",
+        "THE DARK KNIGHT",
         "Movie",
-        "Director"
+        "6.74",
+        "10",
+        "1",
+        "S_TIER",
+        "11/26/2026 19:32:27"
       ],
-      "row_1": [
+      [
+        "MOVIE_RANKING",
+        "THE LORD OF THE RINGS: RETURN OF THE KING",
         "Movie",
-        "Director"
-      ]
-    },
-    {
-      "title": "Frequency_Analytics_Genres",
-      "sheet_id": 2092947690,
-      "index": 23,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 17032,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [],
-      "row_1": []
-    },
-    {
-      "title": "Movie_Metadata",
-      "sheet_id": 1388007593,
-      "index": 24,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 8,
-      "header_row_index": 1,
-      "headers": [
-        "Movie Title",
-        "Summary",
-        "Director",
-        "Lead Actors (Top 5)",
-        "Release Year",
-        "Genres",
-        "Runtime (Minutes)",
-        "Rotten Tomato Score"
+        "6.72",
+        "10",
+        "2",
+        "S_TIER",
+        "11/26/2026 19:32:27"
       ],
-      "row_1": [
-        "Movie Title",
-        "Summary",
-        "Director",
-        "Lead Actors (Top 5)",
-        "Release Year",
-        "Genres",
-        "Runtime (Minutes)",
-        "Rotten Tomato Score"
-      ]
-    },
-    {
-      "title": "True_Ratings",
-      "sheet_id": 1614064526,
-      "index": 25,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Movie Title",
-        "True Average",
-        "Total Reviews"
+      [
+        "MOVIE_RANKING",
+        "SPIDER-MAN: INTO THE SPIDER-VERSE",
+        "Movie",
+        "6.71",
+        "9.8",
+        "3",
+        "S_TIER",
+        "11/26/2026 19:32:27"
       ],
-      "row_1": [
-        "Movie Title",
-        "True Average",
-        "Total Reviews"
-      ]
-    },
-    {
-      "title": "Consolidated Master",
-      "sheet_id": 1289456246,
-      "index": 26,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Movie Title",
-        "Rating",
-        "How would you rate the movie's plot?",
-        "How would you rate the movie's pacing/editing?",
-        "How would you rate the movie's acting performances?",
-        "How would you rate the movie's visual effects/cinematography?",
-        "How would you rate the movie's soundtrack/score?"
+      [
+        "MOVIE_RANKING",
+        "THE LORD OF THE RINGS: THE TWO TOWERS",
+        "Movie",
+        "6.69",
+        "9.7",
+        "4",
+        "S_TIER",
+        "11/26/2026 19:32:27"
       ],
-      "row_1": [
-        "Timestamp",
-        "Movie Title",
-        "Rating",
-        "How would you rate the movie's plot?",
-        "How would you rate the movie's pacing/editing?",
-        "How would you rate the movie's acting performances?",
-        "How would you rate the movie's visual effects/cinematography?",
-        "How would you rate the movie's soundtrack/score?"
-      ]
-    },
-    {
-      "title": "Master_Leaderboard",
-      "sheet_id": 554928377,
-      "index": 27,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Movie Title",
-        "Overall Avg",
-        "Plot",
-        "Pacing",
-        "Acting",
-        "Visuals",
-        "Soundtrack",
-        "Total Reviews"
+      [
+        "MOVIE_RANKING",
+        "SPIDER-MAN: ACROSS THE SPIDER-VERSE",
+        "Movie",
+        "6.68",
+        "9.8",
+        "5",
+        "S_TIER",
+        "11/26/2026 19:32:27"
       ],
-      "row_1": [
-        "Movie Title",
-        "Overall Avg",
-        "Plot",
-        "Pacing",
-        "Acting",
-        "Visuals",
-        "Soundtrack",
-        "Total Reviews"
-      ]
-    },
-    {
-      "title": "Total_Rankings",
-      "sheet_id": 878905286,
-      "index": 28,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 5509,
-      "col_count": 27,
-      "header_row_index": 1,
-      "headers": [
-        "Movie Title",
-        "Overall Avg",
-        "Total Reviews",
-        "Actor Score",
-        "Director Score",
-        "Genre Score",
-        "The Release Date Decay",
-        "The Memory Decay",
-        "Technical Avg",
-        "Personal Hybrid",
-        "Rotten Tomato Score",
-        "Global Signature",
-        "Total Intangible Power",
-        "Master Ranking",
-        "THE FINAL \"ACTIVE\" RANK"
+      [
+        "MOVIE_RANKING",
+        "AVENGERS: ENDGAME",
+        "Movie",
+        "6.65",
+        "9.7",
+        "6",
+        "S_TIER",
+        "11/26/2026 19:32:27"
       ],
-      "row_1": [
-        "Movie Title",
-        "Overall Avg",
-        "Total Reviews",
-        "Actor Score",
-        "Director Score",
-        "Genre Score",
-        "The Release Date Decay",
-        "The Memory Decay",
-        "Technical Avg",
-        "Personal Hybrid",
-        "Rotten Tomato Score",
-        "Global Signature",
-        "Total Intangible Power",
-        "Master Ranking",
-        "THE FINAL \"ACTIVE\" RANK"
-      ]
-    },
-    {
-      "title": "Top_10_Actors_Rankings",
-      "sheet_id": 355806919,
-      "index": 29,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 11,
-      "col_count": 3,
-      "header_row_index": 1,
-      "headers": [
-        "Actor",
-        "Actors Inteligence Score",
-        "Stars"
+      [
+        "MOVIE_RANKING",
+        "CAPTAIN AMERICA: WINTER SOLDIER",
+        "Movie",
+        "6.59",
+        "9.9",
+        "7",
+        "S_TIER",
+        "11/26/2026 19:32:27"
       ],
-      "row_1": [
-        "Actor",
-        "Actors Inteligence Score",
-        "Stars"
-      ]
-    },
-    {
-      "title": "Top_10_Genres_Rankings",
-      "sheet_id": 358113299,
-      "index": 30,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 11,
-      "col_count": 3,
-      "header_row_index": 1,
-      "headers": [
-        "Genre",
-        "Genre Intelligence Score",
-        "Stars"
+      [
+        "MOVIE_RANKING",
+        "SPIDER-MAN 2",
+        "Movie",
+        "6.59",
+        "9.6",
+        "8",
+        "S_TIER",
+        "11/26/2026 19:32:27"
       ],
-      "row_1": [
-        "Genre",
-        "Genre Intelligence Score",
-        "Stars"
-      ]
-    },
-    {
-      "title": "Top_100_Rankings",
-      "sheet_id": 1991568902,
-      "index": 31,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 17,
-      "header_row_index": 1,
-      "headers": [
-        "Movie Title",
-        "The Memory Decay",
-        "Technical Avg",
-        "Personal Hybrid",
-        "Rotten Tomato Score",
-        "Global Signature",
-        "Total Intangible Power"
+      [
+        "MOVIE_RANKING",
+        "CAPTAIN AMERICA: CIVIL WAR",
+        "Movie",
+        "6.55",
+        "9.8",
+        "9",
+        "S_TIER",
+        "11/26/2026 19:32:27"
       ],
-      "row_1": [
-        "Movie Title",
-        "The Memory Decay",
-        "Technical Avg",
-        "Personal Hybrid",
-        "Rotten Tomato Score",
-        "Global Signature",
-        "Total Intangible Power"
-      ]
-    },
-    {
-      "title": "Movie Preference Calculations",
-      "sheet_id": 2037688311,
-      "index": 32,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Movies"
+      [
+        "MOVIE_RANKING",
+        "SPIDER-MAN: NO WAY HOME",
+        "Movie",
+        "6.55",
+        "9.5",
+        "10",
+        "S_TIER",
+        "11/26/2026 19:32:27"
       ],
-      "row_1": [
-        "Movies"
-      ]
-    },
-    {
-      "title": "CALC_Actor_Power",
-      "sheet_id": 119670712,
-      "index": 33,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Movie Title",
-        "Actors",
-        "The Raw Actor Intelligence",
-        "Final Actor Power"
+      [
+        "MOVIE_RANKING",
+        "IRON MAN",
+        "Movie",
+        "6.55",
+        "9.4",
+        "11",
+        "A_TIER",
+        "11/26/2026 19:32:27"
       ],
-      "row_1": [
-        "Movie Title",
-        "Actors",
-        "The Raw Actor Intelligence",
-        "Final Actor Power"
-      ]
-    },
-    {
-      "title": "CALC_Director_Power",
-      "sheet_id": 668551802,
-      "index": 34,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Movie Title",
-        "Director",
-        "Director Intelligence Score",
-        "Weight Director Score"
+      [
+        "MOVIE_RANKING",
+        "INCEPTION",
+        "Movie",
+        "6.53",
+        "10",
+        "12",
+        "S_TIER",
+        "11/26/2026 19:32:27"
       ],
-      "row_1": [
-        "Movie Title",
-        "Director",
-        "Director Intelligence Score",
-        "Weight Director Score"
-      ]
-    },
-    {
-      "title": "CALC_Genre_Power",
-      "sheet_id": 1023100586,
-      "index": 35,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Movie Title",
-        "Genres",
-        "The Raw Genre Intelligence",
-        "The Weighted Genre Power"
+      [
+        "MOVIE_RANKING",
+        "DJANGO UNCHAINED",
+        "Movie",
+        "6.46",
+        "9.9",
+        "13",
+        "S_TIER",
+        "11/26/2026 19:32:27"
       ],
-      "row_1": [
-        "Movie Title",
-        "Genres",
-        "The Raw Genre Intelligence",
-        "The Weighted Genre Power"
-      ]
-    },
-    {
-      "title": "Preference_Analytics",
-      "sheet_id": 938095628,
-      "index": 36,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 5,
-      "col_count": 2,
-      "header_row_index": 1,
-      "headers": [
-        "Metric",
-        "Global Average Score"
+      [
+        "MOVIE_RANKING",
+        "AVENGERS: INFINITY WAR",
+        "Movie",
+        "6.42",
+        "9.9",
+        "14",
+        "S_TIER",
+        "11/26/2026 19:32:27"
       ],
-      "row_1": [
-        "Metric",
-        "Global Average Score"
-      ]
-    },
-    {
-      "title": "MODULE_META",
-      "sheet_id": 1330211328,
-      "index": 37,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Field",
-        "Value",
-        "Notes"
+      [
+        "MOVIE_RANKING",
+        "LOGAN",
+        "Movie",
+        "6.42",
+        "9.1",
+        "15",
+        "A_TIER",
+        "11/26/2026 19:32:27"
       ],
-      "row_1": [
-        "Field",
-        "Value",
-        "Notes"
+      [
+        "MOVIE_RANKING",
+        "AVENGERS",
+        "Movie",
+        "6.39",
+        "9.2",
+        "16",
+        "A_TIER",
+        "11/26/2026 19:32:27"
+      ],
+      [
+        "MOVIE_RANKING",
+        "SPIDER-MAN: HOMECOMING",
+        "Movie",
+        "6.39",
+        "9.1",
+        "17",
+        "A_TIER",
+        "11/26/2026 19:32:27"
+      ],
+      [
+        "MOVIE_RANKING",
+        "GUARDIANS OF THE GALAXY, VOL. 3",
+        "Movie",
+        "6.35",
+        "10",
+        "18",
+        "S_TIER",
+        "11/26/2026 19:32:27"
+      ],
+      [
+        "MOVIE_RANKING",
+        "SPIDER-MAN: BRAND NEW DAY",
+        "Movie",
+        "6.35",
+        "9.2",
+        "19",
+        "A_TIER",
+        "11/26/2026 19:32:27"
+      ],
+      [
+        "MOVIE_RANKING",
+        "THOR: RAGNAROK",
+        "Movie",
+        "6.35",
+        "8.9",
+        "20",
+        "A_TIER",
+        "11/26/2026 19:32:27"
+      ],
+      [
+        "MOVIE_RANKING",
+        "THE MATRIX",
+        "Movie",
+        "6.25",
+        "9.6",
+        "21",
+        "S_TIER",
+        "11/26/2026 19:32:27"
+      ],
+      [
+        "MOVIE_RANKING",
+        "RAY",
+        "Movie",
+        "6.21",
+        "10",
+        "22",
+        "S_TIER",
+        "11/26/2026 19:32:27"
+      ],
+      [
+        "MOVIE_RANKING",
+        "GLADIATOR",
+        "Movie",
+        "6.19",
+        "10",
+        "23",
+        "S_TIER",
+        "11/26/2026 19:32:27"
+      ],
+      [
+        "MOVIE_RANKING",
+        "SPIDER-MAN: FAR FROM HOME",
+        "Movie",
+        "6.19",
+        "8.6",
+        "24",
+        "A_TIER",
+        "11/26/2026 19:32:27"
       ]
-    },
-    {
-      "title": "CONTEXT_IN",
-      "sheet_id": 1733945459,
-      "index": 38,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
+    ],
+    "CONTEXT_IN": [
+      [
         "Signal_Key",
         "Live_Value",
         "Normalized_Score_0_100",
@@ -1042,25 +650,49 @@
         "Freshness_Status",
         "Hub_Auth_Trigger"
       ],
-      "row_1": [
-        "Signal_Key",
-        "Live_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Freshness_Status",
-        "Hub_Auth_Trigger"
+      [
+        "FLOW_COHERENCE",
+        "",
+        "",
+        "UNLOGGED",
+        "STALE",
+        "AUTHORIZED"
+      ],
+      [
+        "OCEAN_OPENNESS",
+        "0.954",
+        "95.4",
+        "BUFF",
+        "ACTIVE",
+        "AUTHORIZED"
+      ],
+      [
+        "ACTIVE_OPERATIONAL_PHASE",
+        "",
+        "",
+        "UNLOGGED",
+        "UNLOGGED",
+        "AUTHORIZED"
+      ],
+      [
+        "DAILY_MOOD",
+        "Clarity/Harmony Index: 75.0% (Neutrality)",
+        "75.0",
+        "CLEAR",
+        "FRESH",
+        "AUTHORIZED"
+      ],
+      [
+        "AQAL_UL_SCORE",
+        "53.5",
+        "53.5",
+        "PROGRESSING",
+        "FRESH",
+        "AUTHORIZED"
       ]
-    },
-    {
-      "title": "SIGNALS_OUT",
-      "sheet_id": 1084540404,
-      "index": 39,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
+    ],
+    "SIGNALS_OUT": [
+      [
         "Signal_Key",
         "Source_Brick",
         "Glyph",
@@ -1072,18 +704,431 @@
         "TTL_Hours",
         "Notes"
       ],
-      "row_1": [
-        "Signal_Key",
-        "Source_Brick",
-        "Glyph",
-        "Domain_Pillar",
-        "Raw_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated",
-        "TTL_Hours",
+      [
+        "CINEMA_TOTAL_TITLES",
+        "Cinema_Intelligence_Brick",
+        "\ud83c\udfac",
+        "Culture / I",
+        "42",
+        "42.0",
+        "42 Titles | 44 Reviews",
+        "2026-11-26 19:32",
+        "168",
+        "Total unique films tracked in MOVIE_METADATA_&_LEDGER (100 = 100%)"
+      ],
+      [
+        "CINEMA_TOP_MOVIE_SCORE",
+        "Cinema_Intelligence_Brick",
+        "\ud83c\udfc6",
+        "Masterpiece / I",
+        "6.74",
+        "100.0",
+        "THE DARK KNIGHT",
+        "2026-11-26 19:32",
+        "168",
+        "Top ranked movie Total Intangible Power & Personal Hybrid normalized 0-100"
+      ],
+      [
+        "CINEMA_TOP_GENRE",
+        "Cinema_Intelligence_Brick",
+        "\ud83c\udfad",
+        "Aesthetic / I",
+        "SCIENCE FICTION",
+        "97.3",
+        "SCIENCE FICTION (9.7/10)",
+        "2026-11-26 19:32",
+        "168",
+        "Highest-scoring Genre Intelligence archetype"
+      ],
+      [
+        "CINEMA_TOP_DIRECTOR",
+        "Cinema_Intelligence_Brick",
+        "\ud83c\udfa5",
+        "Auteur / I",
+        "Christopher Nolan",
+        "83.8",
+        "Christopher Nolan (8.4/10)",
+        "2026-11-26 19:32",
+        "168",
+        "Highest-scoring Director Intelligence auteur"
+      ],
+      [
+        "CINEMA_TOP_ACTOR",
+        "Cinema_Intelligence_Brick",
+        "\ud83c\udf1f",
+        "Performance / WE",
+        "DENZEL WASHINGTON",
+        "81.8",
+        "DENZEL WASHINGTON (8.2/10)",
+        "2026-11-26 19:32",
+        "168",
+        "Highest-scoring Actor Intelligence marquee performer"
+      ],
+      [
+        "MOVIES_LOGGED_COUNT",
+        "Cinema_Intelligence_Brick",
+        "\ud83c\udfac",
+        "Culture / I",
+        "42",
+        "42.0",
+        "42 Films Ranked",
+        "11/26/2026 19:32:28",
+        "168",
+        "Backwards-compatible alias of CINEMA_TOTAL_TITLES"
+      ],
+      [
+        "MOVIES_AVG_RATING",
+        "Cinema_Intelligence_Brick",
+        "\u2b50",
+        "Curation / I",
+        "9.36",
+        "93.6",
+        "HIGH_TASTE_HIT",
+        "11/26/2026 19:32:28",
+        "168",
+        "Mean film rating across MOVIE_METADATA_&_LEDGER True_Ratings (0-10 -> 0-100)"
+      ],
+      [
+        "MOVIES_TOP_GENRE_WEIGHT",
+        "Cinema_Intelligence_Brick",
+        "\ud83c\udfad",
+        "Aesthetic / I",
+        "9.14",
+        "91.4",
+        "GENRE_DRIVEN",
+        "11/26/2026 19:32:28",
+        "168",
+        "Movie Genre Importance preference weight (0-10 -> 0-100)"
+      ],
+      [
+        "MOVIES_ACTOR_WEIGHT",
+        "Cinema_Intelligence_Brick",
+        "\ud83c\udf1f",
+        "Performance / WE",
+        "6.14",
+        "61.4",
+        "BALANCED_CAST",
+        "11/26/2026 19:32:28",
+        "168",
+        "Lead Actor Importance preference weight (0-10 -> 0-100)"
+      ],
+      [
+        "MOVIES_DIRECTOR_WEIGHT",
+        "Cinema_Intelligence_Brick",
+        "\ud83c\udfa5",
+        "Auteur / I",
+        "4.26",
+        "42.6",
+        "STORY_FIRST",
+        "11/26/2026 19:32:28",
+        "168",
+        "Director Reputation Importance preference weight (0-10 -> 0-100)"
+      ]
+    ],
+    "MODULE_META": [
+      [
+        "Field",
+        "Value",
         "Notes"
+      ],
+      [
+        "Brick_Name",
+        "Cinema_Intelligence_Brick",
+        "Canonical LifeOS-v3 Brick identifier (formerly Movie_Tracker)"
+      ],
+      [
+        "Registry_Key",
+        "ID_MOVIES",
+        "Bound key in schemas/workbook_registry.json (alias: ID_CINEMA)"
+      ],
+      [
+        "Source_Workbook",
+        "\ud83c\udfac Cinema_Intelligence_Brick",
+        "Renamed & moved into LifeOS_v3_Control (preserving exact ID & all 5 Form links)"
+      ],
+      [
+        "Schema_Version",
+        "3.1.0",
+        "Consolidated 40 -> 13 color-coded tabs, trimmed 17k-row bloat, zero errors"
+      ],
+      [
+        "Glyph",
+        "\ud83c\udfac",
+        "Executive HUD icon"
+      ],
+      [
+        "Landing_Tab",
+        "\ud83c\udfac CINEMA_HUD",
+        "Gold #F59E0B executive HUD (index 0)"
+      ],
+      [
+        "Looker_Tab",
+        "LOOKER_CINEMA",
+        "Hidden Cyan #06B6D4 flat zero-PII / zero-prose BI feed"
+      ],
+      [
+        "Layer_1_Raw_Tabs",
+        "Form Responses 1..5",
+        "100% untouched Crimson #EF4444 Google Form logs"
+      ],
+      [
+        "Apps_Script_Helper",
+        "src/bricks_sync/cinema_intelligence/sync_dropdowns.gs",
+        "syncMovieDropdownsAndStamp() refreshes unique lists & stamps Last_Dropdown_Sync"
+      ],
+      [
+        "Last_Dropdown_Sync",
+        "2026-11-27 00:31 UTC",
+        "Updated automatically by syncMovieDropdownsAndStamp()"
+      ],
+      [
+        "Signals_Published",
+        "CINEMA_TOTAL_TITLES, CINEMA_TOP_MOVIE_SCORE, CINEMA_TOP_GENRE, CINEMA_TOP_DIRECTOR, CINEMA_TOP_ACTOR (+ 5 MOVIES_* aliases)",
+        "Exported via SIGNALS_OUT to LifeOS_feed_hub"
+      ],
+      [
+        "Context_Subscribed",
+        "FLOW_COHERENCE, OCEAN_OPENNESS, ACTIVE_OPERATIONAL_PHASE, DAILY_MOOD, AQAL_UL_SCORE",
+        "Subscribed via CONTEXT_IN from LifeOS_feed_hub"
+      ],
+      [
+        "Hub_Spreadsheet_ID",
+        "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
+        "LifeOS_feed_hub central nervous system"
+      ],
+      [
+        "Archived_Subject_Note",
+        "Archived from retired Subject stub tab (redacted in public snapshot)",
+        "Archived from retired Subject stub tab (redacted in public snapshot)"
+      ],
+      [
+        "Privacy_Boundary",
+        "STRICT_ZERO_PII_ZERO_PROSE",
+        "LOOKER_CINEMA, SIGNALS_OUT & snapshots exclude Final Thoughts / Summary essays & PII"
+      ],
+      [
+        "Last_Synced",
+        "2026-11-26 19:32 UTC",
+        "Dynamic live formula sync timestamp"
+      ]
+    ],
+    "headers_only": {
+      "MOVIE_METADATA_&_LEDGER": [
+        [
+          "Movie Title",
+          "Summary",
+          "Director",
+          "Lead Actors (Top 5)",
+          "Release Year",
+          "Genres",
+          "Runtime (Minutes)",
+          "Rotten Tomato Score",
+          "",
+          "Movie Title",
+          "True Average",
+          "Total Reviews",
+          "",
+          "Timestamp",
+          "Movie Title",
+          "Rating",
+          "How would you rate the movie's plot?",
+          "How would you rate the movie's pacing/editing?",
+          "How would you rate the movie's acting performances?",
+          "How would you rate the movie's visual effects/cinematography?",
+          "How would you rate the movie's soundtrack/score?",
+          "",
+          "Timestamp",
+          "Movie Title",
+          "Rating",
+          "Platform/Format Where You Watched It (Select all that apply)",
+          "Did you watch this movie alone or with others?",
+          "How would you rate the movie's plot?",
+          "How would you rate the movie's pacing/editing?",
+          "How would you rate the movie's acting performances?",
+          "How would you rate the movie's visual effects/cinematography?",
+          "How would you rate the movie's soundtrack/score?",
+          "What was your emotional reaction immediately after the movie ended?",
+          "How would you rate the movie's rewatchability?",
+          "How many times have you watched this movie previously?",
+          "Final Thoughts"
+        ]
+      ],
+      "RANKINGS_&_LEADERBOARDS": [
+        [
+          "Movie Title",
+          "Overall Avg",
+          "Total Reviews",
+          "Actor Score",
+          "Director Score",
+          "Genre Score",
+          "The Release Date Decay",
+          "The Memory Decay",
+          "Technical Avg",
+          "Personal Hybrid",
+          "Rotten Tomato Score",
+          "Global Signature",
+          "Total Intangible Power",
+          "Master Ranking",
+          "THE FINAL \"ACTIVE\" RANK",
+          "",
+          "Movie Title",
+          "Overall Avg",
+          "Plot",
+          "Pacing",
+          "Acting",
+          "Visuals",
+          "Soundtrack",
+          "Total Reviews",
+          "",
+          "Movie Title",
+          "The Memory Decay",
+          "Technical Avg",
+          "Personal Hybrid",
+          "Rotten Tomato Score",
+          "Global Signature",
+          "Total Intangible Power",
+          "",
+          "Metric",
+          "Global Average Score",
+          "Actor",
+          "Actor Intelligence Score",
+          "Stars",
+          "Genre",
+          "Genre Intelligence Score",
+          "Stars",
+          "Director",
+          "Director Intelligence Score",
+          "Stars"
+        ]
+      ],
+      "CAST_CREW_&_GENRE_ENGINE": [
+        [
+          "Actor",
+          "Official Rating",
+          "Database Avg",
+          "Early Career",
+          "Mid-Career",
+          "Recent Work",
+          "Versatility Rating",
+          "Technical Rating",
+          "Appearance Count",
+          "Tech Count Rating",
+          "Actor Intelligence Score",
+          "",
+          "Director",
+          "Official Rating",
+          "Database Performance",
+          "Consistency Rating",
+          "Appearance Count",
+          "Tech Count Rating",
+          "Director Intelligence Score",
+          "",
+          "Genre",
+          "Official Rating",
+          "Database Performance",
+          "Database Count",
+          "Database Weight",
+          "Tech Count Rating",
+          "Genre Intelligence Score",
+          "",
+          "Movie Title",
+          "Actors",
+          "Raw Actor Intel",
+          "Final Actor Power",
+          "",
+          "Movie Title",
+          "Director",
+          "Director Intel Score",
+          "Weighted Director Score",
+          "",
+          "Movie Title",
+          "Genres",
+          "Raw Genre Intel",
+          "Weighted Genre Power",
+          "",
+          "Unique_Movie_Titles",
+          "Unique_Genres",
+          "Unique_Directors",
+          "Unique_Actors",
+          "Last_Dropdown_Sync",
+          "Sync_Source"
+        ]
+      ],
+      "Form Responses 1": [
+        [
+          "Timestamp",
+          "Movie Title",
+          "Rating",
+          "Date Watched",
+          "Platform/Format Where You Watched It (Select all that apply)",
+          "Which of these aspects was the primary reason you decided to watch this specific movie?",
+          "Which film critic or news source introduced you to this movie?",
+          "Did you watch this movie alone or with others?",
+          "What was your emotional reaction immediately after the movie ended?",
+          "How would you rate the movie's rewatchability?",
+          "How would you rate the originality/uniqueness of the movie's concept?",
+          "How many times have you watched this movie previously?",
+          "Final Thoughts",
+          "How would you rate the movie's plot?",
+          "How would you rate the movie's pacing/editing?",
+          "How would you rate the movie's acting performances?",
+          "How would you rate the movie's visual effects/cinematography?",
+          "How would you rate the movie's soundtrack/score?",
+          "Based on this movie, how import was the director's reputation when you decided to watch the movie?",
+          "How would you rank the importance of the lead actors/actresses when you decide to watch a movie?",
+          "How would you rank the importance of the critical rating when you decide to watch a movie?",
+          "How would you rank the importance of the movie genre when you decide to watch a movie?"
+        ]
+      ],
+      "Form Responses 2": [
+        [
+          "Timestamp",
+          "Movie Title",
+          "Rating",
+          "Platform/Format Where You Watched It (Select all that apply)",
+          "Did you watch this movie alone or with others?",
+          "How would you rate the movie's plot?",
+          "How would you rate the movie's pacing/editing?",
+          "How would you rate the movie's acting performances?",
+          "How would you rate the movie's visual effects/cinematography?",
+          "How would you rate the movie's soundtrack/score?",
+          "What was your emotional reaction immediately after the movie ended?",
+          "How would you rate the movie's rewatchability?",
+          "How many times have you watched this movie previously?",
+          "Final Thoughts"
+        ]
+      ],
+      "Form Responses 3": [
+        [
+          "Timestamp",
+          "Actor",
+          "What's this Actors Rating?",
+          "Which genres is this actor best known for?",
+          "On a scale of 1-10, how would you rate this actor's versatility across different roles?",
+          "What are the actor's notable strengths (e.g., emotional depth, comedic timing, physical performance)?",
+          "Final Thoughts?",
+          "How would you rate the actor's performance quality across their career? [Early Career (First 5 years)]",
+          "How would you rate the actor's performance quality across their career? [Mid-Career (Next 10 years)]",
+          "How would you rate the actor's performance quality across their career? [Recent Work (Last 5 years)]"
+        ]
+      ],
+      "Form Responses 4": [
+        [
+          "Timestamp",
+          "Director",
+          "What is this Directors Rating?",
+          "Which of the following genres do you feel best represent this director's body of work? (Select all that apply)",
+          "On a scale of 1 to 5, how consistent is the quality of this director's films?",
+          "Final Thoughts"
+        ]
+      ],
+      "Form Responses 5": [
+        [
+          "Timestamp",
+          "Genre",
+          "What's your rating of this Genre?"
+        ]
       ]
     }
-  ]
+  }
 }
