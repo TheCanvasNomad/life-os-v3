@@ -3682,6 +3682,18 @@
       "archived_prefix": "ARCHIVE_2021_",
       "excluded_from_7d_rolling": true,
       "zero_importrange_link": true
+    },
+    "LEGACY_DUKKHA_REFLECTION_2024": {
+      "id": "1hWh1ASYTEa2sLRWGJY9jhCt5spXncW5ouxquivn-Kxk",
+      "name": "ARCHIVE_2024_Dukkha Practice Reflection Form  (Responses)",
+      "status": "CONSOLIDATED_INTO_PILLAR",
+      "consolidated_into": "ID_PILLAR_0",
+      "target_tab": "RAW_DATA_DukkhaReflection",
+      "archived_prefix": "ARCHIVE_2024_",
+      "runs_count": 4,
+      "composite_avg_pct": 55.94,
+      "privacy_boundary": "STRICT_PILLAR_0_ONLY",
+      "zero_importrange_link": true
     }
   },
   "unmapped_discovered": [
