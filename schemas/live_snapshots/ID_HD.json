@@ -2,74 +2,661 @@
   "workbook_key": "ID_HD",
   "spreadsheet_id": "1yTiVyqmpz5FeZJSuN6_fmMfQZWq4HMcNCIKELBz8wp0",
   "title": "Human Design OS",
-  "captured_utc": "2026-11-27T01:26:15Z",
-  "privacy_boundary": "STRICT_ZERO_PII",
-  "tab_count": 13,
+  "captured_utc": "2026-11-27T02:50:59Z",
+  "privacy_boundary": "STRICT_ZERO_PII (Zero birth date, birth time, coordinates, or full legal name anywhere in workbook)",
+  "tab_count": 10,
   "tabs": [
     "\ud83d\udca0 HD_DASHBOARD",
     "ADVISORY_MATRIX",
-    "HD_DECISION_ENGINE",
-    "HD_ENERGY_TRANSIT_HUD",
-    "HD_CENTERS_9",
-    "HD_CHANNELS_36",
-    "HD_WHEEL_64",
-    "HD_PHS_VARIABLES",
+    "DECISION_&_BATTERY_ENGINE",
+    "CENTERS_&_CHANNELS",
+    "WHEEL_64_&_PHS",
     "HD_CONFIG_BUS",
     "LOOKER_HUMAN_DESIGN",
     "MODULE_META",
     "CONTEXT_IN",
     "SIGNALS_OUT"
   ],
+  "deleted_legacy_tabs": [
+    "HD_CENTERS_9",
+    "HD_CHANNELS_36",
+    "HD_WHEEL_64",
+    "HD_PHS_VARIABLES",
+    "HD_DECISION_ENGINE",
+    "HD_ENERGY_TRANSIT_HUD"
+  ],
   "looker_tab": "LOOKER_HUMAN_DESIGN",
-  "looker_row_count": 27,
+  "looker_row_count": 28,
+  "total_merged_cells": 0,
   "audit_errors_all_tabs": 0,
   "pii_leaks": 0,
-  "transit_context_subscribed": [
-    "TRANSIT_HD_SUN_EARTH",
-    "TRANSIT_HD_MOON_GATE",
-    "TRANSIT_HD_SPLIT_BRIDGE",
-    "TRANSIT_HD_CONDITIONING_LOAD"
+  "signals_published": [
+    "HD_STRATEGY_COHERENCE",
+    "HD_AUTHORITY_CLARITY",
+    "HD_CONDITIONING_LOAD",
+    "HD_BIO_READINESS",
+    "HD_PROFILE_CODE",
+    "HD_OPEN_CENTER_CONDITIONING",
+    "HD_ALIGNMENT_RATE",
+    "HD_SPLIT_BRIDGED"
   ],
-  "live_transit_preview": [
+  "hub_signals_live": [
     [
-      "TRANSIT_WEATHER",
-      "TRANSIT_HD_SUN_EARTH",
-      "Live Sun/Earth Gate.Line",
-      "Daily Sky Imprint",
-      "34.5 / 20.5",
-      "34",
-      "Sacral / Throat transit focus",
-      "2026-11-27 01:26"
+      "HD_STRATEGY_COHERENCE",
+      "Human_Design_OS",
+      "\ud83d\udca0",
+      "I / IT - Energetic",
+      "1",
+      "100.0",
+      "FLOW",
+      "46353.11868"
     ],
     [
-      "TRANSIT_WEATHER",
-      "TRANSIT_HD_MOON_GATE",
-      "Live Moon Gate.Line",
-      "Lunar Sky Imprint",
-      "52.6",
-      "52",
-      "Root lunar focus",
-      "2026-11-27 01:26"
+      "HD_AUTHORITY_CLARITY",
+      "Human_Design_OS",
+      "\ud83d\udca0",
+      "I - Somatic",
+      "Splenic Authority",
+      "100.0",
+      "BUFF",
+      "46353.11868"
     ],
     [
-      "TRANSIT_WEATHER",
-      "TRANSIT_HD_SPLIT_BRIDGE",
-      "Split Definition Bridge",
-      "Split Topology",
-      "SPLIT_OPEN",
-      "0",
-      "SPLIT_OPEN (No Transit Bridge)",
-      "2026-11-27 01:26"
-    ],
-    [
-      "TRANSIT_WEATHER",
-      "TRANSIT_HD_CONDITIONING_LOAD",
-      "Open-Center Conditioning Load",
-      "5 Undefined Centers",
+      "HD_CONDITIONING_LOAD",
+      "Human_Design_OS",
+      "\ud83d\udca0",
+      "WE - Auric Field",
       "G Center, Heart/Ego, Sacral, Solar Plexus",
-      "80",
+      "80.0",
       "HIGH_CONDITIONING",
-      "2026-11-27 01:26"
+      "46353.11868"
+    ],
+    [
+      "HD_BIO_READINESS",
+      "Human_Design_OS",
+      "\ud83d\udca0",
+      "IT - PHS Vehicle",
+      "1",
+      "100.0",
+      "FLOW",
+      "46353.11868"
+    ],
+    [
+      "HD_PROFILE_CODE",
+      "Human_Design_OS",
+      "\ud83d\udca0",
+      "Esoteric / Profile",
+      "1/3",
+      "100.0",
+      "LOCKED",
+      "2026-11-27 02:50"
+    ],
+    [
+      "HD_OPEN_CENTER_CONDITIONING",
+      "Human_Design_OS",
+      "\ud83d\udca0",
+      "IT - Energetic",
+      "G Center, Heart/Ego, Sacral, Solar Plexus",
+      "80.0",
+      "HIGH_CONDITIONING",
+      "2026-11-27 02:50"
+    ],
+    [
+      "HD_ALIGNMENT_RATE",
+      "Human_Design_OS",
+      "\ud83e\udded",
+      "I - Strategy",
+      "75.0% Success Rate",
+      "75.0",
+      "ALIGNED_SUCCESS",
+      "2026-11-27 02:50"
+    ],
+    [
+      "HD_SPLIT_BRIDGED",
+      "Human_Design_OS",
+      "\u26a1",
+      "IT - Definition",
+      "Sacral Bridge (20-34 / G-Sacral -> Spleen/Root)",
+      "100.0",
+      "BRIDGED",
+      "2026-11-27 02:50"
     ]
-  ]
+  ],
+  "samples": {
+    "\ud83d\udca0 HD_DASHBOARD": [
+      [
+        "\ud83d\udca0 LIFE OS v3.0 \u2014 HUMAN DESIGN OS EXECUTIVE TELEMETRY HUD (CONSOLIDATED 10-TAB ENGINE)"
+      ],
+      [
+        "Aura Type:",
+        "Projector",
+        "Inner Authority:",
+        "Splenic Authority",
+        "Profile:",
+        "1/3",
+        "Hub Context / State:",
+        "AUTHORIZED / Shadow_Trigger"
+      ],
+      [
+        "Definition Topology:",
+        "Simple Split Definition (2 Islands)",
+        "Incarnation Cross:",
+        "Right Angle Cross of Service (17/18 | 58/52)",
+        "PHS Signature:",
+        "Calm | Valleys | Outer Vision | Desire | Power",
+        "Defined / Open:",
+        "4 Defined / 5 Undefined"
+      ],
+      [
+        "9 BODYGRAPH CENTERS",
+        "Center Class",
+        "Active Gates",
+        "Natal State",
+        "Operational Directive / Not-Self Guardrail",
+        "LIVE TELEMETRY & ENERGY ECONOMY",
+        "Score",
+        "Visual Bar"
+      ],
+      [
+        "1. Head Center",
+        "Mental Pressure",
+        "2",
+        "UNDEFINED",
+        "Pressure to solve everyone else's problems or answer irrelevant mental noise.",
+        "Strategy Coherence:",
+        "100"
+      ],
+      [
+        "2. Ajna Center",
+        "Mental Awareness",
+        "3",
+        "DEFINED",
+        "Consistent conceptual architecture, pattern synthesis & logical modeling (17, 43, 11).",
+        "Authority Clarity:",
+        "100"
+      ],
+      [
+        "3. Throat Center",
+        "Manifestation Hub",
+        "1",
+        "DEFINED",
+        "Consistent, structured articulation of individual breakthroughs (Channel 43\u201323).",
+        "Open Center Conditioning (Reconciled):",
+        "80"
+      ],
+      [
+        "4. G Center (Identity)",
+        "Identity & Direction",
+        "2",
+        "UNDEFINED",
+        "Searching frantically for a fixed identity, life direction, or external validation.",
+        "PHS Daily Bio-Readiness:",
+        "100"
+      ],
+      [
+        "5. Heart / Ego Center",
+        "Willpower Motor",
+        "1",
+        "UNDEFINED",
+        "Making unnecessary promises or overworking to prove self-worth to institutions.",
+        "30-Day Alignment Success Rate:",
+        "75"
+      ],
+      [
+        "6. Sacral Center",
+        "Life-Force Motor",
+        "1",
+        "UNDEFINED",
+        "Failing to know when enough is enough; amplifying Generator hustle into burnout.",
+        "Tier 1 HP / Mana Mod:",
+        "0.95 / 1.1"
+      ],
+      [
+        "7. Solar Plexus",
+        "Emotional Motor / Aware",
+        "2",
+        "UNDEFINED",
+        "Absorbing/amplifying others' moods or avoiding necessary confrontation to keep peace.",
+        "Tier 1 Stamina / Coherence:",
+        "1.1 / 1.1"
+      ],
+      [
+        "8. Spleen Center",
+        "Survival Awareness",
+        "2",
+        "DEFINED",
+        "PRIMARY INNER AUTHORITY: Instantaneous present-moment intuition & flaw detection (18.1\u25b2, 44).",
+        "Vitality HP / Mana (Hub):",
+        "69.0 / 73.6"
+      ],
+      [
+        "9. Root Center",
+        "Adrenal Pressure Motor",
+        "4",
+        "DEFINED",
+        "Grounded adrenaline fuel to improve systems (58), stay still (52), and fight for purpose (38\u25b2).",
+        "Active WIP Load (Zodiac Hub):",
+        "2 / 2 (AT_CEILING)"
+      ],
+      [
+        "Live Strategy Prescription:",
+        "Notice if bitterness is rising from uninvited effort; drop pushing and clear your aura.",
+        "",
+        "",
+        "Deconditioning / Authority Directive:",
+        "\u26a1 HIGH TRANSIT CONDITIONING (80/100 \u2014 G Center, Heart/Ego, Sacral, Solar Plexus): Audit open centers for conditioning (hurrying, proving worth, or absorbing others' stress)."
+      ],
+      [],
+      [
+        "LIVE SKY TRANSIT OVERLAY (HUB-ROUTED FROM ZODIAC OS)",
+        "Sun / Earth Gates",
+        "Moon Gate",
+        "Split Bridge Alert",
+        "Conditioning Load",
+        "Conditioned Open Centers",
+        "Weather State",
+        "Gauge"
+      ],
+      [
+        "API-Free Ephemeris Imprint",
+        "34.6 / 20.6 (Sacral / Throat)",
+        "39.1 (Root)",
+        "\u26a1 BRIDGED: Sacral Bridge (20-34 / G-Sacral -> Spleen/Root)",
+        "80",
+        "G Center, Heart/Ego, Sacral, Solar Plexus",
+        "HIGH_CONDITIONING"
+      ]
+    ],
+    "CONTEXT_IN": [
+      [
+        "Signal_Key",
+        "Upstream_Score_Or_Value",
+        "State_Tag",
+        "Active_State_Trigger",
+        "Hub_Auth_Trigger",
+        "Live_Secondary_Detail"
+      ],
+      [
+        "VITAL_HP",
+        "69",
+        "OPERATIONAL",
+        "Baseline",
+        "AUTHORIZED",
+        "Hub CHARACTER_SHEET!C9"
+      ],
+      [
+        "VITAL_MANA",
+        "73.6",
+        "OPERATIONAL",
+        "Baseline",
+        "AUTHORIZED",
+        "Hub CHARACTER_SHEET!C10"
+      ],
+      [
+        "VITAL_STAMINA",
+        "58",
+        "OPERATIONAL",
+        "Baseline",
+        "AUTHORIZED",
+        "Hub CHARACTER_SHEET!C11"
+      ],
+      [
+        "VITAL_COHERENCE",
+        "78.2",
+        "OPERATIONAL",
+        "Baseline",
+        "AUTHORIZED",
+        "Hub CHARACTER_SHEET!C12"
+      ],
+      [
+        "ACUTE_STRESS",
+        "30",
+        "LOW_FRICTION",
+        "Baseline",
+        "AUTHORIZED",
+        "Resistance/Pressure Load: 30.0%"
+      ],
+      [
+        "EQ_EMOTIONAL_CONTROL",
+        "39",
+        "COOLING_OFF_BUFFER_ACTIVE",
+        "Shadow_Trigger",
+        "AUTHORIZED",
+        "39"
+      ],
+      [
+        "P0_WISDOM_SCORE",
+        "66.7",
+        "LIVE",
+        "Baseline",
+        "AUTHORIZED",
+        "66.7"
+      ],
+      [
+        "ZODIAC_ALIGNMENT",
+        "90",
+        "HIGH_HARMONY",
+        "Flow_State",
+        "AUTHORIZED",
+        "Sagittarius Sun / Waning Gibbous (Integrate & Share)"
+      ],
+      [
+        "RESOLVED_LIVE_STATE",
+        "",
+        "RESOLVED",
+        "Shadow_Trigger",
+        "AUTHORIZED",
+        "Master Pass-2 State Selector"
+      ],
+      [
+        "TRANSIT_HD_SUN_EARTH",
+        "34.6 / 20.6",
+        "Sacral / Throat",
+        "LIVE_IMPRINT",
+        "AUTHORIZED",
+        "34"
+      ],
+      [
+        "TRANSIT_HD_MOON_GATE",
+        "39.1",
+        "Root",
+        "LIVE_IMPRINT",
+        "AUTHORIZED",
+        "39"
+      ],
+      [
+        "TRANSIT_HD_SPLIT_BRIDGE",
+        "100",
+        "BRIDGED",
+        "Split_Bridged",
+        "AUTHORIZED",
+        "Sacral Bridge (20-34 / G-Sacral -> Spleen/Root)"
+      ],
+      [
+        "TRANSIT_HD_CONDITIONING_LOAD",
+        "80",
+        "HIGH_CONDITIONING",
+        "Shadow_Trigger",
+        "AUTHORIZED",
+        "G Center, Heart/Ego, Sacral, Solar Plexus"
+      ],
+      [
+        "ZODIAC_WIP_COUNT",
+        "2",
+        "AT_CEILING",
+        "Baseline",
+        "AUTHORIZED",
+        "Synced from Zodiac OPS_GOVERNOR via Hub"
+      ]
+    ],
+    "SIGNALS_OUT": [
+      [
+        "Signal_Key",
+        "Raw_Summary",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated"
+      ],
+      [
+        "HD_STRATEGY_COHERENCE",
+        "100%",
+        "100",
+        "FLOW",
+        "11/27/2026 2:50:54"
+      ],
+      [
+        "HD_AUTHORITY_CLARITY",
+        "Splenic Authority",
+        "100",
+        "BUFF",
+        "11/27/2026 2:50:54"
+      ],
+      [
+        "HD_CONDITIONING_LOAD",
+        "G Center, Heart/Ego, Sacral, Solar Plexus",
+        "80",
+        "HIGH_CONDITIONING",
+        "11/27/2026 2:50:54"
+      ],
+      [
+        "HD_BIO_READINESS",
+        "100%",
+        "100",
+        "FLOW",
+        "11/27/2026 2:50:54"
+      ],
+      [
+        "HD_PROFILE_CODE",
+        "1/3",
+        "100",
+        "LOCKED",
+        "11/27/2026 2:50:54"
+      ],
+      [],
+      [
+        "TIER 1 NATAL STAT STACKING MODIFIERS (BASE \u00d7 TRAITS \u00d7 LIVE STATE)"
+      ],
+      [
+        "Target_Attribute",
+        "Tier_1_HD_Modifier",
+        "Energetic_Basis",
+        "Dynamic_Rule"
+      ],
+      [
+        "HP_Vitality",
+        "0.95",
+        "Sacral Motor vs. Non-Sacral Energy Economy",
+        "Non-Sacral types require strict pacing & recovery"
+      ],
+      [
+        "Mana_Focus",
+        "1.1",
+        "Defined Ajna / Head Strategic Synthesis Multiplier",
+        "Consistent conceptual focus & pattern scanning"
+      ],
+      [
+        "Stamina_Recovery",
+        "1.1",
+        "PHS Bio-Readiness & Solo Aura Decompression Factor",
+        "Scales directly with Daily PHS Bio-Readiness"
+      ],
+      [
+        "Coherence_Alignment",
+        "1.1",
+        "Strategy & Inner Authority Alignment Multiplier",
+        "Scales directly with Energy Economy Coherence"
+      ],
+      [],
+      [
+        "HD_OPEN_CENTER_CONDITIONING",
+        "G Center, Heart/Ego, Sacral, Solar Plexus",
+        "80",
+        "HIGH_CONDITIONING",
+        "11/27/2026 2:50:54"
+      ],
+      [
+        "HD_ALIGNMENT_RATE",
+        "75.0% Success Rate",
+        "75",
+        "ALIGNED_SUCCESS",
+        "11/27/2026 2:50:54"
+      ],
+      [
+        "HD_SPLIT_BRIDGED",
+        "Sacral Bridge (20-34 / G-Sacral -> Spleen/Root)",
+        "100",
+        "BRIDGED",
+        "11/27/2026 2:50:54"
+      ]
+    ],
+    "LOOKER_HUMAN_DESIGN_headers": [
+      "Record_Type",
+      "Entity_Key",
+      "Entity_Label",
+      "Category",
+      "State_Or_Value",
+      "Numeric_Score_0_100",
+      "Operational_Directive",
+      "Last_Updated"
+    ],
+    "LOOKER_HUMAN_DESIGN_sample": [
+      [
+        "BLUEPRINT_KPI",
+        "HD_AURA_TYPE",
+        "Aura Type",
+        "Natal Classification",
+        "Projector",
+        "100",
+        "Wait for Recognition & Invitation before major commitments",
+        "2026-11-27 02:50"
+      ],
+      [
+        "BLUEPRINT_KPI",
+        "HD_INNER_AUTHORITY",
+        "Inner Authority",
+        "Decision Engine",
+        "Splenic Authority",
+        "100",
+        "Trust instantaneous somatic Splenic clarity in the present moment",
+        "2026-11-27 02:50"
+      ],
+      [
+        "BLUEPRINT_KPI",
+        "HD_PROFILE_CODE",
+        "Profile Code",
+        "Life Trajectory",
+        "1/3",
+        "100",
+        "Line 1 Investigator foundations + Line 3 Martyr empirical experimentation",
+        "2026-11-27 02:50"
+      ],
+      [
+        "BLUEPRINT_KPI",
+        "HD_DEFINITION_TOPOLOGY",
+        "Definition Topology",
+        "Circuit Architecture",
+        "Simple Split Definition (2 Islands)",
+        "100",
+        "Bridge Simple Split (Ajna-Throat / Spleen-Root) via aligned spaces",
+        "2026-11-27 02:50"
+      ],
+      [
+        "BLUEPRINT_KPI",
+        "HD_INCARNATION_CROSS",
+        "Incarnation Cross",
+        "70% Imprint",
+        "Right Angle Cross of Service (17/18 | 58/52)",
+        "100",
+        "Audit systems, detect structural flaws, and engineer corrections",
+        "2026-11-27 02:50"
+      ],
+      [
+        "BLUEPRINT_KPI",
+        "HD_STRATEGY_COHERENCE",
+        "Strategy Coherence",
+        "Energy Economy",
+        "FLOW",
+        "100",
+        "Enforce Projector sprint (<=4h) and solo decompression (>=2h)",
+        "2026-11-27 02:50"
+      ],
+      [
+        "BLUEPRINT_KPI",
+        "HD_BIO_READINESS",
+        "PHS Daily Bio-Readiness",
+        "Vehicle Optimization",
+        "FLOW",
+        "100",
+        "Honor Calm Digestion, Valleys horizons, Outer Vision & solo sleep",
+        "2026-11-27 02:50"
+      ],
+      [
+        "BLUEPRINT_KPI",
+        "HD_OPEN_CENTER_CONDITIONING",
+        "Open Center Conditioning (Reconciled)",
+        "Live Sky + Open Centers",
+        "G Center, Heart/Ego, Sacral, Solar Plexus",
+        "80",
+        "HIGH_CONDITIONING",
+        "2026-11-27 02:50"
+      ],
+      [
+        "BLUEPRINT_KPI",
+        "HD_ALIGNMENT_RATE",
+        "30-Day Alignment Success Rate",
+        "Empirical Audit",
+        "75.0% Success Rate",
+        "75",
+        "ALIGNED_SUCCESS",
+        "2026-11-27 02:50"
+      ]
+    ],
+    "MODULE_META": [
+      [
+        "Field",
+        "Value",
+        "Notes"
+      ],
+      [
+        "Brick_Name",
+        "Human_Design_OS",
+        "Canonical LifeOS-v3 Human Design Engine (ID_HD)"
+      ],
+      [
+        "Registry_Key",
+        "ID_HD",
+        "Bound key in schemas/workbook_registry.json"
+      ],
+      [
+        "Source_Workbook",
+        "Human Design OS",
+        "Consolidated 10-tab pure-formula workbook (zero Apps Script needed)"
+      ],
+      [
+        "Glyph",
+        "\ud83d\udca0",
+        "Executive HUD icon"
+      ],
+      [
+        "Domain_Pillar",
+        "Pillar 6 / Tier-1 BodyGraph, PHS Variables & Sky Transit Conditioning (I / IT)",
+        "LifeOS AQAL / 5-Pillar domain mapping"
+      ],
+      [
+        "Cadence_Tier",
+        "Immutable Dual-Crystal Blueprint + Live Hub-Routed Sky Transits",
+        "Zero direct spoke-to-spoke IMPORTRANGE"
+      ],
+      [
+        "Signals_Published",
+        "HD_STRATEGY_COHERENCE, HD_AUTHORITY_CLARITY, HD_CONDITIONING_LOAD, HD_BIO_READINESS, HD_PROFILE_CODE, HD_OPEN_CENTER_CONDITIONING, HD_ALIGNMENT_RATE, HD_SPLIT_BRIDGED",
+        "8 zero-PII signals exported via SIGNALS_OUT to LifeOS_feed_hub"
+      ],
+      [
+        "Context_Subscribed",
+        "VITAL_HP, VITAL_MANA, VITAL_STAMINA, VITAL_COHERENCE, ACUTE_STRESS, EQ_EMOTIONAL_CONTROL, P0_WISDOM_SCORE, ZODIAC_ALIGNMENT, ZODIAC_WIP_COUNT, TRANSIT_HD_SUN_EARTH, TRANSIT_HD_MOON_GATE, TRANSIT_HD_SPLIT_BRIDGE, TRANSIT_HD_CONDITIONING_LOAD",
+        "Subscribed via CONTEXT_IN from LifeOS_feed_hub"
+      ],
+      [
+        "Looker_Export_Tab",
+        "LOOKER_HUMAN_DESIGN",
+        "Flat, unmerged, strictly zero-PII tabular feed (28 dynamic rows)"
+      ],
+      [
+        "Privacy_Boundary",
+        "STRICT_ZERO_PII",
+        "Zero birth date, birth time, geographic coordinates, or full legal name anywhere in workbook"
+      ],
+      [
+        "Hub_Spreadsheet_ID",
+        "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
+        "LifeOS_feed_hub central nervous system"
+      ],
+      [
+        "Last_Synced",
+        "2026-11-27 02:50 UTC",
+        "Dynamic live formula sync timestamp"
+      ]
+    ]
+  }
 }

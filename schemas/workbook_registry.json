@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-27T01:26:15Z",
+  "last_updated_utc": "2026-11-27T02:50:59Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -134,16 +134,13 @@
         "The Projector",
         "HD_BLUEPRINT"
       ],
-      "tab_count": 13,
+      "tab_count": 10,
       "tabs": [
         "\ud83d\udca0 HD_DASHBOARD",
         "ADVISORY_MATRIX",
-        "HD_DECISION_ENGINE",
-        "HD_ENERGY_TRANSIT_HUD",
-        "HD_CENTERS_9",
-        "HD_CHANNELS_36",
-        "HD_WHEEL_64",
-        "HD_PHS_VARIABLES",
+        "DECISION_&_BATTERY_ENGINE",
+        "CENTERS_&_CHANNELS",
+        "WHEEL_64_&_PHS",
         "HD_CONFIG_BUS",
         "LOOKER_HUMAN_DESIGN",
         "MODULE_META",
@@ -158,7 +155,8 @@
         "HD_BLUEPRINT"
       ],
       "tab_color_coded": true,
-      "last_audited_utc": "2026-11-27T01:26:15Z"
+      "last_audited_utc": "2026-11-27T02:50:59Z",
+      "name": "Human Design OS"
     },
     "ID_ZODIAC": {
       "title": "Zodiac OS",
