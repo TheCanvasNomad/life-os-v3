@@ -83,7 +83,7 @@
 | **🧪 Life OS // Cattell 16PF** (`ID_16PF`) | `ZERO_SCRIPT_FORMULA_PURE` | `No Script Attached` | None *(pure 16-factor + Global 5 formulas)* | `None` | None *(static fixed-choice Form)* |
 | **🏛️ Maslow's Hierarchy of Needs** (`ID_MASLOW`) | `ZERO_SCRIPT_FORMULA_PURE` | `No Script Attached` | None *(pure 5-tier dynamic formulas)* | `None` | None *(static fixed-choice Form)* |
 | **💠 Human Design OS** (`ID_HD`) | `ZERO_SCRIPT_FORMULA_PURE` | `No Script Attached` | None *(immutable natal chart + Hub `CONTEXT_IN`)* | `None` | None |
-| **♈ Zodiac OS** (`ID_ZODIAC`) | `ZERO_SCRIPT_FORMULA_PURE` | `No Script Attached` | None *(immutable natal transits + `TODAY()` formulas)* | `None` | None |
+| **♈ Zodiac OS** (`ID_ZODIAC`) | `ZERO_SCRIPT_FORMULA_PURE` *(Optional Precision Boost)* | `Optional Boost Available` | Pure-formula 13-body Meeus/VSOP87 ephemeris works out-of-the-box; optional [`ID_ZODIAC_ephemeris.gs`](../scripts/gas/ID_ZODIAC_ephemeris.gs) (`updateDailyEphemeris`, `setupTriggers`) adds daily sub-arcminute precision with zero external APIs | `None` *(or Optional Daily 6:00 AM)* | `SpreadsheetApp` only *(Zero `UrlFetchApp`)* |
 | **🌳 Kaballah Tree of Life OS Engine** (`ID_KABBALAH`) | `ZERO_SCRIPT_FORMULA_PURE` | `No Script Attached` | None *(pure Sephirot + Hub `CONTEXT_IN`)* | `None` | None |
 | **💞 Love_Styles_&_Languages_Brick** (`ID_LOVE_STYLES`) | `ZERO_SCRIPT_FORMULA_PURE` | `No Script Attached` | None *(pure formulas + consolidated `RAW_DATA_LoveLanguage` & `SenseOfTouch`)* | `None` | None |
 | **🧠 Emotional_Intelligence_Brick** (`ID_EQ`) | `ZERO_SCRIPT_FORMULA_PURE` | `No Script Attached` | None *(pure 4-quadrant EQ formulas)* | `None` | None |

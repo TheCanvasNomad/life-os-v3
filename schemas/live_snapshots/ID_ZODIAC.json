@@ -2,13 +2,15 @@
   "workbook_key": "ID_ZODIAC",
   "spreadsheet_id": "1wQcAdR6ZxETOA1_nUmq1XYvPb9WvgSzmwcA4M0StH9M",
   "title": "Zodiac OS",
-  "captured_utc": "2026-11-27T01:14:51Z",
-  "privacy_boundary": "STRICT_ZERO_PII (Birth date, birth time, coordinates & legal name excluded from LOOKER_ZODIAC, SIGNALS_OUT & GitHub snapshots)",
-  "tab_count": 10,
+  "captured_utc": "2026-11-27T01:26:15Z",
+  "privacy_boundary": "STRICT_ZERO_PII",
+  "tab_count": 12,
   "tabs": [
     "\u2648 ZODIAC_HUD",
+    "TRANSIT_RADAR",
     "LUMINARIES_&_HOUSES",
     "ASPECTS_&_ELEMENTS",
+    "HD_GATE_WHEEL_64",
     "CROSS_PSYCHOMETRIC_BRIDGE",
     "OPS_GOVERNOR_&_ADVISORY",
     "CONFIG_HUB",
@@ -17,21 +19,25 @@
     "CONTEXT_IN",
     "SIGNALS_OUT"
   ],
-  "deleted_legacy_tabs": [
-    "LUMINARIES_PLANETS",
-    "HOUSES_ARENAS",
-    "ASPECTS_GEOMETRY",
-    "ELEMENT_MODALITY_ENGINE",
-    "OPS_GOVERNOR",
-    "Aries Overview",
-    "TRANSIT_RADAR",
-    "ADVISORY_MATRIX"
-  ],
   "looker_tab": "LOOKER_ZODIAC",
-  "looker_row_count": 28,
-  "audit_errors_all_10_tabs": 0,
-  "placeholders_remaining": 0,
-  "pii_leaks_looker_signals": 0,
+  "looker_row_count": 45,
+  "audit_errors_all_tabs": 0,
+  "pii_leaks": 0,
+  "ephemeris_mode": "100% API-Free Pure-Formula Meeus/VSOP87 + Optional GAS Precision Boost (scripts/gas/ID_ZODIAC_ephemeris.gs)",
+  "signals_published": [
+    "ZODIAC_ALIGNMENT",
+    "SOLAR_MOMENTUM",
+    "LUNAR_REGULATION",
+    "ZODIAC_WIP_COUNT",
+    "ZODIAC_SUN_TRANSIT",
+    "ZODIAC_LUNAR_PHASE",
+    "ZODIAC_WIP_STATUS",
+    "ZODIAC_DOMINANT_ELEMENT",
+    "TRANSIT_HD_SUN_EARTH",
+    "TRANSIT_HD_MOON_GATE",
+    "TRANSIT_HD_SPLIT_BRIDGE",
+    "TRANSIT_HD_CONDITIONING_LOAD"
+  ],
   "hub_signals_live": [
     [
       "ZODIAC_ALIGNMENT",
@@ -41,7 +47,7 @@
       "Sagittarius Sun / Waning Gibbous (Integrate & Share)",
       "90.0",
       "HIGH_HARMONY",
-      "46353.0515"
+      "46353.05978"
     ],
     [
       "SOLAR_MOMENTUM",
@@ -51,7 +57,7 @@
       "Sagittarius (Fire)",
       "92.0",
       "TRINE_SURGE",
-      "46353.0515"
+      "46353.05978"
     ],
     [
       "LUNAR_REGULATION",
@@ -61,7 +67,7 @@
       "Waning Gibbous (Integrate & Share)",
       "87.9",
       "PEAK_ILLUMINATION",
-      "46353.0515"
+      "46353.05978"
     ],
     [
       "ZODIAC_WIP_COUNT",
@@ -71,17 +77,17 @@
       "2",
       "100.0",
       "AT_CEILING",
-      "46353.0515"
+      "46353.05978"
     ],
     [
       "ZODIAC_SUN_TRANSIT",
       "Zodiac_Brick",
       "\u2648",
       "Transit / IT",
-      "Sagittarius (Fire)",
+      "Sagittarius 4\u00b048' (Fire)",
       "92.0",
       "TRINE_SURGE",
-      "2026-11-27 01:14"
+      "2026-11-27 01:26"
     ],
     [
       "ZODIAC_LUNAR_PHASE",
@@ -91,7 +97,7 @@
       "Waning Gibbous (Integrate & Share)",
       "87.9",
       "DAY_17.8",
-      "2026-11-27 01:14"
+      "2026-11-27 01:26"
     ],
     [
       "ZODIAC_WIP_STATUS",
@@ -101,7 +107,7 @@
       "AT_CEILING",
       "100.0",
       "AT_CEILING",
-      "2026-11-27 01:14"
+      "2026-11-27 01:26"
     ],
     [
       "ZODIAC_DOMINANT_ELEMENT",
@@ -111,421 +117,47 @@
       "Earth (6/11)",
       "30.0",
       "EARTH_DOMINANT",
-      "2026-11-27 01:14"
+      "2026-11-27 01:26"
+    ],
+    [
+      "TRANSIT_HD_SUN_EARTH",
+      "Zodiac_Brick",
+      "\u2600\ufe0f",
+      "HD Transit / I",
+      "34.5 / 20.5",
+      "34.0",
+      "Sacral / Throat",
+      "2026-11-27 01:26"
+    ],
+    [
+      "TRANSIT_HD_MOON_GATE",
+      "Zodiac_Brick",
+      "\ud83c\udf19",
+      "HD Transit / I",
+      "52.6",
+      "52.0",
+      "Root",
+      "2026-11-27 01:26"
+    ],
+    [
+      "TRANSIT_HD_SPLIT_BRIDGE",
+      "Zodiac_Brick",
+      "\u26a1",
+      "HD Transit / IT",
+      "SPLIT_OPEN (No Transit Bridge)",
+      "0.0",
+      "SPLIT_OPEN",
+      "2026-11-27 01:26"
+    ],
+    [
+      "TRANSIT_HD_CONDITIONING_LOAD",
+      "Zodiac_Brick",
+      "\ud83d\udca0",
+      "HD Transit / IT",
+      "G Center, Heart/Ego, Sacral, Solar Plexus",
+      "80.0",
+      "HIGH_CONDITIONING",
+      "2026-11-27 01:26"
     ]
-  ],
-  "samples": {
-    "\u2648 ZODIAC_HUD": [
-      [
-        "",
-        "\u2648 LIFE OS v3.0 \u2014 ZODIAC OS EXECUTIVE TELEMETRY HUD (NATAL HARDWARE \u00d7 LIVE TRANSITS \u00d7 WIP GOVERNOR)"
-      ],
-      [
-        "",
-        "Status: LIVE  \u2022  Sun: Aries 4\u00b014' (10H)  \u2022  Moon: Gemini 28\u00b017' (12H)  \u2022  ASC: Cancer 24\u00b055'  \u2022  MC: Aries 8\u00b011'  \u2022  Hub Context: AUTHORIZED"
-      ],
-      [],
-      [
-        "",
-        "1. CORE NATAL TRINITY, ZENITH & LIVE CELESTIAL SCOREBOARD"
-      ],
-      [
-        "",
-        "SOLAR ALIGNMENT (0\u2013100)",
-        "ACTIVE SUN TRANSIT",
-        "ACTIVE LUNAR PHASE",
-        "RECONCILED WIP LOAD",
-        "DOMINANT ELEMENT",
-        "DOMINANT MODALITY",
-        "LIVE TELEMETRY STATE",
-        "HUB CONTEXT"
-      ],
-      [
-        "",
-        "90",
-        "Sagittarius (Fire)",
-        "Waning Gibbous (Integrate & Share)",
-        "2 / 2 (AT_CEILING)",
-        "Earth (6/11)",
-        "Cardinal (5/11)",
-        "High_Energy",
-        "AUTHORIZED"
-      ],
-      [
-        "",
-        "",
-        "Momentum: 92 (TRINE_SURGE)",
-        "Day 17.8 \u2022 Reg: 87.9",
-        "",
-        "60% Yin / 40% Yang",
-        "60% Cardinal / 15% Fixed",
-        "Pass-2 Active Mode",
-        "Live Hub Relay"
-      ],
-      [],
-      [
-        "",
-        "2. CORE NATAL TRINITY & ZENITH BLUEPRINT",
-        "",
-        "",
-        "",
-        "3. LIVE DAILY TRANSIT RADAR (AUTO-TODAY())"
-      ],
-      [
-        "",
-        "Anchor Point",
-        "Sign & Degree",
-        "House / Arena",
-        "Operational Vector",
-        "Transit Metric",
-        "Live Value",
-        "Score / Day",
-        "Status"
-      ]
-    ],
-    "CONTEXT_IN": [
-      [
-        "Signal_Key",
-        "Live_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Freshness_Status",
-        "Hub_Auth_Trigger"
-      ],
-      [
-        "DAILY_ENERGY",
-        "Sleep/Drive Index: 75.0%",
-        "75",
-        "STEADY",
-        "FRESH",
-        "AUTHORIZED"
-      ],
-      [
-        "OCEAN_OPENNESS",
-        "0.954",
-        "95.4",
-        "BUFF",
-        "ACTIVE",
-        "AUTHORIZED"
-      ],
-      [
-        "OCEAN_CONSCIENTIOUSNESS",
-        "0.015",
-        "1.5",
-        "DEBUFF",
-        "ACTIVE",
-        "AUTHORIZED"
-      ],
-      [
-        "ENN_CORE_SIGNATURE",
-        "Type 7 - The Visionary Enthusiast (7w6 | 794 | SX/SO/SP)",
-        "92",
-        "ACTIVE",
-        "FRESH",
-        "AUTHORIZED"
-      ],
-      [
-        "HD_STRATEGY_COHERENCE",
-        "1",
-        "100",
-        "FLOW",
-        "FRESH",
-        "AUTHORIZED"
-      ],
-      [
-        "P5_ACTIVE_EPICS_COUNT",
-        "2",
-        "50",
-        "2 ACTIVE_EPICS",
-        "FRESH",
-        "AUTHORIZED"
-      ],
-      [
-        "DAILY_MOOD",
-        "Clarity/Harmony Index: 75.0% (Neutrality)",
-        "75",
-        "CLEAR",
-        "FRESH",
-        "AUTHORIZED"
-      ],
-      [
-        "ACUTE_STRESS",
-        "Resistance/Pressure Load: 30.0%",
-        "30",
-        "LOW_FRICTION",
-        "FRESH",
-        "AUTHORIZED"
-      ]
-    ],
-    "SIGNALS_OUT": [
-      [
-        "Signal_Key",
-        "Source_Brick",
-        "Glyph",
-        "Domain_Pillar",
-        "Raw_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated",
-        "TTL_Hours",
-        "Notes"
-      ],
-      [
-        "ZODIAC_ALIGNMENT",
-        "Zodiac_Brick",
-        "\u2648",
-        "Natal Transit / I",
-        "Sagittarius Sun / Waning Gibbous (Integrate & Share)",
-        "90",
-        "HIGH_HARMONY",
-        "11/27/2026 1:14:24",
-        "24",
-        "Composite daily solar-lunar natal alignment index"
-      ],
-      [
-        "SOLAR_MOMENTUM",
-        "Zodiac_Brick",
-        "\u2600\ufe0f",
-        "Transit / IT",
-        "Sagittarius (Fire)",
-        "92",
-        "TRINE_SURGE",
-        "11/27/2026 1:14:24",
-        "24",
-        "Live solar aspect momentum vs Natal Aries Sun/MC"
-      ],
-      [
-        "LUNAR_REGULATION",
-        "Zodiac_Brick",
-        "\ud83c\udf19",
-        "Emotional Rhythm / I",
-        "Waning Gibbous (Integrate & Share)",
-        "87.9",
-        "PEAK_ILLUMINATION",
-        "11/27/2026 1:14:24",
-        "24",
-        "Circalunar illumination & nervous-system regulation index"
-      ],
-      [
-        "ZODIAC_WIP_COUNT",
-        "Zodiac_Brick",
-        "\u2696\ufe0f",
-        "Governance / ITS",
-        "2",
-        "100",
-        "AT_CEILING",
-        "11/27/2026 1:14:24",
-        "24",
-        "Reconciled Law 5 Max-2 Active WIP Initiative governor"
-      ],
-      [
-        "ZODIAC_SUN_TRANSIT",
-        "Zodiac_Brick",
-        "\u2648",
-        "Transit / IT",
-        "Sagittarius (Fire)",
-        "92",
-        "TRINE_SURGE",
-        "11/27/2026 1:14:24",
-        "24",
-        "Active tropical Sun sign transit & element"
-      ],
-      [
-        "ZODIAC_LUNAR_PHASE",
-        "Zodiac_Brick",
-        "\ud83c\udf13",
-        "Emotional Rhythm / I",
-        "Waning Gibbous (Integrate & Share)",
-        "87.9",
-        "DAY_17.8",
-        "11/27/2026 1:14:24",
-        "24",
-        "Active synodic lunar phase & cycle day"
-      ],
-      [
-        "ZODIAC_WIP_STATUS",
-        "Zodiac_Brick",
-        "\ud83d\udee1\ufe0f",
-        "Governance / ITS",
-        "AT_CEILING",
-        "100",
-        "AT_CEILING",
-        "11/27/2026 1:14:24",
-        "24",
-        "OPS_GOVERNOR WIP ceiling status (CAPACITY_OK / AT_CEILING / WIP_OVERLOAD)"
-      ],
-      [
-        "ZODIAC_DOMINANT_ELEMENT",
-        "Zodiac_Brick",
-        "\ud83d\udf03",
-        "Natal Hardware / I",
-        "Earth (6/11)",
-        "30",
-        "EARTH_DOMINANT",
-        "11/27/2026 1:14:24",
-        "2160",
-        "Dominant natal thermodynamic element & mass share"
-      ],
-      []
-    ],
-    "LOOKER_ZODIAC_headers": [
-      "Record_Type",
-      "Entity_Key",
-      "Entity_Label",
-      "Sign_Or_Value",
-      "Numeric_Metric",
-      "Status_Tag",
-      "Last_Updated"
-    ],
-    "LOOKER_ZODIAC_sample": [
-      [
-        "NATAL_PLACEMENT",
-        "P_01",
-        "Sun",
-        "Aries (House 10 (Conjunct MC))",
-        "4.23",
-        "Fire / Cardinal",
-        "2026-11-27 01:14"
-      ],
-      [
-        "NATAL_PLACEMENT",
-        "P_02",
-        "Moon",
-        "Gemini (House 12 (Subconscious))",
-        "88.28",
-        "Air / Mutable",
-        "2026-11-27 01:14"
-      ],
-      [
-        "NATAL_PLACEMENT",
-        "P_03",
-        "Mercury",
-        "Pisces (House 9 (Higher Philosophy))",
-        "341.57",
-        "Water / Mutable",
-        "2026-11-27 01:14"
-      ],
-      [
-        "NATAL_PLACEMENT",
-        "P_04",
-        "Venus",
-        "Taurus (House 11 (Masterminds))",
-        "49.82",
-        "Earth / Fixed",
-        "2026-11-27 01:14"
-      ],
-      [
-        "NATAL_PLACEMENT",
-        "P_05",
-        "Mars",
-        "Capricorn (House 6 (Operational Labor))",
-        "291.07",
-        "Earth / Cardinal",
-        "2026-11-27 01:14"
-      ],
-      [
-        "NATAL_PLACEMENT",
-        "P_06",
-        "Jupiter",
-        "Taurus (House 10 (Culminating))",
-        "33.55",
-        "Earth / Fixed",
-        "2026-11-27 01:14"
-      ],
-      [
-        "NATAL_PLACEMENT",
-        "P_07",
-        "Saturn",
-        "Capricorn (House 6 (Operational Labor))",
-        "272.43",
-        "Earth / Cardinal",
-        "2026-11-27 01:14"
-      ],
-      [
-        "NATAL_PLACEMENT",
-        "P_08",
-        "Uranus",
-        "Capricorn (House 6 (Operational Labor))",
-        "271",
-        "Earth / Cardinal",
-        "2026-11-27 01:14"
-      ],
-      [
-        "NATAL_PLACEMENT",
-        "P_09",
-        "Neptune",
-        "Capricorn (House 6 (Operational Labor))",
-        "280.08",
-        "Earth / Cardinal",
-        "2026-11-27 01:14"
-      ]
-    ],
-    "MODULE_META": [
-      [
-        "Field",
-        "Value",
-        "Notes"
-      ],
-      [
-        "Brick_Name",
-        "Zodiac_Brick",
-        "Canonical LifeOS-v3 Brick identifier"
-      ],
-      [
-        "Registry_Key",
-        "ID_ZODIAC",
-        "Bound key in schemas/workbook_registry.json"
-      ],
-      [
-        "Source_Workbook",
-        "Zodiac OS",
-        "Consolidated 10-tab pure-formula workbook (zero Apps Script needed)"
-      ],
-      [
-        "Glyph",
-        "\u2648",
-        "Executive HUD icon"
-      ],
-      [
-        "Domain_Pillar",
-        "Pillar 6 / Natal Hardware, Live Transits & WIP Governor (I / ITS)",
-        "LifeOS AQAL / 5-Pillar domain mapping"
-      ],
-      [
-        "Cadence_Tier",
-        "Immutable Natal Blueprint + Daily TODAY() Transit Radar (TTL: 24h)",
-        "100% dynamic zero-script engine"
-      ],
-      [
-        "Signals_Published",
-        "ZODIAC_ALIGNMENT, SOLAR_MOMENTUM, LUNAR_REGULATION, ZODIAC_WIP_COUNT, ZODIAC_SUN_TRANSIT, ZODIAC_LUNAR_PHASE, ZODIAC_WIP_STATUS, ZODIAC_DOMINANT_ELEMENT",
-        "Exported via SIGNALS_OUT to LifeOS_feed_hub"
-      ],
-      [
-        "Context_Subscribed",
-        "DAILY_ENERGY, OCEAN_OPENNESS, OCEAN_CONSCIENTIOUSNESS, ENN_CORE_SIGNATURE, HD_STRATEGY_COHERENCE, P5_ACTIVE_EPICS_COUNT, DAILY_MOOD, ACUTE_STRESS",
-        "Subscribed via CONTEXT_IN from LifeOS_feed_hub"
-      ],
-      [
-        "Looker_Export_Tab",
-        "LOOKER_ZODIAC",
-        "Flat, unmerged, strictly zero-PII tabular feed (28 dynamic rows)"
-      ],
-      [
-        "Privacy_Boundary",
-        "STRICT_ZERO_PII",
-        "Birth date, birth time, coordinates & legal name stay encapsulated in CONFIG_HUB; never exported to LOOKER_ZODIAC or GitHub"
-      ],
-      [
-        "Hub_Spreadsheet_ID",
-        "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
-        "LifeOS_feed_hub central nervous system"
-      ],
-      [
-        "Last_Synced",
-        "2026-11-27 01:14 UTC",
-        "Dynamic live formula sync timestamp"
-      ]
-    ]
-  }
+  ]
 }

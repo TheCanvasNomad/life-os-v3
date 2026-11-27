@@ -1,428 +1,75 @@
 {
+  "workbook_key": "ID_HD",
   "spreadsheet_id": "1yTiVyqmpz5FeZJSuN6_fmMfQZWq4HMcNCIKELBz8wp0",
   "title": "Human Design OS",
-  "key": "ID_HD",
-  "captured_at_utc": "2026-11-25T06:49:18Z",
-  "pii_scrubbed": true,
-  "privacy_boundary": "ZERO_PII_BIRTH_METADATA_EXCLUDED",
+  "captured_utc": "2026-11-27T01:26:15Z",
+  "privacy_boundary": "STRICT_ZERO_PII",
   "tab_count": 13,
-  "redundant_tabs_deleted": [
-    "Core Components",
-    "The Projector",
-    "HD_BLUEPRINT"
-  ],
   "tabs": [
-    {
-      "index": 0,
-      "title": "\ud83d\udca0 HD_DASHBOARD",
-      "sheetId": 385880521,
-      "tabColor": "#F59E0B",
-      "hideGridlines": true
-    },
-    {
-      "index": 1,
-      "title": "ADVISORY_MATRIX",
-      "sheetId": 1869928917,
-      "tabColor": "#8B5CF6",
-      "hideGridlines": true
-    },
-    {
-      "index": 2,
-      "title": "HD_DECISION_ENGINE",
-      "sheetId": 1474450060,
-      "tabColor": "#8B5CF6",
-      "hideGridlines": true
-    },
-    {
-      "index": 3,
-      "title": "HD_ENERGY_TRANSIT_HUD",
-      "sheetId": 798810675,
-      "tabColor": "#8B5CF6",
-      "hideGridlines": true
-    },
-    {
-      "index": 4,
-      "title": "HD_CENTERS_9",
-      "sheetId": 1716374683,
-      "tabColor": "#8B5CF6",
-      "hideGridlines": true
-    },
-    {
-      "index": 5,
-      "title": "HD_CHANNELS_36",
-      "sheetId": 1467414975,
-      "tabColor": "#8B5CF6",
-      "hideGridlines": true
-    },
-    {
-      "index": 6,
-      "title": "HD_WHEEL_64",
-      "sheetId": 1324840502,
-      "tabColor": "#8B5CF6",
-      "hideGridlines": true
-    },
-    {
-      "index": 7,
-      "title": "HD_PHS_VARIABLES",
-      "sheetId": 718959226,
-      "tabColor": "#8B5CF6",
-      "hideGridlines": true
-    },
-    {
-      "index": 8,
-      "title": "HD_CONFIG_BUS",
-      "sheetId": 1028706344,
-      "tabColor": "#8B5CF6",
-      "hideGridlines": true
-    },
-    {
-      "index": 9,
-      "title": "LOOKER_HUMAN_DESIGN",
-      "sheetId": 393396550,
-      "tabColor": "#06B6D4",
-      "hideGridlines": true
-    },
-    {
-      "index": 10,
-      "title": "MODULE_META",
-      "sheetId": 2111009158,
-      "tabColor": "#3B82F6",
-      "hideGridlines": true
-    },
-    {
-      "index": 11,
-      "title": "CONTEXT_IN",
-      "sheetId": 199726863,
-      "tabColor": "#3B82F6",
-      "hideGridlines": true
-    },
-    {
-      "index": 12,
-      "title": "SIGNALS_OUT",
-      "sheetId": 1549984024,
-      "tabColor": "#3B82F6",
-      "hideGridlines": true
-    }
+    "\ud83d\udca0 HD_DASHBOARD",
+    "ADVISORY_MATRIX",
+    "HD_DECISION_ENGINE",
+    "HD_ENERGY_TRANSIT_HUD",
+    "HD_CENTERS_9",
+    "HD_CHANNELS_36",
+    "HD_WHEEL_64",
+    "HD_PHS_VARIABLES",
+    "HD_CONFIG_BUS",
+    "LOOKER_HUMAN_DESIGN",
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT"
   ],
-  "signals_out": [
+  "looker_tab": "LOOKER_HUMAN_DESIGN",
+  "looker_row_count": 27,
+  "audit_errors_all_tabs": 0,
+  "pii_leaks": 0,
+  "transit_context_subscribed": [
+    "TRANSIT_HD_SUN_EARTH",
+    "TRANSIT_HD_MOON_GATE",
+    "TRANSIT_HD_SPLIT_BRIDGE",
+    "TRANSIT_HD_CONDITIONING_LOAD"
+  ],
+  "live_transit_preview": [
     [
-      "Signal_Key",
-      "Raw_Summary",
-      "Normalized_Score_0_100",
-      "State_Tag",
-      "Last_Updated"
+      "TRANSIT_WEATHER",
+      "TRANSIT_HD_SUN_EARTH",
+      "Live Sun/Earth Gate.Line",
+      "Daily Sky Imprint",
+      "34.5 / 20.5",
+      "34",
+      "Sacral / Throat transit focus",
+      "2026-11-27 01:26"
     ],
     [
-      "HD_STRATEGY_COHERENCE",
-      "100%",
-      "100",
-      "FLOW",
-      "11/25/2026 6:49:11"
+      "TRANSIT_WEATHER",
+      "TRANSIT_HD_MOON_GATE",
+      "Live Moon Gate.Line",
+      "Lunar Sky Imprint",
+      "52.6",
+      "52",
+      "Root lunar focus",
+      "2026-11-27 01:26"
     ],
     [
-      "HD_AUTHORITY_CLARITY",
-      "Splenic Authority",
-      "100",
-      "BUFF",
-      "11/25/2026 6:49:11"
+      "TRANSIT_WEATHER",
+      "TRANSIT_HD_SPLIT_BRIDGE",
+      "Split Definition Bridge",
+      "Split Topology",
+      "SPLIT_OPEN",
+      "0",
+      "SPLIT_OPEN (No Transit Bridge)",
+      "2026-11-27 01:26"
     ],
     [
-      "HD_CONDITIONING_LOAD",
-      "4 Defined / 5 Undefined",
-      "56",
-      "BALANCED_OPENNESS",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "HD_BIO_READINESS",
-      "100%",
-      "100",
-      "FLOW",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "HD_PROFILE_CODE",
-      "1/3",
-      "100",
-      "LOCKED",
-      "11/25/2026 6:49:11"
-    ],
-    [],
-    [
-      "TIER 1 NATAL STAT STACKING MODIFIERS (BASE \u00d7 TRAITS \u00d7 LIVE STATE)"
-    ],
-    [
-      "Target_Attribute",
-      "Tier_1_HD_Modifier",
-      "Energetic_Basis",
-      "Dynamic_Rule"
-    ],
-    [
-      "HP_Vitality",
-      "0.95",
-      "Sacral Motor vs. Non-Sacral Energy Economy",
-      "Non-Sacral types require strict pacing & recovery"
-    ],
-    [
-      "Mana_Focus",
-      "1.1",
-      "Defined Ajna / Head Strategic Synthesis Multiplier",
-      "Consistent conceptual focus & pattern scanning"
-    ],
-    [
-      "Stamina_Recovery",
-      "1.1",
-      "PHS Bio-Readiness & Solo Aura Decompression Factor",
-      "Scales directly with Daily PHS Bio-Readiness"
-    ],
-    [
-      "Coherence_Alignment",
-      "1.1",
-      "Strategy & Inner Authority Alignment Multiplier",
-      "Scales directly with Energy Economy Coherence"
+      "TRANSIT_WEATHER",
+      "TRANSIT_HD_CONDITIONING_LOAD",
+      "Open-Center Conditioning Load",
+      "5 Undefined Centers",
+      "G Center, Heart/Ego, Sacral, Solar Plexus",
+      "80",
+      "HIGH_CONDITIONING",
+      "2026-11-27 01:26"
     ]
-  ],
-  "looker_human_design": [
-    [
-      "Record_Type",
-      "Entity_Key",
-      "Entity_Label",
-      "Category",
-      "State_Or_Value",
-      "Numeric_Score_0_100",
-      "Operational_Directive",
-      "Last_Updated"
-    ],
-    [
-      "BLUEPRINT_KPI",
-      "HD_AURA_TYPE",
-      "Aura Type",
-      "Natal Classification",
-      "Projector",
-      "100",
-      "Wait for Recognition & Invitation before major commitments",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "BLUEPRINT_KPI",
-      "HD_INNER_AUTHORITY",
-      "Inner Authority",
-      "Decision Engine",
-      "Splenic Authority",
-      "100",
-      "Trust instantaneous somatic Splenic clarity in the present moment",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "BLUEPRINT_KPI",
-      "HD_PROFILE_CODE",
-      "Profile Code",
-      "Life Trajectory",
-      "1/3",
-      "100",
-      "Line 1 Investigator foundations + Line 3 Martyr empirical experimentation",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "BLUEPRINT_KPI",
-      "HD_DEFINITION_TOPOLOGY",
-      "Definition Topology",
-      "Circuit Architecture",
-      "Simple Split Definition (2 Islands)",
-      "100",
-      "Bridge Simple Split (Ajna-Throat / Spleen-Root) via aligned spaces",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "BLUEPRINT_KPI",
-      "HD_INCARNATION_CROSS",
-      "Incarnation Cross",
-      "70% Imprint",
-      "Right Angle Cross of Service (17/18 | 58/52)",
-      "100",
-      "Audit systems, detect structural flaws, and engineer corrections",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "BLUEPRINT_KPI",
-      "HD_STRATEGY_COHERENCE",
-      "Strategy Coherence",
-      "Energy Economy",
-      "FLOW",
-      "100",
-      "Enforce Projector sprint (<=4h) and solo decompression (>=2h)",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "BLUEPRINT_KPI",
-      "HD_BIO_READINESS",
-      "PHS Daily Bio-Readiness",
-      "Vehicle Optimization",
-      "FLOW",
-      "100",
-      "Honor Calm Digestion, Valleys horizons, Outer Vision & solo sleep",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "BLUEPRINT_KPI",
-      "HD_CENTER_CONDITIONING",
-      "Open Center Conditioning",
-      "Not-Self Audit",
-      "4 Defined / 5 Undefined",
-      "56",
-      "Observe amplified open-center energy objectively without owning it",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "CENTER_9",
-      "CTR_01",
-      "Head",
-      "Mental Pressure",
-      "UNDEFINED",
-      "0",
-      "Pressure to solve everyone else's problems or answer irrelevant mental noise.",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "CENTER_9",
-      "CTR_02",
-      "Ajna",
-      "Mental Awareness",
-      "DEFINED",
-      "100",
-      "Consistent conceptual architecture, pattern synthesis & logical modeling (17, 43, 11).",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "CENTER_9",
-      "CTR_03",
-      "Throat",
-      "Manifestation Hub",
-      "DEFINED",
-      "100",
-      "Consistent, structured articulation of individual breakthroughs (Channel 43\u201323).",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "CENTER_9",
-      "CTR_04",
-      "G Center",
-      "Identity & Direction",
-      "UNDEFINED",
-      "0",
-      "Searching frantically for a fixed identity, life direction, or external validation.",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "CENTER_9",
-      "CTR_05",
-      "Heart / Ego",
-      "Willpower Motor",
-      "UNDEFINED",
-      "0",
-      "Making unnecessary promises or overworking to prove self-worth to institutions.",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "CENTER_9",
-      "CTR_06",
-      "Sacral",
-      "Life-Force Motor",
-      "UNDEFINED",
-      "0",
-      "Failing to know when enough is enough; amplifying Generator hustle into burnout.",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "CENTER_9",
-      "CTR_07",
-      "Solar Plexus",
-      "Emotional Motor / Aware",
-      "UNDEFINED",
-      "0",
-      "Absorbing/amplifying others' moods or avoiding necessary confrontation to keep peace.",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "CENTER_9",
-      "CTR_08",
-      "Spleen",
-      "Survival Awareness",
-      "DEFINED",
-      "100",
-      "PRIMARY INNER AUTHORITY: Instantaneous present-moment intuition & flaw detection (18.1\u25b2, 44).",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "CENTER_9",
-      "CTR_09",
-      "Root",
-      "Adrenal Pressure Motor",
-      "DEFINED",
-      "100",
-      "Grounded adrenaline fuel to improve systems (58), stay still (52), and fight for purpose (38\u25b2).",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "PHS_VARIABLE",
-      "PHS_01",
-      "Digestion (PHS Diet)",
-      "Color 4 / Tone 3",
-      "Calm (Nervous)",
-      "100",
-      "Zero-Distraction Meals & Deep Work",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "PHS_VARIABLE",
-      "PHS_02",
-      "Environment (Space)",
-      "Color 5 / Tone 2",
-      "Valleys (Wide)",
-      "100",
-      "Decluttered Open-Horizon Workspace",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "PHS_VARIABLE",
-      "PHS_03",
-      "Design Sense (Cognition)",
-      "Tone 3 (Visual)",
-      "Outer Vision",
-      "100",
-      "Visual Telemetry & Mapping First",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "PHS_VARIABLE",
-      "PHS_04",
-      "Motivation (Drive)",
-      "Color 3 (Transf: Innocence)",
-      "Desire",
-      "100",
-      "Audit True Desire vs. Obligation",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "PHS_VARIABLE",
-      "PHS_05",
-      "Perspective (View)",
-      "Color 5 (Dist: Probability)",
-      "Power",
-      "100",
-      "Map Structural Power Dynamics",
-      "11/25/2026 6:49:11"
-    ],
-    [
-      "PHS_VARIABLE",
-      "PHS_06",
-      "Aura Reset Protocol",
-      "Projector Mechanic",
-      "Solo Sleep Field",
-      "100",
-      "Dedicated Solo Sleep Sanctuary",
-      "11/25/2026 6:49:11"
-    ]
-  ],
-  "audit_errors": 0
+  ]
 }

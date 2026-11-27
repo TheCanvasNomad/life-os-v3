@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-27T01:14:51Z",
+  "last_updated_utc": "2026-11-27T01:26:15Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -158,7 +158,7 @@
         "HD_BLUEPRINT"
       ],
       "tab_color_coded": true,
-      "last_audited_utc": "2026-11-25T06:49:18Z"
+      "last_audited_utc": "2026-11-27T01:26:15Z"
     },
     "ID_ZODIAC": {
       "title": "Zodiac OS",
@@ -196,13 +196,15 @@
         "ADVISORY_MATRIX",
         "SIGNALS_OUT"
       ],
-      "tab_count": 10,
+      "tab_count": 12,
       "universal_brick_compliant": true,
       "name": "Zodiac OS",
       "tabs": [
         "\u2648 ZODIAC_HUD",
+        "TRANSIT_RADAR",
         "LUMINARIES_&_HOUSES",
         "ASPECTS_&_ELEMENTS",
+        "HD_GATE_WHEEL_64",
         "CROSS_PSYCHOMETRIC_BRIDGE",
         "OPS_GOVERNOR_&_ADVISORY",
         "CONFIG_HUB",
@@ -213,7 +215,7 @@
       ],
       "looker_tab": "LOOKER_ZODIAC",
       "primary_tab": "\u2648 ZODIAC_HUD",
-      "last_audited_utc": "2026-11-27T01:14:51Z"
+      "last_audited_utc": "2026-11-27T01:26:15Z"
     },
     "ID_GRIT": {
       "title": "Grit Score Assessment",
