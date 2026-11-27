@@ -1,7 +1,7 @@
 # LifeOS-v3 Hub & Brick `IMPORTRANGE` Browser Authorization Checklist
 
 > **Why this checklist exists**: Google Sheets requires a one-time interactive browser click (**"Allow access"** on a `#REF!` cell) for each new cross-spreadsheet `IMPORTRANGE` connection. APIs and scripts cannot grant this permission on your behalf.  
-> **Last Audited**: `2026-11-26` (**2023 Legacy 16-Types MBTI Baseline (`ENTJ-T`)** folded into **`🧩 MBTI_Cognitive_Stack`** [`ID_MBTI`: `20` tabs, `Legacy_Archive` + `Timeline_Snapshots` + `Overall_Averages` + `State_vs_Trait_Volatility` + new flat zero-PII **`LOOKER_MBTI`** (15 rows), `0` errors, all 6 legacy 2023 spreadsheets prefixed `ARCHIVE_2023_` & marked `CONSOLIDATED_INTO_MBTI_BRICK`] — **300 live Hub signals, 43 registered modules, 33 flat zero-PII Looker tabs & 0 formula errors**!)
+> **Last Audited**: `2026-11-26` (**`ARCHIVE_2021_Daily activities (Responses)`** [`1P0Ly6e9sBJQekN6kAcY7jkNXjbzQGzKCQu9aIP3q6Dc`] consolidated as **`CONSOLIDATED_INTO_PILLAR`** read-only 2021 baseline inside **`💚 Pillar_1_Health`** [`LEGACY_HABIT_BASELINES` + `DASHBOARD`/`HABIT_MANAGER` delta cards, `11` tabs, `0` errors, 7D rolling isolation verified] — **300 live Hub signals, 43 registered modules, 33 flat zero-PII Looker tabs & 0 formula errors**!)
 
 ---
 

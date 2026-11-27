@@ -1,213 +1,151 @@
 {
-  "registry_key": "ID_PILLAR_1",
-  "title": "\ud83d\udc9a Pillar_1_Health",
+  "workbook_key": "ID_PILLAR_1",
   "spreadsheet_id": "1dzuXlVWO5VRtla0p0ZuziZAvpm2ZySslPLZOhWDQGSI",
-  "snapshot_utc": "2026-11-24T06:07:43Z",
-  "pii_policy": "ZERO_PII_HEADERS_ONLY",
-  "tab_count": 10,
+  "title": "\ud83d\udc9a Pillar_1_Health",
+  "captured_utc": "2026-11-27T04:17:00Z",
+  "privacy_boundary": "STRICT_ZERO_PII_ZERO_RAW_PROSE",
+  "tab_count": 11,
   "tabs": [
-    {
-      "title": "DASHBOARD",
-      "sheet_id": 1574623082,
-      "index": 0,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "\ud83d\udc9a LIFEOS v3.0 \u2014 PILLAR 1: HEALTH & VITALITY EXECUTIVE COMMAND HUD"
-      ]
-    },
-    {
-      "title": "DATABASE",
-      "sheet_id": 595946293,
-      "index": 1,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Timestamp",
-        "Date",
-        "Time_Window",
-        "Sleep_Quality",
-        "Nutrition_Quality",
-        "Hydration_Score",
-        "Energy_Level",
-        "Focus_Clarity",
-        "Stress_Level",
-        "Prana_Level",
-        "Active_Habits_Completed",
-        "Vice_Lapses",
-        "Appearance_Score",
-        "Workout_Logged",
-        "Bio_Source_Note",
-        "Journal_Notes"
-      ]
-    },
-    {
-      "title": "HABIT_MANAGER",
-      "sheet_id": 849904603,
-      "index": 2,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Active_Habit_Name",
-        "Active_Status",
-        "Pyramid_Tier",
-        "Target_Freq_Per_Wk",
-        "Form_Sync_State",
-        "Live_Streak_Days",
-        "Compliance_7D_Pct"
-      ]
-    },
-    {
-      "title": "CALCULATIONS",
-      "sheet_id": 1602714125,
-      "index": 3,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "\ud83e\uddee PILLAR 1 // 100% DYNAMIC ARRAY CALCULATION ENGINE (SCAN+LAMBDA STREAKS, PYRAMID & BIO-RHYTHM)"
-      ]
-    },
-    {
-      "title": "P1_CONFIG",
-      "sheet_id": 1910824463,
-      "index": 4,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "\u2699\ufe0f P1_CONFIG // PILLAR 1 TUNABLE PHYSICS & CROSS-WORKBOOK REGISTRY (ZERO HARDCODED WEIGHTS)"
-      ]
-    },
-    {
-      "title": "IMPORTS",
-      "sheet_id": 0,
-      "index": 5,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 38,
-      "headers_row_1": [
-        "Timestamp",
-        "Date",
-        "Time_Window",
-        "Sleep_Quality",
-        "Nutrition_Quality",
-        "Hydration_Score",
-        "Energy_Level",
-        "Focus_Clarity",
-        "Stress_Level",
-        "Prana_Level",
-        "Active_Habits_Completed",
-        "Vice_Lapses",
-        "Appearance_Score",
-        "Workout_Logged",
-        "Bio_Source_Note",
-        "Journal_Notes",
-        "",
-        "Auth_RAW_DailyCheckIn",
-        "Auth_BIO_CORE",
-        "",
-        "Signal_Key",
-        "Source_Brick",
-        "Glyph",
-        "Domain_Pillar",
-        "Raw_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated",
-        "TTL_Hours",
-        "Notes",
-        "",
-        "BIO_Metric_Key",
-        "BIO_7D_Avg",
-        "BIO_30D_Avg",
-        "BIO_Status_Unit"
-      ]
-    },
-    {
-      "title": "MODULE_META",
-      "sheet_id": 683119252,
-      "index": 6,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Field",
-        "Value",
-        "Notes"
-      ]
-    },
-    {
-      "title": "CONTEXT_IN",
-      "sheet_id": 744371407,
-      "index": 7,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Signal_Key",
-        "Live_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Freshness_Status",
-        "Hub_Auth_Trigger"
-      ]
-    },
-    {
-      "title": "SIGNALS_OUT",
-      "sheet_id": 1963503914,
-      "index": 8,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Signal_Key",
-        "Source_Brick",
-        "Glyph",
-        "Domain_Pillar",
-        "Raw_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated",
-        "TTL_Hours",
-        "Notes"
-      ]
-    },
-    {
-      "title": "LOOKER_HEALTH_SERIES",
-      "sheet_id": 116674871,
-      "index": 9,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 365,
-      "col_count": 14,
-      "headers_row_1": [
-        "Log_Date",
-        "Time_Window",
-        "Sleep_Quality",
-        "Nutrition_Quality",
-        "Hydration_Score",
-        "Energy_Level",
-        "Focus_Clarity",
-        "Stress_Level",
-        "Prana_Level",
-        "Habits_Completed",
-        "Vice_Lapses",
-        "Appearance_Score",
-        "Workout_Logged"
-      ]
-    }
+    "DASHBOARD",
+    "DATABASE",
+    "HABIT_MANAGER",
+    "LEGACY_HABIT_BASELINES",
+    "CALCULATIONS",
+    "P1_CONFIG",
+    "IMPORTS",
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT",
+    "LOOKER_HEALTH_SERIES"
+  ],
+  "audit_errors_all_tabs": 0,
+  "rolling_7d_isolation_verified": true,
+  "legacy_2021_baseline": [
+    [
+      "Record_Tag",
+      "Baseline_Field",
+      "Recorded_Value",
+      "Normalized_0_100",
+      "Provenance_Source",
+      "7D_Rolling_Inclusion"
+    ],
+    [
+      "LEGACY_2021_BASELINE",
+      "Baseline Date",
+      "2021-11-30",
+      "",
+      "Daily activities (Responses) [2021-11-30 18:55:07.711]",
+      "EXCLUDED (Historical Anchor)"
+    ],
+    [
+      "LEGACY_2021_BASELINE",
+      "Self-Care Practice & Cadence",
+      "Journaling (Weekly cadence)",
+      "",
+      "Daily activities (Responses)",
+      "EXCLUDED (Historical Anchor)"
+    ],
+    [
+      "LEGACY_2021_BASELINE",
+      "Mindfulness Practice",
+      "Google Form Journals",
+      "",
+      "Daily activities (Responses)",
+      "EXCLUDED (Historical Anchor)"
+    ],
+    [
+      "LEGACY_2021_BASELINE",
+      "Minimalism Posture",
+      "Aspirational (Seeking larger role)",
+      "",
+      "Daily activities (Responses)",
+      "EXCLUDED (Historical Anchor)"
+    ],
+    [
+      "LEGACY_2021_BASELINE",
+      "Subjective Productivity Baseline",
+      "2 / 5",
+      "40",
+      "Daily activities (Responses) [2/5 -> 40/100]",
+      "EXCLUDED (Historical Anchor)"
+    ],
+    [
+      "LEGACY_2021_BASELINE",
+      "Night-Before Planning",
+      "No",
+      "0",
+      "Daily activities (Responses) [0%]",
+      "EXCLUDED (Historical Anchor)"
+    ],
+    [
+      "LEGACY_2021_BASELINE",
+      "Core Self-Care Outcome",
+      "Self Actualization",
+      "",
+      "Daily activities (Responses)",
+      "EXCLUDED (Historical Anchor)"
+    ]
+  ],
+  "legacy_2021_delta_comparison": [
+    [
+      "Comparison_Axis",
+      "2021 Legacy Baseline",
+      "Live Pillar 1 Value",
+      "Delta / Trajectory",
+      "Visual Gauge",
+      "Isolation Verification"
+    ],
+    [
+      "Vitality / Productivity Index (0\u2013100)",
+      "40",
+      "74.9",
+      "+34.9 pts (+87.3%)",
+      "",
+      "Live P1_HEALTH_BASE_SCORE untouched"
+    ],
+    [
+      "Active Habit Cadence Architecture",
+      "1 Weekly Practice (Journaling)",
+      "7 Daily Habits (46 target/wk)",
+      "+6 structured daily habits vs. 2021 weekly baseline",
+      "",
+      "HABIT_MANAGER form sync untouched"
+    ],
+    [
+      "Night-Before Planning & Mindfulness",
+      "No (0%) \u2022 Google Form Journals",
+      "Active Pillar 1 OS (STABLE_BUILD)",
+      "Evolved from ad-hoc form journal -> full LifeOS v3.0 Pillar 1 + BIO_CORE telemetry",
+      "",
+      "Zero spoke-to-spoke IMPORTRANGE"
+    ],
+    [
+      "7-Day Rolling Isolation Guard",
+      "1 Legacy Row (2021-11-30)",
+      "0 Active Check-Ins",
+      "CONFIRMED EXCLUDED (0 active check-ins; BIO_CORE 74.9 pure)",
+      "",
+      "STRICT_ZERO_PII_BOUNDARY"
+    ]
+  ],
+  "dashboard_legacy_strip": [
+    [
+      "Baseline Date",
+      "2021 Self-Care & Mindfulness",
+      "2021 Productivity",
+      "Night-Before Planning",
+      "Live Health Base vs. 2021",
+      "Habit Cadence Evolution",
+      "7D Rolling Status"
+    ],
+    [
+      "2021-11-30",
+      "Journaling (Weekly) / Form Journals",
+      "2 / 5 (40/100)",
+      "No (0%)",
+      "74.9 (+34.9 pts (+87.3%))",
+      "7 Daily Habits (46 target/wk)",
+      "EXCLUDED_FROM_7D_AVG"
+    ]
   ]
 }

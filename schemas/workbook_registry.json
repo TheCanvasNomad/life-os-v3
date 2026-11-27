@@ -3671,6 +3671,17 @@
       "baseline_summary": "ENTJ-T Commander | Analyst 61.82% | Social Engagement 64.17%",
       "archived_prefix": "ARCHIVE_2023_",
       "zero_importrange_link": true
+    },
+    "LEGACY_DAILY_ACTIVITIES_2021": {
+      "id": "1P0Ly6e9sBJQekN6kAcY7jkNXjbzQGzKCQu9aIP3q6Dc",
+      "name": "ARCHIVE_2021_Daily activities (Responses)",
+      "status": "CONSOLIDATED_INTO_PILLAR",
+      "consolidated_into": "ID_PILLAR_1",
+      "target_tab": "LEGACY_HABIT_BASELINES",
+      "baseline_date": "2021-11-30",
+      "archived_prefix": "ARCHIVE_2021_",
+      "excluded_from_7d_rolling": true,
+      "zero_importrange_link": true
     }
   },
   "unmapped_discovered": [
