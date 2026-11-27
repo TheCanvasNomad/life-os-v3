@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-26T23:58:49Z",
+  "last_updated_utc": "2026-11-27T00:06:23Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -207,8 +207,12 @@
       "layer": "brick",
       "domain": "Psychometrics / Grit Scale",
       "live_tabs": [
-        "Executive_Dashboard",
-        "MODULE_META",
+        "\ud83d\udd25 GRIT_DASHBOARD",
+        "OCEAN_Bridge",
+        "Item_Drift_Matrix",
+        "Timeline_Progression",
+        "Scoring_Engine",
+        "LOOKER_GRIT",
         "CONTEXT_IN",
         "SIGNALS_OUT"
       ],
@@ -218,19 +222,20 @@
         "Grit"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T16:16:12Z",
+      "last_snapshot_utc": "2026-11-27T00:06:23Z",
       "all_tabs": [
-        "Executive_Dashboard",
-        "Grit_Intake",
-        "Scoring_Engine",
-        "Timeline_Progression",
-        "Item_Drift_Matrix",
+        "\ud83d\udd25 GRIT_DASHBOARD",
         "OCEAN_Bridge",
-        "MODULE_META",
+        "Item_Drift_Matrix",
+        "Timeline_Progression",
+        "Scoring_Engine",
+        "LOOKER_GRIT",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "MODULE_META",
+        "Grit_Intake"
       ],
-      "tab_count": 9,
+      "tab_count": 10,
       "linked_forms": [
         {
           "name": "Life OS // Angela Duckworth Grit Assessment (Grit-O & Grit-S)",
@@ -241,7 +246,11 @@
           "form_id": "1fuWJGYkHJ-nBTPV8Hr0jLnioA1sc8pvOefxGR8_0CfA"
         }
       ],
-      "universal_brick_compliant": true
+      "universal_brick_compliant": true,
+      "primary_tab": "\ud83d\udd25 GRIT_DASHBOARD",
+      "looker_tab": "LOOKER_GRIT",
+      "tab_color_coded": true,
+      "last_audited_utc": "2026-11-27T00:06:23Z"
     },
     "ID_RIASEC": {
       "title": "RAISEC Intake (Responses)",

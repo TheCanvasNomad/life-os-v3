@@ -1,38 +1,1197 @@
 {
-  "registry_key": "ID_GRIT",
-  "title": "Grit Score Assessment",
+  "workbook_key": "ID_GRIT",
   "spreadsheet_id": "1kCwx6wtYksmt92M3Izwe6oEIVS5uDv3kCLIzCBOJG-s",
-  "url": "https://docs.google.com/spreadsheets/d/1kCwx6wtYksmt92M3Izwe6oEIVS5uDv3kCLIzCBOJG-s/edit",
-  "time_zone": "America/New_York",
-  "snapshot_utc": "2026-11-23T16:16:20Z",
-  "tab_count": 9,
+  "title": "Grit Score Assessment",
+  "captured_utc": "2026-11-27 00:06 UTC",
+  "privacy_boundary": "STRICT_ZERO_PII",
+  "tab_count": 10,
   "tabs": [
-    {
-      "title": "Executive_Dashboard",
-      "sheet_id": 183886549,
-      "index": null,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "LIFE OS // ANGELA DUCKWORTH GRIT TELEMETRY DASHBOARD (5-PILLAR ENGINE v2.1.2)"
+    "\ud83d\udd25 GRIT_DASHBOARD",
+    "OCEAN_Bridge",
+    "Item_Drift_Matrix",
+    "Timeline_Progression",
+    "Scoring_Engine",
+    "LOOKER_GRIT",
+    "CONTEXT_IN",
+    "SIGNALS_OUT",
+    "MODULE_META",
+    "Grit_Intake"
+  ],
+  "audit_errors_all_10_tabs": 0,
+  "trailing_tail_artifacts": 0,
+  "samples": {
+    "\ud83d\udd25 GRIT_DASHBOARD": [
+      [
+        "\ud83d\udd25 LIFE OS v3.0 \u2014 ANGELA DUCKWORTH GRIT TELEMETRY HUD (5-PILLAR ENGINE v3.1)"
       ],
-      "row_1": [
-        "LIFE OS // ANGELA DUCKWORTH GRIT TELEMETRY DASHBOARD (5-PILLAR ENGINE v2.1.2)"
+      [
+        "Status: LIVE  \u2022  1 Run(s) Logged  \u2022  Archetype: Calibration / Recovery Phase  \u2022  Telemetry State: Depleted_Recovery  \u2022  Hub Context: AUTHORIZED"
+      ],
+      [],
+      [
+        "GRIT-S COMPOSITE",
+        "PERSEVERANCE (PE)",
+        "CONSISTENCY (CI)",
+        "GRIT-O (12-ITEM)",
+        "MICRO SELF-CONTROL",
+        "SCAFFOLDING IDX",
+        "COMPLETED RUNS",
+        "LIVE ARCHETYPE",
+        "HUB CONTEXT",
+        "TAKE ASSESSMENT"
+      ],
+      [
+        "2.38",
+        "2.75",
+        "2.00",
+        "2.42",
+        "2.00",
+        "3.00",
+        "1",
+        "Calibration / Recovery Phase",
+        "AUTHORIZED",
+        "Open Form \u2197"
+      ],
+      [],
+      [
+        "LATEST RUN TIMESTAMP",
+        "ACTIVE DOMAIN & CONTEXT",
+        "",
+        "DRIVE ETIOLOGY",
+        "",
+        "LIVE TELEMETRY STATE",
+        "PRIMARY BOTTLENECK",
+        "2025 ARCHIVE DRIFT",
+        "",
+        "EDIT FORM"
+      ],
+      [
+        "2026-11-13 01:25",
+        "Whole-Life Global Baseline | Shore / Home Base Routine",
+        "",
+        "External Validation / Ego Ambition",
+        "",
+        "Depleted_Recovery",
+        "Q3 (1.00/5)",
+        "2.80 -> 2.38 (-0.43)",
+        "",
+        "Form Editor \u2197"
+      ],
+      [],
+      [
+        "\ud83d\udcca 1. CORE PSYCHOMETRIC TELEMETRY & SPARKLINE GAUGES (1.00 \u2013 5.00 SCALE)"
+      ],
+      [
+        "Psychometric Metric",
+        "Scale",
+        "Latest Run",
+        "Baseline",
+        "Net \u0394",
+        "Lifetime Mean",
+        "Adult Norm %",
+        "Visual Gauge (=SPARKLINE)",
+        "5-Pillar Operational Meaning",
+        "Status"
+      ],
+      [
+        "Grit-S Composite (8-Item)",
+        "1.00\u20135.00",
+        "2.38",
+        "2.38",
+        "",
+        "2.38",
+        "3.0%",
+        "",
+        "Macro-horizon goal fidelity & sustained effort",
+        "CALIBRATING"
+      ],
+      [
+        "Perseverance of Effort (PE)",
+        "1.00\u20135.00",
+        "2.75",
+        "2.75",
+        "",
+        "2.75",
+        "2.8%",
+        "",
+        "Core predictive engine (maps to BFAS Industriousness)",
+        "LOW_EFFORT"
+      ],
+      [
+        "Consistency of Interest (CI)",
+        "1.00\u20135.00",
+        "2.00",
+        "2.00",
+        "",
+        "2.00",
+        "5.2%",
+        "",
+        "Temporal attention stamina (inverse to novelty churn)",
+        "NOVELTY_CHURN"
+      ],
+      [
+        "Grit-O Composite (12-Item)",
+        "1.00\u20135.00",
+        "2.42",
+        "2.42",
+        "",
+        "2.42",
+        "3.4%",
+        "",
+        "Full 12-item benchmark including multi-year milestones",
+        "CALIBRATING"
+      ],
+      [
+        "Micro Self-Control (Session Focus)",
+        "1.00\u20135.00",
+        "2.00",
+        "2.00",
+        "",
+        "2.00",
+        "\u2014",
+        "",
+        "Moment-to-moment task-switching resistance (session control)",
+        "FRAGMENTED"
+      ],
+      [
+        "Structural Scaffolding Index",
+        "1.00\u20135.00",
+        "3.00",
+        "3.00",
+        "",
+        "3.00",
+        "\u2014",
+        "",
+        "Environmental design, checklists & triggers vs raw willpower",
+        "PARTIAL"
+      ],
+      [
+        "PE \u2212 CI Divergence Spread",
+        "-4 to +4",
+        "0.75",
+        "0.75",
+        "",
+        "0.75",
+        "\u2014",
+        "",
+        "Positive spread = high stamina + exploratory pivoting",
+        "POLYMATHEAN_BIAS"
+      ],
+      [
+        "Macro-Grit vs. Micro-Control Gap",
+        "-4 to +4",
+        "0.38",
+        "0.38",
+        "",
+        "0.38",
+        "\u2014",
+        "",
+        "Positive = strong multi-year vision but session distraction",
+        "ALIGNED"
+      ],
+      [],
+      [
+        "\ud83e\udded 2. PASS-2 DYNAMIC OPERATIONAL DIRECTIVE (ARCHETYPE \u00d7 LIVE HUB TELEMETRY \u2014 LAW 8 ADVISORY_MATRIX)"
+      ],
+      [
+        "[Calibration / Recovery Phase \u00d7 Depleted_Recovery]  RECOVERY FIRST (Maslow < 45%): Do NOT force willpower sprints during D-Need rebuild. Shrink daily target to 1 micro-win (20m), protect sleep/prana, and rely 100% on environmental scaffolding."
+      ],
+      [],
+      [
+        "\ud83d\uddc2\ufe0f 3. DOMAIN SPECIFICITY MATRIX (PILLAR 4 \u2014 5 OPERATIONAL LANES)"
+      ],
+      [
+        "Domain Lane",
+        "Runs",
+        "Mean Grit-S",
+        "Mean PE",
+        "Mean CI",
+        "Mean Micro-Ctrl",
+        "Mean Scaffold",
+        "Visual Gauge (=SPARKLINE)",
+        "Domain Diagnosis",
+        "Lane Status"
+      ],
+      [
+        "Maritime & Seamanship Advancement",
+        "0",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Awaiting Domain Run",
+        "UNLOGGED"
+      ],
+      [
+        "Creative & Media (Canvas Nomad / Writing)",
+        "0",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Awaiting Domain Run",
+        "UNLOGGED"
+      ],
+      [
+        "Physical Training & Expedition Prep",
+        "0",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Awaiting Domain Run",
+        "UNLOGGED"
+      ],
+      [
+        "Systems, Finance & Routine Admin",
+        "0",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Awaiting Domain Run",
+        "UNLOGGED"
+      ],
+      [
+        "Whole-Life Global Baseline",
+        "1",
+        "2.38",
+        "2.75",
+        "2.00",
+        "2.00",
+        "3.00",
+        "",
+        "Active Calibration",
+        "CALIBRATING"
       ]
-    },
-    {
-      "title": "Grit_Intake",
-      "sheet_id": 2084134819,
-      "index": 1,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 102,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
+    ],
+    "OCEAN_Bridge": [
+      [
+        "\ud83e\uddec OCEAN_BRIDGE \u2014 BIG FIVE \u2194 GRIT NEXUS & PASS-2 ADVISORY MATRIX (HUB CONTEXT_IN DRIVEN)"
+      ],
+      [
+        "Zero direct spoke-to-spoke IMPORTRANGE \u2014 all OCEAN, Zodiac, Maslow & Doppelganger context streams cleanly via CONTEXT_IN (LifeOS_feed_hub)"
+      ],
+      [],
+      [
+        "1. BIG FIVE (OCEAN) \u2194 GRIT NEXUS VECTORS (LIVE VIA CONTEXT_IN)"
+      ],
+      [
+        "Nexus Vector",
+        "Big Five Anchor (Hub)",
+        "Live OCEAN %",
+        "Grit Counterpart",
+        "Live Grit %",
+        "Nexus Gap (\u0394)",
+        "Visual Gauge (=SPARKLINE)",
+        "Architectural Interpretation",
+        "",
+        "Status"
+      ],
+      [
+        "Execution Over-Index",
+        "Conscientiousness",
+        "1.5%",
+        "Perseverance of Effort (PE)",
+        "43.8%",
+        "42.3%",
+        "",
+        "HIGH OVER-INDEX (+42.3%): Stamina outpaces raw Conscientiousness (1.5%) \u2014 enforce zero-willpower external checklists, alarms & hard deadlines.",
+        "",
+        "SCAFFOLD_REQ"
+      ],
+      [
+        "Exploration vs. Rigidity",
+        "Openness / Novelty Engine",
+        "95.4%",
+        "Consistency of Interest (CI)",
+        "25.0%",
+        "70.4%",
+        "",
+        "POLYMATHEAN FLUX (+70.4% Gap): Low CI (25%) is driven by 95th-pct Openness novelty-seeking, not effort failure \u2014 enforce strict WIP<=2 & Finish-Before-Pivot gates.",
+        "",
+        "NOVELTY_CHURN"
+      ],
+      [
+        "Setback Reactivity Guard",
+        "Neuroticism / Threat Vigilance",
+        "74.3%",
+        "Setback Resilience (Q1 & Q4)",
+        "37.5%",
+        "36.8%",
+        "",
+        "THREAT-DRIVEN FRICTION (74.3% Neuroticism vs 37.5% Resilience): Setbacks trigger somatic threat loops & self-critique \u2014 pair setbacks with PQ Empathize & 24h decompression before pivoting.",
+        "",
+        "REACTIVITY_GUARD"
+      ],
+      [],
+      [
+        "2. PASS-2 LIVE TELEMETRY STATE RESOLVER (CONTEXT_IN -> ADVISORY_MATRIX)"
+      ],
+      [
+        "Active Execution Archetype",
+        "Live Telemetry State",
+        "Zodiac WIP (Raw)",
+        "Maslow Quality %",
+        "Doppelganger %",
+        "Resolved Pass-2 Directive (INDEX/MATCH \u2014 Law 8)",
+        "",
+        "",
+        "",
+        "Hub Status"
+      ],
+      [
+        "Calibration / Recovery Phase",
+        "Depleted_Recovery",
+        "1",
+        "35.1",
+        "33.3",
+        "RECOVERY FIRST (Maslow < 45%): Do NOT force willpower sprints during D-Need rebuild. Shrink daily target to 1 micro-win (20m), protect sleep/prana, and rely 100% on environmental scaffolding.",
+        "",
+        "",
+        "",
+        "AUTHORIZED"
+      ],
+      [],
+      [
+        "3. PASS-2 ADVISORY_MATRIX \u2014 EXECUTION ARCHETYPE \u00d7 LIVE TELEMETRY STATE (INDEX/MATCH TABLE)"
+      ],
+      [
+        "Execution Archetype",
+        "Baseline",
+        "High_Novelty_Churn",
+        "Depleted_Recovery",
+        "WIP_Overload",
+        "Flow_Sprint"
+      ],
+      [
+        "Calibration / Recovery Phase",
+        "BASE CALIBRATION: Anchor one non-negotiable 25-min daily milestone with external checklists; do NOT moralize low raw grit before scaffolding is live.",
+        "NOVELTY LOCKDOWN: Park all new ideas in an Idea Parking Lot for 14 days; pick ONE active deliverable (Q3=1.00 bottleneck) and enforce Finish-Before-Pivot.",
+        "RECOVERY FIRST (Maslow < 45%): Do NOT force willpower sprints during D-Need rebuild. Shrink daily target to 1 micro-win (20m), protect sleep/prana, and rely 100% on environmental scaffolding.",
+        "WIP BREACH FREEZE (Law 5): Freeze all new project intake immediately. Close or shelve 1 active thread until OPS_GOVERNOR WIP returns <= 1 before resuming grit ramp.",
+        "MOMENTUM CAPTURE: Foundation is green \u2014 lock a single 7-day execution streak on your primary target and log completion evidence to rebuild self-efficacy."
+      ],
+      [
+        "Serial Sprinter",
+        "CHANNEL THE SPRINT: High effort + low interest consistency \u2014 structure work into 14-day finite sprints with hard ship dates before novelty decays.",
+        "SHINY-OBJECT INTERLOCK: High Openness is hijacking active sprints. Freeze side quests, display one visible finish line, and ban starting anything new until current deliverable ships.",
+        "PREVENT SPRINT CRASH: High drive + depleted Maslow risks burnout. Cut scope by 50%, keep one high-leverage 45-min block, and schedule mandatory recovery.",
+        "HARD WIP CAP (<=2): Serial Sprinters drown in parallel starts. Put all secondary projects into cold storage until active sprint #1 crosses the finish line.",
+        "HIGH-VELOCITY SHIP: Optimal sprint window \u2014 execute deep-work blocks on one flagship milestone and ship publicly before pivoting."
+      ],
+      [
+        "Steady Grinder",
+        "IGNITE EFFORT CADENCE: Interest stability is solid \u2014 raise daily intensity via time-boxed Pomodoro blocks and measurable output quotas.",
+        "GUARD AGAINST DRIFT: Protect your stable anchor from novelty leaks; review why the core mission matters intrinsically before adding scope.",
+        "LOW-FRICTION CONTINUITY: Keep the streak alive with minimum-viable daily reps while restoring sleep and Maslow D-Wave base.",
+        "PRUNE OVERHEAD: Steady focus breaks under excess WIP. Defer secondary admin tasks and protect one core daily block.",
+        "PROGRESSIVE OVERLOAD: System is primed \u2014 step up difficulty by 15% and tackle the hardest deferred milestone on your primary target."
+      ],
+      [
+        "Apex Grit",
+        "SUSTAIN MASTERY: Elite PE + CI alignment \u2014 audit quarterly for sunk-cost rigidity and tether milestones to intrinsic PERMA meaning.",
+        "STRATEGIC PRUNING: Channel high Openness into a dedicated 10% R&D sandbox so core long-horizon execution stays untouched.",
+        "PROTECT THE ENGINE: Even Apex Grit degrades under chronic D-Need deficit. Take a deliberate deload week to replenish somatic reserves.",
+        "EXECUTIVE TRIAGE: Enforce Law 5 (WIP<=2) rigorously so elite stamina stays concentrated on the highest-leverage mission.",
+        "PEAK EXECUTION WINDOW: Full green light across Maslow, WIP & Grit \u2014 push for breakthrough milestone completion and log XP."
+      ]
+    ],
+    "Item_Drift_Matrix": [
+      [
+        "\ud83d\udd2c ITEM_DRIFT_MATRIX \u2014 12-ITEM GRIT DIAGNOSTIC, SPARKLINE BARS & BOTTLENECK DETECTOR"
+      ],
+      [
+        "Primary Bottleneck: Q3 (1.00/5.00 \u2014 My interests change from year to year.)  \u2022  Items <= 2.00: 7 / 12  \u2022  Peak Anchor: Q10 (4.00/5.00)"
+      ],
+      [],
+      [],
+      [
+        "Item ID",
+        "Subscale & Scope",
+        "Prompt Statement",
+        "Baseline (Run 1)",
+        "Latest Run",
+        "Visual Gauge (=SPARKLINE)",
+        "Net Drift (\u0394)",
+        "All-Time Mean",
+        "Volatility (SD)",
+        "Bottleneck Flag",
+        "Longitudinal Status"
+      ],
+      [
+        "Q1",
+        "PE | Grit-O",
+        "I have overcome setbacks to conquer an important challenge.",
+        "3.00",
+        "3.00",
+        "",
+        "",
+        "3.00",
+        "",
+        "\u26aa MODERATE",
+        "Baseline Logged"
+      ],
+      [
+        "Q2",
+        "CI (R) | Grit-S & Grit-O",
+        "New ideas and projects sometimes distract me from previous ones.",
+        "2.00",
+        "2.00",
+        "",
+        "",
+        "2.00",
+        "",
+        "\ud83d\udfe1 CONSISTENCY / EFFORT DRAG",
+        "Baseline Logged"
+      ],
+      [
+        "Q3",
+        "CI (R) | Grit-O",
+        "My interests change from year to year.",
+        "1.00",
+        "1.00",
+        "",
+        "",
+        "1.00",
+        "",
+        "\ud83d\udd34 CRITICAL BOTTLENECK",
+        "Baseline Logged"
+      ],
+      [
+        "Q4",
+        "PE | Grit-S & Grit-O",
+        "Setbacks don't discourage me.",
+        "2.00",
+        "2.00",
+        "",
+        "",
+        "2.00",
+        "",
+        "\ud83d\udfe1 CONSISTENCY / EFFORT DRAG",
+        "Baseline Logged"
+      ],
+      [
+        "Q5",
+        "CI (R) | Grit-S & Grit-O",
+        "I have been obsessed with a certain idea or project for a short time but later lost interest.",
+        "2.00",
+        "2.00",
+        "",
+        "",
+        "2.00",
+        "",
+        "\ud83d\udfe1 CONSISTENCY / EFFORT DRAG",
+        "Baseline Logged"
+      ],
+      [
+        "Q6",
+        "PE | Grit-S & Grit-O",
+        "I am a hard worker.",
+        "3.00",
+        "3.00",
+        "",
+        "",
+        "3.00",
+        "",
+        "\u26aa MODERATE",
+        "Baseline Logged"
+      ],
+      [
+        "Q7",
+        "CI (R) | Grit-S & Grit-O",
+        "I often set a goal but later choose to pursue a different one.",
+        "2.00",
+        "2.00",
+        "",
+        "",
+        "2.00",
+        "",
+        "\ud83d\udfe1 CONSISTENCY / EFFORT DRAG",
+        "Baseline Logged"
+      ],
+      [
+        "Q8",
+        "CI (R) | Grit-S & Grit-O",
+        "I have difficulty maintaining my focus on projects that take more than a few months to complete.",
+        "2.00",
+        "2.00",
+        "",
+        "",
+        "2.00",
+        "",
+        "\ud83d\udfe1 CONSISTENCY / EFFORT DRAG",
+        "Baseline Logged"
+      ],
+      [
+        "Q9",
+        "PE | Grit-S & Grit-O",
+        "I finish whatever I begin.",
+        "3.00",
+        "3.00",
+        "",
+        "",
+        "3.00",
+        "",
+        "\u26aa MODERATE",
+        "Baseline Logged"
+      ],
+      [
+        "Q10",
+        "PE | Grit-O",
+        "I have achieved a goal that took years of work.",
+        "4.00",
+        "4.00",
+        "",
+        "",
+        "4.00",
+        "",
+        "\ud83d\udfe2 CORE ANCHOR",
+        "Baseline Logged"
+      ],
+      [
+        "Q11",
+        "CI (R) | Grit-O",
+        "I become interested in new pursuits every few months.",
+        "2.00",
+        "2.00",
+        "",
+        "",
+        "2.00",
+        "",
+        "\ud83d\udfe1 CONSISTENCY / EFFORT DRAG",
+        "Baseline Logged"
+      ],
+      [
+        "Q12",
+        "PE | Grit-S & Grit-O",
+        "I am diligent.",
+        "3.00",
+        "3.00",
+        "",
+        "",
+        "3.00",
+        "",
+        "\u26aa MODERATE",
+        "Baseline Logged"
+      ]
+    ],
+    "Timeline_Progression": [
+      [
+        "\ud83d\udcc8 TIMELINE_PROGRESSION \u2014 LONGITUDINAL GRIT VELOCITY & 2025 ARCHIVE BENCHMARK"
+      ],
+      [
+        "Pre-Form Benchmark (Immutable Historical Reference \u2014 Grit_Intake Untouched)"
+      ],
+      [
+        "Archive_Date",
+        "Source_Scale",
+        "Archive_Grit",
+        "Archive_PE",
+        "Archive_CI",
+        "Latest_Form_Grit",
+        "Latest_Form_PE",
+        "Latest_Form_CI",
+        "\u0394 Grit (vs 2025)",
+        "\u0394 PE (vs 2025)",
+        "\u0394 CI (vs 2025)",
+        "Drift_Summary"
+      ],
+      [
+        "2025-02-05",
+        "Duckworth Grit Scale (Pre-Form Archive)",
+        "2.80",
+        "3.40",
+        "2.20",
+        "2.38",
+        "2.75",
+        "2.00",
+        "-0.43",
+        "-0.65",
+        "-0.20",
+        "2025->Live Drift: Grit -0.43 | PE -0.65 | CI -0.20"
+      ],
+      [],
+      [
+        "LIVE FORM RUN HISTORY (100% BLANK-SAFE DYNAMIC FEED FROM Scoring_Engine)"
+      ],
+      [
+        "Run #",
+        "Date",
+        "Days Since Baseline",
+        "Domain Lane",
+        "Operational Context",
+        "Drive Etiology",
+        "Grit-S Total",
+        "Grit-O Total",
+        "PE (Effort)",
+        "CI (Interest)",
+        "Micro Self-Control",
+        "Structural Scaffolding",
+        "\u0394 Grit-S vs. Baseline",
+        "\u0394 Grit-S vs. Prior",
+        "\u0394 PE vs. Prior",
+        "\u0394 CI vs. Prior"
+      ],
+      [
+        "1",
+        "2026-11-13",
+        "0",
+        "Whole-Life Global Baseline",
+        "Shore / Home Base Routine",
+        "External Validation / Ego Ambition",
+        "2.38",
+        "2.42",
+        "2.75",
+        "2.00",
+        "2.00",
+        "3.00",
+        "0.00",
+        "0.00",
+        "0.00",
+        "0.00"
+      ]
+    ],
+    "LOOKER_GRIT": [
+      [
+        "Record_Type",
+        "Entity_Key",
+        "Entity_Label",
+        "Subscale_Or_Lane",
+        "Raw_Score",
+        "Normalized_0_100",
+        "Adult_Norm_Pct",
+        "Status_Tag",
+        "Last_Updated"
+      ],
+      [
+        "COMPOSITE_KPI",
+        "GRIT_S_COMPOSITE",
+        "Grit-S Composite (8-Item)",
+        "Composite",
+        "2.38",
+        "34.50",
+        "3.00",
+        "CALIBRATING",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "COMPOSITE_KPI",
+        "GRIT_PE",
+        "Perseverance of Effort (PE)",
+        "Subscale",
+        "2.75",
+        "43.80",
+        "2.80",
+        "LOW_EFFORT",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "COMPOSITE_KPI",
+        "GRIT_CI",
+        "Consistency of Interest (CI)",
+        "Subscale",
+        "2.00",
+        "25.00",
+        "5.20",
+        "NOVELTY_CHURN",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "COMPOSITE_KPI",
+        "GRIT_O_COMPOSITE",
+        "Grit-O Composite (12-Item)",
+        "Composite",
+        "2.42",
+        "35.50",
+        "3.40",
+        "CALIBRATING",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "COMPOSITE_KPI",
+        "MICRO_SELF_CONTROL",
+        "Micro Self-Control (Session Focus)",
+        "Behavioral",
+        "2.00",
+        "25.00",
+        "",
+        "FRAGMENTED",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "COMPOSITE_KPI",
+        "STRUCTURAL_SCAFFOLDING",
+        "Structural Scaffolding Index",
+        "Behavioral",
+        "3.00",
+        "50.00",
+        "",
+        "PARTIAL",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "SUBSCALE_4",
+        "SUB_PE",
+        "Perseverance of Effort (PE)",
+        "4-Factor Grit Model",
+        "2.75",
+        "43.80",
+        "2.80",
+        "LOW_EFFORT",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "SUBSCALE_4",
+        "SUB_CI",
+        "Consistency of Interest (CI)",
+        "4-Factor Grit Model",
+        "2.00",
+        "25.00",
+        "5.20",
+        "NOVELTY_CHURN",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "SUBSCALE_4",
+        "SUB_MICRO",
+        "Micro Self-Control",
+        "4-Factor Grit Model",
+        "2.00",
+        "25.00",
+        "",
+        "FRAGMENTED",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "SUBSCALE_4",
+        "SUB_SCAFFOLD",
+        "Structural Scaffolding",
+        "4-Factor Grit Model",
+        "3.00",
+        "50.00",
+        "",
+        "PARTIAL",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "DOMAIN_LANE_5",
+        "LANE_01",
+        "Maritime & Seamanship Advancement",
+        "Domain Specificity",
+        "",
+        "",
+        "",
+        "UNLOGGED"
+      ],
+      [
+        "DOMAIN_LANE_5",
+        "LANE_02",
+        "Creative & Media (Canvas Nomad / Writing)",
+        "Domain Specificity",
+        "",
+        "",
+        "",
+        "UNLOGGED"
+      ],
+      [
+        "DOMAIN_LANE_5",
+        "LANE_03",
+        "Physical Training & Expedition Prep",
+        "Domain Specificity",
+        "",
+        "",
+        "",
+        "UNLOGGED"
+      ],
+      [
+        "DOMAIN_LANE_5",
+        "LANE_04",
+        "Systems, Finance & Routine Admin",
+        "Domain Specificity",
+        "",
+        "",
+        "",
+        "UNLOGGED"
+      ],
+      [
+        "DOMAIN_LANE_5",
+        "LANE_05",
+        "Whole-Life Global Baseline",
+        "Domain Specificity",
+        "2.38",
+        "34.50",
+        "",
+        "CALIBRATING",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "ITEM_12",
+        "Q1",
+        "I have overcome setbacks to conquer an important challenge.",
+        "PE | Grit-O",
+        "3.00",
+        "50.00",
+        "",
+        "\u26aa MODERATE",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "ITEM_12",
+        "Q2",
+        "New ideas and projects sometimes distract me from previous ones.",
+        "CI (R) | Grit-S & Grit-O",
+        "2.00",
+        "25.00",
+        "",
+        "\ud83d\udfe1 CONSISTENCY / EFFORT DRAG",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "ITEM_12",
+        "Q3",
+        "My interests change from year to year.",
+        "CI (R) | Grit-O",
+        "1.00",
+        "0.00",
+        "",
+        "\ud83d\udd34 CRITICAL BOTTLENECK",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "ITEM_12",
+        "Q4",
+        "Setbacks don't discourage me.",
+        "PE | Grit-S & Grit-O",
+        "2.00",
+        "25.00",
+        "",
+        "\ud83d\udfe1 CONSISTENCY / EFFORT DRAG",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "ITEM_12",
+        "Q5",
+        "I have been obsessed with a certain idea or project for a short time but later lost interest.",
+        "CI (R) | Grit-S & Grit-O",
+        "2.00",
+        "25.00",
+        "",
+        "\ud83d\udfe1 CONSISTENCY / EFFORT DRAG",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "ITEM_12",
+        "Q6",
+        "I am a hard worker.",
+        "PE | Grit-S & Grit-O",
+        "3.00",
+        "50.00",
+        "",
+        "\u26aa MODERATE",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "ITEM_12",
+        "Q7",
+        "I often set a goal but later choose to pursue a different one.",
+        "CI (R) | Grit-S & Grit-O",
+        "2.00",
+        "25.00",
+        "",
+        "\ud83d\udfe1 CONSISTENCY / EFFORT DRAG",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "ITEM_12",
+        "Q8",
+        "I have difficulty maintaining my focus on projects that take more than a few months to complete.",
+        "CI (R) | Grit-S & Grit-O",
+        "2.00",
+        "25.00",
+        "",
+        "\ud83d\udfe1 CONSISTENCY / EFFORT DRAG",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "ITEM_12",
+        "Q9",
+        "I finish whatever I begin.",
+        "PE | Grit-S & Grit-O",
+        "3.00",
+        "50.00",
+        "",
+        "\u26aa MODERATE",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "ITEM_12",
+        "Q10",
+        "I have achieved a goal that took years of work.",
+        "PE | Grit-O",
+        "4.00",
+        "75.00",
+        "",
+        "\ud83d\udfe2 CORE ANCHOR",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "ITEM_12",
+        "Q11",
+        "I become interested in new pursuits every few months.",
+        "CI (R) | Grit-O",
+        "2.00",
+        "25.00",
+        "",
+        "\ud83d\udfe1 CONSISTENCY / EFFORT DRAG",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "ITEM_12",
+        "Q12",
+        "I am diligent.",
+        "PE | Grit-S & Grit-O",
+        "3.00",
+        "50.00",
+        "",
+        "\u26aa MODERATE",
+        "11/26/2026 19:06:18"
+      ],
+      [
+        "RUN_HISTORY",
+        "ARCHIVE_2025_02_05",
+        "2025-02-05 Pre-Form Archive",
+        "Pre-Form Benchmark",
+        "2.80",
+        "45.00",
+        "10.90",
+        "ARCHIVE_BENCHMARK",
+        "2025-02-05"
+      ],
+      [
+        "RUN_HISTORY",
+        "RUN_01",
+        "2026-11-13 (Whole-Life Global Baseline)",
+        "Whole-Life Global Baseline",
+        "2.38",
+        "34.50",
+        "3.00",
+        "Calibration / Recovery Phase",
+        "2026-11-13"
+      ]
+    ],
+    "CONTEXT_IN": [
+      [
+        "Signal_Key",
+        "Live_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Freshness_Status",
+        "Hub_Auth_Trigger"
+      ],
+      [
+        "OCEAN_CONSCIENTIOUSNESS",
+        "0.015",
+        "1.5",
+        "DEBUFF",
+        "ACTIVE",
+        "AUTHORIZED"
+      ],
+      [
+        "OCEAN_OPENNESS",
+        "0.954",
+        "95.4",
+        "BUFF",
+        "ACTIVE",
+        "AUTHORIZED"
+      ],
+      [
+        "OCEAN_NEUROTICISM",
+        "0.743",
+        "74.3",
+        "DEBUFF",
+        "ACTIVE",
+        "AUTHORIZED"
+      ],
+      [
+        "ZODIAC_WIP_COUNT",
+        "1",
+        "100.0",
+        "CAPACITY_OK",
+        "FRESH",
+        "AUTHORIZED"
+      ],
+      [
+        "DOPPELGANGER_DOMINATION_INDEX",
+        "SOVEREIGN DOMINANCE",
+        "33.3",
+        "CONTESTED_ARENA",
+        "FRESH",
+        "AUTHORIZED"
+      ],
+      [
+        "MASLOW_EFFECTIVE_QUALITY",
+        "35.1%",
+        "35.1",
+        "HOMEOSTASIS REBUILDING (D < 6.5)",
+        "FRESH",
+        "AUTHORIZED"
+      ]
+    ],
+    "SIGNALS_OUT": [
+      [
+        "Signal_Key",
+        "Source_Brick",
+        "Glyph",
+        "Domain_Pillar",
+        "Raw_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated",
+        "TTL_Hours",
+        "Notes"
+      ],
+      [
+        "GRIT_OVERALL_SCORE",
+        "Grit_Assessment",
+        "\ud83d\udd25",
+        "Perseverance / I",
+        "2.38",
+        "34.4",
+        "Calibration / Recovery Phase",
+        "2026-11-26 19:06",
+        "2160",
+        "Duckworth Grit-S 8-Item Composite (1-5 mapped to 0-100)"
+      ],
+      [
+        "GRIT_PERSEVERANCE_EFFORT",
+        "Grit_Assessment",
+        "\ud83d\udcaa",
+        "Effort / IT",
+        "2.75",
+        "43.8",
+        "LOW_EFFORT",
+        "2026-11-26 19:06",
+        "2160",
+        "Perseverance of Effort subscale (BFAS Industriousness)"
+      ],
+      [
+        "GRIT_CONSISTENCY_INTEREST",
+        "Grit_Assessment",
+        "\ud83c\udfaf",
+        "Focus / I",
+        "2.00",
+        "25.0",
+        "NOVELTY_CHURN",
+        "2026-11-26 19:06",
+        "2160",
+        "Consistency of Interest subscale (inverse to novelty churn)"
+      ],
+      [
+        "GRIT_COMPLETED_RUNS",
+        "Grit_Assessment",
+        "\ud83d\udcc8",
+        "Telemetry / ITS",
+        "1",
+        "25.0",
+        "1 Runs Logged",
+        "2026-11-26 19:06",
+        "2160",
+        "Longitudinal Grit assessment check-ins (4/yr = 100%)"
+      ]
+    ],
+    "MODULE_META": [
+      [
+        "Field",
+        "Value",
+        "Notes"
+      ],
+      [
+        "Brick_Name",
+        "Grit_Assessment",
+        "Canonical LifeOS-v3 Brick identifier"
+      ],
+      [
+        "Registry_Key",
+        "ID_GRIT",
+        "Bound key in schemas/workbook_registry.json"
+      ],
+      [
+        "Source_Workbook",
+        "Grit Score Assessment",
+        "Live Google Sheets workbook title"
+      ],
+      [
+        "Schema_Version",
+        "3.1.0",
+        "10 color-coded tabs, Hub CONTEXT_IN bridge, Pass-2 ADVISORY_MATRIX, LOOKER_GRIT"
+      ],
+      [
+        "Glyph",
+        "\ud83d\udd25",
+        "Executive HUD icon"
+      ],
+      [
+        "Landing_Tab",
+        "\ud83d\udd25 GRIT_DASHBOARD",
+        "Gold #F59E0B executive HUD (renamed from Executive_Dashboard)"
+      ],
+      [
+        "Looker_Tab",
+        "LOOKER_GRIT",
+        "Hidden Cyan #06B6D4 flat zero-PII BI feed"
+      ],
+      [
+        "Layer_1_Raw_Tab",
+        "Grit_Intake",
+        "Untouched Crimson #EF4444 Google Form response sheet"
+      ],
+      [
+        "Domain_Pillar",
+        "Pillar 1 & 4 / Perseverance & Consistency (I / IT)",
+        "LifeOS AQAL / 5-Pillar domain mapping"
+      ],
+      [
+        "Cadence_Tier",
+        "Quarterly / 6-Month Psychometric Assessment (TTL: 2160h)",
+        "Refresh / logging cadence & TTL class"
+      ],
+      [
+        "Signals_Published",
+        "GRIT_OVERALL_SCORE, GRIT_PERSEVERANCE_EFFORT, GRIT_CONSISTENCY_INTEREST, GRIT_COMPLETED_RUNS",
+        "Exported via SIGNALS_OUT to LifeOS_feed_hub"
+      ],
+      [
+        "Context_Subscribed",
+        "OCEAN_CONSCIENTIOUSNESS, OCEAN_OPENNESS, OCEAN_NEUROTICISM, ZODIAC_WIP_COUNT, DOPPELGANGER_DOMINATION_INDEX, MASLOW_EFFECTIVE_QUALITY",
+        "Subscribed via CONTEXT_IN from LifeOS_feed_hub (zero spoke-to-spoke IMPORTRANGE)"
+      ],
+      [
+        "Hub_Spreadsheet_ID",
+        "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
+        "LifeOS_feed_hub central nervous system"
+      ],
+      [
+        "Privacy_Boundary",
+        "STRICT_ZERO_PII",
+        "Zero personal identifiers or private prose in LOOKER_GRIT or snapshots"
+      ],
+      [
+        "Last_Synced",
+        "2026-11-27 00:05 UTC",
+        "Automated Antigravity Law 1\u20138 audit timestamp"
+      ]
+    ],
+    "Grit_Intake_headers_only": [
+      [
         "Timestamp",
         "Operational Context",
         "Primary Focus Target",
@@ -53,261 +1212,7 @@
         "Drive Etiology (Primary Fuel Source)",
         "Micro Self-Control (Today's Session Focus, 1-5)",
         "Structural Scaffolding & Growth Framing (1-5)"
-      ],
-      "row_1": [
-        "Timestamp",
-        "Operational Context",
-        "Primary Focus Target",
-        "Energy & Sleep Readiness (1-5)",
-        "Q1. I have overcome setbacks to conquer an important challenge.",
-        "Q2. New ideas and projects sometimes distract me from previous ones.",
-        "Q3. My interests change from year to year.",
-        "Q4. Setbacks don't discourage me.",
-        "Q5. I have been obsessed with a certain idea or project for a short time but later lost interest.",
-        "Q6. I am a hard worker.",
-        "Q7. I often set a goal but later choose to pursue a different one.",
-        "Q8. I have difficulty maintaining my focus on projects that take more than a few months to complete.",
-        "Q9. I finish whatever I begin.",
-        "Q10. I have achieved a goal that took years of work.",
-        "Q11. I become interested in new pursuits every few months.",
-        "Q12. I am diligent.",
-        "Domain Lane (Domain Specificity)",
-        "Drive Etiology (Primary Fuel Source)",
-        "Micro Self-Control (Today's Session Focus, 1-5)",
-        "Structural Scaffolding & Growth Framing (1-5)"
       ]
-    },
-    {
-      "title": "Scoring_Engine",
-      "sheet_id": 966959900,
-      "index": 2,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 29,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Operational Context",
-        "Domain Lane",
-        "Primary Target",
-        "Drive Etiology",
-        "Micro Self-Control (1-5)",
-        "Structural Scaffolding (1-5)",
-        "Q1_PE (O)",
-        "Q2_CI_Rev (S/O)",
-        "Q3_CI_Rev (O)",
-        "Q4_PE (S/O)",
-        "Q5_CI_Rev (S/O)",
-        "Q6_PE (S/O)",
-        "Q7_CI_Rev (S/O)",
-        "Q8_CI_Rev (S/O)",
-        "Q9_PE (S/O)",
-        "Q10_PE (O)",
-        "Q11_CI_Rev (O)",
-        "Q12_PE (S/O)",
-        "Grit-S PE (1-5)",
-        "Grit-S CI (1-5)",
-        "Grit-S Composite (1-5)",
-        "Grit-O PE (1-5)",
-        "Grit-O CI (1-5)",
-        "Grit-O Composite (1-5)",
-        "PE - CI Spread",
-        "Macro-Micro Gap",
-        "Grit-S Norm %",
-        "Execution Archetype"
-      ],
-      "row_1": [
-        "Timestamp",
-        "Operational Context",
-        "Domain Lane",
-        "Primary Target",
-        "Drive Etiology",
-        "Micro Self-Control (1-5)",
-        "Structural Scaffolding (1-5)",
-        "Q1_PE (O)",
-        "Q2_CI_Rev (S/O)",
-        "Q3_CI_Rev (O)",
-        "Q4_PE (S/O)",
-        "Q5_CI_Rev (S/O)",
-        "Q6_PE (S/O)",
-        "Q7_CI_Rev (S/O)",
-        "Q8_CI_Rev (S/O)",
-        "Q9_PE (S/O)",
-        "Q10_PE (O)",
-        "Q11_CI_Rev (O)",
-        "Q12_PE (S/O)",
-        "Grit-S PE (1-5)",
-        "Grit-S CI (1-5)",
-        "Grit-S Composite (1-5)",
-        "Grit-O PE (1-5)",
-        "Grit-O CI (1-5)",
-        "Grit-O Composite (1-5)",
-        "PE - CI Spread",
-        "Macro-Micro Gap",
-        "Grit-S Norm %",
-        "Execution Archetype"
-      ]
-    },
-    {
-      "title": "Timeline_Progression",
-      "sheet_id": 909377136,
-      "index": 3,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Run #",
-        "Date",
-        "Days Since Baseline",
-        "Domain Lane",
-        "Operational Context",
-        "Drive Etiology",
-        "Grit-S Total",
-        "Grit-O Total",
-        "PE (Effort)",
-        "CI (Interest)",
-        "Micro Self-Control",
-        "Structural Scaffolding",
-        "\u0394 Grit-S vs. Baseline",
-        "\u0394 Grit-S vs. Prior",
-        "\u0394 PE vs. Prior",
-        "\u0394 CI vs. Prior",
-        "3-Run Rolling Grit-S"
-      ],
-      "row_1": [
-        "Run #",
-        "Date",
-        "Days Since Baseline",
-        "Domain Lane",
-        "Operational Context",
-        "Drive Etiology",
-        "Grit-S Total",
-        "Grit-O Total",
-        "PE (Effort)",
-        "CI (Interest)",
-        "Micro Self-Control",
-        "Structural Scaffolding",
-        "\u0394 Grit-S vs. Baseline",
-        "\u0394 Grit-S vs. Prior",
-        "\u0394 PE vs. Prior",
-        "\u0394 CI vs. Prior",
-        "3-Run Rolling Grit-S"
-      ]
-    },
-    {
-      "title": "Item_Drift_Matrix",
-      "sheet_id": 1868164787,
-      "index": 4,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "LIFE OS // GRIT ITEM-LEVEL DRIFT & STABILITY MATRIX (12-ITEM DIAGNOSTIC)"
-      ],
-      "row_1": [
-        "LIFE OS // GRIT ITEM-LEVEL DRIFT & STABILITY MATRIX (12-ITEM DIAGNOSTIC)"
-      ]
-    },
-    {
-      "title": "OCEAN_Bridge",
-      "sheet_id": 739853527,
-      "index": 5,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "LIFE OS // BIG FIVE (OCEAN) \u2194 GRIT NEXUS BRIDGE"
-      ],
-      "row_1": [
-        "LIFE OS // BIG FIVE (OCEAN) \u2194 GRIT NEXUS BRIDGE"
-      ]
-    },
-    {
-      "title": "MODULE_META",
-      "sheet_id": 978188038,
-      "index": 6,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Field",
-        "Value",
-        "Notes"
-      ],
-      "row_1": [
-        "Field",
-        "Value",
-        "Notes"
-      ]
-    },
-    {
-      "title": "CONTEXT_IN",
-      "sheet_id": 1453866952,
-      "index": 7,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Signal_Key",
-        "Live_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Freshness_Status",
-        "Hub_Auth_Trigger"
-      ],
-      "row_1": [
-        "Signal_Key",
-        "Live_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Freshness_Status",
-        "Hub_Auth_Trigger"
-      ]
-    },
-    {
-      "title": "SIGNALS_OUT",
-      "sheet_id": 1345733086,
-      "index": 8,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Signal_Key",
-        "Source_Brick",
-        "Glyph",
-        "Domain_Pillar",
-        "Raw_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated",
-        "TTL_Hours",
-        "Notes"
-      ],
-      "row_1": [
-        "Signal_Key",
-        "Source_Brick",
-        "Glyph",
-        "Domain_Pillar",
-        "Raw_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated",
-        "TTL_Hours",
-        "Notes"
-      ]
-    }
-  ]
+    ]
+  }
 }
