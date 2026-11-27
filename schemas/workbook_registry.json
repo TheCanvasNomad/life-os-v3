@@ -3575,6 +3575,102 @@
       "engine_tab": "RELATIONAL_REFLECTIONS_ENGINE",
       "form_id": "1d14nVfdrY-yXcMVRK9pHJ4Zt8mshM6VfcB441ytgFyw",
       "privacy_boundary": "STRICT_ZERO_PII_ZERO_RAW_PROSE"
+    },
+    "LEGACY_MBTI_2023_EI": {
+      "id": "1A-v1gdwFIvCPGcJPAGfZ7jfwQGSb0DdSJuECGd4I6D8",
+      "name": "ARCHIVE_2023_Extrovert vs. Introvert (Responses)",
+      "status": "CONSOLIDATED_INTO_MBTI_BRICK",
+      "consolidated_into": "ID_MBTI",
+      "target_tabs": [
+        "Legacy_Archive",
+        "Timeline_Snapshots",
+        "Overall_Averages",
+        "State_vs_Trait_Volatility",
+        "LOOKER_MBTI"
+      ],
+      "baseline_summary": "Mind (E/I): 75.00% E / 25.00% I (2023-01-05)",
+      "archived_prefix": "ARCHIVE_2023_",
+      "zero_importrange_link": true
+    },
+    "LEGACY_MBTI_2023_NS": {
+      "id": "1TsbogvNfqLDj6C4iB8UAwC-Lsewy4_OEguGgCH9yLoM",
+      "name": "ARCHIVE_2023_Observant vs. Intuitive (Responses)",
+      "status": "CONSOLIDATED_INTO_MBTI_BRICK",
+      "consolidated_into": "ID_MBTI",
+      "target_tabs": [
+        "Legacy_Archive",
+        "Timeline_Snapshots",
+        "Overall_Averages",
+        "State_vs_Trait_Volatility",
+        "LOOKER_MBTI"
+      ],
+      "baseline_summary": "Energy (N/S): 63.64% N / 36.36% S (2023-01-12)",
+      "archived_prefix": "ARCHIVE_2023_",
+      "zero_importrange_link": true
+    },
+    "LEGACY_MBTI_2023_TF": {
+      "id": "1-0Jvia_5KJHzNyx5z23Q8yofz6zHZbMV3oVtTAYo1J4",
+      "name": "ARCHIVE_2023_Thinking vs. Feeling (Responses)",
+      "status": "CONSOLIDATED_INTO_MBTI_BRICK",
+      "consolidated_into": "ID_MBTI",
+      "target_tabs": [
+        "Legacy_Archive",
+        "Timeline_Snapshots",
+        "Overall_Averages",
+        "State_vs_Trait_Volatility",
+        "LOOKER_MBTI"
+      ],
+      "baseline_summary": "Nature (T/F): 60.00% T / 40.00% F (2023-01-07)",
+      "archived_prefix": "ARCHIVE_2023_",
+      "zero_importrange_link": true
+    },
+    "LEGACY_MBTI_2023_JP": {
+      "id": "1YIFRC4Gk8g5u6dRiyYgJghbP9oVRDszVBX0yiPQt2sU",
+      "name": "ARCHIVE_2023_Judging vs. Prospecting (Responses)",
+      "status": "CONSOLIDATED_INTO_MBTI_BRICK",
+      "consolidated_into": "ID_MBTI",
+      "target_tabs": [
+        "Legacy_Archive",
+        "Timeline_Snapshots",
+        "Overall_Averages",
+        "State_vs_Trait_Volatility",
+        "LOOKER_MBTI"
+      ],
+      "baseline_summary": "Tactics (J/P): 80.00% J / 20.00% P (2023-01-06 & 2023-11-29)",
+      "archived_prefix": "ARCHIVE_2023_",
+      "zero_importrange_link": true
+    },
+    "LEGACY_MBTI_2023_AT": {
+      "id": "1K0lCef6hhVsWHA4mAtNMWWDwf9Jwgzk_eNFhbyMYlow",
+      "name": "ARCHIVE_2023_Assertive vs. Turbulent (Responses)",
+      "status": "CONSOLIDATED_INTO_MBTI_BRICK",
+      "consolidated_into": "ID_MBTI",
+      "target_tabs": [
+        "Legacy_Archive",
+        "Timeline_Snapshots",
+        "Overall_Averages",
+        "State_vs_Trait_Volatility",
+        "LOOKER_MBTI"
+      ],
+      "baseline_summary": "Identity (-A/-T): 46.67% A / 53.33% T (2023-01-03)",
+      "archived_prefix": "ARCHIVE_2023_",
+      "zero_importrange_link": true
+    },
+    "LEGACY_MBTI_2023_HUB": {
+      "id": "1yjCMaSWX9Z4RLp8jnamzwI3076dHzfqCokMZcy5fXLc",
+      "name": "ARCHIVE_2023_Myers & Briggs' 16 Personality Types",
+      "status": "CONSOLIDATED_INTO_MBTI_BRICK",
+      "consolidated_into": "ID_MBTI",
+      "target_tabs": [
+        "Legacy_Archive",
+        "Timeline_Snapshots",
+        "Overall_Averages",
+        "State_vs_Trait_Volatility",
+        "LOOKER_MBTI"
+      ],
+      "baseline_summary": "ENTJ-T Commander | Analyst 61.82% | Social Engagement 64.17%",
+      "archived_prefix": "ARCHIVE_2023_",
+      "zero_importrange_link": true
     }
   },
   "unmapped_discovered": [
