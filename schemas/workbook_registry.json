@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-27T22:45:00Z",
+  "last_updated_utc": "2026-11-27T23:00:00Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -3739,6 +3739,7 @@
       "live_tabs": [
         "\ud83e\udde0 MOC_BEHAVIOR_HUD",
         "\ud83d\udd3a MOC_PYRAMID_FUNNEL",
+        "\ud83d\udcdc LEVELS_OF_CONSCIOUSNESS_CHART",
         "BEHAVIORAL_SCORES_&_CONTEXT",
         "SCORING_RUBRIC_&_TAXONOMY",
         "LOOKER_MOC_BEHAVIOR",
@@ -3749,6 +3750,7 @@
       "all_tabs": [
         "\ud83e\udde0 MOC_BEHAVIOR_HUD",
         "\ud83d\udd3a MOC_PYRAMID_FUNNEL",
+        "\ud83d\udcdc LEVELS_OF_CONSCIOUSNESS_CHART",
         "BEHAVIORAL_SCORES_&_CONTEXT",
         "SCORING_RUBRIC_&_TAXONOMY",
         "LOOKER_MOC_BEHAVIOR",
@@ -3757,7 +3759,7 @@
         "SIGNALS_OUT",
         "Form_Responses_1"
       ],
-      "tab_count": 9,
+      "tab_count": 10,
       "search_aliases": [
         "\ud83e\udde0 Consciousness_Behavior_Brick",
         "Consciousness_Behavior_Brick",
@@ -3793,9 +3795,11 @@
       "tab_color_coded": true,
       "universal_brick_compliant": true,
       "privacy_boundary": "STRICT_ZERO_PII",
-      "last_audited_utc": "2026-11-27T22:45:00Z",
+      "last_audited_utc": "2026-11-27T23:00:00Z",
       "pyramid_tab": "\ud83d\udd3a MOC_PYRAMID_FUNNEL",
-      "pyramid_gid": 1480675174
+      "pyramid_gid": 1480675174,
+      "levels_chart_tab": "\ud83d\udcdc LEVELS_OF_CONSCIOUSNESS_CHART",
+      "levels_chart_gid": 1386875903
     }
   },
   "unmapped_discovered": [

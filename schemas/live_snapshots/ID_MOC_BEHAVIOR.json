@@ -3,12 +3,13 @@
   "spreadsheet_id": "1jqvc8lbbOnHZ786F4dFbPO2193DEj0g5yCeyyUORexs",
   "linked_form_id": "1isDAiE4Ruyn8naO15MK0L1RqWig0Gg7zXZCybeSx_uc",
   "title": "\ud83e\udde0 Consciousness_Behavior_Brick",
-  "captured_utc": "2026-11-27T22:45:00Z",
+  "captured_utc": "2026-11-27T23:00:00Z",
   "privacy_boundary": "STRICT_ZERO_PII",
-  "tab_count": 9,
+  "tab_count": 10,
   "tabs": [
     "\ud83e\udde0 MOC_BEHAVIOR_HUD",
     "\ud83d\udd3a MOC_PYRAMID_FUNNEL",
+    "\ud83d\udcdc LEVELS_OF_CONSCIOUSNESS_CHART",
     "BEHAVIORAL_SCORES_&_CONTEXT",
     "SCORING_RUBRIC_&_TAXONOMY",
     "LOOKER_MOC_BEHAVIOR",
@@ -20,6 +21,7 @@
   "tab_gids": {
     "\ud83e\udde0 MOC_BEHAVIOR_HUD": 993530618,
     "\ud83d\udd3a MOC_PYRAMID_FUNNEL": 1480675174,
+    "\ud83d\udcdc LEVELS_OF_CONSCIOUSNESS_CHART": 1386875903,
     "BEHAVIORAL_SCORES_&_CONTEXT": 768115734,
     "SCORING_RUBRIC_&_TAXONOMY": 898288619,
     "LOOKER_MOC_BEHAVIOR": 1877263647,
@@ -265,5 +267,19 @@
       "2026-11-27 02:39"
     ]
   ],
-  "pyramid_tab": "\ud83d\udd3a MOC_PYRAMID_FUNNEL"
+  "pyramid_tab": "\ud83d\udd3a MOC_PYRAMID_FUNNEL",
+  "levels_chart_tab": "\ud83d\udcdc LEVELS_OF_CONSCIOUSNESS_CHART",
+  "levels_chart_headers": [
+    "Current Level Marker",
+    "Dimension, Vibration & Colour",
+    "Level of Consciousness",
+    "Energetic Frequency",
+    "Associated / Baseline State",
+    "View of Life",
+    "Key to Transcending to the Next Level",
+    "What We Experience",
+    "States of Consciousness",
+    "Location",
+    "Brick Band"
+  ]
 }
