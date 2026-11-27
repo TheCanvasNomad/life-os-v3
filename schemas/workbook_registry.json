@@ -633,7 +633,7 @@
         "CONTEXT_IN",
         "SIGNALS_OUT"
       ],
-      "tab_count": 13,
+      "tab_count": 9,
       "linked_forms": [
         {
           "name": "Life OS // Cattell 16PF Psychometric Intake (IPIP-160)",
@@ -644,7 +644,18 @@
           "form_id": "1S6rStG-WmO6BSPZ00rBdJH_7rKfWxPiI25blhwlnHk4"
         }
       ],
-      "universal_brick_compliant": true
+      "universal_brick_compliant": true,
+      "landing_tab": "\ud83d\udcca 16PF_HUD",
+      "looker_tab": "LOOKER_16PF",
+      "retired_import_tabs": [
+        "Import_OCEAN",
+        "Import_PQ",
+        "Import_Enneagram",
+        "Import_HD",
+        "Import_Zodiac",
+        "Import_MBTI"
+      ],
+      "privacy_boundary": "STRICT_ZERO_PII"
     },
     "ID_BELIEF_TRACKER": {
       "title": "Belief & Stance Tracker (Life OS)",
