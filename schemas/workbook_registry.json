@@ -3694,6 +3694,18 @@
       "composite_avg_pct": 55.94,
       "privacy_boundary": "STRICT_PILLAR_0_ONLY",
       "zero_importrange_link": true
+    },
+    "LEGACY_CAREER_EDU_2021": {
+      "id": "1abldJ-d1IfMRPOWZXomsCKtHDWSTUPf2ZvXuLRhIRc4",
+      "name": "ARCHIVE_2021_Your career and education (Responses)",
+      "form_id": "1myA9BJRXi9T_u8cSIPVfCWaidb3bJFkZAUhn1rd8u28",
+      "status": "CONSOLIDATED_INTO_PILLAR",
+      "consolidated_into": "ID_PILLAR_4",
+      "target_tab": "LEGACY_IKIGAI_BASELINE",
+      "baseline_date": "2021-11-30",
+      "archived_prefix": "ARCHIVE_2021_",
+      "excluded_from_quarterly_and_xp": true,
+      "zero_importrange_link": true
     }
   },
   "unmapped_discovered": [

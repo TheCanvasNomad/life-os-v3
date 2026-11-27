@@ -1,7 +1,7 @@
 # LifeOS-v3 Hub & Brick `IMPORTRANGE` Browser Authorization Checklist
 
 > **Why this checklist exists**: Google Sheets requires a one-time interactive browser click (**"Allow access"** on a `#REF!` cell) for each new cross-spreadsheet `IMPORTRANGE` connection. APIs and scripts cannot grant this permission on your behalf.  
-> **Last Audited**: `2026-11-26` (**`ARCHIVE_2024_Dukkha Practice Reflection Form  (Responses)`** [`1hWh1ASYTEa2sLRWGJY9jhCt5spXncW5ouxquivn-Kxk`] consolidated as **`CONSOLIDATED_INTO_PILLAR`** inside **`🌑 Pillar_0_Shadow_Self`** [`RAW_DATA_DukkhaReflection` (4 runs, `55.94%` avg, `4/4` Avoidance × `85%` Root-Cause Insight) + `DASHBOARD!A48:J50` + sanitized `P0_DUKKHA_AUDIT_STATUS` `FRESH` in Hub, `15` tabs, `0` formula errors, open-loop isolation verified] — **301 live Hub signals, 43 registered modules, 33 flat zero-PII Looker tabs & 0 formula errors**!)
+> **Last Audited**: `2026-11-26` (**`ARCHIVE_2021_Your career and education (Responses)`** [`1abldJ-d1IfMRPOWZXomsCKtHDWSTUPf2ZvXuLRhIRc4`] consolidated as **`CONSOLIDATED_INTO_PILLAR`** read-only 2021 Ikigai baseline inside **`🛠️ Pillar_4_Skills_Mission`** [`LEGACY_IKIGAI_BASELINE` + `DASHBOARD!A42:H44`, `12` tabs, `0` errors, quarterly Ikigai & Skill XP isolation verified] — **301 live Hub signals, 43 registered modules, 33 flat zero-PII Looker tabs & 0 formula errors**!)
 
 ---
 
