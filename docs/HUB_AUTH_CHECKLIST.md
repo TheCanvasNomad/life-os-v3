@@ -1,7 +1,7 @@
 # LifeOS-v3 Hub & Brick `IMPORTRANGE` Browser Authorization Checklist
 
 > **Why this checklist exists**: Google Sheets requires a one-time interactive browser click (**"Allow access"** on a `#REF!` cell) for each new cross-spreadsheet `IMPORTRANGE` connection. APIs and scripts cannot grant this permission on your behalf.  
-> **Last Audited**: `2026-11-26` (**`💠 Human Design OS`** [`ID_HD`] consolidated **13 → 10** unmerged, color-coded tabs [`💠 HD_DASHBOARD`, `ADVISORY_MATRIX`, `DECISION_&_BATTERY_ENGINE`, `CENTERS_&_CHANNELS`, `WHEEL_64_&_PHS`, zero-PII `HD_CONFIG_BUS`, `LOOKER_HUMAN_DESIGN` (28 rows), `CONTEXT_IN` `E2=AUTHORIZED`, reconciled `80` Conditioning Load, 8 `HD_*` signals LIVE] + **100% API-Free Dual Celestial & HD Transit Engine** — **289 live Hub signals, 42 registered modules, 31 flat zero-PII Looker tabs & 0 formula errors**!)
+> **Last Audited**: `2026-11-26` (**`🔢 Numerology_OS_Brick`** [`ID_NUMEROLOGY`: `1wpZFBrMwMyOvIfp2K9TQ8UrhOCmlRcE8m4BwgrpiN_8`] built & wired with **8** unmerged, color-coded tabs [`🔢 NUMEROLOGY_HUD`, `NUMEROLOGY_MATRIX`, `ALIGNMENT_LOG`, `CHALDEAN_GEMATRIA_REF`, zero-PII `LOOKER_NUMEROLOGY` (18 rows), `MODULE_META`, `CONTEXT_IN`, `SIGNALS_OUT`], **8** `NUM_*` signals routed to Hub + Zodiac OS + XP Leveler + Master Bus Domain 14 + Character HUD — **297 Hub signals, 43 registered modules, 32 flat zero-PII Looker tabs & 0 formula errors**!)
 
 ---
 
@@ -55,6 +55,7 @@ https://docs.google.com/spreadsheets/d/1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuv
 | [ ] | `MODULE_REGISTRY!J41` | **🎮 CHARACTER_PROFILE_HUD** | `13fowIl8CIw9KgMp8OC4N5L-AwvAqANM8jNaUnujLo1E` | Core Display Pillar III telemetry (`HUD_DOSSIER_HYDRATION_PCT`, `HUD_FORM_SUBMISSIONS_COUNT`, `HUD_LIVE_BRICKS_CONNECTED`) |
 | [ ] | `MODULE_REGISTRY!J42` | **⚖️ Sovereignty_Desire_Brick** | `1eNHenM8QdiE_onsNYkkMJyvXOlo5D7y-n8e7LF5HpTc` | All 11 zero-PII `SOV_*` signals (`SOV_COMPOSITE_SCORE`=`76.7`, `SOV_D1_BIOLOGICAL_PULL`=`62.5`, `SOV_D2_SUBLIMATION`=`62.5`, `SOV_D3_SOVEREIGNTY`=`75.0`, `SOV_D4_CLARITY`=`56.3`, `SOV_D5_SOLITUDE`=`81.3`, `SOV_D6_REGRET_OWNERSHIP`=`87.5`, `SOV_PRIMARY_ARCHETYPE`=`The Sovereign Builder`, `SOV_TIER_VECTOR`=`M-M-H-M-H-H`, `SOV_ACTIVE_TENSION_COUNT`=`0`, `SOV_RUN_XP`=`100`) -> Hub, Pillar 0/3/4, XP Leveler & Character HUD |
 | [ ] | `MODULE_REGISTRY!J43` | **🏛️ Civic_Sovereignty_Brick** | `13QRTtBXsCOyIcsRI2jeUhuJFCPjhmDbQtiBQTAni8Yo` | All 6 zero-PII `CIVIC_*` signals (`CIVIC_CAPTURE_TOTAL`=`44`, `CIVIC_SOVEREIGNTY_PCT`=`79.2`, `CIVIC_ARCHETYPE`=`The Conscious Navigator`, `CIVIC_DIM4_CAVE_SCORE`=`12`, `CIVIC_DIM6_ENGAGEMENT_SCORE`=`10`, `CIVIC_RUN_XP`=`100`) -> Hub, Master Bus, XP Leveler & Character HUD |
+| [ ] | `MODULE_REGISTRY!J44` | **🔢 Numerology_OS_Brick** | `1wpZFBrMwMyOvIfp2K9TQ8UrhOCmlRcE8m4BwgrpiN_8` | All 8 zero-PII `NUM_*` signals (`NUM_LIFE_PATH_CORE`=`8`, `NUM_EXPRESSION_CORE`=`7`, `NUM_SOUL_URGE`=`9`, `NUM_BRIDGE_FRICTION`=`2`, `NUM_CHALDEAN_MONAD`=`1`, `NUM_ALIGNMENT_INDEX`=`78.6`, `NUM_XP_HARMONY_MULTIPLIER`=`1.107`, `NUM_CONSTRUCT_STATE`=`Integrated`) -> Hub `SIGNAL_BUS!R291:R298` + `CHARACTER_SHEET` Sec 9, Zodiac OS, XP Leveler, Master Bus Domain 14 & Character HUD |
 
 ---
 
@@ -212,6 +213,7 @@ Each of the 11 newly standardized Bricks has a dedicated unwrapped **`Hub_Auth_T
 | [ ] | `ID_PQ` | **🎭 PQ_Saboteur_Brick** (`CONTEXT_IN!F2`) | https://docs.google.com/spreadsheets/d/1NhqPJDFOp91qOp5Y9hPe0rIuqECKU_b08cZYXZAqxeE/edit | `ACUTE_STRESS`, `EQ_EMOTIONAL_CONTROL`, `SHADOW_TAX_RATE`, `P0_WISDOM_SCORE`, `ZODIAC_WIP_COUNT` -> drives Pass-2 `Saboteur × Live Telemetry State` `ADVISORY_MATRIX` on `🎭 PQ_DASHBOARD` |
 | [ ] | `ID_SOVEREIGNTY_DESIRE` | **⚖️ Sovereignty_Desire_Brick** (`CONTEXT_IN!F2`) | https://docs.google.com/spreadsheets/d/1eNHenM8QdiE_onsNYkkMJyvXOlo5D7y-n8e7LF5HpTc/edit#gid=774530199 | `FLOW_COHERENCE`, `ACUTE_STRESS`, `PQ_PRIMARY_SABOTEUR`, `REL_AVG_OVERALL_SCORE`, `ACTIVE_OPERATIONAL_PHASE` -> drives live Pass-2 `6 Archetypes × 5 Live Telemetry States` `ADVISORY_MATRIX` on `⚖️ SOVEREIGNTY_HUD` |
 | [ ] | `ID_CIVIC_SOVEREIGNTY` | **🏛️ Civic_Sovereignty_Brick** (`CONTEXT_IN!F2`) | https://docs.google.com/spreadsheets/d/13QRTtBXsCOyIcsRI2jeUhuJFCPjhmDbQtiBQTAni8Yo/edit#gid=1426556887 | `ACUTE_STRESS`, `EQ_EMOTIONAL_CONTROL`, `FLOW_COHERENCE`, `P0_WISDOM_SCORE` -> drives live Pass-2 `4 Archetypes × 5 Live Telemetry States` `ADVISORY_MATRIX` on `🏛️ CIVIC_SOVEREIGNTY_HUD` |
+| [ ] | `ID_NUMEROLOGY` | **🔢 Numerology_OS_Brick** (`CONTEXT_IN!F2`) | https://docs.google.com/spreadsheets/d/1wpZFBrMwMyOvIfp2K9TQ8UrhOCmlRcE8m4BwgrpiN_8/edit#gid=2079670735 | `ZODIAC_ALIGNMENT`, `ZODIAC_SUN_TRANSIT`, `ZODIAC_WIP_STATUS`, `HD_ALIGNMENT_RATE`, `FLOW_COHERENCE`, `ACTIVE_OPERATIONAL_PHASE`, `DAILY_ENERGY` -> drives Pass-2 `ADVISORY_MATRIX` on `NUMEROLOGY_MATRIX` & `🔢 NUMEROLOGY_HUD` *(if `F2`'s `IF(ISERROR(...))` wrapper hides the hover button, paste `=IMPORTRANGE("1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U","SIGNAL_BUS!A1")` into blank `G2`, click **Allow access**, then delete `G2` -> `F2` switches to `AUTHORIZED`)* |
 
 ---
 
@@ -221,14 +223,14 @@ All 15 legacy `SRC_*`, `Signal_Bus`, and `Engine_Outputs` staging tabs have been
 
 | Done | Tab & Cell | Direct Tab Link | Target Workbook | Status / Unlocks |
 | :---: | :--- | :--- | :--- | :--- |
-| [x] | `HUB_SIGNAL_RELAY!F2` | https://docs.google.com/spreadsheets/d/1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ/edit#gid=404821614 | **LifeOS_feed_hub** (`1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U`) | **LIVE (`AUTHORIZED`)**: Streams all **269** `SIGNAL_BUS` signals & **42** `MODULE_REGISTRY` rows into `⚡ SYMBIOSIS_HUD` (13 domains), `SYMBIOSIS_BUS` (`SYM_01`–`SYM_08`), `SCHEMA_MANIFEST` (21 canonical keys), and `LOOKER_MASTER_BUS` (79 zero-PII rows) — 0 errors! |
+| [x] | `HUB_SIGNAL_RELAY!F2` | https://docs.google.com/spreadsheets/d/1Ti15qi_hkJ27LJ4VopZR5w5Gbo-MQw4xx_APh8KY5iQ/edit#gid=404821614 | **LifeOS_feed_hub** (`1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U`) | **LIVE (`AUTHORIZED`)**: Streams all **297** `SIGNAL_BUS` signals & **43** `MODULE_REGISTRY` rows into `⚡ SYMBIOSIS_HUD` (14 domains incl. Numerology & Construct Harmony), `SYMBIOSIS_BUS` (`SYM_01`–`SYM_08`), `SCHEMA_MANIFEST` (21 canonical keys), and `LOOKER_MASTER_BUS` (79 zero-PII rows) — 0 errors! |
 
 ---
 
 ## 4. Post-Approval Verification
 
 Once you finish clicking **"Allow access"** above:
-1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **278** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
+1. Open **`LifeOS_feed_hub` -> `SIGNAL_BUS`** (`#gid=387897381`): confirm all **297** signal rows evaluate cleanly with `FRESH` / `UNLOGGED` status badges and 0 formula errors.
 2. Open **`LifeOS_feed_hub` -> `AQAL_VIEW`** (`#gid=168404271`): confirm all 4 Quadrants (`UL`, `UR`, `LL`, `LR`) show live composite scores, `SPARKLINE` gauges, `Quadrant Balance Score`, `Achievements AQAL Overlay`, and a live `Corrective Quest Directive`.
 3. Open any Brick's **`CONTEXT_IN`** tab from Section 2: confirm `F3:F5` switches from `"Click F2 -> Allow access"` to `"AUTHORIZED"` and Columns `B:E` stream live Hub context.
 4. Open **`XP Leveler` -> `PILLAR_XP_ABSORPTION`** (`#gid=1096501556`): verify all **12** Pillar & Brick XP streams (`P0`–`P6`, `Travel_Tracker`, `Achievements_Engine_Brick`, `Daily_Intake_Brick`, `Sovereignty_Desire_Brick`, `Civic_Sovereignty_Brick`) flow into `Live_Raw_Pillar_XP` and feed the Unified Main XP Bar on `Player_HUD` with zero double-counting.

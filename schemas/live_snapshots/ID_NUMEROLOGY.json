@@ -1,0 +1,362 @@
+{
+  "workbook_key": "ID_NUMEROLOGY",
+  "spreadsheet_id": "1wpZFBrMwMyOvIfp2K9TQ8UrhOCmlRcE8m4BwgrpiN_8",
+  "title": "\ud83d\udd22 Numerology_OS_Brick",
+  "captured_utc": "2026-11-27T03:09:39Z",
+  "privacy_boundary": "STRICT_ZERO_PII_ZERO_SCRATCH (Baseline name tokens & scratch gematria strings encapsulated strictly inside CHALDEAN_GEMATRIA_REF; never exported)",
+  "tab_count": 8,
+  "tabs": [
+    "\ud83d\udd22 NUMEROLOGY_HUD",
+    "NUMEROLOGY_MATRIX",
+    "ALIGNMENT_LOG",
+    "CHALDEAN_GEMATRIA_REF",
+    "LOOKER_NUMEROLOGY",
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT"
+  ],
+  "context_in_gid": 2079670735,
+  "looker_tab": "LOOKER_NUMEROLOGY",
+  "looker_row_count": 17,
+  "total_merged_cells": 0,
+  "audit_errors_all_tabs": 0,
+  "pii_leaks_exported": 0,
+  "signals_published": [
+    "NUM_LIFE_PATH_CORE",
+    "NUM_EXPRESSION_CORE",
+    "NUM_SOUL_URGE",
+    "NUM_BRIDGE_FRICTION",
+    "NUM_CHALDEAN_MONAD",
+    "NUM_ALIGNMENT_INDEX",
+    "NUM_XP_HARMONY_MULTIPLIER",
+    "NUM_CONSTRUCT_STATE"
+  ],
+  "samples": {
+    "\ud83d\udd22 NUMEROLOGY_HUD": [
+      [
+        "",
+        "\ud83d\udd22 LIFE OS v3.0 \u2014 NUMEROLOGY OS & THE CONSTRUCT EXECUTIVE HUD (100% DYNAMIC \u2022 ZERO-PII)"
+      ],
+      [
+        "",
+        "Status: LIVE  \u2022  LP 17/8 Master Architect  \u2022  Exp 16/7 Seeker  \u2022  SU 9 Sage  \u2022  Bday 24/6 Venus  \u2022  Chaldean 73/1 Monad  \u2022  Hub Context: Click F2 -> Allow access"
+      ],
+      [],
+      [
+        "",
+        "1. LIVE ALIGNMENT, CONSTRUCT & XP HARMONY SCOREBOARD"
+      ],
+      [
+        "",
+        "ALIGNMENT INDEX (%)",
+        "XP HARMONY MODIFIER",
+        "CONSTRUCT STATE",
+        "PRIMARY FRICTION AXIS",
+        "LIFE PATH / MONAD",
+        "HUB TELEMETRY STATE",
+        "CHECK-INS LOGGED",
+        "HUB CONTEXT"
+      ],
+      [
+        "",
+        "78.6",
+        "1.107",
+        "Integrated",
+        "Bridge_2_Attunement",
+        "LP 17/8  |  Monad 73/1",
+        "Baseline",
+        "1",
+        "Click F2 -> Allow access"
+      ],
+      [
+        "",
+        "",
+        "",
+        "Bounded 0.90x \u2013 1.15x",
+        "Lowest 1\u201310 Axis",
+        "Bridge: |9 - 7| = 2",
+        "Pass-2 State Trigger",
+        "Last: 2026-11-26",
+        "LifeOS_feed_hub"
+      ]
+    ],
+    "SIGNALS_OUT": [
+      [
+        "Signal_Key",
+        "Source_Brick",
+        "Glyph",
+        "Domain_Pillar",
+        "Raw_Value",
+        "Normalized_Score_0_100",
+        "State_Tag",
+        "Last_Updated",
+        "TTL_Hours",
+        "Notes"
+      ],
+      [
+        "NUM_LIFE_PATH_CORE",
+        "Numerology_OS_Brick",
+        "\ud83d\udd22",
+        "Esoteric / I",
+        "8",
+        "88.9",
+        "LP_17_8_MASTER_ARCHITECT",
+        "11/27/2026 3:09:37",
+        "2160",
+        "Immutable Life Path 17/8 core vibration"
+      ],
+      [
+        "NUM_EXPRESSION_CORE",
+        "Numerology_OS_Brick",
+        "\ud83d\udd0d",
+        "Esoteric / I",
+        "7",
+        "77.8",
+        "EXP_16_7_SEEKER",
+        "11/27/2026 3:09:37",
+        "2160",
+        "Immutable Expression / Destiny 16/7 inquiry core"
+      ],
+      [
+        "NUM_SOUL_URGE",
+        "Numerology_OS_Brick",
+        "\ud83d\udd4a\ufe0f",
+        "Esoteric / I",
+        "9",
+        "100",
+        "SU_9_SAGE_SERVANT",
+        "11/27/2026 3:09:37",
+        "2160",
+        "Immutable Soul Urge / Heart's Desire 9 vibration"
+      ],
+      [
+        "NUM_BRIDGE_FRICTION",
+        "Numerology_OS_Brick",
+        "\ud83c\udf09",
+        "Relational / WE",
+        "2",
+        "77.8",
+        "BRIDGE_2_DIPLOMACY",
+        "11/27/2026 3:09:37",
+        "2160",
+        "Heart's Desire (9) minus Personality (7) = Bridge 2"
+      ],
+      [
+        "NUM_CHALDEAN_MONAD",
+        "Numerology_OS_Brick",
+        "\u2600\ufe0f",
+        "Sovereignty / I",
+        "1",
+        "100",
+        "CHALDEAN_73_1_PIONEER",
+        "11/27/2026 3:09:37",
+        "2160",
+        "Chaldean full nomenclature vibration 73 -> 10 -> 1 (Zero PII)"
+      ],
+      [
+        "NUM_ALIGNMENT_INDEX",
+        "Numerology_OS_Brick",
+        "\ud83c\udfaf",
+        "Alignment / IT",
+        "78.6",
+        "78.6",
+        "HIGH_ALIGNMENT",
+        "11/27/2026 3:09:37",
+        "168",
+        "Latest periodic 7-axis composite alignment score (0-100)"
+      ],
+      [
+        "NUM_XP_HARMONY_MULTIPLIER",
+        "Numerology_OS_Brick",
+        "\u26a1",
+        "XP / ITS",
+        "1.107",
+        "82.8",
+        "HARMONY_BUFF",
+        "11/27/2026 3:09:37",
+        "168",
+        "Bounded 0.90x-1.15x XP Harmony Modifier consumed by XP Leveler"
+      ],
+      [
+        "NUM_CONSTRUCT_STATE",
+        "Numerology_OS_Brick",
+        "\ud83c\udfdb\ufe0f",
+        "Construct / I-ITS",
+        "Integrated",
+        "100",
+        "INTEGRATED",
+        "11/27/2026 3:09:37",
+        "168",
+        "The Construct state (Integrated / Balanced / Friction Spike)"
+      ]
+    ],
+    "LOOKER_NUMEROLOGY_headers": [
+      "Record_Type",
+      "Entity_Key",
+      "Label",
+      "Compound_Or_Score",
+      "Reduced_Root",
+      "Alignment_Pct",
+      "XP_Modifier",
+      "Status_Tag",
+      "Last_Updated"
+    ],
+    "LOOKER_NUMEROLOGY_sample": [
+      [
+        "CORE_ARCHETYPE_7",
+        "NUM_01",
+        "Life Path \u2014 The Master Architect",
+        "17/8",
+        "8",
+        "80",
+        "1.107",
+        "LOCKED_ARCHETYPE",
+        "2026-11-27 03:09"
+      ],
+      [
+        "CORE_ARCHETYPE_7",
+        "NUM_02",
+        "Expression / Destiny \u2014 The Seeker",
+        "16/7",
+        "7",
+        "90",
+        "1.107",
+        "LOCKED_ARCHETYPE",
+        "2026-11-27 03:09"
+      ],
+      [
+        "CORE_ARCHETYPE_7",
+        "NUM_03",
+        "Soul Urge / Heart's Desire \u2014 The Sage-Servant",
+        "9",
+        "9",
+        "70",
+        "1.107",
+        "LOCKED_ARCHETYPE",
+        "2026-11-27 03:09"
+      ],
+      [
+        "CORE_ARCHETYPE_7",
+        "NUM_04",
+        "Personality Interface \u2014 The Analytical Interface",
+        "25/7",
+        "7",
+        "80",
+        "1.107",
+        "LOCKED_ARCHETYPE",
+        "2026-11-27 03:09"
+      ],
+      [
+        "CORE_ARCHETYPE_7",
+        "NUM_05",
+        "Heart's Desire \u2013 Personality Bridge \u2014 The Diplomatic Bridge",
+        "|9 - 7| = 2",
+        "2",
+        "60",
+        "1.107",
+        "LOCKED_ARCHETYPE",
+        "2026-11-27 03:09"
+      ],
+      [
+        "CORE_ARCHETYPE_7",
+        "NUM_06",
+        "Birthday Number \u2014 The Harmonizer / Tactical Disruptor",
+        "24/6",
+        "6",
+        "80",
+        "1.107",
+        "LOCKED_ARCHETYPE",
+        "2026-11-27 03:09"
+      ],
+      [
+        "CORE_ARCHETYPE_7",
+        "NUM_07",
+        "Chaldean Name Vibration \u2014 The Sovereign Pioneer",
+        "73/1",
+        "1",
+        "90",
+        "1.107",
+        "LOCKED_ARCHETYPE",
+        "2026-11-27 03:09"
+      ],
+      [
+        "CONSTRUCT_LAYER",
+        "CON_01",
+        "Venusian Core",
+        "24/6",
+        "Tiferet / Indigo Ray",
+        "78.6",
+        "1.107",
+        "INTEGRATED",
+        "2026-11-27 03:09"
+      ]
+    ],
+    "MODULE_META": [
+      [
+        "Field",
+        "Value",
+        "Notes"
+      ],
+      [
+        "Brick_Name",
+        "Numerology_OS_Brick",
+        "Canonical LifeOS-v3 Numerology & Construct Brick"
+      ],
+      [
+        "Registry_Key",
+        "ID_NUMEROLOGY",
+        "Bound key in schemas/workbook_registry.json"
+      ],
+      [
+        "Source_Workbook",
+        "\ud83d\udd22 Numerology_OS_Brick",
+        "8-tab pure-formula standalone Lego Brick inside LifeOS_v3_Control"
+      ],
+      [
+        "Glyph",
+        "\ud83d\udd22",
+        "Executive HUD icon"
+      ],
+      [
+        "Domain_Pillar",
+        "Pillar 6 / Vibrational Architecture, The Construct & Chaldean Synthesis (I / IT / ITS)",
+        "LifeOS AQAL / 5-Pillar domain mapping"
+      ],
+      [
+        "Cadence_Tier",
+        "Immutable Core Matrix + Periodic 1-10 Alignment Log (TTL: 168h)",
+        "100% pure dynamic formulas (zero Apps Script needed)"
+      ],
+      [
+        "Signals_Published",
+        "NUM_LIFE_PATH_CORE, NUM_EXPRESSION_CORE, NUM_SOUL_URGE, NUM_BRIDGE_FRICTION, NUM_CHALDEAN_MONAD, NUM_ALIGNMENT_INDEX, NUM_XP_HARMONY_MULTIPLIER, NUM_CONSTRUCT_STATE",
+        "8 zero-PII signals exported via SIGNALS_OUT to LifeOS_feed_hub"
+      ],
+      [
+        "Context_Subscribed",
+        "ZODIAC_ALIGNMENT, ZODIAC_SUN_TRANSIT, ZODIAC_WIP_STATUS, HD_ALIGNMENT_RATE, FLOW_COHERENCE, ACTIVE_OPERATIONAL_PHASE, DAILY_ENERGY",
+        "Subscribed via CONTEXT_IN from LifeOS_feed_hub"
+      ],
+      [
+        "Looker_Export_Tab",
+        "LOOKER_NUMEROLOGY",
+        "Flat, unmerged, strictly zero-PII & zero-scratch-text tabular export"
+      ],
+      [
+        "Privacy_Boundary",
+        "STRICT_ZERO_PII_ZERO_SCRATCH",
+        "Baseline legal name tokens & scratch gematria strings remain strictly inside CHALDEAN_GEMATRIA_REF; never exported"
+      ],
+      [
+        "Hub_Spreadsheet_ID",
+        "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
+        "LifeOS_feed_hub central nervous system"
+      ],
+      [
+        "Last_Synced",
+        "2026-11-27 03:09 UTC",
+        "Dynamic live formula sync timestamp"
+      ]
+    ]
+  }
+}

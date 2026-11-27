@@ -11,15 +11,15 @@
 | Ecosystem Tier | Total Audited | `SCRIPT_REQUIRED` | `ZERO_SCRIPT_FORMULA_PURE` | Ready-to-Paste `.gs` Files |
 | :--- | :---: | :---: | :---: | :---: |
 | **Core Hubs & Character HUD** | 3 | **1** (`ID_FEED_HUB`) | **2** (`LifeOS_Master_Bus`, `ID_CHARACTER_HUD`) | `scripts/gas/ID_FEED_HUB.gs` |
-| **Standalone Lego Bricks** | 26 | **11** | **15** | 11 files in `scripts/gas/` |
+| **Standalone Lego Bricks** | 27 | **11** | **16** | 11 files in `scripts/gas/` |
 | **Utilities & CRM/Biometric Engines** | 6 | **4** (`XP`, `BIO_CORE`, `Core_CRM`, `Contacts`) | **2** (`Purged_Vault`, `NotebookLM_Social`) | 4 files in `scripts/gas/` |
 | **The 7 Pillars (`Pillar 0–6`)** | 7 | **7** | **0** | 7 files in `scripts/gas/` |
 | **Legacy Bound Log (`ID_MASTER_LOG`)** | 1 | **0** | **1** *(superseded)* | None needed |
 | **Layer-1 `RAW_DATA_*` Silos** | 22 | **0** *(Law 1 Write-Only)* | **22** | None permitted (Law 1) |
-| **TOTAL ECOSYSTEM** | **65** | **23** | **42** | **23 verified `.gs` bundles** |
+| **TOTAL ECOSYSTEM** | **66** | **23** | **43** | **23 verified `.gs` bundles** |
 
 ### Key Takeaways
-- **42 workbooks (19 active bricks/hubs/vaults + 1 legacy log + 22 Layer-1 `RAW_DATA_*` silos) work 100% out-of-the-box with pure Google Sheets formulas**—zero Apps Script or triggers required.
+- **43 workbooks (20 active bricks/hubs/vaults + 1 legacy log + 22 Layer-1 `RAW_DATA_*` silos) work 100% out-of-the-box with pure Google Sheets formulas**—zero Apps Script or triggers required.
 - **23 active workbooks require Apps Script (`.gs`) + installable triggers** across the Four Functional Gates:
   - **10 newly authored / upgraded Tier-1 Brick scripts** (previously `No Script Attached` or missing `FormApp` bindings).
   - **13 consolidated Hub, Utility & Pillar scripts** (previously split across `src/`, now bundled into single paste-ready `scripts/gas/<KEY>.gs` files with unified `onOpen()` menus and one-click `setupTriggers()`).
@@ -69,7 +69,7 @@
 
 ---
 
-## 4. Master Script & Trigger Matrix — Part B: `ZERO_SCRIPT_FORMULA_PURE` (20 Active/Bound Workbooks + 22 Layer-1 Silos)
+## 4. Master Script & Trigger Matrix — Part B: `ZERO_SCRIPT_FORMULA_PURE` (21 Active/Bound Workbooks + 22 Layer-1 Silos)
 
 > **Zero Apps Script needed.** Every workbook below runs 100% live via blank-safe dynamic Sheets formulas (`IF(ISBLANK(...), "", ...)`) and Two-Pass Hub `IMPORTRANGE` routing (`LifeOS_feed_hub!SIGNAL_BUS`).
 
@@ -85,6 +85,7 @@
 | **💠 Human Design OS** (`ID_HD`) | `ZERO_SCRIPT_FORMULA_PURE` | `No Script Attached` | None *(immutable natal chart + Hub `CONTEXT_IN`)* | `None` | None |
 | **♈ Zodiac OS** (`ID_ZODIAC`) | `ZERO_SCRIPT_FORMULA_PURE` *(Optional Precision Boost)* | `Optional Boost Available` | Pure-formula 13-body Meeus/VSOP87 ephemeris works out-of-the-box; optional [`ID_ZODIAC_ephemeris.gs`](../scripts/gas/ID_ZODIAC_ephemeris.gs) (`updateDailyEphemeris`, `setupTriggers`) adds daily sub-arcminute precision with zero external APIs | `None` *(or Optional Daily 6:00 AM)* | `SpreadsheetApp` only *(Zero `UrlFetchApp`)* |
 | **🌳 Kaballah Tree of Life OS Engine** (`ID_KABBALAH`) | `ZERO_SCRIPT_FORMULA_PURE` | `No Script Attached` | None *(pure Sephirot + Hub `CONTEXT_IN`)* | `None` | None |
+| **🔢 Numerology_OS_Brick** (`ID_NUMEROLOGY`) | `ZERO_SCRIPT_FORMULA_PURE` | `No Script Attached` | None *(immutable Core 7 + The Construct + Chaldean Gematria + periodic `ALIGNMENT_LOG` + Hub `CONTEXT_IN`)* | `None` | None |
 | **💞 Love_Styles_&_Languages_Brick** (`ID_LOVE_STYLES`) | `ZERO_SCRIPT_FORMULA_PURE` | `No Script Attached` | None *(pure formulas + consolidated `RAW_DATA_LoveLanguage` & `SenseOfTouch`)* | `None` | None |
 | **🧠 Emotional_Intelligence_Brick** (`ID_EQ`) | `ZERO_SCRIPT_FORMULA_PURE` | `No Script Attached` | None *(pure 4-quadrant EQ formulas)* | `None` | None |
 | **👤 Doppelganger_Brick** (`ID_DOPPELGANGER`) | `ZERO_SCRIPT_FORMULA_PURE` | `No Script Attached` | None *(pure Shadow Tax formulas via `CONTEXT_IN`)* | `None` | None |
