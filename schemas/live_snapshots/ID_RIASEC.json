@@ -1,166 +1,443 @@
 {
-  "registry_key": "ID_RIASEC",
-  "title": "RAISEC Intake (Responses)",
+  "workbook_key": "ID_RIASEC",
   "spreadsheet_id": "1RmJ9bDzm6Vs59EC1BV99lqHnYxgp-bchV589rQc6ybM",
-  "url": "https://docs.google.com/spreadsheets/d/1RmJ9bDzm6Vs59EC1BV99lqHnYxgp-bchV589rQc6ybM/edit",
-  "time_zone": "America/New_York",
-  "snapshot_utc": "2026-11-23T16:16:23Z",
+  "title": "\ud83e\udded RIASEC_Brick",
+  "captured_utc": "2026-11-27 00:41 UTC",
+  "privacy_boundary": "STRICT_ZERO_PII",
   "tab_count": 9,
   "tabs": [
-    {
-      "title": "RIASEC_Intake",
-      "sheet_id": 1425744753,
-      "index": null,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 102,
-      "col_count": 55,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "1. Repair, assemble, or calibrate mechanical equipment, tools, or hardware",
-        "2. Analyze complex datasets to uncover hidden patterns or root causes",
-        "3. Design visual layouts, media, or original creative concepts from scratch",
-        "4. Mentor, coach, or teach someone a new skill one-on-one",
-        "5. Pitch an idea, negotiate terms, or persuade stakeholders to back a project",
-        "6. Build structured spreadsheets, databases, or step-by-step tracking systems",
-        "7. Work outdoors or in physical environments using hands-on navigation or field gear",
-        "8. Conduct deep research into scientific, technical, or theoretical systems",
-        "9. Write original stories, essays, scripts, or expressive worldbuilding content",
-        "10. Mediate conflicts and help a group reach emotional alignment",
-        "11. Lead a team toward an ambitious target under high-stakes conditions",
-        "12. Audit records, verify compliance, and eliminate errors in detailed logs",
-        "13. Operate machinery, vessels, vehicles, or specialized technical instruments",
-        "14. Diagnose why a complex system failed by testing competing hypotheses",
-        "15. Compose music, edit video, or produce atmospheric audiovisual experiences",
-        "16. Facilitate workshops, group discussions, or community support programs",
-        "17. Launch a new business venture, product line, or monetization strategy",
-        "18. Establish standardized operating procedures (SOPs) to make workflows predictable",
-        "19. Build or modify physical structures, gear setups, or ergonomic workspaces",
-        "20. Solve abstract logic puzzles, strategic simulations, or mathematical models",
-        "21. Experiment with unconventional aesthetics, style, or artistic direction",
-        "22. Counsel friends or colleagues through personal or career crossroads",
-        "23. Take calculated financial or strategic risks to capture a major opportunity",
-        "24. Organize schedules, budgets, inventories, and logistics with precision",
-        "25. Troubleshoot physical wiring, electronics, engines, or hardware faults directly",
-        "26. Read technical manuals, research papers, or investigative deep dives for insight",
-        "27. Brainstorm unconventional metaphors, brand identities, or narrative hooks",
-        "28. Contribute to initiatives focused on human welfare, resilience, and growth",
-        "29. Rally people around a bold vision and delegate roles to execute it",
-        "30. Maintain clean archives, file taxonomies, and version-controlled documentation",
-        "31. Perform physically demanding tasks that produce tangible, visible results",
-        "32. Reverse-engineer how frameworks, algorithms, or institutions actually operate",
-        "33. Improvise creative solutions when no template or rulebook exists",
-        "34. Read subtle interpersonal cues to support someone\u2019s morale or confidence",
-        "35. Compete in high-leverage environments where performance drives rewards",
-        "36. Follow a clear checklist and quality-assurance protocol from start to finish",
-        "37. Navigate rugged terrain, waterways, or real-world field operations",
-        "38. Evaluate evidence objectively to test whether a popular assumption holds up",
-        "39. Express personal philosophy or emotion through visual art, photography, or film",
-        "40. Train new team members so they feel welcomed, capable, and supported",
-        "41. Influence organizational decisions and shape high-level strategic direction",
-        "42. Reconcile financial numbers, metrics, or operational telemetry for accuracy",
-        "43. Maintain, tune, or upgrade physical tools and field equipment for peak reliability",
-        "44. Map out multi-variable systems to predict second-order consequences",
-        "45. Curate visual themes, mood boards, or distinctive storytelling formats",
-        "46. Collaborate closely with others in a cooperative, people-first environment",
-        "47. Sell a product, vision, or capability to clients or decision-makers",
-        "48. Automate repetitive administrative tasks using structured rules and templates"
+    "\ud83e\udded RIASEC_DASHBOARD",
+    "Career_Juxtaposition",
+    "RIASEC_5Pillar_Codex",
+    "RIASEC_Scoring_Engine",
+    "LOOKER_RIASEC",
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT",
+    "RIASEC_Intake"
+  ],
+  "deleted_legacy_tabs": [
+    "LifeOS_Ledger_Sync"
+  ],
+  "audit_errors_all_9_tabs": 0,
+  "trailing_tail_artifacts": 0,
+  "samples": {
+    "\ud83e\udded RIASEC_DASHBOARD": [
+      [
+        "\ud83e\udded LIFE OS v3.0 \u2014 RIASEC VOCATIONAL HARDWARE & CONGRUENCE HUD (5-PILLAR ENGINE v3.1)"
       ],
-      "row_1": [
-        "Timestamp",
-        "1. Repair, assemble, or calibrate mechanical equipment, tools, or hardware",
-        "2. Analyze complex datasets to uncover hidden patterns or root causes",
-        "3. Design visual layouts, media, or original creative concepts from scratch",
-        "4. Mentor, coach, or teach someone a new skill one-on-one",
-        "5. Pitch an idea, negotiate terms, or persuade stakeholders to back a project",
-        "6. Build structured spreadsheets, databases, or step-by-step tracking systems",
-        "7. Work outdoors or in physical environments using hands-on navigation or field gear",
-        "8. Conduct deep research into scientific, technical, or theoretical systems",
-        "9. Write original stories, essays, scripts, or expressive worldbuilding content",
-        "10. Mediate conflicts and help a group reach emotional alignment",
-        "11. Lead a team toward an ambitious target under high-stakes conditions",
-        "12. Audit records, verify compliance, and eliminate errors in detailed logs",
-        "13. Operate machinery, vessels, vehicles, or specialized technical instruments",
-        "14. Diagnose why a complex system failed by testing competing hypotheses",
-        "15. Compose music, edit video, or produce atmospheric audiovisual experiences",
-        "16. Facilitate workshops, group discussions, or community support programs",
-        "17. Launch a new business venture, product line, or monetization strategy",
-        "18. Establish standardized operating procedures (SOPs) to make workflows predictable",
-        "19. Build or modify physical structures, gear setups, or ergonomic workspaces",
-        "20. Solve abstract logic puzzles, strategic simulations, or mathematical models",
-        "21. Experiment with unconventional aesthetics, style, or artistic direction",
-        "22. Counsel friends or colleagues through personal or career crossroads",
-        "23. Take calculated financial or strategic risks to capture a major opportunity",
-        "24. Organize schedules, budgets, inventories, and logistics with precision",
-        "25. Troubleshoot physical wiring, electronics, engines, or hardware faults directly",
-        "26. Read technical manuals, research papers, or investigative deep dives for insight",
-        "27. Brainstorm unconventional metaphors, brand identities, or narrative hooks",
-        "28. Contribute to initiatives focused on human welfare, resilience, and growth",
-        "29. Rally people around a bold vision and delegate roles to execute it",
-        "30. Maintain clean archives, file taxonomies, and version-controlled documentation",
-        "31. Perform physically demanding tasks that produce tangible, visible results",
-        "32. Reverse-engineer how frameworks, algorithms, or institutions actually operate",
-        "33. Improvise creative solutions when no template or rulebook exists",
-        "34. Read subtle interpersonal cues to support someone\u2019s morale or confidence",
-        "35. Compete in high-leverage environments where performance drives rewards",
-        "36. Follow a clear checklist and quality-assurance protocol from start to finish",
-        "37. Navigate rugged terrain, waterways, or real-world field operations",
-        "38. Evaluate evidence objectively to test whether a popular assumption holds up",
-        "39. Express personal philosophy or emotion through visual art, photography, or film",
-        "40. Train new team members so they feel welcomed, capable, and supported",
-        "41. Influence organizational decisions and shape high-level strategic direction",
-        "42. Reconcile financial numbers, metrics, or operational telemetry for accuracy",
-        "43. Maintain, tune, or upgrade physical tools and field equipment for peak reliability",
-        "44. Map out multi-variable systems to predict second-order consequences",
-        "45. Curate visual themes, mood boards, or distinctive storytelling formats",
-        "46. Collaborate closely with others in a cooperative, people-first environment",
-        "47. Sell a product, vision, or capability to clients or decision-makers",
-        "48. Automate repetitive administrative tasks using structured rules and templates"
-      ]
-    },
-    {
-      "title": "RIASEC_Dashboard",
-      "sheet_id": 927029903,
-      "index": 1,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "RIASEC 5-PILLAR DIAGNOSTIC \u2014 VOCATIONAL HARDWARE & CONGRUENCE ENGINE"
+      [
+        "Status: LIVE  \u2022  Holland Code: AIS  \u2022  Top Vector: A \u2014 Artistic  \u2022  Differentiation: 19/32  \u2022  Consistency: High (Adjacent Triad \u2014 Harmonious Flow)  \u2022  Hub Context: AUTHORIZED"
       ],
-      "row_1": [
-        "RIASEC 5-PILLAR DIAGNOSTIC \u2014 VOCATIONAL HARDWARE & CONGRUENCE ENGINE"
-      ]
-    },
-    {
-      "title": "Career_Juxtaposition",
-      "sheet_id": 1410447147,
-      "index": 2,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "RIASEC \u00d7 LIFEOS CAREER JUXTAPOSITION \u2014 INNATE HARDWARE VS. EMPIRICAL HISTORY"
+      [],
+      [
+        "HOLLAND CODE",
+        "TOP DIMENSION",
+        "DIFFERENTIATION",
+        "TRIADIC CONSISTENCY",
+        "",
+        "ACTIVE POLARITIES",
+        "OPENNESS (HUB)",
+        "HUB CONTEXT",
+        "TAKE QUIZ",
+        "EDIT FORM"
       ],
-      "row_1": [
-        "RIASEC \u00d7 LIFEOS CAREER JUXTAPOSITION \u2014 INNATE HARDWARE VS. EMPIRICAL HISTORY"
+      [
+        "AIS",
+        "A \u2014 Artistic",
+        "19",
+        "High (Adjacent Triad \u2014 Harmonious Flow)",
+        "",
+        "None (Harmonious Triad)",
+        "95.4%",
+        "AUTHORIZED",
+        "Open Quiz \u2197",
+        "Form Editor \u2197"
+      ],
+      [],
+      [
+        "\ud83d\udcca 1. 6-DIMENSION RIASEC HARDWARE PROFILE & WEEKLY TIME CONGRUENCE (=SPARKLINE BARS)"
+      ],
+      [
+        "Dimension",
+        "Archetype",
+        "Raw (/40)",
+        "Interest %",
+        "Rank",
+        "Visual Gauge (=SPARKLINE)",
+        "Weekly Hrs (Input)",
+        "Actual Time %",
+        "Delta (Time \u2212 Int)",
+        "Pillar 5 Operational Status"
+      ],
+      [
+        "R \u2014 Realistic",
+        "The Doer",
+        "16",
+        "40.0%",
+        "6",
+        "",
+        "",
+        "",
+        "",
+        "Log Weekly Hrs in Col G"
+      ],
+      [
+        "I \u2014 Investigative",
+        "The Thinker",
+        "33",
+        "82.5%",
+        "2",
+        "",
+        "",
+        "",
+        "",
+        "Log Weekly Hrs in Col G"
+      ],
+      [
+        "A \u2014 Artistic",
+        "The Creator",
+        "35",
+        "87.5%",
+        "1",
+        "",
+        "",
+        "",
+        "",
+        "Log Weekly Hrs in Col G"
+      ],
+      [
+        "S \u2014 Social",
+        "The Helper",
+        "23",
+        "57.5%",
+        "3",
+        "",
+        "",
+        "",
+        "",
+        "Log Weekly Hrs in Col G"
+      ],
+      [
+        "E \u2014 Enterprising",
+        "The Persuader",
+        "20",
+        "50.0%",
+        "5",
+        "",
+        "",
+        "",
+        "",
+        "Log Weekly Hrs in Col G"
+      ],
+      [
+        "C \u2014 Conventional",
+        "The Organizer",
+        "23",
+        "57.5%",
+        "3",
+        "",
+        "",
+        "",
+        "",
+        "Log Weekly Hrs in Col G"
+      ],
+      [
+        "ENVIRONMENTAL CONGRUENCE (Cosine Fit)",
+        "Latest Run: 2026-11-13 00:11",
+        "150",
+        "62.5%",
+        "\u2014",
+        "",
+        "",
+        "",
+        "",
+        "Log Weekly Hrs (G9:G14) to score Congruence"
+      ],
+      [],
+      [
+        "\ud83e\uddec 2. TOP-3 HOLLAND TRIAD \u2014 5-PILLAR COGNITIVE & SCAFFOLDING CODEX (DYNAMIC FROM RIASEC_5Pillar_Codex)"
+      ],
+      [
+        "Priority Slot",
+        "Code & Archetype",
+        "Pillar 2: Cognitive Style",
+        "",
+        "Pillar 1: Flow Trigger",
+        "",
+        "Pillar 4: Incongruence Trap",
+        "",
+        "Pillar 5: Scaffolding Rule"
+      ],
+      [
+        "Primary Engine (#1)",
+        "A \u2014 Artistic (The Creator)",
+        "Divergent, holistic, and non-linear pattern synthesis",
+        "",
+        "Unstructured creative autonomy, worldbuilding, visual design, and original expression",
+        "",
+        "Hyper-rigid compliance cubicles, micromanagement, and template-only execution",
+        "",
+        "Use automated systems (Conventional scaffolding) to contain chaos without stifling creation"
+      ],
+      [
+        "Secondary Driver (#2)",
+        "I \u2014 Investigative (The Thinker)",
+        "Analytical, scientific, and systems-level root-cause modeling",
+        "",
+        "Autonomous deep research, reverse-engineering complex systems, and hypothesis testing",
+        "",
+        "High-pressure sales persuasion, repetitive clerical routines, or anti-intellectual dogma",
+        "",
+        "Protect uninterrupted deep-work blocks; automate routine reporting via scripts/dashboards"
+      ],
+      [
+        "Tertiary Stabilizer (#3)",
+        "S \u2014 Social (The Helper)",
+        "Interpersonal empathy, relational sense-making, and group facilitation",
+        "",
+        "Teaching, mentoring, coaching, and elevating human capability or cohesion",
+        "",
+        "Isolated solitary technical maintenance devoid of human feedback or mission impact",
+        "",
+        "Pair analytical or solo projects with teaching, community building, or collaborative sprints"
       ]
-    },
-    {
-      "title": "RIASEC_5Pillar_Codex",
-      "sheet_id": 1239380093,
-      "index": 3,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
+    ],
+    "Career_Juxtaposition": [
+      [
+        "\u2696\ufe0f CAREER_JUXTAPOSITION \u2014 RIASEC HARDWARE VECTOR VS. LIFEOS CAREER TRACKS (ZERO LEDGER DUPLICATION)"
+      ],
+      [
+        "Pure cosine-similarity hardware fit against 5 LifeOS Career Tracks & 3 Resume Profiles + live Hub telemetry via CONTEXT_IN"
+      ],
+      [],
+      [
+        "INNATE HOLLAND CODE",
+        "TOP VECTOR",
+        "HIGHEST-FIT CAREER TRACK",
+        "",
+        "BEST RESUME PROFILE",
+        "",
+        "USCG SEA DAYS (HUB)",
+        "GRIT SCORE (HUB)",
+        "WIP LOAD (HUB)",
+        "HUB CONTEXT"
+      ],
+      [
+        "AIS",
+        "A \u2014 Artistic",
+        "Entrepreneurial / Side Venture (96.1%)",
+        "",
+        "Business, Marketing & Creative (94.4%)",
+        "",
+        "0 / 180",
+        "2.38 / 5",
+        "1 / 2",
+        "AUTHORIZED"
+      ],
+      [],
+      [
+        "1. INNATE RIASEC HARDWARE SHARE & MAPPED LIFEOS META-SKILLS"
+      ],
+      [
+        "RIASEC Dimension",
+        "Hardware Share %",
+        "HW Rank",
+        "Raw (/40)",
+        "Hardware Gauge (=SPARKLINE)",
+        "",
+        "Mapped LifeOS Meta-Skills",
+        "",
+        "Hardware Priority",
+        "Status"
+      ],
+      [
+        "R \u2014 Realistic",
+        "10.7%",
+        "6",
+        "16",
+        "",
+        "",
+        "MS-02 Logistics, MS-04 Diagnostics, Deck Ops",
+        "",
+        "LOW-AFFINITY LANE",
+        "LOW"
+      ],
+      [
+        "I \u2014 Investigative",
+        "22.0%",
+        "2",
+        "33",
+        "",
+        "",
+        "MS-03 Systems Arch, MS-08 Data Modeling, IT",
+        "",
+        "CORE ENGINE (Top 2)",
+        "CORE"
+      ],
+      [
+        "A \u2014 Artistic",
+        "23.3%",
+        "1",
+        "35",
+        "",
+        "",
+        "MS-07 Brand Storytelling & Content Strategy",
+        "",
+        "CORE ENGINE (Top 2)",
+        "CORE"
+      ],
+      [
+        "S \u2014 Social",
+        "15.3%",
+        "3",
+        "23",
+        "",
+        "",
+        "MS-11 Stakeholder Training, MS-01 Triage",
+        "",
+        "SUPPORTING STABILIZER",
+        "SUPPORT"
+      ],
+      [
+        "E \u2014 Enterprising",
+        "13.3%",
+        "5",
+        "20",
+        "",
+        "",
+        "MS-05 Team Leadership, MS-06 Consultative Sales",
+        "",
+        "LOW-AFFINITY LANE",
+        "LOW"
+      ],
+      [
+        "C \u2014 Conventional",
+        "15.3%",
+        "3",
+        "23",
+        "",
+        "",
+        "MS-09 Safety Compliance, MS-12 Financial Control",
+        "",
+        "SUPPORTING STABILIZER",
+        "SUPPORT"
+      ],
+      [],
+      [
+        "2. LIFEOS CAREER TRACK & RESUME PROFILE COSINE-SIMILARITY FIT MATRIX (PURE HARDWARE FIT)"
+      ],
+      [
+        "LifeOS Career Track / Resume Profile",
+        "Archetype",
+        "Hardware Fit %",
+        "Fit Gauge (=SPARKLINE)",
+        "",
+        "Primary Meta-Skill Vector",
+        "",
+        "Category",
+        "Strategic Allocation Verdict",
+        "Fit Tier"
+      ],
+      [
+        "Maritime Sea Service",
+        "R-I-C",
+        "77.5%",
+        "",
+        "",
+        "Navigation, Deck Ops, Safety & Diagnostics",
+        "",
+        "Career Track #1",
+        "SCAFFOLDED / HYBRID TRACK",
+        "HYBRID"
+      ],
+      [
+        "Primary Shoreside Career",
+        "C-E-R",
+        "85.1%",
+        "",
+        "",
+        "Logistics, IT Admin, Operations & Commercial",
+        "",
+        "Career Track #2",
+        "HIGH-LEVERAGE COMPLEMENT",
+        "COMPLEMENT"
+      ],
+      [
+        "Entrepreneurial / Side Venture",
+        "A-E-I",
+        "96.1%",
+        "",
+        "",
+        "Brand Storytelling, Media & Venture Strategy",
+        "",
+        "Career Track #3",
+        "PRIMARY EGO-SYNTONIC ENGINE",
+        "EGO_SYNTONIC"
+      ],
+      [
+        "Credentials & Education",
+        "I-C-R",
+        "93.4%",
+        "",
+        "",
+        "Technical Certifications, Study & Licensing",
+        "",
+        "Career Track #4",
+        "PRIMARY EGO-SYNTONIC ENGINE",
+        "EGO_SYNTONIC"
+      ],
+      [
+        "Campus / Leadership / Early Foundation",
+        "E-S-C",
+        "88.8%",
+        "",
+        "",
+        "Team Captaincy, Housing Mgmt & Peer Mentorship",
+        "",
+        "Career Track #5",
+        "HIGH-LEVERAGE COMPLEMENT",
+        "COMPLEMENT"
+      ],
+      [
+        "Maritime & Deck Operations",
+        "R-I-C",
+        "77.5%",
+        "",
+        "",
+        "OS/AB Deck, Bridge Watch, Cargo & Safety",
+        "",
+        "Resume Profile",
+        "SCAFFOLDED / HYBRID TRACK",
+        "HYBRID"
+      ],
+      [
+        "IT, Systems & Operations",
+        "I-R-C",
+        "88.4%",
+        "",
+        "",
+        "CompTIA A+, Systems Automation & Logistics",
+        "",
+        "Resume Profile",
+        "HIGH-LEVERAGE COMPLEMENT",
+        "COMPLEMENT"
+      ],
+      [
+        "Business, Marketing & Creative",
+        "E-A-I",
+        "94.4%",
+        "",
+        "",
+        "Digital Content, Brand Strategy & Sales",
+        "",
+        "Resume Profile",
+        "PRIMARY EGO-SYNTONIC ENGINE",
+        "EGO_SYNTONIC"
+      ]
+    ],
+    "RIASEC_5Pillar_Codex": [
+      [
         "Code",
         "Dimension_Label",
         "Archetype",
@@ -170,167 +447,203 @@
         "Pillar4_Incongruence_Trap",
         "Pillar5_Scaffolding_Rule"
       ],
-      "row_1": [
-        "Code",
-        "Dimension_Label",
+      [
+        "R",
+        "R \u2014 Realistic",
+        "The Doer",
+        "Spatial-mechanical reasoning; tangible, concrete problem-solving",
+        "Low Agreeableness / Practical Conscientiousness",
+        "Hands-on mastery over physical tools, vessels, gear, or real-world terrain",
+        "Purely abstract meetings, emotional counseling, or endless office bureaucracy",
+        "Anchor daily routine with physical execution blocks before doing desk/admin work"
+      ],
+      [
+        "I",
+        "I \u2014 Investigative",
+        "The Thinker",
+        "Analytical, scientific, and systems-level root-cause modeling",
+        "High Openness to Experience (Intellect facet)",
+        "Autonomous deep research, reverse-engineering complex systems, and hypothesis testing",
+        "High-pressure sales persuasion, repetitive clerical routines, or anti-intellectual dogma",
+        "Protect uninterrupted deep-work blocks; automate routine reporting via scripts/dashboards"
+      ],
+      [
+        "A",
+        "A \u2014 Artistic",
+        "The Creator",
+        "Divergent, holistic, and non-linear pattern synthesis",
+        "High Openness to Experience (Aesthetics & Imagination)",
+        "Unstructured creative autonomy, worldbuilding, visual design, and original expression",
+        "Hyper-rigid compliance cubicles, micromanagement, and template-only execution",
+        "Use automated systems (Conventional scaffolding) to contain chaos without stifling creation"
+      ],
+      [
+        "S",
+        "S \u2014 Social",
+        "The Helper",
+        "Interpersonal empathy, relational sense-making, and group facilitation",
+        "High Extraversion (Warmth) & High Agreeableness",
+        "Teaching, mentoring, coaching, and elevating human capability or cohesion",
+        "Isolated solitary technical maintenance devoid of human feedback or mission impact",
+        "Pair analytical or solo projects with teaching, community building, or collaborative sprints"
+      ],
+      [
+        "E",
+        "E \u2014 Enterprising",
+        "The Persuader",
+        "Strategic persuasion, opportunistic leverage, and high-stakes decision-making",
+        "High Extraversion (Assertiveness) & Low Neuroticism",
+        "Leading initiatives, pitching bold visions, negotiating leverage, and venture building",
+        "Subordinate granular data-entry roles with zero strategic autonomy or upside",
+        "Delegate granular logistics and compliance; focus bandwidth on strategy, pitching, and deals"
+      ],
+      [
+        "C",
+        "C \u2014 Conventional",
+        "The Organizer",
+        "Linear, algorithmic, high-precision operational processing",
+        "High Conscientiousness (Orderliness & Dutifulness)",
+        "Clean databases, predictable SOPs, financial reconciliation, and error-free execution",
+        "Ambiguous, shifting directives with zero documentation, rules, or quality standards",
+        "Convert messy creative or strategic goals into checklists, trackers, and automated pipelines"
+      ]
+    ],
+    "LOOKER_RIASEC": [
+      [
+        "Record_Type",
+        "Dimension_Code",
         "Archetype",
-        "Pillar2_Cognitive_Style",
-        "Pillar3_OCEAN_Correlate",
-        "Pillar1_Flow_Trigger",
-        "Pillar4_Incongruence_Trap",
-        "Pillar5_Scaffolding_Rule"
-      ]
-    },
-    {
-      "title": "RIASEC_Scoring_Engine",
-      "sheet_id": 774832576,
-      "index": 4,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "R_Raw",
-        "I_Raw",
-        "A_Raw",
-        "S_Raw",
-        "E_Raw",
-        "C_Raw",
-        "Top_1",
-        "Top_2",
-        "Top_3",
-        "Holland_Code",
-        "Differentiation",
-        "Triadic_Consistency",
-        "Active_Polarities"
+        "Raw_Score_40",
+        "Interest_Pct",
+        "Rank",
+        "Weekly_Hours",
+        "Status_Tag",
+        "Last_Updated"
       ],
-      "row_1": [
-        "Timestamp",
-        "R_Raw",
-        "I_Raw",
-        "A_Raw",
-        "S_Raw",
-        "E_Raw",
-        "C_Raw",
-        "Top_1",
-        "Top_2",
-        "Top_3",
-        "Holland_Code",
-        "Differentiation",
-        "Triadic_Consistency",
-        "Active_Polarities"
-      ]
-    },
-    {
-      "title": "LifeOS_Ledger_Sync",
-      "sheet_id": 1939440706,
-      "index": 5,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 32,
-      "header_row_index": 1,
-      "headers": [
+      [
+        "RIASEC_KPI",
+        "AIS",
+        "3-Letter Holland Code",
+        "19",
+        "59.4",
+        "1",
         "",
-        "Record_ID",
-        "Record_Type",
-        "Career_Track",
-        "Org / Vessel / Issuer",
-        "Role / Rating / Title",
-        "Start_Date",
-        "End_Date",
-        "Effective_End",
-        "Status",
-        "Alert_Badge",
-        "Cal_Days",
-        "Months",
-        "USCG_Sea_Days",
-        "Location / Ports / Waters",
-        "Domain / Vessel / Specs",
-        "Bullet 1 (Primary Outcome)",
-        "Bullet 2 (Technical / Ops)",
-        "Bullet 3 (Leadership / Impact)",
-        "Hard Skills & Tools (Raw)",
-        "Transferable Meta-Skills",
-        "Target Resume Profiles",
-        "Internal_Rate",
-        "R_Wt",
-        "I_Wt",
-        "A_Wt",
-        "S_Wt",
-        "E_Wt",
-        "C_Wt",
-        "Empirical_Code",
-        "Include_Flag",
-        "Total_Wt"
+        "High (Adjacent Triad \u2014 Harmonious Flow)",
+        "11/26/2026 19:41:18"
       ],
-      "row_1": [
+      [
+        "RIASEC_KPI",
+        "A",
+        "A \u2014 Artistic",
+        "35",
+        "87.5",
+        "1",
         "",
-        "Record_ID",
-        "Record_Type",
-        "Career_Track",
-        "Org / Vessel / Issuer",
-        "Role / Rating / Title",
-        "Start_Date",
-        "End_Date",
-        "Effective_End",
-        "Status",
-        "Alert_Badge",
-        "Cal_Days",
-        "Months",
-        "USCG_Sea_Days",
-        "Location / Ports / Waters",
-        "Domain / Vessel / Specs",
-        "Bullet 1 (Primary Outcome)",
-        "Bullet 2 (Technical / Ops)",
-        "Bullet 3 (Leadership / Impact)",
-        "Hard Skills & Tools (Raw)",
-        "Transferable Meta-Skills",
-        "Target Resume Profiles",
-        "Internal_Rate",
-        "R_Wt",
-        "I_Wt",
-        "A_Wt",
-        "S_Wt",
-        "E_Wt",
-        "C_Wt",
-        "Empirical_Code",
-        "Include_Flag",
-        "Total_Wt"
-      ]
-    },
-    {
-      "title": "MODULE_META",
-      "sheet_id": 1028864803,
-      "index": 6,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Field",
-        "Value",
-        "Notes"
+        "DOMINANT_VECTOR",
+        "11/26/2026 19:41:18"
       ],
-      "row_1": [
-        "Field",
-        "Value",
-        "Notes"
+      [
+        "RIASEC_KPI",
+        "DIFF",
+        "Profile Differentiation (/32)",
+        "19",
+        "59.4",
+        "",
+        "",
+        "MODERATE_PROFILE",
+        "11/26/2026 19:41:18"
+      ],
+      [
+        "RIASEC_KPI",
+        "CONGRUENCE",
+        "Environmental Congruence",
+        "",
+        "",
+        "",
+        "",
+        "AWAITING_HOURS",
+        "11/26/2026 19:41:18"
+      ],
+      [
+        "DIMENSION_6",
+        "R",
+        "The Doer",
+        "16",
+        "40",
+        "6",
+        "",
+        "SECONDARY",
+        "11/26/2026 19:41:18"
+      ],
+      [
+        "DIMENSION_6",
+        "I",
+        "The Thinker",
+        "33",
+        "82.5",
+        "2",
+        "",
+        "TRIAD_MEMBER",
+        "11/26/2026 19:41:18"
+      ],
+      [
+        "DIMENSION_6",
+        "A",
+        "The Creator",
+        "35",
+        "87.5",
+        "1",
+        "",
+        "TRIAD_MEMBER",
+        "11/26/2026 19:41:18"
+      ],
+      [
+        "DIMENSION_6",
+        "S",
+        "The Helper",
+        "23",
+        "57.5",
+        "3",
+        "",
+        "TRIAD_MEMBER",
+        "11/26/2026 19:41:18"
+      ],
+      [
+        "DIMENSION_6",
+        "E",
+        "The Persuader",
+        "20",
+        "50",
+        "5",
+        "",
+        "SECONDARY",
+        "11/26/2026 19:41:18"
+      ],
+      [
+        "DIMENSION_6",
+        "C",
+        "The Organizer",
+        "23",
+        "57.5",
+        "3",
+        "",
+        "TRIAD_MEMBER",
+        "11/26/2026 19:41:18"
+      ],
+      [
+        "RUN_HISTORY",
+        "AIS",
+        "The Creator",
+        "35",
+        "87.5",
+        "1",
+        "",
+        "High (Adjacent Triad \u2014 Harmonious Flow)",
+        "2026-11-13"
       ]
-    },
-    {
-      "title": "CONTEXT_IN",
-      "sheet_id": 1993371372,
-      "index": 7,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
+    ],
+    "CONTEXT_IN": [
+      [
         "Signal_Key",
         "Live_Value",
         "Normalized_Score_0_100",
@@ -338,25 +651,49 @@
         "Freshness_Status",
         "Hub_Auth_Trigger"
       ],
-      "row_1": [
-        "Signal_Key",
-        "Live_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Freshness_Status",
-        "Hub_Auth_Trigger"
+      [
+        "OCEAN_OPENNESS",
+        "0.954",
+        "95.4",
+        "BUFF",
+        "ACTIVE",
+        "AUTHORIZED"
+      ],
+      [
+        "FLOW_COHERENCE",
+        "",
+        "",
+        "UNLOGGED",
+        "STALE",
+        "AUTHORIZED"
+      ],
+      [
+        "GRIT_OVERALL_SCORE",
+        "2.38",
+        "34.4",
+        "Calibration / Recovery Phase",
+        "FRESH",
+        "AUTHORIZED"
+      ],
+      [
+        "ZODIAC_WIP_COUNT",
+        "1",
+        "100.0",
+        "CAPACITY_OK",
+        "FRESH",
+        "AUTHORIZED"
+      ],
+      [
+        "CAREER_USCG_SEA_DAYS",
+        "0",
+        "0",
+        "0/180 Sea Days",
+        "FRESH",
+        "AUTHORIZED"
       ]
-    },
-    {
-      "title": "SIGNALS_OUT",
-      "sheet_id": 546002403,
-      "index": 8,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
+    ],
+    "SIGNALS_OUT": [
+      [
         "Signal_Key",
         "Source_Brick",
         "Glyph",
@@ -368,18 +705,167 @@
         "TTL_Hours",
         "Notes"
       ],
-      "row_1": [
-        "Signal_Key",
-        "Source_Brick",
-        "Glyph",
-        "Domain_Pillar",
-        "Raw_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated",
-        "TTL_Hours",
-        "Notes"
+      [
+        "RIASEC_HOLLAND_CODE",
+        "RIASEC_Brick",
+        "\ud83e\udded",
+        "Vocation / I",
+        "AIS",
+        "59.4",
+        "High (Adjacent Triad \u2014 Harmonious Flow)",
+        "2026-11-26 19:41",
+        "2160",
+        "3-Letter Holland Code (AIS) & Triadic Hexagonal Consistency"
+      ],
+      [
+        "RIASEC_TOP_DIMENSION",
+        "RIASEC_Brick",
+        "\ud83c\udfa8",
+        "Primary Drive / I",
+        "Artistic",
+        "87.5",
+        "Artistic (35/40)",
+        "2026-11-26 19:41",
+        "2160",
+        "Dominant RIASEC vocational dimension (Artistic = 35/40, 87.5%)"
+      ],
+      [
+        "RIASEC_DIFFERENTIATION",
+        "RIASEC_Brick",
+        "\ud83d\udcd0",
+        "Signal Clarity / I",
+        "19",
+        "59.4",
+        "MODERATE_PROFILE",
+        "2026-11-26 19:41",
+        "2160",
+        "Spread between highest and lowest RIASEC score (/32)"
+      ],
+      [
+        "RIASEC_TOP_1_SCORE",
+        "RIASEC_Brick",
+        "\ud83c\udfa8",
+        "Primary Drive / I",
+        "35",
+        "87.5",
+        "DOMINANT_VECTOR",
+        "2026-11-26 19:41",
+        "2160",
+        "Highest vocational interest raw score (/40 normalized to 0-100)"
+      ],
+      [
+        "RIASEC_CONGRUENCE_SCORE",
+        "RIASEC_Brick",
+        "\u2699\ufe0f",
+        "Alignment / ITS",
+        "",
+        "",
+        "AWAITING_HOURS",
+        "11/26/2026 19:41:19",
+        "168",
+        "Interest vector vs actual weekly hours (blank until hours logged)"
       ]
-    }
-  ]
+    ],
+    "MODULE_META": [
+      [
+        "Field",
+        "Value",
+        "Notes"
+      ],
+      [
+        "Brick_Name",
+        "RIASEC_Brick",
+        "Canonical LifeOS-v3 Brick identifier (formerly RIASEC_Intake)"
+      ],
+      [
+        "Registry_Key",
+        "ID_RIASEC",
+        "Bound key in schemas/workbook_registry.json"
+      ],
+      [
+        "Source_Workbook",
+        "\ud83e\udded RIASEC_Brick",
+        "Renamed & moved into LifeOS_v3_Control (preserving exact ID & Form link)"
+      ],
+      [
+        "Schema_Version",
+        "3.1.0",
+        "9 color-coded tabs, zero redundant LifeOS_Ledger_Sync PII duplication, LOOKER_RIASEC"
+      ],
+      [
+        "Glyph",
+        "\ud83e\udded",
+        "Executive HUD icon"
+      ],
+      [
+        "Landing_Tab",
+        "\ud83e\udded RIASEC_DASHBOARD",
+        "Gold #F59E0B executive HUD (index 0, renamed from RIASEC_Dashboard)"
+      ],
+      [
+        "Looker_Tab",
+        "LOOKER_RIASEC",
+        "Hidden Cyan #06B6D4 flat zero-PII BI feed"
+      ],
+      [
+        "Layer_1_Raw_Tab",
+        "RIASEC_Intake",
+        "100% untouched Crimson #EF4444 Google Form response log"
+      ],
+      [
+        "Retired_Tabs",
+        "LifeOS_Ledger_Sync",
+        "Deleted redundant shifted/stale career copy containing private wage/address PII"
+      ],
+      [
+        "Domain_Pillar",
+        "Pillar 4 / Vocational Hardware & Congruence (ITS / I)",
+        "LifeOS AQAL / 5-Pillar domain mapping"
+      ],
+      [
+        "Cadence_Tier",
+        "6-Month Diagnostic + Weekly Hours Calibration (TTL: 2160h)",
+        "Refresh / logging cadence & TTL class"
+      ],
+      [
+        "Signals_Published",
+        "RIASEC_HOLLAND_CODE, RIASEC_TOP_DIMENSION, RIASEC_DIFFERENTIATION, RIASEC_TOP_1_SCORE, RIASEC_CONGRUENCE_SCORE",
+        "Exported via SIGNALS_OUT to LifeOS_feed_hub"
+      ],
+      [
+        "Context_Subscribed",
+        "OCEAN_OPENNESS, FLOW_COHERENCE, GRIT_OVERALL_SCORE, ZODIAC_WIP_COUNT, CAREER_USCG_SEA_DAYS",
+        "Subscribed via CONTEXT_IN from LifeOS_feed_hub"
+      ],
+      [
+        "Hub_Spreadsheet_ID",
+        "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
+        "LifeOS_feed_hub central nervous system"
+      ],
+      [
+        "Privacy_Boundary",
+        "STRICT_ZERO_PII",
+        "Zero personal identifiers, wage or address fields anywhere in brick or snapshots"
+      ],
+      [
+        "Last_Synced",
+        "2026-11-26 19:41 UTC",
+        "Dynamic live formula sync timestamp"
+      ]
+    ],
+    "RIASEC_Intake_headers_only": [
+      [
+        "Timestamp",
+        "1. Repair, assemble, or calibrate mechanical equipment, tools, or hardware",
+        "2. Analyze complex datasets to uncover hidden patterns or root causes",
+        "3. Design visual layouts, media, or original creative concepts from scratch",
+        "4. Mentor, coach, or teach someone a new skill one-on-one",
+        "5. Pitch an idea, negotiate terms, or persuade stakeholders to back a project",
+        "6. Build structured spreadsheets, databases, or step-by-step tracking systems",
+        "7. Work outdoors or in physical environments using hands-on navigation or field gear",
+        "8. Conduct deep research into scientific, technical, or theoretical systems",
+        "9. Write original stories, essays, scripts, or expressive worldbuilding content"
+      ]
+    ]
+  }
 }

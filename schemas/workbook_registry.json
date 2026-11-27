@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-27T00:32:31Z",
+  "last_updated_utc": "2026-11-27T00:41:21Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -253,36 +253,41 @@
       "last_audited_utc": "2026-11-27T00:06:23Z"
     },
     "ID_RIASEC": {
-      "title": "RAISEC Intake (Responses)",
+      "title": "\ud83e\udded RIASEC_Brick",
       "spreadsheet_id": "1RmJ9bDzm6Vs59EC1BV99lqHnYxgp-bchV589rQc6ybM",
       "drive_url": "https://docs.google.com/spreadsheets/d/1RmJ9bDzm6Vs59EC1BV99lqHnYxgp-bchV589rQc6ybM/edit",
       "status": "ACTIVE",
       "layer": "brick",
       "domain": "Psychometrics / RIASEC Vocational Interests",
       "live_tabs": [
-        "RIASEC_Dashboard",
-        "MODULE_META",
+        "\ud83e\udded RIASEC_DASHBOARD",
+        "Career_Juxtaposition",
+        "RIASEC_5Pillar_Codex",
+        "RIASEC_Scoring_Engine",
+        "LOOKER_RIASEC",
         "CONTEXT_IN",
         "SIGNALS_OUT"
       ],
       "search_aliases": [
+        "\ud83e\udded RIASEC_Brick",
+        "RIASEC_Brick",
         "RAISEC Intake",
         "RAISEC Intake (Responses)",
-        "RIASEC Intake",
-        "RIASEC"
+        "RIASEC_Intake",
+        "ID_RIASEC"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T16:16:12Z",
+      "last_snapshot_utc": "2026-11-27T00:41:21Z",
       "all_tabs": [
-        "RIASEC_Intake",
-        "RIASEC_Dashboard",
+        "\ud83e\udded RIASEC_DASHBOARD",
         "Career_Juxtaposition",
         "RIASEC_5Pillar_Codex",
         "RIASEC_Scoring_Engine",
-        "LifeOS_Ledger_Sync",
+        "LOOKER_RIASEC",
         "MODULE_META",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "RIASEC_Intake"
       ],
       "tab_count": 9,
       "linked_forms": [
@@ -291,7 +296,14 @@
           "form_id": "1oG9UIE5IFPSqnDhb5jzFcW-6_y7YTupB1DbvIRN7I8w"
         }
       ],
-      "universal_brick_compliant": true
+      "universal_brick_compliant": true,
+      "primary_tab": "\ud83e\udded RIASEC_DASHBOARD",
+      "looker_tab": "LOOKER_RIASEC",
+      "tab_color_coded": true,
+      "deleted_legacy_tabs": [
+        "LifeOS_Ledger_Sync"
+      ],
+      "last_audited_utc": "2026-11-27T00:41:21Z"
     },
     "LifeOS_Master_Bus": {
       "title": "LifeOS_Master_Bus",
