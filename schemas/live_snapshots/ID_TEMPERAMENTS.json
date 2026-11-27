@@ -1,0 +1,240 @@
+{
+  "workbook_key": "ID_TEMPERAMENTS",
+  "spreadsheet_id": "1VT2lwlz0wp7YDX2RR10HPrZWiCBCZhj1rInFFSXtF_M",
+  "title": "Four_Temperaments_Brick",
+  "captured_utc": "2026-11-27T05:12:00Z",
+  "privacy_boundary": "STRICT_ZERO_PII",
+  "tab_count": 7,
+  "tabs": [
+    "\ud83c\udfad TEMPERAMENTS_HUD",
+    "TEMPERAMENT_ASSESSMENT",
+    "ADVISORY_MATRIX",
+    "LOOKER_TEMPERAMENTS",
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT"
+  ],
+  "context_in_gid": 81155843,
+  "looker_tab": "LOOKER_TEMPERAMENTS",
+  "looker_row_count": 11,
+  "audit_errors_all_tabs": 0,
+  "expected_auth_trigger": [
+    [
+      "CONTEXT_IN",
+      "E2",
+      "#REF!"
+    ]
+  ],
+  "signals_out": [
+    [
+      "Signal_Key",
+      "Raw_Summary",
+      "Normalized_Score_0_100",
+      "State_Tag",
+      "Last_Updated"
+    ],
+    [
+      "TEMPERAMENT_EQUILIBRIUM",
+      "UNASSESSED (0/16 Items)",
+      "50",
+      "UNASSESSED"
+    ],
+    [
+      "CHOLERIC_DRIVE_INDEX",
+      "UNASSESSED (0/4 Items)",
+      "50",
+      "UNASSESSED"
+    ],
+    [
+      "MELANCHOLIC_PRECISION_INDEX",
+      "UNASSESSED (0/4 Items)",
+      "50",
+      "UNASSESSED"
+    ],
+    [],
+    [
+      "TIER 2 PSYCHOMETRIC STAT STACKING MODIFIERS (EXPORTED TO RULES_ENGINE \u2014 NEUTRAL 1.000x WHEN UNASSESSED)"
+    ],
+    [
+      "Target_Attribute",
+      "Tier_2_Psych_Modifier",
+      "Temperament_Source",
+      "Modifier_Status",
+      "Scale_Bounds"
+    ],
+    [
+      "HP_Vitality",
+      "1.000",
+      "Choleric Drive Factor",
+      "NEUTRAL_UNASSESSED",
+      "0.920x \u2013 1.120x"
+    ],
+    [
+      "Mana_Focus",
+      "1.000",
+      "Melancholic Precision Factor",
+      "NEUTRAL_UNASSESSED",
+      "0.920x \u2013 1.120x"
+    ],
+    [
+      "Stamina_Recovery",
+      "1.000",
+      "Phlegmatic Calm Factor",
+      "NEUTRAL_UNASSESSED",
+      "0.920x \u2013 1.120x"
+    ],
+    [
+      "Coherence_Alignment",
+      "1.000",
+      "Sanguine Adaptability Factor",
+      "NEUTRAL_UNASSESSED",
+      "0.920x \u2013 1.120x"
+    ]
+  ],
+  "looker_temperaments_rows": [
+    [
+      "Record_Type",
+      "Axis_Key",
+      "Label",
+      "Elemental_Pole",
+      "Score_0_100",
+      "Share_Pct",
+      "RPG_Stat_Target",
+      "Modifier_Multiplier",
+      "Status_Tag",
+      "Last_Updated"
+    ],
+    [
+      "TEMPERAMENT_4",
+      "CHOLERIC",
+      "Choleric",
+      "Fire / Action",
+      "50",
+      "25",
+      "HP_Vitality",
+      "1.000",
+      "UNASSESSED",
+      "2026-11-27 05:12"
+    ],
+    [
+      "TEMPERAMENT_4",
+      "SANGUINE",
+      "Sanguine",
+      "Air / Vision",
+      "50",
+      "25",
+      "Coherence_Alignment",
+      "1.000",
+      "UNASSESSED",
+      "2026-11-27 05:12"
+    ],
+    [
+      "TEMPERAMENT_4",
+      "MELANCHOLIC",
+      "Melancholic",
+      "Earth / Systems",
+      "50",
+      "25",
+      "Mana_Focus",
+      "1.000",
+      "UNASSESSED",
+      "2026-11-27 05:12"
+    ],
+    [
+      "TEMPERAMENT_4",
+      "PHLEGMATIC",
+      "Phlegmatic",
+      "Water / Calm",
+      "50",
+      "25",
+      "Stamina_Recovery",
+      "1.000",
+      "UNASSESSED",
+      "2026-11-27 05:12"
+    ],
+    [
+      "RPG_STAT_MODIFIER",
+      "HP_VITALITY",
+      "HP_Vitality",
+      "Fire / Action",
+      "50",
+      "",
+      "HP_Vitality",
+      "1.000",
+      "NEUTRAL_UNASSESSED",
+      "2026-11-27 05:12"
+    ],
+    [
+      "RPG_STAT_MODIFIER",
+      "MANA_FOCUS",
+      "Mana_Focus",
+      "Earth / Systems",
+      "50",
+      "",
+      "Mana_Focus",
+      "1.000",
+      "NEUTRAL_UNASSESSED",
+      "2026-11-27 05:12"
+    ],
+    [
+      "RPG_STAT_MODIFIER",
+      "STAMINA_RECOVERY",
+      "Stamina_Recovery",
+      "Water / Calm",
+      "50",
+      "",
+      "Stamina_Recovery",
+      "1.000",
+      "NEUTRAL_UNASSESSED",
+      "2026-11-27 05:12"
+    ],
+    [
+      "RPG_STAT_MODIFIER",
+      "COHERENCE_ALIGNMENT",
+      "Coherence_Alignment",
+      "Air / Vision",
+      "50",
+      "",
+      "Coherence_Alignment",
+      "1.000",
+      "NEUTRAL_UNASSESSED",
+      "2026-11-27 05:12"
+    ],
+    [
+      "EQUILIBRIUM_KPI",
+      "TEMPERAMENT_EQUILIBRIUM",
+      "Quaternary Temperament Equilibrium",
+      "All 4 Elements",
+      "50",
+      "",
+      "Composite Balance",
+      "1.000",
+      "UNASSESSED",
+      "2026-11-27 05:12"
+    ],
+    [
+      "EQUILIBRIUM_KPI",
+      "CHOLERIC_DRIVE_INDEX",
+      "Choleric Drive Index",
+      "Fire / Action",
+      "50",
+      "",
+      "HP_Vitality",
+      "1.000",
+      "UNASSESSED",
+      "2026-11-27 05:12"
+    ],
+    [
+      "EQUILIBRIUM_KPI",
+      "MELANCHOLIC_PRECISION_INDEX",
+      "Melancholic Precision Index",
+      "Earth / Systems",
+      "50",
+      "",
+      "Mana_Focus",
+      "1.000",
+      "UNASSESSED",
+      "2026-11-27 05:12"
+    ]
+  ]
+}

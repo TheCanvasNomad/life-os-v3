@@ -3717,6 +3717,14 @@
       "archived_prefix": "ARCHIVE_2021_",
       "excluded_from_quarterly_and_xp": true,
       "zero_importrange_link": true
+    },
+    "ID_TEMPERAMENTS": {
+      "id": "1VT2lwlz0wp7YDX2RR10HPrZWiCBCZhj1rInFFSXtF_M",
+      "name": "Four_Temperaments_Brick",
+      "landing_tab": "\ud83c\udfad TEMPERAMENTS_HUD",
+      "looker_tab": "LOOKER_TEMPERAMENTS",
+      "tab_count": 7,
+      "privacy_boundary": "STRICT_ZERO_PII"
     }
   },
   "unmapped_discovered": [
