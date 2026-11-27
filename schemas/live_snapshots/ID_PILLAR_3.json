@@ -1,15 +1,15 @@
 {
+  "workbook_key": "ID_PILLAR_3",
   "spreadsheet_id": "1hi-hShSgH9X8i5NpCmh_a5HfuxevrxWkFDuJmbB1D0k",
   "title": "\ud83d\udc9e Pillar_3_Relationships",
-  "key": "ID_PILLAR_3",
-  "captured_at_utc": "2026-11-26T17:19:59Z",
-  "pii_scrubbed": true,
-  "privacy_boundary": "STRICT_ZERO_PII_ZERO_NAMES_PRIVATE_SILOS_ENCAPSULATED",
-  "tab_count": 12,
+  "captured_utc": "2026-11-27T04:05:00Z",
+  "privacy_boundary": "STRICT_ZERO_PII_ZERO_RAW_PROSE (All personal names & open-ended reflection prose encapsulated strictly inside RAW_RELATIONS_OTHERS_INTAKE; never exported)",
+  "tab_count": 14,
   "tabs": [
     "DASHBOARD",
     "PREFERENCE_PROFILE",
     "RELATIONSHIP_CHECKUP_LOG",
+    "RELATIONAL_REFLECTIONS_ENGINE",
     "DATABASE",
     "CALCULATIONS",
     "DOSSIER_TEMPLATE",
@@ -18,170 +18,134 @@
     "MODULE_META",
     "CONTEXT_IN",
     "SIGNALS_OUT",
-    "IMPORTS"
+    "IMPORTS",
+    "RAW_RELATIONS_OTHERS_INTAKE"
   ],
-  "ingested_sources": [
-    {
-      "name": "Core_CRM",
-      "spreadsheet_id": "1PKYbEie4QUgSqqTVW1Y2UVjBgRStz4Aok2BhCWCvU5M"
-    },
-    {
-      "name": "Body_Count_2_0",
-      "spreadsheet_id": "1aqYHU_bc-AqgREdvutE3VgG952_gd70yDKt4dMH6L1E"
-    },
-    {
-      "name": "RAW_DATA_Intake",
-      "spreadsheet_id": "1qBw-5H8AslAeJPo4XtSCkQdNm3Tgmn4msSccSIlC450"
-    },
-    {
-      "name": "RAW_DATA_EventLog",
-      "spreadsheet_id": "1p9LUEUQl_2N0AvaC15FGqD7ySzfJMObEeZj-KCQUZ-8"
-    },
-    {
-      "name": "RAW_DATA_Preference",
-      "spreadsheet_id": "1TIA5KyRt629BWV5wlL1Maug5ppEqls5zHsugaYv783U",
-      "form_id": "1hj71P4yFQa0PAbo3ML1J2K2V2Z87NSMkQV2xVBD1udY",
-      "role": "Layer 1 Private Preference Silo -> PREFERENCE_PROFILE"
-    },
-    {
-      "name": "RAW_DATA_WeeklyRelationshipCheck",
-      "spreadsheet_id": "1jMWrerLnpcbv3QSrkHLdW8x83irEgCecdHrJopQyvQE",
-      "form_id": "18w3pqXxZZ_ZkXYwX6Q9PDLK4CCB9UROWS-CnQ0rASCk",
-      "role": "Layer 1 Private Weekly Check-Up Silo -> RELATIONSHIP_CHECKUP_LOG (Sections 1-4)"
-    },
-    {
-      "name": "RAW_DATA_RomanticRelationships",
-      "spreadsheet_id": "136a21zAd6FInQSeyB507ze5scrZX-paurXNWm-0aMMU",
-      "form_id": "15FV6LmGRW4zdr0RHpRN1O8Ww_AD9xWXkX_GO1dZaAqE",
-      "role": "Layer 1 Private Partner Trait Audit Silo -> RELATIONSHIP_CHECKUP_LOG (Section 5)"
-    }
+  "consolidated_silos": [
+    "RAW_DATA_Preference",
+    "RAW_DATA_WeeklyRelationshipCheck",
+    "RAW_DATA_RomanticRelationships",
+    "RAW_RELATIONS_OTHERS (1Rn-0iDzAwa25T9sHVbPcycPyK2KzghCbQ7gbhnyLeWs)"
   ],
-  "audit_errors": 0,
-  "snapshot_utc": "2026-11-26T17:19:59Z",
-  "SIGNALS_OUT": [
+  "audit_errors_all_tabs": 0,
+  "pii_leaks_exported": 0,
+  "reflections_kpi_summary": [
     [
-      "Signal_Key",
-      "Source_Brick",
-      "Glyph",
-      "Domain_Pillar",
-      "Raw_Value",
-      "Normalized_Score_0_100",
-      "State_Tag",
-      "Last_Updated"
+      "Reflections_Logged",
+      "Latest_Inner_Circle",
+      "Baseline_Inner_Circle",
+      "Circle_Growth_Delta",
+      "Latest_Conflict_Posture",
+      "Latest_Core_Trait",
+      "Latest_Entry_Date"
     ],
     [
-      "P3_RELATIONSHIP_BASE_SCORE",
-      "Pillar_3_Relationships",
-      "\ud83d\udc9e",
-      "Pillar 3 / WE",
-      "60",
-      "60",
-      "BUILDING_BONDS",
-      "11/26/2026 12:19:48"
+      "2",
+      "4",
+      "2",
+      "2 \u2192 4 (+2)",
+      "Avoidant / Delayed",
+      "Confidence",
+      "2022-09-16"
+    ]
+  ],
+  "reflections_ledger_sanitized": [
+    [
+      "Run_#",
+      "Entry_Date",
+      "Inner_Circle_Size",
+      "Inner_Circle_Gauge",
+      "Conflict_Mode_Tag",
+      "Core_Trait_Focus",
+      "Alignment_With_Pillar_3",
+      "Cross_Silo_Parity",
+      "Privacy_Guard"
     ],
     [
-      "P3_NETWORK_TOTAL",
-      "Pillar_3_Relationships",
-      "\ud83d\udcc7",
-      "Network / WE",
-      "6395",
-      "100",
-      "6,395 Contacts",
-      "11/26/2026 12:19:48"
+      "1",
+      "2021-11-30",
+      "2",
+      "",
+      "Avoidant / Delayed",
+      "Patience",
+      "Tribe 2 vs CRM 10 \u2022 Conflict Gap (66% Frame Win)",
+      "Paired w/ Weekly Check-Up (3 runs) & Romantic Audit",
+      "PROSE_ENCAPSULATED_L1"
     ],
     [
-      "P3_ACTIVE_DATING_COUNT",
-      "Pillar_3_Relationships",
-      "\u2764\ufe0f",
-      "Love Life / WE",
-      "577",
-      "100",
-      "577 Active Dating",
-      "11/26/2026 12:19:48"
+      "2",
+      "2022-09-16",
+      "4",
+      "",
+      "Avoidant / Delayed",
+      "Confidence",
+      "Tribe 4 vs CRM 10 \u2022 Conflict Gap (66% Frame Win)",
+      "Paired w/ Weekly Check-Up (3 runs) & Romantic Audit",
+      "PROSE_ENCAPSULATED_L1"
+    ]
+  ],
+  "looker_relationship_aggregates_new": [
+    [
+      "P3_REFLECTION_INNER_CIRCLE_SIZE",
+      "Self-Reported Inner Circle Size",
+      "4",
+      "40",
+      "SCALING_TRIBE",
+      "11/26/2026 23:04:53"
     ],
     [
-      "P3_INNER_CIRCLE_COUNT",
+      "RELATIONAL_REFLECTION_COUNT",
+      "Relational Reflections Logged",
+      "2",
+      "20",
+      "2 Reflections Logged",
+      "11/26/2026 23:04:53"
+    ],
+    [
+      "CONFLICT_POSTURE_TAG",
+      "Relational Conflict Posture Tag",
+      "Avoidant / Delayed",
+      "40",
+      "AVOIDANT_DELAYED",
+      "11/26/2026 23:04:53"
+    ]
+  ],
+  "signals_out_new": [
+    [
+      "P3_REFLECTION_INNER_CIRCLE_SIZE",
       "Pillar_3_Relationships",
       "\ud83d\udee1\ufe0f",
       "Inner Circle / WE",
-      "10",
-      "100",
-      "STRONG_TRIBE",
-      "11/26/2026 12:19:48"
+      "4",
+      "40",
+      "SCALING_TRIBE",
+      "11/26/2026 23:04:53",
+      "720",
+      "Sanitized self-reported inner-circle size from consolidated Relationships with Others (zero prose/PII)"
     ],
     [
-      "P3_AVERAGE_LOVE_TANK",
+      "RELATIONAL_REFLECTION_COUNT",
       "Pillar_3_Relationships",
-      "\u26fd",
-      "Connection / WE",
-      "58.4",
-      "58.4",
-      "STEADY_TANK",
-      "11/26/2026 12:19:48"
+      "\ud83e\ude9e",
+      "Pillar 3 / Reflections",
+      "2",
+      "20",
+      "2 Reflections Logged",
+      "11/26/2026 23:04:53",
+      "720",
+      "Total relational reflections archived inside Pillar 3 (zero prose/PII)"
     ],
     [
-      "P3_SHADOW_FLAGS_30D",
-      "Pillar_3_Relationships",
-      "\ud83c\udf11",
-      "Pillar 3 / Shadow",
-      "0",
-      "100",
-      "CLEAR",
-      "11/26/2026 12:19:48"
-    ],
-    [
-      "P3_CONFLICT_WIN_RATE",
+      "CONFLICT_POSTURE_TAG",
       "Pillar_3_Relationships",
       "\u2694\ufe0f",
-      "Pillar 3 / Frame",
-      "66",
-      "66",
-      "STABLE",
-      "11/26/2026 12:19:48"
-    ],
-    [
-      "P3_SOCIAL_XP",
-      "Pillar_3_Relationships",
-      "\ud83d\udc9e",
-      "Pillar 3 / XP",
-      "1800",
-      "36",
-      "XP_ACTIVE",
-      "11/26/2026 12:19:48"
-    ],
-    [
-      "P3_CHECKUP_COUNT",
-      "Pillar_3_Relationships",
-      "\ud83d\udcdd",
-      "Pillar 3 / Check-Ups",
-      "0",
-      "",
-      "AWAITING_AUTH"
+      "Pillar 3 / Conflict",
+      "Avoidant / Delayed",
+      "40",
+      "AVOIDANT_DELAYED",
+      "11/26/2026 23:04:53",
+      "720",
+      "Sanitized conflict-handling posture tag (Avoidant / Delayed vs Engaged \u2014 zero raw prose)"
     ]
-  ],
-  "RELATIONSHIP_CHECKUP_LOG_HEADERS_ONLY": {
-    "banner": "\ud83d\udc9e PILLAR 3 \u2014 UNIFIED RELATIONSHIP CHECK-UP & PARTNER TRAIT LOG",
-    "silos": [
-      {
-        "name": "RAW_DATA_WeeklyRelationshipCheck",
-        "spreadsheet_id": "1jMWrerLnpcbv3QSrkHLdW8x83irEgCecdHrJopQyvQE",
-        "form_id": "18w3pqXxZZ_ZkXYwX6Q9PDLK4CCB9UROWS-CnQ0rASCk",
-        "auth_anchor": "P3_CONFIG!I10"
-      },
-      {
-        "name": "RAW_DATA_RomanticRelationships",
-        "spreadsheet_id": "136a21zAd6FInQSeyB507ze5scrZX-paurXNWm-0aMMU",
-        "form_id": "15FV6LmGRW4zdr0RHpRN1O8Ww_AD9xWXkX_GO1dZaAqE",
-        "auth_anchor": "P3_CONFIG!I11"
-      }
-    ],
-    "panels": [
-      "1. Session & Status Overview",
-      "2. Attraction, Connection & Intimacy Telemetry",
-      "3. 20 Relationship Creation Priorities Summary",
-      "4. Alignment, Reflection & Descriptors (Private)",
-      "5. Romantic Relationship & Partner Trait Audit (Tenure/Commitment, 10 Partner Traits, Conflict Benchmark O/P/Q)"
-    ],
-    "privacy_boundary": "STRICT_PILLAR_3_ONLY (Anonymized Count Only -> Hub; 0% PII/Prose Exported)"
-  }
+  ]
 }
