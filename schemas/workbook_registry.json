@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-27T00:06:23Z",
+  "last_updated_utc": "2026-11-27T00:22:59Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -626,36 +626,37 @@
       "layer": "brick",
       "domain": "Epistemics / Belief & Stance Tracker",
       "live_tabs": [
+        "\u2696\ufe0f BELIEF_DASHBOARD",
+        "Ranked_Ideas",
+        "Worldview_Synthesis",
         "Prompt_Registry",
         "Stance_Timeline",
-        "Ranked_Ideas",
-        "Dashboard_Summary",
-        "Worldview_Synthesis",
-        "MODULE_META",
+        "LOOKER_BELIEF_STANCE",
         "CONTEXT_IN",
         "SIGNALS_OUT"
       ],
       "search_aliases": [
         "Belief & Stance Tracker (Life OS)",
-        "Belief & Stance Tracker",
-        "Belief Tracker"
+        "Belief_Stance_Tracker",
+        "ID_BELIEF_TRACKER",
+        "ID_BELIEF_STANCE"
       ],
       "schema_ref": null,
-      "last_snapshot_utc": "2026-11-23T16:16:12Z",
+      "last_snapshot_utc": "2026-11-27T00:22:59Z",
       "all_tabs": [
-        "Form Responses 2",
-        "Form Responses 1",
-        "Subject",
-        "Form_A_Intake",
-        "Form_B_Rerank",
+        "\u2696\ufe0f BELIEF_DASHBOARD",
+        "Ranked_Ideas",
+        "Worldview_Synthesis",
         "Prompt_Registry",
         "Stance_Timeline",
-        "Ranked_Ideas",
-        "Dashboard_Summary",
-        "Worldview_Synthesis",
-        "MODULE_META",
+        "Form_A_Intake",
+        "Form_B_Rerank",
+        "LOOKER_BELIEF_STANCE",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "MODULE_META",
+        "Form Responses 1",
+        "Form Responses 2"
       ],
       "tab_count": 13,
       "linked_forms": [
@@ -668,7 +669,14 @@
           "form_id": "1lcFB-I_hc2uXv2ONbx5kHs25L16Zmd4luiUzssK7AqQ"
         }
       ],
-      "universal_brick_compliant": true
+      "universal_brick_compliant": true,
+      "primary_tab": "\u2696\ufe0f BELIEF_DASHBOARD",
+      "looker_tab": "LOOKER_BELIEF_STANCE",
+      "tab_color_coded": true,
+      "deleted_legacy_tabs": [
+        "Subject"
+      ],
+      "last_audited_utc": "2026-11-27T00:22:59Z"
     },
     "ID_CAREER_INTAKE": {
       "title": "LifeOS Career and Experience Intake (Responses)",

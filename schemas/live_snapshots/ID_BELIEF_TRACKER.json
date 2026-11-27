@@ -1,380 +1,345 @@
 {
-  "registry_key": "ID_BELIEF_TRACKER",
-  "title": "Belief & Stance Tracker (Life OS)",
+  "workbook_key": "ID_BELIEF_TRACKER",
+  "alias_key": "ID_BELIEF_STANCE",
   "spreadsheet_id": "1ZlhB5xNyI5I8MssGhsp5wydyDJQu29tHmry4iShc2z0",
-  "url": "https://docs.google.com/spreadsheets/d/1ZlhB5xNyI5I8MssGhsp5wydyDJQu29tHmry4iShc2z0/edit",
-  "time_zone": "America/New_York",
-  "snapshot_utc": "2026-11-23T16:16:46Z",
+  "title": "Belief & Stance Tracker (Life OS)",
+  "captured_utc": "2026-11-27 00:22 UTC",
+  "privacy_boundary": "STRICT_ZERO_PII_ZERO_PROSE",
   "tab_count": 13,
   "tabs": [
-    {
-      "title": "Form Responses 2",
-      "sheet_id": 182158431,
-      "index": null,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 101,
-      "col_count": 16,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Prompt_Anchor",
-        "Belief_Score",
-        "Disbelief_Score",
-        "Conviction_Pull",
-        "Stance_Movement",
-        "Why_Stance_Changed",
-        "Updated_Context_Notes",
-        "Updated_Friction_Counter_Note",
-        "Updated_Shift_Trigger"
+    "\u2696\ufe0f BELIEF_DASHBOARD",
+    "Ranked_Ideas",
+    "Worldview_Synthesis",
+    "Prompt_Registry",
+    "Stance_Timeline",
+    "Form_A_Intake",
+    "Form_B_Rerank",
+    "LOOKER_BELIEF_STANCE",
+    "CONTEXT_IN",
+    "SIGNALS_OUT",
+    "MODULE_META",
+    "Form Responses 1",
+    "Form Responses 2"
+  ],
+  "deleted_stub_tabs": [
+    "Subject"
+  ],
+  "audit_errors_all_13_tabs": 0,
+  "trailing_tail_artifacts": 0,
+  "samples": {
+    "\u2696\ufe0f BELIEF_DASHBOARD": [
+      [
+        "\u2696\ufe0f LIFE OS v3.0 \u2014 BELIEF & STANCE TRACKER EXECUTIVE DASHBOARD (EPISTEMICS ENGINE v3.1)"
       ],
-      "row_1": [
-        "Timestamp",
-        "Prompt_Anchor",
-        "Belief_Score",
-        "Disbelief_Score",
-        "Conviction_Pull",
-        "Stance_Movement",
-        "Why_Stance_Changed",
-        "Updated_Context_Notes",
-        "Updated_Friction_Counter_Note",
-        "Updated_Shift_Trigger"
-      ]
-    },
-    {
-      "title": "Form Responses 1",
-      "sheet_id": 1427555459,
-      "index": 1,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 104,
-      "col_count": 20,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Prompt_Anchor",
-        "Theory/Claim",
-        "Source_Type",
-        "Source_Reference",
-        "Source_Context_Notes",
-        "Belief_Score",
-        "Belief_Score_Thoughts",
-        "Public_Consciousness_Score",
-        "Public_Consciousness_Score_Thoughts",
-        "Mainstream_Belief_Score",
-        "Mainstream_Belief_Score_Thoughts",
-        "Conviction_Pull",
-        "Direct_Verification",
-        "Direct_Verification_Thoughts",
-        "Counter_Arg_Clarity",
-        "Counter_Arg_Clarity_Thoughts",
-        "Anomaly_Friction",
-        "Anomaly_Friction_Thoughts",
-        "Stance_Shift_Trigger"
+      [
+        "Status: LIVE  \u2022  3 Active Prompts  \u2022  Avg Credence: 83.3%  \u2022  Avg Conviction: 56.7  \u2022  Avg Friction: 93.3  \u2022  Hub Context: AUTHORIZED"
       ],
-      "row_1": [
-        "Timestamp",
-        "Prompt_Anchor",
-        "Theory/Claim",
-        "Source_Type",
-        "Source_Reference",
-        "Source_Context_Notes",
-        "Belief_Score",
-        "Belief_Score_Thoughts",
-        "Public_Consciousness_Score",
-        "Public_Consciousness_Score_Thoughts",
-        "Mainstream_Belief_Score",
-        "Mainstream_Belief_Score_Thoughts",
-        "Conviction_Pull",
-        "Direct_Verification",
-        "Direct_Verification_Thoughts",
-        "Counter_Arg_Clarity",
-        "Counter_Arg_Clarity_Thoughts",
-        "Anomaly_Friction",
-        "Anomaly_Friction_Thoughts",
-        "Stance_Shift_Trigger"
-      ]
-    },
-    {
-      "title": "Subject",
-      "sheet_id": 462734056,
-      "index": 2,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Subject",
-        "These are thoughts and beliefs of Chris Jack"
+      [],
+      [
+        "TOTAL PROMPTS",
+        "RE-RANK CHECK-INS",
+        "AVG BELIEF (%)",
+        "AVG DISBELIEF (%)",
+        "AVG NET BELIEF",
+        "AVG CONVICTION",
+        "AVG FRICTION",
+        "AVG GROUNDING",
+        "OPENNESS (HUB)",
+        "HUB CONTEXT",
+        "RANKED IDEAS",
+        "SYNTHESIS"
       ],
-      "row_1": [
-        "Subject",
-        "These are thoughts and beliefs of Chris Jack"
-      ]
-    },
-    {
-      "title": "Form_A_Intake",
-      "sheet_id": null,
-      "index": 3,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 27,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Prompt_Anchor",
-        "Theory/Claim",
-        "Source_Type",
-        "Source_Reference",
-        "Source_Context_Notes",
-        "Personal_Context_Notes",
-        "Belief_Score",
-        "Disbelief_Score",
-        "Mainstream_Belief_Score",
-        "Conviction_Pull",
-        "Direct_Verification",
-        "Consensus_Alignment",
-        "Counter_Arg_Clarity",
-        "Anomaly_Friction",
-        "Stance_Shift_Trigger",
-        "Public_Consciousness_Thoughts",
-        "Mainstream_Belief_Thoughts",
-        "Direct_Verification_Thoughts",
-        "Counter_Arg_Thoughts",
-        "Anomaly_Friction_Thoughts"
+      [
+        "3",
+        "0",
+        "83.3",
+        "16.7",
+        "66.7",
+        "56.7",
+        "93.3",
+        "46.7",
+        "95.4%",
+        "AUTHORIZED",
+        "Ranked Ideas \u2197",
+        "Worldview AI \u2197"
       ],
-      "row_1": [
-        "Timestamp",
-        "Prompt_Anchor",
-        "Theory/Claim",
-        "Source_Type",
-        "Source_Reference",
-        "Source_Context_Notes",
-        "Personal_Context_Notes",
-        "Belief_Score",
-        "Disbelief_Score",
-        "Mainstream_Belief_Score",
-        "Conviction_Pull",
-        "Direct_Verification",
-        "Consensus_Alignment",
-        "Counter_Arg_Clarity",
-        "Anomaly_Friction",
-        "Stance_Shift_Trigger",
-        "Public_Consciousness_Thoughts",
-        "Mainstream_Belief_Thoughts",
-        "Direct_Verification_Thoughts",
-        "Counter_Arg_Thoughts",
-        "Anomaly_Friction_Thoughts"
-      ]
-    },
-    {
-      "title": "Form_B_Rerank",
-      "sheet_id": 56048909,
-      "index": 4,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Prompt_Anchor",
-        "Belief_Score",
-        "Disbelief_Score",
-        "Conviction_Pull",
-        "Stance_Movement",
-        "Why_Stance_Changed",
-        "Updated_Context_Notes",
-        "Updated_Friction_Counter_Note",
-        "Updated_Shift_Trigger"
+      [],
+      [
+        "\ud83d\udcca 1. ACTIVE STANCE LEADERBOARD (SORTED BY CURRENT BELIEF \u2014 DYNAMIC FROM Ranked_Ideas)"
       ],
-      "row_1": [
-        "Timestamp",
-        "Prompt_Anchor",
-        "Belief_Score",
-        "Disbelief_Score",
-        "Conviction_Pull",
-        "Stance_Movement",
-        "Why_Stance_Changed",
-        "Updated_Context_Notes",
-        "Updated_Friction_Counter_Note",
-        "Updated_Shift_Trigger"
-      ]
-    },
-    {
-      "title": "Prompt_Registry",
-      "sheet_id": 1021085623,
-      "index": 5,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 27,
-      "header_row_index": 1,
-      "headers": [
+      [
+        "Rank",
         "Prompt_ID",
-        "Prompt_Anchor",
-        "Theory/Claim",
-        "First_Logged_Date",
-        "Source_Type",
-        "Source_Reference",
-        "Source_Context_Notes",
-        "Personal_Context_Notes",
-        "Total_Checkins",
-        "Last_Updated_Date"
+        "Claim Summary (Truncated Preview)",
+        "",
+        "Belief %",
+        "Disbelief %",
+        "Net Belief",
+        "Conviction",
+        "Grounding",
+        "Friction",
+        "Credence Gauge (=SPARKLINE)",
+        "Stance Tier"
       ],
-      "row_1": [
-        "Prompt_ID",
-        "Prompt_Anchor",
-        "Theory/Claim",
-        "First_Logged_Date",
-        "Source_Type",
-        "Source_Reference",
-        "Source_Context_Notes",
-        "Personal_Context_Notes",
-        "Total_Checkins",
-        "Last_Updated_Date"
+      [
+        "1",
+        "P-003",
+        "The Hollywood entertainment complex is governed by an organized, institutionalized network that systematically m...",
+        "",
+        "100.0",
+        "0.0",
+        "100.0",
+        "80.0",
+        "60.0",
+        "160.0",
+        "",
+        "HIGH_CREDENCE"
+      ],
+      [
+        "2",
+        "P-002",
+        "Major professional sports leagues operate under a legal \"sports entertainment\" classification that legally exemp...",
+        "",
+        "90.0",
+        "10.0",
+        "80.0",
+        "60.0",
+        "50.0",
+        "80.0",
+        "",
+        "HIGH_CREDENCE"
+      ],
+      [
+        "3",
+        "P-001",
+        "The canonical Christian narrative of Jesus Christ and his twelve disciples is an allegorical myth representing t...",
+        "",
+        "60.0",
+        "40.0",
+        "20.0",
+        "30.0",
+        "30.0",
+        "40.0",
+        "",
+        "LEAN_BELIEF"
+      ],
+      [],
+      [
+        "\ud83e\udded 2. EPISTEMIC BALANCE & SOURCE-TYPE TELEMETRY (ZERO-PROSE SUMMARY)"
+      ],
+      [
+        "Metric / Dimension",
+        "Value",
+        "Norm (0\u2013100)",
+        "Visual Gauge (=SPARKLINE)",
+        "",
+        "Status",
+        "Source Type",
+        "Prompts",
+        "Avg Belief",
+        "Avg Disbelief",
+        "Avg Grounding",
+        "Avg Friction"
+      ],
+      [
+        "Mean Credence (Belief %)",
+        "83.3",
+        "83.3",
+        "",
+        "",
+        "HIGH_CREDENCE",
+        "Gemini Notebook / Research Collection",
+        "3",
+        "83.3",
+        "16.7",
+        "46.7",
+        "93.3"
+      ],
+      [
+        "Mean Conviction Pull",
+        "56.7",
+        "56.7",
+        "",
+        "",
+        "MODERATE"
+      ],
+      [
+        "Mean Epistemic Grounding",
+        "46.7",
+        "46.7",
+        "",
+        "",
+        "MIXED_EVIDENCE"
+      ],
+      [
+        "Mean Hypothesis Friction",
+        "93.3",
+        "46.7",
+        "",
+        "",
+        "ELEVATED_FRICTION"
       ]
-    },
-    {
-      "title": "Stance_Timeline",
-      "sheet_id": 1226859433,
-      "index": 6,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Timestamp",
-        "Entry_Type",
+    ],
+    "LOOKER_BELIEF_STANCE": [
+      [
+        "Record_Type",
         "Prompt_ID",
-        "Prompt_Anchor",
-        "Belief_Score",
-        "Disbelief_Score",
+        "Claim_Short_Label",
+        "Belief_Pct",
+        "Disbelief_Pct",
         "Net_Belief",
         "Conviction_Pull",
-        "Stance_Movement",
-        "Rationale_and_Context",
-        "Personal_Context_Notes"
-      ],
-      "row_1": [
-        "Timestamp",
-        "Entry_Type",
-        "Prompt_ID",
-        "Prompt_Anchor",
-        "Belief_Score",
-        "Disbelief_Score",
-        "Net_Belief",
-        "Conviction_Pull",
-        "Stance_Movement",
-        "Rationale_and_Context",
-        "Personal_Context_Notes"
-      ]
-    },
-    {
-      "title": "Ranked_Ideas",
-      "sheet_id": 643408531,
-      "index": 7,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Prompt_ID",
-        "Prompt_Anchor",
+        "Friction_Index",
         "Checkins",
-        "Last_Updated",
-        "Current_Belief",
-        "Current_Disbelief",
-        "Net_Belief_Score",
-        "Belief_Delta",
-        "Disbelief_Delta",
-        "Current_Conviction_Pull",
-        "Epistemic_Grounding",
-        "Hypothesis_Friction_Index",
-        "Latest_Why_Changed_or_Context",
-        "Personal_Context_Notes"
+        "Status_Tag",
+        "Last_Updated"
       ],
-      "row_1": [
-        "Prompt_ID",
-        "Prompt_Anchor",
-        "Checkins",
-        "Last_Updated",
-        "Current_Belief",
-        "Current_Disbelief",
-        "Net_Belief_Score",
-        "Belief_Delta",
-        "Disbelief_Delta",
-        "Current_Conviction_Pull",
-        "Epistemic_Grounding",
-        "Hypothesis_Friction_Index",
-        "Latest_Why_Changed_or_Context",
-        "Personal_Context_Notes"
-      ]
-    },
-    {
-      "title": "Dashboard_Summary",
-      "sheet_id": 1411040255,
-      "index": 8,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
+      [
+        "BELIEF_KPI",
+        "KPI_TOTAL_PROMPTS",
+        "Total Tracked Prompts",
+        "3",
         "",
-        "BELIEF & STANCE TRACKER (LIFE OS) | EXECUTIVE DASHBOARD"
-      ],
-      "row_1": [
         "",
-        "BELIEF & STANCE TRACKER (LIFE OS) | EXECUTIVE DASHBOARD"
-      ]
-    },
-    {
-      "title": "Worldview_Synthesis",
-      "sheet_id": 777111222,
-      "index": 9,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 48,
-      "col_count": 16,
-      "header_row_index": 1,
-      "headers": [],
-      "row_1": []
-    },
-    {
-      "title": "MODULE_META",
-      "sheet_id": 359171263,
-      "index": 10,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
-        "Field",
-        "Value",
-        "Notes"
+        "",
+        "",
+        "0",
+        "3 Prompts",
+        "11/26/2026 19:22:56"
       ],
-      "row_1": [
-        "Field",
-        "Value",
-        "Notes"
+      [
+        "BELIEF_KPI",
+        "KPI_AVG_CREDENCE",
+        "Mean Credence (Belief %)",
+        "83.3",
+        "16.7",
+        "66.7",
+        "56.7",
+        "93.3",
+        "0",
+        "HIGH_CREDENCE",
+        "11/26/2026 19:22:56"
+      ],
+      [
+        "BELIEF_KPI",
+        "KPI_AVG_CONVICTION",
+        "Mean Conviction Pull",
+        "83.3",
+        "",
+        "66.7",
+        "56.7",
+        "",
+        "0",
+        "MODERATE",
+        "11/26/2026 19:22:56"
+      ],
+      [
+        "BELIEF_KPI",
+        "KPI_AVG_GROUNDING",
+        "Mean Epistemic Grounding",
+        "46.7",
+        "",
+        "",
+        "",
+        "",
+        "0",
+        "MIXED_EVIDENCE",
+        "11/26/2026 19:22:56"
+      ],
+      [
+        "BELIEF_KPI",
+        "KPI_AVG_FRICTION",
+        "Mean Hypothesis Friction Index",
+        "",
+        "",
+        "",
+        "56.7",
+        "93.3",
+        "0",
+        "ELEVATED_FRICTION",
+        "11/26/2026 19:22:56"
+      ],
+      [
+        "PROMPT_RANKING",
+        "P-001",
+        "The canonical Christian narrative of Jesus Christ and his twelve disc...",
+        "60.0",
+        "40.0",
+        "20.0",
+        "30.0",
+        "40.0",
+        "0",
+        "LEAN_BELIEF",
+        "2026-11-22"
+      ],
+      [
+        "PROMPT_RANKING",
+        "P-002",
+        "Major professional sports leagues operate under a legal \"sports enter...",
+        "90.0",
+        "10.0",
+        "80.0",
+        "60.0",
+        "80.0",
+        "0",
+        "HIGH_CREDENCE",
+        "2026-11-22"
+      ],
+      [
+        "PROMPT_RANKING",
+        "P-003",
+        "The Hollywood entertainment complex is governed by an organized, inst...",
+        "100.0",
+        "0.0",
+        "100.0",
+        "80.0",
+        "160.0",
+        "0",
+        "HIGH_CREDENCE",
+        "2026-11-22"
+      ],
+      [
+        "STANCE_EVENT",
+        "P-001",
+        "Initial Intake | Were the New Testament narratives systematically author...",
+        "60",
+        "40",
+        "+20",
+        "30",
+        "",
+        "0",
+        "Baseline",
+        "2026-11-22"
+      ],
+      [
+        "STANCE_EVENT",
+        "P-002",
+        "Initial Intake | Does judicial precedent or federal statutory law classi...",
+        "90",
+        "10",
+        "+80",
+        "60",
+        "",
+        "0",
+        "Baseline",
+        "2026-11-22"
+      ],
+      [
+        "STANCE_EVENT",
+        "P-003",
+        "Initial Intake | Does verifiable evidence prove that Hollywood operates ...",
+        "100",
+        "0",
+        "+100",
+        "80",
+        "",
+        "0",
+        "Baseline",
+        "2026-11-22"
       ]
-    },
-    {
-      "title": "CONTEXT_IN",
-      "sheet_id": 1021359317,
-      "index": 11,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
+    ],
+    "CONTEXT_IN": [
+      [
         "Signal_Key",
         "Live_Value",
         "Normalized_Score_0_100",
@@ -382,25 +347,41 @@
         "Freshness_Status",
         "Hub_Auth_Trigger"
       ],
-      "row_1": [
-        "Signal_Key",
-        "Live_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Freshness_Status",
-        "Hub_Auth_Trigger"
+      [
+        "OCEAN_OPENNESS",
+        "0.954",
+        "95.4",
+        "BUFF",
+        "ACTIVE",
+        "AUTHORIZED"
+      ],
+      [
+        "MBTI_COHERENCE_INDEX",
+        "18",
+        "18.0",
+        "ACTIVE",
+        "STALE",
+        "AUTHORIZED"
+      ],
+      [
+        "AQAL_UL_SCORE",
+        "53.5",
+        "53.5",
+        "PROGRESSING",
+        "FRESH",
+        "AUTHORIZED"
+      ],
+      [
+        "ZODIAC_ALIGNMENT",
+        "Sagittarius Sun / Waning Gibbous (Integrate & Share)",
+        "90.6",
+        "HIGH_HARMONY",
+        "FRESH",
+        "AUTHORIZED"
       ]
-    },
-    {
-      "title": "SIGNALS_OUT",
-      "sheet_id": 1991777423,
-      "index": 12,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "header_row_index": 1,
-      "headers": [
+    ],
+    "SIGNALS_OUT": [
+      [
         "Signal_Key",
         "Source_Brick",
         "Glyph",
@@ -412,18 +393,305 @@
         "TTL_Hours",
         "Notes"
       ],
-      "row_1": [
-        "Signal_Key",
-        "Source_Brick",
-        "Glyph",
-        "Domain_Pillar",
-        "Raw_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated",
-        "TTL_Hours",
+      [
+        "BELIEF_TOTAL_PROMPTS",
+        "Belief_Stance_Tracker",
+        "\u2696\ufe0f",
+        "Epistemics / I",
+        "3",
+        "12.0",
+        "3 Tracked Claims",
+        "2026-11-26 19:22",
+        "168",
+        "Total epistemic prompts/claims tracked (25 = 100%)"
+      ],
+      [
+        "BELIEF_AVG_CREDENCE_PCT",
+        "Belief_Stance_Tracker",
+        "\ud83c\udfaf",
+        "Credence / I",
+        "83.3",
+        "83.3",
+        "HIGH_CREDENCE",
+        "2026-11-26 19:22",
+        "168",
+        "Mean current belief/credence % across tracked prompts (0-100)"
+      ],
+      [
+        "BELIEF_AVG_CONVICTION",
+        "Belief_Stance_Tracker",
+        "\ud83e\udded",
+        "Conviction / I",
+        "56.7",
+        "56.7",
+        "OPEN_INQUIRY",
+        "2026-11-26 19:22",
+        "168",
+        "Mean Conviction Pull across tracked stances (0-100)"
+      ],
+      [
+        "BELIEF_AVG_FRICTION",
+        "Belief_Stance_Tracker",
+        "\u26a1",
+        "Epistemic Friction / I",
+        "93.3",
+        "46.7",
+        "ELEVATED_FRICTION",
+        "2026-11-26 19:22",
+        "168",
+        "Mean Hypothesis Friction Index (Conviction + 2*Anomaly - Consensus; /2 norm)"
+      ],
+      [
+        "BELIEF_TOTAL_CHECKINS",
+        "Belief_Stance_Tracker",
+        "\ud83d\udd04",
+        "Calibration / I",
+        "0",
+        "0",
+        "AWAITING_RERANK",
+        "11/26/2026 19:22:56",
+        "168",
+        "Total longitudinal Form B stance re-rank check-ins logged"
+      ],
+      [
+        "BELIEF_RERANK_CHECKINS",
+        "Belief_Stance_Tracker",
+        "\ud83d\udd04",
+        "Calibration / I",
+        "0",
+        "0",
+        "AWAITING_RERANK",
+        "11/26/2026 19:22:56",
+        "168",
+        "Alias of BELIEF_TOTAL_CHECKINS for Hub R91 backwards compatibility"
+      ],
+      [
+        "BELIEF_AVG_DISBELIEF",
+        "Belief_Stance_Tracker",
+        "\ud83d\udd0d",
+        "Skepticism / I",
+        "16.7",
+        "16.7",
+        "LOW_SKEPTICISM",
+        "11/26/2026 19:22:56",
+        "168",
+        "Mean current disbelief % across tracked stances (0-100)"
+      ]
+    ],
+    "MODULE_META": [
+      [
+        "Field",
+        "Value",
         "Notes"
+      ],
+      [
+        "Brick_Name",
+        "Belief_Stance_Tracker",
+        "Canonical LifeOS-v3 Brick identifier"
+      ],
+      [
+        "Registry_Key",
+        "ID_BELIEF_TRACKER",
+        "Canonical key in workbook_registry.json (alias: ID_BELIEF_STANCE)"
+      ],
+      [
+        "Source_Workbook",
+        "Belief & Stance Tracker (Life OS)",
+        "Live Google Sheets workbook title"
+      ],
+      [
+        "Schema_Version",
+        "3.1.0",
+        "13 color-coded tabs, repaired Ranked_Ideas engine, flat zero-PII LOOKER_BELIEF_STANCE"
+      ],
+      [
+        "Glyph",
+        "\u2696\ufe0f",
+        "Executive HUD icon"
+      ],
+      [
+        "Landing_Tab",
+        "\u2696\ufe0f BELIEF_DASHBOARD",
+        "Gold #F59E0B executive HUD (renamed from Dashboard_Summary, index 0)"
+      ],
+      [
+        "Looker_Tab",
+        "LOOKER_BELIEF_STANCE",
+        "Hidden Cyan #06B6D4 flat zero-PII / zero-prose BI feed"
+      ],
+      [
+        "Layer_1_Raw_Tabs",
+        "Form Responses 1, Form Responses 2",
+        "Untouched Crimson #EF4444 Google Form logs"
+      ],
+      [
+        "Domain_Pillar",
+        "Pillar 1 / Epistemics, Beliefs & Stance Evolution (I / WE)",
+        "LifeOS AQAL / 5-Pillar domain mapping"
+      ],
+      [
+        "Cadence_Tier",
+        "Event-Driven (Prompt Intake & Re-Rank Check-Ins, TTL: 168h)",
+        "Refresh / logging cadence & TTL class"
+      ],
+      [
+        "Signals_Published",
+        "BELIEF_TOTAL_PROMPTS, BELIEF_AVG_CREDENCE_PCT, BELIEF_AVG_CONVICTION, BELIEF_AVG_FRICTION, BELIEF_TOTAL_CHECKINS (+ aliases)",
+        "Exported via SIGNALS_OUT to LifeOS_feed_hub"
+      ],
+      [
+        "Context_Subscribed",
+        "OCEAN_OPENNESS, MBTI_COHERENCE_INDEX, AQAL_UL_SCORE, ZODIAC_ALIGNMENT",
+        "Subscribed via CONTEXT_IN from LifeOS_feed_hub"
+      ],
+      [
+        "Hub_Spreadsheet_ID",
+        "1fSQ35RszC8xgC2hHKh3OHpkPl9NxdlYQUfmaUhuvS2U",
+        "LifeOS_feed_hub central nervous system"
+      ],
+      [
+        "Archived_Subject_Note",
+        "Archived from retired Subject stub tab (redacted in public snapshot)",
+        "Archived from retired Subject stub tab (redacted in public snapshot)"
+      ],
+      [
+        "Privacy_Boundary",
+        "STRICT_ZERO_PII_ZERO_PROSE",
+        "LOOKER_BELIEF_STANCE & GitHub snapshots exclude personal notes, essays & PII"
+      ],
+      [
+        "Last_Synced",
+        "2026-11-26 19:22 UTC",
+        "Dynamic live formula sync timestamp"
+      ]
+    ],
+    "headers_only": {
+      "Ranked_Ideas": [
+        [
+          "Prompt_ID",
+          "Claim_Summary",
+          "Checkins",
+          "Last_Updated",
+          "Current_Belief",
+          "Current_Disbelief",
+          "Net_Belief_Score",
+          "Belief_Delta",
+          "Disbelief_Delta",
+          "Current_Conviction_Pull",
+          "Epistemic_Grounding",
+          "Hypothesis_Friction_Index",
+          "Latest_Why_Changed_or_Context",
+          "Personal_Context_Notes",
+          "Credence_Gauge (=SPARKLINE)",
+          "Stance_Tier"
+        ]
+      ],
+      "Prompt_Registry": [
+        [
+          "Prompt_ID",
+          "Prompt_Anchor",
+          "Theory/Claim",
+          "First_Logged_Date",
+          "Source_Type",
+          "Source_Reference",
+          "Source_Context_Notes",
+          "Personal_Context_Notes",
+          "Total_Checkins",
+          "Last_Updated_Date"
+        ]
+      ],
+      "Stance_Timeline": [
+        [
+          "Timestamp",
+          "Entry_Type",
+          "Prompt_ID",
+          "Prompt_Anchor",
+          "Belief_Score",
+          "Disbelief_Score",
+          "Net_Belief",
+          "Conviction_Pull",
+          "Stance_Movement",
+          "Rationale_and_Context",
+          "Personal_Context_Notes"
+        ]
+      ],
+      "Form_A_Intake": [
+        [
+          "Timestamp",
+          "Prompt_Anchor",
+          "Theory/Claim",
+          "Source_Type",
+          "Source_Reference",
+          "Source_Context_Notes",
+          "Personal_Context_Notes",
+          "Belief_Score",
+          "Disbelief_Score",
+          "Mainstream_Belief_Score",
+          "Conviction_Pull",
+          "Direct_Verification",
+          "Consensus_Alignment",
+          "Counter_Arg_Clarity",
+          "Anomaly_Friction",
+          "Stance_Shift_Trigger",
+          "Public_Consciousness_Thoughts",
+          "Mainstream_Belief_Thoughts",
+          "Direct_Verification_Thoughts",
+          "Counter_Arg_Thoughts",
+          "Anomaly_Friction_Thoughts"
+        ]
+      ],
+      "Form_B_Rerank": [
+        [
+          "Timestamp",
+          "Prompt_Anchor",
+          "Belief_Score",
+          "Disbelief_Score",
+          "Conviction_Pull",
+          "Stance_Movement",
+          "Why_Stance_Changed",
+          "Updated_Context_Notes",
+          "Updated_Friction_Counter_Note",
+          "Updated_Shift_Trigger"
+        ]
+      ],
+      "Form Responses 1": [
+        [
+          "Timestamp",
+          "Prompt_Anchor",
+          "Theory/Claim",
+          "Source_Type",
+          "Source_Reference",
+          "Source_Context_Notes",
+          "Belief_Score",
+          "Belief_Score_Thoughts",
+          "Public_Consciousness_Score",
+          "Public_Consciousness_Score_Thoughts",
+          "Mainstream_Belief_Score",
+          "Mainstream_Belief_Score_Thoughts",
+          "Conviction_Pull",
+          "Direct_Verification",
+          "Direct_Verification_Thoughts",
+          "Counter_Arg_Clarity",
+          "Counter_Arg_Clarity_Thoughts",
+          "Anomaly_Friction",
+          "Anomaly_Friction_Thoughts",
+          "Stance_Shift_Trigger"
+        ]
+      ],
+      "Form Responses 2": [
+        [
+          "Timestamp",
+          "Prompt_Anchor",
+          "Belief_Score",
+          "Disbelief_Score",
+          "Conviction_Pull",
+          "Stance_Movement",
+          "Why_Stance_Changed",
+          "Updated_Context_Notes",
+          "Updated_Friction_Counter_Note",
+          "Updated_Shift_Trigger"
+        ]
       ]
     }
-  ]
+  }
 }
