@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-28T02:18:00Z",
+  "last_updated_utc": "2026-11-28T02:22:00Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2344,6 +2344,8 @@
         "DASHBOARD",
         "PREFERENCE_PROFILE",
         "RELATIONSHIP_CHECKUP_LOG",
+        "RELATIONAL_REFLECTIONS_ENGINE",
+        "FAMILY_REFLECTIONS_LOG",
         "DATABASE",
         "CALCULATIONS",
         "DOSSIER_TEMPLATE",
@@ -2352,9 +2354,10 @@
         "MODULE_META",
         "CONTEXT_IN",
         "SIGNALS_OUT",
-        "IMPORTS"
+        "IMPORTS",
+        "RAW_RELATIONS_OTHERS_INTAKE"
       ],
-      "tab_count": 12,
+      "tab_count": 15,
       "last_snapshot_utc": "2026-11-26T17:19:59Z",
       "snapshot_file": "schemas/live_snapshots/ID_PILLAR_3.json",
       "looker_tabs": [
@@ -2440,7 +2443,9 @@
           "auth_anchor": "P3_CONFIG!I11"
         }
       ],
-      "last_audited_utc": "2026-11-26T17:19:59Z"
+      "last_audited_utc": "2026-11-28T02:22:00Z",
+      "family_reflections_tab": "FAMILY_REFLECTIONS_LOG",
+      "family_reflections_gid": 164393982
     },
     "ID_RAW_INTAKE": {
       "title": "RAW_DATA_Intake",
@@ -3904,6 +3909,27 @@
       "master_bus_directory_row": 74,
       "privacy_boundary": "STRICT_PILLAR_0_ONLY",
       "consolidated_utc": "2026-11-28T02:18:00Z"
+    },
+    "LEGACY_FAMILY_REFLECTIONS": {
+      "title": "ARCHIVE_Family (Responses)",
+      "original_title": "Family (Responses)",
+      "spreadsheet_id": "1f6x5Ay35Mrd2jn1qDZGxQB8z-hl3C9NF7WvT2JAQvjQ",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1f6x5Ay35Mrd2jn1qDZGxQB8z-hl3C9NF7WvT2JAQvjQ/edit",
+      "status": "CONSOLIDATED_INTO_PILLAR",
+      "consolidated_into": "ID_PILLAR_3",
+      "consolidated_target_tab": "FAMILY_REFLECTIONS_LOG",
+      "layer": "archived_silo",
+      "domain": "Pillar 3 Relationships / Family Dynamics & Lineage Reflection",
+      "linked_forms": [
+        {
+          "name": "Family",
+          "form_id": "1tR2jtjObJPE34_ydWXdxKzdaBRncFVTEcUM78mTeJ4c"
+        }
+      ],
+      "historical_rows_ingested": 0,
+      "master_bus_directory_row": 75,
+      "privacy_boundary": "STRICT_ZERO_PROSE_EXPORT",
+      "consolidated_utc": "2026-11-28T02:22:00Z"
     }
   },
   "unmapped_discovered": [
