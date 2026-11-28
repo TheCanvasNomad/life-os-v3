@@ -1,62 +1,59 @@
 {
+  "workbook_key": "ID_DAILY_INTAKE",
   "spreadsheet_id": "16ohf5mBA9xrRsyv5sOYqY1s7gaOSpSOzK1rE1Gw6BNI",
   "title": "\ud83e\udded Daily_Intake_Brick",
-  "key": "ID_DAILY_INTAKE",
-  "captured_at_utc": "2026-11-25T06:43:04Z",
-  "pii_scrubbed": true,
-  "privacy_boundary": "STRICT_ZERO_PROSE_ZERO_PII (Primary Dukkha & Selfie Upload excluded)",
-  "tab_count": 7,
+  "captured_utc": "2026-11-28T02:10:00Z",
+  "privacy_boundary": "STRICT_ZERO_PII_ZERO_PROSE",
+  "tab_count": 8,
   "tabs": [
-    {
-      "index": 0,
-      "title": "\ud83e\udded DAILY_HUD",
-      "sheetId": 661290633,
-      "tabColor": "#F59E0B",
-      "hideGridlines": true
-    },
-    {
-      "index": 1,
-      "title": "SCORING_ENGINE",
-      "sheetId": 331991909,
-      "tabColor": "#8B5CF6",
-      "hideGridlines": true
-    },
-    {
-      "index": 2,
-      "title": "LOOKER_DAILY_INTAKE",
-      "sheetId": 1979308336,
-      "tabColor": "#06B6D4",
-      "hideGridlines": true
-    },
-    {
-      "index": 3,
-      "title": "MODULE_META",
-      "sheetId": 1971061343,
-      "tabColor": "#3B82F6",
-      "hideGridlines": true
-    },
-    {
-      "index": 4,
-      "title": "CONTEXT_IN",
-      "sheetId": 1812559817,
-      "tabColor": "#3B82F6",
-      "hideGridlines": true
-    },
-    {
-      "index": 5,
-      "title": "SIGNALS_OUT",
-      "sheetId": 441481024,
-      "tabColor": "#3B82F6",
-      "hideGridlines": true
-    },
-    {
-      "index": 6,
-      "title": "Form Responses 1",
-      "sheetId": 1890898638,
-      "tabColor": "#EF4444",
-      "hideGridlines": false
-    }
+    "\ud83e\udded DAILY_HUD",
+    "SCORING_ENGINE",
+    "LEGACY_DAYLIO_BASELINE",
+    "LOOKER_DAILY_INTAKE",
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT",
+    "Form Responses 1"
   ],
+  "tab_gids": {
+    "\ud83e\udded DAILY_HUD": 661290633,
+    "SCORING_ENGINE": 331991909,
+    "LEGACY_DAYLIO_BASELINE": 330870141,
+    "LOOKER_DAILY_INTAKE": 1979308336,
+    "MODULE_META": 1971061343,
+    "CONTEXT_IN": 1812559817,
+    "SIGNALS_OUT": 441481024,
+    "Form Responses 1": 1890898638
+  },
+  "legacy_daylio_baseline": {
+    "tab": "LEGACY_DAYLIO_BASELINE",
+    "headers": [
+      "Timestamp",
+      "Mood_1_5",
+      "Normalized_Mood_0_100",
+      "One_Word_Mood",
+      "Has_Vice_Log",
+      "Has_Positive_Habit_Log"
+    ],
+    "locked_runs": 45,
+    "date_window": "2023-01-07 to 2024-03-24",
+    "mean_mood_1_5": 3.8,
+    "normalized_mood_0_100": 70.0,
+    "vice_flag_rows": 1,
+    "positive_habit_flag_rows": 1,
+    "notes_column_imported": false
+  },
+  "consolidated_silos": [
+    "LEGACY_DAYLIO_2023_2024"
+  ],
+  "audit_errors_all_tabs": 0,
+  "expected_auth_trigger": [],
+  "master_bus_audit_errors": 0,
+  "isolation_verified": {
+    "signals_out_unchanged": true,
+    "hud_kpis_unchanged": true,
+    "looker_unchanged": true
+  },
   "signals_out": [
     [
       "Signal_Key",
@@ -67,24 +64,24 @@
     ],
     [
       "DAILY_ENERGY",
-      "Sleep/Drive Index: 80.0%",
-      "80",
-      "HIGH_ENERGY",
-      "46125.10964"
+      "Sleep/Drive Index: 75.0%",
+      "75",
+      "STEADY",
+      "46352.48779"
     ],
     [
       "DAILY_MOOD",
-      "Clarity/Harmony Index: 80.0% (Neutrality)",
-      "80",
-      "FLOW_STATE",
-      "46125.10964"
+      "Clarity/Harmony Index: 75.0% (Neutrality)",
+      "75",
+      "CLEAR",
+      "46352.48779"
     ],
     [
       "ACUTE_STRESS",
-      "Resistance/Pressure Load: 80.0%",
-      "80",
-      "HIGH_STRESS",
-      "46125.10964"
+      "Resistance/Pressure Load: 30.0%",
+      "30",
+      "LOW_FRICTION",
+      "46352.48779"
     ],
     [
       "FLOW_COHERENCE",
@@ -112,17 +109,17 @@
     ],
     [
       "TOTAL_CHECKINS",
-      "3",
+      "4",
       "Yesod & Malkuth (10 XP each)",
       "10 XP Survival/Foundation per log",
-      "46125.10964"
+      "46352.48779"
     ],
     [
       "AM_PRIMERS_COUNT",
-      "1",
+      "2",
       "Keter & Tiferet (15 XP each)",
       "30 XP Esteem/Alignment per AM Primer",
-      "46125.10964"
+      "46352.48779"
     ],
     [
       "GRIT_FINISHED_COUNT",
@@ -149,14 +146,14 @@
       "Neutrality",
       "Map of Consciousness Calibration",
       "Live subjective state",
-      "46125.10964"
+      "46352.48779"
     ],
     [
       "ACTIVE_OPERATIONAL_PHASE",
       "On Ship/At Work",
       "ITS Environment Context",
       "Home/Limbo vs. On Ship/At Work",
-      "46125.10964"
+      "46352.48779"
     ],
     [],
     [
@@ -168,191 +165,17 @@
     ],
     [
       "INTAKE_DISCIPLINE_DELTA",
-      "45",
+      "60",
       "5/log, 10/AM Primer, 15/Finished Grit, 5/Partial Grit",
       "Timestamp, Log Type, Grit Check",
-      "46125.10964"
+      "46352.48779"
     ],
     [
       "INTAKE_VICE_DELTA",
       "0",
       "25 per Vice logged + 5x Quantity (0 when clean)",
       "The Vice, Quantity",
-      "46125.10964"
-    ],
-    [
-      "DAILY_INTAKE_RAW_XP",
-      "150",
-      "Check-in/Primer/Grit/Flow XP + Discipline Credits",
-      "All Branches (Zero PII)",
-      "46125.10964"
+      "46352.48779"
     ]
-  ],
-  "looker_daily_intake_headers": [
-    [
-      "Record_Type",
-      "Log_Date",
-      "Branch_Mode",
-      "Phase",
-      "Region",
-      "Consciousness_Mood",
-      "Metric_Or_Tag",
-      "Energy_0_100",
-      "Mood_0_100",
-      "Stress_0_100",
-      "Pillars_Balance_0_100",
-      "Flow_0_100",
-      "Discipline_Pts",
-      "Vice_Pts",
-      "Raw_XP",
-      "Status_Tag"
-    ]
-  ],
-  "looker_daily_intake_kpi_snapshot": [
-    [
-      "KPI_SNAPSHOT",
-      "2026-04-13",
-      "ALL_BRANCHES",
-      "On Ship/At Work",
-      "Europe",
-      "Neutrality",
-      "DAILY_ENERGY",
-      "80",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "HIGH_ENERGY"
-    ],
-    [
-      "KPI_SNAPSHOT",
-      "2026-04-13",
-      "ALL_BRANCHES",
-      "On Ship/At Work",
-      "Europe",
-      "Neutrality",
-      "DAILY_MOOD",
-      "",
-      "80",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "FLOW_STATE"
-    ],
-    [
-      "KPI_SNAPSHOT",
-      "2026-04-13",
-      "ALL_BRANCHES",
-      "On Ship/At Work",
-      "Europe",
-      "Neutrality",
-      "ACUTE_STRESS",
-      "",
-      "",
-      "80",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "HIGH_STRESS"
-    ],
-    [
-      "KPI_SNAPSHOT",
-      "2026-04-13",
-      "ALL_BRANCHES",
-      "On Ship/At Work",
-      "Europe",
-      "Neutrality",
-      "FLOW_COHERENCE",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "UNLOGGED"
-    ],
-    [
-      "KPI_SNAPSHOT",
-      "2026-04-12",
-      "ALL_BRANCHES",
-      "On Ship/At Work",
-      "Europe",
-      "Neutrality",
-      "KABBALAH_BALANCE",
-      "",
-      "",
-      "",
-      "76.7",
-      "",
-      "",
-      "",
-      "",
-      "MIDDLE_PILLAR_LOCK"
-    ],
-    [
-      "KPI_SNAPSHOT",
-      "2026-04-13",
-      "ALL_BRANCHES",
-      "On Ship/At Work",
-      "Europe",
-      "Neutrality",
-      "INTAKE_DISCIPLINE_DELTA",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "45",
-      "",
-      "",
-      "DISCIPLINE_FEED"
-    ],
-    [
-      "KPI_SNAPSHOT",
-      "2026-04-13",
-      "ALL_BRANCHES",
-      "On Ship/At Work",
-      "Europe",
-      "Neutrality",
-      "INTAKE_VICE_DELTA",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "0",
-      "",
-      "VICE_CLEAN"
-    ],
-    [
-      "KPI_SNAPSHOT",
-      "2026-04-13",
-      "ALL_BRANCHES",
-      "On Ship/At Work",
-      "Europe",
-      "Neutrality",
-      "DAILY_INTAKE_RAW_XP",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "150",
-      "XP_ACTIVE"
-    ]
-  ],
-  "audit_errors": 0
+  ]
 }

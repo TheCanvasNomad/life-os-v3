@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-28T02:05:00Z",
+  "last_updated_utc": "2026-11-28T02:10:00Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -1976,12 +1976,16 @@
       "schema_ref": "schemas/daily_intake_brick_schema.json",
       "last_snapshot_utc": "2026-11-23T07:47:46Z",
       "all_tabs": [
-        "Form Responses 1",
+        "\ud83e\udded DAILY_HUD",
+        "SCORING_ENGINE",
+        "LEGACY_DAYLIO_BASELINE",
+        "LOOKER_DAILY_INTAKE",
         "MODULE_META",
         "CONTEXT_IN",
-        "SIGNALS_OUT"
+        "SIGNALS_OUT",
+        "Form Responses 1"
       ],
-      "tab_count": 7,
+      "tab_count": 8,
       "tabs": [
         "\ud83e\udded DAILY_HUD",
         "SCORING_ENGINE",
@@ -1995,7 +1999,9 @@
       "looker_tab": "LOOKER_DAILY_INTAKE",
       "tab_color_coded": true,
       "privacy_boundary": "STRICT_ZERO_PROSE_ZERO_PII",
-      "last_audited_utc": "2026-11-25T06:43:04Z"
+      "last_audited_utc": "2026-11-28T02:10:00Z",
+      "legacy_daylio_tab": "LEGACY_DAYLIO_BASELINE",
+      "legacy_daylio_gid": 330870141
     },
     "ID_DAILY_STATE_PULSE": {
       "title": "Daily_State_Pulse",
@@ -3826,6 +3832,30 @@
       "master_bus_directory_row": 71,
       "privacy_boundary": "STRICT_PILLAR_4_PRIVATE",
       "consolidated_utc": "2026-11-28T02:05:00Z"
+    },
+    "LEGACY_DAYLIO_2023_2024": {
+      "title": "ARCHIVE_2023_2024_Daylio (Responses)",
+      "original_title": "Daylio (Responses)",
+      "spreadsheet_id": "1R7jHssikL0RzWRu96Ru7wU3HsHqCUnQZmWf5N8H9w1Q",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1R7jHssikL0RzWRu96Ru7wU3HsHqCUnQZmWf5N8H9w1Q/edit",
+      "status": "CONSOLIDATED_INTO_BRICK",
+      "consolidated_into": "ID_DAILY_INTAKE",
+      "consolidated_target_tab": "LEGACY_DAYLIO_BASELINE",
+      "layer": "archived_silo",
+      "domain": "Daily Intake / 2023\u20132024 Legacy Daylio Mood & Habit Baseline",
+      "linked_forms": [
+        {
+          "name": "Daylio",
+          "form_id": "1XbNeYhkub48Xob4iMbSJnQ4o2YYs42drTchSG7X_mtY"
+        }
+      ],
+      "historical_rows_ingested": 45,
+      "date_window": "2023-01-07 to 2024-03-24",
+      "mean_mood_1_5": 3.8,
+      "normalized_mood_0_100": 70.0,
+      "master_bus_directory_row": 72,
+      "privacy_boundary": "STRICT_ZERO_PII_ZERO_PROSE",
+      "consolidated_utc": "2026-11-28T02:10:00Z"
     }
   },
   "unmapped_discovered": [
