@@ -1,0 +1,265 @@
+{
+  "workbook_key": "ID_DISC",
+  "spreadsheet_id": "1VPQ7_KTxo7_PWNILqYcq5YG3jpei5UYWWfROkbz-dT4",
+  "title": "\ud83c\udfaf DISC_Behavioral_Brick",
+  "captured_utc": "2026-11-28T03:02:00Z",
+  "privacy_boundary": "STRICT_ZERO_PII",
+  "tab_count": 9,
+  "tabs": [
+    "\ud83c\udfaf DISC_HUD",
+    "DISC_SCORING_ENGINE",
+    "COMMUNICATION_&_COACHING_MATRIX",
+    "LOOKER_DISC",
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT",
+    "Form_Responses_1",
+    "LEGACY_2023_BASELINE"
+  ],
+  "tab_gids": {
+    "\ud83c\udfaf DISC_HUD": 0,
+    "DISC_SCORING_ENGINE": 1017239781,
+    "COMMUNICATION_&_COACHING_MATRIX": 401697633,
+    "LOOKER_DISC": 70216040,
+    "MODULE_META": 896042506,
+    "CONTEXT_IN": 1575886049,
+    "SIGNALS_OUT": 1093218599,
+    "Form_Responses_1": 72132515,
+    "LEGACY_2023_BASELINE": 1616745453
+  },
+  "looker_tab": "LOOKER_DISC",
+  "form_generator_script": "scripts/gas/ID_DISC_create_form.gs",
+  "epoch_0_baseline": {
+    "timestamp": "2023-01-18 11:35:17",
+    "D": 53.3,
+    "I": 79.5,
+    "S": 57.8,
+    "C": 56.2,
+    "pattern": "I \u2014 Promoter"
+  },
+  "hub_module_registry_row": 46,
+  "hub_signal_bus_rows": {
+    "DISC_DOMINANT_STYLE": 307,
+    "DISC_D_SCORE": 308,
+    "DISC_I_SCORE": 309,
+    "DISC_S_SCORE": 310,
+    "DISC_C_SCORE": 311,
+    "DISC_ADAPTATION_STRESS": 312
+  },
+  "master_bus_directory_row": 76,
+  "audit_errors_all_tabs": 0,
+  "expected_auth_trigger": [
+    [
+      "CONTEXT_IN",
+      "F2",
+      "#REF!"
+    ]
+  ],
+  "signals_out": [
+    [
+      "Signal_Key",
+      "Raw_Summary",
+      "Normalized_Score_0_100",
+      "State_Tag",
+      "Last_Updated"
+    ],
+    [
+      "DISC_DOMINANT_STYLE",
+      "I \u2014 Promoter (Epoch 0 Baseline)",
+      "79.5",
+      "EPOCH_0_I",
+      "2023-01-18 11:35"
+    ],
+    [
+      "DISC_D_SCORE",
+      "Dominance (D): 53.3%",
+      "53.3",
+      "MODERATE_D",
+      "2023-01-18 11:35"
+    ],
+    [
+      "DISC_I_SCORE",
+      "Influence (I): 79.5%",
+      "79.5",
+      "HIGH_I",
+      "2023-01-18 11:35"
+    ],
+    [
+      "DISC_S_SCORE",
+      "Steadiness (S): 57.8%",
+      "57.8",
+      "MODERATE_S",
+      "2023-01-18 11:35"
+    ],
+    [
+      "DISC_C_SCORE",
+      "Conscientiousness (C): 56.2%",
+      "56.2",
+      "MODERATE_C",
+      "2023-01-18 11:35"
+    ],
+    [
+      "DISC_ADAPTATION_STRESS",
+      "EPOCH_0_SINGLE_GRAPH (Submit 24-Block Form for \u0394)",
+      "0.0",
+      "AWAITING_24_BLOCK_RUN",
+      "2023-01-18 11:35"
+    ]
+  ],
+  "looker_disc_rows": [
+    [
+      "Record_Type",
+      "Metric_Key",
+      "Label",
+      "Score_0_100",
+      "Adapted_Score",
+      "Natural_Score",
+      "Shift_Delta",
+      "Status_Tag",
+      "Last_Updated"
+    ],
+    [
+      "DISC_4_COMPOSITE",
+      "DISC_D",
+      "Dominance (D)",
+      "53.3",
+      "",
+      "",
+      "",
+      "MODERATE_D",
+      "2023-01-18 11:35"
+    ],
+    [
+      "DISC_4_COMPOSITE",
+      "DISC_I",
+      "Influence (I)",
+      "79.5",
+      "",
+      "",
+      "",
+      "HIGH_I",
+      "2023-01-18 11:35"
+    ],
+    [
+      "DISC_4_COMPOSITE",
+      "DISC_S",
+      "Steadiness (S)",
+      "57.8",
+      "",
+      "",
+      "",
+      "MODERATE_S",
+      "2023-01-18 11:35"
+    ],
+    [
+      "DISC_4_COMPOSITE",
+      "DISC_C",
+      "Conscientiousness (C)",
+      "56.2",
+      "",
+      "",
+      "",
+      "MODERATE_C",
+      "2023-01-18 11:35"
+    ],
+    [
+      "NATURAL_VS_ADAPTED",
+      "SHIFT_D",
+      "Dominance Shift (Adapted vs Natural)",
+      "53.3",
+      "",
+      "",
+      "0",
+      "EPOCH_0_SINGLE_GRAPH",
+      "2023-01-18 11:35"
+    ],
+    [
+      "NATURAL_VS_ADAPTED",
+      "SHIFT_I",
+      "Influence Shift (Adapted vs Natural)",
+      "79.5",
+      "",
+      "",
+      "0",
+      "EPOCH_0_SINGLE_GRAPH",
+      "2023-01-18 11:35"
+    ],
+    [
+      "NATURAL_VS_ADAPTED",
+      "SHIFT_S",
+      "Steadiness Shift (Adapted vs Natural)",
+      "57.8",
+      "",
+      "",
+      "0",
+      "EPOCH_0_SINGLE_GRAPH",
+      "2023-01-18 11:35"
+    ],
+    [
+      "NATURAL_VS_ADAPTED",
+      "SHIFT_C",
+      "Conscientiousness Shift (Adapted vs Natural)",
+      "56.2",
+      "",
+      "",
+      "0",
+      "EPOCH_0_SINGLE_GRAPH",
+      "2023-01-18 11:35"
+    ],
+    [
+      "COACHING_PROFILE_4",
+      "KIM_RELATIONSHIP",
+      "Relationship Orientation",
+      "79.5",
+      "",
+      "",
+      "",
+      "Collaborative & Social \u2014 start with rapport, vision & shared energy",
+      "2023-01-18 11:35"
+    ],
+    [
+      "COACHING_PROFILE_4",
+      "KIM_INFORMATION",
+      "Information Gathering",
+      "79.5",
+      "",
+      "",
+      "",
+      "Big-Picture Story & Social Proof \u2014 narrative & human impact",
+      "2023-01-18 11:35"
+    ],
+    [
+      "COACHING_PROFILE_4",
+      "KIM_DECISION",
+      "Decision Mechanics",
+      "79.5",
+      "",
+      "",
+      "",
+      "Intuitive Consensus Builder \u2014 align excitement with facts",
+      "2023-01-18 11:35"
+    ],
+    [
+      "COACHING_PROFILE_4",
+      "KIM_PLANNING",
+      "Planning Style",
+      "79.5",
+      "",
+      "",
+      "",
+      "Flexible Visionary Sprints \u2014 visual boards & accountability",
+      "2023-01-18 11:35"
+    ],
+    [
+      "RUN_HISTORY",
+      "EPOCH_0_2023",
+      "2023 Legacy 54-Adjective Baseline (I \u2014 Promoter)",
+      "79.5",
+      "",
+      "",
+      "0",
+      "EPOCH_0_BASELINE",
+      "2023-01-18 11:35"
+    ]
+  ]
+}

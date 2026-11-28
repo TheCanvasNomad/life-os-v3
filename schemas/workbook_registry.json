@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-28T02:22:00Z",
+  "last_updated_utc": "2026-11-28T03:02:00Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -3930,6 +3930,91 @@
       "master_bus_directory_row": 75,
       "privacy_boundary": "STRICT_ZERO_PROSE_EXPORT",
       "consolidated_utc": "2026-11-28T02:22:00Z"
+    },
+    "ID_DISC": {
+      "title": "\ud83c\udfaf DISC_Behavioral_Brick",
+      "spreadsheet_id": "1VPQ7_KTxo7_PWNILqYcq5YG3jpei5UYWWfROkbz-dT4",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1VPQ7_KTxo7_PWNILqYcq5YG3jpei5UYWWfROkbz-dT4/edit",
+      "status": "ACTIVE",
+      "layer": "brick",
+      "domain": "Workplace Communication, Dual Natural/Adapted DISC & Kim et al. (2025) Coaching",
+      "primary_tab": "\ud83c\udfaf DISC_HUD",
+      "landing_tab": "\ud83c\udfaf DISC_HUD",
+      "looker_tab": "LOOKER_DISC",
+      "live_tabs": [
+        "\ud83c\udfaf DISC_HUD",
+        "DISC_SCORING_ENGINE",
+        "COMMUNICATION_&_COACHING_MATRIX",
+        "LOOKER_DISC",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT"
+      ],
+      "all_tabs": [
+        "\ud83c\udfaf DISC_HUD",
+        "DISC_SCORING_ENGINE",
+        "COMMUNICATION_&_COACHING_MATRIX",
+        "LOOKER_DISC",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT",
+        "Form_Responses_1",
+        "LEGACY_2023_BASELINE"
+      ],
+      "tab_count": 9,
+      "form_generator_script": "scripts/gas/ID_DISC_create_form.gs",
+      "cadence_ttl_hours": 672,
+      "signals_published": [
+        "DISC_DOMINANT_STYLE",
+        "DISC_D_SCORE",
+        "DISC_I_SCORE",
+        "DISC_S_SCORE",
+        "DISC_C_SCORE",
+        "DISC_ADAPTATION_STRESS"
+      ],
+      "context_subscribed": [
+        "MBTI_TYPE_CODE",
+        "OCEAN_CONSCIENTIOUSNESS",
+        "OCEAN_EXTRAVERSION",
+        "DAILY_ENERGY",
+        "ACUTE_STRESS"
+      ],
+      "context_in_gid": 1575886049,
+      "context_in_trigger_cell": "F2",
+      "hub_module_registry_row": 46,
+      "hub_signal_bus_rows": {
+        "DISC_DOMINANT_STYLE": 307,
+        "DISC_D_SCORE": 308,
+        "DISC_I_SCORE": 309,
+        "DISC_S_SCORE": 310,
+        "DISC_C_SCORE": 311,
+        "DISC_ADAPTATION_STRESS": 312
+      },
+      "master_bus_directory_row": 76,
+      "tab_color_coded": true,
+      "universal_brick_compliant": true,
+      "privacy_boundary": "STRICT_ZERO_PII",
+      "last_audited_utc": "2026-11-28T03:02:00Z"
+    },
+    "LEGACY_DISC_2023": {
+      "title": "ARCHIVE_2023_DISC Assessment (Responses)",
+      "original_title": "DISC Assessment (Responses)",
+      "spreadsheet_id": "1Ev_t_t--q417YFxvTtgwHpWdAq_zikUIr7A7K-gjWws",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1Ev_t_t--q417YFxvTtgwHpWdAq_zikUIr7A7K-gjWws/edit",
+      "status": "CONSOLIDATED_INTO_BRICK",
+      "consolidated_into": "ID_DISC",
+      "consolidated_target_tab": "LEGACY_2023_BASELINE",
+      "layer": "archived_silo",
+      "domain": "Psychometrics / 2023 Legacy 54-Adjective DISC Epoch 0 Baseline",
+      "epoch_0_timestamp": "2023-01-18 11:35:17",
+      "epoch_0_scores": {
+        "D": 53.3,
+        "I": 79.5,
+        "S": 57.8,
+        "C": 56.2
+      },
+      "master_bus_directory_row": 77,
+      "consolidated_utc": "2026-11-28T03:02:00Z"
     }
   },
   "unmapped_discovered": [
