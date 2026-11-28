@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-28T02:14:00Z",
+  "last_updated_utc": "2026-11-28T02:18:00Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2916,9 +2916,11 @@
         "MODULE_META",
         "CONTEXT_IN",
         "SIGNALS_OUT",
-        "IMPORTS"
+        "IMPORTS",
+        "RAW_DATA_DukkhaReflection",
+        "RAW_DATA_EthicalDilemmas"
       ],
-      "tab_count": 14,
+      "tab_count": 16,
       "linked_forms": [
         {
           "name": "Life OS - Shadow Journal Form",
@@ -3002,7 +3004,9 @@
           "auth_anchor": "P0_CONFIG!I15"
         }
       ],
-      "last_audited_utc": "2026-11-26T23:32:52Z"
+      "last_audited_utc": "2026-11-28T02:18:00Z",
+      "ethical_dilemmas_tab": "RAW_DATA_EthicalDilemmas",
+      "ethical_dilemmas_gid": 107018983
     },
     "ID_RAW_SHADOW_JOURNAL": {
       "title": "RAW_DATA_ShadowJournal",
@@ -3884,6 +3888,22 @@
       "master_bus_directory_row": 73,
       "privacy_boundary": "STRICT_PILLAR_5_PRIVATE",
       "consolidated_utc": "2026-11-28T02:14:00Z"
+    },
+    "LEGACY_ETHICAL_DILEMMAS": {
+      "title": "ARCHIVE_Hard Choices (Ethical Dilemmas) (Responses)",
+      "original_title": "Hard Choices (Ethical Dilemmas) (Responses)",
+      "spreadsheet_id": "1ZvTD7EapzjJbH3-ucMf46NHLz88oDh2GFlPfXXicdq8",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1ZvTD7EapzjJbH3-ucMf46NHLz88oDh2GFlPfXXicdq8/edit",
+      "status": "CONSOLIDATED_INTO_PILLAR",
+      "consolidated_into": "ID_PILLAR_0",
+      "consolidated_target_tab": "RAW_DATA_EthicalDilemmas",
+      "layer": "archived_silo",
+      "domain": "Pillar 0 Shadow Self / Hard Choices Ethical Dilemmas & Values Calibration",
+      "historical_rows_ingested": 0,
+      "scenario_columns_count": 7,
+      "master_bus_directory_row": 74,
+      "privacy_boundary": "STRICT_PILLAR_0_ONLY",
+      "consolidated_utc": "2026-11-28T02:18:00Z"
     }
   },
   "unmapped_discovered": [

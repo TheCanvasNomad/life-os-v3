@@ -2,9 +2,9 @@
   "workbook_key": "ID_PILLAR_0",
   "spreadsheet_id": "1dst5RTOgaIBr6EsXkuuqK5p18fSxnP3wUsn6gmhx-LU",
   "title": "\ud83c\udf11 Pillar_0_Shadow_Self",
-  "captured_utc": "2026-11-27T04:22:00Z",
-  "privacy_boundary": "STRICT_PILLAR_0_ONLY (Zero private reflections, fears, regrets, or qualitative prose exported)",
-  "tab_count": 15,
+  "captured_utc": "2026-11-28T02:18:00Z",
+  "privacy_boundary": "STRICT_PILLAR_0_ONLY",
+  "tab_count": 16,
   "tabs": [
     "DASHBOARD",
     "SELF_CODEX_PROFILE",
@@ -20,32 +20,171 @@
     "CONTEXT_IN",
     "SIGNALS_OUT",
     "IMPORTS",
-    "RAW_DATA_DukkhaReflection"
+    "RAW_DATA_DukkhaReflection",
+    "RAW_DATA_EthicalDilemmas"
   ],
-  "audit_errors_all_tabs": 0,
-  "open_loop_isolation_verified": true,
-  "dukkha_audit_summary": {
-    "logged_runs": 4,
-    "window": "2024-11-11 to 2024-12-01",
-    "composite_scores_pct": [
-      54.75,
-      58.0,
-      58.5,
-      52.5
+  "tab_gids": {
+    "DASHBOARD": 2072722388,
+    "SELF_CODEX_PROFILE": 2022554659,
+    "PERSONAL_GROWTH_AUDIT": 706888302,
+    "LIFE_AUDIT_SNAPSHOT": 136459057,
+    "REGRET_AUDIT_LOG": 1201028355,
+    "FEAR_&_INSECURITY_MATRIX": 2075587409,
+    "DATABASE": 485492251,
+    "CALCULATIONS": 1347227662,
+    "P0_CONFIG": 1648982482,
+    "LOOKER_SHADOW_METRICS": 1240334673,
+    "MODULE_META": 1349423200,
+    "CONTEXT_IN": 246517698,
+    "SIGNALS_OUT": 178587275,
+    "IMPORTS": 0,
+    "RAW_DATA_DukkhaReflection": 2084150327,
+    "RAW_DATA_EthicalDilemmas": 107018983
+  },
+  "ethical_dilemmas_layer": {
+    "tab": "RAW_DATA_EthicalDilemmas",
+    "headers": [
+      "Timestamp",
+      "School_Strike_Tradeoff",
+      "Outfit_Return_Integrity",
+      "Rhino_Sanctuary_Utilitarian",
+      "Car_Sale_Disclosure",
+      "Warden_Duty_Of_Care",
+      "Sick_Call_Coworker_Impact",
+      "Laundry_Coupon_Fairness",
+      "Dilemmas_Answered_Count",
+      "Primary_Ethical_Lens",
+      "Shadow_Rationalization_Flag"
     ],
-    "composite_avg_pct": 55.94,
-    "avoidance_runs": "4/4 (20% Non-Avoidance)",
-    "root_cause_insight_avg_pct": 85.0,
-    "status_signal": [
-      [
-        "P0_DUKKHA_AUDIT_STATUS",
-        "Pillar_0_Shadow_Self",
-        "\ud83e\uddd8",
-        "Pillar 0 / Dukkha Audit",
-        "ACTIVE (4 Runs | 55.94%)",
-        "55.94",
-        "ACTIVE"
-      ]
+    "logged_runs": 0,
+    "scenario_count": 7,
+    "privacy_boundary": "STRICT_PILLAR_0_ONLY"
+  },
+  "audit_errors_all_tabs": 0,
+  "known_auth_triggers": [],
+  "master_bus_audit_errors": 0,
+  "isolation_verified": {
+    "signals_out_values_unchanged": true,
+    "calculations_unchanged": true,
+    "looker_values_unchanged": true
+  },
+  "signals_out": [
+    [
+      "Signal_Key",
+      "Source_Brick",
+      "Glyph",
+      "Domain_Pillar",
+      "Raw_Value",
+      "Normalized_Score_0_100",
+      "State_Tag"
+    ],
+    [
+      "P0_WISDOM_SCORE",
+      "Pillar_0_Shadow_Self",
+      "\ud83c\udf11",
+      "Pillar 0 / I",
+      "66.7",
+      "66.7",
+      "LIVE"
+    ],
+    [
+      "P0_WISDOM_POINTS_TOTAL",
+      "Pillar_0_Shadow_Self",
+      "\ud83e\udd89",
+      "Pillar 0 / Wisdom",
+      "0",
+      "0",
+      "AWAITING_DATA"
+    ],
+    [
+      "P0_ANTIFRAGILITY_XP",
+      "Pillar_0_Shadow_Self",
+      "\u26a1",
+      "Pillar 0 / RCMC",
+      "0",
+      "0",
+      "AWAITING_DATA"
+    ],
+    [
+      "P0_UNINTEGRATED_SHADOWS",
+      "Pillar_0_Shadow_Self",
+      "\ud83d\udd0d",
+      "Pillar 0 / Loops",
+      "0",
+      "100",
+      "AWAITING_DATA"
+    ],
+    [
+      "P0_INTEGRATION_RATE_PCT",
+      "Pillar_0_Shadow_Self",
+      "\ud83d\udd04",
+      "Pillar 0 / Mastery",
+      "",
+      "",
+      "AWAITING_DATA"
+    ],
+    [
+      "P0_GRIP_INTEGRITY",
+      "Pillar_0_Shadow_Self",
+      "\ud83d\udde1\ufe0f",
+      "Pillar 0 / Grip",
+      "66.7",
+      "66.7",
+      "LIVE"
+    ],
+    [
+      "P0_SELF_CODEX_STATUS",
+      "Pillar_0_Shadow_Self",
+      "\ud83e\ude9e",
+      "Pillar 0 / Self-Codex",
+      "ACTIVE (26/28 Answered)",
+      "92.9",
+      "ACTIVE"
+    ],
+    [
+      "P0_GROWTH_AUDIT_STATUS",
+      "Pillar_0_Shadow_Self",
+      "\ud83c\udf31",
+      "Pillar 0 / Growth Audit",
+      "ACTIVE (47/47 Answered)",
+      "70",
+      "ACTIVE"
+    ],
+    [
+      "P0_LIFE_AUDIT_STATUS",
+      "Pillar_0_Shadow_Self",
+      "\ud83e\udded",
+      "Pillar 0 / Life Audit",
+      "ACTIVE (4 Runs | 27/27)",
+      "60",
+      "ACTIVE"
+    ],
+    [
+      "P0_REGRET_AUDIT_STATUS",
+      "Pillar_0_Shadow_Self",
+      "\ud83d\udd25",
+      "Pillar 0 / Regret Audit",
+      "ACTIVE (3 Entries | 5.69/10)",
+      "56.9",
+      "ACTIVE"
+    ],
+    [
+      "P0_FEAR_MATRIX_STATUS",
+      "Pillar_0_Shadow_Self",
+      "\ud83d\udc41\ufe0f",
+      "Pillar 0 / Fear Matrix",
+      "ACTIVE (1 Run | 11\u00d710/10)",
+      "66.6",
+      "ACTIVE"
+    ],
+    [
+      "P0_DUKKHA_AUDIT_STATUS",
+      "Pillar_0_Shadow_Self",
+      "\ud83e\uddd8",
+      "Pillar 0 / Dukkha Audit",
+      "ACTIVE (4 Runs | 55.94%)",
+      "55.94",
+      "ACTIVE"
     ]
-  }
+  ]
 }
