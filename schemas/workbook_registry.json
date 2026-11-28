@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-27T23:00:00Z",
+  "last_updated_utc": "2026-11-28T02:05:00Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2719,6 +2719,8 @@
         "SKILL_TREE",
         "FLOW_LOG",
         "DATABASE",
+        "LEGACY_IKIGAI_BASELINE",
+        "CAREER_REFLECTIONS_LOG",
         "CALCULATIONS",
         "P4_CONFIG",
         "IMPORTS",
@@ -2727,7 +2729,7 @@
         "SIGNALS_OUT",
         "LOOKER_SKILLS_&_FLOW"
       ],
-      "tab_count": 11,
+      "tab_count": 13,
       "last_snapshot_utc": "2026-11-25T07:27:02Z",
       "snapshot_file": "schemas/live_snapshots/ID_PILLAR_4.json",
       "looker_tabs": [
@@ -2756,7 +2758,10 @@
             "Multiplier"
           ]
         }
-      ]
+      ],
+      "career_reflections_tab": "CAREER_REFLECTIONS_LOG",
+      "career_reflections_gid": 1370152687,
+      "last_audited_utc": "2026-11-28T02:05:00Z"
     },
     "ID_RAW_CAREER_REVIEW": {
       "title": "RAW_DATA_CareerReview",
@@ -3800,6 +3805,27 @@
       "pyramid_gid": 1480675174,
       "levels_chart_tab": "\ud83d\udcdc LEVELS_OF_CONSCIOUSNESS_CHART",
       "levels_chart_gid": 1386875903
+    },
+    "LEGACY_CAREER_REFLECTIONS": {
+      "title": "ARCHIVE_Career (Responses)",
+      "original_title": "Career (Responses)",
+      "spreadsheet_id": "1Iy28AcX4oD4PUbVEwDggPSV_muTFt02X1NNqJgTovpc",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1Iy28AcX4oD4PUbVEwDggPSV_muTFt02X1NNqJgTovpc/edit",
+      "status": "CONSOLIDATED_INTO_PILLAR",
+      "consolidated_into": "ID_PILLAR_4",
+      "consolidated_target_tab": "CAREER_REFLECTIONS_LOG",
+      "layer": "archived_silo",
+      "domain": "Pillar 4 Skills & Mission / Career Reflections & Personality-in-Work",
+      "linked_forms": [
+        {
+          "name": "Career",
+          "form_id": "1w3GKpq54ScKEBTUS3HS7r8vvs9_lbiTeUbLm3VjgQfM"
+        }
+      ],
+      "historical_rows_ingested": 0,
+      "master_bus_directory_row": 71,
+      "privacy_boundary": "STRICT_PILLAR_4_PRIVATE",
+      "consolidated_utc": "2026-11-28T02:05:00Z"
     }
   },
   "unmapped_discovered": [

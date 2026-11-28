@@ -2,15 +2,16 @@
   "workbook_key": "ID_PILLAR_4",
   "spreadsheet_id": "1PHTTv1Qpdy5JAyLarOaXYAIsNIuAk8YFBw9GqvIslT0",
   "title": "\ud83d\udee0\ufe0f Pillar_4_Skills_Mission",
-  "captured_utc": "2026-11-27T04:26:00Z",
-  "privacy_boundary": "STRICT_ZERO_PII_ZERO_RAW_PROSE",
-  "tab_count": 12,
+  "captured_utc": "2026-11-28T02:05:00Z",
+  "privacy_boundary": "STRICT_ZERO_PII_ZERO_PROSE",
+  "tab_count": 13,
   "tabs": [
     "DASHBOARD",
     "SKILL_TREE",
     "FLOW_LOG",
     "DATABASE",
     "LEGACY_IKIGAI_BASELINE",
+    "CAREER_REFLECTIONS_LOG",
     "CALCULATIONS",
     "P4_CONFIG",
     "IMPORTS",
@@ -19,102 +20,177 @@
     "SIGNALS_OUT",
     "LOOKER_SKILLS_&_FLOW"
   ],
+  "tab_gids": {
+    "DASHBOARD": 1242601151,
+    "SKILL_TREE": 997210616,
+    "FLOW_LOG": 1911264269,
+    "DATABASE": 950206083,
+    "LEGACY_IKIGAI_BASELINE": 1129818448,
+    "CAREER_REFLECTIONS_LOG": 1370152687,
+    "CALCULATIONS": 2036374665,
+    "P4_CONFIG": 107638542,
+    "IMPORTS": 1933868803,
+    "MODULE_META": 1123766299,
+    "CONTEXT_IN": 1660512003,
+    "SIGNALS_OUT": 1302509389,
+    "LOOKER_SKILLS_&_FLOW": 994773513
+  },
+  "career_reflections_tab": "CAREER_REFLECTIONS_LOG",
+  "career_reflections_headers": [
+    "Timestamp",
+    "Career_Path_Dream_Job",
+    "Career_Trajectory",
+    "Mistakes_DoOvers",
+    "Best_Worst_Job",
+    "Ten_Year_Goals_Shift",
+    "First_Job_Advice_By_Type",
+    "Helpful_Problematic_Traits",
+    "Personality_Change_Target",
+    "Entry_Status",
+    "Has_10Yr_Goal_Note",
+    "Has_Trait_Note",
+    "Fields_Completed"
+  ],
+  "career_reflections_logged_count": 0,
+  "consolidated_silos": [
+    "LEGACY_CAREER_EDU_2021",
+    "LEGACY_CAREER_REFLECTIONS"
+  ],
   "audit_errors_all_tabs": 0,
-  "quarterly_and_skill_xp_isolation_verified": true,
-  "legacy_2021_ikigai_baseline": [
+  "master_bus_audit_errors": 0,
+  "isolation_verified": {
+    "signals_out_values_unchanged": true,
+    "calculations_unchanged": true,
+    "looker_unchanged": true
+  },
+  "signals_out": [
     [
-      "Record_Tag",
-      "Ikigai_Dimension",
-      "2021_Locked_Anchor",
-      "Provenance_Source",
-      "Quarterly_Counter_Status"
+      "Signal_Key",
+      "Source_Brick",
+      "Glyph",
+      "Domain_Pillar",
+      "Raw_Value",
+      "Normalized_Score_0_100",
+      "State_Tag",
+      "Last_Updated"
     ],
     [
-      "LEGACY_2021_IKIGAI",
-      "Baseline Date",
-      "2021-11-30",
-      "Your career and education (Responses) [2021-11-30 19:17:32.286]",
-      "EXCLUDED (Read-Only Seed)"
+      "P4_SKILLS_BASE_SCORE",
+      "Pillar_4_Skills_Mission",
+      "\ud83d\udee0\ufe0f",
+      "Pillar 4 / ITS",
+      "",
+      "",
+      "UNLOGGED",
+      "11/27/2026 21:05:07"
     ],
     [
-      "LEGACY_2021_IKIGAI",
-      "Core Differentiator",
-      "The need to be different",
-      "Your career and education (Responses)",
-      "EXCLUDED (Read-Only Seed)"
+      "P4_IKIGAI_SCORE",
+      "Pillar_4_Skills_Mission",
+      "\ud83e\udded",
+      "Pillar 4 / I",
+      "",
+      "",
+      "UNLOGGED",
+      "11/27/2026 21:05:07"
     ],
     [
-      "LEGACY_2021_IKIGAI",
-      "Mastery Strength",
-      "Being the brains (Analytical & Strategic Synthesis)",
-      "Your career and education (Responses)",
-      "EXCLUDED (Read-Only Seed)"
+      "P4_AVG_SKILL_LEVEL",
+      "Pillar_4_Skills_Mission",
+      "\ud83d\udcc8",
+      "Pillar 4 / IT",
+      "0",
+      "0",
+      "LVL 0",
+      "11/27/2026 21:05:07"
     ],
     [
-      "LEGACY_2021_IKIGAI",
-      "Passion / Freedom Anchor",
-      "Travel, novelty & living abroad",
-      "Your career and education (Responses)",
-      "EXCLUDED (Read-Only Seed)"
+      "P4_PERSPECTIVE_TAKING_LVL",
+      "Pillar_4_Skills_Mission",
+      "\ud83d\udc41\ufe0f",
+      "Meta-Skill / WE",
+      "0",
+      "0",
+      "LVL 0",
+      "11/27/2026 21:05:07"
     ],
     [
-      "LEGACY_2021_IKIGAI",
-      "2021 Skill Seeds",
-      "Spanish & Technical analysis in chart reading",
-      "Your career and education (Responses)",
-      "EXCLUDED (Read-Only Seed)"
-    ]
-  ],
-  "legacy_2021_continuity": [
-    [
-      "Continuity_Vector",
-      "2021 Legacy Seed",
-      "Live Pillar 4 State",
-      "Continuity Check",
-      "Isolation Guard"
+      "P4_PSYOP_RECOGNITION_LVL",
+      "Pillar_4_Skills_Mission",
+      "\ud83d\udee1\ufe0f",
+      "Meta-Skill / WE",
+      "0",
+      "0",
+      "LVL 0",
+      "11/27/2026 21:05:07"
     ],
     [
-      "Quarterly Ikigai Fulfillment",
-      "Qualitative Seed Only (2021-11-30)",
-      "Awaiting Quarterly Form (UNLOGGED)",
-      "Quarterly Ikigai counter cleanly isolated from 2021 baseline",
-      "CONFIRMED_ISOLATED"
+      "P4_FLOW_SESSION_SCORE",
+      "Pillar_4_Skills_Mission",
+      "\ud83c\udf0a",
+      "Pillar 4 / IT",
+      "58.6",
+      "58.6",
+      "58.6/100 FLOW",
+      "11/27/2026 21:05:07"
     ],
     [
-      "Skill Tree & Meta-Skills XP",
-      "2 Seed Skills (Spanish + Chart TA)",
-      "Avg Lvl 0 | XP 0 across 21 nodes",
-      "Analytical & Strategic Synthesis evolved into 21-node Sovereign Skill Tree",
-      "SKILL_XP_UNALTERED"
+      "P4_ENERGY_CONTROL_LVL",
+      "Pillar_4_Skills_Mission",
+      "\u26a1",
+      "Meta-Skill / Esoteric",
+      "0",
+      "0",
+      "DEVELOPING",
+      "11/27/2026 21:05:07"
     ],
     [
-      "Career & Flow Execution",
-      "Travel / Freedom & Differentiation Anchor",
-      "Bridged Milestones: 37 | Flow Score: 58.6/100",
-      "Travel/Freedom + 'Being the brains' anchor persists across maritime career & LifeOS",
-      "STRICT_ZERO_PII_BOUNDARY"
-    ]
-  ],
-  "dashboard_2021_seed_strip": [
-    [
-      "Baseline Date",
-      "Core Differentiator",
-      "Mastery Strength",
-      "Passion / Freedom Anchor",
-      "2021 Skill Seeds",
-      "Live Career / Flow",
-      "Quarterly & XP Guard",
-      "Privacy Boundary"
+      "P4_ESOTERIC_KNOWLEDGE_LVL",
+      "Pillar_4_Skills_Mission",
+      "\ud83d\udcda",
+      "Meta-Skill / Esoteric",
+      "0",
+      "0",
+      "STUDYING",
+      "11/27/2026 21:05:07"
     ],
     [
-      "2021-11-30",
-      "The need to be different",
-      "Being the brains (Analytical & Strategic Synthesis)",
-      "Travel, novelty & living abroad",
-      "Spanish & Technical analysis in chart reading",
-      "37 Milestones \u2022 Flow 58.6",
-      "EXCLUDED_FROM_QUARTERLY_XP",
-      "STRICT_ZERO_PII_ZERO_PROSE"
+      "P4_PROCRASTINATION_FLAG",
+      "Pillar_4_Skills_Mission",
+      "\ud83d\udea8",
+      "Pillar 4 / Governance",
+      "CLEAR",
+      "100",
+      "EXECUTION_BALANCED",
+      "11/27/2026 21:05:07"
+    ],
+    [
+      "P4_SKILL_XP",
+      "Pillar_4_Skills_Mission",
+      "\ud83d\udee0\ufe0f",
+      "Pillar 4 / XP",
+      "0",
+      "",
+      "UNLOGGED"
+    ],
+    [
+      "P4_SHIPPED_DELIVERABLES",
+      "Pillar_4_Skills_Mission",
+      "\ud83d\udce6",
+      "Pillar 4 / Crucible",
+      "0",
+      "",
+      "PENDING"
+    ],
+    [
+      "P4_FLOW_STATE_SCORE",
+      "Pillar_4_Skills_Mission",
+      "\ud83c\udf0a",
+      "Pillar 4 / Flow Matrix",
+      "58.6",
+      "58.6",
+      "Boredom (14.3% FLOW)",
+      "2026-11-27 21:05"
     ]
   ]
 }
