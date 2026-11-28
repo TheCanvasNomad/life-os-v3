@@ -1,275 +1,157 @@
 {
-  "registry_key": "ID_PILLAR_5",
-  "title": "\ud83c\udfc6 Pillar_5_Experience_Legacy",
+  "workbook_key": "ID_PILLAR_5",
   "spreadsheet_id": "1AdMP-VKzTPNbSSTUoLrbqAjtBdYlf4mzLYwyWbaUrQw",
-  "snapshot_utc": "2026-11-24T16:38:33Z",
-  "pii_policy": "ZERO_PII_HEADERS_ONLY",
-  "tab_count": 12,
+  "title": "\ud83c\udfc6 Pillar_5_Experience_Legacy",
+  "captured_utc": "2026-11-28T02:14:00Z",
+  "privacy_boundary": "STRICT_ZERO_PII_ZERO_PROSE",
+  "tab_count": 13,
   "tabs": [
-    {
-      "title": "DASHBOARD",
-      "sheet_id": 592698670,
-      "index": 0,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 66,
-      "col_count": 12,
-      "headers_row_1": [
-        "\ud83c\udfc6 LIFEOS v3.0 \u2014 PILLAR 5: EXPERIENCE, QUESTS & LEGACY COMMAND HUD"
-      ]
-    },
-    {
-      "title": "DATABASE",
-      "sheet_id": 2146077944,
-      "index": 1,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 500,
-      "col_count": 25,
-      "headers_row_1": [
-        "Timestamp",
-        "Quest Name",
-        "Description",
-        "Primary Pillar",
-        "Quest Tier",
-        "Parent Quest",
-        "Target Completion Date",
-        "CORE Values",
-        "Importance (1-10)",
-        "Urgency (1-10)",
-        "Bloom's Cognitive Level",
-        "Time Benchmark (Hours)",
-        "Actual Hours",
-        "Status",
-        "Special Flags",
-        "Calendar_Event_ID",
-        "Tier_Normalized",
-        "Eisenhower_Quadrant",
-        "Tier_Base_XP",
-        "Bloom_Multiplier",
-        "Temporal_Compression_XP",
-        "Paradox_Multiplier",
-        "Total_Quest_XP",
-        "Potential_XP"
-      ]
-    },
-    {
-      "title": "CALCULATIONS",
-      "sheet_id": 1297186809,
-      "index": 2,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 40,
-      "col_count": 10,
-      "headers_row_1": [
-        "Base_Score (Formula Anchor)",
-        "EXPERIENCE_BASE_SCORE (0-100)",
-        "Formula: (Epic_Avg * 100 * 0.60) + (Volume_Score * 0.40)"
-      ]
-    },
-    {
-      "title": "HEROS_JOURNEY",
-      "sheet_id": 883984997,
-      "index": 3,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 30,
-      "col_count": 8,
-      "headers_row_1": [
-        "\u2694\ufe0f LIFEOS v3.0 \u2014 12-STAGE HERO'S JOURNEY GATE TRACKER"
-      ]
-    },
-    {
-      "title": "ANNUAL_REVIEW_DATA",
-      "sheet_id": 1549556394,
-      "index": 4,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 100,
-      "col_count": 10,
-      "headers_row_1": [
-        "Timestamp",
-        "Review Date",
-        "1-Year Vision",
-        "5-Year Vision",
-        "10-Year Vision",
-        "True Will Declaration",
-        "True Will Alignment (1-10)",
-        "Foundational Life Philosophy",
-        "Dominant AQAL / Spiral Dynamics Altitude"
-      ]
-    },
-    {
-      "title": "P5_CONFIG",
-      "sheet_id": 408873780,
-      "index": 5,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 45,
-      "col_count": 10,
-      "headers_row_1": [
-        "\u2699\ufe0f P5_CONFIG // PILLAR 5 TUNABLE PHYSICS, XP MULTIPLIERS, LPD LADDER & 1-CLICK AUTH ANCHORS"
-      ]
-    },
-    {
-      "title": "IMPORTS",
-      "sheet_id": 670184429,
-      "index": 6,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 520,
-      "col_count": 65,
-      "headers_row_1": [
-        "Timestamp",
-        "Quest Name",
-        "Description",
-        "Primary Pillar",
-        "Quest Tier",
-        "Parent Quest",
-        "Target Completion Date",
-        "CORE Values",
-        "Importance (1-10)",
-        "Urgency (1-10)",
-        "Bloom's Cognitive Level",
-        "Time Benchmark (Hours)",
-        "Actual Hours",
-        "Status",
-        "Special Flags",
-        "Calendar_Event_ID",
-        "",
-        "",
-        "Timestamp",
-        "Review Date",
-        "1-Year Vision",
-        "5-Year Vision",
-        "10-Year Vision",
-        "True Will Declaration",
-        "True Will Alignment (1-10)",
-        "Foundational Life Philosophy",
-        "Timestamp",
-        "Quest Name",
-        "Description",
-        "Primary Pillar",
-        "Quest Tier",
-        "Parent Quest",
-        "Target Completion Date",
-        "CORE Values",
-        "Importance (1-10)",
-        "Urgency (1-10)",
-        "Bloom's Cognitive Level",
-        "Time Benchmark (Hours)",
-        "Actual Hours",
-        "Status",
-        "Special Flags",
-        "Calendar_Event_ID"
-      ]
-    },
-    {
-      "title": "MODULE_META",
-      "sheet_id": 1331235757,
-      "index": 7,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Field",
-        "Value",
-        "Notes"
-      ]
-    },
-    {
-      "title": "CONTEXT_IN",
-      "sheet_id": 1635602658,
-      "index": 8,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Signal_Key",
-        "Live_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Freshness_Status",
-        "Hub_Auth_Trigger"
-      ]
-    },
-    {
-      "title": "SIGNALS_OUT",
-      "sheet_id": 97457630,
-      "index": 9,
-      "hidden": true,
-      "sheet_type": "GRID",
-      "row_count": 1000,
-      "col_count": 26,
-      "headers_row_1": [
-        "Signal_Key",
-        "Source_Brick",
-        "Glyph",
-        "Domain_Pillar",
-        "Raw_Value",
-        "Normalized_Score_0_100",
-        "State_Tag",
-        "Last_Updated",
-        "TTL_Hours",
-        "Notes"
-      ]
-    },
-    {
-      "title": "LOOKER_QUESTS_&_EPICS",
-      "sheet_id": 1619343986,
-      "index": 10,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 300,
-      "col_count": 15,
-      "headers_row_1": [
-        "Quest_Date",
-        "Quest_Name",
-        "Primary_Pillar",
-        "Quest_Tier",
-        "Target_Date",
-        "Importance",
-        "Urgency",
-        "Blooms_Level",
-        "Benchmark_Hours",
-        "Actual_Hours",
-        "Status",
-        "P5_Bucket_List_Clarity",
-        "P5_Bucket_List_Longshot_Pct",
-        "P5_Bucket_List_Waiting_Flag"
-      ]
-    },
-    {
-      "title": "CLEAN_BUCKET_LIST_AUDIT",
-      "sheet_id": 1593698913,
-      "index": 11,
-      "hidden": false,
-      "sheet_type": "GRID",
-      "row_count": 100,
-      "col_count": 20,
-      "headers_row_1": [
-        "Timestamp",
-        "Written_Down?",
-        "Approx_Item_Count",
-        "Addition_Frequency",
-        "Last_Checked_Off",
-        "Completed_Share_Raw",
-        "Longshots_Share_Raw",
-        "Multiple_Domain_Lists?",
-        "Age_Goals_Set?",
-        "Change_If_Unlimited_Resources?",
-        "Requires_Others?",
-        "Clarity_Definition_1",
-        "Clarity_Definition_2",
-        "Expected_Completion_Share",
-        "Content_With_Progress?",
-        "Waiting_To_Work?",
-        "Clarity_Score_0_100",
-        "Longshot_Pct_0_100",
-        "Waiting_Friction_Flag"
-      ]
-    }
+    "DASHBOARD",
+    "DATABASE",
+    "CALCULATIONS",
+    "HEROS_JOURNEY",
+    "ANNUAL_REVIEW_DATA",
+    "LEGACY_LIFE_GOALS_ARCHIVE",
+    "P5_CONFIG",
+    "IMPORTS",
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT",
+    "LOOKER_QUESTS_&_EPICS",
+    "CLEAN_BUCKET_LIST_AUDIT"
+  ],
+  "tab_gids": {
+    "DASHBOARD": 592698670,
+    "DATABASE": 2146077944,
+    "CALCULATIONS": 1297186809,
+    "HEROS_JOURNEY": 883984997,
+    "ANNUAL_REVIEW_DATA": 1549556394,
+    "LEGACY_LIFE_GOALS_ARCHIVE": 2089803383,
+    "P5_CONFIG": 408873780,
+    "IMPORTS": 670184429,
+    "MODULE_META": 1331235757,
+    "CONTEXT_IN": 1635602658,
+    "SIGNALS_OUT": 97457630,
+    "LOOKER_QUESTS_&_EPICS": 1619343986,
+    "CLEAN_BUCKET_LIST_AUDIT": 1593698913
+  },
+  "legacy_life_goals_archive": {
+    "tab": "LEGACY_LIFE_GOALS_ARCHIVE",
+    "headers": [
+      "Achievement_Date",
+      "Milestone_Label",
+      "Status_Flag",
+      "Domain_Tag",
+      "Year_Logged"
+    ],
+    "accomplished_count": 77,
+    "remaining_count": 171,
+    "total_rows": 248,
+    "date_span": "1989-03-04 to 2023-12-04",
+    "individual_milestones_exported": false
+  },
+  "consolidated_silos": [
+    "RAW_DATA_BucketListAudit",
+    "LEGACY_LIFE_GOALS"
+  ],
+  "audit_errors_all_tabs": 0,
+  "known_auth_triggers": [],
+  "master_bus_audit_errors": 0,
+  "isolation_verified": {
+    "signals_out_values_unchanged": true,
+    "calculations_unchanged": true,
+    "looker_unchanged": true
+  },
+  "signals_out": [
+    [
+      "Signal_Key",
+      "Source_Brick",
+      "Glyph",
+      "Domain_Pillar",
+      "Raw_Value",
+      "Normalized_Score_0_100",
+      "State_Tag"
+    ],
+    [
+      "P5_EXPERIENCE_BASE_SCORE",
+      "Pillar_5_Experience_Legacy",
+      "\ud83c\udfc6",
+      "Pillar 5 / Legacy",
+      "19.5",
+      "19.5",
+      "BUILDING"
+    ],
+    [
+      "P5_EPIC_QUEST_COMPLETION_PCT",
+      "Pillar_5_Experience_Legacy",
+      "\ud83d\ude80",
+      "Pillar 5 / Epics",
+      "12.5",
+      "12.5",
+      "12.5% EPIC_PROGRESS"
+    ],
+    [
+      "P5_ACTIVE_EPICS_COUNT",
+      "Pillar_5_Experience_Legacy",
+      "\u2694\ufe0f",
+      "Pillar 5 / Epics",
+      "2",
+      "50",
+      "2 ACTIVE_EPICS"
+    ],
+    [
+      "P5_BLUEPRINT_PROGRESS_PCT",
+      "Pillar_5_Experience_Legacy",
+      "\ud83d\udcd0",
+      "Pillar 5 / Blueprints",
+      "0",
+      "0",
+      "0% BLUEPRINTS"
+    ],
+    [
+      "P5_TOTAL_QUEST_XP",
+      "Pillar_5_Experience_Legacy",
+      "\u2728",
+      "Pillar 5 / XP",
+      "35",
+      "0.1",
+      "35 XP"
+    ],
+    [
+      "P5_LPD_GLOBAL_MULT",
+      "Pillar_5_Experience_Legacy",
+      "\ud83c\udf00",
+      "Pillar 5 / LPD",
+      "1",
+      "0",
+      "1.00x Stage 1: Impulsive"
+    ],
+    [
+      "P5_BUCKET_LIST_CLARITY_SCORE",
+      "Pillar_5_Experience_Legacy",
+      "\ud83c\udfaf",
+      "Pillar 5 / Bucket Strategy",
+      "0",
+      "0",
+      "VAGUE"
+    ],
+    [
+      "P5_BUCKET_LIST_LONGSHOT_PCT",
+      "Pillar_5_Experience_Legacy",
+      "\ud83c\udf20",
+      "Pillar 5 / Bucket Strategy",
+      "",
+      "",
+      "AWAITING_AUDIT"
+    ],
+    [
+      "P5_BUCKET_LIST_WAITING_FLAG",
+      "Pillar_5_Experience_Legacy",
+      "\u23f3",
+      "Pillar 5 / Shadow Trigger",
+      "",
+      "",
+      "AWAITING_AUDIT"
+    ]
   ]
 }

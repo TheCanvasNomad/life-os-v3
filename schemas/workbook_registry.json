@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-28T02:10:00Z",
+  "last_updated_utc": "2026-11-28T02:14:00Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -2646,6 +2646,7 @@
         "CALCULATIONS",
         "HEROS_JOURNEY",
         "ANNUAL_REVIEW_DATA",
+        "LEGACY_LIFE_GOALS_ARCHIVE",
         "P5_CONFIG",
         "IMPORTS",
         "MODULE_META",
@@ -2654,12 +2655,15 @@
         "LOOKER_QUESTS_&_EPICS",
         "CLEAN_BUCKET_LIST_AUDIT"
       ],
-      "tab_count": 12,
+      "tab_count": 13,
       "last_snapshot_utc": "2026-11-24T16:38:33Z",
       "snapshot_file": "schemas/live_snapshots/ID_PILLAR_5.json",
       "looker_tabs": [
         "LOOKER_QUESTS_&_EPICS"
-      ]
+      ],
+      "legacy_life_goals_tab": "LEGACY_LIFE_GOALS_ARCHIVE",
+      "legacy_life_goals_gid": 2089803383,
+      "last_audited_utc": "2026-11-28T02:14:00Z"
     },
     "ID_RAW_QUESTS": {
       "title": "RAW_DATA_Quests",
@@ -3856,6 +3860,30 @@
       "master_bus_directory_row": 72,
       "privacy_boundary": "STRICT_ZERO_PII_ZERO_PROSE",
       "consolidated_utc": "2026-11-28T02:10:00Z"
+    },
+    "LEGACY_LIFE_GOALS": {
+      "title": "ARCHIVE_Life Goals (Responses)",
+      "original_title": "Life Goals (Responses)",
+      "spreadsheet_id": "10xsb0HyMphmRee8MPwlFClFMsUzs7VV3Qrrk2dgjV9U",
+      "drive_url": "https://docs.google.com/spreadsheets/d/10xsb0HyMphmRee8MPwlFClFMsUzs7VV3Qrrk2dgjV9U/edit",
+      "status": "CONSOLIDATED_INTO_PILLAR",
+      "consolidated_into": "ID_PILLAR_5",
+      "consolidated_target_tab": "LEGACY_LIFE_GOALS_ARCHIVE",
+      "layer": "archived_silo",
+      "domain": "Pillar 5 Experience & Legacy / Historical Life Goals Archive",
+      "linked_forms": [
+        {
+          "name": "Life Goals",
+          "form_id": "1BC6izeMDMSfAgwXp0DfEyXX9pwsyIjSWRC4s4kNUG9Y"
+        }
+      ],
+      "accomplished_count": 77,
+      "remaining_count": 171,
+      "total_archived_rows": 248,
+      "date_span": "1989-03-04 to 2023-12-04",
+      "master_bus_directory_row": 73,
+      "privacy_boundary": "STRICT_PILLAR_5_PRIVATE",
+      "consolidated_utc": "2026-11-28T02:14:00Z"
     }
   },
   "unmapped_discovered": [
