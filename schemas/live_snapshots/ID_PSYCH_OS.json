@@ -1,0 +1,238 @@
+{
+  "workbook_key": "ID_PSYCH_OS",
+  "spreadsheet_id": "1dqYPg3WraSnLk2EWAwqJmwWcSmjpvhr0p9UxNKnkez8",
+  "title": "\ud83e\udde0 Psych_OS_Brick",
+  "captured_utc": "2026-11-28T04:02:00Z",
+  "privacy_boundary": "STRICT_ZERO_PII",
+  "tab_count": 7,
+  "tabs": [
+    "\ud83e\udde0 PSYCH_HUD",
+    "PSYCH_OS_ENGINE",
+    "LOOKER_PSYCH",
+    "MODULE_META",
+    "CONTEXT_IN",
+    "SIGNALS_OUT",
+    "PSYCH_OS_INGEST"
+  ],
+  "tab_gids": {
+    "\ud83e\udde0 PSYCH_HUD": 0,
+    "PSYCH_OS_ENGINE": 252015604,
+    "LOOKER_PSYCH": 1821965738,
+    "MODULE_META": 302953600,
+    "CONTEXT_IN": 628239905,
+    "SIGNALS_OUT": 1459918816,
+    "PSYCH_OS_INGEST": 1567975392
+  },
+  "looker_tab": "LOOKER_PSYCH",
+  "bound_script": "scripts/gas/ID_PSYCH_OS.gs",
+  "engine_headers": [
+    "Date_Key",
+    "Bio_Readiness",
+    "MoC_Mean",
+    "Exec_Rate",
+    "Analysis_Load",
+    "Social_Friction",
+    "Somatic_State",
+    "Primary_Pillar",
+    "Diagnostic_Flag",
+    "Chassis_Modifier",
+    "Recommended_Protocol",
+    "Follow_Through_Status"
+  ],
+  "hub_module_registry_row": 47,
+  "hub_signal_bus_rows": {
+    "PSYCH_ACTIVE_PILLAR": 313,
+    "PSYCH_SOMATIC_STATE": 314,
+    "PSYCH_DIAGNOSTIC_FLAG": 315,
+    "PSYCH_EXEC_INTEGRITY": 316
+  },
+  "master_bus_directory_row": 78,
+  "audit_errors_all_tabs": 0,
+  "expected_auth_trigger": [
+    [
+      "CONTEXT_IN",
+      "F2",
+      "#REF!"
+    ]
+  ],
+  "signals_out": [
+    [
+      "Signal_Key",
+      "Raw_Summary",
+      "Normalized_Score_0_100",
+      "State_Tag",
+      "Last_Updated"
+    ],
+    [
+      "PSYCH_ACTIVE_PILLAR",
+      "Awaiting Hub Auth",
+      "",
+      "AWAITING_AUTH"
+    ],
+    [
+      "PSYCH_SOMATIC_STATE",
+      "Awaiting Hub Auth",
+      "",
+      "AWAITING_AUTH"
+    ],
+    [
+      "PSYCH_DIAGNOSTIC_FLAG",
+      "Awaiting Hub Auth",
+      "",
+      "AWAITING_AUTH"
+    ],
+    [
+      "PSYCH_EXEC_INTEGRITY",
+      "Awaiting Hub Auth",
+      "",
+      "AWAITING_AUTH"
+    ]
+  ],
+  "looker_psych_rows": [
+    [
+      "Record_Type",
+      "Metric_Key",
+      "Label",
+      "Value_Numeric",
+      "Value_Text",
+      "Share_Pct",
+      "Status_Tag",
+      "Last_Updated"
+    ],
+    [
+      "PILLAR_COUNT_5",
+      "PILLAR_1",
+      "1. Unconscious",
+      "0",
+      "AWAITING_AUTH",
+      "",
+      "AWAITING_AUTH"
+    ],
+    [
+      "PILLAR_COUNT_5",
+      "PILLAR_2",
+      "2. Cognitive & Emotion",
+      "0",
+      "AWAITING_AUTH",
+      "",
+      "AWAITING_AUTH"
+    ],
+    [
+      "PILLAR_COUNT_5",
+      "PILLAR_3",
+      "3. Personality & Identity",
+      "0",
+      "AWAITING_AUTH",
+      "",
+      "AWAITING_AUTH"
+    ],
+    [
+      "PILLAR_COUNT_5",
+      "PILLAR_4",
+      "4. Social Dynamics",
+      "0",
+      "AWAITING_AUTH",
+      "",
+      "AWAITING_AUTH"
+    ],
+    [
+      "PILLAR_COUNT_5",
+      "PILLAR_5",
+      "5. Behavioral Change",
+      "0",
+      "AWAITING_AUTH",
+      "",
+      "AWAITING_AUTH"
+    ],
+    [
+      "SOMATIC_STATE_4",
+      "VENTRAL_VAGAL",
+      "Ventral Vagal (Engaged)",
+      "0",
+      "AWAITING_AUTH",
+      "",
+      "VENTRAL_VAGAL"
+    ],
+    [
+      "SOMATIC_STATE_4",
+      "SYMPATHETIC",
+      "Sympathetic / Social Threat",
+      "0",
+      "AWAITING_AUTH",
+      "",
+      "SYMPATHETIC"
+    ],
+    [
+      "SOMATIC_STATE_4",
+      "FUNCTIONAL_FREEZE",
+      "Functional Freeze (Dorsal/Analytical)",
+      "0",
+      "AWAITING_AUTH",
+      "",
+      "FUNCTIONAL_FREEZE"
+    ],
+    [
+      "SOMATIC_STATE_4",
+      "RECOVERY_DEFICIT",
+      "Physiological Recovery Deficit",
+      "0",
+      "AWAITING_AUTH",
+      "",
+      "RECOVERY_DEFICIT"
+    ],
+    [
+      "DIAGNOSTIC_FLAG_4",
+      "ALIGNED_EXECUTION",
+      "Aligned Execution",
+      "0",
+      "AWAITING_AUTH",
+      "",
+      "ALIGNED_EXECUTION"
+    ],
+    [
+      "DIAGNOSTIC_FLAG_4",
+      "FAKE_PROGRESS_LOOP",
+      "Fake Progress Loop",
+      "0",
+      "AWAITING_AUTH",
+      "",
+      "FAKE_PROGRESS_LOOP"
+    ],
+    [
+      "DIAGNOSTIC_FLAG_4",
+      "THREAT_REACTIVITY",
+      "Threat Reactivity Loop",
+      "0",
+      "AWAITING_AUTH",
+      "",
+      "THREAT_REACTIVITY"
+    ],
+    [
+      "DIAGNOSTIC_FLAG_4",
+      "BIO_BRAKE_REQUIRED",
+      "Bio-Brake Required",
+      "0",
+      "AWAITING_AUTH",
+      "",
+      "BIO_BRAKE_REQUIRED"
+    ],
+    [
+      "INTEGRITY_KPI",
+      "EXECUTION_INTEGRITY_INDEX_7D",
+      "Rolling 7-Day Execution Integrity Index (%)",
+      "",
+      "Awaiting Hub Auth",
+      "",
+      "AWAITING_AUTH"
+    ],
+    [
+      "INTEGRITY_KPI",
+      "FAKE_PROGRESS_LOOP_RATE",
+      "Fake Progress Loop Share (%)",
+      "",
+      "0 Days Flagged",
+      "",
+      "AWAITING_AUTH"
+    ]
+  ]
+}

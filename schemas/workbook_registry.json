@@ -2,7 +2,7 @@
   "schema_version": "1.2.0",
   "system": "LifeOS-v3",
   "policy": "MANDATORY READ BEFORE CREATING OR MODIFYING ANY GOOGLE SHEET OR APPS SCRIPT PROJECT. Never create duplicate workbooks when a matching registry entry exists.",
-  "last_updated_utc": "2026-11-28T03:02:00Z",
+  "last_updated_utc": "2026-11-28T04:02:00Z",
   "snapshots_dir": "schemas/live_snapshots",
   "workbooks": {
     "ID_MBTI": {
@@ -4015,6 +4015,70 @@
       },
       "master_bus_directory_row": 77,
       "consolidated_utc": "2026-11-28T03:02:00Z"
+    },
+    "ID_PSYCH_OS": {
+      "title": "\ud83e\udde0 Psych_OS_Brick",
+      "spreadsheet_id": "1dqYPg3WraSnLk2EWAwqJmwWcSmjpvhr0p9UxNKnkez8",
+      "drive_url": "https://docs.google.com/spreadsheets/d/1dqYPg3WraSnLk2EWAwqJmwWcSmjpvhr0p9UxNKnkez8/edit",
+      "status": "ACTIVE",
+      "layer": "brick",
+      "domain": "Derived Diagnostic / Polyvagal Autonomic State, 5 Psychology Pillars & Execution Integrity",
+      "primary_tab": "\ud83e\udde0 PSYCH_HUD",
+      "landing_tab": "\ud83e\udde0 PSYCH_HUD",
+      "looker_tab": "LOOKER_PSYCH",
+      "live_tabs": [
+        "\ud83e\udde0 PSYCH_HUD",
+        "PSYCH_OS_ENGINE",
+        "LOOKER_PSYCH",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT",
+        "PSYCH_OS_INGEST"
+      ],
+      "all_tabs": [
+        "\ud83e\udde0 PSYCH_HUD",
+        "PSYCH_OS_ENGINE",
+        "LOOKER_PSYCH",
+        "MODULE_META",
+        "CONTEXT_IN",
+        "SIGNALS_OUT",
+        "PSYCH_OS_INGEST"
+      ],
+      "tab_count": 7,
+      "bound_script": "scripts/gas/ID_PSYCH_OS.gs",
+      "cadence_ttl_hours": 24,
+      "signals_published": [
+        "PSYCH_ACTIVE_PILLAR",
+        "PSYCH_SOMATIC_STATE",
+        "PSYCH_DIAGNOSTIC_FLAG",
+        "PSYCH_EXEC_INTEGRITY"
+      ],
+      "context_subscribed": [
+        "BIO_READINESS_SCORE",
+        "VITAL_HP",
+        "MOC_COMPOSITE_RANK",
+        "DAILY_ENERGY",
+        "ACUTE_STRESS",
+        "MBTI_TYPE_CODE",
+        "DISC_DOMINANT_STYLE",
+        "PF16_SCAFFOLD_NEED",
+        "PQ_PRIMARY_SABOTEUR",
+        "ZODIAC_WIP_COUNT"
+      ],
+      "context_in_gid": 628239905,
+      "context_in_trigger_cell": "F2",
+      "hub_module_registry_row": 47,
+      "hub_signal_bus_rows": {
+        "PSYCH_ACTIVE_PILLAR": 313,
+        "PSYCH_SOMATIC_STATE": 314,
+        "PSYCH_DIAGNOSTIC_FLAG": 315,
+        "PSYCH_EXEC_INTEGRITY": 316
+      },
+      "master_bus_directory_row": 78,
+      "tab_color_coded": true,
+      "universal_brick_compliant": true,
+      "privacy_boundary": "STRICT_ZERO_PII",
+      "last_audited_utc": "2026-11-28T04:02:00Z"
     }
   },
   "unmapped_discovered": [
